@@ -51,29 +51,6 @@
             gap: 10px;
         }
         .button-group { display: flex; gap: 10px; }
-
-        .filter-panel {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            padding-top: 4px;
-        }
-        .filter-btn {
-            flex: 0 0 auto;
-            padding: 7px 11px;
-            border: 1px solid var(--border);
-            border-radius: 999px;
-            background: #ffffff;
-            color: var(--text-main);
-            font-size: 0.88rem;
-        }
-        .filter-btn.active {
-            background: var(--primary);
-            color: #ffffff;
-            border-color: var(--primary);
-        }
-        .filter-btn.all.active { background: #111827; border-color: #111827; }
-        .item.hidden-by-filter { display: none; }
         button {
             flex: 1;
             padding: 10px;
@@ -81,7 +58,7 @@
             border-radius: 8px;
             font-weight: 600;
             cursor: pointer;
-            transition: opacity 0.2s;
+            transition: opacity 0.2s, background-color 0.2s, border-color 0.2s;
         }
         button:hover { opacity: 0.88; }
         .btn-copy { background-color: #10b981; color: white; }
@@ -98,6 +75,62 @@
             min-height: 20px;
             text-align: left;
         }
+        .filter-title {
+            font-size: 0.82rem;
+            color: var(--text-sub);
+            text-align: left;
+            margin-top: 2px;
+            margin-bottom: -4px;
+            font-weight: 700;
+        }
+        .filter-panel {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding-top: 4px;
+            align-items: center;
+        }
+        .filter-btn {
+            flex: 0 0 auto;
+            padding: 7px 11px;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            background: #ffffff;
+            color: var(--text-main);
+            font-size: 0.88rem;
+        }
+        .filter-btn.active {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+        .filter-btn.all.active { background: #111827; border-color: #111827; }
+        .role-filter-panel {
+            gap: 10px;
+        }
+        .role-filter-btn {
+            flex: 0 0 auto;
+            width: 42px;
+            height: 42px;
+            padding: 4px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: #ffffff;
+            opacity: 0.55;
+        }
+        .role-filter-btn img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+        .role-filter-btn.active {
+            opacity: 1;
+            background: #dbeafe;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
+        }
+        .item.hidden-by-filter { display: none; }
         .list-wrapper { max-height: 70vh; overflow-y: auto; }
         .item {
             display: flex;
@@ -109,7 +142,7 @@
         input[type="checkbox"] { width: 22px; height: 22px; cursor: pointer; }
         input[type="checkbox"]:disabled { cursor: not-allowed; }
         .info { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-        .main-line { display: flex; align-items: center; font-size: 1.05rem; font-weight: 600; cursor: pointer; }
+        .main-line { display: flex; align-items: center; font-size: 1.05rem; font-weight: 600; cursor: pointer; line-height: 1.35; }
         .fixed .main-line { cursor: default; }
         .fixed { background: #fafafa; }
         .attr-tag {
@@ -117,10 +150,17 @@
             border-radius: 6px;
             font-size: 0.8rem;
             font-weight: bold;
-            margin-right: 10px;
+            margin-right: 8px;
             min-width: 35px;
             text-align: center;
             color: #ffffff;
+            flex-shrink: 0;
+        }
+        .role-icon {
+            width: 28px;
+            height: 28px;
+            object-fit: contain;
+            margin-right: 8px;
             flex-shrink: 0;
         }
         .date-line { font-size: 0.85rem; color: var(--text-sub); padding-left: 55px; }
@@ -134,6 +174,14 @@
         .tag-斬 { background-color: #4b5563; }
         .tag-打 { background-color: #78350f; }
         .tag-突 { background-color: #4338ca; }
+
+        @media (max-width: 480px) {
+            body { padding: 12px; }
+            header { padding: 16px; }
+            .item { padding: 13px 14px; }
+            .checkbox-wrapper { margin-right: 14px; }
+            .role-filter-btn { width: 40px; height: 40px; }
+        }
     </style>
 </head>
 <body>
@@ -146,15 +194,31 @@
                     <button class="btn-copy" onclick="copyUrl()">複製網址</button>
                     <button class="btn-reset" onclick="resetTable()">Reset 表格</button>
                 </div>
+                <div class="filter-title">屬性篩選</div>
                 <div class="filter-panel" aria-label="屬性篩選">
-                    <button type="button" class="filter-btn all active" data-filter="all">全部</button>
-                    <button type="button" class="filter-btn" data-filter="火">火</button>
-                    <button type="button" class="filter-btn" data-filter="冰">冰</button>
-                    <button type="button" class="filter-btn" data-filter="雷">雷</button>
-                    <button type="button" class="filter-btn" data-filter="風">風</button>
-                    <button type="button" class="filter-btn" data-filter="斬">斬</button>
-                    <button type="button" class="filter-btn" data-filter="打">打</button>
-                    <button type="button" class="filter-btn" data-filter="突">突</button>
+                    <button type="button" class="filter-btn all active" data-attr-filter="all">全部</button>
+                    <button type="button" class="filter-btn" data-attr-filter="火">火</button>
+                    <button type="button" class="filter-btn" data-attr-filter="冰">冰</button>
+                    <button type="button" class="filter-btn" data-attr-filter="雷">雷</button>
+                    <button type="button" class="filter-btn" data-attr-filter="風">風</button>
+                    <button type="button" class="filter-btn" data-attr-filter="斬">斬</button>
+                    <button type="button" class="filter-btn" data-attr-filter="打">打</button>
+                    <button type="button" class="filter-btn" data-attr-filter="突">突</button>
+                </div>
+                <div class="filter-title">職種篩選</div>
+                <div class="filter-panel role-filter-panel" aria-label="職種篩選">
+                    <button type="button" class="role-filter-btn" data-role-filter="攻擊者" title="攻擊者" aria-label="攻擊者">
+                        <img src="images/role/a.52ca9a.png" alt="攻擊者">
+                    </button>
+                    <button type="button" class="role-filter-btn" data-role-filter="破防者" title="破防者" aria-label="破防者">
+                        <img src="images/role/b.2e7b02.png" alt="破防者">
+                    </button>
+                    <button type="button" class="role-filter-btn" data-role-filter="防禦者" title="防禦者" aria-label="防禦者">
+                        <img src="images/role/d.ab8d93.png" alt="防禦者">
+                    </button>
+                    <button type="button" class="role-filter-btn" data-role-filter="支援者" title="支援者" aria-label="支援者">
+                        <img src="images/role/s.0c211b.png" alt="支援者">
+                    </button>
                 </div>
             </div>
         </header>
@@ -162,8 +226,8 @@
             <div id="dynamic-list">
                 <div class="loading">角色資料讀取中...</div>
             </div>
-            <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面 -->
-            <div class="item fixed" data-attr="火">
+            <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面。固定角色沒有職種圖。 -->
+            <div class="item fixed" data-attr="火" data-role="">
                 <div class="checkbox-wrapper">
                     <input type="checkbox" id="c189" class="char-cb fixed-cb" checked disabled>
                 </div>
@@ -175,7 +239,7 @@
                     <span class="date-line">初始固定角色</span>
                 </div>
             </div>
-            <div class="item fixed" data-attr="風">
+            <div class="item fixed" data-attr="風" data-role="">
                 <div class="checkbox-wrapper">
                     <input type="checkbox" id="c180" class="char-cb fixed-cb" checked disabled>
                 </div>
@@ -192,9 +256,25 @@
 
     <script>
         const STORAGE_KEY = 'resleri_character_checked_ids_v1';
-        const FILTER_STORAGE_KEY = 'resleri_character_attr_filters_v1';
-        let activeFilters = new Set();
+        const ATTR_FILTER_STORAGE_KEY = 'resleri_character_attr_filters_v1';
+        const ROLE_FILTER_STORAGE_KEY = 'resleri_character_role_filters_v1';
         const DATA_FILE = 'characters.json';
+
+        const ROLE_ALIASES = {
+            1: '攻擊者', '1': '攻擊者', 'Attacker': '攻擊者', 'attacker': '攻擊者', '攻擊者': '攻擊者',
+            2: '破防者', '2': '破防者', 'Breaker': '破防者', 'breaker': '破防者', '破防者': '破防者', '破壞者': '破防者',
+            3: '防禦者', '3': '防禦者', 'Defender': '防禦者', 'defender': '防禦者', '防禦者': '防禦者',
+            4: '支援者', '4': '支援者', 'Supporter': '支援者', 'supporter': '支援者', 'Supportor': '支援者', 'supportor': '支援者', '支援者': '支援者'
+        };
+        const ROLE_ICON_MAP = {
+            '攻擊者': 'images/role/a.52ca9a.png',
+            '破防者': 'images/role/b.2e7b02.png',
+            '防禦者': 'images/role/d.ab8d93.png',
+            '支援者': 'images/role/s.0c211b.png'
+        };
+
+        let activeAttrFilters = new Set();
+        let activeRoleFilters = new Set();
 
         function escapeHtml(value) {
             return String(value ?? '')
@@ -206,57 +286,106 @@
         }
 
         function normalizeAttr(attr) {
-            const value = String(attr ?? '');
-            return ATTR_ALIASES[value] || value;
+            return String(attr ?? '');
+        }
+
+        function normalizeRole(role) {
+            const value = String(role ?? '');
+            return ROLE_ALIASES[value] || value;
+        }
+
+        function getCharacterId(char) {
+            return Number(char.id ?? char['角色ID'] ?? char.character_id ?? char.chara_id);
+        }
+
+        function getCharacterName(char) {
+            return char.name ?? char['角色名稱'] ?? char.fullname ?? '';
+        }
+
+        function getCharacterAttr(char) {
+            return char.attr ?? char['真屬性'] ?? '';
+        }
+        
+        function getCharacterRole(char) {
+            return normalizeRole(char['職種'] ?? char.role_name ?? char.role ?? '');
+        }
+
+        function getDateText(char) {
+            if (char.note) return char.note;
+            const date = char.date ?? char['開放時間'] ?? char.start_at ?? '';
+            if (!date) return '';
+            const shortDate = String(date).split('T')[0];
+            return `開放日期：${shortDate}`;
         }
 
         function saveFilterState() {
-            localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(Array.from(activeFilters)));
+            localStorage.setItem(ATTR_FILTER_STORAGE_KEY, JSON.stringify(Array.from(activeAttrFilters)));
+            localStorage.setItem(ROLE_FILTER_STORAGE_KEY, JSON.stringify(Array.from(activeRoleFilters)));
         }
 
         function loadFilterState() {
             try {
-                const saved = JSON.parse(localStorage.getItem(FILTER_STORAGE_KEY) || '[]');
-                if (Array.isArray(saved)) activeFilters = new Set(saved.map(normalizeAttr).filter(Boolean));
+                const savedAttrs = JSON.parse(localStorage.getItem(ATTR_FILTER_STORAGE_KEY) || '[]');
+                if (Array.isArray(savedAttrs)) activeAttrFilters = new Set(savedAttrs.map(normalizeAttr).filter(Boolean));
             } catch (error) {
-                activeFilters = new Set();
+                activeAttrFilters = new Set();
+            }
+            try {
+                const savedRoles = JSON.parse(localStorage.getItem(ROLE_FILTER_STORAGE_KEY) || '[]');
+                if (Array.isArray(savedRoles)) activeRoleFilters = new Set(savedRoles.map(normalizeRole).filter(Boolean));
+            } catch (error) {
+                activeRoleFilters = new Set();
             }
         }
 
         function updateFilterButtons() {
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                const filter = btn.dataset.filter;
+            document.querySelectorAll('[data-attr-filter]').forEach(btn => {
+                const filter = btn.dataset.attrFilter;
                 if (filter === 'all') {
-                    btn.classList.toggle('active', activeFilters.size === 0);
+                    btn.classList.toggle('active', activeAttrFilters.size === 0);
                 } else {
-                    btn.classList.toggle('active', activeFilters.has(normalizeAttr(filter)));
+                    btn.classList.toggle('active', activeAttrFilters.has(normalizeAttr(filter)));
                 }
+            });
+            document.querySelectorAll('[data-role-filter]').forEach(btn => {
+                btn.classList.toggle('active', activeRoleFilters.has(normalizeRole(btn.dataset.roleFilter)));
             });
         }
 
         function applyFilters() {
             document.querySelectorAll('.item[data-attr]').forEach(item => {
                 const attr = normalizeAttr(item.dataset.attr);
-                const shouldShow = activeFilters.size === 0 || activeFilters.has(attr);
-                item.classList.toggle('hidden-by-filter', !shouldShow);
+                const role = normalizeRole(item.dataset.role);
+                const matchAttr = activeAttrFilters.size === 0 || activeAttrFilters.has(attr);
+                const matchRole = activeRoleFilters.size === 0 || activeRoleFilters.has(role);
+                item.classList.toggle('hidden-by-filter', !(matchAttr && matchRole));
             });
             updateFilterButtons();
         }
 
         function setupFilterButtons() {
-            document.querySelectorAll('.filter-btn').forEach(btn => {
+            document.querySelectorAll('[data-attr-filter]').forEach(btn => {
                 btn.addEventListener('click', () => {
-                    const filter = btn.dataset.filter;
+                    const filter = btn.dataset.attrFilter;
                     if (filter === 'all') {
-                        activeFilters.clear();
+                        activeAttrFilters.clear();
                     } else {
                         const attr = normalizeAttr(filter);
-                        if (activeFilters.has(attr)) activeFilters.delete(attr);
-                        else activeFilters.add(attr);
+                        if (activeAttrFilters.has(attr)) activeAttrFilters.delete(attr);
+                        else activeAttrFilters.add(attr);
                     }
                     saveFilterState();
                     applyFilters();
-                    // 篩選只影響畫面顯示，不會改變網址；網址只根據全部角色的勾選狀態產生。
+                });
+            });
+
+            document.querySelectorAll('[data-role-filter]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const role = normalizeRole(btn.dataset.roleFilter);
+                    if (activeRoleFilters.has(role)) activeRoleFilters.delete(role);
+                    else activeRoleFilters.add(role);
+                    saveFilterState();
+                    applyFilters();
                 });
             });
         }
@@ -264,17 +393,23 @@
         function renderCharacters(characters) {
             const list = document.getElementById('dynamic-list');
             list.innerHTML = characters.map(char => {
-                const id = Number(char.id);
-                const dateText = char.note || (char.date ? `開放日期：${char.date}` : '');
+                const id = getCharacterId(char);
+                if (!Number.isFinite(id)) return '';
+                const attr = getCharacterAttr(char);
+                const role = getCharacterRole(char);
+                const roleIcon = ROLE_ICON_MAP[role] || '';
+                const dateText = getDateText(char);
+                const name = getCharacterName(char);
                 return `
-                    <div class="item" data-attr="${escapeHtml(normalizeAttr(char.attr))}">
+                    <div class="item" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
                         <div class="checkbox-wrapper">
                             <input type="checkbox" id="c${id}" class="char-cb">
                         </div>
                         <div class="info">
                             <label for="c${id}" class="main-line">
-                                <span class="attr-tag tag-${escapeHtml(char.attr)}">${escapeHtml(char.attr)}</span>
-                                ${escapeHtml(char.name)}
+                                <span class="attr-tag tag-${attr}">${attr}</span>
+                                ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(role)}" title="${escapeHtml(role)}">` : ''}
+                                ${escapeHtml(name)}
                             </label>
                             <span class="date-line">${escapeHtml(dateText)}</span>
                         </div>
@@ -320,7 +455,6 @@
         }
 
         function encodeIdsToKey(ids) {
-            // 用 BigInt bitmask 壓縮勾選狀態：id 2,3,10 會變成很短的 36 進位字串
             let bits = 0n;
             ids.forEach(id => {
                 const n = BigInt(Number(id));
@@ -343,10 +477,7 @@
         function decodeKeyToIds(key) {
             if (!key || key === '0') return [];
             const bits = parseBase36ToBigInt(key);
-            const maxId = Math.max(
-                0,
-                ...getNormalCheckboxes().map(cb => Number(cb.id.replace('c', '')))
-            );
+            const maxId = Math.max(0, ...getNormalCheckboxes().map(cb => Number(cb.id.replace('c', ''))));
             const ids = [];
             for (let i = 0; i <= maxId; i++) {
                 if ((bits & (1n << BigInt(i))) !== 0n) ids.push(String(i));
@@ -409,7 +540,6 @@
                 }
             }
 
-            // 相容舊版 ?chars=1,2,3&seed=... 網址；打開後會自動轉成新版 ?k=...
             if (legacyChars !== null) {
                 const ids = legacyChars.split(',').map(id => id.trim()).filter(Boolean);
                 setCheckedIds(ids);
@@ -429,6 +559,7 @@
                 const response = await fetch(DATA_FILE, { cache: 'no-store' });
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 const characters = await response.json();
+                characters.sort((a, b) => new Date(b.date) - new Date(a.date));
                 renderCharacters(characters);
                 applyFilters();
 
