@@ -4,9 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>角色持有清單</title>
-      <link rel="icon" href="favicon_multi.ico">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+      <link rel="icon" href="favicon.ico">
       <style>
          :root {
          --bg-body: #f3f4f6;
@@ -107,7 +105,6 @@
          color: #ffffff;
          border-color: var(--primary);
          }
-         .filter-btn.all.active { background: #111827; border-color: #111827; }
          .role-filter-panel {
          gap: 10px;
          }
@@ -210,6 +207,28 @@
          .push-right {
          margin-left: auto;
          }
+         .attr-btn {
+         flex: 0 0 auto;
+         width: 42px;
+         height: 42px;
+         padding: 4px;
+         border-radius: 999px;
+         border: 1px solid var(--border);
+         background: #ffffff;
+         opacity: 0.70;
+         }
+         .attr-btn img {
+         width: 100%;
+         height: 100%;
+         object-fit: contain;
+         display: block;
+         }
+         .attr-btn.active {
+         opacity: 1;
+         background: #dbeafe;
+         border-color: var(--primary);
+         box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
+         }
       </style>
    </head>
    <body>
@@ -224,13 +243,27 @@
                </div>
                <div class="filter-title">屬性篩選</div>
                <div class="filter-panel" aria-label="屬性篩選">
-                  <button type="button" class="filter-btn" data-attr-filter="火">火</button>
-                  <button type="button" class="filter-btn" data-attr-filter="冰">冰</button>
-                  <button type="button" class="filter-btn" data-attr-filter="雷">雷</button>
-                  <button type="button" class="filter-btn" data-attr-filter="風">風</button>
-                  <button type="button" class="filter-btn" data-attr-filter="斬">斬</button>
-                  <button type="button" class="filter-btn" data-attr-filter="打">打</button>
-                  <button type="button" class="filter-btn" data-attr-filter="突">突</button>
+                  <button type="button" class="filter-btn attr-btn" data-attr-filter="火" title="火" aria-label="火">
+                  <img src="images/attr/f.1dbf47.png" alt="火">
+                  </button>
+                  <button type="button" class="filter-btn attr-btn" data-attr-filter="冰" title="冰" aria-label="冰">
+                  <img src="images/attr/i.b647e3.png" alt="冰">
+                  </button>
+                  <button type="button" class="filter-btn attr-btn" data-attr-filter="雷" title="雷" aria-label="雷">
+                  <img src="images/attr/l.119818.png" alt="雷">
+                  </button>
+                  <button type="button" class="filter-btn attr-btn" data-attr-filter="風" title="風" aria-label="風">
+                  <img src="images/attr/w.d06628.png" alt="風">
+                  </button>
+                  <button type="button" class="filter-btn attr-btn" data-attr-filter="斬" title="斬" aria-label="斬">
+                  <img src="images/attr/s.42817b.png" alt="斬">
+                  </button>
+                  <button type="button" class="filter-btn attr-btn" data-attr-filter="打" title="打" aria-label="打">
+                  <img src="images/attr/k.3148cc.png" alt="打">
+                  </button>
+                  <button type="button" class="filter-btn attr-btn" data-attr-filter="突" title="突" aria-label="突">
+                  <img src="images/attr/t.ac73b3.png" alt="突">
+                  </button>
                </div>
                <div class="filter-title">職種篩選</div>
                <div class="filter-panel role-filter-panel" aria-label="職種篩選">
