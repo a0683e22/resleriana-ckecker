@@ -198,6 +198,15 @@
          background: #fee2e2;
          border-color: #ef4444;
          }
+         .clear-btn.active {
+         background: #ffffff !important;
+         border-color: var(--border) !important;
+         box-shadow: none !important;
+         opacity: 1;
+         }
+         .push-right {
+         margin-left: auto;
+         }
       </style>
    </head>
    <body>
@@ -236,11 +245,12 @@
                   </button>
                   <button 
                      type="button" 
-                     class="role-filter-btn clear-btn"
+                     class="role-filter-btn clear-btn push-right"
                      onclick="clearAllFilters()"
                      title="清除所有篩選"
+                     aria-label="清除所有篩選"
                      >
-                  ❌x
+                  ❌
                   </button>
                </div>
             </div>
@@ -526,10 +536,11 @@
              }
          }
          function clearAllFilters() {
-         activeAttrFilters.clear();
-         activeRoleFilters.clear();
-         saveFilterState();
-         applyFilters();
+             if (!confirm('確定要清除所有篩選嗎？')) return;
+             activeAttrFilters.clear();
+             activeRoleFilters.clear();
+             saveFilterState();
+             applyFilters();
          }
          async function copyUrl() {
              const urlText = syncShareUrl();
