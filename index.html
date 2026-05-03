@@ -51,6 +51,29 @@
             gap: 10px;
         }
         .button-group { display: flex; gap: 10px; }
+
+        .filter-panel {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding-top: 4px;
+        }
+        .filter-btn {
+            flex: 0 0 auto;
+            padding: 7px 11px;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            background: #ffffff;
+            color: var(--text-main);
+            font-size: 0.88rem;
+        }
+        .filter-btn.active {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary);
+        }
+        .filter-btn.all.active { background: #111827; border-color: #111827; }
+        .item.hidden-by-filter { display: none; }
         button {
             flex: 1;
             padding: 10px;
@@ -123,6 +146,16 @@
                     <button class="btn-copy" onclick="copyUrl()">複製網址</button>
                     <button class="btn-reset" onclick="resetTable()">Reset 表格</button>
                 </div>
+                <div class="filter-panel" aria-label="屬性篩選">
+                    <button type="button" class="filter-btn all active" data-filter="all">全部</button>
+                    <button type="button" class="filter-btn" data-filter="火">火</button>
+                    <button type="button" class="filter-btn" data-filter="冰">冰</button>
+                    <button type="button" class="filter-btn" data-filter="雷">雷</button>
+                    <button type="button" class="filter-btn" data-filter="風">風</button>
+                    <button type="button" class="filter-btn" data-filter="斬">斬</button>
+                    <button type="button" class="filter-btn" data-filter="打">打</button>
+                    <button type="button" class="filter-btn" data-filter="突">突</button>
+                </div>
             </div>
         </header>
         <div class="list-wrapper">
@@ -130,7 +163,7 @@
                 <div class="loading">角色資料讀取中...</div>
             </div>
             <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面 -->
-            <div class="item fixed">
+            <div class="item fixed" data-attr="火">
                 <div class="checkbox-wrapper">
                     <input type="checkbox" id="c189" class="char-cb fixed-cb" checked disabled>
                 </div>
@@ -142,7 +175,7 @@
                     <span class="date-line">初始固定角色</span>
                 </div>
             </div>
-            <div class="item fixed">
+            <div class="item fixed" data-attr="風">
                 <div class="checkbox-wrapper">
                     <input type="checkbox" id="c180" class="char-cb fixed-cb" checked disabled>
                 </div>
@@ -159,6 +192,9 @@
 
     <script>
         const STORAGE_KEY = 'resleri_character_checked_ids_v1';
+        const FILTER_STORAGE_KEY = 'resleri_character_attr_filters_v1';
+        const ATTR_ALIASES = { '氷': '冰' };
+        let activeFilters = new Set();
         const DATA_FILE = 'characters.json';
 
         function escapeHtml(value) {
@@ -170,13 +206,69 @@
                 .replace(/'/g, '&#039;');
         }
 
+        function normalizeAttr(attr) {
+            const value = String(attr ?? '');
+            return ATTR_ALIASES[value] || value;
+        }
+
+        function saveFilterState() {
+            localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(Array.from(activeFilters)));
+        }
+
+        function loadFilterState() {
+            try {
+                const saved = JSON.parse(localStorage.getItem(FILTER_STORAGE_KEY) || '[]');
+                if (Array.isArray(saved)) activeFilters = new Set(saved.map(normalizeAttr).filter(Boolean));
+            } catch (error) {
+                activeFilters = new Set();
+            }
+        }
+
+        function updateFilterButtons() {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                const filter = btn.dataset.filter;
+                if (filter === 'all') {
+                    btn.classList.toggle('active', activeFilters.size === 0);
+                } else {
+                    btn.classList.toggle('active', activeFilters.has(normalizeAttr(filter)));
+                }
+            });
+        }
+
+        function applyFilters() {
+            document.querySelectorAll('.item[data-attr]').forEach(item => {
+                const attr = normalizeAttr(item.dataset.attr);
+                const shouldShow = activeFilters.size === 0 || activeFilters.has(attr);
+                item.classList.toggle('hidden-by-filter', !shouldShow);
+            });
+            updateFilterButtons();
+        }
+
+        function setupFilterButtons() {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const filter = btn.dataset.filter;
+                    if (filter === 'all') {
+                        activeFilters.clear();
+                    } else {
+                        const attr = normalizeAttr(filter);
+                        if (activeFilters.has(attr)) activeFilters.delete(attr);
+                        else activeFilters.add(attr);
+                    }
+                    saveFilterState();
+                    applyFilters();
+                    // 篩選只影響畫面顯示，不會改變網址；網址只根據全部角色的勾選狀態產生。
+                });
+            });
+        }
+
         function renderCharacters(characters) {
             const list = document.getElementById('dynamic-list');
             list.innerHTML = characters.map(char => {
                 const id = Number(char.id);
                 const dateText = char.note || (char.date ? `開放日期：${char.date}` : '');
                 return `
-                    <div class="item">
+                    <div class="item" data-attr="${escapeHtml(normalizeAttr(char.attr))}">
                         <div class="checkbox-wrapper">
                             <input type="checkbox" id="c${id}" class="char-cb">
                         </div>
@@ -331,11 +423,15 @@
         }
 
         async function init() {
+            setupFilterButtons();
+            loadFilterState();
+            updateFilterButtons();
             try {
                 const response = await fetch(DATA_FILE, { cache: 'no-store' });
                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
                 const characters = await response.json();
                 renderCharacters(characters);
+                applyFilters();
 
                 const loadedFromUrl = loadFromUrl();
                 if (!loadedFromUrl) {
