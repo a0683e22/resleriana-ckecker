@@ -1,0 +1,1142 @@
+[
+  {
+    "id": 0,
+    "attr": "打",
+    "name": "海蒂【Buddy's Returning】",
+    "date": "2026-05-01"
+  },
+  {
+    "id": 1,
+    "attr": "打",
+    "name": "卡蘿琳【Courageous Sister】",
+    "date": "2026-04-24"
+  },
+  {
+    "id": 2,
+    "attr": "雷",
+    "name": "伊札娜【Cutie☆Cat】",
+    "date": "2026-04-10"
+  },
+  {
+    "id": 3,
+    "attr": "雷",
+    "name": "約翰娜【Cutie☆Hamster】",
+    "date": "2026-04-03"
+  },
+  {
+    "id": 4,
+    "attr": "雷",
+    "name": "鬼門【Cutie☆Fox】",
+    "date": "2026-03-30"
+  },
+  {
+    "id": 5,
+    "attr": "突",
+    "name": "艾爾斯【Absolute Order】",
+    "date": "2026-03-19"
+  },
+  {
+    "id": 6,
+    "attr": "突",
+    "name": "莉貝【九偉人 No.6】",
+    "date": "2026-03-13"
+  },
+  {
+    "id": 7,
+    "attr": "冰",
+    "name": "拉拉【ララ・キングダムの王】",
+    "date": "2026-03-06"
+  },
+  {
+    "id": 8,
+    "attr": "突",
+    "name": "喬澤【Masked Hunter】",
+    "date": "2026-02-27"
+  },
+  {
+    "id": 9,
+    "attr": "冰",
+    "name": "蘿樂娜【Startup Supporter】",
+    "date": "2026-02-21"
+  },
+  {
+    "id": 10,
+    "attr": "風",
+    "name": "夏莉絲堤菈【Startup Supporter】",
+    "date": "2026-02-21"
+  },
+  {
+    "id": 11,
+    "attr": "火",
+    "name": "萊莎【Startup Supporter】",
+    "date": "2026-02-21"
+  },
+  {
+    "id": 12,
+    "attr": "火",
+    "name": "蕾斯娜【Startup Supporter】",
+    "date": "2026-02-21"
+  },
+  {
+    "id": 13,
+    "attr": "突",
+    "name": "瓦萊莉婭【Startup Supporter】",
+    "date": "2026-02-21"
+  },
+  {
+    "id": 14,
+    "attr": "突",
+    "name": "泰妮【Lovable Inspector】",
+    "date": "2026-02-21"
+  },
+  {
+    "id": 15,
+    "attr": "冰",
+    "name": "安潔【人形遣いの魔女】",
+    "date": "2026-02-13"
+  },
+  {
+    "id": 16,
+    "attr": "冰",
+    "name": "克莉賽爾達【極夜の錬金党党首】",
+    "date": "2026-02-09"
+  },
+  {
+    "id": 17,
+    "attr": "斬",
+    "name": "傑隆【Break the Curse】",
+    "date": "2026-02-04"
+  },
+  {
+    "id": 18,
+    "attr": "突",
+    "name": "提姆【Little Knight】",
+    "date": "2026-01-30"
+  },
+  {
+    "id": 19,
+    "attr": "雷",
+    "name": "瓦爾特【Suit of Vertex】",
+    "date": "2026-01-26"
+  },
+  {
+    "id": 20,
+    "attr": "雷",
+    "name": "史雷【白の意思を継ぐ者】",
+    "date": "2026-01-21"
+  },
+  {
+    "id": 21,
+    "attr": "風",
+    "name": "莉雅絲【Mistletoe of Hope】",
+    "date": "2026-01-16"
+  },
+  {
+    "id": 22,
+    "attr": "風",
+    "name": "蕾斯娜【幸爛漫・福ノ華】",
+    "date": "2025-12-31"
+  },
+  {
+    "id": 23,
+    "attr": "風",
+    "name": "伊札娜【Starry Heavens Tone】",
+    "date": "2025-12-24"
+  },
+  {
+    "id": 24,
+    "attr": "火",
+    "name": "安潔【ミルキィバニー】",
+    "date": "2025-12-19"
+  },
+  {
+    "id": 25,
+    "attr": "火",
+    "name": "克莉賽爾達【トリッキーバニー】",
+    "date": "2025-12-12"
+  },
+  {
+    "id": 26,
+    "attr": "突",
+    "name": "格烏【九偉人 No.5】",
+    "date": "2025-12-05"
+  },
+  {
+    "id": 27,
+    "attr": "突",
+    "name": "希特琳【Charming Jewel】",
+    "date": "2025-11-28"
+  },
+  {
+    "id": 28,
+    "attr": "突",
+    "name": "莉貝【Innate Strategist】",
+    "date": "2025-11-21"
+  },
+  {
+    "id": 29,
+    "attr": "突",
+    "name": "鴉【月影の執行者】",
+    "date": "2025-11-07"
+  },
+  {
+    "id": 30,
+    "attr": "打",
+    "name": "阿爾比娜【トロピカル・シャイン】",
+    "date": "2025-10-31"
+  },
+  {
+    "id": 31,
+    "attr": "打",
+    "name": "穗香【クロス・ザ・ライン】",
+    "date": "2025-10-24"
+  },
+  {
+    "id": 32,
+    "attr": "打",
+    "name": "蕾斯娜【ヴィーナス・ノヴァ】",
+    "date": "2025-10-09"
+  },
+  {
+    "id": 33,
+    "attr": "打",
+    "name": "瑪莉・蘿絲【トゥインクル・ローズ】",
+    "date": "2025-09-26"
+  },
+  {
+    "id": 34,
+    "attr": "打",
+    "name": "格烏【Faithful Fighter】",
+    "date": "2025-09-19"
+  },
+  {
+    "id": 35,
+    "attr": "打",
+    "name": "耶爾卡【Nifty Rover】",
+    "date": "2025-09-12"
+  },
+  {
+    "id": 36,
+    "attr": "火",
+    "name": "耶爾卡【九偉人 No.3】",
+    "date": "2025-09-12"
+  },
+  {
+    "id": 37,
+    "attr": "雷",
+    "name": "千歳【かんなぎの乙女】",
+    "date": "2025-09-05"
+  },
+  {
+    "id": 38,
+    "attr": "雷",
+    "name": "鏑矢【地に輝ける一番星】",
+    "date": "2025-08-29"
+  },
+  {
+    "id": 39,
+    "attr": "雷",
+    "name": "永遠【口説き上手的式使い】",
+    "date": "2025-08-22"
+  },
+  {
+    "id": 40,
+    "attr": "雷",
+    "name": "鬼門【篤き忠義の忍び】",
+    "date": "2025-08-15"
+  },
+  {
+    "id": 41,
+    "attr": "斬",
+    "name": "約翰娜【ブリリアントダイバー】",
+    "date": "2025-08-08"
+  },
+  {
+    "id": 42,
+    "attr": "斬",
+    "name": "克莉賽爾達【Seaside Butterfly】",
+    "date": "2025-07-31"
+  },
+  {
+    "id": 43,
+    "attr": "斬",
+    "name": "拉拉【Seaside Queen】",
+    "date": "2025-07-22"
+  },
+  {
+    "id": 44,
+    "attr": "斬",
+    "name": "安潔【マリンパペッティア】",
+    "date": "2025-07-11"
+  },
+  {
+    "id": 45,
+    "attr": "氷",
+    "name": "蘿樂娜【ワンダフルプリンセス】",
+    "date": "2025-06-30"
+  },
+  {
+    "id": 46,
+    "attr": "氷",
+    "name": "托托莉【エンドレスボイジャー】",
+    "date": "2025-06-24"
+  },
+  {
+    "id": 47,
+    "attr": "氷",
+    "name": "敏敏【プラウドボイジャー】",
+    "date": "2025-06-19"
+  },
+  {
+    "id": 48,
+    "attr": "風",
+    "name": "莉拉【雅なる豪傑】",
+    "date": "2025-06-13"
+  },
+  {
+    "id": 49,
+    "attr": "氷",
+    "name": "約翰娜【Phenom's Reborn】",
+    "date": "2025-06-06"
+  },
+  {
+    "id": 50,
+    "attr": "風",
+    "name": "伊札娜【Knight's Beginning】",
+    "date": "2025-05-30"
+  },
+  {
+    "id": 51,
+    "attr": "突",
+    "name": "尤娜【With Ideals】",
+    "date": "2025-05-21"
+  },
+  {
+    "id": 52,
+    "attr": "風",
+    "name": "芙洛可【ハートフルミライ】",
+    "date": "2025-05-16"
+  },
+  {
+    "id": 53,
+    "attr": "風",
+    "name": "海蒂【ドリームフューチャー】",
+    "date": "2025-05-12"
+  },
+  {
+    "id": 54,
+    "attr": "突",
+    "name": "普拉芙妲【Mighty Manager】",
+    "date": "2025-05-07"
+  },
+  {
+    "id": 55,
+    "attr": "風",
+    "name": "科洛蒂婭【Blooming Creation】",
+    "date": "2025-04-30"
+  },
+  {
+    "id": 56,
+    "attr": "火",
+    "name": "妮娜【ミステリアスな実力者】",
+    "date": "2025-04-23"
+  },
+  {
+    "id": 57,
+    "attr": "打",
+    "name": "魯格【我が道を征く者】",
+    "date": "2025-04-16"
+  },
+  {
+    "id": 58,
+    "attr": "火",
+    "name": "艾菈【Friendly Fashionista】",
+    "date": "2025-04-09"
+  },
+  {
+    "id": 59,
+    "attr": "打",
+    "name": "蕾妮雅【Sincere Devotion】",
+    "date": "2025-04-04"
+  },
+  {
+    "id": 60,
+    "attr": "火",
+    "name": "優米雅【Seeker of Memories】",
+    "date": "2025-03-31"
+  },
+  {
+    "id": 61,
+    "attr": "打",
+    "name": "維克多【正義を貫きし貴族】",
+    "date": "2025-03-31"
+  },
+  {
+    "id": 62,
+    "attr": "斬",
+    "name": "瓦萊莉婭【Get Over Limit】",
+    "date": "2025-03-26"
+  },
+  {
+    "id": 63,
+    "attr": "斬",
+    "name": "蕾斯娜【Rise Above Fate】",
+    "date": "2025-03-21"
+  },
+  {
+    "id": 64,
+    "attr": "斬",
+    "name": "陽妮【Mother's Affection】",
+    "date": "2025-03-17"
+  },
+  {
+    "id": 65,
+    "attr": "斬",
+    "name": "貝普【Mourning Blades】",
+    "date": "2025-03-12"
+  },
+  {
+    "id": 66,
+    "attr": "斬",
+    "name": "阿爾比娜【Dream of Hero】",
+    "date": "2025-03-06"
+  },
+  {
+    "id": 67,
+    "attr": "突",
+    "name": "萊莎【Flowering Explorer】",
+    "date": "2025-02-28"
+  },
+  {
+    "id": 68,
+    "attr": "突",
+    "name": "科洛蒂婭【Flowering Doer】",
+    "date": "2025-02-21"
+  },
+  {
+    "id": 69,
+    "attr": "氷",
+    "name": "普拉芙妲【Curious Theorist】",
+    "date": "2025-02-14"
+  },
+  {
+    "id": 70,
+    "attr": "風",
+    "name": "伊爾梅莉亞【Diligent Genius】",
+    "date": "2025-01-31"
+  },
+  {
+    "id": 71,
+    "attr": "風",
+    "name": "菲莉絲【Twinning Ribbon】",
+    "date": "2025-01-24"
+  },
+  {
+    "id": 72,
+    "attr": "氷",
+    "name": "安佩爾【Sweet Butler】",
+    "date": "2025-01-17"
+  },
+  {
+    "id": 73,
+    "attr": "氷",
+    "name": "拉拉【Great Refinement】",
+    "date": "2025-01-17"
+  },
+  {
+    "id": 74,
+    "attr": "氷",
+    "name": "薩絲琪亞【Spring Wishes】",
+    "date": "2024-12-31"
+  },
+  {
+    "id": 75,
+    "attr": "雷",
+    "name": "希婭【One And Only】",
+    "date": "2024-12-27"
+  },
+  {
+    "id": 76,
+    "attr": "雷",
+    "name": "克莉賽爾達【Ambitious Alchemist】",
+    "date": "2024-12-20"
+  },
+  {
+    "id": 77,
+    "attr": "雷",
+    "name": "尤娜【Starry Beauty】",
+    "date": "2024-12-13"
+  },
+  {
+    "id": 78,
+    "attr": "風",
+    "name": "瓦萊莉婭【Dark Warrior】",
+    "date": "2024-12-06"
+  },
+  {
+    "id": 79,
+    "attr": "雷",
+    "name": "安潔【Magical Puppeteer】",
+    "date": "2024-11-29"
+  },
+  {
+    "id": 80,
+    "attr": "雷",
+    "name": "瓦爾特【Wisdom Inquirer】",
+    "date": "2024-11-29"
+  },
+  {
+    "id": 81,
+    "attr": "突",
+    "name": "布萊德【Passionate Blood】",
+    "date": "2024-11-22"
+  },
+  {
+    "id": 82,
+    "attr": "突",
+    "name": "瑪格達【Pinkish Destroyer】",
+    "date": "2024-11-15"
+  },
+  {
+    "id": 83,
+    "attr": "突",
+    "name": "米珂【Fashionable Kitty】",
+    "date": "2024-11-08"
+  },
+  {
+    "id": 84,
+    "attr": "斬",
+    "name": "蒂歐娜【Fervorous Diva】",
+    "date": "2024-11-08"
+  },
+  {
+    "id": 85,
+    "attr": "風",
+    "name": "海蒂【Lucky Buddy】",
+    "date": "2024-10-31"
+  },
+  {
+    "id": 86,
+    "attr": "突",
+    "name": "芙洛可【Earnest Angel】",
+    "date": "2024-10-31"
+  },
+  {
+    "id": 87,
+    "attr": "火",
+    "name": "優蒂【Heroic Assault】",
+    "date": "2024-10-11"
+  },
+  {
+    "id": 88,
+    "attr": "打",
+    "name": "萊莎【Brave Blaze】",
+    "date": "2024-10-11"
+  },
+  {
+    "id": 89,
+    "attr": "打",
+    "name": "羅曼【Reassuring Shielder】",
+    "date": "2024-09-30"
+  },
+  {
+    "id": 90,
+    "attr": "打",
+    "name": "伊札娜【Stormy Smite】",
+    "date": "2024-09-30"
+  },
+  {
+    "id": 91,
+    "attr": "火",
+    "name": "瓦萊莉婭【Awakened Past】",
+    "date": "2024-09-11"
+  },
+  {
+    "id": 92,
+    "attr": "斬",
+    "name": "傑隆【Beastly Fencer】",
+    "date": "2024-09-11"
+  },
+  {
+    "id": 93,
+    "attr": "火",
+    "name": "蕾斯娜【Awakened Future】",
+    "date": "2024-08-30"
+  },
+  {
+    "id": 94,
+    "attr": "斬",
+    "name": "拉拉【Queen's Grace】",
+    "date": "2024-08-30"
+  },
+  {
+    "id": 95,
+    "attr": "氷",
+    "name": "愛夏【Twilight Fairy】",
+    "date": "2024-08-21"
+  },
+  {
+    "id": 96,
+    "attr": "火",
+    "name": "蘇菲【Pure Angel】",
+    "date": "2024-08-21"
+  },
+  {
+    "id": 97,
+    "attr": "氷",
+    "name": "薩絲琪亞【Master of Alchemy】",
+    "date": "2024-08-13"
+  },
+  {
+    "id": 98,
+    "attr": "斬",
+    "name": "約翰娜【Battle Phenom】",
+    "date": "2024-08-13"
+  },
+  {
+    "id": 99,
+    "attr": "氷",
+    "name": "瑪莉【Bomber Cat】",
+    "date": "2024-08-05"
+  },
+  {
+    "id": 100,
+    "attr": "火",
+    "name": "蘿樂娜【Sweetie Rabbit】",
+    "date": "2024-08-05"
+  },
+  {
+    "id": 101,
+    "attr": "氷",
+    "name": "科洛蒂婭【Moonlit Beach】",
+    "date": "2024-07-31"
+  },
+  {
+    "id": 102,
+    "attr": "雷",
+    "name": "瓦萊莉婭【Radiant Summer】",
+    "date": "2024-07-19"
+  },
+  {
+    "id": 103,
+    "attr": "氷",
+    "name": "萊莎【Sunlit Beach】",
+    "date": "2024-07-10"
+  },
+  {
+    "id": 104,
+    "attr": "雷",
+    "name": "蕾斯娜【Pretty Summer】",
+    "date": "2024-07-10"
+  },
+  {
+    "id": 105,
+    "attr": "雷",
+    "name": "薇爾貝兒【Witch in the dark】",
+    "date": "2024-06-28"
+  },
+  {
+    "id": 106,
+    "attr": "氷",
+    "name": "羅曼【Secret Fellow】",
+    "date": "2024-06-28"
+  },
+  {
+    "id": 107,
+    "attr": "火",
+    "name": "瑪麗翁【Bullet of Ink】",
+    "date": "2024-06-21"
+  },
+  {
+    "id": 108,
+    "attr": "火",
+    "name": "愛絲卡【Challenging Worker】",
+    "date": "2024-06-21"
+  },
+  {
+    "id": 109,
+    "attr": "火",
+    "name": "海蒂【Merciful Bride】",
+    "date": "2024-06-10"
+  },
+  {
+    "id": 110,
+    "attr": "斬",
+    "name": "伊札娜【Dragon's Bride】",
+    "date": "2024-06-10"
+  },
+  {
+    "id": 111,
+    "attr": "火",
+    "name": "琳卡【Valkyrie of the Sun】",
+    "date": "2024-05-31"
+  },
+  {
+    "id": 112,
+    "attr": "打",
+    "name": "尤娜【Valkyrie in the Sky】",
+    "date": "2024-05-31"
+  },
+  {
+    "id": 113,
+    "attr": "雷",
+    "name": "瑪莉【Violent Beauty】",
+    "date": "2024-05-20"
+  },
+  {
+    "id": 114,
+    "attr": "斬",
+    "name": "托托莉【Hopeful Sailor】",
+    "date": "2024-05-10"
+  },
+  {
+    "id": 115,
+    "attr": "斬",
+    "name": "藍澤【The Captain Awakens】",
+    "date": "2024-05-10"
+  },
+  {
+    "id": 116,
+    "attr": "雷",
+    "name": "科洛蒂婭【Fragrant Elegance】",
+    "date": "2024-04-30"
+  },
+  {
+    "id": 117,
+    "attr": "打",
+    "name": "蘿樂娜【Joyful Leader】",
+    "date": "2024-04-22"
+  },
+  {
+    "id": 118,
+    "attr": "風",
+    "name": "艾蓮【Noble Wolf】",
+    "date": "2024-04-22"
+  },
+  {
+    "id": 119,
+    "attr": "突",
+    "name": "敏敏【Lonely Glory】",
+    "date": "2024-04-12"
+  },
+  {
+    "id": 120,
+    "attr": "風",
+    "name": "萊莎【Blooming Energy】",
+    "date": "2024-04-12"
+  },
+  {
+    "id": 121,
+    "attr": "突",
+    "name": "蘇菲【Mighty Boss】",
+    "date": "2024-04-01"
+  },
+  {
+    "id": 122,
+    "attr": "風",
+    "name": "蕾斯娜【Loved Rookie】",
+    "date": "2024-04-01"
+  },
+  {
+    "id": 123,
+    "attr": "突",
+    "name": "蘇瑞【Ranger of Rose】",
+    "date": "2024-03-22"
+  },
+  {
+    "id": 124,
+    "attr": "打",
+    "name": "芙洛可【Angel of Rose】",
+    "date": "2024-03-22"
+  },
+  {
+    "id": 125,
+    "attr": "氷",
+    "name": "菲莉絲【Crystaler of Rose】",
+    "date": "2024-03-12"
+  },
+  {
+    "id": 126,
+    "attr": "打",
+    "name": "海蒂【Thief of Rose】",
+    "date": "2024-03-12"
+  },
+  {
+    "id": 127,
+    "attr": "打",
+    "name": "莉迪【Witch of Rose】",
+    "date": "2024-02-28"
+  },
+  {
+    "id": 128,
+    "attr": "雷",
+    "name": "瓦萊莉婭【Warrior of Rose】",
+    "date": "2024-02-28"
+  },
+  {
+    "id": 129,
+    "attr": "斬",
+    "name": "蘿樂娜【フォーリンホワイト】",
+    "date": "2024-02-20"
+  },
+  {
+    "id": 130,
+    "attr": "風",
+    "name": "史特爾克【気高き剣士】",
+    "date": "2024-02-20"
+  },
+  {
+    "id": 131,
+    "attr": "風",
+    "name": "托托莉【Snow Adventurer】",
+    "date": "2024-02-20"
+  },
+  {
+    "id": 132,
+    "attr": "突",
+    "name": "愛絲卡【Sweet Monochrome】",
+    "date": "2024-02-09"
+  },
+  {
+    "id": 133,
+    "attr": "雷",
+    "name": "羅吉【トワイライトオーダー】",
+    "date": "2024-01-31"
+  },
+  {
+    "id": 134,
+    "attr": "突",
+    "name": "尤娜【White Royal Guard】",
+    "date": "2024-01-31"
+  },
+  {
+    "id": 135,
+    "attr": "火",
+    "name": "夏莉絲堤菈【スクールメイデン】",
+    "date": "2024-01-22"
+  },
+  {
+    "id": 136,
+    "attr": "打",
+    "name": "夏露羅蒂【ガールズアンビシャス】",
+    "date": "2024-01-22"
+  },
+  {
+    "id": 137,
+    "attr": "打",
+    "name": "娜蒂【微笑みの母】",
+    "date": "2024-01-22"
+  },
+  {
+    "id": 138,
+    "attr": "雷",
+    "name": "愛夏【ノーブルフラワー】",
+    "date": "2024-01-11"
+  },
+  {
+    "id": 139,
+    "attr": "風",
+    "name": "羅曼【Romance Hearts】",
+    "date": "2024-01-11"
+  },
+  {
+    "id": 140,
+    "attr": "氷",
+    "name": "瑪莉【Fortune Full Bloom】",
+    "date": "2023-12-31"
+  },
+  {
+    "id": 141,
+    "attr": "斬",
+    "name": "派翠夏【届けホーリーナイト】",
+    "date": "2023-12-22"
+  },
+  {
+    "id": 142,
+    "attr": "氷",
+    "name": "蕾斯娜【Starry Heavens Gift】",
+    "date": "2023-12-22"
+  },
+  {
+    "id": 143,
+    "attr": "氷",
+    "name": "莉拉【漆黒の護衛】",
+    "date": "2023-12-11"
+  },
+  {
+    "id": 144,
+    "attr": "雷",
+    "name": "伊札娜【Return of the Knight】",
+    "date": "2023-12-11"
+  },
+  {
+    "id": 145,
+    "attr": "斬",
+    "name": "萊莎【Master's Right-Hand】",
+    "date": "2023-11-29"
+  },
+  {
+    "id": 146,
+    "attr": "打",
+    "name": "安佩爾【門を閉ざす者】",
+    "date": "2023-11-29"
+  },
+  {
+    "id": 147,
+    "attr": "雷",
+    "name": "莉迪【Rainbow Canvas】",
+    "date": "2023-11-21"
+  },
+  {
+    "id": 148,
+    "attr": "打",
+    "name": "蘇瑞【Ambition Painting】",
+    "date": "2023-11-21"
+  },
+  {
+    "id": 149,
+    "attr": "火",
+    "name": "薇爾貝兒【Magical Trick Star】",
+    "date": "2023-11-10"
+  },
+  {
+    "id": 150,
+    "attr": "火",
+    "name": "瑞吉娜【遺跡発掘屋】",
+    "date": "2023-11-10"
+  },
+  {
+    "id": 151,
+    "attr": "打",
+    "name": "妮歐【チャーミングシスター】",
+    "date": "2023-11-10"
+  },
+  {
+    "id": 152,
+    "attr": "斬",
+    "name": "普拉芙妲【魅惑のヴァンパイア】",
+    "date": "2023-10-31"
+  },
+  {
+    "id": 153,
+    "attr": "氷",
+    "name": "梅露露【Damsel in Distress】",
+    "date": "2023-10-24"
+  },
+  {
+    "id": 154,
+    "attr": "風",
+    "name": "艾莉【チーズケーキの申し子】",
+    "date": "2023-10-17"
+  },
+  {
+    "id": 155,
+    "attr": "雷",
+    "name": "莉莉【Birth of The Legend】",
+    "date": "2023-10-17"
+  },
+  {
+    "id": 156,
+    "attr": "氷",
+    "name": "科洛蒂婭【One Summer Melody】",
+    "date": "2023-10-10"
+  },
+  {
+    "id": 157,
+    "attr": "斬",
+    "name": "瓦萊莉婭【Secret Amnesia】",
+    "date": "2023-10-10"
+  },
+  {
+    "id": 158,
+    "attr": "雷",
+    "name": "蘇菲【百科繚乱フロネシス】",
+    "date": "2023-10-02"
+  },
+  {
+    "id": 159,
+    "attr": "打",
+    "name": "普拉芙妲【ミステリアスドール】",
+    "date": "2023-10-02"
+  },
+  {
+    "id": 160,
+    "attr": "火",
+    "name": "瑪莉【Lovely Bomber】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 161,
+    "attr": "突",
+    "name": "繆羽【南국의冒險者】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 162,
+    "attr": "斬",
+    "name": "路溫【熱血の冒險者】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 163,
+    "attr": "火",
+    "name": "優蒂【Hero of Tempest】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 164,
+    "attr": "氷",
+    "name": "薇歐拉【カロッテ・キャロット】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 165,
+    "attr": "雷",
+    "name": "維因【願いを叶える力】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 166,
+    "attr": "斬",
+    "name": "羅傑【光の劍】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 167,
+    "attr": "氷",
+    "name": "蘿樂娜【五ツ星パイマイスター】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 168,
+    "attr": "突",
+    "name": "庫蝶莉亞【貴族令嬢】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 169,
+    "attr": "火",
+    "name": "伊克賽爾【戰う料理人】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 170,
+    "attr": "斬",
+    "name": "艾絲緹【頼れる受付嬢】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 171,
+    "attr": "冰",
+    "name": "托托莉【強き母に憧れる少女】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 172,
+    "attr": "風",
+    "name": "梅露露【パワフルプリンセス】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 173,
+    "attr": "風",
+    "name": "愛夏【MARIA of Dusk】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 174,
+    "attr": "斬",
+    "name": "琳卡【班長補佐】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 175,
+    "attr": "突",
+    "name": "瑪麗翁【開發班の班長】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 176,
+    "attr": "雷",
+    "name": "奧迪莉雅【古の機械人形】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 177,
+    "attr": "火",
+    "name": "奇斯葛里夫【知識の探究者】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 178,
+    "attr": "風",
+    "name": "愛絲卡【エンドレスタルト】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 179,
+    "attr": "斬",
+    "name": "羅吉【黃昏の錬金劍】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 181,
+    "attr": "突",
+    "name": "摩妮卡【モニカオンステージ】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 182,
+    "attr": "打",
+    "name": "柯爾涅莉雅【ノーミルクノーライフ】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 183,
+    "attr": "打",
+    "name": "奧斯卡【植物は親友】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 184,
+    "attr": "突",
+    "name": "緹絲【兔耳トラブルメーカー】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 185,
+    "attr": "風",
+    "name": "菲莉絲【Crystal Master】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 186,
+    "attr": "火",
+    "name": "萊莎【One Summer Story】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 187,
+    "attr": "打",
+    "name": "蘭托【剛腕戰士】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 188,
+    "attr": "打",
+    "name": "塔奧【學者のタマゴ】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 190,
+    "attr": "雷",
+    "name": "蕾斯娜【Innocent Dreamer】",
+    "date": "2023-09-23"
+  },
+  {
+    "id": 191,
+    "attr": "突",
+    "name": "瓦萊莉婭【過去に夢を求めし者】",
+    "date": "2023-09-23"
+  }
+]
