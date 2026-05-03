@@ -228,21 +228,47 @@
             }
         }
 
-        function stableSeedFromIds(ids) {
-            const text = ids.join(',');
-            let hash = 0;
-            for (let i = 0; i < text.length; i++) {
-                hash = (hash * 31 + text.charCodeAt(i)) % 1000000000;
+        function encodeIdsToKey(ids) {
+            // 用 BigInt bitmask 壓縮勾選狀態：id 2,3,10 會變成很短的 36 進位字串
+            let bits = 0n;
+            ids.forEach(id => {
+                const n = BigInt(Number(id));
+                if (n >= 0n) bits |= (1n << n);
+            });
+            return bits.toString(36);
+        }
+
+        function parseBase36ToBigInt(value) {
+            const chars = '0123456789abcdefghijklmnopqrstuvwxyz';
+            let result = 0n;
+            for (const ch of String(value).toLowerCase()) {
+                const digit = chars.indexOf(ch);
+                if (digit < 0) throw new Error('Invalid base36 key');
+                result = result * 36n + BigInt(digit);
             }
-            return String(hash).padStart(6, '0');
+            return result;
+        }
+
+        function decodeKeyToIds(key) {
+            if (!key || key === '0') return [];
+            const bits = parseBase36ToBigInt(key);
+            const maxId = Math.max(
+                0,
+                ...getNormalCheckboxes().map(cb => Number(cb.id.replace('c', '')))
+            );
+            const ids = [];
+            for (let i = 0; i <= maxId; i++) {
+                if ((bits & (1n << BigInt(i))) !== 0n) ids.push(String(i));
+            }
+            return ids;
         }
 
         function getShareUrl() {
             const selectedIds = getCheckedIds();
             const baseUrl = window.location.href.split('?')[0];
-            const stableSeed = stableSeedFromIds(selectedIds);
-            const charsValue = selectedIds.join(',');
-            return `${baseUrl}?chars=${encodeURIComponent(charsValue)}&seed=${stableSeed}`;
+            if (selectedIds.length === 0) return baseUrl;
+            const key = encodeIdsToKey(selectedIds);
+            return `${baseUrl}?k=${encodeURIComponent(key)}`;
         }
 
         function syncShareUrl(options = {}) {
@@ -276,13 +302,32 @@
 
         function loadFromUrl() {
             const params = new URLSearchParams(window.location.search);
-            const chars = params.get('chars');
-            if (chars === null) return false;
-            const ids = chars.split(',').map(id => id.trim()).filter(Boolean);
-            setCheckedIds(ids);
-            saveToLocalStorage();
-            syncShareUrl();
-            return true;
+            const key = params.get('k');
+            const legacyChars = params.get('chars');
+
+            if (key !== null) {
+                try {
+                    const ids = decodeKeyToIds(key);
+                    setCheckedIds(ids);
+                    saveToLocalStorage();
+                    syncShareUrl();
+                    return true;
+                } catch (error) {
+                    console.warn('網址短碼解析失敗，已改用本機記錄。', error);
+                    return false;
+                }
+            }
+
+            // 相容舊版 ?chars=1,2,3&seed=... 網址；打開後會自動轉成新版 ?k=...
+            if (legacyChars !== null) {
+                const ids = legacyChars.split(',').map(id => id.trim()).filter(Boolean);
+                setCheckedIds(ids);
+                saveToLocalStorage();
+                syncShareUrl();
+                return true;
+            }
+
+            return false;
         }
 
         async function init() {
