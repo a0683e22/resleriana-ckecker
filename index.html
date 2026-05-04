@@ -675,6 +675,7 @@
                  reset: 'Reset 表格',
                  viewList: '列表顯示',
                  viewTable: '表格顯示'
+                 selectAll: '全選'
              },
              ja: {
                  title: '所持キャラ一覧',
@@ -682,6 +683,7 @@
                  reset: '表をリセット',
                  viewList: 'リスト表示',
                  viewTable: '表形式'
+                 selectAll: '全て',
              },
              en: {
                  title: 'Character Checklist',
@@ -689,6 +691,7 @@
                  reset: 'Reset Table',
                  viewList: 'List View',
                  viewTable: 'Table View'
+                  selectAll: 'All'
              }
          };
          
@@ -745,6 +748,9 @@
              setButtonLabel(resetBtn, text.reset);
              setButtonLabel(viewListBtn, text.viewList);
              setButtonLabel(viewTableBtn, text.viewTable);
+             document.querySelectorAll('[data-i18n="selectAll"]').forEach(el => {
+  el.textContent = text.selectAll;
+});
          }
          
          function bindCheckboxEvents() {
@@ -756,6 +762,7 @@
          function rerenderCharactersKeepChecked() {
              const checkedIds = getCheckedIds();
              renderCharacters(allCharacters);
+             applyUiLanguage();
              setCheckedIds(checkedIds);
              bindCheckboxEvents();
              setupTableSelectAll();
@@ -1115,7 +1122,7 @@
                          <div class="matrix-cell matrix-head">
                              <label class="select-label select-all-label" title="全表格全選">
                                  <input type="checkbox" id="select-all">
-                                 <span>全選</span>
+                                 <span data-i18n="selectAll">全選</span>
                              </label>
                          </div>
                          ${roleOrder.map(role => `
@@ -1126,7 +1133,7 @@
                                  </div>
                                  <label class="select-label role-select-label" title="${escapeHtml(role)}全選">
                                      <input type="checkbox" data-col="${escapeHtml(role)}">
-                                     <span>全選</span>
+                                     <span data-i18n="selectAll">全選</span>
                                  </label>
                              </div>
                          `).join('')}
@@ -1139,7 +1146,7 @@
                                  </div>
                                  <label class="select-label attr-select-label" title="${escapeHtml(attr)}屬性全選">
                                      <input type="checkbox" data-row="${escapeHtml(attr)}">
-                                     <span>全選</span>
+                                     <span data-i18n="selectAll">全選</span>
                                  </label>
                              </div>
                              ${roleOrder.map(role => {
