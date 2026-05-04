@@ -461,6 +461,9 @@
          display: flex;
          align-items: center;
          }
+         #copy-btn {
+         flex: 0 0 auto;
+         }
          .copy-icon-btn {
          flex: 0 0 auto;
          min-width: 92px;
@@ -749,8 +752,8 @@
              setButtonLabel(viewListBtn, text.viewList);
              setButtonLabel(viewTableBtn, text.viewTable);
              document.querySelectorAll('[data-i18n="selectAll"]').forEach(el => {
-  el.textContent = text.selectAll;
-});
+         el.textContent = text.selectAll;
+         });
          }
          
          function bindCheckboxEvents() {
@@ -922,7 +925,7 @@
                  en: ['en', '英文']
              };
              const fallbackKeys = ['zh', 'tw', 'zh_tw', 'zh-TW', 'zh_Hant', 'ja', 'jp', 'en'];
-
+         
              if (char.name && typeof char.name === 'object') {
                  const preferredKeys = langKeyMap[currentLang] || ['zh'];
                  for (const key of preferredKeys) {
@@ -933,7 +936,7 @@
                  }
                  return Object.values(char.name).find(Boolean) || '';
              }
-
+         
              const flatNameMap = {
                  zh: ['name_zh', 'zh_name', 'name_tw', 'name_zh_tw', '角色名稱', '中文名稱'],
                  ja: ['name_ja', 'ja_name', 'name_jp', 'jp_name', '日文名稱'],
@@ -942,7 +945,7 @@
              for (const key of (flatNameMap[currentLang] || flatNameMap.zh)) {
                  if (char[key]) return char[key];
              }
-
+         
              return char.name ?? char['角色名稱'] ?? char.fullname ?? char.full_name ?? '';
          }
          
