@@ -679,6 +679,10 @@
                  viewList: '列表顯示',
                  viewTable: '表格顯示',
                  selectAll: '全選'
+                     '攻擊者': '攻擊者',
+    '破防者': '破防者',
+    '防禦者': '防禦者',
+    '支援者': '支援者'
              },
              ja: {
                  title: '所持キャラ一覧',
@@ -687,6 +691,10 @@
                  viewList: 'リスト表示',
                  viewTable: '表形式',
                  selectAll: '全て'
+                     '攻擊者': 'アタッカー',
+    '破防者': 'ブレイカー',
+    '防禦者': 'ディフェンダー',
+    '支援者': 'サポーター'
              },
              en: {
                  title: 'Character Checklist',
@@ -695,6 +703,10 @@
                  viewList: 'List View',
                  viewTable: 'Table View',
                   selectAll: 'All'
+                      '攻擊者': 'Attacker',
+    '破防者': 'Breaker',
+    '防禦者': 'Defender',
+    '支援者': 'Supporter'
              }
          };
          
@@ -1057,7 +1069,7 @@
                          <div class="info">
                              <label for="c${id}" class="main-line">
                                  <span class="attr-tag tag-${escapeHtml(attr)}">${escapeHtml(attr)}</span>
-                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(role)}" title="${escapeHtml(role)}">` : ''}
+                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
                                  ${escapeHtml(name)}
                              </label>
                              <span class="date-line">${escapeHtml(dateText)}</span>
@@ -1110,7 +1122,7 @@
                          </div>
                          <div class="table-info">
                              <label for="c${id}" class="table-name">
-                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(role)}" title="${escapeHtml(role)}">` : ''}
+                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
                                  <span>${escapeHtml(name)}</span>
                              </label>
                              <div class="table-date">${escapeHtml(dateText)}</div>
@@ -1131,8 +1143,8 @@
                          ${roleOrder.map(role => `
                              <div class="matrix-cell matrix-head">
                                  <div class="matrix-title-line">
-                                     ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(role)}">` : ''}
-                                     <span>${escapeHtml(role)}</span>
+                                     ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
+                                     <span>${escapeHtml(ROLE_TEXT[currentLang][role] || role)}</span>
                                  </div>
                                  <label class="select-label role-select-label" title="${escapeHtml(role)}全選">
                                      <input type="checkbox" data-col="${escapeHtml(role)}">
