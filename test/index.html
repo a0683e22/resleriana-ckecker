@@ -635,6 +635,17 @@
                      renderCharacters(allCharacters);
                      setCheckedIds(checkedIds);
                      bindCheckboxEvents();
+                     document.querySelectorAll('.item').forEach(item => {
+         item.addEventListener('click', (e) => {
+         if (e.target.tagName === 'INPUT') return;
+         
+         const checkbox = item.querySelector('input[type="checkbox"]');
+         if (!checkbox || checkbox.disabled) return;
+         
+         checkbox.checked = !checkbox.checked;
+         checkbox.dispatchEvent(new Event('change'));
+         });
+         });
                      applyFilters();
                      syncShareUrl();
                      updateViewButtons();
