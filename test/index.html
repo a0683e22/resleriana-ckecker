@@ -1025,7 +1025,7 @@
              const date = char.date ?? char['開放時間'] ?? char.start_at ?? '';
              if (!date) return '';
              const shortDate = String(date).split('T')[0];
-             return `開放日期：${shortDate}`;
+             return `${shortDate}`;
          }
          
          function saveFilterState() {
