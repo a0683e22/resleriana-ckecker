@@ -568,7 +568,7 @@
             <div class="control-panel">
                <div class="url-row">
                   <div id="result-url">讀取中...</div>
-                  <button id="copy-btn" class="icon-btn" onclick="copyUrl()" title="複製網址">
+                  <button id="copy-btn" class="btn-copy icon-btn" onclick="copyUrl()" title="複製網址">
                   <img src="images/ui/copy.png" alt="複製網址">
                   </button>
                </div>
@@ -581,7 +581,7 @@
                   <img src="images/ui/table.png" alt="表格顯示">
                   <span>表格顯示</span>
                   </button>
-                  <button id="reset-btn" class="icon-btn" onclick="resetTable()" title="重置">
+                  <button id="reset-btn" class="btn-reset icon-btn" onclick="resetTable()" title="重置">
                   <img src="images/ui/reset.png" alt="Reset">
                   </button>
                </div>
@@ -731,8 +731,8 @@
                  else btn.textContent = label;
              };
              if (title) title.textContent = text.title;
-             setButtonLabel(copyBtn, text.copy);
-             setButtonLabel(resetBtn, text.reset);
+             /*setButtonLabel(copyBtn, text.copy);
+             setButtonLabel(resetBtn, text.reset);*/
              setButtonLabel(viewListBtn, text.viewList);
              setButtonLabel(viewTableBtn, text.viewTable);
          }
