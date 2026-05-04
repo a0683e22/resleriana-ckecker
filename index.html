@@ -666,15 +666,11 @@
          return `${baseUrl}?k=${encodeURIComponent(key)}`;
          }
          
-         function syncShareUrl(options = {}) {
-         const { updateAddressBar = true } = options;
+         function syncShareUrl() {
          const finalUrl = getShareUrl();
          document.getElementById('result-url').innerText = finalUrl;
          
-         if (updateAddressBar && window.history && window.history.replaceState) {
-         window.history.replaceState({}, document.title, finalUrl);
-         }
-         
+         // 只更新畫面上的分享網址，不再改瀏覽器真實網址。
          saveToLocalStorage();
          return finalUrl;
          }
@@ -1016,7 +1012,9 @@
              applyFilters();
          }
          async function copyUrl() {
-             const urlText = syncShareUrl();
+             const urlText = getShareUrl();
+             document.getElementById('result-url').innerText = urlText;
+             saveToLocalStorage();
              try {
                  await navigator.clipboard.writeText(urlText);
                  alert('網址已複製到剪貼簿！');
