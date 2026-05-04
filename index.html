@@ -295,25 +295,25 @@
    </head>
    <body>
       <div class="container">
-      <header>
-         <div class="title-row">
-            <h1 id="page-title">角色持有清單</h1>
-            <div class="title-actions">
-               <select id="lang-select" class="lang-select">
-                  <option value="zh">繁體中文</option>
-                  <option value="ja">日本語</option>
-                  <option value="en">English</option>
-               </select>
-               <button id="theme-toggle"
-                  class="theme-toggle"
-                  type="button"
-                  onclick="toggleTheme()"
-                  title="切換深淺模式"
-                  aria-label="切換深淺模式">
-               💡
-               </button>
+         <header>
+            <div class="title-row">
+               <h1 id="page-title">角色持有清單</h1>
+               <div class="title-actions">
+                  <select id="lang-select" class="lang-select">
+                     <option value="zh">繁體中文</option>
+                     <option value="ja">日本語</option>
+                     <option value="en">English</option>
+                  </select>
+                  <button id="theme-toggle"
+                     class="theme-toggle"
+                     type="button"
+                     onclick="toggleTheme()"
+                     title="切換深淺模式"
+                     aria-label="切換深淺模式">
+                  💡
+                  </button>
+               </div>
             </div>
-         </div>
             <div class="control-panel">
                <div id="result-url">讀取中...</div>
                <div class="button-group">
@@ -369,45 +369,45 @@
                   </button>
                </div>
             </div>
-      </header>
-      <div class="list-wrapper">
-      <div id="dynamic-list">
-      <div class="loading">角色資料讀取中...</div>
-      </div>
-      <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面。固定角色沒有職種圖。 -->
-      <div class="item fixed" data-attr="火" data-role="攻擊者">
-      <div class="checkbox-wrapper">
-      <input type="checkbox" id="c189" class="char-cb fixed-cb" checked disabled>
-      </div>
-      <div class="info">
-      <label for="c189" class="main-line">
-      <span class="attr-tag tag-火">火</span>
-      <img class="role-icon" src="images/role/a.52ca9a.png" alt="攻擊者">
-      <span class="fixed-name"
-data-zh="蕾斯娜【未來に夢を求めし者】"
-data-ja="レスナ【未来に夢を求めし者】"
-data-en="Resna【未来に夢を求めし者】">蕾斯娜【未來に夢を求めし者】</span>
-      </label>
-      <span class="date-line">初始固定角色</span>
-      </div>
-      </div>
-      <div class="item fixed" data-attr="風" data-role="破防者">
-      <div class="checkbox-wrapper">
-      <input type="checkbox" id="c180" class="char-cb fixed-cb" checked disabled>
-      </div>
-      <div class="info">
-      <label for="c180" class="main-line">
-      <span class="attr-tag tag-風">風</span>
-      <img class="role-icon" src="images/role/b.2e7b02.png" alt="破防者">
-      <span class="fixed-name"
-data-zh="夏莉絲堤菈【族長的娘】"
-data-ja="シャリステラ【族長の娘】"
-data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
-      </label>
-      <span class="date-line">初始固定角色</span>
-      </div>
-      </div>
-      </div>
+         </header>
+         <div class="list-wrapper">
+            <div id="dynamic-list">
+               <div class="loading">角色資料讀取中...</div>
+            </div>
+            <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面。固定角色沒有職種圖。 -->
+            <div class="item fixed" data-attr="火" data-role="攻擊者">
+               <div class="checkbox-wrapper">
+                  <input type="checkbox" id="c189" class="char-cb fixed-cb" checked disabled>
+               </div>
+               <div class="info">
+                  <label for="c189" class="main-line">
+                  <span class="attr-tag tag-火">火</span>
+                  <img class="role-icon" src="images/role/a.52ca9a.png" alt="攻擊者">
+                  <span class="fixed-name"
+                     data-zh="蕾斯娜【未來に夢を求めし者】"
+                     data-ja="レスナ【未来に夢を求めし者】"
+                     data-en="Resna【未来に夢を求めし者】">蕾斯娜【未來に夢を求めし者】</span>
+                  </label>
+                  <span class="date-line">初始固定角色</span>
+               </div>
+            </div>
+            <div class="item fixed" data-attr="風" data-role="破防者">
+               <div class="checkbox-wrapper">
+                  <input type="checkbox" id="c180" class="char-cb fixed-cb" checked disabled>
+               </div>
+               <div class="info">
+                  <label for="c180" class="main-line">
+                  <span class="attr-tag tag-風">風</span>
+                  <img class="role-icon" src="images/role/b.2e7b02.png" alt="破防者">
+                  <span class="fixed-name"
+                     data-zh="夏莉絲堤菈【族長的娘】"
+                     data-ja="シャリステラ【族長の娘】"
+                     data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
+                  </label>
+                  <span class="date-line">初始固定角色</span>
+               </div>
+            </div>
+         </div>
       </div>
       <script>
          const STORAGE_KEY = 'resleri_character_checked_ids_v1';
@@ -446,7 +446,7 @@ data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
                  reset: 'Reset Table'
              }
          };
-
+         
          let allCharacters = [];
          let activeAttrFilters = new Set();
          let activeRoleFilters = new Set();
@@ -464,7 +464,7 @@ data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
              localStorage.setItem('theme', currentTheme);
              applyTheme();
          }
-
+         
          function setupLanguageSelect() {
              const langSelect = document.getElementById('lang-select');
              if (!langSelect) return;
@@ -476,7 +476,7 @@ data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
                  rerenderCharactersKeepChecked();
              });
          }
-
+         
          function applyUiLanguage() {
              const text = UI_TEXT[currentLang] || UI_TEXT.zh;
              const title = document.getElementById('page-title');
@@ -485,18 +485,18 @@ data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
              if (title) title.textContent = text.title;
              if (copyBtn) copyBtn.textContent = text.copy;
              if (resetBtn) resetBtn.textContent = text.reset;
-
-    document.querySelectorAll('.fixed-name').forEach(el => {
-        el.textContent = el.dataset[currentLang] || el.dataset.zh || '';
-    });
+         
+         document.querySelectorAll('.fixed-name').forEach(el => {
+         el.textContent = el.dataset[currentLang] || el.dataset.zh || '';
+         });
          }
-
+         
          function bindCheckboxEvents() {
              getNormalCheckboxes().forEach(cb => {
                  cb.addEventListener('change', () => syncShareUrl());
              });
          }
-
+         
          function rerenderCharactersKeepChecked() {
              const checkedIds = getCheckedIds();
              renderCharacters(allCharacters);
@@ -684,71 +684,52 @@ data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
          }
          
          function bigIntToBaseX(value) {
-    if (value === 0n) return '0';
-
-    let result = '';
-    let n = value;
-    const base = BigInt(BASE_CHARS.length);
-
-    while (n > 0n) {
-        const index = Number(n % base);
-        result = BASE_CHARS[index] + result;
-        n = n / base;
-    }
-
-    return result;
-}
-
+         if (value === 0n) return '0';
+         
+         let result = '';
+         let n = value;
+         const base = BigInt(BASE_CHARS.length);
+         
+         while (n > 0n) {
+         const index = Number(n % base);
+         result = BASE_CHARS[index] + result;
+         n = n / base;
+         }
+         
+         return result;
+         }
+         
          function encodeIdsToKey(ids) {
-             let bits = 0n;
-             ids.forEach(id => {
-                 const n = BigInt(Number(id));
-                 if (n >= 0n) bits |= (1n << n);
-             });
-             return bigIntToBaseX(bits);
+         if (!ids.length) return '';
+         
+         const joined = ids.join('-');
+         
+         let num = 0n;
+         
+         for (let i = 0; i < joined.length; i++) {
+         num = num * 131n + BigInt(joined.charCodeAt(i));
          }
          
-         function parseBaseXToBigInt(value) {
-    let result = 0n;
-    const base = BigInt(BASE_CHARS.length);
-
-    for (const ch of String(value)) {
-        const digit = BASE_CHARS.indexOf(ch);
-        if (digit < 0) throw new Error('Invalid key');
-        result = result * base + BigInt(digit);
-    }
-
-    return result;
-}
-
+         return bigIntToBaseX(num);
+         }
+         
          function decodeKeyToIds(key) {
-             if (!key || key === '0') return [];
-             const bits = parseBaseXToBigInt(key);
-             const maxId = Math.max(0, ...getNormalCheckboxes().map(cb => Number(cb.id.replace('c', ''))));
-             const ids = [];
-             for (let i = 0; i <= maxId; i++) {
-                 if ((bits & (1n << BigInt(i))) !== 0n) ids.push(String(i));
-             }
-             return ids;
+         if (!key) return [];
+         
+         const num = parseBaseXToBigInt(key);
+         
+         let n = num;
+         let chars = [];
+         
+         while (n > 0n) {
+         const charCode = Number(n % 131n);
+         chars.push(String.fromCharCode(charCode));
+         n = n / 131n;
          }
          
-         function getShareUrl() {
-             const selectedIds = getCheckedIds();
-             const baseUrl = window.location.href.split('?')[0];
-             if (selectedIds.length === 0) return baseUrl;
-             const key = encodeIdsToKey(selectedIds);
-             return `${baseUrl}?k=${encodeURIComponent(key)}`;
-         }
+         const str = chars.reverse().join('');
          
-         function syncShareUrl(options = {}) {
-             const { updateAddressBar = true } = options;
-             const finalUrl = getShareUrl();
-             document.getElementById('result-url').innerText = finalUrl;
-             if (updateAddressBar && window.history && window.history.replaceState) {
-                 window.history.replaceState({}, document.title, finalUrl);
-             }
-             saveToLocalStorage();
-             return finalUrl;
+         return str.split('-').filter(Boolean);
          }
          
          function resetTable() {
