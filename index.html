@@ -515,6 +515,27 @@
                  .replace(/'/g, '&#039;');
          }
          
+         function getShareUrl() {
+         const selectedIds = getCheckedIds();
+         const baseUrl = window.location.href.split('?')[0];
+         if (selectedIds.length === 0) return baseUrl;
+         const key = encodeIdsToKey(selectedIds);
+         return `${baseUrl}?k=${encodeURIComponent(key)}`;
+         }
+         
+         function syncShareUrl(options = {}) {
+         const { updateAddressBar = true } = options;
+         const finalUrl = getShareUrl();
+         document.getElementById('result-url').innerText = finalUrl;
+         
+         if (updateAddressBar && window.history && window.history.replaceState) {
+         window.history.replaceState({}, document.title, finalUrl);
+         }
+         
+         saveToLocalStorage();
+         return finalUrl;
+         }
+         
          function normalizeAttr(attr) {
              return String(attr ?? '');
          }
