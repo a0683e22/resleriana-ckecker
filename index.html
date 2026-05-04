@@ -155,8 +155,8 @@
          .main-line { display: flex; align-items: center; font-size: 1.05rem; font-weight: 600; cursor: pointer; line-height: 1.35; }
          .fixed .main-line { cursor: default; }
          .fixed {
-  background: var(--bg-card);
-}
+         background: var(--bg-card);
+         }
          .attr-tag {
          padding: 2px 10px;
          border-radius: 6px;
@@ -185,7 +185,6 @@
          .tag-斬 { background-color: #4b5563; }
          .tag-打 { background-color: #78350f; }
          .tag-突 { background-color: #4338ca; }
-
          .title-row {
          position: relative;
          display: flex;
@@ -198,10 +197,8 @@
          color: var(--text-main);
          }
          .theme-toggle {
-         position: absolute;
-         right: 0;
-         top: 50%;
-         transform: translateY(-50%);
+         position: static;
+         transform: none;
          width: 36px;
          height: 36px;
          padding: 0;
@@ -273,15 +270,49 @@
          border-color: var(--primary);
          box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
          }
+         .title-actions {
+         position: absolute;
+         right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+         display: flex;
+         gap: 8px;
+         align-items: center;
+         }
+         .lang-select {
+         height: 36px;
+         border-radius: 999px;
+         border: 1px solid var(--border);
+         background: var(--bg-panel);
+         color: var(--text-main);
+         padding: 0 10px;
+         font-size: 0.85rem;
+         font-weight: 600;
+         cursor: pointer;
+         }
       </style>
    </head>
    <body>
       <div class="container">
-         <header>
-            <div class="title-row">
-               <h1>角色持有清單</h1>
-               <button id="theme-toggle" class="theme-toggle" type="button" onclick="toggleTheme()" title="切換深淺模式" aria-label="切換深淺模式">💡</button>
+      <header>
+         <div class="title-row">
+            <h1>角色持有清單</h1>
+            <div class="title-actions">
+               <select id="lang-select" class="lang-select">
+                  <option value="zh">繁體中文</option>
+                  <option value="ja">日本語</option>
+                  <option value="en">English</option>
+               </select>
+               <button id="theme-toggle"
+                  class="theme-toggle"
+                  type="button"
+                  onclick="toggleTheme()"
+                  title="切換深淺模式"
+                  aria-label="切換深淺模式">
+               💡
+               </button>
             </div>
+         </div>
             <div class="control-panel">
                <div id="result-url">讀取中...</div>
                <div class="button-group">
@@ -337,39 +368,39 @@
                   </button>
                </div>
             </div>
-         </header>
-         <div class="list-wrapper">
-            <div id="dynamic-list">
-               <div class="loading">角色資料讀取中...</div>
-            </div>
-            <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面。固定角色沒有職種圖。 -->
-            <div class="item fixed" data-attr="火" data-role="攻擊者">
-               <div class="checkbox-wrapper">
-                  <input type="checkbox" id="c189" class="char-cb fixed-cb" checked disabled>
-               </div>
-               <div class="info">
-                  <label for="c189" class="main-line">
-                  <span class="attr-tag tag-火">火</span>
-                  <img class="role-icon" src="images/role/a.52ca9a.png" alt="攻擊者">
-                  蕾斯娜【未來に夢を求めし者】
-                  </label>
-                  <span class="date-line">初始固定角色</span>
-               </div>
-            </div>
-            <div class="item fixed" data-attr="風" data-role="破防者">
-               <div class="checkbox-wrapper">
-                  <input type="checkbox" id="c180" class="char-cb fixed-cb" checked disabled>
-               </div>
-               <div class="info">
-                  <label for="c180" class="main-line">
-                  <span class="attr-tag tag-風">風</span>
-                  <img class="role-icon" src="images/role/b.2e7b02.png" alt="破防者">
-                  夏莉絲堤菈【族長的娘】
-                  </label>
-                  <span class="date-line">初始固定角色</span>
-               </div>
-            </div>
-         </div>
+      </header>
+      <div class="list-wrapper">
+      <div id="dynamic-list">
+      <div class="loading">角色資料讀取中...</div>
+      </div>
+      <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面。固定角色沒有職種圖。 -->
+      <div class="item fixed" data-attr="火" data-role="攻擊者">
+      <div class="checkbox-wrapper">
+      <input type="checkbox" id="c189" class="char-cb fixed-cb" checked disabled>
+      </div>
+      <div class="info">
+      <label for="c189" class="main-line">
+      <span class="attr-tag tag-火">火</span>
+      <img class="role-icon" src="images/role/a.52ca9a.png" alt="攻擊者">
+      蕾斯娜【未來に夢を求めし者】
+      </label>
+      <span class="date-line">初始固定角色</span>
+      </div>
+      </div>
+      <div class="item fixed" data-attr="風" data-role="破防者">
+      <div class="checkbox-wrapper">
+      <input type="checkbox" id="c180" class="char-cb fixed-cb" checked disabled>
+      </div>
+      <div class="info">
+      <label for="c180" class="main-line">
+      <span class="attr-tag tag-風">風</span>
+      <img class="role-icon" src="images/role/b.2e7b02.png" alt="破防者">
+      夏莉絲堤菈【族長的娘】
+      </label>
+      <span class="date-line">初始固定角色</span>
+      </div>
+      </div>
+      </div>
       </div>
       <script>
          const STORAGE_KEY = 'resleri_character_checked_ids_v1';
@@ -393,17 +424,29 @@
          let activeAttrFilters = new Set();
          let activeRoleFilters = new Set();
          let currentTheme = localStorage.getItem('theme') || 'dark';
-
+         let currentLang = localStorage.getItem('lang') || 'zh';
+         
          function applyTheme() {
              document.body.classList.toggle('light', currentTheme === 'light');
              const btn = document.getElementById('theme-toggle');
              if (btn) btn.textContent = currentTheme === 'dark' ? '💡' : '☪';
          }
-
+         
          function toggleTheme() {
              currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
              localStorage.setItem('theme', currentTheme);
              applyTheme();
+         }
+
+         function setupLanguageSelect() {
+             const langSelect = document.getElementById('lang-select');
+             if (!langSelect) return;
+             langSelect.value = currentLang;
+             langSelect.addEventListener('change', () => {
+                 currentLang = langSelect.value;
+                 localStorage.setItem('lang', currentLang);
+                 location.reload();
+             });
          }
          
          function escapeHtml(value) {
@@ -429,6 +472,13 @@
          }
          
          function getCharacterName(char) {
+             if (char.name && typeof char.name === 'object') {
+                 return char.name[currentLang]
+                     || char.name.zh
+                     || char.name.ja
+                     || char.name.en
+                     || '';
+             }
              return char.name ?? char['角色名稱'] ?? char.fullname ?? '';
          }
          
@@ -681,6 +731,7 @@
          
          async function init() {
              applyTheme();
+             setupLanguageSelect();
              setupFilterButtons();
              loadFilterState();
              updateFilterButtons();
