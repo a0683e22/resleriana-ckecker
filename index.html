@@ -417,7 +417,6 @@
          grid-template-columns: 90px repeat(4, minmax(260px, 1fr));
          }
          }
-
          .select-label {
          display: inline-flex;
          align-items: center;
@@ -450,6 +449,47 @@
          .table-card {
          cursor: pointer;
          }
+         .url-row {
+         display: flex;
+         align-items: stretch;
+         gap: 0;
+         }
+         .url-row #result-url {
+         flex: 1;
+         border-radius: 8px 0 0 8px;
+         min-height: 38px;
+         display: flex;
+         align-items: center;
+         }
+         .copy-icon-btn {
+         flex: 0 0 auto;
+         min-width: 92px;
+         border-radius: 0 8px 8px 0;
+         }
+         .action-row {
+         display: flex;
+         gap: 8px;
+         }
+         .action-row button {
+         flex: 1;
+         }
+         .icon-btn {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         gap: 6px;
+         }
+         .icon-btn img {
+         width: 22px;
+         height: 22px;
+         object-fit: contain;
+         display: block;
+         flex: 0 0 auto;
+         }
+         .copy-icon-btn img {
+         width: 20px;
+         height: 20px;
+         }
          .lang-select {
          height: 36px;
          border-radius: 999px;
@@ -460,6 +500,47 @@
          font-size: 0.85rem;
          font-weight: 600;
          cursor: pointer;
+         }
+         .icon-btn {
+         flex: 0 0 auto;
+         width: 42px;
+         height: 42px;
+         padding: 0;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 999px; /* 圓形 */
+         transition: all 0.15s ease;
+         }
+         .icon-btn img {
+         width: 20px;
+         height: 20px;
+         pointer-events: none;
+         }
+         .view-btn {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 6px;
+         }
+         .view-btn img {
+         width: 18px;
+         height: 18px;
+         }
+         .icon-btn:hover {
+         transform: translateY(-1px);
+         filter: brightness(1.1);
+         }
+         .icon-btn:active {
+         transform: scale(0.92);
+         }
+         .btn-copy {
+         background-color: #10b981;
+         box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
+         }
+         .btn-reset {
+         background-color: #ef4444;
+         box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
          }
       </style>
    </head>
@@ -485,14 +566,24 @@
                </div>
             </div>
             <div class="control-panel">
-               <div id="result-url">讀取中...</div>
-               <div class="button-group">
-                  <button id="copy-btn" class="btn-copy" onclick="copyUrl()">複製網址</button>
-                  <button id="reset-btn" class="btn-reset" onclick="resetTable()">Reset 表格</button>
+               <div class="url-row">
+                  <div id="result-url">讀取中...</div>
+                  <button id="copy-btn" class="icon-btn" onclick="copyUrl()" title="複製網址">
+                  <img src="images/ui/copy.png" alt="複製網址">
+                  </button>
                </div>
-               <div class="view-toggle" aria-label="顯示模式">
-                  <button id="view-list-btn" class="view-btn active" type="button" data-view-mode="list">列表顯示</button>
-                  <button id="view-table-btn" class="view-btn" type="button" data-view-mode="table">表格顯示</button>
+               <div class="action-row">
+                  <button id="view-list-btn" class="view-btn active" data-view-mode="list">
+                  <img src="images/ui/checklist.png" alt="列表顯示">
+                  <span>列表顯示</span>
+                  </button>
+                  <button id="view-table-btn" class="view-btn" data-view-mode="table">
+                  <img src="images/ui/table.png" alt="表格顯示">
+                  <span>表格顯示</span>
+                  </button>
+                  <button id="reset-btn" class="icon-btn" onclick="resetTable()" title="重置">
+                  <img src="images/ui/reset.png" alt="Reset">
+                  </button>
                </div>
                <div class="filter-title">屬性篩選</div>
                <div class="filter-panel" aria-label="屬性篩選">
@@ -633,11 +724,17 @@
              const resetBtn = document.getElementById('reset-btn');
              const viewListBtn = document.getElementById('view-list-btn');
              const viewTableBtn = document.getElementById('view-table-btn');
+             const setButtonLabel = (btn, label) => {
+                 if (!btn) return;
+                 const labelEl = btn.querySelector('.btn-label');
+                 if (labelEl) labelEl.textContent = label;
+                 else btn.textContent = label;
+             };
              if (title) title.textContent = text.title;
-             if (copyBtn) copyBtn.textContent = text.copy;
-             if (resetBtn) resetBtn.textContent = text.reset;
-             if (viewListBtn) viewListBtn.textContent = text.viewList;
-             if (viewTableBtn) viewTableBtn.textContent = text.viewTable;
+             setButtonLabel(copyBtn, text.copy);
+             setButtonLabel(resetBtn, text.reset);
+             setButtonLabel(viewListBtn, text.viewList);
+             setButtonLabel(viewTableBtn, text.viewTable);
          }
          
          function bindCheckboxEvents() {
@@ -687,7 +784,7 @@
              const visibleNormalCards = () => Array.from(document.querySelectorAll('.table-card:not(.hidden-by-filter) input[type="checkbox"]:not(:disabled)'));
              const visibleNormalCardsByRole = (role) => Array.from(document.querySelectorAll(`.table-card:not(.hidden-by-filter)[data-role="${CSS.escape(role)}"] input[type="checkbox"]:not(:disabled)`));
              const visibleNormalCardsByAttr = (attr) => Array.from(document.querySelectorAll(`.table-card:not(.hidden-by-filter)[data-attr="${CSS.escape(attr)}"] input[type="checkbox"]:not(:disabled)`));
-
+         
              const setBoxes = (boxes, checked) => {
                  boxes.forEach(cb => {
                      cb.checked = checked;
@@ -695,20 +792,20 @@
                  });
                  updateTableSelectAllState();
              };
-
+         
              const selectAll = document.getElementById('select-all');
              if (selectAll) {
                  selectAll.onchange = () => setBoxes(visibleNormalCards(), selectAll.checked);
              }
-
+         
              document.querySelectorAll('[data-col]').forEach(cb => {
                  cb.onchange = () => setBoxes(visibleNormalCardsByRole(cb.dataset.col), cb.checked);
              });
-
+         
              document.querySelectorAll('[data-row]').forEach(cb => {
                  cb.onchange = () => setBoxes(visibleNormalCardsByAttr(cb.dataset.row), cb.checked);
              });
-
+         
              document.querySelectorAll('.table-card').forEach(card => {
                  card.onclick = (e) => {
                      if (e.target.closest('input, label')) return;
@@ -719,41 +816,41 @@
                      updateTableSelectAllState();
                  };
              });
-
+         
              document.querySelectorAll('.table-card input[type="checkbox"]:not(:disabled)').forEach(cb => {
                  cb.addEventListener('change', updateTableSelectAllState);
              });
-
+         
              updateTableSelectAllState();
          }
-
+         
          function setSelectControlState(control, boxes) {
              if (!control) return;
              const checkedCount = boxes.filter(cb => cb.checked).length;
              control.checked = boxes.length > 0 && checkedCount === boxes.length;
              control.indeterminate = checkedCount > 0 && checkedCount < boxes.length;
          }
-
+         
          function updateTableSelectAllState() {
              const selectAll = document.getElementById('select-all');
              if (!selectAll) return;
-
+         
              const visibleNormalCards = Array.from(document.querySelectorAll('.table-card:not(.hidden-by-filter) input[type="checkbox"]:not(:disabled)'));
              setSelectControlState(selectAll, visibleNormalCards);
-
+         
              document.querySelectorAll('[data-col]').forEach(cb => {
                  const role = cb.dataset.col;
                  const boxes = Array.from(document.querySelectorAll(`.table-card:not(.hidden-by-filter)[data-role="${CSS.escape(role)}"] input[type="checkbox"]:not(:disabled)`));
                  setSelectControlState(cb, boxes);
              });
-
+         
              document.querySelectorAll('[data-row]').forEach(cb => {
                  const attr = cb.dataset.row;
                  const boxes = Array.from(document.querySelectorAll(`.table-card:not(.hidden-by-filter)[data-attr="${CSS.escape(attr)}"] input[type="checkbox"]:not(:disabled)`));
                  setSelectControlState(cb, boxes);
              });
          }
-
+         
          function escapeHtml(value) {
              return String(value ?? '')
                  .replace(/&/g, '&amp;')
