@@ -720,6 +720,19 @@
          return result;
          }
          
+         function parseBaseXToBigInt(value) {
+         let result = 0n;
+         const base = BigInt(BASE_CHARS.length);
+
+         for (const ch of String(value)) {
+         const digit = BASE_CHARS.indexOf(ch);
+         if (digit < 0) throw new Error('Invalid key');
+         result = result * base + BigInt(digit);
+         }
+
+         return result;
+         }
+
          function encodeIdsToKey(ids) {
          if (!ids.length) return '';
          
