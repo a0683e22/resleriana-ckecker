@@ -414,6 +414,7 @@ data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
          const ATTR_FILTER_STORAGE_KEY = 'resleri_character_attr_filters_v1';
          const ROLE_FILTER_STORAGE_KEY = 'resleri_character_role_filters_v1';
          const DATA_FILE = 'characters.json';
+         const BASE_CHARS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~_';
          
          const ROLE_ALIASES = {
              1: '攻擊者', '1': '攻擊者', 'Attacker': '攻擊者', 'attacker': '攻擊者', '攻擊者': '攻擊者',
@@ -682,29 +683,47 @@ data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
              }
          }
          
+         function bigIntToBaseX(value) {
+    if (value === 0n) return '0';
+
+    let result = '';
+    let n = value;
+    const base = BigInt(BASE_CHARS.length);
+
+    while (n > 0n) {
+        const index = Number(n % base);
+        result = BASE_CHARS[index] + result;
+        n = n / base;
+    }
+
+    return result;
+}
+
          function encodeIdsToKey(ids) {
              let bits = 0n;
              ids.forEach(id => {
                  const n = BigInt(Number(id));
                  if (n >= 0n) bits |= (1n << n);
              });
-             return bits.toString(36);
+             return bigIntToBaseX(bits);
          }
          
-         function parseBase36ToBigInt(value) {
-             const chars = '0123456789abcdefghijklmnopqrstuvwxyz';
-             let result = 0n;
-             for (const ch of String(value).toLowerCase()) {
-                 const digit = chars.indexOf(ch);
-                 if (digit < 0) throw new Error('Invalid base36 key');
-                 result = result * 36n + BigInt(digit);
-             }
-             return result;
-         }
-         
+         function parseBaseXToBigInt(value) {
+    let result = 0n;
+    const base = BigInt(BASE_CHARS.length);
+
+    for (const ch of String(value)) {
+        const digit = BASE_CHARS.indexOf(ch);
+        if (digit < 0) throw new Error('Invalid key');
+        result = result * base + BigInt(digit);
+    }
+
+    return result;
+}
+
          function decodeKeyToIds(key) {
              if (!key || key === '0') return [];
-             const bits = parseBase36ToBigInt(key);
+             const bits = parseBaseXToBigInt(key);
              const maxId = Math.max(0, ...getNormalCheckboxes().map(cb => Number(cb.id.replace('c', ''))));
              const ids = [];
              for (let i = 0; i <= maxId; i++) {
