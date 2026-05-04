@@ -417,6 +417,39 @@
          grid-template-columns: 90px repeat(4, minmax(260px, 1fr));
          }
          }
+
+         .select-label {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         gap: 4px;
+         font-size: 0.72rem;
+         font-weight: 700;
+         line-height: 1;
+         cursor: pointer;
+         user-select: none;
+         white-space: nowrap;
+         }
+         .select-label input[type="checkbox"] {
+         width: 16px;
+         height: 16px;
+         margin: 0;
+         flex: 0 0 auto;
+         }
+         .matrix-head,
+         .matrix-attr {
+         flex-direction: column;
+         }
+         .matrix-title-line,
+         .attr-title-line {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         gap: 6px;
+         }
+         .table-card {
+         cursor: pointer;
+         }
          .lang-select {
          height: 36px;
          border-radius: 999px;
@@ -618,6 +651,7 @@
              renderCharacters(allCharacters);
              setCheckedIds(checkedIds);
              bindCheckboxEvents();
+             setupTableSelectAll();
              applyFilters();
              syncShareUrl();
          }
@@ -650,44 +684,76 @@
              });
          }
          function setupTableSelectAll() {
-         
-         // 🔹 全表全選
-         const selectAll = document.getElementById('select-all');
-         if (selectAll) {
-         selectAll.onchange = () => {
-         document.querySelectorAll('.table-card input[type="checkbox"]:not(:disabled)')
-         .forEach(cb => {
-          cb.checked = selectAll.checked;
-          cb.dispatchEvent(new Event('change'));
-         });
-         };
+             const visibleNormalCards = () => Array.from(document.querySelectorAll('.table-card:not(.hidden-by-filter) input[type="checkbox"]:not(:disabled)'));
+             const visibleNormalCardsByRole = (role) => Array.from(document.querySelectorAll(`.table-card:not(.hidden-by-filter)[data-role="${CSS.escape(role)}"] input[type="checkbox"]:not(:disabled)`));
+             const visibleNormalCardsByAttr = (attr) => Array.from(document.querySelectorAll(`.table-card:not(.hidden-by-filter)[data-attr="${CSS.escape(attr)}"] input[type="checkbox"]:not(:disabled)`));
+
+             const setBoxes = (boxes, checked) => {
+                 boxes.forEach(cb => {
+                     cb.checked = checked;
+                     cb.dispatchEvent(new Event('change'));
+                 });
+                 updateTableSelectAllState();
+             };
+
+             const selectAll = document.getElementById('select-all');
+             if (selectAll) {
+                 selectAll.onchange = () => setBoxes(visibleNormalCards(), selectAll.checked);
+             }
+
+             document.querySelectorAll('[data-col]').forEach(cb => {
+                 cb.onchange = () => setBoxes(visibleNormalCardsByRole(cb.dataset.col), cb.checked);
+             });
+
+             document.querySelectorAll('[data-row]').forEach(cb => {
+                 cb.onchange = () => setBoxes(visibleNormalCardsByAttr(cb.dataset.row), cb.checked);
+             });
+
+             document.querySelectorAll('.table-card').forEach(card => {
+                 card.onclick = (e) => {
+                     if (e.target.closest('input, label')) return;
+                     const checkbox = card.querySelector('input[type="checkbox"]');
+                     if (!checkbox || checkbox.disabled) return;
+                     checkbox.checked = !checkbox.checked;
+                     checkbox.dispatchEvent(new Event('change'));
+                     updateTableSelectAllState();
+                 };
+             });
+
+             document.querySelectorAll('.table-card input[type="checkbox"]:not(:disabled)').forEach(cb => {
+                 cb.addEventListener('change', updateTableSelectAllState);
+             });
+
+             updateTableSelectAllState();
          }
-         
-         // 🔹 職種全選（欄）
-         document.querySelectorAll('[data-col]').forEach(cb => {
-         cb.onchange = () => {
-         const role = cb.dataset.col;
-         document.querySelectorAll(`.table-card[data-role="${role}"] input[type="checkbox"]:not(:disabled)`)
-         .forEach(box => {
-          box.checked = cb.checked;
-          box.dispatchEvent(new Event('change'));
-         });
-         };
-         });
-         
-         // 🔹 屬性全選（列）
-         document.querySelectorAll('[data-row]').forEach(cb => {
-         cb.onchange = () => {
-         const attr = cb.dataset.row;
-         document.querySelectorAll(`.table-card[data-attr="${attr}"] input[type="checkbox"]:not(:disabled)`)
-         .forEach(box => {
-          box.checked = cb.checked;
-          box.dispatchEvent(new Event('change'));
-         });
-         };
-         });
+
+         function setSelectControlState(control, boxes) {
+             if (!control) return;
+             const checkedCount = boxes.filter(cb => cb.checked).length;
+             control.checked = boxes.length > 0 && checkedCount === boxes.length;
+             control.indeterminate = checkedCount > 0 && checkedCount < boxes.length;
          }
-         
+
+         function updateTableSelectAllState() {
+             const selectAll = document.getElementById('select-all');
+             if (!selectAll) return;
+
+             const visibleNormalCards = Array.from(document.querySelectorAll('.table-card:not(.hidden-by-filter) input[type="checkbox"]:not(:disabled)'));
+             setSelectControlState(selectAll, visibleNormalCards);
+
+             document.querySelectorAll('[data-col]').forEach(cb => {
+                 const role = cb.dataset.col;
+                 const boxes = Array.from(document.querySelectorAll(`.table-card:not(.hidden-by-filter)[data-role="${CSS.escape(role)}"] input[type="checkbox"]:not(:disabled)`));
+                 setSelectControlState(cb, boxes);
+             });
+
+             document.querySelectorAll('[data-row]').forEach(cb => {
+                 const attr = cb.dataset.row;
+                 const boxes = Array.from(document.querySelectorAll(`.table-card:not(.hidden-by-filter)[data-attr="${CSS.escape(attr)}"] input[type="checkbox"]:not(:disabled)`));
+                 setSelectControlState(cb, boxes);
+             });
+         }
+
          function escapeHtml(value) {
              return String(value ?? '')
                  .replace(/&/g, '&amp;')
@@ -801,6 +867,7 @@
                  item.classList.toggle('hidden-by-filter', !(matchAttr && matchRole));
              });
              updateFilterButtons();
+             updateTableSelectAllState();
          }
          
          function setupFilterButtons() {
@@ -918,18 +985,35 @@
              list.innerHTML = `
                  <div class="table-view">
                      <div class="matrix-table">
-                         <div class="matrix-cell matrix-head"></div>
+                         <div class="matrix-cell matrix-head">
+                             <label class="select-label select-all-label" title="全表格全選">
+                                 <input type="checkbox" id="select-all">
+                                 <span>全選</span>
+                             </label>
+                         </div>
                          ${roleOrder.map(role => `
                              <div class="matrix-cell matrix-head">
-                                 ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(role)}">` : ''}
-                                 <span>${escapeHtml(role)}</span>
+                                 <div class="matrix-title-line">
+                                     ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(role)}">` : ''}
+                                     <span>${escapeHtml(role)}</span>
+                                 </div>
+                                 <label class="select-label role-select-label" title="${escapeHtml(role)}全選">
+                                     <input type="checkbox" data-col="${escapeHtml(role)}">
+                                     <span>全選</span>
+                                 </label>
                              </div>
                          `).join('')}
          
                          ${attrOrder.map(attr => `
                              <div class="matrix-cell matrix-attr">
-                                 <img src="${attrIconMap[attr]}" alt="${escapeHtml(attr)}">
-                                 <span>${escapeHtml(attr)}</span>
+                                 <div class="attr-title-line">
+                                     <img src="${attrIconMap[attr]}" alt="${escapeHtml(attr)}">
+                                     <span>${escapeHtml(attr)}</span>
+                                 </div>
+                                 <label class="select-label attr-select-label" title="${escapeHtml(attr)}屬性全選">
+                                     <input type="checkbox" data-row="${escapeHtml(attr)}">
+                                     <span>全選</span>
+                                 </label>
                              </div>
                              ${roleOrder.map(role => {
                                  const chars = groups.get(`${attr}|${role}`) || [];
@@ -1115,6 +1199,7 @@
                  }
          
                  bindCheckboxEvents();
+                 setupTableSelectAll();
              } catch (error) {
                  console.error(error);
                  document.getElementById('dynamic-list').innerHTML = '<div class="error">讀取 characters.json 失敗，請確認 index.html 和 characters.json 放在同一個資料夾。</div>';
