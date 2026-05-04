@@ -296,7 +296,7 @@
       <div class="container">
       <header>
          <div class="title-row">
-            <h1>角色持有清單</h1>
+            <h1 id="page-title">角色持有清單</h1>
             <div class="title-actions">
                <select id="lang-select" class="lang-select">
                   <option value="zh">繁體中文</option>
@@ -316,8 +316,8 @@
             <div class="control-panel">
                <div id="result-url">讀取中...</div>
                <div class="button-group">
-                  <button class="btn-copy" onclick="copyUrl()">複製網址</button>
-                  <button class="btn-reset" onclick="resetTable()">Reset 表格</button>
+                  <button id="copy-btn" class="btn-copy" onclick="copyUrl()">複製網址</button>
+                  <button id="reset-btn" class="btn-reset" onclick="resetTable()">Reset 表格</button>
                </div>
                <div class="filter-title">屬性篩選</div>
                <div class="filter-panel" aria-label="屬性篩選">
@@ -382,7 +382,10 @@
       <label for="c189" class="main-line">
       <span class="attr-tag tag-火">火</span>
       <img class="role-icon" src="images/role/a.52ca9a.png" alt="攻擊者">
-      蕾斯娜【未來に夢を求めし者】
+      <span class="fixed-name"
+data-zh="蕾斯娜【未來に夢を求めし者】"
+data-ja="レスナ【未来に夢を求めし者】"
+data-en="Resna【未来に夢を求めし者】">蕾斯娜【未來に夢を求めし者】</span>
       </label>
       <span class="date-line">初始固定角色</span>
       </div>
@@ -395,7 +398,10 @@
       <label for="c180" class="main-line">
       <span class="attr-tag tag-風">風</span>
       <img class="role-icon" src="images/role/b.2e7b02.png" alt="破防者">
-      夏莉絲堤菈【族長的娘】
+      <span class="fixed-name"
+data-zh="夏莉絲堤菈【族長的娘】"
+data-ja="シャリステラ【族長の娘】"
+data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
       </label>
       <span class="date-line">初始固定角色</span>
       </div>
@@ -421,6 +427,25 @@
              '支援者': 'images/role/s.0c211b.png'
          };
          
+         const UI_TEXT = {
+             zh: {
+                 title: '角色持有清單',
+                 copy: '複製網址',
+                 reset: 'Reset 表格'
+             },
+             ja: {
+                 title: '所持キャラ一覧',
+                 copy: 'URLをコピー',
+                 reset: '表をリセット'
+             },
+             en: {
+                 title: 'Character Checklist',
+                 copy: 'Copy URL',
+                 reset: 'Reset Table'
+             }
+         };
+
+         let allCharacters = [];
          let activeAttrFilters = new Set();
          let activeRoleFilters = new Set();
          let currentTheme = localStorage.getItem('theme') || 'dark';
@@ -445,8 +470,38 @@
              langSelect.addEventListener('change', () => {
                  currentLang = langSelect.value;
                  localStorage.setItem('lang', currentLang);
-                 location.reload();
+                 applyUiLanguage();
+                 rerenderCharactersKeepChecked();
              });
+         }
+
+         function applyUiLanguage() {
+             const text = UI_TEXT[currentLang] || UI_TEXT.zh;
+             const title = document.getElementById('page-title');
+             const copyBtn = document.getElementById('copy-btn');
+             const resetBtn = document.getElementById('reset-btn');
+             if (title) title.textContent = text.title;
+             if (copyBtn) copyBtn.textContent = text.copy;
+             if (resetBtn) resetBtn.textContent = text.reset;
+
+    document.querySelectorAll('.fixed-name').forEach(el => {
+        el.textContent = el.dataset[currentLang] || el.dataset.zh || '';
+    });
+         }
+
+         function bindCheckboxEvents() {
+             getNormalCheckboxes().forEach(cb => {
+                 cb.addEventListener('change', () => syncShareUrl());
+             });
+         }
+
+         function rerenderCharactersKeepChecked() {
+             const checkedIds = getCheckedIds();
+             renderCharacters(allCharacters);
+             setCheckedIds(checkedIds);
+             bindCheckboxEvents();
+             applyFilters();
+             syncShareUrl();
          }
          
          function escapeHtml(value) {
@@ -732,15 +787,16 @@
          async function init() {
              applyTheme();
              setupLanguageSelect();
+             applyUiLanguage();
              setupFilterButtons();
              loadFilterState();
              updateFilterButtons();
              try {
                  const response = await fetch(DATA_FILE, { cache: 'no-store' });
                  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                 const characters = await response.json();
-                 characters.sort((a, b) => new Date(b.date) - new Date(a.date));
-                 renderCharacters(characters);
+                 allCharacters = await response.json();
+                 allCharacters.sort((a, b) => new Date(b.date) - new Date(a.date));
+                 renderCharacters(allCharacters);
                  applyFilters();
          
                  const loadedFromUrl = loadFromUrl();
@@ -749,9 +805,7 @@
                      syncShareUrl();
                  }
          
-                 getNormalCheckboxes().forEach(cb => {
-                     cb.addEventListener('change', () => syncShareUrl());
-                 });
+                 bindCheckboxEvents();
              } catch (error) {
                  console.error(error);
                  document.getElementById('dynamic-list').innerHTML = '<div class="error">讀取 characters.json 失敗，請確認 index.html 和 characters.json 放在同一個資料夾。</div>';
