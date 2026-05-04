@@ -740,7 +740,8 @@
                  reset: 'Reset 表格',
                  viewList: '列表顯示',
                  viewTable: '表格顯示',
-                 selectAll: '全選'
+                 selectAll: '全選',
+                 releaseDate: '開放日期：'
              },
              ja: {
                  title: '所持キャラ一覧',
@@ -749,6 +750,7 @@
                  viewList: 'リスト表示',
                  viewTable: '表形式',
                  selectAll: '全て'
+                 releaseDate: '実装日：'
              },
              en: {
                  title: 'Character Checklist',
@@ -757,7 +759,8 @@
                  viewList: 'List View',
                  viewTable: 'Table View',
                   selectAll: 'All'
-             }
+                  releaseDate: 'Release Date: '
+                  }
          };
          
          let allCharacters = [];
@@ -816,6 +819,14 @@
              document.querySelectorAll('[data-i18n="selectAll"]').forEach(el => {
          el.textContent = text.selectAll;
          });
+         // ===== 日期多語（只作用在列表模式）=====
+         if (currentView === 'list') {
+         document.querySelectorAll('.date-line').forEach(el => {
+         const rawDate = el.dataset.date || el.textContent.trim();
+         el.dataset.date = rawDate;
+         el.textContent = `${text.releaseDate}${rawDate}`;
+         });
+         }
          }
          
          function bindCheckboxEvents() {
