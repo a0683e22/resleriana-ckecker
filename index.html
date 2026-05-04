@@ -473,6 +473,9 @@
          .action-row button {
          flex: 1;
          }
+         #reset-btn {
+  flex: 0.7;  /* 比較短 */
+}
          .icon-btn {
          display: inline-flex;
          align-items: center;
@@ -581,9 +584,9 @@
                   <img src="images/ui/table.png" alt="表格顯示">
                   <span>表格顯示</span>
                   </button>
-                  <button id="reset-btn" class="btn-reset icon-btn" onclick="resetTable()" title="重置">
-                  <img src="images/ui/reset.png" alt="Reset">
-                  </button>
+                   <button id="reset-btn" class="btn-reset" onclick="resetTable()">
+    Reset 表格
+  </button>
                </div>
                <div class="filter-title">屬性篩選</div>
                <div class="filter-panel" aria-label="屬性篩選">
@@ -1232,16 +1235,28 @@
              applyFilters();
          }
          async function copyUrl() {
-             const urlText = getShareUrl();
-             document.getElementById('result-url').innerText = urlText;
-             saveToLocalStorage();
-             try {
-                 await navigator.clipboard.writeText(urlText);
-                 alert('網址已複製到剪貼簿！');
-             } catch (error) {
-                 prompt('瀏覽器無法自動複製，請手動複製：', urlText);
-             }
-         }
+    const btn = document.getElementById('copy-btn');
+
+    const urlText = getShareUrl();
+    document.getElementById('result-url').innerText = urlText;
+    saveToLocalStorage();
+
+    try {
+        await navigator.clipboard.writeText(urlText);
+
+        // ✅ 成功 → 變勾勾
+        btn.innerHTML = "✔";
+        btn.style.backgroundColor = "#22c55e";
+
+        setTimeout(() => {
+            btn.innerHTML = '<img src="images/ui/copy.png" alt="複製">';
+            btn.style.backgroundColor = "";
+        }, 1000);
+
+    } catch (error) {
+        prompt('瀏覽器無法自動複製，請手動複製：', urlText);
+    }
+}
          
          function loadFromUrl() {
              const params = new URLSearchParams(window.location.search);
