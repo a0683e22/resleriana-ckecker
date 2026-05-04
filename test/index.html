@@ -366,12 +366,12 @@
          .table-card {
          display: flex;
          align-items: flex-start;
-         gap: 10px;
-         padding: 10px;
+         gap: 8px;
+         padding: 8px 10px;
          border: 1px solid var(--border);
          border-radius: 8px;
          background: var(--bg-panel);
-         min-height: 82px;
+         min-height: 58px;
          }
          .table-card .checkbox-wrapper {
          margin-right: 0;
@@ -460,6 +460,9 @@
          min-height: 38px;
          display: flex;
          align-items: center;
+         }
+         #copy-btn {
+         flex: 0 0 auto;
          }
          .copy-icon-btn {
          flex: 0 0 auto;
@@ -667,6 +670,26 @@
              '防禦者': 'images/role/d.ab8d93.png',
              '支援者': 'images/role/s.0c211b.png'
          };
+         const ROLE_TEXT = {
+         zh: {
+         '攻擊者': '攻擊者',
+         '破防者': '破防者',
+         '防禦者': '防禦者',
+         '支援者': '支援者'
+         },
+         ja: {
+         '攻擊者': 'アタッカー',
+         '破防者': 'ブレイカー',
+         '防禦者': 'ディフェンダー',
+         '支援者': 'サポーター'
+         },
+         en: {
+         '攻擊者': 'Attacker',
+         '破防者': 'Breaker',
+         '防禦者': 'Defender',
+         '支援者': 'Supporter'
+         }
+         };
          
          const UI_TEXT = {
              zh: {
@@ -674,21 +697,24 @@
                  copy: '複製網址',
                  reset: 'Reset 表格',
                  viewList: '列表顯示',
-                 viewTable: '表格顯示'
+                 viewTable: '表格顯示',
+                 selectAll: '全選'
              },
              ja: {
                  title: '所持キャラ一覧',
                  copy: 'URLをコピー',
                  reset: '表をリセット',
                  viewList: 'リスト表示',
-                 viewTable: '表形式'
+                 viewTable: '表形式',
+                 selectAll: '全て'
              },
              en: {
                  title: 'Character Checklist',
                  copy: 'Copy URL',
                  reset: 'Reset Table',
                  viewList: 'List View',
-                 viewTable: 'Table View'
+                 viewTable: 'Table View',
+                  selectAll: 'All'
              }
          };
          
@@ -745,6 +771,9 @@
              setButtonLabel(resetBtn, text.reset);
              setButtonLabel(viewListBtn, text.viewList);
              setButtonLabel(viewTableBtn, text.viewTable);
+             document.querySelectorAll('[data-i18n="selectAll"]').forEach(el => {
+         el.textContent = text.selectAll;
+         });
          }
          
          function bindCheckboxEvents() {
@@ -756,6 +785,7 @@
          function rerenderCharactersKeepChecked() {
              const checkedIds = getCheckedIds();
              renderCharacters(allCharacters);
+             applyUiLanguage();
              setCheckedIds(checkedIds);
              bindCheckboxEvents();
              setupTableSelectAll();
@@ -774,6 +804,7 @@
                      document.body.setAttribute("data-view", currentView);
                      localStorage.setItem('viewMode', currentView);
                      renderCharacters(allCharacters);
+                     applyUiLanguage();
                      setCheckedIds(checkedIds);
                      bindCheckboxEvents();
                      setupTableSelectAll();
@@ -915,7 +946,7 @@
                  en: ['en', '英文']
              };
              const fallbackKeys = ['zh', 'tw', 'zh_tw', 'zh-TW', 'zh_Hant', 'ja', 'jp', 'en'];
-
+         
              if (char.name && typeof char.name === 'object') {
                  const preferredKeys = langKeyMap[currentLang] || ['zh'];
                  for (const key of preferredKeys) {
@@ -926,7 +957,7 @@
                  }
                  return Object.values(char.name).find(Boolean) || '';
              }
-
+         
              const flatNameMap = {
                  zh: ['name_zh', 'zh_name', 'name_tw', 'name_zh_tw', '角色名稱', '中文名稱'],
                  ja: ['name_ja', 'ja_name', 'name_jp', 'jp_name', '日文名稱'],
@@ -935,7 +966,7 @@
              for (const key of (flatNameMap[currentLang] || flatNameMap.zh)) {
                  if (char[key]) return char[key];
              }
-
+         
              return char.name ?? char['角色名稱'] ?? char.fullname ?? char.full_name ?? '';
          }
          
@@ -1047,7 +1078,7 @@
                          <div class="info">
                              <label for="c${id}" class="main-line">
                                  <span class="attr-tag tag-${escapeHtml(attr)}">${escapeHtml(attr)}</span>
-                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(role)}" title="${escapeHtml(role)}">` : ''}
+                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
                                  ${escapeHtml(name)}
                              </label>
                              <span class="date-line">${escapeHtml(dateText)}</span>
@@ -1100,7 +1131,7 @@
                          </div>
                          <div class="table-info">
                              <label for="c${id}" class="table-name">
-                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(role)}" title="${escapeHtml(role)}">` : ''}
+                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
                                  <span>${escapeHtml(name)}</span>
                              </label>
                              <div class="table-date">${escapeHtml(dateText)}</div>
@@ -1115,18 +1146,18 @@
                          <div class="matrix-cell matrix-head">
                              <label class="select-label select-all-label" title="全表格全選">
                                  <input type="checkbox" id="select-all">
-                                 <span>全選</span>
+                                 <span data-i18n="selectAll">全選</span>
                              </label>
                          </div>
                          ${roleOrder.map(role => `
                              <div class="matrix-cell matrix-head">
                                  <div class="matrix-title-line">
-                                     ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(role)}">` : ''}
-                                     <span>${escapeHtml(role)}</span>
+                                     ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
+                                     <span>${escapeHtml(ROLE_TEXT[currentLang][role] || role)}</span>
                                  </div>
                                  <label class="select-label role-select-label" title="${escapeHtml(role)}全選">
                                      <input type="checkbox" data-col="${escapeHtml(role)}">
-                                     <span>全選</span>
+                                     <span data-i18n="selectAll">全選</span>
                                  </label>
                              </div>
                          `).join('')}
@@ -1139,7 +1170,7 @@
                                  </div>
                                  <label class="select-label attr-select-label" title="${escapeHtml(attr)}屬性全選">
                                      <input type="checkbox" data-row="${escapeHtml(attr)}">
-                                     <span>全選</span>
+                                     <span data-i18n="selectAll">全選</span>
                                  </label>
                              </div>
                              ${roleOrder.map(role => {
@@ -1330,6 +1361,7 @@
                  allCharacters = await response.json();
                  allCharacters.sort((a, b) => new Date(b.date) - new Date(a.date));
                  renderCharacters(allCharacters);
+                 applyUiLanguage();
                  applyFilters();
          
                  const loadedFromUrl = loadFromUrl();
