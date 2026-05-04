@@ -817,7 +817,12 @@
                  const response = await fetch(DATA_FILE, { cache: 'no-store' });
                  if (!response.ok) throw new Error(`HTTP ${response.status}`);
                  allCharacters = await response.json();
-                 allCharacters.sort((a, b) => new Date(b.date) - new Date(a.date));
+                 allCharacters.sort((a, b) => {
+    const dateDiff = new Date(b.date) - new Date(a.date);
+    if (dateDiff !== 0) return dateDiff;
+
+    return Number(b.id) - Number(a.id);  // ⭐ 這行就是你要的
+});
                  renderCharacters(allCharacters);
                  applyFilters();
          
