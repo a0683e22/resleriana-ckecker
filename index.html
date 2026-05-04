@@ -7,13 +7,22 @@
       <link rel="icon" href="favicon.ico">
       <style>
          :root {
+         --bg-body: #020617;
+         --bg-card: #0f172a;
+         --bg-panel: #111827;
+         --text-main: #f8fafc;
+         --text-sub: #94a3b8;
+         --border: #1e293b;
+         --primary: #3b82f6;
+         --danger: #ef4444;
+         }
+         body.light {
          --bg-body: #f3f4f6;
          --bg-card: #ffffff;
+         --bg-panel: #f9fafb;
          --text-main: #111827;
          --text-sub: #6b7280;
          --border: #e5e7eb;
-         --primary: #2563eb;
-         --danger: #ef4444;
          }
          body {
          font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
@@ -35,7 +44,7 @@
          }
          header {
          padding: 20px;
-         background: #ffffff;
+         background: var(--bg-card);
          border-bottom: 2px solid var(--border);
          text-align: center;
          position: sticky;
@@ -45,7 +54,7 @@
          h1 { margin: 0 0 14px; }
          .control-panel {
          padding: 15px;
-         background: #f9fafb;
+         background: var(--bg-panel);
          border-bottom: 1px solid var(--border);
          display: flex;
          flex-direction: column;
@@ -71,7 +80,8 @@
          border: 1px solid var(--border);
          border-radius: 4px;
          font-size: 0.8rem;
-         background: white;
+         background: var(--bg-panel);
+         color: var(--text-main);
          word-break: break-all;
          min-height: 20px;
          text-align: left;
@@ -96,7 +106,7 @@
          padding: 7px 11px;
          border: 1px solid var(--border);
          border-radius: 999px;
-         background: #ffffff;
+         background: var(--bg-panel);
          color: var(--text-main);
          font-size: 0.88rem;
          }
@@ -115,8 +125,8 @@
          padding: 4px;
          border-radius: 999px;
          border: 1px solid var(--border);
-         background: #ffffff;
-         opacity: 0.55;
+         background: var(--bg-panel);
+         opacity: 0.65;
          }
          .role-filter-btn img {
          width: 100%;
@@ -126,7 +136,7 @@
          }
          .role-filter-btn.active {
          opacity: 1;
-         background: #dbeafe;
+         background: rgba(59, 130, 246, 0.22);
          border-color: var(--primary);
          box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
          }
@@ -144,7 +154,9 @@
          .info { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
          .main-line { display: flex; align-items: center; font-size: 1.05rem; font-weight: 600; cursor: pointer; line-height: 1.35; }
          .fixed .main-line { cursor: default; }
-         .fixed { background: #fafafa; }
+         .fixed {
+  background: var(--bg-card);
+}
          .attr-tag {
          padding: 2px 10px;
          border-radius: 6px;
@@ -173,6 +185,38 @@
          .tag-斬 { background-color: #4b5563; }
          .tag-打 { background-color: #78350f; }
          .tag-突 { background-color: #4338ca; }
+
+         .title-row {
+         position: relative;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 0 0 14px;
+         }
+         .title-row h1 {
+         margin: 0;
+         color: var(--text-main);
+         }
+         .theme-toggle {
+         position: absolute;
+         right: 0;
+         top: 50%;
+         transform: translateY(-50%);
+         width: 36px;
+         height: 36px;
+         padding: 0;
+         border-radius: 999px;
+         border: 1px solid var(--border);
+         background: var(--bg-panel);
+         color: var(--text-main);
+         font-size: 18px;
+         line-height: 1;
+         cursor: pointer;
+         flex: 0 0 auto;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         }
          @media (max-width: 480px) {
          body { padding: 12px; }
          header { padding: 16px; }
@@ -186,7 +230,7 @@
          padding: 4px;
          border-radius: 999px;
          border: 1px solid var(--border);
-         background: #ffffff;
+         background: var(--bg-panel);
          display: flex;
          align-items: center;
          justify-content: center;
@@ -214,7 +258,7 @@
          padding: 4px;
          border-radius: 999px;
          border: 1px solid var(--border);
-         background: #ffffff;
+         background: var(--bg-panel);
          opacity: 0.70;
          }
          .attr-btn img {
@@ -225,7 +269,7 @@
          }
          .attr-btn.active {
          opacity: 1;
-         background: #dbeafe;
+         background: rgba(59, 130, 246, 0.22);
          border-color: var(--primary);
          box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
          }
@@ -234,7 +278,10 @@
    <body>
       <div class="container">
          <header>
-            <h1>角色持有清單</h1>
+            <div class="title-row">
+               <h1>角色持有清單</h1>
+               <button id="theme-toggle" class="theme-toggle" type="button" onclick="toggleTheme()" title="切換深淺模式" aria-label="切換深淺模式">💡</button>
+            </div>
             <div class="control-panel">
                <div id="result-url">讀取中...</div>
                <div class="button-group">
@@ -296,25 +343,27 @@
                <div class="loading">角色資料讀取中...</div>
             </div>
             <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面。固定角色沒有職種圖。 -->
-            <div class="item fixed" data-attr="火" data-role="">
+            <div class="item fixed" data-attr="火" data-role="攻擊者">
                <div class="checkbox-wrapper">
                   <input type="checkbox" id="c189" class="char-cb fixed-cb" checked disabled>
                </div>
                <div class="info">
                   <label for="c189" class="main-line">
                   <span class="attr-tag tag-火">火</span>
+                  <img class="role-icon" src="images/role/a.52ca9a.png" alt="攻擊者">
                   蕾斯娜【未來に夢を求めし者】
                   </label>
                   <span class="date-line">初始固定角色</span>
                </div>
             </div>
-            <div class="item fixed" data-attr="風" data-role="">
+            <div class="item fixed" data-attr="風" data-role="破防者">
                <div class="checkbox-wrapper">
                   <input type="checkbox" id="c180" class="char-cb fixed-cb" checked disabled>
                </div>
                <div class="info">
                   <label for="c180" class="main-line">
                   <span class="attr-tag tag-風">風</span>
+                  <img class="role-icon" src="images/role/b.2e7b02.png" alt="破防者">
                   夏莉絲堤菈【族長的娘】
                   </label>
                   <span class="date-line">初始固定角色</span>
@@ -343,6 +392,19 @@
          
          let activeAttrFilters = new Set();
          let activeRoleFilters = new Set();
+         let currentTheme = localStorage.getItem('theme') || 'dark';
+
+         function applyTheme() {
+             document.body.classList.toggle('light', currentTheme === 'light');
+             const btn = document.getElementById('theme-toggle');
+             if (btn) btn.textContent = currentTheme === 'dark' ? '💡' : '☪';
+         }
+
+         function toggleTheme() {
+             currentTheme = currentTheme === 'dark' ? 'light' : 'dark';
+             localStorage.setItem('theme', currentTheme);
+             applyTheme();
+         }
          
          function escapeHtml(value) {
              return String(value ?? '')
@@ -618,6 +680,7 @@
          }
          
          async function init() {
+             applyTheme();
              setupFilterButtons();
              loadFilterState();
              updateFilterButtons();
