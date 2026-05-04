@@ -33,6 +33,12 @@
          display: flex;
          justify-content: center;
          }
+         body[data-view="list"] .container {
+         max-width: 640px;
+         }
+         body[data-view="table"] .container {
+         max-width: 1280px;
+         }
          .container {
          width: 100%;
          max-width: 550px;
@@ -55,7 +61,7 @@
          .control-panel {
          padding: 15px;
          background: var(--bg-panel);
-         /*border-bottom: 1px solid var(--border);*/
+         border-bottom: 1px solid var(--border);
          display: flex;
          flex-direction: column;
          gap: 10px;
@@ -280,6 +286,137 @@
          gap: 8px;
          align-items: center;
          }
+         .view-toggle {
+         display: flex;
+         gap: 8px;
+         }
+         .view-btn {
+         flex: 1;
+         padding: 8px 10px;
+         border-radius: 8px;
+         border: 1px solid var(--border);
+         background: var(--bg-panel);
+         color: var(--text-main);
+         }
+         .view-btn.active {
+         background: var(--primary);
+         color: #ffffff;
+         border-color: var(--primary);
+         }
+         .table-view {
+         overflow-x: auto;
+         border-top: 1px solid var(--border);
+         }
+         .matrix-table {
+         min-width: 1180px;
+         display: grid;
+         grid-template-columns: 90px repeat(4, minmax(260px, 1fr));
+         border-left: 1px solid var(--border);
+         border-top: 1px solid var(--border);
+         }
+         .matrix-cell {
+         border-right: 1px solid var(--border);
+         border-bottom: 1px solid var(--border);
+         background: var(--bg-card);
+         min-height: 80px;
+         }
+         .matrix-head {
+         position: sticky;
+         top: 0;
+         z-index: 2;
+         min-height: auto;
+         padding: 10px 8px;
+         background: var(--bg-panel);
+         font-size: 0.85rem;
+         font-weight: 700;
+         text-align: center;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 6px;
+         }
+         .matrix-head img {
+         width: 24px;
+         height: 24px;
+         object-fit: contain;
+         }
+         .matrix-attr {
+         position: sticky;
+         left: 0;
+         z-index: 1;
+         background: var(--bg-panel);
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 6px;
+         font-size: 0.85rem;
+         font-weight: 700;
+         }
+         .matrix-attr img {
+         width: 28px;
+         height: 28px;
+         object-fit: contain;
+         }
+         .matrix-slot {
+         padding: 6px;
+         display: flex;
+         flex-direction: column;
+         gap: 6px;
+         }
+         .table-card {
+         display: flex;
+         align-items: flex-start;
+         gap: 10px;
+         padding: 10px;
+         border: 1px solid var(--border);
+         border-radius: 8px;
+         background: var(--bg-panel);
+         min-height: 82px;
+         }
+         .table-card .checkbox-wrapper {
+         margin-right: 0;
+         padding-top: 2px;
+         }
+         .table-card input[type="checkbox"] {
+         width: 18px;
+         height: 18px;
+         }
+         .table-info {
+         min-width: 0;
+         flex: 1;
+         }
+         .table-name {
+         display: flex;
+         align-items: center;
+         gap: 4px;
+         font-size: 0.8rem;
+         font-weight: 600;
+         line-height: 1.35;
+         word-break: break-word;
+         cursor: pointer;
+         }
+         .table-name .role-icon {
+         width: 20px;
+         height: 20px;
+         margin-right: 0;
+         }
+         .table-date {
+         margin-top: 3px;
+         font-size: 0.7rem;
+         color: var(--text-sub);
+         }
+         .matrix-empty {
+         color: var(--text-sub);
+         font-size: 0.75rem;
+         padding: 8px;
+         opacity: 0.6;
+         }
+         @media (max-width: 700px) {
+         .matrix-table {
+         min-width: 1180px;
+         grid-template-columns: 90px repeat(4, minmax(260px, 1fr));
+         }
+         }
          .lang-select {
          height: 36px;
          border-radius: 999px;
@@ -319,6 +456,10 @@
                <div class="button-group">
                   <button id="copy-btn" class="btn-copy" onclick="copyUrl()">複製網址</button>
                   <button id="reset-btn" class="btn-reset" onclick="resetTable()">Reset 表格</button>
+               </div>
+               <div class="view-toggle" aria-label="顯示模式">
+                  <button id="view-list-btn" class="view-btn active" type="button" data-view-mode="list">列表顯示</button>
+                  <button id="view-table-btn" class="view-btn" type="button" data-view-mode="table">表格顯示</button>
                </div>
                <div class="filter-title">屬性篩選</div>
                <div class="filter-panel" aria-label="屬性篩選">
@@ -374,39 +515,6 @@
             <div id="dynamic-list">
                <div class="loading">角色資料讀取中...</div>
             </div>
-            <!-- 固定角色：固定寫在 index.html，JSON 角色會載入在這兩位上面。固定角色沒有職種圖。 -->
-            <div class="item fixed" data-attr="火" data-role="攻擊者">
-               <div class="checkbox-wrapper">
-                  <input type="checkbox" id="c189" class="char-cb fixed-cb" checked disabled>
-               </div>
-               <div class="info">
-                  <label for="c189" class="main-line">
-                  <span class="attr-tag tag-火">火</span>
-                  <img class="role-icon" src="images/role/a.52ca9a.png" alt="攻擊者">
-                  <span class="fixed-name"
-                     data-zh="蕾斯娜【未來に夢を求めし者】"
-                     data-ja="レスナ【未来に夢を求めし者】"
-                     data-en="Resna【未来に夢を求めし者】">蕾斯娜【未來に夢を求めし者】</span>
-                  </label>
-                  <span class="date-line">初始固定角色</span>
-               </div>
-            </div>
-            <div class="item fixed" data-attr="風" data-role="破防者">
-               <div class="checkbox-wrapper">
-                  <input type="checkbox" id="c180" class="char-cb fixed-cb" checked disabled>
-               </div>
-               <div class="info">
-                  <label for="c180" class="main-line">
-                  <span class="attr-tag tag-風">風</span>
-                  <img class="role-icon" src="images/role/b.2e7b02.png" alt="破防者">
-                  <span class="fixed-name"
-                     data-zh="夏莉絲堤菈【族長的娘】"
-                     data-ja="シャリステラ【族長の娘】"
-                     data-en="Shallie【族長の娘】">夏莉絲堤菈【族長的娘】</span>
-                  </label>
-                  <span class="date-line">初始固定角色</span>
-               </div>
-            </div>
          </div>
       </div>
       <script>
@@ -415,6 +523,7 @@
          const ROLE_FILTER_STORAGE_KEY = 'resleri_character_role_filters_v1';
          const DATA_FILE = 'characters.json';
          const BASE_CHARS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~_';
+         const FIXED_CHARACTER_IDS = new Set(['0', '23']);
          
          const ROLE_ALIASES = {
              1: '攻擊者', '1': '攻擊者', 'Attacker': '攻擊者', 'attacker': '攻擊者', '攻擊者': '攻擊者',
@@ -433,17 +542,23 @@
              zh: {
                  title: '角色持有清單',
                  copy: '複製網址',
-                 reset: 'Reset 表格'
+                 reset: 'Reset 表格',
+                 viewList: '列表顯示',
+                 viewTable: '表格顯示'
              },
              ja: {
                  title: '所持キャラ一覧',
                  copy: 'URLをコピー',
-                 reset: '表をリセット'
+                 reset: '表をリセット',
+                 viewList: 'リスト表示',
+                 viewTable: '表形式'
              },
              en: {
                  title: 'Character Checklist',
                  copy: 'Copy URL',
-                 reset: 'Reset Table'
+                 reset: 'Reset Table',
+                 viewList: 'List View',
+                 viewTable: 'Table View'
              }
          };
          
@@ -452,6 +567,7 @@
          let activeRoleFilters = new Set();
          let currentTheme = localStorage.getItem('theme') || 'dark';
          let currentLang = localStorage.getItem('lang') || 'zh';
+         let currentView = localStorage.getItem('viewMode') || 'list';
          
          function applyTheme() {
              document.body.classList.toggle('light', currentTheme === 'light');
@@ -482,13 +598,13 @@
              const title = document.getElementById('page-title');
              const copyBtn = document.getElementById('copy-btn');
              const resetBtn = document.getElementById('reset-btn');
+             const viewListBtn = document.getElementById('view-list-btn');
+             const viewTableBtn = document.getElementById('view-table-btn');
              if (title) title.textContent = text.title;
              if (copyBtn) copyBtn.textContent = text.copy;
              if (resetBtn) resetBtn.textContent = text.reset;
-         
-         document.querySelectorAll('.fixed-name').forEach(el => {
-         el.textContent = el.dataset[currentLang] || el.dataset.zh || '';
-         });
+             if (viewListBtn) viewListBtn.textContent = text.viewList;
+             if (viewTableBtn) viewTableBtn.textContent = text.viewTable;
          }
          
          function bindCheckboxEvents() {
@@ -504,6 +620,33 @@
              bindCheckboxEvents();
              applyFilters();
              syncShareUrl();
+         }
+         
+         
+         function setupViewButtons() {
+             document.querySelectorAll('[data-view-mode]').forEach(btn => {
+                 btn.addEventListener('click', () => {
+                     const mode = btn.dataset.viewMode;
+                     if (!mode || mode === currentView) return;
+                     const checkedIds = getCheckedIds();
+                     currentView = mode;
+                     document.body.setAttribute("data-view", currentView);
+                     localStorage.setItem('viewMode', currentView);
+                     renderCharacters(allCharacters);
+                     setCheckedIds(checkedIds);
+                     bindCheckboxEvents();
+                     applyFilters();
+                     syncShareUrl();
+                     updateViewButtons();
+                 });
+             });
+             updateViewButtons();
+         }
+         
+         function updateViewButtons() {
+             document.querySelectorAll('[data-view-mode]').forEach(btn => {
+                 btn.classList.toggle('active', btn.dataset.viewMode === currentView);
+             });
          }
          
          function escapeHtml(value) {
@@ -528,9 +671,9 @@
          const finalUrl = getShareUrl();
          document.getElementById('result-url').innerText = finalUrl;
          
-         /*if (updateAddressBar && window.history && window.history.replaceState) {
+         if (updateAddressBar && window.history && window.history.replaceState) {
          window.history.replaceState({}, document.title, finalUrl);
-         }*/
+         }
          
          saveToLocalStorage();
          return finalUrl;
@@ -547,6 +690,14 @@
          
          function getCharacterId(char) {
              return Number(char.id ?? char['角色ID'] ?? char.character_id ?? char.chara_id);
+         }
+         
+         function isFixedCharacterId(id) {
+             return FIXED_CHARACTER_IDS.has(String(id));
+         }
+         
+         function getCheckboxAttrs(id) {
+             return isFixedCharacterId(id) ? ' checked disabled' : '';
          }
          
          function getCharacterName(char) {
@@ -641,6 +792,15 @@
          }
          
          function renderCharacters(characters) {
+             if (currentView === 'table') {
+                 renderCharactersTable(characters);
+             } else {
+                 renderCharactersList(characters);
+             }
+             updateViewButtons();
+         }
+         
+         function renderCharactersList(characters) {
              const list = document.getElementById('dynamic-list');
              list.innerHTML = characters.map(char => {
                  const id = getCharacterId(char);
@@ -651,13 +811,13 @@
                  const dateText = getDateText(char);
                  const name = getCharacterName(char);
                  return `
-                     <div class="item" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
+                     <div class="item${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
                          <div class="checkbox-wrapper">
-                             <input type="checkbox" id="c${id}" class="char-cb">
+                             <input type="checkbox" id="c${id}" class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"${getCheckboxAttrs(id)}>
                          </div>
                          <div class="info">
                              <label for="c${id}" class="main-line">
-                                 <span class="attr-tag tag-${attr}">${attr}</span>
+                                 <span class="attr-tag tag-${escapeHtml(attr)}">${escapeHtml(attr)}</span>
                                  ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(role)}" title="${escapeHtml(role)}">` : ''}
                                  ${escapeHtml(name)}
                              </label>
@@ -666,6 +826,88 @@
                      </div>
                  `;
              }).join('');
+         }
+         
+         function renderCharactersTable(characters) {
+             const list = document.getElementById('dynamic-list');
+             const attrOrder = ['火', '冰', '雷', '風', '斬', '打', '突'];
+             const roleOrder = ['攻擊者', '破防者', '防禦者', '支援者'];
+             const attrIconMap = {
+                 '火': 'images/attr/f.1dbf47.png',
+                 '冰': 'images/attr/i.b647e3.png',
+                 '雷': 'images/attr/l.119818.png',
+                 '風': 'images/attr/w.d06628.png',
+                 '斬': 'images/attr/s.42817b.png',
+                 '打': 'images/attr/k.3148cc.png',
+                 '突': 'images/attr/t.ac73b3.png'
+             };
+         
+             const groups = new Map();
+             attrOrder.forEach(attr => {
+                 roleOrder.forEach(role => {
+                     groups.set(`${attr}|${role}`, []);
+                 });
+             });
+         
+             characters.forEach(char => {
+                 const attr = getCharacterAttr(char);
+                 const role = getCharacterRole(char);
+                 const key = `${attr}|${role}`;
+                 if (!groups.has(key)) groups.set(key, []);
+                 groups.get(key).push(char);
+             });
+         
+             const renderCard = (char, attr) => {
+                 const id = getCharacterId(char);
+                 if (!Number.isFinite(id)) return '';
+                 const role = getCharacterRole(char);
+                 const roleIcon = ROLE_ICON_MAP[role] || '';
+                 const dateText = getDateText(char);
+                 const name = getCharacterName(char);
+                 return `
+                     <div class="item table-card${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
+                         <div class="checkbox-wrapper">
+                             <input type="checkbox" id="c${id}" class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"${getCheckboxAttrs(id)}>
+                         </div>
+                         <div class="table-info">
+                             <label for="c${id}" class="table-name">
+                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(role)}" title="${escapeHtml(role)}">` : ''}
+                                 <span>${escapeHtml(name)}</span>
+                             </label>
+                             <div class="table-date">${escapeHtml(dateText)}</div>
+                         </div>
+                     </div>
+                 `;
+             };
+         
+             list.innerHTML = `
+                 <div class="table-view">
+                     <div class="matrix-table">
+                         <div class="matrix-cell matrix-head"></div>
+                         ${roleOrder.map(role => `
+                             <div class="matrix-cell matrix-head">
+                                 ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(role)}">` : ''}
+                                 <span>${escapeHtml(role)}</span>
+                             </div>
+                         `).join('')}
+         
+                         ${attrOrder.map(attr => `
+                             <div class="matrix-cell matrix-attr">
+                                 <img src="${attrIconMap[attr]}" alt="${escapeHtml(attr)}">
+                                 <span>${escapeHtml(attr)}</span>
+                             </div>
+                             ${roleOrder.map(role => {
+                                 const chars = groups.get(`${attr}|${role}`) || [];
+                                 return `
+                                     <div class="matrix-cell matrix-slot">
+                                         ${chars.length ? chars.map(char => renderCard(char, attr)).join('') : '<div class="matrix-empty">—</div>'}
+                                     </div>
+                                 `;
+                             }).join('')}
+                         `).join('')}
+                     </div>
+                 </div>
+             `;
          }
          
          function getNormalCheckboxes() {
@@ -681,8 +923,14 @@
          
          function setCheckedIds(ids) {
              const idSet = new Set(ids.map(String));
-             getNormalCheckboxes().forEach(cb => {
-                 cb.checked = idSet.has(cb.id.replace('c', ''));
+             document.querySelectorAll('.char-cb').forEach(cb => {
+                 const id = cb.id.replace('c', '');
+                 if (isFixedCharacterId(id)) {
+                     cb.checked = true;
+                     cb.disabled = true;
+                 } else {
+                     cb.checked = idSet.has(id);
+                 }
              });
          }
          
@@ -755,7 +1003,7 @@
          
          function resetTable() {
              if (confirm('確定要重置所有勾選嗎？')) {
-                 getNormalCheckboxes().forEach(cb => cb.checked = false);
+                 setCheckedIds([]);
                  localStorage.removeItem(STORAGE_KEY);
                  syncShareUrl();
              }
@@ -810,6 +1058,8 @@
              applyTheme();
              setupLanguageSelect();
              applyUiLanguage();
+             setupViewButtons();
+             document.body.setAttribute("data-view", currentView);
              setupFilterButtons();
              loadFilterState();
              updateFilterButtons();
@@ -817,12 +1067,7 @@
                  const response = await fetch(DATA_FILE, { cache: 'no-store' });
                  if (!response.ok) throw new Error(`HTTP ${response.status}`);
                  allCharacters = await response.json();
-                 allCharacters.sort((a, b) => {
-    const dateDiff = new Date(b.date) - new Date(a.date);
-    if (dateDiff !== 0) return dateDiff;
-
-    return Number(b.id) - Number(a.id);  // ⭐ 這行就是你要的
-});
+                 allCharacters.sort((a, b) => new Date(b.date) - new Date(a.date));
                  renderCharacters(allCharacters);
                  applyFilters();
          
