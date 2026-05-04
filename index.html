@@ -635,6 +635,7 @@
                      renderCharacters(allCharacters);
                      setCheckedIds(checkedIds);
                      bindCheckboxEvents();
+                     setupTableSelectAll();
                      applyFilters();
                      syncShareUrl();
                      updateViewButtons();
@@ -647,6 +648,44 @@
              document.querySelectorAll('[data-view-mode]').forEach(btn => {
                  btn.classList.toggle('active', btn.dataset.viewMode === currentView);
              });
+         }
+         function setupTableSelectAll() {
+         
+         // 🔹 全表全選
+         const selectAll = document.getElementById('select-all');
+         if (selectAll) {
+         selectAll.onchange = () => {
+         document.querySelectorAll('.table-card input[type="checkbox"]:not(:disabled)')
+         .forEach(cb => {
+          cb.checked = selectAll.checked;
+          cb.dispatchEvent(new Event('change'));
+         });
+         };
+         }
+         
+         // 🔹 職種全選（欄）
+         document.querySelectorAll('[data-col]').forEach(cb => {
+         cb.onchange = () => {
+         const role = cb.dataset.col;
+         document.querySelectorAll(`.table-card[data-role="${role}"] input[type="checkbox"]:not(:disabled)`)
+         .forEach(box => {
+          box.checked = cb.checked;
+          box.dispatchEvent(new Event('change'));
+         });
+         };
+         });
+         
+         // 🔹 屬性全選（列）
+         document.querySelectorAll('[data-row]').forEach(cb => {
+         cb.onchange = () => {
+         const attr = cb.dataset.row;
+         document.querySelectorAll(`.table-card[data-attr="${attr}"] input[type="checkbox"]:not(:disabled)`)
+         .forEach(box => {
+          box.checked = cb.checked;
+          box.dispatchEvent(new Event('change'));
+         });
+         };
+         });
          }
          
          function escapeHtml(value) {
