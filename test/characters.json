@@ -1,0 +1,2306 @@
+[
+   {
+    "id": 191,
+    "attr": "打",
+    "name": {
+      "zh": "海蒂【Buddy's Returning】",
+      "ja": "ハイディ【Buddy's Returning】",
+      "en": "Heidi【Buddy's Returning】"
+    },
+    "date": "2026-05-01",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 190,
+    "attr": "打",
+    "name": {
+      "zh": "卡蘿琳【Courageous Sister】",
+      "ja": "カロリン【Courageous Sister】",
+      "en": "Caroline【Courageous Sister】"
+    },
+    "date": "2026-04-24",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 189,
+    "attr": "雷",
+    "name": {
+      "zh": "伊札娜【Cutie☆Cat】",
+      "ja": "イザナ【Cutie☆Cat】",
+      "en": "Izana【Cutie☆Cat】"
+    },
+    "date": "2026-04-10",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 188,
+    "attr": "雷",
+    "name": {
+      "zh": "約翰娜【Cutie☆Hamster】",
+      "ja": "ヨハナ【Cutie☆Hamster】",
+      "en": "Johanna【Cutie☆Hamster】"
+    },
+    "date": "2026-04-03",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 187,
+    "attr": "雷",
+    "name": {
+      "zh": "鬼門【Cutie☆Fox】",
+      "ja": "鬼門【Cutie☆Fox】",
+      "en": "Kimon【Cutie☆Fox】"
+    },
+    "date": "2026-03-30",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 186,
+    "attr": "突",
+    "name": {
+      "zh": "艾爾斯【Absolute Order】",
+      "ja": "エルス【Absolute Order】",
+      "en": "Els【Absolute Order】"
+    },
+    "date": "2026-03-19",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 185,
+    "attr": "突",
+    "name": {
+      "zh": "莉貝【九偉人 No.6】",
+      "ja": "リーベ【九偉人 No.6】",
+      "en": "Liebe【九偉人 No.6】"
+    },
+    "date": "2026-03-13",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 184,
+    "attr": "冰",
+    "name": {
+      "zh": "拉拉【ララ・キングダムの王】",
+      "ja": "ララ【ララ・キングダムの王】",
+      "en": "Lara【ララ・キングダムの王】"
+    },
+    "date": "2026-03-06",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 183,
+    "attr": "突",
+    "name": {
+      "zh": "喬澤【Masked Hunter】",
+      "ja": "ジョゼ【Masked Hunter】",
+      "en": "Jose【Masked Hunter】"
+    },
+    "date": "2026-02-27",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 182,
+    "attr": "冰",
+    "name": {
+      "zh": "蘿樂娜【Startup Supporter】",
+      "ja": "シャリステラ【Startup Supporter】",
+      "en": "Shallie【Startup Supporter】"
+    },
+    "date": "2026-02-21",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 181,
+    "attr": "風",
+    "name": {
+      "zh": "夏莉絲堤菈【Startup Supporter】",
+      "ja": "シャリステラ【Startup Supporter】",
+      "en": "Shallie【Startup Supporter】"
+    },
+    "date": "2026-02-21",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 180,
+    "attr": "火",
+    "name": {
+      "zh": "萊莎【Startup Supporter】",
+      "ja": "シャリステラ【Startup Supporter】",
+      "en": "Shallie【Startup Supporter】"
+    },
+    "date": "2026-02-21",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 179,
+    "attr": "火",
+    "name": {
+      "zh": "蕾斯娜【Startup Supporter】",
+      "ja": "シャリステラ【Startup Supporter】",
+      "en": "Shallie【Startup Supporter】"
+    },
+    "date": "2026-02-21",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 178,
+    "attr": "突",
+    "name": {
+      "zh": "瓦萊莉婭【Startup Supporter】",
+      "ja": "シャリステラ【Startup Supporter】",
+      "en": "Shallie【Startup Supporter】"
+    },
+    "date": "2026-02-21",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 177,
+    "attr": "突",
+    "name": {
+      "zh": "泰妮【Lovable Inspector】",
+      "ja": "タイニー【Lovable Inspector】",
+      "en": "Tiny【Lovable Inspector】"
+    },
+    "date": "2026-02-21",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 176,
+    "attr": "冰",
+    "name": {
+      "zh": "安潔【人形遣いの魔女】",
+      "ja": "アンチュ【人形遣いの魔女】",
+      "en": "Antje【人形遣いの魔女】"
+    },
+    "date": "2026-02-13",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 175,
+    "attr": "冰",
+    "name": {
+      "zh": "克莉賽爾達【極夜の錬金党党首】",
+      "ja": "クリセルダ【極夜の錬金党党首】",
+      "en": "Criselda【極夜の錬金党党首】"
+    },
+    "date": "2026-02-09",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 174,
+    "attr": "斬",
+    "name": {
+      "zh": "傑隆【Break the Curse】",
+      "ja": "ジェロン【Break the Curse】",
+      "en": "Geron【Break the Curse】"
+    },
+    "date": "2026-02-04",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 173,
+    "attr": "突",
+    "name": {
+      "zh": "提姆【Little Knight】",
+      "ja": "ティム【Little Knight】",
+      "en": "Tim【Little Knight】"
+    },
+    "date": "2026-01-30",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 172,
+    "attr": "雷",
+    "name": {
+      "zh": "瓦爾特【Suit of Vertex】",
+      "ja": "ワルター【Suit of Vertex】",
+      "en": "Walther【Suit of Vertex】"
+    },
+    "date": "2026-01-26",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 171,
+    "attr": "雷",
+    "name": {
+      "zh": "史雷【白の意思を継ぐ者】",
+      "ja": "スレイ【白の意思を継ぐ者】",
+      "en": "Slade【白の意思を継ぐ者】"
+    },
+    "date": "2026-01-21",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 170,
+    "attr": "風",
+    "name": {
+      "zh": "莉雅絲【Mistletoe of Hope】",
+      "ja": "リアス【Mistletoe of Hope】",
+      "en": "Rias【Mistletoe of Hope】"
+    },
+    "date": "2026-01-16",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 169,
+    "attr": "風",
+    "name": {
+      "zh": "蕾斯娜【幸爛漫・福ノ華】",
+      "ja": "レスナ【幸爛漫・福ノ華】",
+      "en": "Resna【幸爛漫・福ノ華】"
+    },
+    "date": "2025-12-31",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 168,
+    "attr": "風",
+    "name": {
+      "zh": "伊札娜【Starry Heavens Tone】",
+      "ja": "イザナ【Starry Heavens Tone】",
+      "en": "Izana【Starry Heavens Tone】"
+    },
+    "date": "2025-12-24",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 167,
+    "attr": "火",
+    "name": {
+      "zh": "安潔【ミルキィバニー】",
+      "ja": "アンチュ【ミルキィバニー】",
+      "en": "Antje【ミルキィバニー】"
+    },
+    "date": "2025-12-19",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 166,
+    "attr": "火",
+    "name": {
+      "zh": "克莉賽爾達【トリッキーバニー】",
+      "ja": "クリセルダ【トリッキーバニー】",
+      "en": "Criselda【トリッキーバニー】"
+    },
+    "date": "2025-12-12",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 165,
+    "attr": "突",
+    "name": {
+      "zh": "格烏【九偉人 No.5】",
+      "ja": "ゴゥ【九偉人 No.5】",
+      "en": "Gou【九偉人 No.5】"
+    },
+    "date": "2025-12-05",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 164,
+    "attr": "突",
+    "name": {
+      "zh": "希特琳【Charming Jewel】",
+      "ja": "シトリン【Charming Jewel】",
+      "en": "Schia"
+    },
+    "date": "2025-11-28",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 163,
+    "attr": "突",
+    "name": {
+      "zh": "莉貝【Innate Strategist】",
+      "ja": "リーベ【Innate Strategist】",
+      "en": "Liebe【Innate Strategist】"
+    },
+    "date": "2025-11-21",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 162,
+    "attr": "突",
+    "name": {
+      "zh": "鴉【月影の執行者】",
+      "ja": "鴉【月影の執行者】",
+      "en": "Crow【月影の執行者】"
+    },
+    "date": "2025-11-07",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 161,
+    "attr": "打",
+    "name": {
+      "zh": "阿爾比娜【トロピカル・シャイン】",
+      "ja": "アルビーナ【トロピカル・シャイン】",
+      "en": "start_at： 2025-10-31"
+    },
+    "date": "2025-10-31",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 160,
+    "attr": "打",
+    "name": {
+      "zh": "穗香【クロス・ザ・ライン】",
+      "ja": "ほのか【クロス・ザ・ライン】",
+      "en": "start_at： 2025-10-24"
+    },
+    "date": "2025-10-24",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 159,
+    "attr": "打",
+    "name": {
+      "zh": "蕾斯娜【ヴィーナス・ノヴァ】",
+      "ja": "レスナ【ヴィーナス・ノヴァ】",
+      "en": "Resna【ヴィーナス・ノヴァ】"
+    },
+    "date": "2025-10-09",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 158,
+    "attr": "打",
+    "name": {
+      "zh": "瑪莉・蘿絲【トゥインクル・ローズ】",
+      "ja": "マリー・ローズ【トゥインクル・ローズ】",
+      "en": "Marie Rose【トゥインクル・ローズ】"
+    },
+    "date": "2025-09-26",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 157,
+    "attr": "打",
+    "name": {
+      "zh": "格烏【Faithful Fighter】",
+      "ja": "ゴゥ【Faithful Fighter】",
+      "en": "Gou【Faithful Fighter】"
+    },
+    "date": "2025-09-19",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 156,
+    "attr": "打",
+    "name": {
+      "zh": "耶爾卡【Nifty Rover】",
+      "ja": "イェルカ【Nifty Rover】",
+      "en": "Jelka【Nifty Rover】"
+    },
+    "date": "2025-09-12",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 155,
+    "attr": "火",
+    "name": {
+      "zh": "耶爾卡【九偉人 No.3】",
+      "ja": "イェルカ【九偉人 No.3】",
+      "en": "Jelka【九偉人 No.3】"
+    },
+    "date": "2025-09-12",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 154,
+    "attr": "雷",
+    "name": {
+      "zh": "千歳【かんなぎの乙女】",
+      "ja": "千歳【かんなぎの乙女】",
+      "en": "Chitose【かんなぎの乙女】"
+    },
+    "date": "2025-09-05",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 153,
+    "attr": "雷",
+    "name": {
+      "zh": "鏑矢【地に輝ける一番星】",
+      "ja": "鏑矢【地に輝ける一番星】",
+      "en": "Kaburaya【地に輝ける一番星】"
+    },
+    "date": "2025-08-29",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 152,
+    "attr": "雷",
+    "name": {
+      "zh": "永遠【口説き上手の式使い】",
+      "ja": "永遠【口説き上手の式使い】",
+      "en": "Towa【口説き上手の式使い】"
+    },
+    "date": "2025-08-22",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 151,
+    "attr": "雷",
+    "name": {
+      "zh": "鬼門【篤き忠義の忍び】",
+      "ja": "鬼門【篤き忠義の忍び】",
+      "en": "Kimon【篤き忠義의忍び】"
+    },
+    "date": "2025-08-15",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 150,
+    "attr": "斬",
+    "name": {
+      "zh": "約翰娜【ブリリアントダイバー】",
+      "ja": "ヨハナ【ブリリアントダイバー】",
+      "en": "Johanna【ブリリアントダイバー】"
+    },
+    "date": "2025-08-08",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 149,
+    "attr": "斬",
+    "name": {
+      "zh": "克莉賽爾達【Seaside Butterfly】",
+      "ja": "クリセルダ【Seaside Butterfly】",
+      "en": "Criselda【Seaside Butterfly】"
+    },
+    "date": "2025-07-31",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 148,
+    "attr": "斬",
+    "name": {
+      "zh": "拉拉【Seaside Queen】",
+      "ja": "ララ【Seaside Queen】",
+      "en": "Lara【Seaside Queen】"
+    },
+    "date": "2025-07-22",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 147,
+    "attr": "斬",
+    "name": {
+      "zh": "安潔【マリンパペッティア】",
+      "ja": "アンチュ【マリンパペッティア】",
+      "en": "Antje【マリンパペッティア】"
+    },
+    "date": "2025-07-11",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 146,
+    "attr": "冰",
+    "name": {
+      "zh": "蘿樂娜【ワンダフルプリンセス】",
+      "ja": "ロロナ【ワンダフルプリンセス】",
+      "en": "Rorona【ワンダフルプリンセス】"
+    },
+    "date": "2025-06-30",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 145,
+    "attr": "冰",
+    "name": {
+      "zh": "托托莉【エンドレスボイジャー】",
+      "ja": "トトリ【エンドレスボイジャー】",
+      "en": "Totori【エンドレスボイジャー】"
+    },
+    "date": "2025-06-24",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 144,
+    "attr": "冰",
+    "name": {
+      "zh": "敏敏【プラウドボイジャー】",
+      "ja": "ミミ【プラウドボイジャー】",
+      "en": "Mimi【プラウドボイジャー】"
+    },
+    "date": "2025-06-19",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 143,
+    "attr": "風",
+    "name": {
+      "zh": "莉拉【雅なる豪傑】",
+      "ja": "リラ【雅なる豪傑】",
+      "en": "Lila【雅なる豪傑】"
+    },
+    "date": "2025-06-13",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 142,
+    "attr": "冰",
+    "name": {
+      "zh": "約翰娜【Phenom's Reborn】",
+      "ja": "ヨハナ【Phenom's Reborn】",
+      "en": "Johanna【Phenom's Reborn】"
+    },
+    "date": "2025-06-06",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 141,
+    "attr": "風",
+    "name": {
+      "zh": "伊札娜【Knight's Beginning】",
+      "ja": "イザナ【Knight's Beginning】",
+      "en": "Izana【Knight's Beginning】"
+    },
+    "date": "2025-05-30",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 140,
+    "attr": "突",
+    "name": {
+      "zh": "尤娜【With Ideals】",
+      "ja": "ユナ【With Ideals】",
+      "en": "Juna【With Ideals】"
+    },
+    "date": "2025-05-21",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 139,
+    "attr": "風",
+    "name": {
+      "zh": "芙洛可【ハートフルミライ】",
+      "ja": "フロッケ【ハートフルミライ】",
+      "en": "Flocke【ハートフルミライ】"
+    },
+    "date": "2025-05-16",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 138,
+    "attr": "風",
+    "name": {
+      "zh": "海蒂【ドリームフューチャー】",
+      "ja": "ハイディ【ドリームフューチャー】",
+      "en": "Heidi【ドリームフューチャー】"
+    },
+    "date": "2025-05-12",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 137,
+    "attr": "突",
+    "name": {
+      "zh": "普拉芙妲【Mighty Manager】",
+      "ja": "プラフタ【Mighty Manager】",
+      "en": "Plachta【Mighty Manager】"
+    },
+    "date": "2025-05-07",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 136,
+    "attr": "風",
+    "name": {
+      "zh": "科洛蒂婭【Blooming Creation】",
+      "ja": "クラウディア【Blooming Creation】",
+      "en": "Klaudia【Blooming Creation】"
+    },
+    "date": "2025-04-30",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 135,
+    "attr": "火",
+    "name": {
+      "zh": "妮娜【ミステリアスな実力者】",
+      "ja": "ニーナ【ミステリアスな実力者】",
+      "en": "Nina【ミステリアスな実力者】"
+    },
+    "date": "2025-04-23",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 134,
+    "attr": "打",
+    "name": {
+      "zh": "魯格【我が道を征く者】",
+      "ja": "ルトガー【我が道を征く者】",
+      "en": "Rutger【我が道を征く者】"
+    },
+    "date": "2025-04-16",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 133,
+    "attr": "火",
+    "name": {
+      "zh": "艾菈【Friendly Fashionista】",
+      "ja": "アイラ【Friendly Fashionista】",
+      "en": "start_at： 2025-04-09"
+    },
+    "date": "2025-04-09",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 132,
+    "attr": "打",
+    "name": {
+      "zh": "蕾妮雅【Sincere Devotion】",
+      "ja": "レイニャ【Sincere Devotion】",
+      "en": "Lenja【Sincere Devotion】"
+    },
+    "date": "2025-04-04",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 131,
+    "attr": "火",
+    "name": {
+      "zh": "優米雅【Seeker of Memories】",
+      "ja": "ユミア【Seeker of Memories】",
+      "en": "Yumia【Seeker of Memories】"
+    },
+    "date": "2025-03-31",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 130,
+    "attr": "打",
+    "name": {
+      "zh": "維克多【正義を貫きし貴族】",
+      "ja": "ヴィクトル【正義を貫きし貴族】",
+      "en": "Victor【正義を貫きし貴族】"
+    },
+    "date": "2025-03-31",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 129,
+    "attr": "斬",
+    "name": {
+      "zh": "瓦萊莉婭【Get Over Limit】",
+      "ja": "ヴァレリア【Get Over Limit】",
+      "en": "Valeria【Get Over Limit】"
+    },
+    "date": "2025-03-26",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 128,
+    "attr": "斬",
+    "name": {
+      "zh": "蕾斯娜【Rise Above Fate】",
+      "ja": "レスナ【Rise Above Fate】",
+      "en": "Resna【Rise Above Fate】"
+    },
+    "date": "2025-03-21",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 127,
+    "attr": "斬",
+    "name": {
+      "zh": "陽妮【Mother's Affection】",
+      "ja": "ヤンネ【Mother's Affection】",
+      "en": "Janne【Mother's Affection】"
+    },
+    "date": "2025-03-17",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 126,
+    "attr": "斬",
+    "name": {
+      "zh": "貝普【Mourning Blades】",
+      "ja": "ベップ【Mourning Blades】",
+      "en": "Bepp【Mourning Blades】"
+    },
+    "date": "2025-03-12",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 125,
+    "attr": "斬",
+    "name": {
+      "zh": "阿爾比娜【Dream of Hero】",
+      "ja": "アルビーナ【Dream of Hero】",
+      "en": "Alvina【Dream of Hero】"
+    },
+    "date": "2025-03-06",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 124,
+    "attr": "突",
+    "name": {
+      "zh": "萊莎【Flowering Explorer】",
+      "ja": "ライザ【Flowering Explorer】",
+      "en": "Ryza【Flowering Explorer】"
+    },
+    "date": "2025-02-28",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 123,
+    "attr": "突",
+    "name": {
+      "zh": "科洛蒂婭【Flowering Doer】",
+      "ja": "クラウディア【Flowering Doer】",
+      "en": "Klaudia【Flowering Doer】"
+    },
+    "date": "2025-02-21",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 122,
+    "attr": "冰",
+    "name": {
+      "zh": "普拉芙妲【Curious Theorist】",
+      "ja": "プラフタ【Curious Theorist】",
+      "en": "Plachta【Curious Theorist】"
+    },
+    "date": "2025-02-14",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 121,
+    "attr": "風",
+    "name": {
+      "zh": "伊爾梅莉亞【Diligent Genius】",
+      "ja": "イルメリア【Diligent Genius】",
+      "en": "Ilmeria【Diligent Genius】"
+    },
+    "date": "2025-01-31",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 120,
+    "attr": "風",
+    "name": {
+      "zh": "菲莉絲【Twinning Ribbon】",
+      "ja": "フィリス【Twinning Ribbon】",
+      "en": "Firis【Twinning Ribbon】"
+    },
+    "date": "2025-01-24",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 119,
+    "attr": "冰",
+    "name": {
+      "zh": "安佩爾【Sweet Butler】",
+      "ja": "アンペル【Sweet Butler】",
+      "en": "Empel【門を閉ざす者】"
+    },
+    "date": "2025-01-17",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 118,
+    "attr": "冰",
+    "name": {
+      "zh": "拉拉【Great Refinement】",
+      "ja": "ララ【Great Refinement】",
+      "en": "Lara【Great Refinement】"
+    },
+    "date": "2025-01-17",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 117,
+    "attr": "冰",
+    "name": {
+      "zh": "薩絲琪亞【Spring Wishes】",
+      "ja": "ザスキア【Spring Wishes】",
+      "en": "Saskia【Spring Wishes】"
+    },
+    "date": "2024-12-31",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 116,
+    "attr": "雷",
+    "name": {
+      "zh": "希婭【One And Only】",
+      "ja": "シア【One And Only】",
+      "en": "Schia【One And Only】"
+    },
+    "date": "2024-12-27",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 115,
+    "attr": "雷",
+    "name": {
+      "zh": "克莉賽爾達【Ambitious Alchemist】",
+      "ja": "クリセルダ【Ambitious Alchemist】",
+      "en": "Criselda【Ambitious Alchemist】"
+    },
+    "date": "2024-12-20",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 114,
+    "attr": "雷",
+    "name": {
+      "zh": "尤娜【Starry Beauty】",
+      "ja": "ユナ【Starry Beauty】",
+      "en": "Juna【Starry Beauty】"
+    },
+    "date": "2024-12-13",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 113,
+    "attr": "風",
+    "name": {
+      "zh": "瓦萊莉婭【Dark Warrior】",
+      "ja": "ヴァレリア【Dark Warrior】",
+      "en": "Valeria【Dark Warrior】"
+    },
+    "date": "2024-12-06",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 112,
+    "attr": "雷",
+    "name": {
+      "zh": "安潔【Magical Puppeteer】",
+      "ja": "アンチュ【Magical Puppeteer】",
+      "en": "Antje【Magical Puppeteer】"
+    },
+    "date": "2024-11-29",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 111,
+    "attr": "雷",
+    "name": {
+      "zh": "瓦爾特【Wisdom Inquirer】",
+      "ja": "ワルター【Wisdom Inquirer】",
+      "en": "Walther【Wisdom Inquirer】"
+    },
+    "date": "2024-11-29",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 110,
+    "attr": "突",
+    "name": {
+      "zh": "布萊德【Passionate Blood】",
+      "ja": "ブラッド【Passionate Blood】",
+      "en": "Bradley【Passionate Blood】"
+    },
+    "date": "2024-11-22",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 109,
+    "attr": "突",
+    "name": {
+      "zh": "瑪格達【Pinkish Destroyer】",
+      "ja": "マクダ【Pinkish Destroyer】",
+      "en": "Magda【Pinkish Destroyer】"
+    },
+    "date": "2024-11-15",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 108,
+    "attr": "突",
+    "name": {
+      "zh": "米珂【Fashionable Kitty】",
+      "ja": "ミーケ【Fashionable Kitty】",
+      "en": "Mieke【Fashionable Kitty】"
+    },
+    "date": "2024-11-08",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 107,
+    "attr": "斬",
+    "name": {
+      "zh": "蒂歐娜【Fervorous Diva】",
+      "ja": "ディオーナ【Fervorous Diva】",
+      "en": "Diona【Fervorous Diva】"
+    },
+    "date": "2024-11-08",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 106,
+    "attr": "風",
+    "name": {
+      "zh": "海蒂【Lucky Buddy】",
+      "ja": "ハイディ【Lucky Buddy】",
+      "en": "Heidi【Lucky Buddy】"
+    },
+    "date": "2024-10-31",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 105,
+    "attr": "突",
+    "name": {
+      "zh": "芙洛可【Earnest Angel】",
+      "ja": "フロッケ【Earnest Angel】",
+      "en": "Flocke【Earnest Angel】"
+    },
+    "date": "2024-10-31",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 104,
+    "attr": "火",
+    "name": {
+      "zh": "優蒂【Heroic Assault】",
+      "ja": "ユーディー【Heroic Assault】",
+      "en": "Judie【Heroic Assault】"
+    },
+    "date": "2024-10-11",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 103,
+    "attr": "打",
+    "name": {
+      "zh": "萊莎【Brave Blaze】",
+      "ja": "ライザ【Brave Blaze】",
+      "en": "Ryza【Brave Blaze】"
+    },
+    "date": "2024-10-11",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 102,
+    "attr": "打",
+    "name": {
+      "zh": "羅曼【Reassuring Shielder】",
+      "ja": "ロマン【Reassuring Shielder】",
+      "en": "Roman【Reassuring Shielder】"
+    },
+    "date": "2024-09-30",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 101,
+    "attr": "打",
+    "name": {
+      "zh": "伊札娜【Stormy Smite】",
+      "ja": "イザナ【Stormy Smite】",
+      "en": "Izana【Stormy Smite】"
+    },
+    "date": "2024-09-30",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 100,
+    "attr": "火",
+    "name": {
+      "zh": "瓦萊莉婭【Awakened Past】",
+      "ja": "ヴァレリア【Awakened Past】",
+      "en": "Valeria【Awakened Past】"
+    },
+    "date": "2024-09-11",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 99,
+    "attr": "斬",
+    "name": {
+      "zh": "傑隆【Beastly Fencer】",
+      "ja": "ジェロン【Beastly Fencer】",
+      "en": "Geron【Beastly Fencer】"
+    },
+    "date": "2024-09-11",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 98,
+    "attr": "火",
+    "name": {
+      "zh": "蕾斯娜【Awakened Future】",
+      "ja": "レスナ【Awakened Future】",
+      "en": "Resna【Awakened Future】"
+    },
+    "date": "2024-08-30",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 97,
+    "attr": "斬",
+    "name": {
+      "zh": "拉拉【Queen's Grace】",
+      "ja": "ララ【Queen's Grace】",
+      "en": "Lara【Queen's Grace】"
+    },
+    "date": "2024-08-30",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 96,
+    "attr": "冰",
+    "name": {
+      "zh": "愛夏【Twilight Fairy】",
+      "ja": "アーシャ【Twilight Fairy】",
+      "en": "Ayesha【Twilight Fairy】"
+    },
+    "date": "2024-08-21",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 95,
+    "attr": "火",
+    "name": {
+      "zh": "蘇菲【Pure Angel】",
+      "ja": "ソフィー【Pure Angel】",
+      "en": "Sophie【Pure Angel】"
+    },
+    "date": "2024-08-21",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 94,
+    "attr": "冰",
+    "name": {
+      "zh": "薩絲琪亞【Master of Alchemy】",
+      "ja": "ザスキア【Master of Alchemy】",
+      "en": "Saskia【Master of Alchemy】"
+    },
+    "date": "2024-08-13",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 93,
+    "attr": "斬",
+    "name": {
+      "zh": "約翰娜【Battle Phenom】",
+      "ja": "ヨハナ【Battle Phenom】",
+      "en": "Johanna【Battle Phenom】"
+    },
+    "date": "2024-08-13",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 92,
+    "attr": "冰",
+    "name": {
+      "zh": "瑪莉【Bomber Cat】",
+      "ja": "マリー【Bomber Cat】",
+      "en": "Marie【Bomber Cat】"
+    },
+    "date": "2024-08-05",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 91,
+    "attr": "火",
+    "name": {
+      "zh": "蘿樂娜【Sweetie Rabbit】",
+      "ja": "ロロナ【Sweetie Rabbit】",
+      "en": "Rorona【Sweetie Rabbit】"
+    },
+    "date": "2024-08-05",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 90,
+    "attr": "冰",
+    "name": {
+      "zh": "科洛蒂婭【Moonlit Beach】",
+      "ja": "クラウディア【Moonlit Beach】",
+      "en": "Klaudia【Moonlit Beach】"
+    },
+    "date": "2024-07-31",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 89,
+    "attr": "雷",
+    "name": {
+      "zh": "瓦萊莉婭【Radiant Summer】",
+      "ja": "ヴァレリア【Radiant Summer】",
+      "en": "Valeria【Radiant Summer】"
+    },
+    "date": "2024-07-19",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 88,
+    "attr": "冰",
+    "name": {
+      "zh": "萊莎【Sunlit Beach】",
+      "ja": "ライザ【Sunlit Beach】",
+      "en": "Ryza【Sunlit Beach】"
+    },
+    "date": "2024-07-10",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 87,
+    "attr": "雷",
+    "name": {
+      "zh": "蕾斯娜【Pretty Summer】",
+      "ja": "レスナ【Pretty Summer】",
+      "en": "Resna【Pretty Summer】"
+    },
+    "date": "2024-07-10",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 86,
+    "attr": "雷",
+    "name": {
+      "zh": "薇爾貝兒【Witch in the dark】",
+      "ja": "ウィルベル【Witch in the dark】",
+      "en": "Wilbell【Witch in the dark】"
+    },
+    "date": "2024-06-28",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 85,
+    "attr": "冰",
+    "name": {
+      "zh": "羅曼【Secret Fellow】",
+      "ja": "ロマン【Secret Fellow】",
+      "en": "Roman【Secret Fellow】"
+    },
+    "date": "2024-06-28",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 84,
+    "attr": "火",
+    "name": {
+      "zh": "瑪莉翁【Bullet of Ink】",
+      "ja": "マリオン【Bullet of Ink】",
+      "en": "Marion【Bullet of Ink】"
+    },
+    "date": "2024-06-21",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 83,
+    "attr": "火",
+    "name": {
+      "zh": "愛絲卡【Challenging Worker】",
+      "ja": "エスカ【Challenging Worker】",
+      "en": "Escha【Challenging Worker】"
+    },
+    "date": "2024-06-21",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 82,
+    "attr": "火",
+    "name": {
+      "zh": "海蒂【Merciful Bride】",
+      "ja": "ハイディ【Merciful Bride】",
+      "en": "Heidi【Merciful Bride】"
+    },
+    "date": "2024-06-10",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 81,
+    "attr": "斬",
+    "name": {
+      "zh": "伊札娜【Dragon's Bride】",
+      "ja": "イザナ【Dragon's Bride】",
+      "en": "Izana【Dragon's Bride】"
+    },
+    "date": "2024-06-10",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 80,
+    "attr": "火",
+    "name": {
+      "zh": "琳卡【Valkyrie of the Sun】",
+      "ja": "リンカ【Valkyrie of the Sun】",
+      "en": "Linca【Valkyrie of the Sun】"
+    },
+    "date": "2024-05-31",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 79,
+    "attr": "打",
+    "name": {
+      "zh": "尤娜【Valkyrie in the Sky】",
+      "ja": "ユナ【Valkyrie in the Sky】",
+      "en": "Juna【Valkyrie in the Sky】"
+    },
+    "date": "2024-05-31",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 78,
+    "attr": "雷",
+    "name": {
+      "zh": "瑪莉【Violent Beauty】",
+      "ja": "マリー【Violent Beauty】",
+      "en": "Marie【Violent Beauty】"
+    },
+    "date": "2024-05-20",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 77,
+    "attr": "斬",
+    "name": {
+      "zh": "托托莉【Hopeful Sailor】",
+      "ja": "トトリ【Hopeful Sailor】",
+      "en": "Totori【Hopeful Sailor】"
+    },
+    "date": "2024-05-10",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 76,
+    "attr": "斬",
+    "name": {
+      "zh": "藍澤【The Captain Awakens】",
+      "ja": "ランツェ【The Captain Awakens】",
+      "en": "Lanze【The Captain Awakens】"
+    },
+    "date": "2024-05-10",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 75,
+    "attr": "雷",
+    "name": {
+      "zh": "科洛蒂婭【Fragrant Elegance】",
+      "ja": "クラウディア【Fragrant Elegance】",
+      "en": "Klaudia【Fragrant Elegance】"
+    },
+    "date": "2024-04-30",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 74,
+    "attr": "打",
+    "name": {
+      "zh": "蘿樂娜【Joyful Leader】",
+      "ja": "ロロナ【Joyful Leader】",
+      "en": "Rorona【Joyful Leader】"
+    },
+    "date": "2024-04-22",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 73,
+    "attr": "風",
+    "name": {
+      "zh": "艾蓮【Noble Wolf】",
+      "ja": "エレン【Noble Wolf】",
+      "en": "Eren【Noble Wolf】"
+    },
+    "date": "2024-04-22",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 72,
+    "attr": "突",
+    "name": {
+      "zh": "敏敏【Lonely Glory】",
+      "ja": "ミミ【Lonely Glory】",
+      "en": "Mimi【Lonely Glory】"
+    },
+    "date": "2024-04-12",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 71,
+    "attr": "風",
+    "name": {
+      "zh": "萊莎【Blooming Energy】",
+      "ja": "ライザ【Blooming Energy】",
+      "en": "Ryza【Blooming Energy】"
+    },
+    "date": "2024-04-12",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 70,
+    "attr": "突",
+    "name": {
+      "zh": "蘇菲【Mighty Boss】",
+      "ja": "ソフィー【Mighty Boss】",
+      "en": "Sophie【Mighty Boss】"
+    },
+    "date": "2024-04-01",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 69,
+    "attr": "風",
+    "name": {
+      "zh": "蕾斯娜【Loved Rookie】",
+      "ja": "レスナ【Loved Rookie】",
+      "en": "Resna【Loved Rookie】"
+    },
+    "date": "2024-04-01",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 68,
+    "attr": "突",
+    "name": {
+      "zh": "蘇瑞【Ranger of Rose】",
+      "ja": "スール【Ranger of Rose】",
+      "en": "Suelle【Ranger of Rose】"
+    },
+    "date": "2024-03-22",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 67,
+    "attr": "打",
+    "name": {
+      "zh": "芙洛可【Angel of Rose】",
+      "ja": "フロッケ【Angel of Rose】",
+      "en": "Flocke【Angel of Rose】"
+    },
+    "date": "2024-03-22",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 66,
+    "attr": "冰",
+    "name": {
+      "zh": "菲莉絲【Crystaler of Rose】",
+      "ja": "フィリス【Crystaler of Rose】",
+      "en": "Firis【Crystaler of Rose】"
+    },
+    "date": "2024-03-12",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 65,
+    "attr": "打",
+    "name": {
+      "zh": "海蒂【Thief of Rose】",
+      "ja": "ハイディ【Thief of Rose】",
+      "en": "Heidi【Thief of Rose】"
+    },
+    "date": "2024-03-12",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 64,
+    "attr": "打",
+    "name": {
+      "zh": "莉迪【Witch of Rose】",
+      "ja": "リディー【Witch of Rose】",
+      "en": "Lydie【Witch of Rose】"
+    },
+    "date": "2024-02-28",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 63,
+    "attr": "雷",
+    "name": {
+      "zh": "瓦萊莉婭【Warrior of Rose】",
+      "ja": "ヴァレリア【Warrior of Rose】",
+      "en": "Valeria【Warrior of Rose】"
+    },
+    "date": "2024-02-28",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 62,
+    "attr": "斬",
+    "name": {
+      "zh": "蘿樂娜【フォーリンホワイト】",
+      "ja": "ロロナ【フォーリンホワイト】",
+      "en": "Rorona【フォーリンホワイト】"
+    },
+    "date": "2024-02-20",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 61,
+    "attr": "風",
+    "name": {
+      "zh": "史特爾克【気高き剣士】",
+      "ja": "ステルク【気高き剣士】",
+      "en": "Sterk【気高き剣士】"
+    },
+    "date": "2024-02-20",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 60,
+    "attr": "風",
+    "name": {
+      "zh": "托托莉【Snow Adventurer】",
+      "ja": "トトリ【Snow Adventurer】",
+      "en": "Totori【Snow Adventurer】"
+    },
+    "date": "2024-02-20",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 59,
+    "attr": "突",
+    "name": {
+      "zh": "愛絲卡【Sweet Monochrome】",
+      "ja": "エスカ【Sweet Monochrome】",
+      "en": "Escha【Sweet Monochrome】"
+    },
+    "date": "2024-02-09",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 58,
+    "attr": "雷",
+    "name": {
+      "zh": "羅吉【トワイライトオーダー】",
+      "ja": "ロジー【トワイライトオーダー】",
+      "en": "Logy【トワイライトオーダー】"
+    },
+    "date": "2024-01-31",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 57,
+    "attr": "突",
+    "name": {
+      "zh": "尤娜【White Royal Guard】",
+      "ja": "ユナ【White Royal Guard】",
+      "en": "Juna【White Royal Guard】"
+    },
+    "date": "2024-01-31",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 56,
+    "attr": "火",
+    "name": {
+      "zh": "夏莉絲堤菈【スクールメイデン】",
+      "ja": "シャリステラ【スクールメイデン】",
+      "en": "Shallie【スクールメイデン】"
+    },
+    "date": "2024-01-22",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 55,
+    "attr": "打",
+    "name": {
+      "zh": "夏露羅蒂【ガールズアンビシャス】",
+      "ja": "シャルロッテ【ガールズアンビシャス】",
+      "en": "Shallote【ガールズアンビシャス】"
+    },
+    "date": "2024-01-22",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 54,
+    "attr": "打",
+    "name": {
+      "zh": "娜蒂【微笑みの母】",
+      "ja": "ナディ【微笑みの母】",
+      "en": "Nady【微笑みの母】"
+    },
+    "date": "2024-01-22",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 53,
+    "attr": "雷",
+    "name": {
+      "zh": "愛夏【ノーブルフラワー】",
+      "ja": "アーシャ【ノーブルフラワー】",
+      "en": "Ayesha【ノーブルフラワー】"
+    },
+    "date": "2024-01-11",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 52,
+    "attr": "風",
+    "name": {
+      "zh": "羅曼【Romance Hearts】",
+      "ja": "ロマン【Romance Hearts】",
+      "en": "Roman【Romance Hearts】"
+    },
+    "date": "2024-01-11",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 51,
+    "attr": "冰",
+    "name": {
+      "zh": "瑪莉【Fortune Full Bloom】",
+      "ja": "マリー【Fortune Full Bloom】",
+      "en": "Marie【Fortune Full Bloom】"
+    },
+    "date": "2023-12-31",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 50,
+    "attr": "斬",
+    "name": {
+      "zh": "派翠夏【届けホーリーナイト】",
+      "ja": "パトリツィア【届けホーリーナイト】",
+      "en": "Patricia【届けホーリーナイト】"
+    },
+    "date": "2023-12-22",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 49,
+    "attr": "冰",
+    "name": {
+      "zh": "蕾斯娜【Starry Heavens Gift】",
+      "ja": "レスナ【Starry Heavens Gift】",
+      "en": "Resna【Starry Heavens Gift】"
+    },
+    "date": "2023-12-22",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 48,
+    "attr": "冰",
+    "name": {
+      "zh": "莉拉【漆黒の護衛】",
+      "ja": "リラ【漆黒の護衛】",
+      "en": "Lila【漆黒の護衛】"
+    },
+    "date": "2023-12-11",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 47,
+    "attr": "雷",
+    "name": {
+      "zh": "伊札娜【Return of the Knight】",
+      "ja": "イザナ【Return of the Knight】",
+      "en": "Izana【Return of the Knight】"
+    },
+    "date": "2023-12-11",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 46,
+    "attr": "斬",
+    "name": {
+      "zh": "萊莎【Master's Right-Hand】",
+      "ja": "ライザ【Master's Right-Hand】",
+      "en": "Ryza"
+    },
+    "date": "2023-11-29",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 45,
+    "attr": "打",
+    "name": {
+      "zh": "安佩爾【門を閉ざす者】",
+      "ja": "アンペル【門を閉ざす者】",
+      "en": "Empel【門を閉ざす者】"
+    },
+    "date": "2023-11-29",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 44,
+    "attr": "雷",
+    "name": {
+      "zh": "莉迪【Rainbow Canvas】",
+      "ja": "リディー【Rainbow Canvas】",
+      "en": "Lydie【Rainbow Canvas】"
+    },
+    "date": "2023-11-21",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 43,
+    "attr": "打",
+    "name": {
+      "zh": "蘇瑞【Ambition Painting】",
+      "ja": "スール【Ambition Painting】",
+      "en": "Suelle【Ambition Painting】"
+    },
+    "date": "2023-11-21",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 42,
+    "attr": "火",
+    "name": {
+      "zh": "薇爾貝兒【Magical Trick Star】",
+      "ja": "ウィルベル【Magical Trick Star】",
+      "en": "Wilbell【Magical Trick Star】"
+    },
+    "date": "2023-11-10",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 41,
+    "attr": "火",
+    "name": {
+      "zh": "瑞吉娜【遺跡発掘屋】",
+      "ja": "レジナ【遺跡発掘屋】",
+      "en": "Regina【遺跡発掘屋】"
+    },
+    "date": "2023-11-10",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 40,
+    "attr": "打",
+    "name": {
+      "zh": "妮歐【チャーミングシスター】",
+      "ja": "ニオ【チャーミングシスター】",
+      "en": "Nio【チャーミングシスター】"
+    },
+    "date": "2023-11-10",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 39,
+    "attr": "斬",
+    "name": {
+      "zh": "普拉芙妲【魅惑のヴァンパイア】",
+      "ja": "プラフタ【魅惑のヴァンパイア】",
+      "en": "Plachta【魅惑のヴァンパイア】"
+    },
+    "date": "2023-10-31",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 38,
+    "attr": "冰",
+    "name": {
+      "zh": "梅露露【Damsel in Distress】",
+      "ja": "メルル【Damsel in Distress】",
+      "en": "Meruru【Damsel in Distress】"
+    },
+    "date": "2023-10-24",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 37,
+    "attr": "風",
+    "name": {
+      "zh": "艾莉【チーズケーキの申し子】",
+      "ja": "エリー【チーズケーキの申し子】",
+      "en": "Ellie【チーズケーキの申し子】"
+    },
+    "date": "2023-10-17",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 36,
+    "attr": "雷",
+    "name": {
+      "zh": "莉莉【Birth of The Legend】",
+      "ja": "リリー【Birth of The Legend】",
+      "en": "Lilie【Birth of The Legend】"
+    },
+    "date": "2023-10-17",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+    "id": 35,
+    "attr": "冰",
+    "name": {
+      "zh": "科洛蒂婭【One Summer Melody】",
+      "ja": "クラウディア【One Summer Melody】",
+      "en": "Klaudia【One Summer Melody】"
+    },
+    "date": "2023-10-10",
+    "image": "",
+    "職種": "支援者"
+  },
+  {
+    "id": 34,
+    "attr": "斬",
+    "name": {
+      "zh": "瓦萊莉婭【Secret Amnesia】",
+      "ja": "ヴァレリア【Secret Amnesia】",
+      "en": "Valeria【Secret Amnesia】"
+    },
+    "date": "2023-10-10",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 33,
+    "attr": "突",
+    "name": {
+      "zh": "瓦萊莉婭【過去に夢を求めし者】",
+      "ja": "ヴァレリア【過去に夢を求めし者】",
+      "en": "Valeria【過去に夢を求めし者】"
+    },
+    "date": "2023-10-10",
+    "image": "",
+    "職種": "攻擊者"
+  },
+  {
+    "id": 32,
+    "attr": "雷",
+    "name": {
+      "zh": "蘇菲【百科繚乱フロネシス】",
+      "ja": "ソフィー【百科繚乱フロネシス】",
+      "en": "Sophie【百科繚乱フロネシス】"
+    },
+    "date": "2023-10-02",
+    "image": "",
+    "職種": "防禦者"
+  },
+  {
+    "id": 31,
+    "attr": "打",
+    "name": {
+      "zh": "普拉芙妲【ミステリアスドール】",
+      "ja": "プラフタ【ミステリアスドール】",
+      "en": "Plachta【ミステリアスドール】"
+    },
+    "date": "2023-10-02",
+    "image": "",
+    "職種": "破防者"
+  },
+  {
+  "id": 30,
+  "attr": "打",
+  "name": {
+    "zh": "塔奧【學者のタマゴ】",
+    "ja": "タオ【学者のタマゴ】",
+    "en": "Tao【學者のタマゴ】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 29,
+  "attr": "突",
+  "name": {
+    "zh": "緹絲【兔耳トラブルメーカー】",
+    "ja": "テス【兎耳トラブルメーカー】",
+    "en": "Tess【兎耳トラブルメーカー】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "支援者"
+},
+{
+  "id": 28,
+  "attr": "突",
+  "name": {
+    "zh": "瑪麗翁【開発班の班長】",
+    "ja": "マリオン【開発班の班長】",
+    "en": "Marion【開発班の班長】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "破防者"
+},
+{
+  "id": 27,
+  "attr": "斬",
+  "name": {
+    "zh": "琳卡【班長補佐】",
+    "ja": "リンカ【班長補佐】",
+    "en": "Linca【班長補佐】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "防禦者"
+},
+{
+  "id": 26,
+  "attr": "突",
+  "name": {
+    "zh": "庫蝶莉亞【貴族令嬢】",
+    "ja": "クーデリア【貴族令嬢】",
+    "en": "Cordelia【貴族令嬢】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 25,
+  "attr": "打",
+  "name": {
+    "zh": "蘭托【剛腕戦士】",
+    "ja": "レント【剛腕戦士】",
+    "en": "Lent【剛腕戦士】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "防禦者"
+},
+{
+  "id": 24,
+  "attr": "突",
+  "name": {
+    "zh": "摩妮卡【モニカオンステージ】",
+    "ja": "モニカ【モニカオンステージ】",
+    "en": "Monika【モニカオンステージ】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "防禦者"
+},
+{
+  "id": 23,
+  "attr": "風",
+  "name": {
+    "zh": "夏莉絲堤菈【族長の娘】",
+    "ja": "シャリステラ【族長の娘】",
+    "en": "Shallie【族長の娘】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "破防者"
+},
+{
+  "id": 22,
+  "attr": "風",
+  "name": {
+    "zh": "愛絲卡【エンドレスタルト】",
+    "ja": "エスカ【エンドレスタルト】",
+    "en": "Escha【エンドレスタルト】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "破防者"
+},
+{
+  "id": 21,
+  "attr": "風",
+  "name": {
+    "zh": "梅露露【パワフルプリンセス】",
+    "ja": "メルル【パワフルプリンセス】",
+    "en": "Meruru【パワフルプリンセス】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "支援者"
+},
+{
+  "id": 20,
+  "attr": "冰",
+  "name": {
+    "zh": "托托莉【強き母に憧れる少女】",
+    "ja": "トトリ【強き母に憧れる少女】",
+    "en": "Totori【強き母に憧れる少女】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "支援者"
+},
+{
+  "id": 19,
+  "attr": "斬",
+  "name": {
+    "zh": "艾絲緹【頼れる受付嬢】",
+    "ja": "エスティ【頼れる受付嬢】",
+    "en": "Esty【頼れる受付嬢】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 18,
+  "attr": "雷",
+  "name": {
+    "zh": "維因【願いを叶える力】",
+    "ja": "ヴェイン【願いを叶える力】",
+    "en": "Vayne【願いを叶える力】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 17,
+  "attr": "冰",
+  "name": {
+    "zh": "薇歐拉【カロッテ・キャロット】",
+    "ja": "ヴィオラート【カロッテ・キャロット】",
+    "en": "Viorate【カロッテ・キャロット】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 16,
+  "attr": "斬",
+  "name": {
+    "zh": "路溫【熱血の冒険者】",
+    "ja": "ルーウェン【熱血の冒険者】",
+    "en": "Ruven【熱血の冒険者】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 15,
+  "attr": "雷",
+  "name": {
+    "zh": "蕾斯娜【Innocent Dreamer】",
+    "ja": "レスナ【Innocent Dreamer】",
+    "en": "Resna【Innocent Dreamer】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "支援者"
+},
+{
+  "id": 14,
+  "attr": "火",
+  "name": {
+    "zh": "萊莎【One Summer Story】",
+    "ja": "ライザ【One Summer Story】",
+    "en": "Ryza"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 13,
+  "attr": "風",
+  "name": {
+    "zh": "菲莉絲【Crystal Master】",
+    "ja": "フィリス【Crystal Master】",
+    "en": "Firis【Crystal Master】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 12,
+  "attr": "打",
+  "name": {
+    "zh": "奧斯卡【植物は親友】",
+    "ja": "オスカー【植物は親友】",
+    "en": "Oskar【植物は親友】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "防禦者"
+},
+{
+  "id": 11,
+  "attr": "打",
+  "name": {
+    "zh": "柯爾涅莉雅【ノーミルクノーライフ】",
+    "ja": "コルネリア【ノーミルクノーライフ】",
+    "en": "Corneria【ノーミルクノーライフ】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "破防者"
+},
+{
+  "id": 10,
+  "attr": "斬",
+  "name": {
+    "zh": "羅吉【黄昏の錬金剣】",
+    "ja": "ロジー【黄昏の錬金剣】",
+    "en": "Logy【黄昏の錬金剣】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 9,
+  "attr": "火",
+  "name": {
+    "zh": "奇斯葛里夫【知識の探究者】",
+    "ja": "キースグリフ【知識の探究者】",
+    "en": "Keithgriff【知識の探究者】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "破防者"
+},
+{
+  "id": 8,
+  "attr": "雷",
+  "name": {
+    "zh": "奧迪莉雅【古の機械人形】",
+    "ja": "オディーリア【古の機械人形】",
+    "en": "Odelia【古の機械人形】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 7,
+  "attr": "風",
+  "name": {
+    "zh": "愛夏【MARIA of Dusk】",
+    "ja": "アーシャ【MARIA of Dusk】",
+    "en": "Ayesha【MARIA of Dusk】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "支援者"
+},
+{
+  "id": 6,
+  "attr": "火",
+  "name": {
+    "zh": "伊克賽爾【戦う料理人】",
+    "ja": "イクセル【戦う料理人】",
+    "en": "Iksel【戦う料理人】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "支援者"
+},
+{
+  "id": 5,
+  "attr": "冰",
+  "name": {
+    "zh": "蘿樂娜【五ツ星パイマイスター】",
+    "ja": "ロロナ【五ツ星パイマイスター】",
+    "en": "Rorona【五ツ星パイマイスター】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 4,
+  "attr": "斬",
+  "name": {
+    "zh": "羅傑【光の剣】",
+    "ja": "ロゼ【光の剣】",
+    "en": "Raze【光の剣】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "破防者"
+},
+{
+  "id": 3,
+  "attr": "火",
+  "name": {
+    "zh": "優蒂【Hero of Tempest】",
+    "ja": "ユーディー【Hero of Tempest】",
+    "en": "Judie【Hero of Tempest】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "防禦者"
+},
+{
+  "id": 2,
+  "attr": "突",
+  "name": {
+    "zh": "繆羽【南国の冒険者】",
+    "ja": "ミュー【南国の冒険者】",
+    "en": "Mu【南国の冒険者】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+},
+{
+  "id": 1,
+  "attr": "火",
+  "name": {
+    "zh": "瑪莉【Lovely Bomber】",
+    "ja": "マリー【Lovely Bomber】",
+    "en": "Marie【Lovely Bomber】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "破防者"
+},
+{
+  "id": 0,
+  "attr": "火",
+  "name": {
+    "zh": "蕾斯娜【未來に夢を求めし者】",
+    "ja": "レスナ【未來に夢を求めし者】",
+    "en": "Resna【未來に夢を求めし者】"
+  },
+  "date": "2023-09-23",
+  "image": "",
+  "職種": "攻擊者"
+}  
+]
