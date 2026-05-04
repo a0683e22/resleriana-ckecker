@@ -33,6 +33,12 @@
          display: flex;
          justify-content: center;
          }
+         body[data-view="list"] .container {
+         max-width: 640px;
+         }
+         body[data-view="table"] .container {
+         max-width: 1280px;
+         }
          .container {
          width: 100%;
          max-width: 550px;
@@ -280,7 +286,6 @@
          gap: 8px;
          align-items: center;
          }
-
          .view-toggle {
          display: flex;
          gap: 8px;
@@ -412,7 +417,6 @@
          grid-template-columns: 90px repeat(4, minmax(260px, 1fr));
          }
          }
-
          .lang-select {
          height: 36px;
          border-radius: 999px;
@@ -618,7 +622,7 @@
              syncShareUrl();
          }
          
-
+         
          function setupViewButtons() {
              document.querySelectorAll('[data-view-mode]').forEach(btn => {
                  btn.addEventListener('click', () => {
@@ -626,6 +630,7 @@
                      if (!mode || mode === currentView) return;
                      const checkedIds = getCheckedIds();
                      currentView = mode;
+                     document.body.setAttribute("data-view", currentView);
                      localStorage.setItem('viewMode', currentView);
                      renderCharacters(allCharacters);
                      setCheckedIds(checkedIds);
@@ -637,13 +642,13 @@
              });
              updateViewButtons();
          }
-
+         
          function updateViewButtons() {
              document.querySelectorAll('[data-view-mode]').forEach(btn => {
                  btn.classList.toggle('active', btn.dataset.viewMode === currentView);
              });
          }
-
+         
          function escapeHtml(value) {
              return String(value ?? '')
                  .replace(/&/g, '&amp;')
@@ -686,11 +691,11 @@
          function getCharacterId(char) {
              return Number(char.id ?? char['角色ID'] ?? char.character_id ?? char.chara_id);
          }
-
+         
          function isFixedCharacterId(id) {
              return FIXED_CHARACTER_IDS.has(String(id));
          }
-
+         
          function getCheckboxAttrs(id) {
              return isFixedCharacterId(id) ? ' checked disabled' : '';
          }
@@ -794,7 +799,7 @@
              }
              updateViewButtons();
          }
-
+         
          function renderCharactersList(characters) {
              const list = document.getElementById('dynamic-list');
              list.innerHTML = characters.map(char => {
@@ -822,7 +827,7 @@
                  `;
              }).join('');
          }
-
+         
          function renderCharactersTable(characters) {
              const list = document.getElementById('dynamic-list');
              const attrOrder = ['火', '冰', '雷', '風', '斬', '打', '突'];
@@ -836,14 +841,14 @@
                  '打': 'images/attr/k.3148cc.png',
                  '突': 'images/attr/t.ac73b3.png'
              };
-
+         
              const groups = new Map();
              attrOrder.forEach(attr => {
                  roleOrder.forEach(role => {
                      groups.set(`${attr}|${role}`, []);
                  });
              });
-
+         
              characters.forEach(char => {
                  const attr = getCharacterAttr(char);
                  const role = getCharacterRole(char);
@@ -851,7 +856,7 @@
                  if (!groups.has(key)) groups.set(key, []);
                  groups.get(key).push(char);
              });
-
+         
              const renderCard = (char, attr) => {
                  const id = getCharacterId(char);
                  if (!Number.isFinite(id)) return '';
@@ -874,7 +879,7 @@
                      </div>
                  `;
              };
-
+         
              list.innerHTML = `
                  <div class="table-view">
                      <div class="matrix-table">
@@ -885,7 +890,7 @@
                                  <span>${escapeHtml(role)}</span>
                              </div>
                          `).join('')}
-
+         
                          ${attrOrder.map(attr => `
                              <div class="matrix-cell matrix-attr">
                                  <img src="${attrIconMap[attr]}" alt="${escapeHtml(attr)}">
@@ -904,7 +909,7 @@
                  </div>
              `;
          }
-
+         
          function getNormalCheckboxes() {
              return Array.from(document.querySelectorAll('.char-cb')).filter(cb => !cb.disabled);
          }
@@ -1054,6 +1059,7 @@
              setupLanguageSelect();
              applyUiLanguage();
              setupViewButtons();
+             document.body.setAttribute("data-view", currentView);
              setupFilterButtons();
              loadFilterState();
              updateFilterButtons();
