@@ -581,13 +581,13 @@
                <div class="action-row">
                   <button id="view-list-btn" class="view-btn active" data-view-mode="list">
                   <img src="images/ui/checklist.png" alt="列表顯示">
-                  <span>列表顯示</span>
+                  <span class="btn-label">列表顯示</span>
                   </button>
                   <button id="view-table-btn" class="view-btn" data-view-mode="table">
                   <img src="images/ui/table.png" alt="表格顯示">
-                  <span>表格顯示</span>
+                  <span class="btn-label">表格顯示</span>
                   </button>
-                  <button id="reset-btn" class="btn-reset">
+                  <button id="reset-btn" class="btn-reset" onclick="resetTable()">
                   <span class="btn-label">Reset 表格</span>
                   </button>
                </div>
@@ -737,7 +737,11 @@
                  else btn.textContent = label;
              };
              if (title) title.textContent = text.title;
-             /*setButtonLabel(copyBtn, text.copy);*/
+             if (copyBtn) {
+                 copyBtn.title = text.copy;
+                 const copyImg = copyBtn.querySelector('img');
+                 if (copyImg) copyImg.alt = text.copy;
+             }
              setButtonLabel(resetBtn, text.reset);
              setButtonLabel(viewListBtn, text.viewList);
              setButtonLabel(viewTableBtn, text.viewTable);
@@ -905,14 +909,34 @@
          }
          
          function getCharacterName(char) {
+             const langKeyMap = {
+                 zh: ['zh', 'tw', 'zh_tw', 'zh-TW', 'zh_Hant', 'zh-hant', '繁中', '中文'],
+                 ja: ['ja', 'jp', '日本語', '日文'],
+                 en: ['en', '英文']
+             };
+             const fallbackKeys = ['zh', 'tw', 'zh_tw', 'zh-TW', 'zh_Hant', 'ja', 'jp', 'en'];
+
              if (char.name && typeof char.name === 'object') {
-                 return char.name[currentLang]
-                     || char.name.zh
-                     || char.name.ja
-                     || char.name.en
-                     || '';
+                 const preferredKeys = langKeyMap[currentLang] || ['zh'];
+                 for (const key of preferredKeys) {
+                     if (char.name[key]) return char.name[key];
+                 }
+                 for (const key of fallbackKeys) {
+                     if (char.name[key]) return char.name[key];
+                 }
+                 return Object.values(char.name).find(Boolean) || '';
              }
-             return char.name ?? char['角色名稱'] ?? char.fullname ?? '';
+
+             const flatNameMap = {
+                 zh: ['name_zh', 'zh_name', 'name_tw', 'name_zh_tw', '角色名稱', '中文名稱'],
+                 ja: ['name_ja', 'ja_name', 'name_jp', 'jp_name', '日文名稱'],
+                 en: ['name_en', 'en_name', '英文名稱']
+             };
+             for (const key of (flatNameMap[currentLang] || flatNameMap.zh)) {
+                 if (char[key]) return char[key];
+             }
+
+             return char.name ?? char['角色名稱'] ?? char.fullname ?? char.full_name ?? '';
          }
          
          function getCharacterAttr(char) {
@@ -1252,7 +1276,8 @@
          btn.style.backgroundColor = "#22c55e";
          
          setTimeout(() => {
-            btn.innerHTML = '<img src="images/ui/copy.png" alt="複製">';
+            btn.innerHTML = `<img src="images/ui/copy.png" alt="${(UI_TEXT[currentLang] || UI_TEXT.zh).copy}">`;
+            btn.title = (UI_TEXT[currentLang] || UI_TEXT.zh).copy;
             btn.style.backgroundColor = "";
          }, 1000);
          
