@@ -723,47 +723,34 @@
          function parseBaseXToBigInt(value) {
          let result = 0n;
          const base = BigInt(BASE_CHARS.length);
-
+         
          for (const ch of String(value)) {
          const digit = BASE_CHARS.indexOf(ch);
          if (digit < 0) throw new Error('Invalid key');
          result = result * base + BigInt(digit);
          }
-
+         
          return result;
          }
-
+         
          function encodeIdsToKey(ids) {
-         if (!ids.length) return '';
-         
-         const joined = ids.join('-');
-         
-         let num = 0n;
-         
-         for (let i = 0; i < joined.length; i++) {
-         num = num * 131n + BigInt(joined.charCodeAt(i));
-         }
-         
-         return bigIntToBaseX(num);
+         let bits = 0n;
+         ids.forEach(id => {
+         const n = BigInt(Number(id));
+         if (n >= 0n) bits |= (1n << n);
+         });
+         return bigIntToBaseX(bits);
          }
          
          function decodeKeyToIds(key) {
-         if (!key) return [];
-         
-         const num = parseBaseXToBigInt(key);
-         
-         let n = num;
-         let chars = [];
-         
-         while (n > 0n) {
-         const charCode = Number(n % 131n);
-         chars.push(String.fromCharCode(charCode));
-         n = n / 131n;
+         if (!key || key === '0') return [];
+         const bits = parseBaseXToBigInt(key);
+         const maxId = Math.max(0, ...getNormalCheckboxes().map(cb => Number(cb.id.replace('c', ''))));
+         const ids = [];
+         for (let i = 0; i <= maxId; i++) {
+         if ((bits & (1n << BigInt(i))) !== 0n) ids.push(String(i));
          }
-         
-         const str = chars.reverse().join('');
-         
-         return str.split('-').filter(Boolean);
+         return ids;
          }
          
          function resetTable() {
