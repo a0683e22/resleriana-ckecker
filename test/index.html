@@ -585,6 +585,14 @@
          .table-card {
          box-sizing: border-box;
          }
+         .table-card .char-name {
+         display: -webkit-box;
+         -webkit-line-clamp: 2;       /* 最多兩行 */
+         -webkit-box-orient: vertical;
+         overflow: hidden;
+         line-height: 1.3;
+         height: calc(1.3em * 2);     /* 固定兩行高度 */
+         }
       </style>
    </head>
    <body>
