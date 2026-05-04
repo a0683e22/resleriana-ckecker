@@ -51,7 +51,7 @@
          header {
          padding: 20px;
          background: var(--bg-card);
-         border-bottom: 2px solid var(--border);
+         border-bottom: 1px solid rgba(255,255,255,0.06);
          text-align: center;
          position: sticky;
          top: 0;
@@ -61,7 +61,7 @@
          .control-panel {
          padding: 15px;
          background: var(--bg-panel);
-         border-bottom: 1px solid var(--border);
+         border-bottom: 1px solid rgba(255,255,255,0.06);
          display: flex;
          flex-direction: column;
          gap: 10px;
@@ -152,7 +152,7 @@
          display: flex;
          align-items: center;
          padding: 14px 20px;
-         border-bottom: 1px solid var(--border);
+         border-bottom: 2px solid var(--border);
          }
          .checkbox-wrapper { margin-right: 18px; display: flex; align-items: center; }
          input[type="checkbox"] { width: 22px; height: 22px; cursor: pointer; }
@@ -366,12 +366,12 @@
          .table-card {
          display: flex;
          align-items: flex-start;
-         gap: 10px;
-         padding: 10px;
+         gap: 8px;
+         padding: 8px 10px;
          border: 1px solid var(--border);
          border-radius: 8px;
          background: var(--bg-panel);
-         min-height: 82px;
+         min-height: 58px;
          }
          .table-card .checkbox-wrapper {
          margin-right: 0;
@@ -550,6 +550,30 @@
          .btn-reset {
          background-color: #ef4444;
          box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+         }
+         body[data-view="table"] .table-view {
+         border-top: none;
+         }
+         body[data-view="table"] header {
+         border-bottom: 1px solid rgba(255,255,255,0.06);
+         }
+         body[data-view="table"] .control-panel {
+         border-bottom: none;
+         }
+         body[data-view="table"] .table-view {
+         border-top: none;
+         }
+         .item {
+         border-bottom: 1px solid rgba(255,255,255,0.05);
+         }
+         body[data-view="list"] .list-wrapper .item:first-of-type {
+         border-top: 1px solid var(--border);
+         }
+         body[data-view="list"] .list-wrapper .item {
+         border-bottom: 1px solid var(--border);
+         }
+         body[data-view="list"] .list-wrapper .item:first-of-type {
+         border-top: 1px solid var(--border);
          }
       </style>
    </head>
@@ -804,6 +828,7 @@
                      document.body.setAttribute("data-view", currentView);
                      localStorage.setItem('viewMode', currentView);
                      renderCharacters(allCharacters);
+                     applyUiLanguage();
                      setCheckedIds(checkedIds);
                      bindCheckboxEvents();
                      setupTableSelectAll();
@@ -1360,6 +1385,7 @@
                  allCharacters = await response.json();
                  allCharacters.sort((a, b) => new Date(b.date) - new Date(a.date));
                  renderCharacters(allCharacters);
+                 applyUiLanguage();
                  applyFilters();
          
                  const loadedFromUrl = loadFromUrl();
