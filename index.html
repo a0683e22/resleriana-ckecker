@@ -528,9 +528,9 @@
          const finalUrl = getShareUrl();
          document.getElementById('result-url').innerText = finalUrl;
          
-         if (updateAddressBar && window.history && window.history.replaceState) {
+         /*if (updateAddressBar && window.history && window.history.replaceState) {
          window.history.replaceState({}, document.title, finalUrl);
-         }
+         }*/
          
          saveToLocalStorage();
          return finalUrl;
