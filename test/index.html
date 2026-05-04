@@ -417,6 +417,46 @@
          grid-template-columns: 90px repeat(4, minmax(260px, 1fr));
          }
          }
+
+         .select-control {
+         display: inline-flex;
+         align-items: center;
+         justify-content: center;
+         gap: 5px;
+         font-size: 0.72rem;
+         font-weight: 700;
+         color: var(--text-main);
+         cursor: pointer;
+         user-select: none;
+         line-height: 1.2;
+         }
+         .select-control input[type="checkbox"] {
+         width: 15px;
+         height: 15px;
+         cursor: pointer;
+         }
+         .all-select {
+         flex-direction: column;
+         gap: 4px;
+         }
+         .matrix-head-content,
+         .matrix-attr-content {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 6px;
+         }
+         .matrix-head {
+         flex-direction: column;
+         gap: 5px;
+         }
+         .matrix-attr {
+         flex-direction: column;
+         gap: 6px;
+         }
+         .table-card {
+         cursor: pointer;
+         }
          .lang-select {
          height: 36px;
          border-radius: 999px;
@@ -609,7 +649,81 @@
          
          function bindCheckboxEvents() {
              getNormalCheckboxes().forEach(cb => {
-                 cb.addEventListener('change', () => syncShareUrl());
+                 cb.addEventListener('change', () => {
+                     syncShareUrl();
+                     updateTableSelectStates();
+                 });
+             });
+             bindCardClickEvents();
+             bindTableSelectEvents();
+             updateTableSelectStates();
+         }
+
+         function setCheckboxesBySelector(selector, checked) {
+             document.querySelectorAll(selector).forEach(cb => {
+                 cb.checked = checked;
+                 cb.dispatchEvent(new Event('change'));
+             });
+         }
+
+         function setControlState(control, boxes) {
+             if (!control) return;
+             const checkedCount = boxes.filter(cb => cb.checked).length;
+             control.checked = boxes.length > 0 && checkedCount === boxes.length;
+             control.indeterminate = checkedCount > 0 && checkedCount < boxes.length;
+         }
+
+         function updateTableSelectStates() {
+             if (currentView !== 'table') return;
+
+             const allBoxes = Array.from(document.querySelectorAll('.table-card input[type="checkbox"]:not(:disabled)'));
+             setControlState(document.getElementById('select-all-table'), allBoxes);
+
+             document.querySelectorAll('[data-select-role]').forEach(control => {
+                 const role = CSS.escape(control.dataset.selectRole);
+                 const boxes = Array.from(document.querySelectorAll(`.table-card[data-role="${role}"] input[type="checkbox"]:not(:disabled)`));
+                 setControlState(control, boxes);
+             });
+
+             document.querySelectorAll('[data-select-attr]').forEach(control => {
+                 const attr = CSS.escape(control.dataset.selectAttr);
+                 const boxes = Array.from(document.querySelectorAll(`.table-card[data-attr="${attr}"] input[type="checkbox"]:not(:disabled)`));
+                 setControlState(control, boxes);
+             });
+         }
+
+         function bindTableSelectEvents() {
+             const selectAll = document.getElementById('select-all-table');
+             if (selectAll) {
+                 selectAll.onchange = () => {
+                     setCheckboxesBySelector('.table-card input[type="checkbox"]:not(:disabled)', selectAll.checked);
+                 };
+             }
+
+             document.querySelectorAll('[data-select-role]').forEach(control => {
+                 control.onchange = () => {
+                     const role = CSS.escape(control.dataset.selectRole);
+                     setCheckboxesBySelector(`.table-card[data-role="${role}"] input[type="checkbox"]:not(:disabled)`, control.checked);
+                 };
+             });
+
+             document.querySelectorAll('[data-select-attr]').forEach(control => {
+                 control.onchange = () => {
+                     const attr = CSS.escape(control.dataset.selectAttr);
+                     setCheckboxesBySelector(`.table-card[data-attr="${attr}"] input[type="checkbox"]:not(:disabled)`, control.checked);
+                 };
+             });
+         }
+
+         function bindCardClickEvents() {
+             document.querySelectorAll('.item').forEach(item => {
+                 item.onclick = (e) => {
+                     if (e.target.closest('input, label, button, select')) return;
+                     const checkbox = item.querySelector('input[type="checkbox"]');
+                     if (!checkbox || checkbox.disabled) return;
+                     checkbox.checked = !checkbox.checked;
+                     checkbox.dispatchEvent(new Event('change'));
+                 };
              });
          }
          
@@ -635,17 +749,6 @@
                      renderCharacters(allCharacters);
                      setCheckedIds(checkedIds);
                      bindCheckboxEvents();
-                     document.querySelectorAll('.item').forEach(item => {
-         item.addEventListener('click', (e) => {
-         if (e.target.tagName === 'INPUT') return;
-         
-         const checkbox = item.querySelector('input[type="checkbox"]');
-         if (!checkbox || checkbox.disabled) return;
-         
-         checkbox.checked = !checkbox.checked;
-         checkbox.dispatchEvent(new Event('change'));
-         });
-         });
                      applyFilters();
                      syncShareUrl();
                      updateViewButtons();
@@ -894,18 +997,35 @@
              list.innerHTML = `
                  <div class="table-view">
                      <div class="matrix-table">
-                         <div class="matrix-cell matrix-head"></div>
+                         <div class="matrix-cell matrix-head">
+                             <label class="select-control all-select" title="全表全選">
+                                 <input type="checkbox" id="select-all-table">
+                                 <span>全選</span>
+                             </label>
+                         </div>
                          ${roleOrder.map(role => `
                              <div class="matrix-cell matrix-head">
-                                 ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(role)}">` : ''}
-                                 <span>${escapeHtml(role)}</span>
+                                 <div class="matrix-head-content">
+                                     ${ROLE_ICON_MAP[role] ? `<img src="${ROLE_ICON_MAP[role]}" alt="${escapeHtml(role)}">` : ''}
+                                     <span>${escapeHtml(role)}</span>
+                                 </div>
+                                 <label class="select-control" title="${escapeHtml(role)}全選">
+                                     <input type="checkbox" data-select-role="${escapeHtml(role)}">
+                                     <span>全選</span>
+                                 </label>
                              </div>
                          `).join('')}
          
                          ${attrOrder.map(attr => `
                              <div class="matrix-cell matrix-attr">
-                                 <img src="${attrIconMap[attr]}" alt="${escapeHtml(attr)}">
-                                 <span>${escapeHtml(attr)}</span>
+                                 <div class="matrix-attr-content">
+                                     <img src="${attrIconMap[attr]}" alt="${escapeHtml(attr)}">
+                                     <span>${escapeHtml(attr)}</span>
+                                 </div>
+                                 <label class="select-control" title="${escapeHtml(attr)}屬性全選">
+                                     <input type="checkbox" data-select-attr="${escapeHtml(attr)}">
+                                     <span>全選</span>
+                                 </label>
                              </div>
                              ${roleOrder.map(role => {
                                  const chars = groups.get(`${attr}|${role}`) || [];
