@@ -940,6 +940,7 @@
              applyUiLanguage();
              setCheckedIds(checkedIds);
              bindCheckboxEvents();
+             syncOwnedState();   
              setupTableSelectAll();
              applyFilters();
              syncShareUrl();
@@ -1458,6 +1459,8 @@
          function resetTable() {
              if (confirm('確定要重置所有勾選嗎？')) {
                  setCheckedIds([]);
+                 syncOwnedState(); 
+                 updateTableSelectAllState();
                  localStorage.removeItem(STORAGE_KEY);
                  syncShareUrl();
              }
