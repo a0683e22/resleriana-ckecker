@@ -118,12 +118,12 @@
   },
   {
     "id": 182,
-    "base_character_id": 32203,
+    "base_character_id": 25506,
     "attr": "冰",
     "name": {
       "zh": "蘿樂娜【Startup Supporter】",
-      "ja": "シャリステラ【Startup Supporter】",
-      "en": "Shallie【Startup Supporter】"
+      "ja": "ロロナ【Startup Supporter】",
+      "en": "Rorona【Startup Supporter】"
     },
     "date": "2026-02-21",
     "image": "",
@@ -144,12 +144,12 @@
   },
   {
     "id": 180,
-    "base_character_id": 32203,
+    "base_character_id": 39907,
     "attr": "火",
     "name": {
       "zh": "萊莎【Startup Supporter】",
-      "ja": "シャリステラ【Startup Supporter】",
-      "en": "Shallie【Startup Supporter】"
+      "ja": "ライザ【Startup Supporter】",
+      "en": "Ryza【Startup Supporter】"
     },
     "date": "2026-02-21",
     "image": "",
@@ -157,12 +157,12 @@
   },
   {
     "id": 179,
-    "base_character_id": 32203,
+    "base_character_id": 43111,
     "attr": "火",
     "name": {
       "zh": "蕾斯娜【Startup Supporter】",
-      "ja": "シャリステラ【Startup Supporter】",
-      "en": "Shallie【Startup Supporter】"
+      "ja": "レスナ【Startup Supporter】",
+      "en": "Resna【Startup Supporter】"
     },
     "date": "2026-02-21",
     "image": "",
@@ -170,12 +170,12 @@
   },
   {
     "id": 178,
-    "base_character_id": 32203,
+    "base_character_id": 43209,
     "attr": "突",
     "name": {
       "zh": "瓦萊莉婭【Startup Supporter】",
-      "ja": "シャリステラ【Startup Supporter】",
-      "en": "Shallie【Startup Supporter】"
+      "ja": "ヴァレリア【Startup Supporter】",
+      "en": "Valeria【Startup Supporter】"
     },
     "date": "2026-02-21",
     "image": "",
