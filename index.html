@@ -6,6 +6,7 @@
       <title>角色持有清單</title>
       <link rel="icon" href="favicon.ico">
       <style>
+         /* ===== 全局共用：色彩變數 / 深淺色主題 ===== */
          :root {
          --bg-body: #020617;
          --bg-card: #0f172a;
@@ -24,6 +25,7 @@
          --text-sub: #6b7280;
          --border: #e5e7eb;
          }
+         /* ===== 全局共用：頁面基本版面 ===== */
          body {
          font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
          background-color: var(--bg-body);
@@ -48,6 +50,7 @@
          overflow: hidden;
          margin-bottom: 40px;
          }
+         /* ===== 全局共用：頁首 / 標題 / 語言 / 主題切換 ===== */
          header {
          padding: 20px;
          background: var(--bg-card);
@@ -58,6 +61,7 @@
          z-index: 10;
          }
          h1 { margin: 0 0 14px; }
+         /* ===== 全局共用：控制面板 / URL / 按鈕 ===== */
          .control-panel {
          padding: 15px;
          background: var(--bg-panel);
@@ -92,6 +96,7 @@
          min-height: 20px;
          text-align: left;
          }
+         /* ===== 全局共用：屬性 / 職種篩選按鈕 ===== */
          .filter-title {
          font-size: 0.82rem;
          color: var(--text-sub);
@@ -146,7 +151,9 @@
          border-color: var(--primary);
          box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
          }
+         /* ===== 全局共用：資料狀態 / 篩選隱藏 ===== */
          .item.hidden-by-filter { display: none; }
+         /* ===== 全局共用：共用 item / checkbox 基礎 ===== */
          .list-wrapper { max-height: 70vh; overflow-y: auto; }
          .item {
          display: flex;
@@ -157,12 +164,14 @@
          .checkbox-wrapper { margin-right: 18px; display: flex; align-items: center; }
          input[type="checkbox"] { width: 22px; height: 22px; cursor: pointer; }
          input[type="checkbox"]:disabled { cursor: not-allowed; }
+         /* ===== 列表模式：角色文字資訊 ===== */
          .info { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
          .main-line { display: flex; align-items: center; font-size: 1.05rem; font-weight: 600; cursor: pointer; line-height: 1.35; }
          .fixed .main-line { cursor: default; }
          .fixed {
          background: var(--bg-card);
          }
+         /* ===== 全局共用：屬性標籤與職種小圖示 ===== */
          .attr-tag {
          padding: 2px 10px;
          border-radius: 6px;
@@ -184,6 +193,7 @@
          .date-line { font-size: 0.85rem; color: var(--text-sub); padding-left: 55px; }
          .loading, .error { padding: 20px; color: var(--text-sub); text-align: center; }
          .error { color: var(--danger); }
+         /* ===== 全局共用：屬性標籤顏色 ===== */
          .tag-火 { background-color: #b91c1c; }
          .tag-冰 { background-color: #0ea5e9; }
          .tag-雷 { background-color: #eab308; color: #000000; }
@@ -221,6 +231,7 @@
          align-items: center;
          justify-content: center;
          }
+         /* ===== 全局共用：手機版基礎響應式 ===== */
          @media (max-width: 480px) {
          body { padding: 12px; }
          header { padding: 16px; }
@@ -228,6 +239,7 @@
          .checkbox-wrapper { margin-right: 14px; }
          .role-filter-btn { width: 40px; height: 40px; }
          }
+         /* ===== 全局共用：清除篩選按鈕 / 推右工具 ===== */
          .clear-btn {
          width: 42px;
          height: 42px;
@@ -277,6 +289,7 @@
          border-color: var(--primary);
          box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
          }
+         /* ===== 全局共用：標題右側操作區 ===== */
          .title-actions {
          position: absolute;
          right: 0;
@@ -286,6 +299,7 @@
          gap: 8px;
          align-items: center;
          }
+         /* ===== 全局共用：列表/表格切換按鈕 ===== */
          .view-toggle {
          display: flex;
          gap: 8px;
@@ -303,6 +317,7 @@
          color: #ffffff;
          border-color: var(--primary);
          }
+         /* ===== 表格模式：外層表格 / 矩陣 ===== */
          .table-view {
          overflow-x: auto;
          border-top: 1px solid var(--border);
@@ -314,6 +329,7 @@
          border-left: 1px solid var(--border);
          border-top: 1px solid var(--border);
          }
+         /* ===== 表格模式：矩陣格線與標題 ===== */
          .matrix-cell {
          border-right: 1px solid var(--border);
          border-bottom: 1px solid var(--border);
@@ -357,12 +373,24 @@
          height: 28px;
          object-fit: contain;
          }
+         /* ===== 表格模式：矩陣內容格 ===== */
          .matrix-slot {
-         padding: 6px;
-         display: flex;
-         flex-direction: column;
-         gap: 6px;
+         padding: 4px;
+         display: grid;
+         grid-template-columns: repeat(3, minmax(0, 1fr));  /* 🔥 grid-template-columns: repeat(3, 1fr); 🔥 一行三個 */
+         gap: 2px;
          }
+         @media (max-width: 900px) { 				/*控制手機模式兩個、電腦模式三個*/
+         .matrix-slot {
+         grid-template-columns: repeat(2, 1fr);
+         }
+         }
+         @media (min-width: 901px) {
+         .matrix-slot {
+         grid-template-columns: repeat(3, 1fr);
+         }
+         }
+         /* ===== 表格模式：舊版文字卡片樣式 ===== */
          .table-card {
          display: flex;
          align-items: flex-start;
@@ -417,6 +445,7 @@
          grid-template-columns: 90px repeat(4, minmax(260px, 1fr));
          }
          }
+         /* ===== 表格模式：全選 / 列選 / 欄選 ===== */
          .select-label {
          display: inline-flex;
          align-items: center;
@@ -449,6 +478,7 @@
          .table-card {
          cursor: pointer;
          }
+         /* ===== 全局共用：URL列 / 複製按鈕 / 動作列 ===== */
          .url-row {
          display: flex;
          align-items: stretch;
@@ -479,6 +509,7 @@
          #reset-btn {
          flex: 0.7;  /* 比較短 */
          }
+         /* ===== 全局共用：圖示按鈕 ===== */
          .icon-btn {
          display: inline-flex;
          align-items: center;
@@ -551,6 +582,7 @@
          background-color: #ef4444;
          box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
          }
+         /* ===== 表格模式：表格頁面微調 ===== */
          body[data-view="table"] .table-view {
          border-top: none;
          }
@@ -566,6 +598,7 @@
          .item {
          border-bottom: 1px solid rgba(255,255,255,0.05);
          }
+         /* ===== 列表模式：列表邊框 ===== */
          body[data-view="list"] .list-wrapper .item:first-of-type {
          border-top: 1px solid var(--border);
          }
@@ -592,6 +625,72 @@
          overflow: hidden;
          line-height: 1.3;
          height: calc(1.3em * 2);     /* 固定兩行高度 */
+         }
+         /* ===== 列表模式：右側角色圖片 ===== */
+         .char-image-wrapper {
+         margin-left: auto;
+         flex-shrink: 0;
+         padding-left: 12px;
+         display: flex;
+         align-items: center;
+         }
+         .char-image {
+         width: 60px;
+         height: 56px;
+         object-fit: cover;
+         display: block;
+         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+         }
+         .table-card {
+         position: relative;
+         width: 100%;
+         aspect-ratio: 150 / 140;
+         max-width: none;   /* 🔥 關鍵 */
+         margin: 0 auto;     /* 置中 */
+         padding: 0;
+         overflow: hidden;
+         border-radius: 10px;
+         }
+         /* ===== 表格模式：圖片卡片覆蓋樣式 ===== */
+         /* 圖片 */
+         .card-image img {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+         }
+         /* 未持有（預設） */
+         .table-card img {
+         filter: grayscale(100%);
+         opacity: 0.4;
+         transition: all 0.2s ease;
+         }
+         /* 已持有 */
+         .table-card.owned img {
+         filter: none;
+         opacity: 1;
+         }
+         .table-card:hover {
+         transform: scale(1.05);
+         box-shadow: 0 0 8px rgba(255,255,255,0.3);
+         }
+         /* ===== 表格模式：職種右下角圖示 ===== */
+         /* 職種右下 */
+         .card-role {
+         position: absolute;
+         bottom: 4px;
+         right: 4px;
+         width: 26px;
+         height: 26px;
+         z-index: 2;
+         }
+         /* ===== 表格模式：checkbox 左上角 ===== */
+         /* checkbox 左上 */
+         .table-card input[type="checkbox"] {
+         position: absolute;
+         top: 4px;
+         left: 4px;
+         z-index: 3;
          }
       </style>
    </head>
@@ -841,6 +940,7 @@
              applyUiLanguage();
              setCheckedIds(checkedIds);
              bindCheckboxEvents();
+             syncOwnedState();   
              setupTableSelectAll();
              applyFilters();
              syncShareUrl();
@@ -859,6 +959,7 @@
                      renderCharacters(allCharacters);
                      applyUiLanguage();
                      setCheckedIds(checkedIds);
+                     syncOwnedState();
                      bindCheckboxEvents();
                      setupTableSelectAll();
                      applyFilters();
@@ -867,6 +968,13 @@
                  });
              });
              updateViewButtons();
+         }
+         function syncOwnedState() {
+         document.querySelectorAll('.table-card').forEach(card => {
+         const cb = card.querySelector('input[type="checkbox"]');
+         if (!cb) return;
+         card.classList.toggle('owned', cb.checked);
+         });
          }
          
          function updateViewButtons() {
@@ -1123,6 +1231,7 @@
                  const roleIcon = ROLE_ICON_MAP[role] || '';
                  const dateText = getDateText(char);
                  const name = getCharacterName(char);
+                 const image = char.image || `images/chara/${char.base_character_id}.png`;
                  return `
                      <div class="item${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
                          <div class="checkbox-wrapper">
@@ -1136,6 +1245,16 @@
                              </label>
                              <span class="date-line">${escapeHtml(dateText)}</span>
                          </div>
+                         ${image ? `
+                         <div class="char-image-wrapper">
+                             <img 
+                               class="char-image" 
+                               src="${escapeHtml(image)}" 
+                               alt="${escapeHtml(name)}" 
+                               onerror="this.parentElement.style.display='none'"
+                               >
+                         </div>
+                         ` : ''}
                      </div>
                  `;
              }).join('');
@@ -1175,20 +1294,26 @@
                  if (!Number.isFinite(id)) return '';
                  const role = getCharacterRole(char);
                  const roleIcon = ROLE_ICON_MAP[role] || '';
-                 const dateText = getDateText(char);
                  const name = getCharacterName(char);
+                 const image = char.image || `images/chara/${char.base_character_id}.png`;
+         
                  return `
-                     <div class="item table-card${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
-                         <div class="checkbox-wrapper">
-                             <input type="checkbox" id="c${id}" class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"${getCheckboxAttrs(id)}>
+                     <div class="item table-card${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}" title="${escapeHtml(name)}">
+                         <input type="checkbox"
+         id="c${id}"
+         class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"
+         ${getCheckboxAttrs(id)}
+         onchange="this.closest('.table-card')?.classList.toggle('owned', this.checked)">
+         
+                         <div class="card-image">
+                             <img
+                                 src="${escapeHtml(image)}"
+                                 alt="${escapeHtml(name)}"
+                                 onerror="this.parentElement.style.display='none'"
+                             >
                          </div>
-                         <div class="table-info">
-                             <label for="c${id}" class="table-name">
-                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
-                                 <span>${escapeHtml(name)}</span>
-                             </label>
-                             <div class="table-date">${escapeHtml(dateText)}</div>
-                         </div>
+         
+                         ${roleIcon ? `<img class="card-role" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
                      </div>
                  `;
              };
@@ -1334,6 +1459,8 @@
          function resetTable() {
              if (confirm('確定要重置所有勾選嗎？')) {
                  setCheckedIds([]);
+                 syncOwnedState(); 
+                 updateTableSelectAllState();
                  localStorage.removeItem(STORAGE_KEY);
                  syncShareUrl();
              }
@@ -1416,12 +1543,13 @@
                  renderCharacters(allCharacters);
                  applyUiLanguage();
                  applyFilters();
-         
+                 
                  const loadedFromUrl = loadFromUrl();
                  if (!loadedFromUrl) {
                      loadFromLocalStorage();
                      syncShareUrl();
                  }
+                 syncOwnedState();
          
                  bindCheckboxEvents();
                  setupTableSelectAll();

@@ -1,6 +1,7 @@
 [
-   {
+  {
     "id": 191,
+    "base_character_id": 43505,
     "attr": "打",
     "name": {
       "zh": "海蒂【Buddy's Returning】",
@@ -13,9 +14,10 @@
   },
   {
     "id": 190,
+    "base_character_id": 46801,
     "attr": "打",
     "name": {
-      "zh": "卡蘿琳【Courageous Sister】",
+      "zh": "卡洛琳【Courageous Sister】",
       "ja": "カロリン【Courageous Sister】",
       "en": "Caroline【Courageous Sister】"
     },
@@ -25,6 +27,7 @@
   },
   {
     "id": 189,
+    "base_character_id": 43806,
     "attr": "雷",
     "name": {
       "zh": "伊札娜【Cutie☆Cat】",
@@ -37,6 +40,7 @@
   },
   {
     "id": 188,
+    "base_character_id": 44005,
     "attr": "雷",
     "name": {
       "zh": "約翰娜【Cutie☆Hamster】",
@@ -49,6 +53,7 @@
   },
   {
     "id": 187,
+    "base_character_id": 45602,
     "attr": "雷",
     "name": {
       "zh": "鬼門【Cutie☆Fox】",
@@ -61,6 +66,7 @@
   },
   {
     "id": 186,
+    "base_character_id": 46701,
     "attr": "突",
     "name": {
       "zh": "艾爾斯【Absolute Order】",
@@ -73,6 +79,7 @@
   },
   {
     "id": 185,
+    "base_character_id": 46102,
     "attr": "突",
     "name": {
       "zh": "莉貝【九偉人 No.6】",
@@ -85,6 +92,7 @@
   },
   {
     "id": 184,
+    "base_character_id": 44204,
     "attr": "冰",
     "name": {
       "zh": "拉拉【ララ・キングダムの王】",
@@ -97,6 +105,7 @@
   },
   {
     "id": 183,
+    "base_character_id": 46601,
     "attr": "突",
     "name": {
       "zh": "喬澤【Masked Hunter】",
@@ -109,6 +118,7 @@
   },
   {
     "id": 182,
+    "base_character_id": 25506,
     "attr": "冰",
     "name": {
       "zh": "蘿樂娜【Startup Supporter】",
@@ -121,6 +131,7 @@
   },
   {
     "id": 181,
+    "base_character_id": 32203,
     "attr": "風",
     "name": {
       "zh": "夏莉絲堤菈【Startup Supporter】",
@@ -133,6 +144,7 @@
   },
   {
     "id": 180,
+    "base_character_id": 39907,
     "attr": "火",
     "name": {
       "zh": "萊莎【Startup Supporter】",
@@ -145,6 +157,7 @@
   },
   {
     "id": 179,
+    "base_character_id": 43111,
     "attr": "火",
     "name": {
       "zh": "蕾斯娜【Startup Supporter】",
@@ -157,6 +170,7 @@
   },
   {
     "id": 178,
+    "base_character_id": 43209,
     "attr": "突",
     "name": {
       "zh": "瓦萊莉婭【Startup Supporter】",
@@ -169,6 +183,7 @@
   },
   {
     "id": 177,
+    "base_character_id": 46501,
     "attr": "突",
     "name": {
       "zh": "泰妮【Lovable Inspector】",
@@ -181,6 +196,7 @@
   },
   {
     "id": 176,
+    "base_character_id": 44804,
     "attr": "冰",
     "name": {
       "zh": "安潔【人形遣いの魔女】",
@@ -193,6 +209,7 @@
   },
   {
     "id": 175,
+    "base_character_id": 45004,
     "attr": "冰",
     "name": {
       "zh": "克莉賽爾達【極夜の錬金党党首】",
@@ -205,6 +222,7 @@
   },
   {
     "id": 174,
+    "base_character_id": 44102,
     "attr": "斬",
     "name": {
       "zh": "傑隆【Break the Curse】",
@@ -217,6 +235,7 @@
   },
   {
     "id": 173,
+    "base_character_id": 46401,
     "attr": "突",
     "name": {
       "zh": "提姆【Little Knight】",
@@ -229,6 +248,7 @@
   },
   {
     "id": 172,
+    "base_character_id": 44902,
     "attr": "雷",
     "name": {
       "zh": "瓦爾特【Suit of Vertex】",
@@ -241,6 +261,7 @@
   },
   {
     "id": 171,
+    "base_character_id": 60201,
     "attr": "雷",
     "name": {
       "zh": "史雷【白の意思を継ぐ者】",
@@ -253,6 +274,7 @@
   },
   {
     "id": 170,
+    "base_character_id": 60101,
     "attr": "風",
     "name": {
       "zh": "莉雅絲【Mistletoe of Hope】",
@@ -265,6 +287,7 @@
   },
   {
     "id": 169,
+    "base_character_id": 43110,
     "attr": "風",
     "name": {
       "zh": "蕾斯娜【幸爛漫・福ノ華】",
@@ -277,6 +300,7 @@
   },
   {
     "id": 168,
+    "base_character_id": 43805,
     "attr": "風",
     "name": {
       "zh": "伊札娜【Starry Heavens Tone】",
@@ -289,6 +313,7 @@
   },
   {
     "id": 167,
+    "base_character_id": 44803,
     "attr": "火",
     "name": {
       "zh": "安潔【ミルキィバニー】",
@@ -301,6 +326,7 @@
   },
   {
     "id": 166,
+    "base_character_id": 45003,
     "attr": "火",
     "name": {
       "zh": "克莉賽爾達【トリッキーバニー】",
@@ -313,6 +339,7 @@
   },
   {
     "id": 165,
+    "base_character_id": 46002,
     "attr": "突",
     "name": {
       "zh": "格烏【九偉人 No.5】",
@@ -325,6 +352,7 @@
   },
   {
     "id": 164,
+    "base_character_id": 46201,
     "attr": "突",
     "name": {
       "zh": "希特琳【Charming Jewel】",
@@ -337,6 +365,7 @@
   },
   {
     "id": 163,
+    "base_character_id": 46101,
     "attr": "突",
     "name": {
       "zh": "莉貝【Innate Strategist】",
@@ -349,6 +378,7 @@
   },
   {
     "id": 162,
+    "base_character_id": 44004,
     "attr": "突",
     "name": {
       "zh": "鴉【月影の執行者】",
@@ -361,6 +391,7 @@
   },
   {
     "id": 161,
+    "base_character_id": 45202,
     "attr": "打",
     "name": {
       "zh": "阿爾比娜【トロピカル・シャイン】",
@@ -373,6 +404,7 @@
   },
   {
     "id": 160,
+    "base_character_id": 70201,
     "attr": "打",
     "name": {
       "zh": "穗香【クロス・ザ・ライン】",
@@ -385,6 +417,7 @@
   },
   {
     "id": 159,
+    "base_character_id": 43109,
     "attr": "打",
     "name": {
       "zh": "蕾斯娜【ヴィーナス・ノヴァ】",
@@ -397,6 +430,7 @@
   },
   {
     "id": 158,
+    "base_character_id": 70101,
     "attr": "打",
     "name": {
       "zh": "瑪莉・蘿絲【トゥインクル・ローズ】",
@@ -409,6 +443,7 @@
   },
   {
     "id": 157,
+    "base_character_id": 46001,
     "attr": "打",
     "name": {
       "zh": "格烏【Faithful Fighter】",
@@ -421,6 +456,7 @@
   },
   {
     "id": 156,
+    "base_character_id": 45401,
     "attr": "打",
     "name": {
       "zh": "耶爾卡【Nifty Rover】",
@@ -433,6 +469,7 @@
   },
   {
     "id": 155,
+    "base_character_id": 45402,
     "attr": "火",
     "name": {
       "zh": "耶爾卡【九偉人 No.3】",
@@ -445,9 +482,10 @@
   },
   {
     "id": 154,
+    "base_character_id": 45901,
     "attr": "雷",
     "name": {
-      "zh": "千歳【かんなぎの乙女】",
+      "zh": "千歲【かんなぎの乙女】",
       "ja": "千歳【かんなぎの乙女】",
       "en": "Chitose【かんなぎの乙女】"
     },
@@ -457,6 +495,7 @@
   },
   {
     "id": 153,
+    "base_character_id": 45801,
     "attr": "雷",
     "name": {
       "zh": "鏑矢【地に輝ける一番星】",
@@ -469,6 +508,7 @@
   },
   {
     "id": 152,
+    "base_character_id": 45701,
     "attr": "雷",
     "name": {
       "zh": "永遠【口説き上手の式使い】",
@@ -481,6 +521,7 @@
   },
   {
     "id": 151,
+    "base_character_id": 45601,
     "attr": "雷",
     "name": {
       "zh": "鬼門【篤き忠義の忍び】",
@@ -493,6 +534,7 @@
   },
   {
     "id": 150,
+    "base_character_id": 44003,
     "attr": "斬",
     "name": {
       "zh": "約翰娜【ブリリアントダイバー】",
@@ -505,6 +547,7 @@
   },
   {
     "id": 149,
+    "base_character_id": 45002,
     "attr": "斬",
     "name": {
       "zh": "克莉賽爾達【Seaside Butterfly】",
@@ -517,6 +560,7 @@
   },
   {
     "id": 148,
+    "base_character_id": 44203,
     "attr": "斬",
     "name": {
       "zh": "拉拉【Seaside Queen】",
@@ -529,6 +573,7 @@
   },
   {
     "id": 147,
+    "base_character_id": 44802,
     "attr": "斬",
     "name": {
       "zh": "安潔【マリンパペッティア】",
@@ -541,6 +586,7 @@
   },
   {
     "id": 146,
+    "base_character_id": 25505,
     "attr": "冰",
     "name": {
       "zh": "蘿樂娜【ワンダフルプリンセス】",
@@ -553,6 +599,7 @@
   },
   {
     "id": 145,
+    "base_character_id": 26904,
     "attr": "冰",
     "name": {
       "zh": "托托莉【エンドレスボイジャー】",
@@ -565,6 +612,7 @@
   },
   {
     "id": 144,
+    "base_character_id": 27002,
     "attr": "冰",
     "name": {
       "zh": "敏敏【プラウドボイジャー】",
@@ -577,6 +625,7 @@
   },
   {
     "id": 143,
+    "base_character_id": 40102,
     "attr": "風",
     "name": {
       "zh": "莉拉【雅なる豪傑】",
@@ -589,6 +638,7 @@
   },
   {
     "id": 142,
+    "base_character_id": 44002,
     "attr": "冰",
     "name": {
       "zh": "約翰娜【Phenom's Reborn】",
@@ -601,6 +651,7 @@
   },
   {
     "id": 141,
+    "base_character_id": 43804,
     "attr": "風",
     "name": {
       "zh": "伊札娜【Knight's Beginning】",
@@ -613,6 +664,7 @@
   },
   {
     "id": 140,
+    "base_character_id": 43404,
     "attr": "突",
     "name": {
       "zh": "尤娜【With Ideals】",
@@ -625,6 +677,7 @@
   },
   {
     "id": 139,
+    "base_character_id": 43603,
     "attr": "風",
     "name": {
       "zh": "芙洛可【ハートフルミライ】",
@@ -637,6 +690,7 @@
   },
   {
     "id": 138,
+    "base_character_id": 43504,
     "attr": "風",
     "name": {
       "zh": "海蒂【ドリームフューチャー】",
@@ -649,6 +703,7 @@
   },
   {
     "id": 137,
+    "base_character_id": 33504,
     "attr": "突",
     "name": {
       "zh": "普拉芙妲【Mighty Manager】",
@@ -661,6 +716,7 @@
   },
   {
     "id": 136,
+    "base_character_id": 40005,
     "attr": "風",
     "name": {
       "zh": "科洛蒂婭【Blooming Creation】",
@@ -673,6 +729,7 @@
   },
   {
     "id": 135,
+    "base_character_id": 50601,
     "attr": "火",
     "name": {
       "zh": "妮娜【ミステリアスな実力者】",
@@ -685,6 +742,7 @@
   },
   {
     "id": 134,
+    "base_character_id": 50501,
     "attr": "打",
     "name": {
       "zh": "魯格【我が道を征く者】",
@@ -697,6 +755,7 @@
   },
   {
     "id": 133,
+    "base_character_id": 50401,
     "attr": "火",
     "name": {
       "zh": "艾菈【Friendly Fashionista】",
@@ -709,6 +768,7 @@
   },
   {
     "id": 132,
+    "base_character_id": 50301,
     "attr": "打",
     "name": {
       "zh": "蕾妮雅【Sincere Devotion】",
@@ -721,6 +781,7 @@
   },
   {
     "id": 131,
+    "base_character_id": 50101,
     "attr": "火",
     "name": {
       "zh": "優米雅【Seeker of Memories】",
@@ -733,6 +794,7 @@
   },
   {
     "id": 130,
+    "base_character_id": 50201,
     "attr": "打",
     "name": {
       "zh": "維克多【正義を貫きし貴族】",
@@ -745,6 +807,7 @@
   },
   {
     "id": 129,
+    "base_character_id": 43208,
     "attr": "斬",
     "name": {
       "zh": "瓦萊莉婭【Get Over Limit】",
@@ -757,6 +820,7 @@
   },
   {
     "id": 128,
+    "base_character_id": 43108,
     "attr": "斬",
     "name": {
       "zh": "蕾斯娜【Rise Above Fate】",
@@ -769,6 +833,7 @@
   },
   {
     "id": 127,
+    "base_character_id": 45301,
     "attr": "斬",
     "name": {
       "zh": "陽妮【Mother's Affection】",
@@ -781,6 +846,7 @@
   },
   {
     "id": 126,
+    "base_character_id": 45101,
     "attr": "斬",
     "name": {
       "zh": "貝普【Mourning Blades】",
@@ -793,6 +859,7 @@
   },
   {
     "id": 125,
+    "base_character_id": 45201,
     "attr": "斬",
     "name": {
       "zh": "阿爾比娜【Dream of Hero】",
@@ -805,6 +872,7 @@
   },
   {
     "id": 124,
+    "base_character_id": 39906,
     "attr": "突",
     "name": {
       "zh": "萊莎【Flowering Explorer】",
@@ -817,6 +885,7 @@
   },
   {
     "id": 123,
+    "base_character_id": 40004,
     "attr": "突",
     "name": {
       "zh": "科洛蒂婭【Flowering Doer】",
@@ -829,6 +898,7 @@
   },
   {
     "id": 122,
+    "base_character_id": 33503,
     "attr": "冰",
     "name": {
       "zh": "普拉芙妲【Curious Theorist】",
@@ -841,6 +911,7 @@
   },
   {
     "id": 121,
+    "base_character_id": 35101,
     "attr": "風",
     "name": {
       "zh": "伊爾梅莉亞【Diligent Genius】",
@@ -853,6 +924,7 @@
   },
   {
     "id": 120,
+    "base_character_id": 35003,
     "attr": "風",
     "name": {
       "zh": "菲莉絲【Twinning Ribbon】",
@@ -865,6 +937,7 @@
   },
   {
     "id": 119,
+    "base_character_id": 40402,
     "attr": "冰",
     "name": {
       "zh": "安佩爾【Sweet Butler】",
@@ -877,6 +950,7 @@
   },
   {
     "id": 118,
+    "base_character_id": 44202,
     "attr": "冰",
     "name": {
       "zh": "拉拉【Great Refinement】",
@@ -889,6 +963,7 @@
   },
   {
     "id": 117,
+    "base_character_id": 43902,
     "attr": "冰",
     "name": {
       "zh": "薩絲琪亞【Spring Wishes】",
@@ -901,6 +976,7 @@
   },
   {
     "id": 116,
+    "base_character_id": 10201,
     "attr": "雷",
     "name": {
       "zh": "希婭【One And Only】",
@@ -913,6 +989,7 @@
   },
   {
     "id": 115,
+    "base_character_id": 45001,
     "attr": "雷",
     "name": {
       "zh": "克莉賽爾達【Ambitious Alchemist】",
@@ -925,6 +1002,7 @@
   },
   {
     "id": 114,
+    "base_character_id": 43403,
     "attr": "雷",
     "name": {
       "zh": "尤娜【Starry Beauty】",
@@ -937,6 +1015,7 @@
   },
   {
     "id": 113,
+    "base_character_id": 43207,
     "attr": "風",
     "name": {
       "zh": "瓦萊莉婭【Dark Warrior】",
@@ -949,6 +1028,7 @@
   },
   {
     "id": 112,
+    "base_character_id": 44801,
     "attr": "雷",
     "name": {
       "zh": "安潔【Magical Puppeteer】",
@@ -961,6 +1041,7 @@
   },
   {
     "id": 111,
+    "base_character_id": 44901,
     "attr": "雷",
     "name": {
       "zh": "瓦爾特【Wisdom Inquirer】",
@@ -973,6 +1054,7 @@
   },
   {
     "id": 110,
+    "base_character_id": 44701,
     "attr": "突",
     "name": {
       "zh": "布萊德【Passionate Blood】",
@@ -985,6 +1067,7 @@
   },
   {
     "id": 109,
+    "base_character_id": 44601,
     "attr": "突",
     "name": {
       "zh": "瑪格達【Pinkish Destroyer】",
@@ -997,6 +1080,7 @@
   },
   {
     "id": 108,
+    "base_character_id": 44401,
     "attr": "突",
     "name": {
       "zh": "米珂【Fashionable Kitty】",
@@ -1009,6 +1093,7 @@
   },
   {
     "id": 107,
+    "base_character_id": 44501,
     "attr": "斬",
     "name": {
       "zh": "蒂歐娜【Fervorous Diva】",
@@ -1021,6 +1106,7 @@
   },
   {
     "id": 106,
+    "base_character_id": 43503,
     "attr": "風",
     "name": {
       "zh": "海蒂【Lucky Buddy】",
@@ -1033,6 +1119,7 @@
   },
   {
     "id": 105,
+    "base_character_id": 43602,
     "attr": "突",
     "name": {
       "zh": "芙洛可【Earnest Angel】",
@@ -1045,6 +1132,7 @@
   },
   {
     "id": 104,
+    "base_character_id": 15102,
     "attr": "火",
     "name": {
       "zh": "優蒂【Heroic Assault】",
@@ -1057,6 +1145,7 @@
   },
   {
     "id": 103,
+    "base_character_id": 39905,
     "attr": "打",
     "name": {
       "zh": "萊莎【Brave Blaze】",
@@ -1069,6 +1158,7 @@
   },
   {
     "id": 102,
+    "base_character_id": 43303,
     "attr": "打",
     "name": {
       "zh": "羅曼【Reassuring Shielder】",
@@ -1081,6 +1171,7 @@
   },
   {
     "id": 101,
+    "base_character_id": 43803,
     "attr": "打",
     "name": {
       "zh": "伊札娜【Stormy Smite】",
@@ -1093,6 +1184,7 @@
   },
   {
     "id": 100,
+    "base_character_id": 43206,
     "attr": "火",
     "name": {
       "zh": "瓦萊莉婭【Awakened Past】",
@@ -1105,6 +1197,7 @@
   },
   {
     "id": 99,
+    "base_character_id": 44101,
     "attr": "斬",
     "name": {
       "zh": "傑隆【Beastly Fencer】",
@@ -1117,6 +1210,7 @@
   },
   {
     "id": 98,
+    "base_character_id": 43107,
     "attr": "火",
     "name": {
       "zh": "蕾斯娜【Awakened Future】",
@@ -1129,6 +1223,7 @@
   },
   {
     "id": 97,
+    "base_character_id": 44201,
     "attr": "斬",
     "name": {
       "zh": "拉拉【Queen's Grace】",
@@ -1141,6 +1236,7 @@
   },
   {
     "id": 96,
+    "base_character_id": 29203,
     "attr": "冰",
     "name": {
       "zh": "愛夏【Twilight Fairy】",
@@ -1153,6 +1249,7 @@
   },
   {
     "id": 95,
+    "base_character_id": 33403,
     "attr": "火",
     "name": {
       "zh": "蘇菲【Pure Angel】",
@@ -1165,6 +1262,7 @@
   },
   {
     "id": 94,
+    "base_character_id": 43901,
     "attr": "冰",
     "name": {
       "zh": "薩絲琪亞【Master of Alchemy】",
@@ -1177,6 +1275,7 @@
   },
   {
     "id": 93,
+    "base_character_id": 44001,
     "attr": "斬",
     "name": {
       "zh": "約翰娜【Battle Phenom】",
@@ -1189,6 +1288,7 @@
   },
   {
     "id": 92,
+    "base_character_id": 10104,
     "attr": "冰",
     "name": {
       "zh": "瑪莉【Bomber Cat】",
@@ -1201,6 +1301,7 @@
   },
   {
     "id": 91,
+    "base_character_id": 25504,
     "attr": "火",
     "name": {
       "zh": "蘿樂娜【Sweetie Rabbit】",
@@ -1213,6 +1314,7 @@
   },
   {
     "id": 90,
+    "base_character_id": 40003,
     "attr": "冰",
     "name": {
       "zh": "科洛蒂婭【Moonlit Beach】",
@@ -1225,6 +1327,7 @@
   },
   {
     "id": 89,
+    "base_character_id": 43204,
     "attr": "雷",
     "name": {
       "zh": "瓦萊莉婭【Radiant Summer】",
@@ -1237,6 +1340,7 @@
   },
   {
     "id": 88,
+    "base_character_id": 39904,
     "attr": "冰",
     "name": {
       "zh": "萊莎【Sunlit Beach】",
@@ -1249,6 +1353,7 @@
   },
   {
     "id": 87,
+    "base_character_id": 43105,
     "attr": "雷",
     "name": {
       "zh": "蕾斯娜【Pretty Summer】",
@@ -1261,6 +1366,7 @@
   },
   {
     "id": 86,
+    "base_character_id": 29302,
     "attr": "雷",
     "name": {
       "zh": "薇爾貝兒【Witch in the dark】",
@@ -1273,6 +1379,7 @@
   },
   {
     "id": 85,
+    "base_character_id": 43302,
     "attr": "冰",
     "name": {
       "zh": "羅曼【Secret Fellow】",
@@ -1285,6 +1392,7 @@
   },
   {
     "id": 84,
+    "base_character_id": 29702,
     "attr": "火",
     "name": {
       "zh": "瑪莉翁【Bullet of Ink】",
@@ -1297,6 +1405,7 @@
   },
   {
     "id": 83,
+    "base_character_id": 30903,
     "attr": "火",
     "name": {
       "zh": "愛絲卡【Challenging Worker】",
@@ -1309,6 +1418,7 @@
   },
   {
     "id": 82,
+    "base_character_id": 43502,
     "attr": "火",
     "name": {
       "zh": "海蒂【Merciful Bride】",
@@ -1321,6 +1431,7 @@
   },
   {
     "id": 81,
+    "base_character_id": 43802,
     "attr": "斬",
     "name": {
       "zh": "伊札娜【Dragon's Bride】",
@@ -1333,6 +1444,7 @@
   },
   {
     "id": 80,
+    "base_character_id": 29502,
     "attr": "火",
     "name": {
       "zh": "琳卡【Valkyrie of the Sun】",
@@ -1345,6 +1457,7 @@
   },
   {
     "id": 79,
+    "base_character_id": 43402,
     "attr": "打",
     "name": {
       "zh": "尤娜【Valkyrie in the Sky】",
@@ -1357,6 +1470,7 @@
   },
   {
     "id": 78,
+    "base_character_id": 10103,
     "attr": "雷",
     "name": {
       "zh": "瑪莉【Violent Beauty】",
@@ -1369,6 +1483,7 @@
   },
   {
     "id": 77,
+    "base_character_id": 26903,
     "attr": "斬",
     "name": {
       "zh": "托托莉【Hopeful Sailor】",
@@ -1381,6 +1496,7 @@
   },
   {
     "id": 76,
+    "base_character_id": 43701,
     "attr": "斬",
     "name": {
       "zh": "藍澤【The Captain Awakens】",
@@ -1393,6 +1509,7 @@
   },
   {
     "id": 75,
+    "base_character_id": 40002,
     "attr": "雷",
     "name": {
       "zh": "科洛蒂婭【Fragrant Elegance】",
@@ -1405,6 +1522,7 @@
   },
   {
     "id": 74,
+    "base_character_id": 25503,
     "attr": "打",
     "name": {
       "zh": "蘿樂娜【Joyful Leader】",
@@ -1417,6 +1535,7 @@
   },
   {
     "id": 73,
+    "base_character_id": 44301,
     "attr": "風",
     "name": {
       "zh": "艾蓮【Noble Wolf】",
@@ -1429,6 +1548,7 @@
   },
   {
     "id": 72,
+    "base_character_id": 27001,
     "attr": "突",
     "name": {
       "zh": "敏敏【Lonely Glory】",
@@ -1441,6 +1561,7 @@
   },
   {
     "id": 71,
+    "base_character_id": 39903,
     "attr": "風",
     "name": {
       "zh": "萊莎【Blooming Energy】",
@@ -1453,6 +1574,7 @@
   },
   {
     "id": 70,
+    "base_character_id": 33402,
     "attr": "突",
     "name": {
       "zh": "蘇菲【Mighty Boss】",
@@ -1465,6 +1587,7 @@
   },
   {
     "id": 69,
+    "base_character_id": 43104,
     "attr": "風",
     "name": {
       "zh": "蕾斯娜【Loved Rookie】",
@@ -1477,6 +1600,7 @@
   },
   {
     "id": 68,
+    "base_character_id": 37502,
     "attr": "突",
     "name": {
       "zh": "蘇瑞【Ranger of Rose】",
@@ -1489,6 +1613,7 @@
   },
   {
     "id": 67,
+    "base_character_id": 43601,
     "attr": "打",
     "name": {
       "zh": "芙洛可【Angel of Rose】",
@@ -1501,6 +1626,7 @@
   },
   {
     "id": 66,
+    "base_character_id": 35002,
     "attr": "冰",
     "name": {
       "zh": "菲莉絲【Crystaler of Rose】",
@@ -1513,6 +1639,7 @@
   },
   {
     "id": 65,
+    "base_character_id": 43501,
     "attr": "打",
     "name": {
       "zh": "海蒂【Thief of Rose】",
@@ -1525,6 +1652,7 @@
   },
   {
     "id": 64,
+    "base_character_id": 37402,
     "attr": "打",
     "name": {
       "zh": "莉迪【Witch of Rose】",
@@ -1537,7 +1665,8 @@
   },
   {
     "id": 63,
-    "attr": "雷",
+    "base_character_id": 43203,
+    "attr": "打",
     "name": {
       "zh": "瓦萊莉婭【Warrior of Rose】",
       "ja": "ヴァレリア【Warrior of Rose】",
@@ -1549,6 +1678,7 @@
   },
   {
     "id": 62,
+    "base_character_id": 25502,
     "attr": "斬",
     "name": {
       "zh": "蘿樂娜【フォーリンホワイト】",
@@ -1561,6 +1691,7 @@
   },
   {
     "id": 61,
+    "base_character_id": 25901,
     "attr": "風",
     "name": {
       "zh": "史特爾克【気高き剣士】",
@@ -1573,6 +1704,7 @@
   },
   {
     "id": 60,
+    "base_character_id": 26902,
     "attr": "風",
     "name": {
       "zh": "托托莉【Snow Adventurer】",
@@ -1585,6 +1717,7 @@
   },
   {
     "id": 59,
+    "base_character_id": 30902,
     "attr": "突",
     "name": {
       "zh": "愛絲卡【Sweet Monochrome】",
@@ -1597,6 +1730,7 @@
   },
   {
     "id": 58,
+    "base_character_id": 31002,
     "attr": "雷",
     "name": {
       "zh": "羅吉【トワイライトオーダー】",
@@ -1609,6 +1743,7 @@
   },
   {
     "id": 57,
+    "base_character_id": 43401,
     "attr": "突",
     "name": {
       "zh": "尤娜【White Royal Guard】",
@@ -1621,6 +1756,7 @@
   },
   {
     "id": 56,
+    "base_character_id": 32202,
     "attr": "火",
     "name": {
       "zh": "夏莉絲堤菈【スクールメイデン】",
@@ -1633,6 +1769,7 @@
   },
   {
     "id": 55,
+    "base_character_id": 32301,
     "attr": "打",
     "name": {
       "zh": "夏露羅蒂【ガールズアンビシャス】",
@@ -1645,6 +1782,7 @@
   },
   {
     "id": 54,
+    "base_character_id": 33001,
     "attr": "打",
     "name": {
       "zh": "娜蒂【微笑みの母】",
@@ -1657,6 +1795,7 @@
   },
   {
     "id": 53,
+    "base_character_id": 29202,
     "attr": "雷",
     "name": {
       "zh": "愛夏【ノーブルフラワー】",
@@ -1669,6 +1808,7 @@
   },
   {
     "id": 52,
+    "base_character_id": 43301,
     "attr": "風",
     "name": {
       "zh": "羅曼【Romance Hearts】",
@@ -1676,11 +1816,12 @@
       "en": "Roman【Romance Hearts】"
     },
     "date": "2024-01-11",
-    "image": "",
+    "image": "images/chara/43301.png",
     "職種": "攻擊者"
   },
   {
     "id": 51,
+    "base_character_id": 10102,
     "attr": "冰",
     "name": {
       "zh": "瑪莉【Fortune Full Bloom】",
@@ -1693,6 +1834,7 @@
   },
   {
     "id": 50,
+    "base_character_id": 41501,
     "attr": "斬",
     "name": {
       "zh": "派翠夏【届けホーリーナイト】",
@@ -1705,6 +1847,7 @@
   },
   {
     "id": 49,
+    "base_character_id": 43103,
     "attr": "冰",
     "name": {
       "zh": "蕾斯娜【Starry Heavens Gift】",
@@ -1717,6 +1860,7 @@
   },
   {
     "id": 48,
+    "base_character_id": 40101,
     "attr": "冰",
     "name": {
       "zh": "莉拉【漆黒の護衛】",
@@ -1729,6 +1873,7 @@
   },
   {
     "id": 47,
+    "base_character_id": 43801,
     "attr": "雷",
     "name": {
       "zh": "伊札娜【Return of the Knight】",
@@ -1741,11 +1886,12 @@
   },
   {
     "id": 46,
+    "base_character_id": 39902,
     "attr": "斬",
     "name": {
       "zh": "萊莎【Master's Right-Hand】",
       "ja": "ライザ【Master's Right-Hand】",
-      "en": "Ryza【Master's Right-Hand】"
+      "en": "Ryza"
     },
     "date": "2023-11-29",
     "image": "",
@@ -1753,6 +1899,7 @@
   },
   {
     "id": 45,
+    "base_character_id": 40401,
     "attr": "打",
     "name": {
       "zh": "安佩爾【門を閉ざす者】",
@@ -1765,6 +1912,7 @@
   },
   {
     "id": 44,
+    "base_character_id": 37401,
     "attr": "雷",
     "name": {
       "zh": "莉迪【Rainbow Canvas】",
@@ -1777,6 +1925,7 @@
   },
   {
     "id": 43,
+    "base_character_id": 37501,
     "attr": "打",
     "name": {
       "zh": "蘇瑞【Ambition Painting】",
@@ -1789,6 +1938,7 @@
   },
   {
     "id": 42,
+    "base_character_id": 29301,
     "attr": "火",
     "name": {
       "zh": "薇爾貝兒【Magical Trick Star】",
@@ -1801,6 +1951,7 @@
   },
   {
     "id": 41,
+    "base_character_id": 29401,
     "attr": "火",
     "name": {
       "zh": "瑞吉娜【遺跡発掘屋】",
@@ -1813,6 +1964,7 @@
   },
   {
     "id": 40,
+    "base_character_id": 29601,
     "attr": "打",
     "name": {
       "zh": "妮歐【チャーミングシスター】",
@@ -1825,6 +1977,7 @@
   },
   {
     "id": 39,
+    "base_character_id": 33502,
     "attr": "斬",
     "name": {
       "zh": "普拉芙妲【魅惑のヴァンパイア】",
@@ -1837,6 +1990,7 @@
   },
   {
     "id": 38,
+    "base_character_id": 28402,
     "attr": "冰",
     "name": {
       "zh": "梅露露【Damsel in Distress】",
@@ -1849,6 +2003,7 @@
   },
   {
     "id": 37,
+    "base_character_id": 12001,
     "attr": "風",
     "name": {
       "zh": "艾莉【チーズケーキの申し子】",
@@ -1861,6 +2016,7 @@
   },
   {
     "id": 36,
+    "base_character_id": 13401,
     "attr": "雷",
     "name": {
       "zh": "莉莉【Birth of The Legend】",
@@ -1873,6 +2029,7 @@
   },
   {
     "id": 35,
+    "base_character_id": 40001,
     "attr": "冰",
     "name": {
       "zh": "科洛蒂婭【One Summer Melody】",
@@ -1885,6 +2042,7 @@
   },
   {
     "id": 34,
+    "base_character_id": 43202,
     "attr": "斬",
     "name": {
       "zh": "瓦萊莉婭【Secret Amnesia】",
@@ -1897,6 +2055,7 @@
   },
   {
     "id": 33,
+    "base_character_id": 43201,
     "attr": "突",
     "name": {
       "zh": "瓦萊莉婭【過去に夢を求めし者】",
@@ -1909,6 +2068,7 @@
   },
   {
     "id": 32,
+    "base_character_id": 33401,
     "attr": "雷",
     "name": {
       "zh": "蘇菲【百科繚乱フロネシス】",
@@ -1921,6 +2081,7 @@
   },
   {
     "id": 31,
+    "base_character_id": 33501,
     "attr": "打",
     "name": {
       "zh": "普拉芙妲【ミステリアスドール】",
@@ -1932,367 +2093,398 @@
     "職種": "破防者"
   },
   {
-  "id": 30,
-  "attr": "打",
-  "name": {
-    "zh": "塔奧【學者のタマゴ】",
-    "ja": "タオ【学者のタマゴ】",
-    "en": "Tao【學者のタマゴ】"
+    "id": 30,
+    "base_character_id": 40301,
+    "attr": "打",
+    "name": {
+      "zh": "塔奧【學者のタマゴ】",
+      "ja": "タオ【学者のタマゴ】",
+      "en": "Tao【學者のタマゴ】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 29,
-  "attr": "突",
-  "name": {
-    "zh": "緹絲【兔耳トラブルメーカー】",
-    "ja": "テス【兎耳トラブルメーカー】",
-    "en": "Tess【兎耳トラブルメーカー】"
+  {
+    "id": 29,
+    "base_character_id": 33901,
+    "attr": "突",
+    "name": {
+      "zh": "緹絲【兔耳トラブルメーカー】",
+      "ja": "テス【兎耳トラブルメーカー】",
+      "en": "Tess【兎耳トラブルメーカー】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "支援者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "支援者"
-},
-{
-  "id": 28,
-  "attr": "突",
-  "name": {
-    "zh": "瑪麗翁【開発班の班長】",
-    "ja": "マリオン【開発班の班長】",
-    "en": "Marion【開発班の班長】"
+  {
+    "id": 28,
+    "base_character_id": 29701,
+    "attr": "突",
+    "name": {
+      "zh": "瑪麗翁【開発班の班長】",
+      "ja": "マリオン【開発班の班長】",
+      "en": "Marion【開発班の班長】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "破防者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "破防者"
-},
-{
-  "id": 27,
-  "attr": "斬",
-  "name": {
-    "zh": "琳卡【班長補佐】",
-    "ja": "リンカ【班長補佐】",
-    "en": "Linca【班長補佐】"
+  {
+    "id": 27,
+    "base_character_id": 29501,
+    "attr": "斬",
+    "name": {
+      "zh": "琳卡【班長補佐】",
+      "ja": "リンカ【班長補佐】",
+      "en": "Linca【班長補佐】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "防禦者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "防禦者"
-},
-{
-  "id": 26,
-  "attr": "突",
-  "name": {
-    "zh": "庫蝶莉亞【貴族令嬢】",
-    "ja": "クーデリア【貴族令嬢】",
-    "en": "Cordelia【貴族令嬢】"
+  {
+    "id": 26,
+    "base_character_id": 25601,
+    "attr": "突",
+    "name": {
+      "zh": "庫蝶莉亞【貴族令嬢】",
+      "ja": "クーデリア【貴族令嬢】",
+      "en": "Cordelia【貴族令嬢】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 25,
-  "attr": "打",
-  "name": {
-    "zh": "蘭托【剛腕戦士】",
-    "ja": "レント【剛腕戦士】",
-    "en": "Lent【剛腕戦士】"
+  {
+    "id": 25,
+    "base_character_id": 40201,
+    "attr": "打",
+    "name": {
+      "zh": "蘭托【剛腕戦士】",
+      "ja": "レント【剛腕戦士】",
+      "en": "Lent【剛腕戦士】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "防禦者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "防禦者"
-},
-{
-  "id": 24,
-  "attr": "突",
-  "name": {
-    "zh": "摩妮卡【モニカオンステージ】",
-    "ja": "モニカ【モニカオンステージ】",
-    "en": "Monika【モニカオンステージ】"
+  {
+    "id": 24,
+    "base_character_id": 33601,
+    "attr": "突",
+    "name": {
+      "zh": "摩妮卡【モニカオンステージ】",
+      "ja": "モニカ【モニカオンステージ】",
+      "en": "Monika【モニカオンステージ】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "防禦者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "防禦者"
-},
-{
-  "id": 23,
-  "attr": "風",
-  "name": {
-    "zh": "夏莉絲堤菈【族長の娘】",
-    "ja": "シャリステラ【族長の娘】",
-    "en": "Shallie【族長の娘】"
+  {
+    "id": 23,
+    "base_character_id": 32201,
+    "attr": "風",
+    "name": {
+      "zh": "夏莉絲堤菈【族長の娘】",
+      "ja": "シャリステラ【族長の娘】",
+      "en": "Shallie【族長の娘】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "破防者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "破防者"
-},
-{
-  "id": 22,
-  "attr": "風",
-  "name": {
-    "zh": "愛絲卡【エンドレスタルト】",
-    "ja": "エスカ【エンドレスタルト】",
-    "en": "Escha【エンドレスタルト】"
+  {
+    "id": 22,
+    "base_character_id": 30901,
+    "attr": "風",
+    "name": {
+      "zh": "愛絲卡【エンドレスタルト】",
+      "ja": "エスカ【エンドレスタルト】",
+      "en": "Escha【エンドレスタルト】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "破防者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "破防者"
-},
-{
-  "id": 21,
-  "attr": "風",
-  "name": {
-    "zh": "梅露露【パワフルプリンセス】",
-    "ja": "メルル【パワフルプリンセス】",
-    "en": "Meruru【パワフルプリンセス】"
+  {
+    "id": 21,
+    "base_character_id": 28401,
+    "attr": "風",
+    "name": {
+      "zh": "梅露露【パワフルプリンセス】",
+      "ja": "メルル【パワフルプリンセス】",
+      "en": "Meruru【パワフルプリンセス】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "支援者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "支援者"
-},
-{
-  "id": 20,
-  "attr": "冰",
-  "name": {
-    "zh": "托托莉【強き母に憧れる少女】",
-    "ja": "トトリ【強き母に憧れる少女】",
-    "en": "Totori【強き母に憧れる少女】"
+  {
+    "id": 20,
+    "base_character_id": 26901,
+    "attr": "冰",
+    "name": {
+      "zh": "托托莉【強き母に憧れる少女】",
+      "ja": "トトリ【強き母に憧れる少女】",
+      "en": "Totori【強き母に憧れる少女】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "支援者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "支援者"
-},
-{
-  "id": 19,
-  "attr": "斬",
-  "name": {
-    "zh": "艾絲緹【頼れる受付嬢】",
-    "ja": "エスティ【頼れる受付嬢】",
-    "en": "Esty【頼れる受付嬢】"
+  {
+    "id": 19,
+    "base_character_id": 26501,
+    "attr": "斬",
+    "name": {
+      "zh": "艾絲緹【頼れる受付嬢】",
+      "ja": "エスティ【頼れる受付嬢】",
+      "en": "Esty【頼れる受付嬢】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 18,
-  "attr": "雷",
-  "name": {
-    "zh": "維因【願いを叶える力】",
-    "ja": "ヴェイン【願いを叶える力】",
-    "en": "Vayne【願いを叶える力】"
+  {
+    "id": 18,
+    "base_character_id": 22001,
+    "attr": "雷",
+    "name": {
+      "zh": "維因【願いを叶える力】",
+      "ja": "ヴェイン【願いを叶える力】",
+      "en": "Vayne【願いを叶える力】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 17,
-  "attr": "冰",
-  "name": {
-    "zh": "薇歐拉【カロッテ・キャロット】",
-    "ja": "ヴィオラート【カロッテ・キャロット】",
-    "en": "Viorate【カロッテ・キャロット】"
+  {
+    "id": 17,
+    "base_character_id": 16501,
+    "attr": "冰",
+    "name": {
+      "zh": "薇歐拉【カロッテ・キャロット】",
+      "ja": "ヴィオラート【カロッテ・キャロット】",
+      "en": "Viorate【カロッテ・キャロット】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 16,
-  "attr": "斬",
-  "name": {
-    "zh": "路溫【熱血の冒険者】",
-    "ja": "ルーウェン【熱血の冒険者】",
-    "en": "Ruven【熱血の冒険者】"
+  {
+    "id": 16,
+    "base_character_id": 10701,
+    "attr": "斬",
+    "name": {
+      "zh": "路溫【熱血の冒険者】",
+      "ja": "ルーウェン【熱血の冒険者】",
+      "en": "Ruven【熱血の冒険者】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 15,
-  "attr": "雷",
-  "name": {
-    "zh": "蕾斯娜【Innocent Dreamer】",
-    "ja": "レスナ【Innocent Dreamer】",
-    "en": "Resna【Innocent Dreamer】"
+  {
+    "id": 15,
+    "base_character_id": 43102,
+    "attr": "雷",
+    "name": {
+      "zh": "蕾斯娜【Innocent Dreamer】",
+      "ja": "レスナ【Innocent Dreamer】",
+      "en": "Resna【Innocent Dreamer】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "支援者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "支援者"
-},
-{
-  "id": 14,
-  "attr": "火",
-  "name": {
-    "zh": "萊莎【One Summer Story】",
-    "ja": "ライザ【One Summer Story】",
-    "en": "Ryza【One Summer Story】"
+  {
+    "id": 14,
+    "base_character_id": 39901,
+    "attr": "火",
+    "name": {
+      "zh": "萊莎【One Summer Story】",
+      "ja": "ライザ【One Summer Story】",
+      "en": "Ryza"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 13,
-  "attr": "風",
-  "name": {
-    "zh": "菲莉絲【Crystal Master】",
-    "ja": "フィリス【Crystal Master】",
-    "en": "Firis【Crystal Master】"
+  {
+    "id": 13,
+    "base_character_id": 35001,
+    "attr": "風",
+    "name": {
+      "zh": "菲莉絲【Crystal Master】",
+      "ja": "フィリス【Crystal Master】",
+      "en": "Firis【Crystal Master】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 12,
-  "attr": "打",
-  "name": {
-    "zh": "奧斯卡【植物は親友】",
-    "ja": "オスカー【植物は親友】",
-    "en": "Oskar【植物は親友】"
+  {
+    "id": 12,
+    "base_character_id": 33801,
+    "attr": "打",
+    "name": {
+      "zh": "奧斯卡【植物は親友】",
+      "ja": "オスカー【植物は親友】",
+      "en": "Oskar【植物は親友】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "防禦者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "防禦者"
-},
-{
-  "id": 11,
-  "attr": "打",
-  "name": {
-    "zh": "柯爾涅莉雅【ノーミルクノーライフ】",
-    "ja": "コルネリア【ノーミルクノーライフ】",
-    "en": "Corneria【ノーミルクノーライフ】"
+  {
+    "id": 11,
+    "base_character_id": 33701,
+    "attr": "打",
+    "name": {
+      "zh": "柯爾涅莉雅【ノーミルクノーライフ】",
+      "ja": "コルネリア【ノーミルクノーライフ】",
+      "en": "Corneria【ノーミルクノーライフ】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "破防者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "破防者"
-},
-{
-  "id": 10,
-  "attr": "斬",
-  "name": {
-    "zh": "羅吉【黄昏の錬金剣】",
-    "ja": "ロジー【黄昏の錬金剣】",
-    "en": "Logy【黄昏の錬金剣】"
+  {
+    "id": 10,
+    "base_character_id": 31001,
+    "attr": "斬",
+    "name": {
+      "zh": "羅吉【黄昏の錬金剣】",
+      "ja": "ロジー【黄昏の錬金剣】",
+      "en": "Logy【黄昏の錬金剣】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 9,
-  "attr": "火",
-  "name": {
-    "zh": "奇斯葛里夫【知識の探究者】",
-    "ja": "キースグリフ【知識の探究者】",
-    "en": "Keithgriff【知識の探究者】"
+  {
+    "id": 9,
+    "base_character_id": 29901,
+    "attr": "火",
+    "name": {
+      "zh": "奇斯葛里夫【知識の探究者】",
+      "ja": "キースグリフ【知識の探究者】",
+      "en": "Keithgriff【知識の探究者】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "破防者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "破防者"
-},
-{
-  "id": 8,
-  "attr": "雷",
-  "name": {
-    "zh": "奧迪莉雅【古の機械人形】",
-    "ja": "オディーリア【古の機械人形】",
-    "en": "Odelia【古の機械人形】"
+  {
+    "id": 8,
+    "base_character_id": 29801,
+    "attr": "雷",
+    "name": {
+      "zh": "奧迪莉雅【古の機械人形】",
+      "ja": "オディーリア【古の機械人形】",
+      "en": "Odelia【古の機械人形】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 7,
-  "attr": "風",
-  "name": {
-    "zh": "愛夏【MARIA of Dusk】",
-    "ja": "アーシャ【MARIA of Dusk】",
-    "en": "Ayesha【MARIA of Dusk】"
+  {
+    "id": 7,
+    "base_character_id": 29201,
+    "attr": "風",
+    "name": {
+      "zh": "愛夏【MARIA of Dusk】",
+      "ja": "アーシャ【MARIA of Dusk】",
+      "en": "Ayesha【MARIA of Dusk】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "支援者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "支援者"
-},
-{
-  "id": 6,
-  "attr": "火",
-  "name": {
-    "zh": "伊克賽爾【戦う料理人】",
-    "ja": "イクセル【戦う料理人】",
-    "en": "Iksel【戦う料理人】"
+  {
+    "id": 6,
+    "base_character_id": 25801,
+    "attr": "火",
+    "name": {
+      "zh": "伊克賽爾【戦う料理人】",
+      "ja": "イクセル【戦う料理人】",
+      "en": "Iksel【戦う料理人】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "支援者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "支援者"
-},
-{
-  "id": 5,
-  "attr": "冰",
-  "name": {
-    "zh": "蘿樂娜【五ツ星パイマイスター】",
-    "ja": "ロロナ【五ツ星パイマイスター】",
-    "en": "Rorona【五ツ星パイマイスター】"
+  {
+    "id": 5,
+    "base_character_id": 25501,
+    "attr": "冰",
+    "name": {
+      "zh": "蘿樂娜【五ツ星パイマイスター】",
+      "ja": "ロロナ【五ツ星パイマイスター】",
+      "en": "Rorona【五ツ星パイマイスター】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 4,
-  "attr": "斬",
-  "name": {
-    "zh": "羅傑【光の剣】",
-    "ja": "ロゼ【光の剣】",
-    "en": "Raze【光の剣】"
+  {
+    "id": 4,
+    "base_character_id": 23501,
+    "attr": "斬",
+    "name": {
+      "zh": "羅傑【光の剣】",
+      "ja": "ロゼ【光の剣】",
+      "en": "Raze【光の剣】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "破防者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "破防者"
-},
-{
-  "id": 3,
-  "attr": "火",
-  "name": {
-    "zh": "優蒂【Hero of Tempest】",
-    "ja": "ユーディー【Hero of Tempest】",
-    "en": "Judie【Hero of Tempest】"
+  {
+    "id": 3,
+    "base_character_id": 15101,
+    "attr": "火",
+    "name": {
+      "zh": "優蒂【Hero of Tempest】",
+      "ja": "ユーディー【Hero of Tempest】",
+      "en": "Judie【Hero of Tempest】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "防禦者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "防禦者"
-},
-{
-  "id": 2,
-  "attr": "突",
-  "name": {
-    "zh": "繆羽【南国の冒険者】",
-    "ja": "ミュー【南国の冒険者】",
-    "en": "Mu【南国の冒険者】"
+  {
+    "id": 2,
+    "base_character_id": 10301,
+    "attr": "突",
+    "name": {
+      "zh": "繆羽【南国の冒険者】",
+      "ja": "ミュー【南国の冒険者】",
+      "en": "Mu【南国の冒険者】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "攻擊者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "攻擊者"
-},
-{
-  "id": 1,
-  "attr": "火",
-  "name": {
-    "zh": "瑪莉【Lovely Bomber】",
-    "ja": "マリー【Lovely Bomber】",
-    "en": "Marie【Lovely Bomber】"
+  {
+    "id": 1,
+    "base_character_id": 10101,
+    "attr": "火",
+    "name": {
+      "zh": "瑪莉【Lovely Bomber】",
+      "ja": "マリー【Lovely Bomber】",
+      "en": "Marie【Lovely Bomber】"
+    },
+    "date": "2023-09-23",
+    "image": "",
+    "職種": "破防者"
   },
-  "date": "2023-09-23",
-  "image": "",
-  "職種": "破防者"
-},
-{
+  {
   "id": 0,
+  "base_character_id": 43101,
   "attr": "火",
   "name": {
     "zh": "蕾斯娜【未來に夢を求めし者】",
@@ -2302,5 +2494,5 @@
   "date": "2023-09-23",
   "image": "",
   "職種": "攻擊者"
-}  
+  }  
 ]
