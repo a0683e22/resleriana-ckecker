@@ -1231,28 +1231,26 @@
                  if (!Number.isFinite(id)) return '';
                  const role = getCharacterRole(char);
                  const roleIcon = ROLE_ICON_MAP[role] || '';
-                 const dateText = getDateText(char);
                  const name = getCharacterName(char);
-                 const image = char.image || `images/chara/${id}.png`;
-                 
+                 const image = char.image || `images/chara/${char.base_character_id}.png`;
+
                  return `
-                 <div class="item table-card${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
-                     <input type="checkbox" id="c${id}" class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"${getCheckboxAttrs(id)}>
-                     
-                     <div class="card-image">
+                     <div class="item table-card${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
+                         <input type="checkbox" id="c${id}" class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"${getCheckboxAttrs(id)}>
+
+                         <div class="card-image">
                              <img
-                                         src="${escapeHtml(image)}"
-                                         alt="${escapeHtml(name)}"
-                                         onerror="this.parentElement.style.display='none'"
+                                 src="${escapeHtml(image)}"
+                                 alt="${escapeHtml(name)}"
+                                 onerror="this.parentElement.style.display='none'"
                              >
-                       </div>
-                       
-                           ${roleIcon ? `<img class="card-role" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
-         </div>
-         `;
+                         </div>
+
+                         ${roleIcon ? `<img class="card-role" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
+                     </div>
                  `;
              };
-         
+
              list.innerHTML = `
                  <div class="table-view">
                      <div class="matrix-table">
