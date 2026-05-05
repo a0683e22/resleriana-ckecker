@@ -1168,7 +1168,7 @@
                  const roleIcon = ROLE_ICON_MAP[role] || '';
                  const dateText = getDateText(char);
                  const name = getCharacterName(char);
-                 const image = char.image || `images/chara/${id}.png`;
+                 const image = char.image || `images/chara/${char.base_character_id}.png`;
                  return `
                      <div class="item${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
                          <div class="checkbox-wrapper">
