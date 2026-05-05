@@ -593,6 +593,21 @@
          line-height: 1.3;
          height: calc(1.3em * 2);     /* 固定兩行高度 */
          }
+
+         .char-image-wrapper {
+         margin-left: auto;
+         flex-shrink: 0;
+         padding-left: 12px;
+         display: flex;
+         align-items: center;
+         }
+         .char-image {
+         width: 60px;
+         height: 56px;
+         object-fit: cover;
+         display: block;
+         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+         }
       </style>
    </head>
    <body>
@@ -1123,6 +1138,7 @@
                  const roleIcon = ROLE_ICON_MAP[role] || '';
                  const dateText = getDateText(char);
                  const name = getCharacterName(char);
+                 const image = char.image || '';
                  return `
                      <div class="item${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
                          <div class="checkbox-wrapper">
@@ -1136,6 +1152,11 @@
                              </label>
                              <span class="date-line">${escapeHtml(dateText)}</span>
                          </div>
+                         ${image ? `
+                         <div class="char-image-wrapper">
+                             <img class="char-image" src="${escapeHtml(image)}" alt="${escapeHtml(name)}">
+                         </div>
+                         ` : ''}
                      </div>
                  `;
              }).join('');
@@ -1177,6 +1198,7 @@
                  const roleIcon = ROLE_ICON_MAP[role] || '';
                  const dateText = getDateText(char);
                  const name = getCharacterName(char);
+                 const image = char.image || '';
                  return `
                      <div class="item table-card${isFixedCharacterId(id) ? ' fixed' : ''}" data-attr="${escapeHtml(attr)}" data-role="${escapeHtml(role)}">
                          <div class="checkbox-wrapper">
