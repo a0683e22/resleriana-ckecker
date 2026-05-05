@@ -329,7 +329,7 @@
     "name": {
       "zh": "希特琳【Charming Jewel】",
       "ja": "シトリン【Charming Jewel】",
-      "en": "Schia"
+      "en": "Citrine【Charming Jewel】"
     },
     "date": "2025-11-28",
     "image": "",
@@ -365,7 +365,7 @@
     "name": {
       "zh": "阿爾比娜【トロピカル・シャイン】",
       "ja": "アルビーナ【トロピカル・シャイン】",
-      "en": "start_at： 2025-10-31"
+      "en": "Alvina【トロピカル・シャイン】"
     },
     "date": "2025-10-31",
     "image": "",
@@ -377,7 +377,7 @@
     "name": {
       "zh": "穗香【クロス・ザ・ライン】",
       "ja": "ほのか【クロス・ザ・ライン】",
-      "en": "start_at： 2025-10-24"
+      "en": "Honoka【クロス・ザ・ライン】"
     },
     "date": "2025-10-24",
     "image": "",
@@ -701,7 +701,7 @@
     "name": {
       "zh": "艾菈【Friendly Fashionista】",
       "ja": "アイラ【Friendly Fashionista】",
-      "en": "start_at： 2025-04-09"
+      "en": "Isla【Friendly Fashionista】"
     },
     "date": "2025-04-09",
     "image": "",
@@ -1676,7 +1676,7 @@
       "en": "Roman【Romance Hearts】"
     },
     "date": "2024-01-11",
-    "image": "",
+    "image": "images\chara\43301.png",
     "職種": "攻擊者"
   },
   {
