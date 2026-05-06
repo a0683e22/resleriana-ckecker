@@ -1584,7 +1584,8 @@
          }
          
          function getNormalCheckboxes() {
-             return Array.from(document.querySelectorAll('.char-cb')).filter(cb => !cb.disabled);
+         return Array.from(document.querySelectorAll('.char-cb'))
+         .filter(cb => !cb.classList.contains('fixed-cb'));
          }
          
          function getCheckedIds() {
