@@ -600,16 +600,6 @@
          .item {
          border-bottom: 1px solid rgba(255,255,255,0.05);
          }
-         /* ===== 列表模式：列表邊框 ===== */
-         body[data-view="list"] .list-wrapper .item:first-of-type {
-         border-top: 1px solid var(--border);
-         }
-         body[data-view="list"] .list-wrapper .item {
-         border-bottom: 1px solid var(--border);
-         }
-         body[data-view="list"] .list-wrapper .item:first-of-type {
-         border-top: 1px solid var(--border);
-         }
          body[data-view="table"] .table-card {
          border: 1px solid var(--border) !important;
          border-bottom: 1px solid var(--border) !important;
@@ -627,6 +617,98 @@
          overflow: hidden;
          line-height: 1.3;
          height: calc(1.3em * 2);     /* 固定兩行高度 */
+         }
+         .table-card input[type="checkbox"] {
+         display: none;
+         }
+         /* ===== 列表模式：列表邊框 ===== */
+         body[data-view="list"] .list-wrapper .item:first-of-type {
+         border-top: 1px solid var(--border);
+         }
+         body[data-view="list"] .list-wrapper .item {
+         border-bottom: 1px solid var(--border);
+         }
+         body[data-view="list"] .list-wrapper .item:first-of-type {
+         border-top: 1px solid var(--border);
+         }
+         /* ===== 圖示模式 ===== */
+         body[data-view="icon"] .container {
+         max-width: 980px;
+         }
+         .icon-view {
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+         gap: 12px;
+         padding: 14px;
+         }
+         @media (max-width: 700px) {
+         .icon-view {
+         grid-template-columns: repeat(auto-fill, minmax(82px, 1fr));
+         gap: 6px;
+         }
+         }
+         .icon-card {
+         position: relative;
+         aspect-ratio: 1 / 0.88;
+         border: 1px solid var(--border);
+         border-radius: 12px;
+         background: var(--bg-panel);
+         overflow: hidden;
+         cursor: pointer;
+         }
+         .icon-card input[type="checkbox"] {
+         display: none;
+         }
+         .icon-card-imag {
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+         filter: grayscale(100%);
+         opacity: 0.4;
+         transition: all 0.2s ease;
+         }
+         .icon-card.owned .icon-card-image {
+         filter: none;
+         opacity: 1;
+         }
+         .icon-card-attr {
+         position: absolute;
+         left: 4px;
+         bottom: 4px;
+         width: 24px;
+         height: 24px;
+         z-index: 2;
+         }
+         .icon-card-role {
+         position: absolute;
+         right: 4px;
+         bottom: 4px;
+         width: 24px;
+         height: 24px;
+         z-index: 2;
+         }
+         .icon-card:hover {
+         transform: scale(1.05);
+         box-shadow: 0 0 8px rgba(255,255,255,0.3);
+         }
+         .icon-card-image {
+         width: 120%;
+         height: 120%;
+         margin-left: -8%;
+         margin-top: -8%;
+         object-fit: cover;
+         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+         filter: grayscale(100%);
+         opacity: 0.4;
+         transition: all 0.2s ease;
+         }
+         .icon-card:hover {
+         transform: scale(1.15);
+         z-index: 5;
+         }
+         .icon-card {
+         transition: transform 0.12s ease;
          }
          /* ===== 列表模式：右側角色圖片 ===== */
          .char-image-wrapper {
@@ -791,6 +873,14 @@
          color: #93c5fd;
          text-decoration: underline;
          }
+         .patch-fixed-links {
+         border-top: 1px solid var(--border);
+         margin-top: 12px;
+         padding-top: 12px;
+         }
+         .patch-fixed-links ul {
+         margin: 6px 0 0;
+         }
          /* ========   閱讀模式  ========*/
          .share-readonly-banner {
          position: fixed;
@@ -874,13 +964,17 @@
                   </button>
                </div>
                <div class="action-row">
-                  <button id="view-list-btn" class="view-btn active" data-view-mode="list">
-                  <img src="images/ui/checklist.png" alt="列表顯示">
-                  <span class="btn-label">列表顯示</span>
+                  <button id="view-icon-btn" class="view-btn" data-view-mode="icon">
+                  <img src="images/ui/checkicon.png" alt="圖示模式">
+                  <span class="btn-label">圖示模式</span>
                   </button>
-                  <button id="view-table-btn" class="view-btn" data-view-mode="table">
-                  <img src="images/ui/table.png" alt="表格顯示">
+                  <button id="view-table-btn" class="view-btn active" data-view-mode="table">
+                  <img src="images/ui/table.png" alt="表格模式">
                   <span class="btn-label">表格顯示</span>
+                  </button>
+                  <button id="view-list-btn" class="view-btn" data-view-mode="list">
+                  <img src="images/ui/checklist.png" alt="列表模式">
+                  <span class="btn-label">列表顯示</span>
                   </button>
                   <button id="reset-btn" class="btn-reset" onclick="resetTable()">
                   <span class="btn-label">Reset 表格</span>
@@ -949,6 +1043,16 @@
             <div id="patch-note-content" class="patch-note-content">
                讀取中...
             </div>
+            <div class="patch-fixed-links">
+               <strong>Links</strong>
+               <ul class="patch-sub-list">
+                  <li><a href="https://forum.gamer.com.tw/Co.php?bsn=78261&sn=10410" target="_blank" rel="noopener noreferrer">Report Issues (Account Required)</a></li>
+                  <li><a href="https://discord.gg/66HtcS9uzX" target="_blank" rel="noopener noreferrer">Contact me on Discord</a></li>
+                  <li><a href="https://www.youtube.com/@ChenRayLiang" target="_blank" rel="noopener noreferrer">My YouTube channel</a></li>
+                  <li><a href="https://www.notion.so/3547c6b7821c804b8a6cd11c47f46e99" target="_blank" rel="noopener noreferrer">Subspace Support Effects - CHT</a></li>
+                  <li><a href="https://www.notion.so/3577c6b7821c80fd9854d7cd53315c3d" target="_blank" rel="noopener noreferrer">Subspace Support Effects - English</a></li>
+               </ul>
+            </div>
          </div>
       </div>
       <script>
@@ -999,6 +1103,7 @@
                  reset: 'Reset 表格',
                  attrFilter: '屬性篩選',
                  roleFilter: '職種篩選',
+                 viewIcon: '圖示顯示',
                  viewList: '列表顯示',
                  viewTable: '表格顯示',
                  selectAll: '全選',
@@ -1013,6 +1118,7 @@
                  reset: '表をリセット',
                  attrFilter: '属性フィルター',
                  roleFilter: 'ロールフィルター',
+                 viewIcon: 'アイコン表示',
                  viewList: 'リスト表示',
                  viewTable: '表形式',
                  selectAll: '全て',
@@ -1027,6 +1133,7 @@
                  reset: 'Reset Table',
                  attrFilter: 'Attribute Filter',
                  roleFilter: 'Role Filter',
+                 viewIcon: 'Gird View',
                  viewList: 'List View',
                  viewTable: 'Table View',
                   selectAll: 'All',
@@ -1042,7 +1149,7 @@
          let activeRoleFilters = new Set();
          let currentTheme = localStorage.getItem('theme') || 'dark';
          let currentLang = localStorage.getItem('lang') || 'zh';
-         let currentView = localStorage.getItem('viewMode') || 'list';
+         let currentView = localStorage.getItem('viewMode') || 'icon';
          let isReadOnlyMode = false;
          
          
@@ -1094,8 +1201,9 @@
              const title = document.getElementById('page-title');
              const copyBtn = document.getElementById('copy-btn');
              const resetBtn = document.getElementById('reset-btn');
-             const viewListBtn = document.getElementById('view-list-btn');
+             const viewIconBtn = document.getElementById('view-icon-btn');
              const viewTableBtn = document.getElementById('view-table-btn');
+             const viewListBtn = document.getElementById('view-list-btn');
              const setButtonLabel = (btn, label) => {
                  if (!btn) return;
                  const labelEl = btn.querySelector('.btn-label');
@@ -1109,6 +1217,7 @@
                  if (copyImg) copyImg.alt = text.copy;
              }
              setButtonLabel(resetBtn, text.reset);
+             setButtonLabel(viewIconBtn, text.viewIcon);
              setButtonLabel(viewListBtn, text.viewList);
              setButtonLabel(viewTableBtn, text.viewTable);
              document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -1148,6 +1257,7 @@
              applyUiLanguage();
              setCheckedIds(checkedIds);
              bindCheckboxEvents();
+             setupCardClickEvents();
              syncOwnedState();   
              setupTableSelectAll();
              applyFilters();
@@ -1169,6 +1279,7 @@
                      setCheckedIds(checkedIds);
                      syncOwnedState();
                      bindCheckboxEvents();
+                     setupCardClickEvents();
                      setupTableSelectAll();
                      applyFilters();
                      syncShareUrl();
@@ -1178,7 +1289,7 @@
              updateViewButtons();
          }
          function syncOwnedState() {
-         document.querySelectorAll('.table-card').forEach(card => {
+         document.querySelectorAll('.table-card, .icon-card').forEach(card => {
          const cb = card.querySelector('input[type="checkbox"]');
          if (!cb) return;
          card.classList.toggle('owned', cb.checked);
@@ -1189,6 +1300,24 @@
              document.querySelectorAll('[data-view-mode]').forEach(btn => {
                  btn.classList.toggle('active', btn.dataset.viewMode === currentView);
              });
+         }
+         
+         function setupCardClickEvents() {
+         document.querySelectorAll('.table-card, .icon-card').forEach(card => {
+         card.onclick = (e) => {
+            if (isReadOnlyMode) return;
+            if (e.target.closest('input, label')) return;
+         
+            const checkbox = card.querySelector('input[type="checkbox"]');
+            if (!checkbox || checkbox.disabled) return;
+         
+            checkbox.checked = !checkbox.checked;
+            checkbox.dispatchEvent(new Event('change'));
+         
+            syncOwnedState();
+            updateTableSelectAllState();
+         };
+         });
          }
          function setupTableSelectAll() {
              const visibleNormalCards = () => Array.from(document.querySelectorAll('.table-card:not(.hidden-by-filter) input[type="checkbox"]:not(:disabled)'));
@@ -1232,18 +1361,6 @@
          }
          setBoxes(visibleNormalCardsByAttr(cb.dataset.row), cb.checked);
          };
-             });
-         
-             document.querySelectorAll('.table-card').forEach(card => {
-                 card.onclick = (e) => {
-         if (isReadOnlyMode) return;
-                     if (e.target.closest('input, label')) return;
-                     const checkbox = card.querySelector('input[type="checkbox"]');
-                     if (!checkbox || checkbox.disabled) return;
-                     checkbox.checked = !checkbox.checked;
-                     checkbox.dispatchEvent(new Event('change'));
-                     updateTableSelectAllState();
-                 };
              });
          
              document.querySelectorAll('.table-card input[type="checkbox"]:not(:disabled)').forEach(cb => {
@@ -1440,7 +1557,9 @@
          }
          
          function renderCharacters(characters) {
-             if (currentView === 'table') {
+             if (currentView === 'icon') {
+                 renderCharactersIcon(characters);
+             } else if (currentView === 'table') {
                  renderCharactersTable(characters);
              } else {
                  renderCharactersList(characters);
@@ -1487,6 +1606,58 @@
              }).join('');
          }
          
+         function renderCharactersIcon(characters) {
+         const list = document.getElementById('dynamic-list');
+         
+         const attrIconMap = {
+         '火': 'images/attr/f.1dbf47.png',
+         '冰': 'images/attr/i.b647e3.png',
+         '雷': 'images/attr/l.119818.png',
+         '風': 'images/attr/w.d06628.png',
+         '斬': 'images/attr/s.42817b.png',
+         '打': 'images/attr/k.3148cc.png',
+         '突': 'images/attr/t.ac73b3.png'
+         };
+         
+         list.innerHTML = `
+         <div class="icon-view">
+            ${characters.map(char => {
+                const id = getCharacterId(char);
+                if (!Number.isFinite(id)) return '';
+         
+                const attr = getCharacterAttr(char);
+                const role = getCharacterRole(char);
+                const name = getCharacterName(char);
+                const dateText = getDateText(char);
+                const image = char.image || `images/chara/${char.base_character_id}.png`;
+                const roleIcon = ROLE_ICON_MAP[role] || '';
+                const attrIcon = attrIconMap[attr] || '';
+         
+                return `
+                    <div class="item icon-card${isFixedCharacterId(id) ? ' fixed' : ''}"
+                         data-attr="${escapeHtml(attr)}"
+                         data-role="${escapeHtml(role)}"
+                         title="${escapeHtml(name)}｜${escapeHtml(dateText)}">
+         
+                        <input type="checkbox"
+                               id="c${id}"
+                               class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"
+                               ${getCheckboxAttrs(id)}
+                               onchange="this.closest('.icon-card')?.classList.toggle('owned', this.checked)">
+         
+                        <img class="icon-card-image"
+                             src="${escapeHtml(image)}"
+                             alt="${escapeHtml(name)}"
+                             onerror="this.style.display='none'">
+         
+                        ${attrIcon ? `<img class="icon-card-attr" src="${attrIcon}" alt="${escapeHtml(attr)}">` : ''}
+                        ${roleIcon ? `<img class="icon-card-role" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
+                    </div>
+                `;
+            }).join('')}
+         </div>
+         `;
+         }
          function renderCharactersTable(characters) {
              const list = document.getElementById('dynamic-list');
              const attrOrder = ['火', '冰', '雷', '風', '斬', '打', '突'];
@@ -1795,6 +1966,7 @@
                  syncOwnedState();
          applyReadOnlyMode();
                  bindCheckboxEvents();
+                 setupCardClickEvents();
                  setupTableSelectAll();
              } catch (error) {
                  console.error(error);
@@ -1928,10 +2100,10 @@
                  btn.classList.remove('has-update');
              }
          }
-
+         
          function goHome() {
-		window.location.href = window.location.origin + window.location.pathname;
-		}
+         window.location.href = window.location.origin + window.location.pathname;
+         }
       </script>
    </body>
 </html>

@@ -1,43 +1,58 @@
 {
-  "version": "2026-05-06",
+  "version": "2026-05-07",
   "notes": [
+    {
+      "date": "2026-05-07",
+      "title": "Update Note",
+      "items": [
+        {
+          "text": "Add Grid View",
+          "details": [
+            {
+              "type": "new",
+              "content": "Added Grid View for easier character selection."
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-06",
       "title": "Update Note",
       "items": [
-      {
+        {
           "text": "Add Viewer Mode",
           "details": [
-            { "type": "new", "content": "URLs containing a k= parameter will open in read-only mode." }
+            {
+              "type": "new",
+              "content": "URLs containing a k= parameter will open in read-only mode."
+            }
           ]
         },
         {
           "text": "List View",
           "details": [
-            { "type": "new", "content": "Display the craft colours to the right of the character" }
+            {
+              "type": "new",
+              "content": "Display the craft colours to the right of the character"
+            }
           ]
         },
         {
           "text": "Table View",
           "details": [
-            { "type": "new", "content": "Display 3 characters per row (2 on mobile)" },
-            { "type": "new", "content": "Unowned characters appear in grayscale" },
-            { "type": "improve", "content": "Hover to show character name" }
-          ]
-        },
-        {
-          "text": "Report Question & Other",
-          "details": [
-            { "type": "link", "text": "Report Issues (Account Required)", "url": "https://forum.gamer.com.tw/Co.php?bsn=78261&sn=10410" },
-            { "type": "link", "text": "Contact me on Discord", "url": "https://discord.gg/66HtcS9uzX" },
-             { "type": "link", "text": "My YouTube channel", "url": "https://www.youtube.com/@ChenRayLiang" }
-             ]
-        },
-        {
-          "text": "Subspace Support Effects",
-          "details": [
-             { "type": "link", "text": "CHT", "url": "https://www.notion.so/3547c6b7821c804b8a6cd11c47f46e99" },
-             { "type": "link", "text": " English", "url": "https://www.notion.so/3577c6b7821c80fd9854d7cd53315c3d" }
+            {
+              "type": "new",
+              "content": "Display 3 characters per row (2 on mobile)"
+            },
+            {
+              "type": "new",
+              "content": "Unowned characters appear in grayscale"
+            },
+            {
+              "type": "improve",
+              "content": "Hover to show character name"
+            }
           ]
         }
       ]
