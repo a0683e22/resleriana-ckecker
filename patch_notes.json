@@ -1,0 +1,33 @@
+{
+  "version": "2026-05-06",
+  "notes": [
+    {
+      "date": "2026-05-06",
+      "title": "Update Note",
+      "items": [
+        {
+          "text": "List View",
+          "details": [
+            { "type": "new", "content": "Display the craft colours to the right of the character" }
+          ]
+        },
+        {
+          "text": "Table View",
+          "details": [
+            { "type": "new", "content": "Display 3 characters per row (2 on mobile)" },
+            { "type": "new", "content": "Unowned characters appear in grayscale" },
+            { "type": "improve", "content": "Hover to show character name" }
+          ]
+        },
+        {
+          "text": "Report Question & Other",
+          "details": [
+            { "type": "link", "text": "Go to Report Quesion (Need Account)", "url": "https://forum.gamer.com.tw/Co.php?bsn=78261&sn=10410" },
+            { "type": "link", "text": "Contact me on Discord", "url": "https://discord.gg/66HtcS9uzX" },
+             { "type": "link", "text": "My Youtube channel", "url": "https://www.youtube.com/@ChenRayLiang" }
+          ]
+        }
+      ]
+    }
+  ]
+}
