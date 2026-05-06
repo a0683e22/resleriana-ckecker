@@ -5,6 +5,12 @@
       "date": "2026-05-06",
       "title": "Update Note",
       "items": [
+      {
+          "text": "Add Viewer Mode",
+          "details": [
+            { "type": "new", "content": "URLs with a k= parameter are treated as read-only shared links." }
+          ]
+        },
         {
           "text": "List View",
           "details": [
