@@ -5,6 +5,12 @@
       "date": "2026-05-06",
       "title": "Update Note",
       "items": [
+      {
+          "text": "Add Viewer Mode",
+          "details": [
+            { "type": "new", "content": "URLs with a k= parameter are treated as read-only shared links." }
+          ]
+        },
         {
           "text": "List View",
           "details": [
@@ -24,7 +30,9 @@
           "details": [
             { "type": "link", "text": "Go to Report Quesion (Need Account)", "url": "https://forum.gamer.com.tw/Co.php?bsn=78261&sn=10410" },
             { "type": "link", "text": "Contact me on Discord", "url": "https://discord.gg/66HtcS9uzX" },
-             { "type": "link", "text": "My Youtube channel", "url": "https://www.youtube.com/@ChenRayLiang" }
+             { "type": "link", "text": "My Youtube channel", "url": "https://www.youtube.com/@ChenRayLiang" },
+             { "type": "link", "text": "中文版亞空支援一覽", "url": "https://www.notion.so/3547c6b7821c804b8a6cd11c47f46e99" },
+             { "type": "link", "text": "Subspace Support Effects List", "url": "https://www.notion.so/3577c6b7821c80fd9854d7cd53315c3d" }
           ]
         }
       ]
