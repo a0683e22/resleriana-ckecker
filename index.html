@@ -211,7 +211,7 @@
          .title-row h1 {
          margin: 0;
          color: var(--text-main);
-         padding-right: 120px;
+         padding: 0 140px;
          }
          .theme-toggle {
          position: static;
@@ -692,6 +692,128 @@
          left: 4px;
          z-index: 3;
          }
+         /* =====Patch Note 相關設置===== */
+         .patch-note-panel {
+         position: fixed;
+         top: 80px;
+         right: 20px;
+         width: 320px;
+         max-height: 70vh;
+         overflow-y: auto;
+         background: var(--bg-card);
+         border: 1px solid var(--border);
+         border-radius: 12px;
+         box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+         z-index: 999;
+         padding: 12px;
+         }
+         .patch-note-panel.hidden {
+         display: none;
+         }
+         .patch-note-header {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin-bottom: 10px;
+         }
+         .patch-note-header button {
+         flex: 0 0 auto;
+         width: 28px;
+         height: 28px;
+         padding: 0;
+         }
+         .patch-note-entry {
+         border-top: 1px solid var(--border);
+         padding-top: 10px;
+         margin-top: 10px;
+         }
+         .patch-note-date {
+         color: var(--text-sub);
+         font-size: 0.8rem;
+         }
+         .patch-note-content ul {
+         padding-left: 18px;
+         margin: 6px 0 0;
+         }
+         .patch-main-list {
+         list-style: none;
+         padding-left: 0;
+         }
+         .patch-main-list > li::before {
+         content: "◆ ";
+         color: var(--primary);
+         }
+         .patch-sub-list {
+         list-style: none;
+         padding-left: 18px;
+         margin-top: 4px;
+         }
+         .patch-sub-list > li::before {
+         content: "◇ ";
+         color: var(--text-sub);
+         white-space: pre-line;
+         }
+         .patch-badge {
+         display: inline-block;
+         min-width: 38px;
+         margin-right: 6px;
+         padding: 1px 6px;
+         border-radius: 999px;
+         font-size: 0.68rem;
+         font-weight: 700;
+         text-align: center;
+         }
+         .patch-new {
+         background: #22c55e;
+         color: #ffffff;
+         }
+         .patch-fix {
+         background: #ef4444;
+         color: #ffffff;
+         }
+         .patch-improve {
+         background: #3b82f6;
+         color: #ffffff;
+         }
+         .patch-note-entry:first-child {
+         background: rgba(59, 130, 246, 0.08);
+         border-radius: 8px;
+         padding: 10px;
+         }
+         /* ========   閱讀模式  ========*/
+         .share-readonly-banner {
+         position: fixed;
+         top: 10px;
+         left: 50%;
+         transform: translateX(-50%);
+         z-index: 9999;
+         width: min(90%, 520px);
+         padding: 16px;
+         background: rgba(0,0,0,0.92);
+         border: 1px solid var(--border);
+         border-radius: 14px;
+         text-align: center;
+         box-shadow: 0 8px 30px rgba(0,0,0,0.45);
+         backdrop-filter: blur(8px);
+         }
+         .share-readonly-banner.hidden {
+         display: none;
+         }
+         .share-readonly-text {
+         font-weight: 700;
+         margin-bottom: 10px;
+         }
+         .share-readonly-actions {
+         display: flex;
+         justify-content: center;
+         gap: 10px;
+         }
+         .share-readonly-actions button {
+         flex: 0 0 auto;
+         padding: 8px 14px;
+         background: #6b7280;
+         color: #fff;
+         }
       </style>
    </head>
    <body>
@@ -700,6 +822,14 @@
             <div class="title-row">
                <h1 id="page-title">角色持有清單</h1>
                <div class="title-actions">
+                  <button id="patch-note-btn"
+                     class="theme-toggle"
+                     type="button"
+                     onclick="togglePatchNote()"
+                     title="Patch Note"
+                     aria-label="Patch Note">
+                  📝
+                  </button>
                   <select id="lang-select" class="lang-select">
                      <option value="zh">繁體中文</option>
                      <option value="ja">日本語</option>
@@ -713,6 +843,13 @@
                      aria-label="切換深淺模式">
                   💡
                   </button>
+               </div>
+            </div>
+            <div id="share-readonly-banner" class="share-readonly-banner hidden">
+               <div class="share-readonly-text" data-i18n="share_readonly_text"></div>
+               <div class="share-readonly-actions">
+                  <button type="button" onclick="saveSharedList()" data-i18n="share_overwrite"></button>
+                  <button type="button" onclick="discardSharedList()" data-i18n="share_cancel"></button>
                </div>
             </div>
             <div class="control-panel">
@@ -790,6 +927,15 @@
                <div class="loading">角色資料讀取中...</div>
             </div>
          </div>
+         <div id="patch-note-panel" class="patch-note-panel hidden">
+            <div class="patch-note-header">
+               <strong>Patch Note</strong>
+               <button type="button" onclick="togglePatchNote()">×</button>
+            </div>
+            <div id="patch-note-content" class="patch-note-content">
+               讀取中...
+            </div>
+         </div>
       </div>
       <script>
          const STORAGE_KEY = 'resleri_character_checked_ids_v1';
@@ -840,7 +986,10 @@
                  viewList: '列表顯示',
                  viewTable: '表格顯示',
                  selectAll: '全選',
-                 releaseDate: '開放日期：'
+                 releaseDate: '開放日期：',
+                 share_readonly_text: "※目前為瀏覽模式，是否覆蓋你的持有清單？",
+                 share_overwrite: "覆蓋保存",
+                 share_cancel: "不保存返回"
              },
              ja: {
                  title: '所持キャラ一覧',
@@ -849,7 +998,10 @@
                  viewList: 'リスト表示',
                  viewTable: '表形式',
                  selectAll: '全て',
-                 releaseDate: '実装日：'
+                 releaseDate: '実装日：',
+                 share_readonly_text: "※現在は閲覧モードです。所持キャラリストを上書きしますか？",
+                 share_overwrite: "上書き保存する",
+                 share_cancel: "保存せずに戻る"
              },
              en: {
                  title: 'Character Checklist',
@@ -858,7 +1010,10 @@
                  viewList: 'List View',
                  viewTable: 'Table View',
                   selectAll: 'All',
-                  releaseDate: 'Release Date: '
+                  releaseDate: 'Release Date: ',
+                 share_readonly_text: "Viewing mode. Overwrite your current character list?",
+                 share_overwrite: "Overwrite",
+                 share_cancel: "Cancel"
                   }
          };
          
@@ -868,6 +1023,8 @@
          let currentTheme = localStorage.getItem('theme') || 'dark';
          let currentLang = localStorage.getItem('lang') || 'zh';
          let currentView = localStorage.getItem('viewMode') || 'list';
+         let isReadOnlyMode = false;
+         
          
          function applyTheme() {
              document.body.classList.toggle('light', currentTheme === 'light');
@@ -893,6 +1050,25 @@
              });
          }
          
+         function applyReadOnlyMode() {
+         const banner = document.getElementById('share-readonly-banner');
+         if (!banner) return;
+         
+         if (isReadOnlyMode) {
+         banner.classList.remove('hidden');
+         } else {
+         banner.classList.add('hidden');
+         }
+         
+         document.querySelectorAll('.char-cb:not(.fixed-cb)').forEach(cb => {
+         cb.disabled = isReadOnlyMode;
+         });
+         
+         document.querySelectorAll('#select-all, [data-col], [data-row]').forEach(cb => {
+         cb.disabled = isReadOnlyMode;
+         });
+         }
+         
          function applyUiLanguage() {
              const text = UI_TEXT[currentLang] || UI_TEXT.zh;
              const title = document.getElementById('page-title');
@@ -915,9 +1091,13 @@
              setButtonLabel(resetBtn, text.reset);
              setButtonLabel(viewListBtn, text.viewList);
              setButtonLabel(viewTableBtn, text.viewTable);
-             document.querySelectorAll('[data-i18n="selectAll"]').forEach(el => {
-         el.textContent = text.selectAll;
+             document.querySelectorAll('[data-i18n]').forEach(el => {
+         const key = el.dataset.i18n;
+         if (text[key]) {
+         el.textContent = text[key];
+         }
          });
+         
          // ===== 日期多語（只作用在列表模式）=====
          if (currentView === 'list') {
          document.querySelectorAll('.date-line').forEach(el => {
@@ -929,9 +1109,17 @@
          }
          
          function bindCheckboxEvents() {
-             getNormalCheckboxes().forEach(cb => {
-                 cb.addEventListener('change', () => syncShareUrl());
-             });
+         getNormalCheckboxes().forEach(cb => {
+         cb.addEventListener('change', (e) => {
+         
+            if (isReadOnlyMode) {
+                cb.checked = !cb.checked; // 還原
+                return;
+            }
+         
+            syncShareUrl();
+         });
+         });
          }
          
          function rerenderCharactersKeepChecked() {
@@ -997,19 +1185,38 @@
          
              const selectAll = document.getElementById('select-all');
              if (selectAll) {
-                 selectAll.onchange = () => setBoxes(visibleNormalCards(), selectAll.checked);
+                 selectAll.onchange = () => {
+         if (isReadOnlyMode) {
+         updateTableSelectAllState();
+         return;
+         }
+         setBoxes(visibleNormalCards(), selectAll.checked);
+         };
              }
          
              document.querySelectorAll('[data-col]').forEach(cb => {
-                 cb.onchange = () => setBoxes(visibleNormalCardsByRole(cb.dataset.col), cb.checked);
+                 cb.onchange = () => {
+         if (isReadOnlyMode) {
+         updateTableSelectAllState();
+         return;
+         }
+         setBoxes(visibleNormalCardsByRole(cb.dataset.col), cb.checked);
+         };
              });
          
              document.querySelectorAll('[data-row]').forEach(cb => {
-                 cb.onchange = () => setBoxes(visibleNormalCardsByAttr(cb.dataset.row), cb.checked);
+                 cb.onchange = () => {
+         if (isReadOnlyMode) {
+         updateTableSelectAllState();
+         return;
+         }
+         setBoxes(visibleNormalCardsByAttr(cb.dataset.row), cb.checked);
+         };
              });
          
              document.querySelectorAll('.table-card').forEach(card => {
                  card.onclick = (e) => {
+         if (isReadOnlyMode) return;
                      if (e.target.closest('input, label')) return;
                      const checkbox = card.querySelector('input[type="checkbox"]');
                      if (!checkbox || checkbox.disabled) return;
@@ -1498,32 +1705,35 @@
          }
          
          function loadFromUrl() {
-             const params = new URLSearchParams(window.location.search);
-             const key = params.get('k');
-             const legacyChars = params.get('chars');
+         const params = new URLSearchParams(window.location.search);
+         const key = params.get('k');
+         const legacyChars = params.get('chars');
          
-             if (key !== null) {
-                 try {
-                     const ids = decodeKeyToIds(key);
-                     setCheckedIds(ids);
-                     saveToLocalStorage();
-                     syncShareUrl();
-                     return true;
-                 } catch (error) {
-                     console.warn('網址短碼解析失敗，已改用本機記錄。', error);
-                     return false;
-                 }
-             }
+         if (key !== null) {
+         isReadOnlyMode = true;
          
-             if (legacyChars !== null) {
-                 const ids = legacyChars.split(',').map(id => id.trim()).filter(Boolean);
-                 setCheckedIds(ids);
-                 saveToLocalStorage();
-                 syncShareUrl();
-                 return true;
-             }
+         try {
+            const ids = decodeKeyToIds(key);
+            setCheckedIds(ids);
+            syncShareUrl();
+            return true;
+         } catch (error) {
+            console.warn('網址短碼解析失敗，已改用本機記錄。', error);
+            return false;
+         }
+         }
          
-             return false;
+         if (legacyChars !== null) {
+         const ids = legacyChars.split(',').map(id => id.trim()).filter(Boolean);
+         
+         setCheckedIds(ids);
+         saveToLocalStorage();
+         syncShareUrl();
+         
+         return true;
+         }
+         
+         return false;
          }
          
          async function init() {
@@ -1544,13 +1754,25 @@
                  applyUiLanguage();
                  applyFilters();
                  
+                 applyReadOnlyMode();  // ← 閱讀模式放這裡 ✔
+                 
+                 setTimeout(() => {
+                 const seen = localStorage.getItem(PATCH_NOTE_KEY);
+                 
+                 if (!seen) {
+                 	togglePatchNote();   // 第一次 → 打開 + 載入
+                 	} else {
+                 	loadPatchNotes();    // 已看過 → 只載入（為了紅點）
+                 	}
+                 }, 500);
+                 
                  const loadedFromUrl = loadFromUrl();
                  if (!loadedFromUrl) {
                      loadFromLocalStorage();
                      syncShareUrl();
                  }
                  syncOwnedState();
-         
+         applyReadOnlyMode();
                  bindCheckboxEvents();
                  setupTableSelectAll();
              } catch (error) {
@@ -1561,6 +1783,131 @@
          }
          
          document.addEventListener('DOMContentLoaded', init);
+         /* ===== 閱讀模式 設定 ===== */
+         function saveSharedList() {
+         isReadOnlyMode = false;
+         
+         saveToLocalStorage();   // 把目前（分享來的）存成本機
+         
+         applyReadOnlyMode();    // 隱藏提示
+         syncShareUrl();         // 更新網址
+         }
+         
+         function discardSharedList() {
+         isReadOnlyMode = false;
+         
+         loadFromLocalStorage();     // 載回自己的資料
+         syncOwnedState();           // UI同步
+         updateTableSelectAllState();// 表格同步
+         
+         applyReadOnlyMode();        // 隱藏提示
+         syncShareUrl();             // 更新網址
+         }
+         
+         // ===== Patch Note =====
+         const PATCH_NOTE_FILE = 'patch_notes.json';
+         const PATCH_NOTE_KEY = 'patch_note_seen';
+         let patchNoteVersion = null;
+         let patchNoteLoaded = false;
+         
+         function renderDetail(detail) {
+             if (typeof detail === 'string') {
+             return escapeHtml(detail);
+             }
+             if (detail.type === 'link') {
+             return `<a href="${escapeHtml(detail.url)}" target="_blank" rel="noopener noreferrer">
+             ${escapeHtml(detail.text)}</a>`;
+             }
+             
+             const labelMap = {
+             new: 'NEW',
+             fix: 'FIX',
+             improve: 'UPD'
+             };
+             
+             if (labelMap[detail.type]) {
+             return `<span class="patch-badge patch-${detail.type}">${labelMap[detail.type]}</span>
+             ${escapeHtml(detail.content || '')}`;
+             }
+             
+             return escapeHtml(detail.content || '');
+             }
+         
+         function togglePatchNote() {
+             const panel = document.getElementById('patch-note-panel');
+             if (!panel) return;
+         
+             panel.classList.toggle('hidden');
+         
+             if (!panel.classList.contains('hidden')) {
+                 if (!patchNoteLoaded) {
+                     loadPatchNotes();
+                 }
+         
+                 if (patchNoteVersion) {
+                     localStorage.setItem(PATCH_NOTE_KEY, patchNoteVersion);
+                     updatePatchDot();
+                 }
+             }
+         }
+         
+         async function loadPatchNotes() {
+             const content = document.getElementById('patch-note-content');
+             if (!content) return;
+         
+             try {
+                 const response = await fetch(PATCH_NOTE_FILE, { cache: 'no-store' });
+                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
+         
+                 const data = await response.json();
+                 patchNoteVersion = data.version;
+                 const notes = data.notes || [];
+         
+                 content.innerHTML = notes.map(note => `
+                     <div class="patch-note-entry">
+                         <div class="patch-note-date">${escapeHtml(note.date || '')}</div>
+                         <strong>${escapeHtml(note.title || '')}</strong>
+         
+                         <ul class="patch-main-list">
+                             ${(note.items || []).map(item => `
+                                 <li>
+                                     <span>${escapeHtml(item.text || '')}</span>
+         
+                                     ${(item.details || []).length ? `
+                                         <ul class="patch-sub-list">
+                                             ${item.details.map(detail => `
+                                                 <li>${renderDetail(detail)}</li>
+                                                 `).join('')}
+                                         </ul>
+                                     ` : ''}
+                                 </li>
+                             `).join('')}
+                         </ul>
+                     </div>
+                 `).join('');
+         
+                 patchNoteLoaded = true;
+                 updatePatchDot();
+         
+             } catch (error) {
+                 console.error(error);
+                 content.innerHTML = '<div class="error">Patch Note 讀取失敗</div>';
+             }
+         }
+         
+         function updatePatchDot() {
+             const btn = document.getElementById('patch-note-btn');
+             if (!btn || !patchNoteVersion) return;
+         
+             const seen = localStorage.getItem(PATCH_NOTE_KEY);
+         
+             if (seen !== patchNoteVersion) {
+                 btn.classList.add('has-update');
+             } else {
+                 btn.classList.remove('has-update');
+             }
+         }
+         
       </script>
    </body>
 </html>
