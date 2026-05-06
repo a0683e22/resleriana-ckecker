@@ -28,9 +28,9 @@
         {
           "text": "Report Question & Other",
           "details": [
-            { "type": "link", "text": "Report Question (Need Account)", "url": "https://forum.gamer.com.tw/Co.php?bsn=78261&sn=10410" },
+            { "type": "link", "text": "Report Issues (Account Required)", "url": "https://forum.gamer.com.tw/Co.php?bsn=78261&sn=10410" },
             { "type": "link", "text": "Contact me on Discord", "url": "https://discord.gg/66HtcS9uzX" },
-             { "type": "link", "text": "My Youtube channel", "url": "https://www.youtube.com/@ChenRayLiang" }
+             { "type": "link", "text": "My YouTube channel", "url": "https://www.youtube.com/@ChenRayLiang" }
              ]
         },
         {
