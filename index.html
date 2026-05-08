@@ -6,7 +6,7 @@
       <title>角色持有清單</title>
       <link rel="icon" href="favicon.ico">
       <style>
-         /* ===== 全局共用：色彩變數 / 深淺色主題 ===== */
+         /* ===== Theme ===== */
          :root {
          --bg-body: #020617;
          --bg-card: #0f172a;
@@ -18,14 +18,14 @@
          --danger: #ef4444;
          }
          body.light {
-         --bg-body: #f3f4f6;
-         --bg-card: #f8fafc;
-         --bg-panel: #f9fafb;
+         --bg-body: #e5e7eb;
+         --bg-card: #f1f5f9;
+         --bg-panel: #e5e7eb;
          --text-main: #111827;
          --text-sub: #6b7280;
-         --border: #e5e7eb;
+         --border: #d1d5db;
          }
-         /* ===== 全局共用：頁面基本版面 ===== */
+         /* ===== Global Layout ===== */
          body {
          font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif;
          background-color: var(--bg-body);
@@ -50,7 +50,7 @@
          overflow: hidden;
          margin-bottom: 40px;
          }
-         /* ===== 全局共用：頁首 / 標題 / 語言 / 主題切換 ===== */
+         /* ===== Header ===== */
          header {
          padding: 20px;
          background: var(--bg-card);
@@ -61,7 +61,7 @@
          z-index: 10;
          }
          h1 { margin: 0 0 14px; }
-         /* ===== 全局共用：控制面板 / URL / 按鈕 ===== */
+         /* ===== Control Panel ===== */
          .control-panel {
          padding: 15px;
          background: var(--bg-panel);
@@ -96,7 +96,7 @@
          min-height: 20px;
          text-align: left;
          }
-         /* ===== 全局共用：屬性 / 職種篩選按鈕 ===== */
+         /* ===== Filter ===== */
          .filter-title {
          font-size: 0.82rem;
          color: var(--text-sub);
@@ -151,27 +151,27 @@
          border-color: var(--primary);
          box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
          }
-         /* ===== 全局共用：資料狀態 / 篩選隱藏 ===== */
+         /* ===== Shared Item ===== */
          .item.hidden-by-filter { display: none; }
-         /* ===== 全局共用：共用 item / checkbox 基礎 ===== */
+         /* ===== Shared Item ===== */
          .list-wrapper { max-height: 70vh; overflow-y: auto; }
          .item {
          display: flex;
          align-items: center;
          padding: 14px 20px;
-         border-bottom: 2px solid var(--border);
+         border-bottom: 1px solid rgba(255,255,255,0.05);
          }
          .checkbox-wrapper { margin-right: 18px; display: flex; align-items: center; }
          input[type="checkbox"] { width: 22px; height: 22px; cursor: pointer; }
          input[type="checkbox"]:disabled { cursor: not-allowed; }
-         /* ===== 列表模式：角色文字資訊 ===== */
+         /* ===== List View ===== */
          .info { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
          .main-line { display: flex; align-items: center; font-size: 1.05rem; font-weight: 600; cursor: pointer; line-height: 1.35; }
          .fixed .main-line { cursor: default; }
          .fixed {
          background: var(--bg-card);
          }
-         /* ===== 全局共用：屬性標籤與職種小圖示 ===== */
+         /* ===== Attribute ===== */
          .attr-tag {
          padding: 2px 10px;
          border-radius: 6px;
@@ -193,7 +193,7 @@
          .date-line { font-size: 0.85rem; color: var(--text-sub); padding-left: 55px; }
          .loading, .error { padding: 20px; color: var(--text-sub); text-align: center; }
          .error { color: var(--danger); }
-         /* ===== 全局共用：屬性標籤顏色 ===== */
+         /* ===== Attribute Color ===== */
          .tag-火 { background-color: #b91c1c; }
          .tag-冰 { background-color: #0ea5e9; }
          .tag-雷 { background-color: #eab308; color: #000000; }
@@ -233,7 +233,7 @@
          align-items: center;
          justify-content: center;
          }
-         /* ===== 全局共用：手機版基礎響應式 ===== */
+         /* ===== Responsive ===== */
          @media (max-width: 480px) {
          body { padding: 12px; }
          header { padding: 16px; }
@@ -241,7 +241,7 @@
          .checkbox-wrapper { margin-right: 14px; }
          .role-filter-btn { width: 40px; height: 40px; }
          }
-         /* ===== 全局共用：清除篩選按鈕 / 推右工具 ===== */
+         /* ===== Filter ===== */
          .clear-btn {
          width: 42px;
          height: 42px;
@@ -291,7 +291,7 @@
          border-color: var(--primary);
          box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18);
          }
-         /* ===== 全局共用：標題右側操作區 ===== */
+         /* ===== Header ===== */
          .title-actions {
          position: absolute;
          right: 0;
@@ -301,7 +301,7 @@
          gap: 8px;
          align-items: center;
          }
-         /* ===== 全局共用：列表/表格切換按鈕 ===== */
+         /* ===== View Button ===== */
          .view-toggle {
          display: flex;
          gap: 8px;
@@ -319,7 +319,7 @@
          color: #ffffff;
          border-color: var(--primary);
          }
-         /* ===== 表格模式：外層表格 / 矩陣 ===== */
+         /* ===== Table View ===== */
          .table-view {
          overflow-x: auto;
          border-top: 1px solid var(--border);
@@ -331,7 +331,7 @@
          border-left: 1px solid var(--border);
          border-top: 1px solid var(--border);
          }
-         /* ===== 表格模式：矩陣格線與標題 ===== */
+         /* ===== Table View ===== */
          .matrix-cell {
          border-right: 1px solid var(--border);
          border-bottom: 1px solid var(--border);
@@ -341,7 +341,7 @@
          .matrix-head {
          position: sticky;
          top: 0;
-         z-index: 2;
+         z-index: 5;
          min-height: auto;
          padding: 10px 8px;
          background: var(--bg-panel);
@@ -361,7 +361,7 @@
          .matrix-attr {
          position: sticky;
          left: 0;
-         z-index: 1;
+         z-index: 4;
          background: var(--bg-panel);
          display: flex;
          align-items: center;
@@ -375,7 +375,7 @@
          height: 28px;
          object-fit: contain;
          }
-         /* ===== 表格模式：矩陣內容格 ===== */
+         /* ===== Table View ===== */
          .matrix-slot {
          padding: 4px;
          display: grid;
@@ -392,7 +392,7 @@
          grid-template-columns: repeat(3, 1fr);
          }
          }
-         /* ===== 表格模式：舊版文字卡片樣式 ===== */
+         /* ===== Table Card ===== */
          .table-card {
          display: flex;
          align-items: flex-start;
@@ -447,7 +447,7 @@
          grid-template-columns: 90px repeat(4, minmax(260px, 1fr));
          }
          }
-         /* ===== 表格模式：全選 / 列選 / 欄選 ===== */
+         /* ===== Table Select ===== */
          .select-label {
          display: inline-flex;
          align-items: center;
@@ -480,7 +480,7 @@
          .table-card {
          cursor: pointer;
          }
-         /* ===== 全局共用：URL列 / 複製按鈕 / 動作列 ===== */
+         /* ===== Action Row ===== */
          .url-row {
          display: flex;
          align-items: stretch;
@@ -511,7 +511,7 @@
          #reset-btn {
          flex: 0.7;  /* 比較短 */
          }
-         /* ===== 全局共用：圖示按鈕 ===== */
+         /* ===== Icon Button ===== */
          .icon-btn {
          display: inline-flex;
          align-items: center;
@@ -584,7 +584,7 @@
          background-color: #ef4444;
          box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
          }
-         /* ===== 表格模式：表格頁面微調 ===== */
+         /* ===== Table View ===== */
          body[data-view="table"] .table-view {
          border-top: none;
          }
@@ -596,9 +596,6 @@
          }
          body[data-view="table"] .table-view {
          border-top: none;
-         }
-         .item {
-         border-bottom: 1px solid rgba(255,255,255,0.05);
          }
          body[data-view="table"] .table-card {
          border: 1px solid var(--border) !important;
@@ -621,7 +618,7 @@
          .table-card input[type="checkbox"] {
          display: none;
          }
-         /* ===== 列表模式：列表邊框 ===== */
+         /* ===== List View ===== */
          body[data-view="list"] .list-wrapper .item:first-of-type {
          border-top: 1px solid var(--border);
          }
@@ -631,7 +628,7 @@
          body[data-view="list"] .list-wrapper .item:first-of-type {
          border-top: 1px solid var(--border);
          }
-         /* ===== 圖示模式 ===== */
+         /* ===== Icon View ===== */
          body[data-view="icon"] .container {
          max-width: 980px;
          }
@@ -659,15 +656,6 @@
          .icon-card input[type="checkbox"] {
          display: none;
          }
-         .icon-card-imag {
-         width: 100%;
-         height: 100%;
-         object-fit: cover;
-         clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-         filter: grayscale(100%);
-         opacity: 0.4;
-         transition: all 0.2s ease;
-         }
          .icon-card.owned .icon-card-image {
          filter: none;
          opacity: 1;
@@ -688,10 +676,6 @@
          height: 24px;
          z-index: 2;
          }
-         .icon-card:hover {
-         transform: scale(1.05);
-         box-shadow: 0 0 8px rgba(255,255,255,0.3);
-         }
          .icon-card-image {
          width: 120%;
          height: 120%;
@@ -703,14 +687,30 @@
          opacity: 0.4;
          transition: all 0.2s ease;
          }
+         @media (hover: hover) and (pointer: fine) {
          .icon-card:hover {
          transform: scale(1.15);
          z-index: 5;
+         box-shadow: 0 0 8px rgba(255,255,255,0.3);
+         }
          }
          .icon-card {
          transition: transform 0.12s ease;
          }
-         /* ===== 列表模式：右側角色圖片 ===== */
+         /* 讓左下與右下的圖標更清晰 */
+         .attr-icon, .job-icon {
+         background-color: rgba(0, 0, 0, 0.5); 
+         border-radius: 50%;
+         /* 讓背景比圖標稍微大一圈 (依你的圖標大小調整) */
+         padding: 4px;
+         filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+         object-fit: contain;
+         backdrop-filter: blur(2px);
+         }
+         .grid-item {
+         position: relative;
+         }
+         /* ===== List View ===== */
          .char-image-wrapper {
          margin-left: auto;
          flex-shrink: 0;
@@ -735,21 +735,18 @@
          overflow: hidden;
          border-radius: 10px;
          }
-         /* ===== 表格模式：圖片卡片覆蓋樣式 ===== */
-         /* 圖片 */
+         /* ===== Table Card ===== */
          .card-image img {
          width: 100%;
          height: 100%;
          object-fit: cover;
          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
          }
-         /* 未持有（預設） */
          .table-card img {
          filter: grayscale(100%);
          opacity: 0.4;
          transition: all 0.2s ease;
          }
-         /* 已持有 */
          .table-card.owned img {
          filter: none;
          opacity: 1;
@@ -758,8 +755,7 @@
          transform: scale(1.05);
          box-shadow: 0 0 8px rgba(255,255,255,0.3);
          }
-         /* ===== 表格模式：職種右下角圖示 ===== */
-         /* 職種右下 */
+         /* ===== Table Card ===== */
          .card-role {
          position: absolute;
          bottom: 4px;
@@ -768,15 +764,14 @@
          height: 26px;
          z-index: 2;
          }
-         /* ===== 表格模式：checkbox 左上角 ===== */
-         /* checkbox 左上 */
+         /* ===== Table Card ===== */
          .table-card input[type="checkbox"] {
          position: absolute;
          top: 4px;
          left: 4px;
          z-index: 3;
          }
-         /* =====Patch Note 相關設置===== */
+         /* ===== Patch Note ===== */
          .patch-note-panel {
          position: fixed;
          top: 80px;
@@ -790,6 +785,15 @@
          box-shadow: 0 10px 30px rgba(0,0,0,0.35);
          z-index: 999;
          padding: 12px;
+         }
+         @media (max-width: 700px) {
+         .patch-note-panel {
+         left: 10px;
+         right: 10px;
+         width: auto;
+         top: 70px;
+         max-height: 75vh;
+         }
          }
          .patch-note-panel.hidden {
          display: none;
@@ -881,7 +885,7 @@
          .patch-fixed-links ul {
          margin: 6px 0 0;
          }
-         /* ========   閱讀模式  ========*/
+         /* ===== Readonly ===== */
          .share-readonly-banner {
          position: fixed;
          top: 10px;
@@ -917,6 +921,171 @@
          }
          #page-title {
          cursor: pointer;
+         }
+         .hidden {
+         display: none !important;
+         }
+         .skill-modal.hidden {
+         display: none;
+         }
+         .skill-modal {
+         position: fixed;
+         inset: 0;
+         z-index: 9999;
+         }
+         .skill-modal-backdrop {
+         position: absolute;
+         inset: 0;
+         background: rgba(0,0,0,0.7);
+         }
+         .skill-modal-content {
+         position: relative;
+         width: min(820px, 92vw);
+         max-height: 88vh;
+         overflow-y: auto;
+         margin: 4vh auto;
+         padding: 28px;
+         border-radius: 24px;
+         background:
+         linear-gradient(
+         180deg,
+         #1b2233,
+         #141b2b
+         );
+         border:
+         1px solid rgba(255,255,255,0.08);
+         box-shadow:
+         0 10px 40px rgba(0,0,0,0.45);
+         color: white;
+         }
+         .skill-modal-close {
+         position: absolute;
+         top: 10px;
+         right: 14px;
+         border: none;
+         background: none;
+         color: white;
+         font-size: 28px;
+         cursor: pointer;
+         }
+         .skill-box {
+         margin-top: 24px;
+         padding: 20px 22px;
+         border-radius: 20px;
+         background:
+         linear-gradient(
+         180deg,
+         rgba(255,255,255,0.08),
+         rgba(255,255,255,0.04)
+         );
+         border:
+         1px solid rgba(255,255,255,0.12);
+         box-shadow:
+         0 6px 24px rgba(0,0,0,0.28);
+         backdrop-filter: blur(8px);
+         }
+         .skill-box { box-shadow:
+         0 4px 18px rgba(0,0,0,0.28);
+         }
+         /* ===== Skill Modal ===== */
+         .skill-title {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         gap: 12px;
+         color: #ffffff;
+         }
+         .skill-desc {
+         white-space: pre-line;
+         line-height: 1.9;
+         font-size: 15px;
+         color: rgba(255,255,255,0.92);
+         }
+         .skill-header {
+         margin-bottom: 18px;
+         }
+         .skill-name {
+         font-size: 22px;
+         font-weight: 700;
+         text-align: center;
+         margin-bottom: 18px;
+         }
+         .skill-stats {
+         display: flex;
+         gap: 12px;
+         flex-wrap: wrap;
+         justify-content: center;
+         }
+         .skill-stat {
+         min-width: 90px;
+         padding: 8px 12px;
+         border-radius: 999px;
+         background: rgba(255,255,255,0.08);
+         text-align: center;
+         }
+         .skill-stat .label {
+         display: block;
+         font-size: 12px;
+         opacity: 0.7;
+         }
+         .skill-stat .value {
+         font-size: 18px;
+         font-weight: 700;
+         }
+         .skill-switch {
+         display: flex;
+         gap: 6px;
+         flex-shrink: 0;
+         }
+         .skill-switch button {
+         padding: 4px 12px;
+         border-radius: 999px;
+         border: 1px solid transparent;
+         background: transparent;
+         color: rgba(255,255,255,0.28);
+         font-size: 12px;
+         font-weight: 700;
+         white-space: nowrap;
+         transition: all 0.2s ease;
+         }
+         .skill-switch button.active {
+         background:
+         linear-gradient(
+         180deg,
+         rgba(255,255,255,0.20),
+         rgba(255,255,255,0.10)
+         );
+         border-color: rgba(255,255,255,0.55);
+         color: #ffffff;
+         box-shadow:
+         0 0 16px rgba(255,255,255,0.10),
+         inset 0 1px 0 rgba(255,255,255,0.25);
+         }
+         .skill-switch button:disabled {
+         opacity: 0.12;
+         filter: grayscale(100%);
+         cursor: not-allowed;
+         }
+         .skill-stats {
+         display: flex;
+         align-items: center;
+         gap: 12px;
+         font-size: 12px;
+         font-weight: 700;
+         margin-left: auto;
+         margin-right: 14px;
+         }
+         .stat-power {
+         color: #60a5fa;
+         }
+         .stat-break {
+         color: #f87171;
+         }
+         .stat-heal {
+         color: #7dff8a;
+         }
+         .stat-wait {
+         color: rgba(255,255,255,0.72);
          }
       </style>
    </head>
@@ -1060,6 +1229,7 @@
          const ATTR_FILTER_STORAGE_KEY = 'resleri_character_attr_filters_v1';
          const ROLE_FILTER_STORAGE_KEY = 'resleri_character_role_filters_v1';
          const DATA_FILE = 'characters.json';
+         const TRANSLATION_FILE = 'translation.json'
          const BASE_CHARS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~_';
          const FIXED_CHARACTER_IDS = new Set(['0', '23']);
          
@@ -1110,7 +1280,12 @@
                  releaseDate: '開放日期：',
                  share_readonly_text: "※目前為瀏覽模式，是否覆蓋你的持有清單？",
                  share_overwrite: "覆蓋保存",
-                 share_cancel: "不保存返回"
+                 share_cancel: "不保存返回",
+                 awaken6: '6★覺醒',
+                 power: '威力',
+                 bpower: '破防',
+                 heal: '回復',
+                 wait: 'Wait'
              },
              ja: {
                  title: '所持キャラ一覧',
@@ -1125,7 +1300,12 @@
                  releaseDate: '実装日：',
                  share_readonly_text: "※現在は閲覧モードです。所持キャラリストを上書きしますか？",
                  share_overwrite: "上書き保存する",
-                 share_cancel: "保存せずに戻る"
+                 share_cancel: "保存せずに戻る",
+                 awaken6: '6★覚醒',
+                 power: '威力',
+                 bpower: 'ブレイク',
+                 heal: '回復',
+                 wait: 'Wait'
              },
              en: {
                  title: 'Character Checklist',
@@ -1133,18 +1313,24 @@
                  reset: 'Reset Table',
                  attrFilter: 'Attribute Filter',
                  roleFilter: 'Role Filter',
-                 viewIcon: 'Gird View',
+                 viewIcon: 'Grid View',
                  viewList: 'List View',
                  viewTable: 'Table View',
                   selectAll: 'All',
                   releaseDate: 'Release Date: ',
                  share_readonly_text: "Viewing mode. Overwrite your current character list?",
                  share_overwrite: "Overwrite",
-                 share_cancel: "Cancel"
+                 share_cancel: "Cancel",
+                 awaken6: '6★ Awaken',
+                 power: 'Power',
+                 bpower: 'B.Power',
+                 heal: 'Heal',
+                 wait: 'Wait'
                   }
          };
          
          let allCharacters = [];
+         let TRANSLATION_DATA = {};
          let activeAttrFilters = new Set();
          let activeRoleFilters = new Set();
          let currentTheme = localStorage.getItem('theme') || 'dark';
@@ -1597,6 +1783,7 @@
                                class="char-image" 
                                src="${escapeHtml(image)}" 
                                alt="${escapeHtml(name)}" 
+                               onclick="openSkillModal(${id})"
                                onerror="this.parentElement.style.display='none'"
                                >
                          </div>
@@ -1938,9 +2125,34 @@
              loadFilterState();
              updateFilterButtons();
              try {
-                 const response = await fetch(DATA_FILE, { cache: 'no-store' });
-                 if (!response.ok) throw new Error(`HTTP ${response.status}`);
-                 allCharacters = await response.json();
+                 const [charResponse, translationResponse] =
+         await Promise.all([
+         
+         fetch(DATA_FILE, {
+            cache: 'no-store'
+         }),
+         
+         fetch(TRANSLATION_FILE, {
+            cache: 'no-store'
+         })
+         
+         ]);
+         
+         if (!charResponse.ok)
+         throw new Error(
+         `HTTP ${charResponse.status}`
+         );
+         
+         if (!translationResponse.ok)
+         throw new Error(
+         `HTTP ${translationResponse.status}`
+         );
+         
+         allCharacters =
+         await charResponse.json();
+         
+         TRANSLATION_DATA =
+         await translationResponse.json();
                  allCharacters.sort((a, b) => new Date(b.date) - new Date(a.date));
                  renderCharacters(allCharacters);
                  applyUiLanguage();
@@ -1948,15 +2160,19 @@
                  
                  applyReadOnlyMode();  // ← 閱讀模式放這裡 ✔
                  
-                 setTimeout(() => {
-                 const seen = localStorage.getItem(PATCH_NOTE_KEY);
-                 
-                 if (!seen) {
-                 	togglePatchNote();   // 第一次 → 打開 + 載入
-                 	} else {
-                 	loadPatchNotes();    // 已看過 → 只載入（為了紅點）
-                 	}
-                 }, 500);
+                 setTimeout(async () => {
+         await loadPatchNotes();
+         
+         const seen = localStorage.getItem(PATCH_NOTE_KEY);
+         
+         if (seen !== patchNoteVersion) {
+         const panel = document.getElementById('patch-note-panel');
+         if (panel) panel.classList.remove('hidden');
+         
+         localStorage.setItem(PATCH_NOTE_KEY, patchNoteVersion);
+         updatePatchDot();
+         }
+         }, 500);
                  
                  const loadedFromUrl = loadFromUrl();
                  if (!loadedFromUrl) {
@@ -2104,6 +2320,163 @@
          function goHome() {
          window.location.href = window.location.origin + window.location.pathname;
          }
+         function openSkillModal(charId) {
+         if (currentView !== 'list') return;
+         
+         const char = allCharacters.find(c => getCharacterId(c) === charId);
+         if (!char) return;
+         const translation = TRANSLATION_DATA[String(char.id)] || {};
+         
+         const lang =
+         currentLang === 'zh' ? 'zh' :
+         currentLang === 'en' ? 'en' :
+         'jp';
+         
+         const modal = document.getElementById('skill-modal');
+         const body = document.getElementById('skill-modal-body');
+         
+         if (!modal || !body) return;
+         
+         const activeHtml =
+             char.active1
+                 ? renderSkillBox(
+                     'Active',
+                     char.active1,
+                     translation.active1 || {},
+                     lang
+                 )
+                 : '';
+
+         body.innerHTML = `
+         <h2>${char.name?.[currentLang] || char.name?.ja || ''}</h2>
+         
+         ${renderSkillBox(
+         'Skill 1',
+         char.skill1,
+         translation.skill1 || {},
+         lang
+         )}
+         
+         ${renderSkillBox(
+         'Skill 2',
+         char.skill2,
+         translation.skill2 || {},
+         lang
+         )}
+         
+         ${renderSkillBox(
+         'Burst',
+         char.burst,
+         translation.burst || {},
+         lang
+         )}
+         
+         ${activeHtml}
+	`;
+
+         modal.classList.remove('hidden');
+         }
+         
+         function closeSkillModal() {
+         document.getElementById('skill-modal')
+         ?.classList.add('hidden');
+         }
+         
+         function renderSkillBox(
+         title,
+         skillId,
+         skill,
+         lang
+         ) {
+         
+         const currentSkill = skill.awaken6 || skill.base || skill;
+         
+         if (!currentSkill || !currentSkill.name) {
+         return `
+         <div class="skill-box">
+            <div class="skill-title">
+                ${title}
+            </div>
+         
+            <div class="skill-desc">
+                No Data
+            </div>
+         </div>
+         `;
+         }
+         
+         const desc =
+         currentSkill[lang] ||
+         currentSkill.jp ||
+         '';
+         
+         return `
+         
+         <div class="skill-box">
+         
+         <div class="skill-title">
+         
+         <span>
+            ${title} - ${currentSkill.name}
+         </span>
+         
+         <div class="skill-stats">
+         
+         <span class="stat-power">
+         ${UI_TEXT[currentLang].power} 240%
+         </span>
+         
+         <span class="stat-break">
+         ${UI_TEXT[currentLang].bpower} 180%
+         </span>
+         
+         <span class="stat-heal">
+         ${UI_TEXT[currentLang].heal} 120%
+         </span>
+         
+         <span class="stat-wait">
+         ${UI_TEXT[currentLang].wait} 95
+         </span>
+         
+         </div>
+         
+         <div class="skill-switch">
+         
+            <button>
+                5★
+            </button>
+         
+            <button
+                class="${skill.awaken6 ? 'active' : ''}"
+                ${!skill.awaken6 ? 'disabled' : ''}
+            >
+                ${UI_TEXT[currentLang].awaken6}
+            </button>
+         
+         </div>
+         
+         </div>
+         
+         <div class="skill-desc">
+         ${desc}
+         </div>
+         
+         </div>
+         
+         `;
+         }
+         document.addEventListener('keydown', (e) => {
+           if (e.key === 'Escape') {
+             closeSkillModal();
+           }
+         });
       </script>
+      <div id="skill-modal" class="skill-modal hidden">
+         <div class="skill-modal-backdrop" onclick="closeSkillModal()"></div>
+         <div class="skill-modal-content">
+            <button class="skill-modal-close" onclick="closeSkillModal()">×</button>
+            <div id="skill-modal-body"></div>
+         </div>
+      </div>
    </body>
 </html>
