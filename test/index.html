@@ -1330,6 +1330,7 @@
          };
          
          let allCharacters = [];
+         let VALUE_DATA = {}
          let TRANSLATION_DATA = {};
          let activeAttrFilters = new Set();
          let activeRoleFilters = new Set();
@@ -1337,7 +1338,6 @@
          let currentLang = localStorage.getItem('lang') || 'zh';
          let currentView = localStorage.getItem('viewMode') || 'icon';
          let isReadOnlyMode = false;
-         
          
          function applyTheme() {
              document.body.classList.toggle('light', currentTheme === 'light');
@@ -2151,6 +2151,13 @@
          allCharacters =
          await charResponse.json();
          
+         const valueResponse =
+         await fetch('value.json', {
+         cache: 'no-store'
+         })
+         
+         VALUE_DATA =
+         await valueResponse.json()
          TRANSLATION_DATA =
          await translationResponse.json();
                  allCharacters.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -2346,7 +2353,7 @@
                      lang
                  )
                  : '';
-
+         
          body.innerHTML = `
          <h2>${char.name?.[currentLang] || char.name?.ja || ''}</h2>
          
@@ -2372,8 +2379,8 @@
          )}
          
          ${activeHtml}
-	`;
-
+         `;
+         
          modal.classList.remove('hidden');
          }
          
@@ -2389,6 +2396,8 @@
          lang
          ) {
          
+         const value = VALUE_DATA[String(skillId)];
+	console.log(skillId, value)
          const currentSkill = skill.awaken6 || skill.base || skill;
          
          if (!currentSkill || !currentSkill.name) {
@@ -2423,19 +2432,31 @@
          <div class="skill-stats">
          
          <span class="stat-power">
-         ${UI_TEXT[currentLang].power} 240%
+         ${
+         value?.power_type === 2
+         ? `${UI_TEXT[currentLang].power} ${value.power}%`
+         : '-'
+         }
          </span>
          
          <span class="stat-break">
-         ${UI_TEXT[currentLang].bpower} 180%
+         ${
+         value?.break_type === 2
+         ? `${UI_TEXT[currentLang].bpower} ${value.break_power}%`
+         : '-'
+         }
          </span>
          
          <span class="stat-heal">
-         ${UI_TEXT[currentLang].heal} 120%
+         ${
+         value?.power_type === 5
+         ? `${UI_TEXT[currentLang].heal} ${value.power}%`
+         : '-'
+         }
          </span>
          
          <span class="stat-wait">
-         ${UI_TEXT[currentLang].wait} 95
+         ${UI_TEXT[currentLang].wait} ${200 + (value?.wait ?? 0)}
          </span>
          
          </div>
