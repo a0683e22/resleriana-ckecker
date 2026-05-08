@@ -2321,7 +2321,7 @@
          window.location.href = window.location.origin + window.location.pathname;
          }
          function openSkillModal(charId) {
-         if (currentView !== 'list') return;
+         if (window.innerWidth <= 1024) return;
          
          const char = allCharacters.find(c => getCharacterId(c) === charId);
          if (!char) return;
