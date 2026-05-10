@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>角色持有清單</title>
-      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+      <link rel="icon" href="favicon.ico">
       <style>
          /* ===== Theme ===== */
          :root {
@@ -1926,15 +1926,17 @@
                              <span class="date-line">${escapeHtml(dateText)}</span>
                          </div>
                          ${image ? `
-                         <div class="char-image-wrapper">
-                             <img 
-                               class="char-image clickable" 
-                               src="${escapeHtml(image)}" 
-                               alt="${escapeHtml(name)}" 
-                               onclick="openSkillModal(${id})"
-                               onerror="this.parentElement.style.display='none'"
-                               >
-                         </div>
+                         <div
+         class="char-image-wrapper clickable"
+         onclick="openSkillModal(${id})"
+         >
+         <img 
+         class="char-image"
+         src="${escapeHtml(image)}" 
+         alt="${escapeHtml(name)}" 
+         onerror="this.parentElement.style.display='none'"
+         >
+         </div>
                          ` : ''}
                      </div>
                  `;
