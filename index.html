@@ -1183,7 +1183,8 @@
          .patch-content {
          white-space: pre-line;
          }
-         .clickable {
+         .clickable,
+         .char-select {
          cursor: pointer;
          }
       </style>
@@ -1918,13 +1919,29 @@
                              <input type="checkbox" id="c${id}" class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"${getCheckboxAttrs(id)}>
                          </div>
                          <div class="info">
-                             <label for="c${id}" class="main-line">
-                                 <span class="attr-tag tag-${escapeHtml(attr)}">${escapeHtml(attr)}</span>
-                                 ${roleIcon ? `<img class="role-icon" src="${roleIcon}" alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}" title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">` : ''}
-                                 ${escapeHtml(name)}
-                             </label>
-                             <span class="date-line">${escapeHtml(dateText)}</span>
-                         </div>
+         <div class="main-line">
+         <div class="char-select clickable" onclick="toggleCharacter(${id})">
+            <span class="attr-tag tag-${escapeHtml(attr)}">
+                ${escapeHtml(attr)}
+            </span>
+         
+            ${roleIcon ? `
+            <img
+              class="role-icon"
+              src="${roleIcon}"
+              alt="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}"
+              title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}"
+            >
+            ` : ''}
+         
+            ${escapeHtml(name)}
+         </div>
+         </div>
+         
+         <span class="date-line">
+         ${escapeHtml(dateText)}
+         </span>
+         </div>
                          ${image ? `
                          <div
          class="char-image-wrapper clickable"
@@ -2460,6 +2477,15 @@
          }
          
          init();
+         
+         function toggleCharacter(id) {
+         const cb = document.getElementById(`c${id}`);
+         
+         if (!cb || cb.disabled) return;
+         
+         cb.checked = !cb.checked;
+         cb.dispatchEvent(new Event('change'));
+         }
          /* ===== 閱讀模式 設定 ===== */
          function saveSharedList() {
          isReadOnlyMode = false;
