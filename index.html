@@ -1183,6 +1183,9 @@
          .patch-content {
          white-space: pre-line;
          }
+         .clickable {
+         cursor: pointer;
+         }
       </style>
    </head>
    <body>
@@ -1925,7 +1928,7 @@
                          ${image ? `
                          <div class="char-image-wrapper">
                              <img 
-                               class="char-image" 
+                               class="char-image clickable" 
                                src="${escapeHtml(image)}" 
                                alt="${escapeHtml(name)}" 
                                onclick="openSkillModal(${id})"
@@ -2500,11 +2503,11 @@
              if (labelMap[detail.type]) {
              return `<span class="patch-badge patch-${detail.type}">${labelMap[detail.type]}</span>
              ${escapeHtml(detail.content || '')
-    .replace(/\\n/g, '<br>')}`;
+         .replace(/\\n/g, '<br>')}`;
              }
              
              return escapeHtml(detail.content || '')
-    .replace(/\\n/g, '<br>');
+         .replace(/\\n/g, '<br>');
              }
          
          function togglePatchNote() {
