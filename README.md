@@ -18,6 +18,12 @@ https://a0683e22.github.io/resleriana-checker/
 
 Content updates will be added gradually alongside official releases.
 
+## Support
+
+If this project helps you, you can support future updates here:
+
+[PayPal](https://paypal.me/MoMoJStar)
+
 
 ## 中文說明
 
