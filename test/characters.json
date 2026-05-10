@@ -2911,7 +2911,7 @@
     "name": {
       "zh": "萊莎【One Summer Story】",
       "ja": "ライザ【One Summer Story】",
-      "en": "Ryza"
+      "en": "Ryza【One Summer Story】"
     },
     "date": "2023-09-23",
     "image": "",
@@ -3133,7 +3133,7 @@
     "date": "2023-09-23",
     "image": "",
     "職種": "破防者",
-    "skill1": null,
+    "skill1": 11000275,
     "skill2": 12000280,
     "burst": 14000285
   },

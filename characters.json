@@ -1656,6 +1656,9 @@
   {
     "id": 89,
     "base_character_id": 43204,
+    "ev_skill1": 11002955,
+    "ev_skill2": 12002960,
+    "ev_burst": 14002961,
     "attr": "雷",
     "name": {
       "zh": "瓦萊莉婭【Radiant Summer】",
@@ -1896,6 +1899,9 @@
   {
     "id": 74,
     "base_character_id": 25503,
+    "ev_skill1": 11003733,
+    "ev_skill2": 12003738,
+    "ev_burst": 14003739,
     "attr": "打",
     "name": {
       "zh": "蘿樂娜【Joyful Leader】",
@@ -1944,6 +1950,9 @@
   {
     "id": 71,
     "base_character_id": 39903,
+    "ev_skill1": 11002795,
+    "ev_skill2": 12002800,
+    "ev_burst": 14002801,
     "attr": "風",
     "name": {
       "zh": "萊莎【Blooming Energy】",
@@ -1960,6 +1969,9 @@
   {
     "id": 70,
     "base_character_id": 33402,
+    "ev_skill1": 11002836,
+    "ev_skill2": 12002841,
+    "ev_burst": 14002842,
     "attr": "突",
     "name": {
       "zh": "蘇菲【Mighty Boss】",
@@ -1976,6 +1988,9 @@
   {
     "id": 69,
     "base_character_id": 43104,
+    "ev_skill1": 11003775,
+    "ev_skill2": 12003780,
+    "ev_burst": 14003781,
     "attr": "風",
     "name": {
       "zh": "蕾斯娜【Loved Rookie】",
@@ -2072,6 +2087,9 @@
   {
     "id": 63,
     "base_character_id": 43203,
+    "ev_skill1": 14003672,
+    "ev_skill2": 14003677,
+    "ev_burst": 14003678,
     "attr": "打",
     "name": {
       "zh": "瓦萊莉婭【Warrior of Rose】",
@@ -2184,6 +2202,9 @@
   {
     "id": 56,
     "base_character_id": 32202,
+    "ev_skill1": 11003027,
+    "ev_skill2": 12003032,
+    "ev_burst": 14003033,
     "attr": "火",
     "name": {
       "zh": "夏莉絲堤菈【スクールメイデン】",
@@ -2200,6 +2221,9 @@
   {
     "id": 55,
     "base_character_id": 32301,
+    "ev_skill1": 11003038,
+    "ev_skill2": 12003043,
+    "ev_burst": 14003044,
     "attr": "打",
     "name": {
       "zh": "夏露羅蒂【ガールズアンビシャス】",
@@ -2296,6 +2320,9 @@
   {
     "id": 49,
     "base_character_id": 43103,
+    "ev_skill1": 14003330,
+    "ev_skill2": 14003335,
+    "ev_burst": 14003336,
     "attr": "冰",
     "name": {
       "zh": "蕾斯娜【Starry Heavens Gift】",
@@ -2328,6 +2355,9 @@
   {
     "id": 47,
     "base_character_id": 43801,
+    "ev_skill1": 11003112,
+    "ev_skill2": 12003117,
+    "ev_burst": 14003118,
     "attr": "雷",
     "name": {
       "zh": "伊札娜【Return of the Knight】",
@@ -2408,6 +2438,9 @@
   {
     "id": 42,
     "base_character_id": 29301,
+    "ev_skill1": 14003460,
+    "ev_skill2": 14003465,
+    "ev_burst": 14003466,
     "attr": "火",
     "name": {
       "zh": "薇爾貝兒【Magical Trick Star】",
@@ -2456,6 +2489,9 @@
   {
     "id": 39,
     "base_character_id": 33502,
+    "ev_skill1": 14003285,
+    "ev_skill2": 14003290,
+    "ev_burst": 14003291,
     "attr": "斬",
     "name": {
       "zh": "普拉芙妲【魅惑のヴァンパイア】",
@@ -2472,6 +2508,9 @@
   {
     "id": 38,
     "base_character_id": 28402,
+    "ev_skill1": 11002944,
+    "ev_skill2": 12002949,
+    "ev_burst": 14002950,
     "attr": "冰",
     "name": {
       "zh": "梅露露【Damsel in Distress】",
@@ -2488,6 +2527,9 @@
   {
     "id": 37,
     "base_character_id": 12001,
+    "ev_skill1": 11003136,
+    "ev_skill2": 12003141,
+    "ev_burst": 14003142,
     "attr": "風",
     "name": {
       "zh": "艾莉【チーズケーキの申し子】",
@@ -2760,6 +2802,9 @@
   {
     "id": 20,
     "base_character_id": 26901,
+    "ev_skill1": 14003503,
+    "ev_skill2": 14003508,
+    "ev_burst": 14003509,
     "attr": "冰",
     "name": {
       "zh": "托托莉【強き母に憧れる少女】",
@@ -2840,6 +2885,9 @@
   {
     "id": 15,
     "base_character_id": 43102,
+    "ev_skill1": 11002457,
+    "ev_skill2": 12002462,
+    "ev_burst": 14002463,
     "attr": "雷",
     "name": {
       "zh": "蕾斯娜【Innocent Dreamer】",
@@ -2856,6 +2904,9 @@
   {
     "id": 14,
     "base_character_id": 39901,
+    "ev_skill1": 11002446,
+    "ev_skill2": 12002451,
+    "ev_burst": 14002452,
     "attr": "火",
     "name": {
       "zh": "萊莎【One Summer Story】",
@@ -3016,6 +3067,9 @@
   {
     "id": 4,
     "base_character_id": 23501,
+    "ev_skill1": 14003448,
+    "ev_skill2": 14003453,
+    "ev_burst": 14003454,
     "attr": "斬",
     "name": {
       "zh": "羅傑【光の剣】",
@@ -3032,6 +3086,9 @@
   {
     "id": 3,
     "base_character_id": 15101,
+    "ev_skill1": 11003124,
+    "ev_skill2": 12003129,
+    "ev_burst": 14003130,
     "attr": "火",
     "name": {
       "zh": "優蒂【Hero of Tempest】",
@@ -3064,6 +3121,9 @@
   {
     "id": 1,
     "base_character_id": 10101,
+    "ev_skill1": 11002435,
+    "ev_skill2": 12002440,
+    "ev_burst": 14002441,
     "attr": "火",
     "name": {
       "zh": "瑪莉【Lovely Bomber】",
@@ -3073,7 +3133,7 @@
     "date": "2023-09-23",
     "image": "",
     "職種": "破防者",
-    "skill1": null,
+    "skill1": 11000275,
     "skill2": 12000280,
     "burst": 14000285
   },
@@ -3082,9 +3142,9 @@
     "base_character_id": 43101,
     "attr": "火",
     "name": {
-      "zh": "蕾斯娜【未來に夢を求めし者】",
-      "ja": "レスナ【未來に夢を求めし者】",
-      "en": "Resna【未來に夢を求めし者】"
+      "zh": "蕾斯娜【未来に夢を求めし者】",
+      "ja": "レスナ【未来に夢を求めし者】",
+      "en": "Resna【未来に夢を求めし者】"
     },
     "date": "2023-09-23",
     "image": "",

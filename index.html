@@ -972,6 +972,7 @@
          margin-top: 24px;
          padding: 20px 22px;
          border-radius: 20px;
+         animation: fadeIn 0.15s ease;
          background:
          linear-gradient(
          180deg,
@@ -984,8 +985,8 @@
          0 6px 24px rgba(0,0,0,0.28);
          backdrop-filter: blur(8px);
          }
-         .skill-box { box-shadow:
-         0 4px 18px rgba(0,0,0,0.28);
+         .skill-box { 
+         box-shadow: 0 4px 18px rgba(0,0,0,0.28);
          }
          /* ===== Skill Modal ===== */
          .skill-title {
@@ -1038,12 +1039,12 @@
          flex-shrink: 0;
          }
          .skill-switch button {
-         padding: 4px 12px;
+         padding: 6px 18px;
          border-radius: 999px;
-         border: 1px solid transparent;
-         background: transparent;
-         color: rgba(255,255,255,0.28);
-         font-size: 12px;
+         border: 1px solid rgba(255,255,255,0.12);
+         background: rgba(255,255,255,0.04);
+         color: rgba(255,255,255,0.68);
+         font-size: 13px;
          font-weight: 700;
          white-space: nowrap;
          transition: all 0.2s ease;
@@ -1086,6 +1087,101 @@
          }
          .stat-wait {
          color: rgba(255,255,255,0.72);
+         }
+         .skill-switch .btn-5star {
+         color: #ffd966;
+         }
+         .skill-switch .btn-6star {
+         color: #ff8df7;
+         }
+         .skill-title.awaken6 {
+         color: #ff8df7;
+         }
+         @keyframes fadeIn {
+         from {
+         opacity: 0;
+         transform: translateY(4px);
+         }
+         to {
+         opacity: 1;
+         transform: translateY(0);
+         }
+         }
+         .stat-icon {
+         width: 18px;
+         height: 18px;
+         vertical-align: middle;
+         margin-right: 4px;
+         }
+         .seg-switch {
+         position: relative;
+         width: 76px;          /* ⭐ 再縮一點統一 */
+         height: 22px;
+         border-radius: 999px;
+         overflow: hidden;   /* ⭐⭐ 關鍵：防止跑出去 */
+         background: var(--bg-panel);
+         border: 1px solid var(--border);
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 0 8px;
+         box-sizing: border-box;
+         cursor: pointer;
+         user-select: none;
+         flex-shrink: 0;       /* ⭐ 防止被擠變形 */
+         }
+         .seg-option {
+         font-size: 10px;
+         font-weight: 700;
+         z-index: 2;
+         line-height: 1;
+         }
+         /* knob 縮小 */
+         .seg-knob {
+         position: absolute;
+         width: 34px;
+         height: 18px;
+         top: 2px;
+         left: 2px;
+         border-radius: 999px;
+         background: var(--primary);
+         transition: all 0.2s ease;
+         z-index: 1;
+         pointer-events: none;
+         }
+         /* 右側 */
+         /* 用 transform，不要用 left（重點） */
+         .seg-switch.active .seg-knob {
+         transform: translateX(40px);
+         }
+         /* ===== ACTIVE RIGHT STATE ===== */
+         .seg-switch.active .seg-option.right {
+         color: white;
+         }
+         .seg-switch:not(.active) .seg-option.left {
+         color: white;
+         }
+         .filter-title {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         }
+         .filter-title-row {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         gap: 8px;
+         }
+         .seg-switch.push-right {
+         margin-left: auto;
+         }
+         .filter-panel {
+         display: flex;
+         align-items: center;
+         gap: 6px;
+         }
+         .patch-content {
+         white-space: pre-line;
          }
       </style>
    </head>
@@ -1149,7 +1245,14 @@
                   <span class="btn-label">Reset 表格</span>
                   </button>
                </div>
-               <div class="filter-title" data-i18n="attrFilter"></div>
+               <div class="filter-title-row">
+                  <div class="filter-title" data-i18n="attrFilter"></div>
+                  <div class="seg-switch" id="sixstar-switch">
+                     <div class="seg-knob"></div>
+                     <div class="seg-option left">ALL</div>
+                     <div class="seg-option right">6★</div>
+                  </div>
+               </div>
                <div class="filter-panel" aria-label="屬性篩選">
                   <button type="button" class="filter-btn attr-btn" data-attr-filter="火" title="火" aria-label="火">
                   <img src="images/attr/f.1dbf47.png" alt="火">
@@ -1172,6 +1275,11 @@
                   <button type="button" class="filter-btn attr-btn" data-attr-filter="突" title="突" aria-label="突">
                   <img src="images/attr/t.ac73b3.png" alt="突">
                   </button>
+                  <div class="seg-switch push-right" id="owned-switch">
+                     <div class="seg-knob"></div>
+                     <div class="seg-option left">ALL</div>
+                     <div class="seg-option right" data-i18n="owned">持有</div>
+                  </div>
                </div>
                <div class="filter-title" data-i18n="roleFilter"></div>
                <div class="filter-panel role-filter-panel" aria-label="職種篩選">
@@ -1230,7 +1338,7 @@
          const ROLE_FILTER_STORAGE_KEY = 'resleri_character_role_filters_v1';
          const DATA_FILE = 'characters.json';
          const TRANSLATION_FILE = 'translation.json'
-         const BASE_CHARS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ~_';
+         const BASE_CHARS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_';
          const FIXED_CHARACTER_IDS = new Set(['0', '23']);
          
          const ROLE_ALIASES = {
@@ -1285,7 +1393,8 @@
                  power: '威力',
                  bpower: '破防',
                  heal: '回復',
-                 wait: 'Wait'
+                 wait: 'Wait',
+         owned: '持有'
              },
              ja: {
                  title: '所持キャラ一覧',
@@ -1305,7 +1414,8 @@
                  power: '威力',
                  bpower: 'ブレイク',
                  heal: '回復',
-                 wait: 'Wait'
+                 wait: 'Wait',
+         owned: '所持',
              },
              en: {
                  title: 'Character Checklist',
@@ -1325,20 +1435,26 @@
                  power: 'Power',
                  bpower: 'B.Power',
                  heal: 'Heal',
-                 wait: 'Wait'
+                 wait: 'Wait',
+         owned: 'Owned',
                   }
          };
          
          let allCharacters = [];
+         let VALUE_DATA = {}
          let TRANSLATION_DATA = {};
          let activeAttrFilters = new Set();
          let activeRoleFilters = new Set();
          let currentTheme = localStorage.getItem('theme') || 'dark';
          let currentLang = localStorage.getItem('lang') || 'zh';
          let currentView = localStorage.getItem('viewMode') || 'icon';
+         document.body.setAttribute(
+         'data-view',
+         currentView
+         );
          let isReadOnlyMode = false;
-         
-         
+         let showSixStarOnly = false;
+         let showOwnedOnly = false;
          function applyTheme() {
              document.body.classList.toggle('light', currentTheme === 'light');
              const btn = document.getElementById('theme-toggle');
@@ -1425,29 +1541,29 @@
          
          function bindCheckboxEvents() {
          getNormalCheckboxes().forEach(cb => {
-         cb.addEventListener('change', (e) => {
+         cb.onchange = (e) => {
          
             if (isReadOnlyMode) {
                 cb.checked = !cb.checked; // 還原
                 return;
             }
          
+            syncOwnedState();
             syncShareUrl();
-         });
+         };
          });
          }
          
          function rerenderCharactersKeepChecked() {
-             const checkedIds = getCheckedIds();
-             renderCharacters(allCharacters);
-             applyUiLanguage();
-             setCheckedIds(checkedIds);
-             bindCheckboxEvents();
-             setupCardClickEvents();
-             syncOwnedState();   
-             setupTableSelectAll();
-             applyFilters();
-             syncShareUrl();
+         const checkedIds = JSON.parse(localStorage.getItem('checkedIds') || '[]');
+         renderCharacters(allCharacters);
+         applyUiLanguage();
+         setCheckedIds(checkedIds);
+         syncOwnedState();
+         bindCheckboxEvents();
+         setupCardClickEvents();
+         setupTableSelectAll();
+         applyFilters();
          }
          
          
@@ -1456,7 +1572,7 @@
                  btn.addEventListener('click', () => {
                      const mode = btn.dataset.viewMode;
                      if (!mode || mode === currentView) return;
-                     const checkedIds = getCheckedIds();
+                     const checkedIds = JSON.parse(localStorage.getItem('checkedIds') || '[]');
                      currentView = mode;
                      document.body.setAttribute("data-view", currentView);
                      localStorage.setItem('viewMode', currentView);
@@ -1468,7 +1584,6 @@
                      setupCardClickEvents();
                      setupTableSelectAll();
                      applyFilters();
-                     syncShareUrl();
                      updateViewButtons();
                  });
              });
@@ -1602,6 +1717,10 @@
          
          function syncShareUrl() {
          const finalUrl = getShareUrl();
+         localStorage.setItem(
+         'checkedIds',
+         JSON.stringify(getCheckedIds())
+         );
          document.getElementById('result-url').innerText = finalUrl;
          
          // 只更新畫面上的分享網址，不再改瀏覽器真實網址。
@@ -1742,8 +1861,34 @@
              });
          }
          
+         
          function renderCharacters(characters) {
-             if (currentView === 'icon') {
+         // ✅ ⭐ NEW：先過濾
+         if (showSixStarOnly) {
+         characters = characters.filter(isSixStar);
+         }
+         
+         if (showOwnedOnly) {
+         
+         const checkedIds = new Set(
+         JSON.parse(
+            localStorage.getItem('checkedIds') || '[]'
+         )
+         );
+         
+         characters = characters.filter(c => {
+         
+         const id = String(getCharacterId(c));
+         
+         return (
+            checkedIds.has(id) ||
+            isFixedCharacterId(id)
+         );
+         
+         });
+         }
+         
+         if (currentView === 'icon') {
                  renderCharactersIcon(characters);
              } else if (currentView === 'table') {
                  renderCharactersTable(characters);
@@ -1827,10 +1972,9 @@
                          title="${escapeHtml(name)}｜${escapeHtml(dateText)}">
          
                         <input type="checkbox"
-                               id="c${id}"
-                               class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"
-                               ${getCheckboxAttrs(id)}
-                               onchange="this.closest('.icon-card')?.classList.toggle('owned', this.checked)">
+         id="c${id}"
+         class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"
+         ${getCheckboxAttrs(id)}>
          
                         <img class="icon-card-image"
                              src="${escapeHtml(image)}"
@@ -1963,235 +2107,354 @@
          }
          
          function setCheckedIds(ids) {
-             const idSet = new Set(ids.map(String));
-             document.querySelectorAll('.char-cb').forEach(cb => {
-                 const id = cb.id.replace('c', '');
-                 if (isFixedCharacterId(id)) {
-                     cb.checked = true;
-                     cb.disabled = true;
-                 } else {
-                     cb.checked = idSet.has(id);
-                 }
-             });
+         const idSet = new Set((ids || []).map(String));
+         
+         getNormalCheckboxes().forEach(cb => {
+         const id = cb.id.replace('c', '');
+         cb.checked = idSet.has(id);
+         });
+         
+         syncOwnedState();
          }
          
          function saveToLocalStorage() {
-             localStorage.setItem(STORAGE_KEY, JSON.stringify(getCheckedIds()));
+         localStorage.setItem(STORAGE_KEY, JSON.stringify(getCheckedIds()));
          }
          
          function loadFromLocalStorage() {
-             const saved = localStorage.getItem(STORAGE_KEY);
-             if (!saved) return false;
-             try {
-                 const ids = JSON.parse(saved);
-                 if (!Array.isArray(ids)) return false;
-                 setCheckedIds(ids);
-                 return true;
-             } catch (error) {
-                 console.warn('讀取本機儲存失敗，已忽略舊資料。', error);
-                 return false;
-             }
+         try {
+         const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+         if (Array.isArray(saved)) {
+            setCheckedIds(saved);
+         }
+         } catch (error) {
+         console.error(error);
+         }
          }
          
-         function bigIntToBaseX(value) {
-         if (value === 0n) return '0';
+         function copyUrl() {
+         const url = syncShareUrl();
          
-         let result = '';
-         let n = value;
-         const base = BigInt(BASE_CHARS.length);
+         navigator.clipboard.writeText(url).then(() => {
+         const btn = document.getElementById('copy-btn');
+         if (!btn) return;
          
-         while (n > 0n) {
-         const index = Number(n % base);
-         result = BASE_CHARS[index] + result;
-         n = n / base;
-         }
+         const old = btn.innerHTML;
+         btn.innerHTML = '✔';
          
-         return result;
-         }
-         
-         function parseBaseXToBigInt(value) {
-         let result = 0n;
-         const base = BigInt(BASE_CHARS.length);
-         
-         for (const ch of String(value)) {
-         const digit = BASE_CHARS.indexOf(ch);
-         if (digit < 0) throw new Error('Invalid key');
-         result = result * base + BigInt(digit);
-         }
-         
-         return result;
-         }
-         
-         function encodeIdsToKey(ids) {
-         let bits = 0n;
-         ids.forEach(id => {
-         const n = BigInt(Number(id));
-         if (n >= 0n) bits |= (1n << n);
+         setTimeout(() => {
+            btn.innerHTML = old;
+         }, 1200);
          });
-         return bigIntToBaseX(bits);
-         }
-         
-         function decodeKeyToIds(key) {
-         if (!key || key === '0') return [];
-         const bits = parseBaseXToBigInt(key);
-         const maxId = Math.max(0, ...getNormalCheckboxes().map(cb => Number(cb.id.replace('c', ''))));
-         const ids = [];
-         for (let i = 0; i <= maxId; i++) {
-         if ((bits & (1n << BigInt(i))) !== 0n) ids.push(String(i));
-         }
-         return ids;
          }
          
          function resetTable() {
-             if (confirm('確定要重置所有勾選嗎？')) {
-                 setCheckedIds([]);
-                 syncOwnedState(); 
-                 updateTableSelectAllState();
-                 localStorage.removeItem(STORAGE_KEY);
-                 syncShareUrl();
-             }
+         if (isReadOnlyMode) return;
+         
+         getNormalCheckboxes().forEach(cb => {
+         cb.checked = false;
+         });
+         
+         syncOwnedState();
+         updateTableSelectAllState();
+         syncShareUrl();
          }
+         
          function clearAllFilters() {
-             if (!confirm('確定要清除所有篩選嗎？')) return;
-             activeAttrFilters.clear();
-             activeRoleFilters.clear();
-             saveFilterState();
-             applyFilters();
-         }
-         async function copyUrl() {
-         const btn = document.getElementById('copy-btn');
+         activeAttrFilters.clear();
+         activeRoleFilters.clear();
          
-         const urlText = getShareUrl();
-         document.getElementById('result-url').innerText = urlText;
-         saveToLocalStorage();
+         saveFilterState();
+         applyFilters();
+         }
+         
+         function encodeIdsToKey(ids) {
+         
+         const nums = ids
+         .map(v => Number(v))
+         .filter(v => Number.isInteger(v) && v >= 0);
+         
+         if (!nums.length) return '';
+         
+         const maxId = Math.max(...nums);
+         
+         const bits = new Array(maxId + 1).fill(0);
+         
+         nums.forEach(id => {
+         bits[id] = 1;
+         });
+         
+         let binary = '';
+         
+         for (let i = 0; i < bits.length; i += 8) {
+         
+         let byte = 0;
+         
+         for (let b = 0; b < 8; b++) {
+         
+            if (bits[i + b]) {
+                byte |= (1 << b);
+            }
+         
+         }
+         
+         binary += String.fromCharCode(byte);
+         }
+         
+         return btoa(binary)
+         .replace(/\+/g, '-')
+         .replace(/\//g, '_')
+         .replace(/=+$/, '');
+         }
+         
+         function decodeKeyToIds(key) {
+         
+         if (!key) return [];
          
          try {
-         await navigator.clipboard.writeText(urlText);
          
-         // ✅ 成功 → 變勾勾
-         btn.innerHTML = "✔";
-         btn.style.backgroundColor = "#22c55e";
+         key = key
+            .replace(/-/g, '+')
+            .replace(/_/g, '/');
          
-         setTimeout(() => {
-            btn.innerHTML = `<img src="images/ui/copy.png" alt="${(UI_TEXT[currentLang] || UI_TEXT.zh).copy}">`;
-            btn.title = (UI_TEXT[currentLang] || UI_TEXT.zh).copy;
-            btn.style.backgroundColor = "";
-         }, 1000);
-         
-         } catch (error) {
-         prompt('瀏覽器無法自動複製，請手動複製：', urlText);
-         }
+         while (key.length % 4) {
+            key += '=';
          }
          
-         function loadFromUrl() {
-         const params = new URLSearchParams(window.location.search);
-         const key = params.get('k');
-         const legacyChars = params.get('chars');
+         const binary = atob(key);
          
-         if (key !== null) {
-         isReadOnlyMode = true;
+         const result = [];
+         
+         for (let i = 0; i < binary.length; i++) {
+         
+            const byte = binary.charCodeAt(i);
+         
+            for (let b = 0; b < 8; b++) {
+         
+                if (byte & (1 << b)) {
+                    result.push(i * 8 + b);
+                }
+         
+            }
+         
+         }
+         
+         return result.map(String);
+         
+         } catch {
+         
+         return [];
+         
+         }
+         
+         }
+         
+         function goHome() {
+         window.location.href = window.location.pathname;
+         }
+         
+         async function loadTranslationFile() {
          
          try {
-            const ids = decodeKeyToIds(key);
-            setCheckedIds(ids);
-            syncShareUrl();
-            return true;
+         
+         const response =
+            await fetch(TRANSLATION_FILE)
+         
+         TRANSLATION_DATA =
+            await response.json()
+         
+         const valueResponse =
+            await fetch(`value.json?v=${Date.now()}`)
+         
+         VALUE_DATA =
+            await valueResponse.json()
+         
          } catch (error) {
-            console.warn('網址短碼解析失敗，已改用本機記錄。', error);
-            return false;
+         
+         console.error(
+            'translation.json load failed',
+            error
+         )
          }
          }
          
-         if (legacyChars !== null) {
-         const ids = legacyChars.split(',').map(id => id.trim()).filter(Boolean);
+         async function loadCharacters() {
+         try {
+         const response = await fetch(DATA_FILE);
+         const data = await response.json();
          
-         setCheckedIds(ids);
-         saveToLocalStorage();
+         allCharacters = Array.isArray(data) ? data : [];
+         
+         renderCharacters(allCharacters);
+         
+         applyUiLanguage();
+         
+         loadFromLocalStorage();
+         
+         bindCheckboxEvents();
+         
+         setupCardClickEvents();
+         
+         syncOwnedState();
+         
+         setupTableSelectAll();
+         
+         applyFilters();
+         
          syncShareUrl();
          
-         return true;
+         } catch (error) {
+         console.error(error);
+         
+         document.getElementById('dynamic-list').innerHTML = `
+            <div class="error">角色資料讀取失敗</div>
+         `;
+         }
          }
          
-         return false;
+         function togglePatchNote() {
+         const panel = document.getElementById('patch-note-panel');
+         
+         if (!panel) return;
+         
+         panel.classList.toggle('hidden');
+         }
+         
+         function discardSharedList() {
+         isReadOnlyMode = false;
+         
+         applyReadOnlyMode();
+         
+         const url = new URL(window.location.href);
+         url.searchParams.delete('k');
+         
+         history.replaceState({}, '', url.pathname);
+         }
+         
+         function saveSharedList() {
+         isReadOnlyMode = false;
+         
+         applyReadOnlyMode();
+         
+         syncShareUrl();
+         }
+         
+         function renderSkillBox(title, desc, stats = {}) {
+         const ui = UI_TEXT[currentLang] || UI_TEXT.zh;
+         
+         return `
+         <div class="skill-box">
+            <div class="skill-title">
+                <strong>${escapeHtml(title || '')}</strong>
+         
+                <div class="skill-stats">
+                    ${stats.power !== undefined ? `<span class="stat-power">${ui.power} ${escapeHtml(stats.power)}</span>` : ''}
+                    ${stats.break_power !== undefined ? `<span class="stat-break">${ui.bpower} ${escapeHtml(stats.break_power)}</span>` : ''}
+                    ${stats.heal !== undefined ? `<span class="stat-heal">${ui.heal} ${escapeHtml(stats.heal)}</span>` : ''}
+                    ${stats.wait !== undefined ? `<span class="stat-wait">${ui.wait} ${escapeHtml(stats.wait)}</span>` : ''}
+                </div>
+            </div>
+         
+            <div class="skill-desc">
+                ${escapeHtml(desc || '')}
+            </div>
+         </div>
+         `;
+         }
+         
+         function openSkillModal(characterId) {
+         const char = allCharacters.find(c => String(getCharacterId(c)) === String(characterId));
+         
+         if (!char) return;
+         
+         let modal = document.getElementById('skill-modal');
+         
+         if (!modal) {
+         modal = document.createElement('div');
+         
+         modal.id = 'skill-modal';
+         modal.className = 'skill-modal';
+         
+         document.body.appendChild(modal);
+         }
+         
+         const name = getCharacterName(char);
+         
+         modal.innerHTML = `
+         <div class="skill-modal-backdrop" onclick="closeSkillModal()"></div>
+         
+         <div class="skill-modal-content">
+            <button class="skill-modal-close" onclick="closeSkillModal()">×</button>
+         
+            <div class="skill-header">
+                <div class="skill-name">${escapeHtml(name)}</div>
+            </div>
+         
+            ${renderSkillBox(
+                'Skill 1',
+         translation.skill1,
+                translation.ev_skill1,
+         currentLang
+            )}
+         
+            ${renderSkillBox(
+                'Skill 2',
+         translation.skill2,
+                translation.ev_skill2,
+         currentLang
+            )}
+         
+            ${renderSkillBox(
+                'Burst',
+         translation.burst,
+                translation.ev_burst,
+         currentLang
+            )}
+         </div>
+         `;
+         
+         modal.classList.remove('hidden');
+         }
+         
+         function closeSkillModal() {
+         const modal = document.getElementById('skill-modal');
+         
+         if (!modal) return;
+         
+         modal.classList.add('hidden');
          }
          
          async function init() {
-             applyTheme();
-             setupLanguageSelect();
-             applyUiLanguage();
-             setupViewButtons();
-             document.body.setAttribute("data-view", currentView);
-             setupFilterButtons();
-             loadFilterState();
-             updateFilterButtons();
-             try {
-                 const [charResponse, translationResponse] =
-         await Promise.all([
+         loadFilterState();
          
-         fetch(DATA_FILE, {
-            cache: 'no-store'
-         }),
+         applyTheme();
          
-         fetch(TRANSLATION_FILE, {
-            cache: 'no-store'
-         })
+         setupLanguageSelect();
          
-         ]);
+         setupViewButtons();
          
-         if (!charResponse.ok)
-         throw new Error(
-         `HTTP ${charResponse.status}`
-         );
+         setupFilterButtons();
          
-         if (!translationResponse.ok)
-         throw new Error(
-         `HTTP ${translationResponse.status}`
-         );
+         const url = new URL(window.location.href);
+         const key = url.searchParams.get('k');
          
-         allCharacters =
-         await charResponse.json();
+         if (key) {
+         const ids = decodeKeyToIds(key);
          
-         TRANSLATION_DATA =
-         await translationResponse.json();
-                 allCharacters.sort((a, b) => new Date(b.date) - new Date(a.date));
-                 renderCharacters(allCharacters);
-                 applyUiLanguage();
-                 applyFilters();
-                 
-                 applyReadOnlyMode();  // ← 閱讀模式放這裡 ✔
-                 
-                 setTimeout(async () => {
-         await loadPatchNotes();
+         isReadOnlyMode = true;
          
-         const seen = localStorage.getItem(PATCH_NOTE_KEY);
-         
-         if (seen !== patchNoteVersion) {
-         const panel = document.getElementById('patch-note-panel');
-         if (panel) panel.classList.remove('hidden');
-         
-         localStorage.setItem(PATCH_NOTE_KEY, patchNoteVersion);
-         updatePatchDot();
-         }
-         }, 500);
-                 
-                 const loadedFromUrl = loadFromUrl();
-                 if (!loadedFromUrl) {
-                     loadFromLocalStorage();
-                     syncShareUrl();
-                 }
-                 syncOwnedState();
-         applyReadOnlyMode();
-                 bindCheckboxEvents();
-                 setupCardClickEvents();
-                 setupTableSelectAll();
-             } catch (error) {
-                 console.error(error);
-                 document.getElementById('dynamic-list').innerHTML = '<div class="error">讀取 characters.json 失敗，請確認 index.html 和 characters.json 放在同一個資料夾。</div>';
-                 document.getElementById('result-url').innerText = '資料讀取失敗';
-             }
+         setTimeout(() => {
+            setCheckedIds(ids);
+            applyReadOnlyMode();
+         }, 50);
          }
          
-         document.addEventListener('DOMContentLoaded', init);
+         await loadTranslationFile();
+         
+         await loadCharacters();
+         }
+         
+         init();
          /* ===== 閱讀模式 設定 ===== */
          function saveSharedList() {
          isReadOnlyMode = false;
@@ -2236,10 +2499,12 @@
              
              if (labelMap[detail.type]) {
              return `<span class="patch-badge patch-${detail.type}">${labelMap[detail.type]}</span>
-             ${escapeHtml(detail.content || '')}`;
+             ${escapeHtml(detail.content || '')
+    .replace(/\\n/g, '<br>')}`;
              }
              
-             return escapeHtml(detail.content || '');
+             return escapeHtml(detail.content || '')
+    .replace(/\\n/g, '<br>');
              }
          
          function togglePatchNote() {
@@ -2320,12 +2585,16 @@
          function goHome() {
          window.location.href = window.location.origin + window.location.pathname;
          }
-         function openSkillModal(charId) {
+         function openSkillModal(charId, forceAwaken6 = null) {
          if (window.innerWidth <= 1024) return;
          
-         const char = allCharacters.find(c => getCharacterId(c) === charId);
-         if (!char) return;
-         const translation = TRANSLATION_DATA[String(char.id)] || {};
+         const char =
+         allCharacters.find(c => getCharacterId(c) === charId)
+         if (!char) return
+         
+         const translation = TRANSLATION_DATA[String(char.id)] || {}
+         const hasAwaken6 = translation.ev_skill1?.skill_id || translation.ev_skill2?.skill_id || translation.ev_burst?.skill_id
+         let isAwaken6 = forceAwaken6 ?? !!hasAwaken6
          
          const lang =
          currentLang === 'zh' ? 'zh' :
@@ -2346,34 +2615,64 @@
                      lang
                  )
                  : '';
-
+         
          body.innerHTML = `
-         <h2>${char.name?.[currentLang] || char.name?.ja || ''}</h2>
+         <div class="skill-header">
+         
+         <div class="skill-name">
+            ${char.name?.[currentLang] || char.name?.ja || ''}
+         </div>
+         
+         <div class="skill-switch">
+            <button
+         class="toggle-5star btn-5star ${!isAwaken6 ? 'active' : ''}"
+         >
+         5★
+         </button>
+         
+         <button
+         class="toggle-6star btn-6star ${isAwaken6 ? 'active' : ''}"
+         ${!hasAwaken6 ? 'disabled' : ''}
+         >
+         ${UI_TEXT[currentLang].awaken6}
+         </button>
+         </div>
+         
+         </div>
          
          ${renderSkillBox(
          'Skill 1',
-         char.skill1,
-         translation.skill1 || {},
-         lang
+         translation.skill1,
+         translation.ev_skill1,
+         currentLang,
+         isAwaken6
          )}
          
          ${renderSkillBox(
          'Skill 2',
-         char.skill2,
-         translation.skill2 || {},
-         lang
+         translation.skill2,
+         translation.ev_skill2,
+         currentLang,
+         isAwaken6
          )}
          
          ${renderSkillBox(
          'Burst',
-         char.burst,
-         translation.burst || {},
-         lang
+         translation.burst,
+         translation.ev_burst,
+         currentLang,
+         isAwaken6
          )}
-         
-         ${activeHtml}
-	`;
-
+         `
+         body.querySelector('.toggle-5star')
+         ?.addEventListener('click', () => {
+         openSkillModal(charId, false)
+         })
+         body.querySelector('.toggle-6star')
+         ?.addEventListener('click', () => {
+         if (!hasAwaken6) return
+         openSkillModal(charId, true)
+         })
          modal.classList.remove('hidden');
          }
          
@@ -2384,12 +2683,22 @@
          
          function renderSkillBox(
          title,
-         skillId,
-         skill,
-         lang
+         baseSkill,
+         evSkill,
+         lang,
+         isAwaken6
          ) {
          
-         const currentSkill = skill.awaken6 || skill.base || skill;
+         const currentSkill =
+         isAwaken6 && evSkill
+            ? evSkill
+            : baseSkill
+         
+         const currentSkillId =
+         currentSkill?.skill_id
+         
+         const value = VALUE_DATA[String(currentSkillId)]
+         const stats = value || {}
          
          if (!currentSkill || !currentSkill.name) {
          return `
@@ -2405,10 +2714,21 @@
          `;
          }
          
-         const desc =
+         let desc =
          currentSkill[lang] ||
          currentSkill.jp ||
-         '';
+         ''
+         
+         ;(value?.effects || []).forEach((effect, index) => {
+         
+         const num =
+         effect.value / 100
+         
+         desc = desc.replaceAll(
+         `{${index}}`,
+         num
+         )
+         })
          
          return `
          
@@ -2421,40 +2741,12 @@
          </span>
          
          <div class="skill-stats">
-         
-         <span class="stat-power">
-         ${UI_TEXT[currentLang].power} 240%
-         </span>
-         
-         <span class="stat-break">
-         ${UI_TEXT[currentLang].bpower} 180%
-         </span>
-         
-         <span class="stat-heal">
-         ${UI_TEXT[currentLang].heal} 120%
-         </span>
-         
-         <span class="stat-wait">
-         ${UI_TEXT[currentLang].wait} 95
-         </span>
+         <span class="stat-power"><img src="images/ui/power.png" class="stat-icon" title="${UI_TEXT[currentLang].power}">${value?.power_type !== 5 && value?.power > 0? `${value.power}%`: '-'}</span>
+         <span class="stat-break"><img src="images/ui/bpower.png" class="stat-icon" title="${UI_TEXT[currentLang].bpower}">${value?.break_power > 0? `${value.break_power}%`: '-'}</span>
+         <span class="stat-heal"><img src="images/ui/heal.png" class="stat-icon" title="${UI_TEXT[currentLang].heal}">${value?.power_type === 5? `${value.power}%`: '-'}</span>
+         <span class="stat-wait"><img src="images/ui/wait.png" class="stat-icon" title="${UI_TEXT[currentLang].wait}">${200 + (value?.wait ?? 0)}</span>
          
          </div>
-         
-         <div class="skill-switch">
-         
-            <button>
-                5★
-            </button>
-         
-            <button
-                class="${skill.awaken6 ? 'active' : ''}"
-                ${!skill.awaken6 ? 'disabled' : ''}
-            >
-                ${UI_TEXT[currentLang].awaken6}
-            </button>
-         
-         </div>
-         
          </div>
          
          <div class="skill-desc">
@@ -2469,6 +2761,36 @@
            if (e.key === 'Escape') {
              closeSkillModal();
            }
+         });
+         function isSixStar(c) {
+         return ['ev_skill1', 'ev_skill2', 'ev_burst']
+         .some(k => typeof c[k] === 'number');
+         }
+         /* ===== 6★ 切換 ===== */
+         window.addEventListener('DOMContentLoaded', () => {
+         
+         const sixStar = document.getElementById('sixstar-switch');
+         const owned = document.getElementById('owned-switch');
+         
+         
+         sixStar.addEventListener('click', () => {
+         showSixStarOnly = !showSixStarOnly;
+         
+         sixStar.classList.toggle('active', showSixStarOnly);
+         
+         
+         rerenderCharactersKeepChecked();
+         });
+         
+         owned.addEventListener('click', () => {
+         showOwnedOnly = !showOwnedOnly;
+         
+         owned.classList.toggle('active', showOwnedOnly);
+         
+         
+         rerenderCharactersKeepChecked();
+         });
+         
          });
       </script>
       <div id="skill-modal" class="skill-modal hidden">
