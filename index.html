@@ -1945,7 +1945,7 @@
                          ${image ? `
                          <div
          class="char-image-wrapper clickable"
-         onclick="openSkillModal(${id})"
+         onclick="event.stopPropagation(); openSkillModal(${id})"
          >
          <img 
          class="char-image"
