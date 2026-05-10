@@ -165,7 +165,7 @@
          input[type="checkbox"] { width: 22px; height: 22px; cursor: pointer; }
          input[type="checkbox"]:disabled { cursor: not-allowed; }
          /* ===== List View ===== */
-         .info { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+         .info { display: flex; flex-direction: column; gap: 4px; min-width: 0; flex: 1; }
          .main-line { display: flex; align-items: center; font-size: 1.05rem; font-weight: 600; cursor: pointer; line-height: 1.35; }
          .fixed .main-line { cursor: default; }
          .fixed {
@@ -712,6 +712,8 @@
          }
          /* ===== List View ===== */
          .char-image-wrapper {
+	 position: relative;
+	 z-index: 5;
          margin-left: auto;
          flex-shrink: 0;
          padding-left: 12px;
