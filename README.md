@@ -1,20 +1,35 @@
 # Resleriana Character Checker
 
-這個專案是我依照興趣製作的角色持有清單網站。
+
 
 Website:
 https://a0683e22.github.io/resleriana-checker/
 
 ## Features
 
-- Grid / Table / List View (圖示/表格/列表 三種模式)
-- 6★ Filter (6★篩選)
-- Owned Filter (持有篩選)
-- Shareable URL State (可以分享持有連結方便他人檢閱)
-- CHT / JP / EN Skill Information (技能資訊支援中文/日文/英文)
+- Grid / Table / List View
+- 6★ Filter
+- Owned Filter
+- Shareable URL State
+- CHT / JP / EN Skill Information
 
 
 ## Notes
 
 Content updates will be added gradually alongside official releases.
-目前更新會跟隨官方進度逐步追加。
+
+
+==================== 以下是簡單中文翻譯 ====================
+
+這個專案是我依照興趣製作的角色持有清單網站。
+
+網頁：
+https://a0683e22.github.io/resleriana-checker/
+
+## 功能
+
+- 圖示 / 表格 / 列表 模式
+- 支援6★篩選
+- 支援持有篩選
+- 可以分享網址方便他人預覽
+- 技能資訊包含 中文 / 日文 / 英文 三種語系，全部重新翻譯
