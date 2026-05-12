@@ -11073,7 +11073,7 @@
     "power": 280,
     "break_power": 313,
     "break_type": 2,
-    "wait": 0,
+    "wait": -200,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -11926,7 +11926,7 @@
     "power": 137,
     "break_power": 13,
     "break_type": 2,
-    "wait": 0,
+    "wait": -200,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -13047,7 +13047,7 @@
     "power": 240,
     "break_power": 31,
     "break_type": 2,
-    "wait": 0,
+    "wait": -200,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -14630,7 +14630,7 @@
     "power": 388,
     "break_power": 29,
     "break_type": 2,
-    "wait": 0,
+    "wait": -200,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -14833,7 +14833,7 @@
     "power": 90,
     "break_power": 300,
     "break_type": 2,
-    "wait": 0,
+    "wait": -200,
     "limit_count": null,
     "require_command": false,
     "effects": [
