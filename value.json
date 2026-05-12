@@ -6837,6 +6837,111 @@
       }
     ]
   },
+  "14000816": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 58,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001038,
+        "value": 1500
+      },
+      {
+        "id": 91000926,
+        "value": 1500
+      }
+    ]
+  },
+  "14000817": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 61,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001038,
+        "value": 1500
+      },
+      {
+        "id": 91000926,
+        "value": 1500
+      }
+    ]
+  },
+  "14000818": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 65,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001038,
+        "value": 1500
+      },
+      {
+        "id": 91000926,
+        "value": 1500
+      }
+    ]
+  },
+  "14000819": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 68,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001038,
+        "value": 1500
+      },
+      {
+        "id": 91000926,
+        "value": 1500
+      }
+    ]
+  },
+  "14000820": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 72,
+    "break_power": 7,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001038,
+        "value": 1500
+      },
+      {
+        "id": 91000926,
+        "value": 1500
+      }
+    ]
+  },
   "11000245": {
     "attr": 5,
     "target_type": 3,
@@ -7478,6 +7583,90 @@
       }
     ]
   },
+  "12001699": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 242,
+    "break_power": 30,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000911,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 4000
+      }
+    ]
+  },
+  "12001700": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 257,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000911,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 4000
+      }
+    ]
+  },
+  "12001701": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 272,
+    "break_power": 33,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000911,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 4000
+      }
+    ]
+  },
+  "12001702": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 287,
+    "break_power": 35,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000911,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 4000
+      }
+    ]
+  },
   "11002293": {
     "attr": 1,
     "target_type": 3,
@@ -8027,6 +8216,116 @@
       }
     ]
   },
+  "14001047": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 280,
+    "break_power": 28,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001172,
+        "value": 0
+      }
+    ]
+  },
+  "14001048": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 280,
+    "break_power": 28,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001172,
+        "value": 0
+      }
+    ]
+  },
+  "14001049": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 280,
+    "break_power": 28,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001172,
+        "value": 0
+      }
+    ]
+  },
+  "14001050": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 280,
+    "break_power": 28,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001172,
+        "value": 0
+      }
+    ]
+  },
+  "14001051": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 280,
+    "break_power": 28,
+    "break_type": 2,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001172,
+        "value": 0
+      }
+    ]
+  },
+  "14003680": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 320,
+    "break_power": 32,
+    "break_type": 2,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002157,
+        "value": 0
+      },
+      {
+        "id": 91002155,
+        "value": 500
+      },
+      {
+        "id": 91002156,
+        "value": 300
+      }
+    ]
+  },
   "14003672": {
     "attr": 2,
     "target_type": 3,
@@ -8366,6 +8665,106 @@
       }
     ]
   },
+  "12001744": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 143,
+    "break_power": 115,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001298,
+        "value": 3500
+      },
+      {
+        "id": 91000907,
+        "value": 4000
+      },
+      {
+        "id": 91001022,
+        "value": 10000
+      }
+    ]
+  },
+  "12001745": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 151,
+    "break_power": 122,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001298,
+        "value": 3500
+      },
+      {
+        "id": 91000907,
+        "value": 4000
+      },
+      {
+        "id": 91001022,
+        "value": 10000
+      }
+    ]
+  },
+  "12001746": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 160,
+    "break_power": 129,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001298,
+        "value": 3500
+      },
+      {
+        "id": 91000907,
+        "value": 4000
+      },
+      {
+        "id": 91001022,
+        "value": 10000
+      }
+    ]
+  },
+  "12001747": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 169,
+    "break_power": 136,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001298,
+        "value": 3500
+      },
+      {
+        "id": 91000907,
+        "value": 4000
+      },
+      {
+        "id": 91001022,
+        "value": 10000
+      }
+    ]
+  },
   "11002078": {
     "attr": 8,
     "target_type": 3,
@@ -8533,6 +8932,131 @@
       {
         "id": 91001007,
         "value": 10000
+      }
+    ]
+  },
+  "14002485": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 411,
+    "break_power": 33,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 10000
+      },
+      {
+        "id": 91001598,
+        "value": 5000
+      },
+      {
+        "id": 91001018,
+        "value": 7500
+      }
+    ]
+  },
+  "14002486": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 411,
+    "break_power": 33,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 10000
+      },
+      {
+        "id": 91001598,
+        "value": 5000
+      },
+      {
+        "id": 91001018,
+        "value": 7500
+      }
+    ]
+  },
+  "14002487": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 411,
+    "break_power": 33,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 10000
+      },
+      {
+        "id": 91001598,
+        "value": 5000
+      },
+      {
+        "id": 91001018,
+        "value": 7500
+      }
+    ]
+  },
+  "14002488": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 411,
+    "break_power": 33,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 10000
+      },
+      {
+        "id": 91001598,
+        "value": 5000
+      },
+      {
+        "id": 91001018,
+        "value": 7500
+      }
+    ]
+  },
+  "14002489": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 411,
+    "break_power": 33,
+    "break_type": 2,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 10000
+      },
+      {
+        "id": 91001598,
+        "value": 5000
+      },
+      {
+        "id": 91001018,
+        "value": 7500
       }
     ]
   },
@@ -8793,6 +9317,131 @@
       {
         "id": 91001392,
         "value": 10000
+      }
+    ]
+  },
+  "14001964": {
+    "attr": 2,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 118,
+    "break_power": 9,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000925,
+        "value": 500
+      },
+      {
+        "id": 91001399,
+        "value": 1500
+      },
+      {
+        "id": 91000914,
+        "value": 1500
+      }
+    ]
+  },
+  "14001965": {
+    "attr": 2,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 125,
+    "break_power": 9,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000925,
+        "value": 500
+      },
+      {
+        "id": 91001399,
+        "value": 1500
+      },
+      {
+        "id": 91000914,
+        "value": 1500
+      }
+    ]
+  },
+  "14001966": {
+    "attr": 2,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 132,
+    "break_power": 10,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000925,
+        "value": 500
+      },
+      {
+        "id": 91001399,
+        "value": 1500
+      },
+      {
+        "id": 91000914,
+        "value": 1500
+      }
+    ]
+  },
+  "14001967": {
+    "attr": 2,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 139,
+    "break_power": 10,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000925,
+        "value": 500
+      },
+      {
+        "id": 91001399,
+        "value": 1500
+      },
+      {
+        "id": 91000914,
+        "value": 1500
+      }
+    ]
+  },
+  "14001968": {
+    "attr": 2,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 147,
+    "break_power": 11,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000925,
+        "value": 500
+      },
+      {
+        "id": 91001399,
+        "value": 1500
+      },
+      {
+        "id": 91000914,
+        "value": 1500
       }
     ]
   },
@@ -9803,6 +10452,111 @@
       }
     ]
   },
+  "14001129": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 260,
+    "break_power": 35,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001290,
+        "value": 1000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "14001130": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 276,
+    "break_power": 37,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001290,
+        "value": 1000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "14001131": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 292,
+    "break_power": 39,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001290,
+        "value": 1000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "14001132": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 308,
+    "break_power": 41,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001290,
+        "value": 1000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "14001133": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 325,
+    "break_power": 43,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001290,
+        "value": 1000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
   "11000705": {
     "attr": 7,
     "target_type": 3,
@@ -10312,6 +11066,31 @@
       }
     ]
   },
+  "14003728": {
+    "attr": 7,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 280,
+    "break_power": 313,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002227,
+        "value": 3000
+      },
+      {
+        "id": 91002228,
+        "value": 10000
+      },
+      {
+        "id": 91002229,
+        "value": 7500
+      }
+    ]
+  },
   "14001653": {
     "attr": 6,
     "target_type": 3,
@@ -10450,6 +11229,131 @@
       },
       {
         "id": 91001481,
+        "value": 5000
+      }
+    ]
+  },
+  "14002179": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 372,
+    "break_power": 43,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001270,
+        "value": 5000
+      },
+      {
+        "id": 91001482,
+        "value": 5000
+      },
+      {
+        "id": 91001020,
+        "value": 5000
+      }
+    ]
+  },
+  "14002180": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 372,
+    "break_power": 43,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001270,
+        "value": 5000
+      },
+      {
+        "id": 91001482,
+        "value": 5000
+      },
+      {
+        "id": 91001020,
+        "value": 5000
+      }
+    ]
+  },
+  "14002181": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 372,
+    "break_power": 43,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001270,
+        "value": 5000
+      },
+      {
+        "id": 91001482,
+        "value": 5000
+      },
+      {
+        "id": 91001020,
+        "value": 5000
+      }
+    ]
+  },
+  "14002182": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 372,
+    "break_power": 43,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001270,
+        "value": 5000
+      },
+      {
+        "id": 91001482,
+        "value": 5000
+      },
+      {
+        "id": 91001020,
+        "value": 5000
+      }
+    ]
+  },
+  "14002183": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 372,
+    "break_power": 43,
+    "break_type": 2,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001270,
+        "value": 5000
+      },
+      {
+        "id": 91001482,
+        "value": 5000
+      },
+      {
+        "id": 91001020,
         "value": 5000
       }
     ]
@@ -10609,6 +11513,111 @@
       {
         "id": 91001020,
         "value": 10000
+      }
+    ]
+  },
+  "14002888": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 399,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 12000
+      },
+      {
+        "id": 91001376,
+        "value": 3000
+      }
+    ]
+  },
+  "14002889": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 399,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 12000
+      },
+      {
+        "id": 91001376,
+        "value": 3000
+      }
+    ]
+  },
+  "14002890": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 399,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 12000
+      },
+      {
+        "id": 91001376,
+        "value": 3000
+      }
+    ]
+  },
+  "14002891": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 399,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 12000
+      },
+      {
+        "id": 91001376,
+        "value": 3000
+      }
+    ]
+  },
+  "14002892": {
+    "attr": 6,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 399,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 12000
+      },
+      {
+        "id": 91001376,
+        "value": 3000
       }
     ]
   },
@@ -10907,6 +11916,51 @@
       {
         "id": 91002213,
         "value": 10000
+      }
+    ]
+  },
+  "14003727": {
+    "attr": 7,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 137,
+    "break_power": 13,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002214,
+        "value": 6000
+      },
+      {
+        "id": 91002216,
+        "value": 5000
+      },
+      {
+        "id": 91002218,
+        "value": 5000
+      },
+      {
+        "id": 91002220,
+        "value": 3000
+      },
+      {
+        "id": 91002215,
+        "value": 6000
+      },
+      {
+        "id": 91002217,
+        "value": 5000
+      },
+      {
+        "id": 91002219,
+        "value": 5000
+      },
+      {
+        "id": 91002221,
+        "value": 3000
       }
     ]
   },
@@ -11983,6 +13037,27 @@
       {
         "id": 91001786,
         "value": 0
+      }
+    ]
+  },
+  "14002977": {
+    "attr": 1,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 240,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001787,
+        "value": 15000
+      },
+      {
+        "id": 91001804,
+        "value": 2000
       }
     ]
   },
@@ -13548,6 +14623,31 @@
       }
     ]
   },
+  "14003726": {
+    "attr": 7,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 388,
+    "break_power": 29,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001032,
+        "value": 15000
+      },
+      {
+        "id": 91002207,
+        "value": 10000
+      },
+      {
+        "id": 91000904,
+        "value": 5000
+      }
+    ]
+  },
   "11003012": {
     "attr": 7,
     "target_type": 3,
@@ -13723,6 +14823,31 @@
       {
         "id": 91001859,
         "value": 0
+      }
+    ]
+  },
+  "14003144": {
+    "attr": 7,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 90,
+    "break_power": 300,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001310,
+        "value": 15000
+      },
+      {
+        "id": 91001860,
+        "value": 5000
+      },
+      {
+        "id": 91001861,
+        "value": 5000
       }
     ]
   },
@@ -14856,6 +15981,251 @@
       }
     ]
   },
+  "14003663": {
+    "attr": 3,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 263,
+    "break_power": 13,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 20000
+      },
+      {
+        "id": 91002191,
+        "value": 10000
+      },
+      {
+        "id": 91002192,
+        "value": 20000
+      },
+      {
+        "id": 91002193,
+        "value": 20000
+      },
+      {
+        "id": 91002194,
+        "value": 5000
+      },
+      {
+        "id": 91002200,
+        "value": 100
+      },
+      {
+        "id": 91001039,
+        "value": 10000
+      },
+      {
+        "id": 91001181,
+        "value": 10000
+      },
+      {
+        "id": 91002204,
+        "value": 10000
+      }
+    ]
+  },
+  "14003664": {
+    "attr": 3,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 263,
+    "break_power": 13,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 20000
+      },
+      {
+        "id": 91002191,
+        "value": 10000
+      },
+      {
+        "id": 91002192,
+        "value": 20000
+      },
+      {
+        "id": 91002193,
+        "value": 20000
+      },
+      {
+        "id": 91002194,
+        "value": 5000
+      },
+      {
+        "id": 91002200,
+        "value": 100
+      },
+      {
+        "id": 91001039,
+        "value": 10000
+      },
+      {
+        "id": 91001181,
+        "value": 10000
+      },
+      {
+        "id": 91002204,
+        "value": 10000
+      }
+    ]
+  },
+  "14003665": {
+    "attr": 3,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 263,
+    "break_power": 13,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 20000
+      },
+      {
+        "id": 91002191,
+        "value": 10000
+      },
+      {
+        "id": 91002192,
+        "value": 20000
+      },
+      {
+        "id": 91002193,
+        "value": 20000
+      },
+      {
+        "id": 91002194,
+        "value": 5000
+      },
+      {
+        "id": 91002200,
+        "value": 100
+      },
+      {
+        "id": 91001039,
+        "value": 10000
+      },
+      {
+        "id": 91001181,
+        "value": 10000
+      },
+      {
+        "id": 91002204,
+        "value": 10000
+      }
+    ]
+  },
+  "14003666": {
+    "attr": 3,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 263,
+    "break_power": 13,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 20000
+      },
+      {
+        "id": 91002191,
+        "value": 10000
+      },
+      {
+        "id": 91002192,
+        "value": 20000
+      },
+      {
+        "id": 91002193,
+        "value": 20000
+      },
+      {
+        "id": 91002194,
+        "value": 5000
+      },
+      {
+        "id": 91002200,
+        "value": 100
+      },
+      {
+        "id": 91001039,
+        "value": 10000
+      },
+      {
+        "id": 91001181,
+        "value": 10000
+      },
+      {
+        "id": 91002204,
+        "value": 10000
+      }
+    ]
+  },
+  "14003667": {
+    "attr": 3,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 263,
+    "break_power": 13,
+    "break_type": 2,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 20000
+      },
+      {
+        "id": 91002191,
+        "value": 10000
+      },
+      {
+        "id": 91002192,
+        "value": 20000
+      },
+      {
+        "id": 91002193,
+        "value": 20000
+      },
+      {
+        "id": 91002194,
+        "value": 5000
+      },
+      {
+        "id": 91002200,
+        "value": 100
+      },
+      {
+        "id": 91001039,
+        "value": 10000
+      },
+      {
+        "id": 91001181,
+        "value": 10000
+      },
+      {
+        "id": 91002204,
+        "value": 10000
+      }
+    ]
+  },
   "11003745": {
     "attr": 2,
     "target_type": 3,
@@ -15038,6 +16408,413 @@
       }
     ]
   },
+  "14002551": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 246,
+    "break_power": 38,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002028,
+        "value": 10000
+      }
+    ]
+  },
+  "11002541": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 100,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002004,
+        "value": 1500
+      },
+      {
+        "id": 91001620,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001611,
+        "value": 10000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "11002542": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 106,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002004,
+        "value": 1500
+      },
+      {
+        "id": 91001620,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001611,
+        "value": 10000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "11002543": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 112,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002004,
+        "value": 1500
+      },
+      {
+        "id": 91001620,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001611,
+        "value": 10000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "11002544": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 118,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002004,
+        "value": 1500
+      },
+      {
+        "id": 91001620,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001611,
+        "value": 10000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "11002545": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 125,
+    "break_power": 7,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002004,
+        "value": 1500
+      },
+      {
+        "id": 91001620,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001611,
+        "value": 10000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "12002546": {
+    "attr": 5,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 195,
+    "break_power": 14,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 2500
+      },
+      {
+        "id": 91002004,
+        "value": 3000
+      },
+      {
+        "id": 91002028,
+        "value": 3000
+      },
+      {
+        "id": 91000949,
+        "value": 9000
+      },
+      {
+        "id": 91001616,
+        "value": 6000
+      },
+      {
+        "id": 91001615,
+        "value": 12000
+      }
+    ]
+  },
+  "12002547": {
+    "attr": 5,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 207,
+    "break_power": 14,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 2500
+      },
+      {
+        "id": 91002004,
+        "value": 3000
+      },
+      {
+        "id": 91002028,
+        "value": 3000
+      },
+      {
+        "id": 91000949,
+        "value": 9000
+      },
+      {
+        "id": 91001616,
+        "value": 6000
+      },
+      {
+        "id": 91001615,
+        "value": 12000
+      }
+    ]
+  },
+  "12002548": {
+    "attr": 5,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 219,
+    "break_power": 15,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 2500
+      },
+      {
+        "id": 91002004,
+        "value": 3000
+      },
+      {
+        "id": 91002028,
+        "value": 3000
+      },
+      {
+        "id": 91000949,
+        "value": 9000
+      },
+      {
+        "id": 91001616,
+        "value": 6000
+      },
+      {
+        "id": 91001615,
+        "value": 12000
+      }
+    ]
+  },
+  "12002549": {
+    "attr": 5,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 231,
+    "break_power": 16,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 2500
+      },
+      {
+        "id": 91002004,
+        "value": 3000
+      },
+      {
+        "id": 91002028,
+        "value": 3000
+      },
+      {
+        "id": 91000949,
+        "value": 9000
+      },
+      {
+        "id": 91001616,
+        "value": 6000
+      },
+      {
+        "id": 91001615,
+        "value": 12000
+      }
+    ]
+  },
+  "12002550": {
+    "attr": 5,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 243,
+    "break_power": 17,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 2500
+      },
+      {
+        "id": 91001376,
+        "value": 2500
+      },
+      {
+        "id": 91002004,
+        "value": 3000
+      },
+      {
+        "id": 91002028,
+        "value": 3000
+      },
+      {
+        "id": 91000949,
+        "value": 9000
+      },
+      {
+        "id": 91001616,
+        "value": 6000
+      },
+      {
+        "id": 91001615,
+        "value": 12000
+      }
+    ]
+  },
   "11002405": {
     "attr": 2,
     "target_type": 3,
@@ -15134,6 +16911,413 @@
       {
         "id": 91001628,
         "value": 0
+      }
+    ]
+  },
+  "14002586": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 304,
+    "break_power": 147,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001627,
+        "value": 2500
+      }
+    ]
+  },
+  "11002556": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 64,
+    "break_power": 14,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001648,
+        "value": 2500
+      },
+      {
+        "id": 91001649,
+        "value": 2500
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001625,
+        "value": 10000
+      }
+    ]
+  },
+  "11002557": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 68,
+    "break_power": 14,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001648,
+        "value": 2500
+      },
+      {
+        "id": 91001649,
+        "value": 2500
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001625,
+        "value": 10000
+      }
+    ]
+  },
+  "11002558": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 72,
+    "break_power": 15,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001648,
+        "value": 2500
+      },
+      {
+        "id": 91001649,
+        "value": 2500
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001625,
+        "value": 10000
+      }
+    ]
+  },
+  "11002559": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 76,
+    "break_power": 16,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001648,
+        "value": 2500
+      },
+      {
+        "id": 91001649,
+        "value": 2500
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001625,
+        "value": 10000
+      }
+    ]
+  },
+  "11002560": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 80,
+    "break_power": 17,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001648,
+        "value": 2500
+      },
+      {
+        "id": 91001649,
+        "value": 2500
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001625,
+        "value": 10000
+      }
+    ]
+  },
+  "12002561": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 292,
+    "break_power": 245,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001624,
+        "value": 20000
+      },
+      {
+        "id": 91001050,
+        "value": 1500
+      },
+      {
+        "id": 91000938,
+        "value": 1500
+      },
+      {
+        "id": 91001387,
+        "value": 1500
+      },
+      {
+        "id": 91001690,
+        "value": 1500
+      },
+      {
+        "id": 91001691,
+        "value": 1500
+      },
+      {
+        "id": 91001692,
+        "value": 2000
+      },
+      {
+        "id": 91001626,
+        "value": 10000
+      }
+    ]
+  },
+  "12002562": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 310,
+    "break_power": 260,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001624,
+        "value": 20000
+      },
+      {
+        "id": 91001050,
+        "value": 1500
+      },
+      {
+        "id": 91000938,
+        "value": 1500
+      },
+      {
+        "id": 91001387,
+        "value": 1500
+      },
+      {
+        "id": 91001690,
+        "value": 1500
+      },
+      {
+        "id": 91001691,
+        "value": 1500
+      },
+      {
+        "id": 91001692,
+        "value": 2000
+      },
+      {
+        "id": 91001626,
+        "value": 10000
+      }
+    ]
+  },
+  "12002563": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 328,
+    "break_power": 275,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001624,
+        "value": 20000
+      },
+      {
+        "id": 91001050,
+        "value": 1500
+      },
+      {
+        "id": 91000938,
+        "value": 1500
+      },
+      {
+        "id": 91001387,
+        "value": 1500
+      },
+      {
+        "id": 91001690,
+        "value": 1500
+      },
+      {
+        "id": 91001691,
+        "value": 1500
+      },
+      {
+        "id": 91001692,
+        "value": 2000
+      },
+      {
+        "id": 91001626,
+        "value": 10000
+      }
+    ]
+  },
+  "12002564": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 346,
+    "break_power": 290,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001624,
+        "value": 20000
+      },
+      {
+        "id": 91001050,
+        "value": 1500
+      },
+      {
+        "id": 91000938,
+        "value": 1500
+      },
+      {
+        "id": 91001387,
+        "value": 1500
+      },
+      {
+        "id": 91001690,
+        "value": 1500
+      },
+      {
+        "id": 91001691,
+        "value": 1500
+      },
+      {
+        "id": 91001692,
+        "value": 2000
+      },
+      {
+        "id": 91001626,
+        "value": 10000
+      }
+    ]
+  },
+  "12002565": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 365,
+    "break_power": 306,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001624,
+        "value": 20000
+      },
+      {
+        "id": 91001050,
+        "value": 1500
+      },
+      {
+        "id": 91000938,
+        "value": 1500
+      },
+      {
+        "id": 91001387,
+        "value": 1500
+      },
+      {
+        "id": 91001690,
+        "value": 1500
+      },
+      {
+        "id": 91001691,
+        "value": 1500
+      },
+      {
+        "id": 91001692,
+        "value": 2000
+      },
+      {
+        "id": 91001626,
+        "value": 10000
       }
     ]
   },
@@ -15236,6 +17420,468 @@
       }
     ]
   },
+  "14002622": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 300,
+    "break_power": 38,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": []
+  },
+  "11002587": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 90,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002019,
+        "value": 2000
+      },
+      {
+        "id": 91001273,
+        "value": 100
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001635,
+        "value": 10000
+      }
+    ]
+  },
+  "11002588": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 95,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002019,
+        "value": 2000
+      },
+      {
+        "id": 91001273,
+        "value": 100
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001635,
+        "value": 10000
+      }
+    ]
+  },
+  "11002589": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 101,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002019,
+        "value": 2000
+      },
+      {
+        "id": 91001273,
+        "value": 100
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001635,
+        "value": 10000
+      }
+    ]
+  },
+  "11002590": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 106,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002019,
+        "value": 2000
+      },
+      {
+        "id": 91001273,
+        "value": 100
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001635,
+        "value": 10000
+      }
+    ]
+  },
+  "11002591": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 112,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002019,
+        "value": 2000
+      },
+      {
+        "id": 91001273,
+        "value": 100
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001635,
+        "value": 10000
+      }
+    ]
+  },
+  "12002592": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 328,
+    "break_power": 26,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000938,
+        "value": 2500
+      },
+      {
+        "id": 91001636,
+        "value": 2000
+      },
+      {
+        "id": 91001637,
+        "value": 3000
+      },
+      {
+        "id": 91001641,
+        "value": 1000
+      },
+      {
+        "id": 91001638,
+        "value": 4000
+      },
+      {
+        "id": 91001642,
+        "value": 1500
+      },
+      {
+        "id": 91001639,
+        "value": 5000
+      },
+      {
+        "id": 91001643,
+        "value": 2500
+      },
+      {
+        "id": 91001640,
+        "value": 6000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001644,
+        "value": 10000
+      }
+    ]
+  },
+  "12002593": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 348,
+    "break_power": 27,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000938,
+        "value": 2500
+      },
+      {
+        "id": 91001636,
+        "value": 2000
+      },
+      {
+        "id": 91001637,
+        "value": 3000
+      },
+      {
+        "id": 91001641,
+        "value": 1000
+      },
+      {
+        "id": 91001638,
+        "value": 4000
+      },
+      {
+        "id": 91001642,
+        "value": 1500
+      },
+      {
+        "id": 91001639,
+        "value": 5000
+      },
+      {
+        "id": 91001643,
+        "value": 2500
+      },
+      {
+        "id": 91001640,
+        "value": 6000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001644,
+        "value": 10000
+      }
+    ]
+  },
+  "12002594": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 369,
+    "break_power": 29,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000938,
+        "value": 2500
+      },
+      {
+        "id": 91001636,
+        "value": 2000
+      },
+      {
+        "id": 91001637,
+        "value": 3000
+      },
+      {
+        "id": 91001641,
+        "value": 1000
+      },
+      {
+        "id": 91001638,
+        "value": 4000
+      },
+      {
+        "id": 91001642,
+        "value": 1500
+      },
+      {
+        "id": 91001639,
+        "value": 5000
+      },
+      {
+        "id": 91001643,
+        "value": 2500
+      },
+      {
+        "id": 91001640,
+        "value": 6000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001644,
+        "value": 10000
+      }
+    ]
+  },
+  "12002595": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 389,
+    "break_power": 30,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000938,
+        "value": 2500
+      },
+      {
+        "id": 91001636,
+        "value": 2000
+      },
+      {
+        "id": 91001637,
+        "value": 3000
+      },
+      {
+        "id": 91001641,
+        "value": 1000
+      },
+      {
+        "id": 91001638,
+        "value": 4000
+      },
+      {
+        "id": 91001642,
+        "value": 1500
+      },
+      {
+        "id": 91001639,
+        "value": 5000
+      },
+      {
+        "id": 91001643,
+        "value": 2500
+      },
+      {
+        "id": 91001640,
+        "value": 6000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001644,
+        "value": 10000
+      }
+    ]
+  },
+  "12002596": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 410,
+    "break_power": 32,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000938,
+        "value": 2500
+      },
+      {
+        "id": 91001636,
+        "value": 2000
+      },
+      {
+        "id": 91001637,
+        "value": 3000
+      },
+      {
+        "id": 91001641,
+        "value": 1000
+      },
+      {
+        "id": 91001638,
+        "value": 4000
+      },
+      {
+        "id": 91001642,
+        "value": 1500
+      },
+      {
+        "id": 91001639,
+        "value": 5000
+      },
+      {
+        "id": 91001643,
+        "value": 2500
+      },
+      {
+        "id": 91001640,
+        "value": 6000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001644,
+        "value": 10000
+      }
+    ]
+  },
   "11002468": {
     "attr": 5,
     "target_type": 3,
@@ -15332,6 +17978,313 @@
       {
         "id": 91001294,
         "value": 1000
+      }
+    ]
+  },
+  "14002648": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 302,
+    "break_power": 147,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001627,
+        "value": 5000
+      }
+    ]
+  },
+  "11002638": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 63,
+    "break_power": 14,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001619,
+        "value": 1500
+      },
+      {
+        "id": 91000908,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001651,
+        "value": 10000
+      }
+    ]
+  },
+  "11002639": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 66,
+    "break_power": 14,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001619,
+        "value": 1500
+      },
+      {
+        "id": 91000908,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001651,
+        "value": 10000
+      }
+    ]
+  },
+  "11002640": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 70,
+    "break_power": 15,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001619,
+        "value": 1500
+      },
+      {
+        "id": 91000908,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001651,
+        "value": 10000
+      }
+    ]
+  },
+  "11002641": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 74,
+    "break_power": 16,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001619,
+        "value": 1500
+      },
+      {
+        "id": 91000908,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001651,
+        "value": 10000
+      }
+    ]
+  },
+  "11002642": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 78,
+    "break_power": 17,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001619,
+        "value": 1500
+      },
+      {
+        "id": 91000908,
+        "value": 3000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001608,
+        "value": 0
+      },
+      {
+        "id": 91001651,
+        "value": 10000
+      }
+    ]
+  },
+  "12002643": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 233,
+    "break_power": 245,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001655,
+        "value": 3000
+      },
+      {
+        "id": 91001656,
+        "value": 3000
+      },
+      {
+        "id": 91001657,
+        "value": 100
+      }
+    ]
+  },
+  "12002644": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 247,
+    "break_power": 260,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001655,
+        "value": 3000
+      },
+      {
+        "id": 91001656,
+        "value": 3000
+      },
+      {
+        "id": 91001657,
+        "value": 100
+      }
+    ]
+  },
+  "12002645": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 262,
+    "break_power": 275,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001655,
+        "value": 3000
+      },
+      {
+        "id": 91001656,
+        "value": 3000
+      },
+      {
+        "id": 91001657,
+        "value": 100
+      }
+    ]
+  },
+  "12002646": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 276,
+    "break_power": 290,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001655,
+        "value": 3000
+      },
+      {
+        "id": 91001656,
+        "value": 3000
+      },
+      {
+        "id": 91001657,
+        "value": 100
+      }
+    ]
+  },
+  "12002647": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 291,
+    "break_power": 306,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001655,
+        "value": 3000
+      },
+      {
+        "id": 91001656,
+        "value": 3000
+      },
+      {
+        "id": 91001657,
+        "value": 100
       }
     ]
   },
@@ -15450,6 +18403,348 @@
       }
     ]
   },
+  "14002710": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 271,
+    "break_power": 35,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": []
+  },
+  "11002490": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 59,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001209,
+        "value": 3000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001665,
+        "value": 0
+      },
+      {
+        "id": 91001670,
+        "value": 10000
+      }
+    ]
+  },
+  "11002491": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 62,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001209,
+        "value": 3000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001665,
+        "value": 0
+      },
+      {
+        "id": 91001670,
+        "value": 10000
+      }
+    ]
+  },
+  "11002492": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 66,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001209,
+        "value": 3000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001665,
+        "value": 0
+      },
+      {
+        "id": 91001670,
+        "value": 10000
+      }
+    ]
+  },
+  "11002493": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 69,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001209,
+        "value": 3000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001665,
+        "value": 0
+      },
+      {
+        "id": 91001670,
+        "value": 10000
+      }
+    ]
+  },
+  "11002494": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 73,
+    "break_power": 7,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001209,
+        "value": 3000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001665,
+        "value": 0
+      },
+      {
+        "id": 91001670,
+        "value": 10000
+      }
+    ]
+  },
+  "12002495": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 209,
+    "break_power": 27,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000926,
+        "value": 3000
+      },
+      {
+        "id": 91001695,
+        "value": 2000
+      },
+      {
+        "id": 91001672,
+        "value": 1000
+      },
+      {
+        "id": 91001673,
+        "value": 0
+      },
+      {
+        "id": 91001698,
+        "value": 2000
+      }
+    ]
+  },
+  "12002496": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 222,
+    "break_power": 28,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000926,
+        "value": 3000
+      },
+      {
+        "id": 91001695,
+        "value": 2000
+      },
+      {
+        "id": 91001672,
+        "value": 1000
+      },
+      {
+        "id": 91001673,
+        "value": 0
+      },
+      {
+        "id": 91001698,
+        "value": 2000
+      }
+    ]
+  },
+  "12002497": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 235,
+    "break_power": 30,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000926,
+        "value": 3000
+      },
+      {
+        "id": 91001695,
+        "value": 2000
+      },
+      {
+        "id": 91001672,
+        "value": 1000
+      },
+      {
+        "id": 91001673,
+        "value": 0
+      },
+      {
+        "id": 91001698,
+        "value": 2000
+      }
+    ]
+  },
+  "12002498": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 248,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000926,
+        "value": 3000
+      },
+      {
+        "id": 91001695,
+        "value": 2000
+      },
+      {
+        "id": 91001672,
+        "value": 1000
+      },
+      {
+        "id": 91001673,
+        "value": 0
+      },
+      {
+        "id": 91001698,
+        "value": 2000
+      }
+    ]
+  },
+  "12002499": {
+    "attr": 2,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 261,
+    "break_power": 33,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000926,
+        "value": 3000
+      },
+      {
+        "id": 91001695,
+        "value": 2000
+      },
+      {
+        "id": 91001672,
+        "value": 1000
+      },
+      {
+        "id": 91001673,
+        "value": 0
+      },
+      {
+        "id": 91001698,
+        "value": 2000
+      }
+    ]
+  },
   "11002673": {
     "attr": 5,
     "target_type": 3,
@@ -15542,6 +18837,368 @@
       {
         "id": 91001696,
         "value": 10000
+      }
+    ]
+  },
+  "14002679": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 256,
+    "break_power": 31,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": []
+  },
+  "11002506": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 49,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001679,
+        "value": 2000
+      },
+      {
+        "id": 91001680,
+        "value": 2000
+      },
+      {
+        "id": 91001683,
+        "value": 2000
+      },
+      {
+        "id": 91001684,
+        "value": 2000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001663,
+        "value": 0
+      },
+      {
+        "id": 91001668,
+        "value": 10000
+      }
+    ]
+  },
+  "11002507": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 52,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001679,
+        "value": 2000
+      },
+      {
+        "id": 91001680,
+        "value": 2000
+      },
+      {
+        "id": 91001683,
+        "value": 2000
+      },
+      {
+        "id": 91001684,
+        "value": 2000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001663,
+        "value": 0
+      },
+      {
+        "id": 91001668,
+        "value": 10000
+      }
+    ]
+  },
+  "11002508": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 55,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001679,
+        "value": 2000
+      },
+      {
+        "id": 91001680,
+        "value": 2000
+      },
+      {
+        "id": 91001683,
+        "value": 2000
+      },
+      {
+        "id": 91001684,
+        "value": 2000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001663,
+        "value": 0
+      },
+      {
+        "id": 91001668,
+        "value": 10000
+      }
+    ]
+  },
+  "11002509": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 58,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001679,
+        "value": 2000
+      },
+      {
+        "id": 91001680,
+        "value": 2000
+      },
+      {
+        "id": 91001683,
+        "value": 2000
+      },
+      {
+        "id": 91001684,
+        "value": 2000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001663,
+        "value": 0
+      },
+      {
+        "id": 91001668,
+        "value": 10000
+      }
+    ]
+  },
+  "11002510": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 61,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001679,
+        "value": 2000
+      },
+      {
+        "id": 91001680,
+        "value": 2000
+      },
+      {
+        "id": 91001683,
+        "value": 2000
+      },
+      {
+        "id": 91001684,
+        "value": 2000
+      },
+      {
+        "id": 91001607,
+        "value": 0
+      },
+      {
+        "id": 91001663,
+        "value": 0
+      },
+      {
+        "id": 91001668,
+        "value": 10000
+      }
+    ]
+  },
+  "12002511": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 197,
+    "break_power": 24,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 3000
+      },
+      {
+        "id": 91000966,
+        "value": 4000
+      },
+      {
+        "id": 91000925,
+        "value": 1500
+      },
+      {
+        "id": 91001696,
+        "value": 8000
+      }
+    ]
+  },
+  "12002512": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 209,
+    "break_power": 25,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 3000
+      },
+      {
+        "id": 91000966,
+        "value": 4000
+      },
+      {
+        "id": 91000925,
+        "value": 1500
+      },
+      {
+        "id": 91001696,
+        "value": 8000
+      }
+    ]
+  },
+  "12002513": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 221,
+    "break_power": 27,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 3000
+      },
+      {
+        "id": 91000966,
+        "value": 4000
+      },
+      {
+        "id": 91000925,
+        "value": 1500
+      },
+      {
+        "id": 91001696,
+        "value": 8000
+      }
+    ]
+  },
+  "12002514": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 233,
+    "break_power": 28,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 3000
+      },
+      {
+        "id": 91000966,
+        "value": 4000
+      },
+      {
+        "id": 91000925,
+        "value": 1500
+      },
+      {
+        "id": 91001696,
+        "value": 8000
+      }
+    ]
+  },
+  "12002515": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 246,
+    "break_power": 30,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001050,
+        "value": 3000
+      },
+      {
+        "id": 91000966,
+        "value": 4000
+      },
+      {
+        "id": 91000925,
+        "value": 1500
+      },
+      {
+        "id": 91001696,
+        "value": 8000
       }
     ]
   },

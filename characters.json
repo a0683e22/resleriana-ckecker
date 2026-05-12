@@ -3,1655 +3,1458 @@
     "id": 192,
     "base_character_id": 46202,
     "attr": "風",
-    "name": {
-      "zh": "希特琳【九偉人 No.4】",
-      "ja": "シトリン【九偉人 No.4】",
-      "en": "Citrine【九偉人 No.4】"
-    },
+    "name": { "zh": "希特琳【九偉人 No.4】", "ja": "シトリン【九偉人 No.4】", "en": "Citrine【九偉人 No.4】"},
     "date": "2026-05-08",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003787,
     "skill2": 12003792,
-    "burst": 14003797
+    "burst": 14003797,
+    "passive_ids": [1990547, 1990548],
+    "tag_ids": [37, 38, 13, 27],
+    "leader_skill": { "name": "気まぐれな小悪魔", "description": "「冥き追憶」は「スキルダメージ+50%」と「挑発状態の敵から受けるダメージ-25%」"}
   },
   {
     "id": 191,
     "base_character_id": 43505,
     "attr": "打",
-    "name": {
-      "zh": "海蒂【Buddy's Returning】",
-      "ja": "ハイディ【Buddy's Returning】",
-      "en": "Heidi【Buddy's Returning】"
-    },
+    "name": { "zh": "海蒂【Buddy's Returning】", "ja": "ハイディ【Buddy's Returning】", "en": "Heidi【Buddy's Returning】"},
     "date": "2026-05-01",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003760,
     "skill2": 12003765,
-    "burst": 14003770
+    "burst": 14003770,
+    "passive_ids": [1990545, 1990546],
+    "tag_ids": [7, 10, 19, 29],
+    "leader_skill": { "name": "帰ってきた相棒", "description": "「家族と友情」は「基礎物攻・基礎魔攻+300」"}
   },
   {
     "id": 190,
     "base_character_id": 46801,
     "attr": "打",
-    "name": {
-      "zh": "卡洛琳【Courageous Sister】",
-      "ja": "カロリン【Courageous Sister】",
-      "en": "Caroline【Courageous Sister】"
-    },
+    "name": { "zh": "卡洛琳【Courageous Sister】", "ja": "カロリン【Courageous Sister】", "en": "Caroline【Courageous Sister】"},
     "date": "2026-04-24",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003745,
     "skill2": 12003750,
-    "burst": 14003755
+    "burst": 14003755,
+    "passive_ids": [1990543, 1990544],
+    "tag_ids": [7, 10, 18, 23],
+    "leader_skill": { "name": "旅するシスター", "description": "味方全員は「ランターナ」1人につき「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 189,
     "base_character_id": 43806,
     "attr": "雷",
-    "name": {
-      "zh": "伊札娜【Cutie☆Cat】",
-      "ja": "イザナ【Cutie☆Cat】",
-      "en": "Izana【Cutie☆Cat】"
-    },
+    "name": { "zh": "伊札娜【Cutie☆Cat】", "ja": "イザナ【Cutie☆Cat】", "en": "Izana【Cutie☆Cat】"},
     "date": "2026-04-10",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003715,
     "skill2": 12003720,
-    "burst": 14003725
+    "burst": 14003725,
+    "passive_ids": [1990539, 1990540],
+    "tag_ids": [7, 31, 9, 26],
+    "leader_skill": { "name": "ユニットのかわいい担当", "description": "「レスレリ学園」は「先駆け」と「スキルダメージ+50%」"}
   },
   {
     "id": 188,
     "base_character_id": 44005,
     "attr": "雷",
-    "name": {
-      "zh": "約翰娜【Cutie☆Hamster】",
-      "ja": "ヨハナ【Cutie☆Hamster】",
-      "en": "Johanna【Cutie☆Hamster】"
-    },
+    "name": { "zh": "約翰娜【Cutie☆Hamster】", "ja": "ヨハナ【Cutie☆Hamster】", "en": "Johanna【Cutie☆Hamster】"},
     "date": "2026-04-03",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003700,
     "skill2": 12003705,
-    "burst": 14003710
+    "burst": 14003710,
+    "passive_ids": [1990537, 1990538],
+    "tag_ids": [7, 31, 9, 24],
+    "leader_skill": { "name": "ユニットのクール担当", "description": "味方全員は「レスレリ学園」1人につき「スキルダメージ・クリティカルダメージ+20%」"}
   },
   {
     "id": 187,
     "base_character_id": 45602,
     "attr": "雷",
-    "name": {
-      "zh": "鬼門【Cutie☆Fox】",
-      "ja": "鬼門【Cutie☆Fox】",
-      "en": "Kimon【Cutie☆Fox】"
-    },
+    "name": { "zh": "鬼門【Cutie☆Fox】", "ja": "鬼門【Cutie☆Fox】", "en": "Kimon【Cutie☆Fox】"},
     "date": "2026-03-30",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003685,
     "skill2": 12003690,
-    "burst": 14003695
+    "burst": 14003695,
+    "passive_ids": [1990535, 1990536],
+    "tag_ids": [34, 31, 36, 28],
+    "leader_skill": { "name": "ユニットのリーダー", "description": "得意属性が雷属性のキャラは「魔攻+50%」"}
   },
   {
     "id": 186,
     "base_character_id": 46701,
     "attr": "突",
-    "name": {
-      "zh": "艾爾斯【Absolute Order】",
-      "ja": "エルス【Absolute Order】",
-      "en": "Els【Absolute Order】"
-    },
+    "name": { "zh": "艾爾斯【Absolute Order】", "ja": "エルス【Absolute Order】", "en": "Els【Absolute Order】"},
     "date": "2026-03-19",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003652,
     "skill2": 12003657,
-    "burst": 14003662
+    "burst": 14003662,
+    "ex_skill": 14003667,
+    "passive_ids": [1990533, 1990534],
+    "tag_ids": [34, 41, 14, 28],
+    "leader_skill": { "name": "鋼の監察官", "description": "「無数島群域」は「物攻・魔攻・物防・魔防+30%」"}
   },
   {
     "id": 185,
     "base_character_id": 46102,
     "attr": "突",
-    "name": {
-      "zh": "莉貝【九偉人 No.6】",
-      "ja": "リーベ【九偉人 No.6】",
-      "en": "Liebe【九偉人 No.6】"
-    },
+    "name": { "zh": "莉貝【九偉人 No.6】", "ja": "リーベ【九偉人 No.6】", "en": "Liebe【九偉人 No.6】"},
     "date": "2026-03-13",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11003637,
     "skill2": 12003642,
-    "burst": 14003647
+    "burst": 14003647,
+    "passive_ids": [1990531, 1990532],
+    "tag_ids": [37, 38, 20, 28],
+    "leader_skill": { "name": "冴えわたる頭脳", "description": "「冥き追憶」は「受けるダメージ-25%」"}
   },
   {
     "id": 184,
     "base_character_id": 44204,
     "active1": 14003632,
     "attr": "冰",
-    "name": {
-      "zh": "拉拉【ララ・キングダムの王】",
-      "ja": "ララ【ララ・キングダムの王】",
-      "en": "Lara【ララ・キングダムの王】"
-    },
+    "name": { "zh": "拉拉【ララ・キングダムの王】", "ja": "ララ【ララ・キングダムの王】", "en": "Lara【ララ・キングダムの王】"},
     "date": "2026-03-06",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003590,
     "skill2": 12003595,
-    "burst": 14003600
+    "burst": 14003600,
+    "passive_ids": [1990524, 1990525],
+    "tag_ids": [7, 33, 38, 15, 19, 32],
+    "leader_skill": { "name": "極夜の令嬢", "description": "「ランターナ」は「攻撃対象が麻痺状態の時、スキルダメージ+100%」"}
   },
   {
     "id": 183,
     "base_character_id": 46601,
     "attr": "突",
-    "name": {
-      "zh": "喬澤【Masked Hunter】",
-      "ja": "ジョゼ【Masked Hunter】",
-      "en": "Jose【Masked Hunter】"
-    },
+    "name": { "zh": "喬澤【Masked Hunter】", "ja": "ジョゼ【Masked Hunter】", "en": "Jose【Masked Hunter】"},
     "date": "2026-02-27",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003621,
     "skill2": 12003626,
-    "burst": 14003631
+    "burst": 14003631,
+    "passive_ids": [1990529, 1990530],
+    "tag_ids": [34, 41, 18, 29],
+    "leader_skill": { "name": "正体不明の賞金稼ぎ", "description": "「無数島群域」は「先駆け」と「クリティカルダメージ+50%」"}
   },
   {
     "id": 182,
     "base_character_id": 25506,
     "attr": "冰",
-    "name": {
-      "zh": "蘿樂娜【Startup Supporter】",
-      "ja": "ロロナ【Startup Supporter】",
-      "en": "Rorona【Startup Supporter】"
-    },
+    "name": { "zh": "蘿樂娜【Startup Supporter】", "ja": "ロロナ【Startup Supporter】", "en": "Rorona【Startup Supporter】"},
     "date": "2026-02-21",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003560,
     "skill2": 12003565,
-    "burst": 14003570
+    "burst": 14003570,
+    "passive_ids": [1990510, 1990511],
+    "tag_ids": [2, 9, 26, 40],
+    "leader_skill": { "name": "＜新星＞クリティカルダメージアップ", "description": "「新星」は「クリティカルダメージ+40%」"}
   },
   {
     "id": 181,
     "base_character_id": 32203,
     "attr": "風",
-    "name": {
-      "zh": "夏莉絲堤菈【Startup Supporter】",
-      "ja": "シャリステラ【Startup Supporter】",
-      "en": "Shallie【Startup Supporter】"
-    },
+    "name": { "zh": "夏莉絲堤菈【Startup Supporter】", "ja": "シャリステラ【Startup Supporter】", "en": "Shallie【Startup Supporter】"},
     "date": "2026-02-21",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003530,
     "skill2": 12003535,
-    "burst": 14003540
+    "burst": 14003540,
+    "passive_ids": [1990508, 1990509],
+    "tag_ids": [9, 28, 40],
+    "leader_skill": { "name": "＜新星＞ブレイクダメージアップ", "description": "「新星」は「ブレイクダメージ+25%」と「攻撃対象がブレイク状態の時、スキルダメージ+25%」"}
   },
   {
     "id": 180,
     "base_character_id": 39907,
     "attr": "火",
-    "name": {
-      "zh": "萊莎【Startup Supporter】",
-      "ja": "ライザ【Startup Supporter】",
-      "en": "Ryza【Startup Supporter】"
-    },
+    "name": { "zh": "萊莎【Startup Supporter】", "ja": "ライザ【Startup Supporter】", "en": "Ryza【Startup Supporter】"},
     "date": "2026-02-21",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11003575,
     "skill2": 12003580,
-    "burst": 14003585
+    "burst": 14003585,
+    "passive_ids": [1990514, 1990515],
+    "tag_ids": [5, 9, 18, 22, 24, 40],
+    "leader_skill": { "name": "＜新星＞物防＆魔防アップ", "description": "「新星」は「物防・魔防+15%」"}
   },
   {
     "id": 179,
     "base_character_id": 43111,
     "attr": "火",
-    "name": {
-      "zh": "蕾斯娜【Startup Supporter】",
-      "ja": "レスナ【Startup Supporter】",
-      "en": "Resna【Startup Supporter】"
-    },
+    "name": { "zh": "蕾斯娜【Startup Supporter】", "ja": "レスナ【Startup Supporter】", "en": "Resna【Startup Supporter】"},
     "date": "2026-02-21",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003545,
     "skill2": 12003550,
-    "burst": 14003555
+    "burst": 14003555,
+    "passive_ids": [1990512, 1990513],
+    "tag_ids": [7, 9, 13, 15, 40],
+    "leader_skill": { "name": "＜新星＞スキルダメージアップ", "description": "「新星」は「スキルダメージ+40%」"}
   },
   {
     "id": 178,
     "base_character_id": 43209,
     "attr": "突",
-    "name": {
-      "zh": "瓦萊莉婭【Startup Supporter】",
-      "ja": "ヴァレリア【Startup Supporter】",
-      "en": "Valeria【Startup Supporter】"
-    },
+    "name": { "zh": "瓦萊莉婭【Startup Supporter】", "ja": "ヴァレリア【Startup Supporter】", "en": "Valeria【Startup Supporter】"},
     "date": "2026-02-21",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003515,
     "skill2": 12003520,
-    "burst": 14003525
+    "burst": 14003525,
+    "passive_ids": [1990506, 1990507],
+    "tag_ids": [7, 10, 25, 27, 40],
+    "leader_skill": { "name": "＜新星＞物攻アップ", "description": "「新星」は「物攻+25%」"}
   },
   {
     "id": 177,
     "base_character_id": 46501,
     "attr": "突",
-    "name": {
-      "zh": "泰妮【Lovable Inspector】",
-      "ja": "タイニー【Lovable Inspector】",
-      "en": "Tiny【Lovable Inspector】"
-    },
+    "name": { "zh": "泰妮【Lovable Inspector】", "ja": "タイニー【Lovable Inspector】", "en": "Tiny【Lovable Inspector】"},
     "date": "2026-02-21",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003605,
     "skill2": 12003610,
-    "burst": 14003615
+    "burst": 14003615,
+    "passive_ids": [1990527, 1990528],
+    "tag_ids": [34, 41, 20, 26],
+    "leader_skill": { "name": "諸島同盟監察官見習い", "description": "味方全員は「無数島群域」1人につき「物攻・魔攻+12%」"}
   },
   {
     "id": 176,
     "base_character_id": 44804,
     "active1": 14003616,
     "attr": "冰",
-    "name": {
-      "zh": "安潔【人形遣いの魔女】",
-      "ja": "アンチュ【人形遣いの魔女】",
-      "en": "Antje【人形遣いの魔女】"
-    },
+    "name": { "zh": "安潔【人形遣いの魔女】", "ja": "アンチュ【人形遣いの魔女】", "en": "Antje【人形遣いの魔女】"},
     "date": "2026-02-13",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003488,
     "skill2": 12003493,
-    "burst": 14003498
+    "burst": 14003498,
+    "passive_ids": [1990522, 1990523],
+    "tag_ids": [7, 33, 38, 15, 30],
+    "leader_skill": { "name": "極夜の魔女", "description": "「錬金党」は「先駆け」と「スキルダメージ+50%」"}
   },
   {
     "id": 175,
     "base_character_id": 45004,
     "attr": "冰",
-    "name": {
-      "zh": "克莉賽爾達【極夜の錬金党党首】",
-      "ja": "クリセルダ【極夜の錬金党党首】",
-      "en": "Criselda【極夜の錬金党党首】"
-    },
+    "name": { "zh": "克莉賽爾達【極夜の錬金党党首】", "ja": "クリセルダ【極夜の錬金党党首】", "en": "Criselda【極夜の錬金党党首】"},
     "date": "2026-02-09",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003473,
     "skill2": 12003478,
-    "burst": 14003483
+    "burst": 14003483,
+    "passive_ids": [1990520, 1990521],
+    "tag_ids": [7, 33, 38, 16, 23],
+    "leader_skill": { "name": "極夜のカリスマ", "description": "「冥き追憶」は「物攻・魔攻・物防・魔防+30%」"}
   },
   {
     "id": 174,
     "base_character_id": 44102,
     "attr": "斬",
-    "name": {
-      "zh": "傑隆【Break the Curse】",
-      "ja": "ジェロン【Break the Curse】",
-      "en": "Geron【Break the Curse】"
-    },
+    "name": { "zh": "傑隆【Break the Curse】", "ja": "ジェロン【Break the Curse】", "en": "Geron【Break the Curse】"},
     "date": "2026-02-04",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003433,
     "skill2": 12003438,
-    "burst": 14003443
+    "burst": 14003443,
+    "passive_ids": [1990518, 1990519],
+    "tag_ids": [7, 33, 11, 28, 30],
+    "leader_skill": { "name": "呪いを乗り越えた先", "description": "「騎士」は「先駆け」と「クリティカルダメージ+50%」"}
   },
   {
     "id": 173,
     "base_character_id": 46401,
     "attr": "突",
-    "name": {
-      "zh": "提姆【Little Knight】",
-      "ja": "ティム【Little Knight】",
-      "en": "Tim【Little Knight】"
-    },
+    "name": { "zh": "提姆【Little Knight】", "ja": "ティム【Little Knight】", "en": "Tim【Little Knight】"},
     "date": "2026-01-30",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003418,
     "skill2": 12003423,
-    "burst": 14003428
+    "burst": 14003428,
+    "passive_ids": [1990516, 1990517],
+    "tag_ids": [7, 11, 17, 28],
+    "leader_skill": { "name": "心優しき健気な青年", "description": "「真面目」は「攻撃を受けた時、自身のHPを5%回復」と「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 172,
     "base_character_id": 44902,
     "attr": "雷",
-    "name": {
-      "zh": "瓦爾特【Suit of Vertex】",
-      "ja": "ワルター【Suit of Vertex】",
-      "en": "Walther【Suit of Vertex】"
-    },
+    "name": { "zh": "瓦爾特【Suit of Vertex】", "ja": "ワルター【Suit of Vertex】", "en": "Walther【Suit of Vertex】"},
     "date": "2026-01-26",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11003403,
     "skill2": 12003408,
-    "burst": 14003413
+    "burst": 14003413,
+    "passive_ids": [1990503, 1990504],
+    "tag_ids": [7, 33, 39, 20, 27],
+    "leader_skill": { "name": "人造頂獣の遣い手", "description": "「ランターナ」は「物防・魔防＋50%」"}
   },
   {
     "id": 171,
     "base_character_id": 60201,
     "attr": "雷",
-    "name": {
-      "zh": "史雷【白の意思を継ぐ者】",
-      "ja": "スレイ【白の意思を継ぐ者】",
-      "en": "Slade【白の意思を継ぐ者】"
-    },
+    "name": { "zh": "史雷【白の意思を継ぐ者】", "ja": "スレイ【白の意思を継ぐ者】", "en": "Slade【白の意思を継ぐ者】"},
     "date": "2026-01-21",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003388,
     "skill2": 12003393,
-    "burst": 14003398
+    "burst": 14003398,
+    "passive_ids": [1990501, 1990502],
+    "tag_ids": [7, 9, 39, 16, 23],
+    "leader_skill": { "name": "父の遺志を宿して", "description": "味方全員は「ハルフェン復興隊」1人につき「基礎物攻・基礎魔攻+100」"}
   },
   {
     "id": 170,
     "base_character_id": 60101,
     "attr": "風",
-    "name": {
-      "zh": "莉雅絲【Mistletoe of Hope】",
-      "ja": "リアス【Mistletoe of Hope】",
-      "en": "Rias【Mistletoe of Hope】"
-    },
+    "name": { "zh": "莉雅絲【Mistletoe of Hope】", "ja": "リアス【Mistletoe of Hope】", "en": "Rias【Mistletoe of Hope】"},
     "date": "2026-01-16",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003373,
     "skill2": 12003378,
-    "burst": 14003383
+    "burst": 14003383,
+    "passive_ids": [1990499, 1990500],
+    "tag_ids": [7, 9, 39, 13, 24],
+    "leader_skill": { "name": "大好きな町をもう一度", "description": "味方全員は「約束と協力」1人につき「物攻・魔攻+10%」"}
   },
   {
     "id": 169,
     "base_character_id": 43110,
     "attr": "風",
-    "name": {
-      "zh": "蕾斯娜【幸爛漫・福ノ華】",
-      "ja": "レスナ【幸爛漫・福ノ華】",
-      "en": "Resna【幸爛漫・福ノ華】"
-    },
+    "name": { "zh": "蕾斯娜【幸爛漫・福ノ華】", "ja": "レスナ【幸爛漫・福ノ華】", "en": "Resna【幸爛漫・福ノ華】"},
     "date": "2025-12-31",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003357,
     "skill2": 12003362,
-    "burst": 14003367
+    "burst": 14003367,
+    "passive_ids": [1990495, 1990496],
+    "tag_ids": [7, 9, 15, 21, 28],
+    "leader_skill": { "name": "追風に帆を上げましょう！", "description": "得意属性が風属性のキャラは「物攻・魔攻・物防・魔防+25%」"}
   },
   {
     "id": 168,
     "base_character_id": 43805,
     "attr": "風",
-    "name": {
-      "zh": "伊札娜【Starry Heavens Tone】",
-      "ja": "イザナ【Starry Heavens Tone】",
-      "en": "Izana【Starry Heavens Tone】"
-    },
+    "name": { "zh": "伊札娜【Starry Heavens Tone】", "ja": "イザナ【Starry Heavens Tone】", "en": "Izana【Starry Heavens Tone】"},
     "date": "2025-12-24",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003342,
     "skill2": 12003347,
-    "burst": 14003352
+    "burst": 14003352,
+    "passive_ids": [1990493, 1990494],
+    "tag_ids": [7, 9, 11, 21, 26],
+    "leader_skill": { "name": "星夜の調べ", "description": "「季節の装い」は「WEAK攻撃時、スキルダメージ+100%」"}
   },
   {
     "id": 167,
     "base_character_id": 44803,
     "attr": "火",
-    "name": {
-      "zh": "安潔【ミルキィバニー】",
-      "ja": "アンチュ【ミルキィバニー】",
-      "en": "Antje【ミルキィバニー】"
-    },
+    "name": { "zh": "安潔【ミルキィバニー】", "ja": "アンチュ【ミルキィバニー】", "en": "Antje【ミルキィバニー】"},
     "date": "2025-12-19",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003315,
     "skill2": 12003320,
-    "burst": 14003325
+    "burst": 14003325,
+    "passive_ids": [1990490, 1990491],
+    "tag_ids": [7, 33, 15, 30],
+    "leader_skill": { "name": "本からは得られない熱狂", "description": "「読書」は「先駆け」と「クリティカルダメージ+50%」"}
   },
   {
     "id": 166,
     "base_character_id": 45003,
     "active1": 14003368,
     "attr": "火",
-    "name": {
-      "zh": "克莉賽爾達【トリッキーバニー】",
-      "ja": "クリセルダ【トリッキーバニー】",
-      "en": "Criselda【トリッキーバニー】"
-    },
+    "name": { "zh": "克莉賽爾達【トリッキーバニー】", "ja": "クリセルダ【トリッキーバニー】", "en": "Criselda【トリッキーバニー】"},
     "date": "2025-12-12",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003300,
     "skill2": 12003305,
-    "burst": 14003310
+    "burst": 14003310,
+    "passive_ids": [1990488, 1990489],
+    "tag_ids": [7, 33, 16, 23],
+    "leader_skill": { "name": "あなたの心に火をつけてあげる", "description": "得意属性が火属性のキャラは「物攻・魔攻・物防・魔防+25%」"}
   },
   {
     "id": 165,
     "base_character_id": 46002,
     "attr": "突",
-    "name": {
-      "zh": "格烏【九偉人 No.5】",
-      "ja": "ゴゥ【九偉人 No.5】",
-      "en": "Gou【九偉人 No.5】"
-    },
+    "name": { "zh": "格烏【九偉人 No.5】", "ja": "ゴゥ【九偉人 No.5】", "en": "Gou【九偉人 No.5】"},
     "date": "2025-12-05",
-    "image": "",
     "職種": "破防者",
     "skill1": 14003269,
     "skill2": 14003274,
-    "burst": 14003279
+    "burst": 14003279,
+    "passive_ids": [1990485, 1990486],
+    "tag_ids": [37, 38, 23, 28],
+    "leader_skill": { "name": "父と母より与えられし使命", "description": "味方全員は「冥き追憶」1人につき「物攻・魔攻+10%」と「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 164,
     "base_character_id": 46201,
     "attr": "突",
-    "name": {
-      "zh": "希特琳【Charming Jewel】",
-      "ja": "シトリン【Charming Jewel】",
-      "en": "Citrine【Charming Jewel】"
-    },
+    "name": { "zh": "希特琳【Charming Jewel】", "ja": "シトリン【Charming Jewel】", "en": "Citrine【Charming Jewel】"},
     "date": "2025-11-28",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003254,
     "skill2": 12003259,
-    "burst": 14003264
+    "burst": 14003264,
+    "passive_ids": [1990483, 1990484],
+    "tag_ids": [37, 13, 27],
+    "leader_skill": { "name": "心を惑わす魔性の瞳", "description": "「九偉人」は「先駆け」と「クリティカルダメージ+50%」"}
   },
   {
     "id": 163,
     "base_character_id": 46101,
     "active1": 14003280,
     "attr": "突",
-    "name": {
-      "zh": "莉貝【Innate Strategist】",
-      "ja": "リーベ【Innate Strategist】",
-      "en": "Liebe【Innate Strategist】"
-    },
+    "name": { "zh": "莉貝【Innate Strategist】", "ja": "リーベ【Innate Strategist】", "en": "Liebe【Innate Strategist】"},
     "date": "2025-11-21",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003239,
     "skill2": 12003244,
-    "burst": 14003249
+    "burst": 14003249,
+    "passive_ids": [1990479, 1990480],
+    "tag_ids": [37, 20, 28],
+    "leader_skill": { "name": "才知に長けた参謀役", "description": "得意属性が突属性のキャラは「物攻+50%」"}
   },
   {
     "id": 162,
     "base_character_id": 44004,
     "attr": "突",
-    "name": {
-      "zh": "鴉【月影の執行者】",
-      "ja": "鴉【月影の執行者】",
-      "en": "Crow【月影の執行者】"
-    },
+    "name": { "zh": "鴉【月影の執行者】", "ja": "鴉【月影の執行者】", "en": "Crow【月影の執行者】"},
     "date": "2025-11-07",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003224,
     "skill2": 12003229,
-    "burst": 14003234
+    "burst": 14003234,
+    "passive_ids": [1990481, 1990482],
+    "tag_ids": [7, 38, 28, 30],
+    "leader_skill": { "name": "影の秩序を守る者", "description": "味方全員は「冥き追憶」1人につき「スキルダメージ・クリティカルダメージ+20%」"}
   },
   {
     "id": 161,
     "base_character_id": 45202,
     "attr": "打",
-    "name": {
-      "zh": "阿爾比娜【トロピカル・シャイン】",
-      "ja": "アルビーナ【トロピカル・シャイン】",
-      "en": "Alvina【トロピカル・シャイン】"
-    },
+    "name": { "zh": "阿爾比娜【トロピカル・シャイン】", "ja": "アルビーナ【トロピカル・シャイン】", "en": "Alvina【トロピカル・シャイン】"},
     "date": "2025-10-31",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003194,
     "skill2": 12003199,
-    "burst": 14003204
+    "burst": 14003204,
+    "passive_ids": [1990477, 1990478],
+    "tag_ids": [21, 34, 13, 24],
+    "leader_skill": { "name": "常夏の島で開花する才能", "description": "「季節の装い」は「バーストスキルダメージ+100%」"}
   },
   {
     "id": 160,
     "base_character_id": 70201,
     "attr": "打",
-    "name": {
-      "zh": "穗香【クロス・ザ・ライン】",
-      "ja": "ほのか【クロス・ザ・ライン】",
-      "en": "Honoka【クロス・ザ・ライン】"
-    },
+    "name": { "zh": "穗香【クロス・ザ・ライン】", "ja": "ほのか【クロス・ザ・ライン】", "en": "Honoka【クロス・ザ・ライン】"},
     "date": "2025-10-24",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003179,
     "skill2": 12003184,
-    "burst": 14003189
+    "burst": 14003189,
+    "passive_ids": [1990475, 1990476],
+    "tag_ids": [21, 17, 12, 26],
+    "leader_skill": { "name": "絶対秘密のスクールガール", "description": "得意属性が打属性のキャラは「攻撃対象がブレイク状態の時、スキルダメージ+100%」"}
   },
   {
     "id": 159,
     "base_character_id": 43109,
     "attr": "打",
-    "name": {
-      "zh": "蕾斯娜【ヴィーナス・ノヴァ】",
-      "ja": "レスナ【ヴィーナス・ノヴァ】",
-      "en": "Resna【ヴィーナス・ノヴァ】"
-    },
+    "name": { "zh": "蕾斯娜【ヴィーナス・ノヴァ】", "ja": "レスナ【ヴィーナス・ノヴァ】", "en": "Resna【ヴィーナス・ノヴァ】"},
     "date": "2025-10-09",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003164,
     "skill2": 12003169,
-    "burst": 14003174
+    "burst": 14003174,
+    "passive_ids": [1990473, 1990474],
+    "tag_ids": [21, 7, 9, 15, 28],
+    "leader_skill": { "name": "常夏の島で見つけた新境地", "description": "味方全員は「季節の装い」1人につき「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 158,
     "base_character_id": 70101,
     "attr": "打",
-    "name": {
-      "zh": "瑪莉・蘿絲【トゥインクル・ローズ】",
-      "ja": "マリー・ローズ【トゥインクル・ローズ】",
-      "en": "Marie Rose【トゥインクル・ローズ】"
-    },
+    "name": { "zh": "瑪莉・蘿絲【トゥインクル・ローズ】", "ja": "マリー・ローズ【トゥインクル・ローズ】", "en": "Marie Rose【トゥインクル・ローズ】"},
     "date": "2025-09-26",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003149,
     "skill2": 12003154,
-    "burst": 14003159
+    "burst": 14003159,
+    "passive_ids": [1990471, 1990472],
+    "tag_ids": [21, 17, 23, 28],
+    "leader_skill": { "name": "\"小\"悪魔サーバント", "description": "「季節の装い」は「先駆け」と「スキルダメージ+50%」"}
   },
   {
     "id": 157,
     "base_character_id": 46001,
     "attr": "打",
-    "name": {
-      "zh": "格烏【Faithful Fighter】",
-      "ja": "ゴゥ【Faithful Fighter】",
-      "en": "Gou【Faithful Fighter】"
-    },
+    "name": { "zh": "格烏【Faithful Fighter】", "ja": "ゴゥ【Faithful Fighter】", "en": "Gou【Faithful Fighter】"},
     "date": "2025-09-19",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11003097,
     "skill2": 12003102,
-    "burst": 14003107
+    "burst": 14003107,
+    "passive_ids": [1990469, 1990470],
+    "tag_ids": [37, 23, 28],
+    "leader_skill": { "name": "侠気に富んだ熱血漢", "description": "得意属性が打属性のキャラは「物防・魔防+35%」"}
   },
   {
     "id": 156,
     "base_character_id": 45401,
     "attr": "打",
-    "name": {
-      "zh": "耶爾卡【Nifty Rover】",
-      "ja": "イェルカ【Nifty Rover】",
-      "en": "Jelka【Nifty Rover】"
-    },
+    "name": { "zh": "耶爾卡【Nifty Rover】", "ja": "イェルカ【Nifty Rover】", "en": "Jelka【Nifty Rover】"},
     "date": "2025-09-12",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003082,
     "skill2": 12003087,
-    "burst": 14003092
+    "burst": 14003092,
+    "passive_ids": [1990390, 1990391],
+    "tag_ids": [37, 18, 23],
+    "leader_skill": { "name": "いなせな風来坊", "description": "得意属性が打属性のキャラは「物攻+40%」"}
   },
   {
     "id": 155,
     "base_character_id": 45402,
     "attr": "火",
-    "name": {
-      "zh": "耶爾卡【九偉人 No.3】",
-      "ja": "イェルカ【九偉人 No.3】",
-      "en": "Jelka【九偉人 No.3】"
-    },
+    "name": { "zh": "耶爾卡【九偉人 No.3】", "ja": "イェルカ【九偉人 No.3】", "en": "Jelka【九偉人 No.3】"},
     "date": "2025-09-12",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11003209,
     "skill2": 12003214,
-    "burst": 14003219
+    "burst": 14003219,
+    "passive_ids": [1990467, 1990468],
+    "tag_ids": [37, 18, 23],
+    "leader_skill": { "name": "受けた恩は返すものさ", "description": "「世話焼き」は「スキルダメージ・バーストスキルダメージ+50%」"}
   },
   {
     "id": 154,
     "base_character_id": 45901,
     "attr": "雷",
-    "name": {
-      "zh": "千歲【かんなぎの乙女】",
-      "ja": "千歳【かんなぎの乙女】",
-      "en": "Chitose【かんなぎの乙女】"
-    },
+    "name": { "zh": "千歲【かんなぎの乙女】", "ja": "千歳【かんなぎの乙女】", "en": "Chitose【かんなぎの乙女】"},
     "date": "2025-09-05",
-    "image": "",
     "職種": "支援者",
     "skill1": 11003067,
     "skill2": 12003072,
-    "burst": 14003077
+    "burst": 14003077,
+    "passive_ids": [1990383, 1990384],
+    "tag_ids": [34, 36, 23, 30],
+    "leader_skill": { "name": "敬虔な心の巫女", "description": "「ケイウン」は「魔攻・魔防+40%」"}
   },
   {
     "id": 153,
     "base_character_id": 45801,
     "attr": "雷",
-    "name": {
-      "zh": "鏑矢【地に輝ける一番星】",
-      "ja": "鏑矢【地に輝ける一番星】",
-      "en": "Kaburaya【地に輝ける一番星】"
-    },
+    "name": { "zh": "鏑矢【地に輝ける一番星】", "ja": "鏑矢【地に輝ける一番星】", "en": "Kaburaya【地に輝ける一番星】"},
     "date": "2025-08-29",
-    "image": "",
     "職種": "破防者",
     "skill1": 11003052,
     "skill2": 12003057,
-    "burst": 14003062
+    "burst": 14003062,
+    "passive_ids": [1990388, 1990389],
+    "tag_ids": [34, 36, 27],
+    "leader_skill": { "name": "武を極めし領主", "description": "味方全員は「ケイウン」1人につき「物攻・魔攻+10%」と「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 152,
     "base_character_id": 45701,
     "attr": "雷",
-    "name": {
-      "zh": "永遠【口説き上手の式使い】",
-      "ja": "永遠【口説き上手の式使い】",
-      "en": "Towa【口説き上手の式使い】"
-    },
+    "name": { "zh": "永遠【口説き上手の式使い】", "ja": "永遠【口説き上手の式使い】", "en": "Towa【口説き上手の式使い】"},
     "date": "2025-08-22",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11003012,
     "skill2": 12003017,
-    "burst": 14003022
+    "burst": 14003022,
+    "passive_ids": [1990381, 1990382],
+    "tag_ids": [34, 36, 29],
+    "leader_skill": { "name": "極東の美しき陰陽師", "description": "味方全員は「ケイウン」1人につき「戦闘アイテムダメージ+10%」と「物防・魔防+10%」"}
   },
   {
     "id": 151,
     "base_character_id": 45601,
     "attr": "雷",
-    "name": {
-      "zh": "鬼門【篤き忠義の忍び】",
-      "ja": "鬼門【篤き忠義の忍び】",
-      "en": "Kimon【篤き忠義의忍び】"
-    },
+    "name": { "zh": "鬼門【篤き忠義の忍び】", "ja": "鬼門【篤き忠義の忍び】", "en": "Kimon【篤き忠義의忍び】"},
     "date": "2025-08-15",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002997,
     "skill2": 12003002,
-    "burst": 14003007
+    "burst": 14003007,
+    "passive_ids": [1990379, 1990380],
+    "tag_ids": [34, 36, 28],
+    "leader_skill": { "name": "新たな時代の忍び", "description": "「ケイウン」は「魔攻+50%」と「バーストスキルダメージ+50%」"}
   },
   {
     "id": 150,
     "base_character_id": 44003,
     "active1": 14003047,
     "attr": "斬",
-    "name": {
-      "zh": "約翰娜【ブリリアントダイバー】",
-      "ja": "ヨハナ【ブリリアントダイバー】",
-      "en": "Johanna【ブリリアントダイバー】"
-    },
+    "name": { "zh": "約翰娜【ブリリアントダイバー】", "ja": "ヨハナ【ブリリアントダイバー】", "en": "Johanna【ブリリアントダイバー】"},
     "date": "2025-08-08",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002982,
     "skill2": 12002987,
-    "burst": 14002992
+    "burst": 14002992,
+    "passive_ids": [1990377, 1990378],
+    "tag_ids": [7, 9, 21, 24],
+    "leader_skill": { "name": "暑さなんか切り裂いてやるわ！", "description": "得意属性が斬属性のキャラは「スキルダメージ・ブレイクダメージ+40%」"}
   },
   {
     "id": 149,
     "base_character_id": 45002,
     "attr": "斬",
-    "name": {
-      "zh": "克莉賽爾達【Seaside Butterfly】",
-      "ja": "クリセルダ【Seaside Butterfly】",
-      "en": "Criselda【Seaside Butterfly】"
-    },
+    "name": { "zh": "克莉賽爾達【Seaside Butterfly】", "ja": "クリセルダ【Seaside Butterfly】", "en": "Criselda【Seaside Butterfly】"},
     "date": "2025-07-31",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002966,
     "skill2": 12002971,
-    "burst": 14002976
+    "burst": 14002976,
+    "passive_ids": [1990373, 1990374],
+    "tag_ids": [7, 33, 16, 21, 23],
+    "leader_skill": { "name": "立場は忘れて楽しみましょ", "description": "味方全員は「ランターナ」1人につき「物攻・魔攻+10%」"}
   },
   {
     "id": 148,
     "base_character_id": 44203,
     "attr": "斬",
-    "name": {
-      "zh": "拉拉【Seaside Queen】",
-      "ja": "ララ【Seaside Queen】",
-      "en": "Lara【Seaside Queen】"
-    },
+    "name": { "zh": "拉拉【Seaside Queen】", "ja": "ララ【Seaside Queen】", "en": "Lara【Seaside Queen】"},
     "date": "2025-07-22",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11002928,
     "skill2": 12002933,
-    "burst": 14002938
+    "burst": 14002938,
+    "passive_ids": [1990371, 1990372],
+    "tag_ids": [7, 33, 19, 21, 32],
+    "leader_skill": { "name": "王があなたを支えますわ", "description": "得意属性が斬属性のキャラは「受けるダメージ-25％」"}
   },
   {
     "id": 147,
     "base_character_id": 44802,
     "attr": "斬",
-    "name": {
-      "zh": "安潔【マリンパペッティア】",
-      "ja": "アンチュ【マリンパペッティア】",
-      "en": "Antje【マリンパペッティア】"
-    },
+    "name": { "zh": "安潔【マリンパペッティア】", "ja": "アンチュ【マリンパペッティア】", "en": "Antje【マリンパペッティア】"},
     "date": "2025-07-11",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002913,
     "skill2": 12002918,
-    "burst": 14002923
+    "burst": 14002923,
+    "passive_ids": [1990369, 1990370],
+    "tag_ids": [7, 33, 15, 21, 30],
+    "leader_skill": { "name": "みんなと過ごす初めての海", "description": "「ランターナ」は「物攻+40%」"}
   },
   {
     "id": 146,
     "base_character_id": 25505,
     "attr": "冰",
-    "name": {
-      "zh": "蘿樂娜【ワンダフルプリンセス】",
-      "ja": "ロロナ【ワンダフルプリンセス】",
-      "en": "Rorona【ワンダフルプリンセス】"
-    },
+    "name": { "zh": "蘿樂娜【ワンダフルプリンセス】", "ja": "ロロナ【ワンダフルプリンセス】", "en": "Rorona【ワンダフルプリンセス】"},
     "date": "2025-06-30",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11002897,
     "skill2": 12002902,
-    "burst": 14002907
+    "burst": 14002907,
+    "passive_ids": [1990367, 1990368],
+    "tag_ids": [2, 9, 26],
+    "leader_skill": { "name": "ロロナ姫の祈り", "description": "得意属性が氷属性のキャラは「物防・魔防+35%」"}
   },
   {
     "id": 145,
     "base_character_id": 26904,
     "active1": 14002908,
     "attr": "冰",
-    "name": {
-      "zh": "托托莉【エンドレスボイジャー】",
-      "ja": "トトリ【エンドレスボイジャー】",
-      "en": "Totori【エンドレスボイジャー】"
-    },
+    "name": { "zh": "托托莉【エンドレスボイジャー】", "ja": "トトリ【エンドレスボイジャー】", "en": "Totori【エンドレスボイジャー】"},
     "date": "2025-06-24",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002877,
     "skill2": 12002882,
-    "burst": 14002887
+    "burst": 14002887,
+    "passive_ids": [1990364, 1990365],
+    "tag_ids": [2, 10, 14, 18],
+    "leader_skill": { "name": "アーランドの名冒険者", "description": "「アーランド」は「魔攻・魔防+40%」"}
   },
   {
     "id": 144,
     "base_character_id": 27002,
     "attr": "冰",
-    "name": {
-      "zh": "敏敏【プラウドボイジャー】",
-      "ja": "ミミ【プラウドボイジャー】",
-      "en": "Mimi【プラウドボイジャー】"
-    },
+    "name": { "zh": "敏敏【プラウドボイジャー】", "ja": "ミミ【プラウドボイジャー】", "en": "Mimi【プラウドボイジャー】"},
     "date": "2025-06-19",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002862,
     "skill2": 12002867,
-    "burst": 14002872
+    "burst": 14002872,
+    "passive_ids": [1990362, 1990363],
+    "tag_ids": [2, 18, 19, 28],
+    "leader_skill": { "name": "とあるアーランド名家のお嬢様", "description": "味方全員は「アーランド」1人につき「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 143,
     "base_character_id": 40102,
     "attr": "風",
-    "name": {
-      "zh": "莉拉【雅なる豪傑】",
-      "ja": "リラ【雅なる豪傑】",
-      "en": "Lila【雅なる豪傑】"
-    },
+    "name": { "zh": "莉拉【雅なる豪傑】", "ja": "リラ【雅なる豪傑】", "en": "Lila【雅なる豪傑】"},
     "date": "2025-06-13",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11002847,
     "skill2": 12002852,
-    "burst": 14002857
+    "burst": 14002857,
+    "passive_ids": [1990358, 1990359],
+    "tag_ids": [5, 14, 18, 21],
+    "leader_skill": { "name": "精霊の風をまとって", "description": "得意属性が風属性のキャラは「物防・魔防+35%」"}
   },
   {
     "id": 142,
     "base_character_id": 44002,
     "attr": "冰",
-    "name": {
-      "zh": "約翰娜【Phenom's Reborn】",
-      "ja": "ヨハナ【Phenom's Reborn】",
-      "en": "Johanna【Phenom's Reborn】"
-    },
+    "name": { "zh": "約翰娜【Phenom's Reborn】", "ja": "ヨハナ【Phenom's Reborn】", "en": "Johanna【Phenom's Reborn】"},
     "date": "2025-06-06",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002821,
     "skill2": 12002826,
-    "burst": 14002831
+    "burst": 14002831,
+    "ex_skill": 14002892,
+    "passive_ids": [1990360, 1990361],
+    "tag_ids": [7, 9, 15, 24],
+    "leader_skill": { "name": "震えて待ちなさい！", "description": "得意属性が氷属性のキャラは「バーストスキルダメージ+75%」"}
   },
   {
     "id": 141,
     "base_character_id": 43804,
     "attr": "風",
-    "name": {
-      "zh": "伊札娜【Knight's Beginning】",
-      "ja": "イザナ【Knight's Beginning】",
-      "en": "Izana【Knight's Beginning】"
-    },
+    "name": { "zh": "伊札娜【Knight's Beginning】", "ja": "イザナ【Knight's Beginning】", "en": "Izana【Knight's Beginning】"},
     "date": "2025-05-30",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002806,
     "skill2": 12002811,
-    "burst": 14002816
+    "burst": 14002816,
+    "passive_ids": [1990356, 1990357],
+    "tag_ids": [7, 9, 11, 26],
+    "leader_skill": { "name": "ハンマーの風を受けよっ！", "description": "得意属性が風属性のキャラは「スキルダメージ・クリティカルダメージ+50%」"}
   },
   {
     "id": 140,
     "base_character_id": 43404,
     "attr": "突",
-    "name": {
-      "zh": "尤娜【With Ideals】",
-      "ja": "ユナ【With Ideals】",
-      "en": "Juna【With Ideals】"
-    },
+    "name": { "zh": "尤娜【With Ideals】", "ja": "ユナ【With Ideals】", "en": "Juna【With Ideals】"},
     "date": "2025-05-21",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002780,
     "skill2": 12002785,
-    "burst": 14002790
+    "burst": 14002790,
+    "passive_ids": [1990354, 1990355],
+    "tag_ids": [7, 31, 28],
+    "leader_skill": { "name": "類稀なリーダーシップ", "description": "「真面目」は「物防・魔防+50%」"}
   },
   {
     "id": 139,
     "base_character_id": 43603,
     "attr": "風",
-    "name": {
-      "zh": "芙洛可【ハートフルミライ】",
-      "ja": "フロッケ【ハートフルミライ】",
-      "en": "Flocke【ハートフルミライ】"
-    },
+    "name": { "zh": "芙洛可【ハートフルミライ】", "ja": "フロッケ【ハートフルミライ】", "en": "Flocke【ハートフルミライ】"},
     "date": "2025-05-16",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002765,
     "skill2": 12002770,
-    "burst": 14002775
+    "burst": 14002775,
+    "passive_ids": [1990352, 1990353],
+    "tag_ids": [7, 31, 16],
+    "leader_skill": { "name": "みんなで一緒に過ごせる場所", "description": "「レスレリ学園」は「魔攻・魔防+40%」"}
   },
   {
     "id": 138,
     "base_character_id": 43504,
     "attr": "風",
-    "name": {
-      "zh": "海蒂【ドリームフューチャー】",
-      "ja": "ハイディ【ドリームフューチャー】",
-      "en": "Heidi【ドリームフューチャー】"
-    },
+    "name": { "zh": "海蒂【ドリームフューチャー】", "ja": "ハイディ【ドリームフューチャー】", "en": "Heidi【ドリームフューチャー】"},
     "date": "2025-05-12",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002750,
     "skill2": 12002755,
-    "burst": 14002760
+    "burst": 14002760,
+    "passive_ids": [1990346, 1990347],
+    "tag_ids": [7, 31, 29],
+    "leader_skill": { "name": "時代の追い風は科学にあり！", "description": "得意属性が風属性のキャラは「魔攻+50%」"}
   },
   {
     "id": 137,
     "base_character_id": 33504,
     "attr": "突",
-    "name": {
-      "zh": "普拉芙妲【Mighty Manager】",
-      "ja": "プラフタ【Mighty Manager】",
-      "en": "Plachta【Mighty Manager】"
-    },
+    "name": { "zh": "普拉芙妲【Mighty Manager】", "ja": "プラフタ【Mighty Manager】", "en": "Plachta【Mighty Manager】"},
     "date": "2025-05-07",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002735,
     "skill2": 12002740,
-    "burst": 14002745
+    "burst": 14002745,
+    "passive_ids": [1990350, 1990351],
+    "tag_ids": [4, 31, 13, 28],
+    "leader_skill": { "name": "良き学びを共に", "description": "味方全員は「レスレリ学園」1人につき「物攻・魔攻+10%」"}
   },
   {
     "id": 136,
     "base_character_id": 40005,
     "attr": "風",
-    "name": {
-      "zh": "科洛蒂婭【Blooming Creation】",
-      "ja": "クラウディア【Blooming Creation】",
-      "en": "Klaudia【Blooming Creation】"
-    },
+    "name": { "zh": "科洛蒂婭【Blooming Creation】", "ja": "クラウディア【Blooming Creation】", "en": "Klaudia【Blooming Creation】"},
     "date": "2025-04-30",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002627,
     "skill2": 12002632,
-    "burst": 14002637
+    "burst": 14002637,
+    "passive_ids": [1990348, 1990349],
+    "tag_ids": [5, 31, 13, 19],
+    "leader_skill": { "name": "友達になってくれませんか？", "description": "味方全員は「レスレリ学園」1人につき「魔攻・魔防+10%」"}
   },
   {
     "id": 135,
     "base_character_id": 50601,
     "attr": "火",
-    "name": {
-      "zh": "妮娜【ミステリアスな実力者】",
-      "ja": "ニーナ【ミステリアスな実力者】",
-      "en": "Nina【ミステリアスな実力者】"
-    },
+    "name": { "zh": "妮娜【ミステリアスな実力者】", "ja": "ニーナ【ミステリアスな実力者】", "en": "Nina【ミステリアスな実力者】"},
     "date": "2025-04-23",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002673,
     "skill2": 12002678,
-    "burst": 14002520
+    "burst": 14002520,
+    "passive_ids": [1990342, 1990343],
+    "tag_ids": [35, 27],
+    "leader_skill": { "name": "謎多き元傭兵", "description": "「アラディス調査団」は「物攻・魔攻・物防・魔防+30%」"}
   },
   {
     "id": 134,
     "base_character_id": 50501,
     "attr": "打",
-    "name": {
-      "zh": "魯格【我が道を征く者】",
-      "ja": "ルトガー【我が道を征く者】",
-      "en": "Rutger【我が道を征く者】"
-    },
+    "name": { "zh": "魯格【我が道を征く者】", "ja": "ルトガー【我が道を征く者】", "en": "Rutger【我が道を征く者】"},
     "date": "2025-04-16",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11002704,
     "skill2": 12002709,
-    "burst": 14002504
+    "burst": 14002504,
+    "passive_ids": [1990344, 1990345],
+    "tag_ids": [35, 18, 20],
+    "leader_skill": { "name": "自分なりの美学", "description": "得意属性が打属性のキャラは「物攻・魔攻・物防・魔防+25%」"}
   },
   {
     "id": 133,
     "base_character_id": 50401,
     "attr": "火",
-    "name": {
-      "zh": "艾菈【Friendly Fashionista】",
-      "ja": "アイラ【Friendly Fashionista】",
-      "en": "Isla【Friendly Fashionista】"
-    },
+    "name": { "zh": "艾菈【Friendly Fashionista】", "ja": "アイラ【Friendly Fashionista】", "en": "Isla【Friendly Fashionista】"},
     "date": "2025-04-09",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002468,
     "skill2": 12002473,
-    "burst": 14002478
+    "burst": 14002478,
+    "passive_ids": [1990340, 1990341],
+    "tag_ids": [35, 11, 17, 23],
+    "leader_skill": { "name": "おしゃれマインド", "description": "得意属性が火属性のキャラは「攻撃対象がブレイク状態の時、スキルダメージ+100%」"}
   },
   {
     "id": 132,
     "base_character_id": 50301,
     "attr": "打",
-    "name": {
-      "zh": "蕾妮雅【Sincere Devotion】",
-      "ja": "レイニャ【Sincere Devotion】",
-      "en": "Lenja【Sincere Devotion】"
-    },
+    "name": { "zh": "蕾妮雅【Sincere Devotion】", "ja": "レイニャ【Sincere Devotion】", "en": "Lenja【Sincere Devotion】"},
     "date": "2025-04-04",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002420,
     "skill2": 12002425,
-    "burst": 14002430
+    "burst": 14002430,
+    "passive_ids": [1990338, 1990339],
+    "tag_ids": [35, 28],
+    "leader_skill": { "name": "贖罪の旅", "description": "「アラディス調査団」は「戦闘アイテムダメージ+40%」と「スキルダメージ・バーストスキルダメージ+50%」"}
   },
   {
     "id": 131,
     "base_character_id": 50101,
     "attr": "火",
-    "name": {
-      "zh": "優米雅【Seeker of Memories】",
-      "ja": "ユミア【Seeker of Memories】",
-      "en": "Yumia【Seeker of Memories】"
-    },
+    "name": { "zh": "優米雅【Seeker of Memories】", "ja": "ユミア【Seeker of Memories】", "en": "Yumia【Seeker of Memories】"},
     "date": "2025-03-31",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002390,
     "skill2": 12002395,
-    "burst": 14002400
+    "burst": 14002400,
+    "passive_ids": [1990334, 1990335],
+    "tag_ids": [35, 13, 15, 32, 26],
+    "leader_skill": { "name": "記憶を辿って", "description": "味方全員は「アラディス調査団」1人につき「魔攻・魔防+10%」"}
   },
   {
     "id": 130,
     "base_character_id": 50201,
     "attr": "打",
-    "name": {
-      "zh": "維克多【正義を貫きし貴族】",
-      "ja": "ヴィクトル【正義を貫きし貴族】",
-      "en": "Victor【正義を貫きし貴族】"
-    },
+    "name": { "zh": "維克多【正義を貫きし貴族】", "ja": "ヴィクトル【正義を貫きし貴族】", "en": "Victor【正義を貫きし貴族】"},
     "date": "2025-03-31",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002405,
     "skill2": 12002410,
-    "burst": 14002415
+    "burst": 14002415,
+    "passive_ids": [1990336, 1990337],
+    "tag_ids": [35, 11, 28],
+    "leader_skill": { "name": "貫く正義", "description": "味方全員は「アラディス調査団」1人につき「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 129,
     "base_character_id": 43208,
     "attr": "斬",
-    "name": {
-      "zh": "瓦萊莉婭【Get Over Limit】",
-      "ja": "ヴァレリア【Get Over Limit】",
-      "en": "Valeria【Get Over Limit】"
-    },
+    "name": { "zh": "瓦萊莉婭【Get Over Limit】", "ja": "ヴァレリア【Get Over Limit】", "en": "Valeria【Get Over Limit】"},
     "date": "2025-03-26",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002330,
     "skill2": 12002335,
-    "burst": 14002340
+    "burst": 14002340,
+    "ex_skill": 14002489,
+    "passive_ids": [1990330, 1990331],
+    "tag_ids": [7, 10, 25, 27],
+    "leader_skill": { "name": "ちゃちゃっと倒してご飯にしましょ！", "description": "「マイペース」は「先駆け」と「物攻+35%」"}
   },
   {
     "id": 128,
     "base_character_id": 43108,
     "attr": "斬",
-    "name": {
-      "zh": "蕾斯娜【Rise Above Fate】",
-      "ja": "レスナ【Rise Above Fate】",
-      "en": "Resna【Rise Above Fate】"
-    },
+    "name": { "zh": "蕾斯娜【Rise Above Fate】", "ja": "レスナ【Rise Above Fate】", "en": "Resna【Rise Above Fate】"},
     "date": "2025-03-21",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002293,
     "skill2": 12002298,
-    "burst": 14002303
+    "burst": 14002303,
+    "passive_ids": [1990328, 1990329],
+    "tag_ids": [7, 9, 15, 28],
+    "leader_skill": { "name": "披荊斬棘、いざ行かん！", "description": "得意属性が斬属性の味方全員は「ブレイクダメージ・クリティカルダメージ+50%」"}
   },
   {
     "id": 127,
     "base_character_id": 45301,
     "attr": "斬",
-    "name": {
-      "zh": "陽妮【Mother's Affection】",
-      "ja": "ヤンネ【Mother's Affection】",
-      "en": "Janne【Mother's Affection】"
-    },
+    "name": { "zh": "陽妮【Mother's Affection】", "ja": "ヤンネ【Mother's Affection】", "en": "Janne【Mother's Affection】"},
     "date": "2025-03-17",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11002278,
     "skill2": 12002283,
-    "burst": 14002288
+    "burst": 14002288,
+    "passive_ids": [1990326, 1990327],
+    "tag_ids": [34, 11, 17, 28],
+    "leader_skill": { "name": "神聖国最強の聖戦士", "description": "得意属性が斬属性のキャラは「物攻・魔攻・物防・魔防+25%」"}
   },
   {
     "id": 126,
     "base_character_id": 45101,
     "attr": "斬",
-    "name": {
-      "zh": "貝普【Mourning Blades】",
-      "ja": "ベップ【Mourning Blades】",
-      "en": "Bepp【Mourning Blades】"
-    },
+    "name": { "zh": "貝普【Mourning Blades】", "ja": "ベップ【Mourning Blades】", "en": "Bepp【Mourning Blades】"},
     "date": "2025-03-12",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002248,
     "skill2": 12002253,
-    "burst": 14002258
+    "burst": 14002258,
+    "passive_ids": [1990320, 1990321],
+    "tag_ids": [34, 11, 27],
+    "leader_skill": { "name": "復讐を誓う若き戦士", "description": "「無数島群域」は「物攻・魔攻+50%」"}
   },
   {
     "id": 125,
     "base_character_id": 45201,
     "attr": "斬",
-    "name": {
-      "zh": "阿爾比娜【Dream of Hero】",
-      "ja": "アルビーナ【Dream of Hero】",
-      "en": "Alvina【Dream of Hero】"
-    },
+    "name": { "zh": "阿爾比娜【Dream of Hero】", "ja": "アルビーナ【Dream of Hero】", "en": "Alvina【Dream of Hero】"},
     "date": "2025-03-06",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002263,
     "skill2": 12002268,
-    "burst": 14002273
+    "burst": 14002273,
+    "passive_ids": [1990322, 1990323],
+    "tag_ids": [34, 13, 24],
+    "leader_skill": { "name": "星の案内人", "description": "「無数島群域」は「物攻・ブレイクダメージ+30%」"}
   },
   {
     "id": 124,
     "base_character_id": 39906,
     "attr": "突",
-    "name": {
-      "zh": "萊莎【Flowering Explorer】",
-      "ja": "ライザ【Flowering Explorer】",
-      "en": "Ryza【Flowering Explorer】"
-    },
+    "name": { "zh": "萊莎【Flowering Explorer】", "ja": "ライザ【Flowering Explorer】", "en": "Ryza【Flowering Explorer】"},
     "date": "2025-02-28",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002233,
     "skill2": 12002238,
-    "burst": 14002243
+    "burst": 14002243,
+    "passive_ids": [1990296, 1990297],
+    "tag_ids": [5, 9, 18, 22, 24],
+    "leader_skill": { "name": "冒険は突然やってくる！", "description": "得意属性が突属性のキャラは「物攻+40%」"}
   },
   {
     "id": 123,
     "base_character_id": 40004,
     "attr": "突",
-    "name": {
-      "zh": "科洛蒂婭【Flowering Doer】",
-      "ja": "クラウディア【Flowering Doer】",
-      "en": "Klaudia【Flowering Doer】"
-    },
+    "name": { "zh": "科洛蒂婭【Flowering Doer】", "ja": "クラウディア【Flowering Doer】", "en": "Klaudia【Flowering Doer】"},
     "date": "2025-02-21",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002218,
     "skill2": 12002223,
-    "burst": 14002228
+    "burst": 14002228,
+    "passive_ids": [1990294, 1990295],
+    "tag_ids": [5, 9, 13, 19],
+    "leader_skill": { "name": "あの夏の思い出を胸に", "description": "味方全員は「クーケン島」1人につき「物攻・魔攻+10%」"}
   },
   {
     "id": 122,
     "base_character_id": 33503,
     "attr": "冰",
-    "name": {
-      "zh": "普拉芙妲【Curious Theorist】",
-      "ja": "プラフタ【Curious Theorist】",
-      "en": "Plachta【Curious Theorist】"
-    },
+    "name": { "zh": "普拉芙妲【Curious Theorist】", "ja": "プラフタ【Curious Theorist】", "en": "Plachta【Curious Theorist】"},
     "date": "2025-02-14",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11002188,
     "skill2": 12002193,
-    "burst": 14002198
+    "burst": 14002198,
+    "passive_ids": [1990292, 1990293],
+    "tag_ids": [9, 15, 28],
+    "leader_skill": { "name": "この盾で守ってみせます！", "description": "得意属性が氷属性のキャラは「受けるダメージ-25%」"}
   },
   {
     "id": 121,
     "base_character_id": 35101,
     "attr": "風",
-    "name": {
-      "zh": "伊爾梅莉亞【Diligent Genius】",
-      "ja": "イルメリア【Diligent Genius】",
-      "en": "Ilmeria【Diligent Genius】"
-    },
+    "name": { "zh": "伊爾梅莉亞【Diligent Genius】", "ja": "イルメリア【Diligent Genius】", "en": "Ilmeria【Diligent Genius】"},
     "date": "2025-01-31",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002168,
     "skill2": 12002173,
-    "burst": 14002178
+    "burst": 14002178,
+    "passive_ids": [1990290, 1990291],
+    "tag_ids": [18, 19, 28],
+    "leader_skill": { "name": "超一流の助けはいかが？", "description": "得意属性が風属性のキャラは「物防・魔防+10%」と「攻撃対象がスタン状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 120,
     "base_character_id": 35003,
     "attr": "風",
-    "name": {
-      "zh": "菲莉絲【Twinning Ribbon】",
-      "ja": "フィリス【Twinning Ribbon】",
-      "en": "Firis【Twinning Ribbon】"
-    },
+    "name": { "zh": "菲莉絲【Twinning Ribbon】", "ja": "フィリス【Twinning Ribbon】", "en": "Firis【Twinning Ribbon】"},
     "date": "2025-01-24",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001973,
     "skill2": 12001978,
-    "burst": 14001983
+    "burst": 14001983,
+    "passive_ids": [1990262, 1990263],
+    "tag_ids": [6, 18],
+    "leader_skill": { "name": "リボンを風になびかせて", "description": "得意属性が風属性のキャラは「攻撃対象がブレイク状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 119,
     "base_character_id": 40402,
     "attr": "冰",
-    "name": {
-      "zh": "安佩爾【Sweet Butler】",
-      "ja": "アンペル【Sweet Butler】",
-      "en": "Empel【門を閉ざす者】"
-    },
+    "name": { "zh": "安佩爾【Sweet Butler】", "ja": "アンペル【Sweet Butler】", "en": "Empel【門を閉ざす者】"},
     "date": "2025-01-17",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002153,
     "skill2": 12002158,
-    "burst": 14002163
+    "burst": 14002163,
+    "passive_ids": [1990286, 1990287],
+    "tag_ids": [5, 14, 15, 17, 20],
+    "leader_skill": { "name": "継承されし知識", "description": "味方全員は「師匠」1人につき「物攻・魔攻+10%」"}
   },
   {
     "id": 118,
     "base_character_id": 44202,
     "attr": "冰",
-    "name": {
-      "zh": "拉拉【Great Refinement】",
-      "ja": "ララ【Great Refinement】",
-      "en": "Lara【Great Refinement】"
-    },
+    "name": { "zh": "拉拉【Great Refinement】", "ja": "ララ【Great Refinement】", "en": "Lara【Great Refinement】"},
     "date": "2025-01-17",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002138,
     "skill2": 12002143,
-    "burst": 14002148
+    "burst": 14002148,
+    "passive_ids": [1990284, 1990285],
+    "tag_ids": [7, 33, 15, 19, 32],
+    "leader_skill": { "name": "いかなるときも優雅たれ", "description": "味方全員は「お嬢様」1人につき「物攻・魔攻+10%」と「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 117,
     "base_character_id": 43902,
     "attr": "冰",
-    "name": {
-      "zh": "薩絲琪亞【Spring Wishes】",
-      "ja": "ザスキア【Spring Wishes】",
-      "en": "Saskia【Spring Wishes】"
-    },
+    "name": { "zh": "薩絲琪亞【Spring Wishes】", "ja": "ザスキア【Spring Wishes】", "en": "Saskia【Spring Wishes】"},
     "date": "2024-12-31",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002123,
     "skill2": 12002128,
-    "burst": 14002133
+    "burst": 14002133,
+    "ex_skill": 14002183,
+    "passive_ids": [1990282, 1990283],
+    "tag_ids": [7, 14, 21, 25],
+    "leader_skill": { "name": "身体の芯まで凍らせてあげる", "description": "得意属性が氷属性のキャラは「魔攻+40%」"}
   },
   {
     "id": 116,
     "base_character_id": 10201,
     "attr": "雷",
-    "name": {
-      "zh": "希婭【One And Only】",
-      "ja": "シア【One And Only】",
-      "en": "Schia【One And Only】"
-    },
+    "name": { "zh": "希婭【One And Only】", "ja": "シア【One And Only】", "en": "Schia【One And Only】"},
     "date": "2024-12-27",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002203,
     "skill2": 12002208,
-    "burst": 14002213
+    "burst": 14002213,
+    "passive_ids": [1990288, 1990289],
+    "tag_ids": [19, 23],
+    "leader_skill": { "name": "お掃除の時間ね", "description": "「世話焼き」は「物攻・魔攻+40%」"}
   },
   {
     "id": 115,
     "base_character_id": 45001,
     "attr": "雷",
-    "name": {
-      "zh": "克莉賽爾達【Ambitious Alchemist】",
-      "ja": "クリセルダ【Ambitious Alchemist】",
-      "en": "Criselda【Ambitious Alchemist】"
-    },
+    "name": { "zh": "克莉賽爾達【Ambitious Alchemist】", "ja": "クリセルダ【Ambitious Alchemist】", "en": "Criselda【Ambitious Alchemist】"},
     "date": "2024-12-20",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002108,
     "skill2": 12002113,
-    "burst": 14002118
+    "burst": 14002118,
+    "passive_ids": [1990280, 1990281],
+    "tag_ids": [7, 33, 16, 23],
+    "leader_skill": { "name": "私たちの渇望のために", "description": "得意属性が雷属性のキャラは「攻撃対象がブレイク状態の時、スキルダメージ+100%」"}
   },
   {
     "id": 114,
     "base_character_id": 43403,
     "attr": "雷",
-    "name": {
-      "zh": "尤娜【Starry Beauty】",
-      "ja": "ユナ【Starry Beauty】",
-      "en": "Juna【Starry Beauty】"
-    },
+    "name": { "zh": "尤娜【Starry Beauty】", "ja": "ユナ【Starry Beauty】", "en": "Juna【Starry Beauty】"},
     "date": "2024-12-13",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11002093,
     "skill2": 12002098,
-    "burst": 14002103
+    "burst": 14002103,
+    "passive_ids": [1990278, 1990279],
+    "tag_ids": [7, 8, 11, 21, 22],
+    "leader_skill": { "name": "星夜彩る優艶な騎士", "description": "「騎士」は「物防・魔防+35%」"}
   },
   {
     "id": 113,
     "base_character_id": 43207,
     "attr": "風",
-    "name": {
-      "zh": "瓦萊莉婭【Dark Warrior】",
-      "ja": "ヴァレリア【Dark Warrior】",
-      "en": "Valeria【Dark Warrior】"
-    },
+    "name": { "zh": "瓦萊莉婭【Dark Warrior】", "ja": "ヴァレリア【Dark Warrior】", "en": "Valeria【Dark Warrior】"},
     "date": "2024-12-06",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002078,
     "skill2": 12002083,
-    "burst": 14002088
+    "burst": 14002088,
+    "passive_ids": [1990276, 1990277],
+    "tag_ids": [7, 10, 25, 27],
+    "leader_skill": { "name": "この力、飼いならしてみせる", "description": "「ランターナ」は「物攻・魔攻・物防・魔防+30%」"}
   },
   {
     "id": 112,
     "base_character_id": 44801,
     "attr": "雷",
-    "name": {
-      "zh": "安潔【Magical Puppeteer】",
-      "ja": "アンチュ【Magical Puppeteer】",
-      "en": "Antje【Magical Puppeteer】"
-    },
+    "name": { "zh": "安潔【Magical Puppeteer】", "ja": "アンチュ【Magical Puppeteer】", "en": "Antje【Magical Puppeteer】"},
     "date": "2024-11-29",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002048,
     "skill2": 12002053,
-    "burst": 14002058
+    "burst": 14002058,
+    "passive_ids": [1990272, 1990273],
+    "tag_ids": [7, 33, 15, 30],
+    "leader_skill": { "name": "人形遣いの献身", "description": "得意属性が雷属性のキャラは「物攻・魔攻・物防・魔防+25%」"}
   },
   {
     "id": 111,
     "base_character_id": 44901,
     "attr": "雷",
-    "name": {
-      "zh": "瓦爾特【Wisdom Inquirer】",
-      "ja": "ワルター【Wisdom Inquirer】",
-      "en": "Walther【Wisdom Inquirer】"
-    },
+    "name": { "zh": "瓦爾特【Wisdom Inquirer】", "ja": "ワルター【Wisdom Inquirer】", "en": "Walther【Wisdom Inquirer】"},
     "date": "2024-11-29",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11002063,
     "skill2": 12002068,
-    "burst": 14002073
+    "burst": 14002073,
+    "passive_ids": [1990274, 1990275],
+    "tag_ids": [7, 33, 20, 27],
+    "leader_skill": { "name": "知の探究者ご愛用", "description": "「メガネ」は「バーストスキルダメージ+100%」"}
   },
   {
     "id": 110,
     "base_character_id": 44701,
     "attr": "突",
-    "name": {
-      "zh": "布萊德【Passionate Blood】",
-      "ja": "ブラッド【Passionate Blood】",
-      "en": "Bradley【Passionate Blood】"
-    },
+    "name": { "zh": "布萊德【Passionate Blood】", "ja": "ブラッド【Passionate Blood】", "en": "Bradley【Passionate Blood】"},
     "date": "2024-11-22",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002033,
     "skill2": 12002038,
-    "burst": 14002043
+    "burst": 14002043,
+    "passive_ids": [1990268, 1990269],
+    "tag_ids": [7, 8, 28],
+    "leader_skill": { "name": "弱点を見抜く慧眼", "description": "「ランターナ」は攻撃後、対象に「受ける突属性ダメージ+20%」を1回攻撃を受けるまで付与"}
   },
   {
     "id": 109,
     "base_character_id": 44601,
     "attr": "突",
-    "name": {
-      "zh": "瑪格達【Pinkish Destroyer】",
-      "ja": "マクダ【Pinkish Destroyer】",
-      "en": "Magda【Pinkish Destroyer】"
-    },
+    "name": { "zh": "瑪格達【Pinkish Destroyer】", "ja": "マクダ【Pinkish Destroyer】", "en": "Magda【Pinkish Destroyer】"},
     "date": "2024-11-15",
-    "image": "",
     "職種": "破防者",
     "skill1": 11002018,
     "skill2": 12002023,
-    "burst": 14002028
+    "burst": 14002028,
+    "passive_ids": [1990270, 1990271],
+    "tag_ids": [7, 10, 18],
+    "leader_skill": { "name": "攻めて攻めて攻めまくれ！", "description": "「冒険」は「物攻・魔攻+10%」と「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 108,
     "base_character_id": 44401,
     "attr": "突",
-    "name": {
-      "zh": "米珂【Fashionable Kitty】",
-      "ja": "ミーケ【Fashionable Kitty】",
-      "en": "Mieke【Fashionable Kitty】"
-    },
+    "name": { "zh": "米珂【Fashionable Kitty】", "ja": "ミーケ【Fashionable Kitty】", "en": "Mieke【Fashionable Kitty】"},
     "date": "2024-11-08",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001988,
     "skill2": 12001993,
-    "burst": 14001998
+    "burst": 14001998,
+    "passive_ids": [1990264, 1990265],
+    "tag_ids": [7, 32, 29],
+    "leader_skill": { "name": "ビビっとアイデア湧いてきた！", "description": "「クリエイター」は「先駆け」と「スキルダメージ+50%」"}
   },
   {
     "id": 107,
     "base_character_id": 44501,
     "attr": "斬",
-    "name": {
-      "zh": "蒂歐娜【Fervorous Diva】",
-      "ja": "ディオーナ【Fervorous Diva】",
-      "en": "Diona【Fervorous Diva】"
-    },
+    "name": { "zh": "蒂歐娜【Fervorous Diva】", "ja": "ディオーナ【Fervorous Diva】", "en": "Diona【Fervorous Diva】"},
     "date": "2024-11-08",
-    "image": "",
     "職種": "支援者",
     "skill1": 11002003,
     "skill2": 12002008,
-    "burst": 14002013
+    "burst": 14002013,
+    "passive_ids": [1990266, 1990267],
+    "tag_ids": [7, 32, 28],
+    "leader_skill": { "name": "王の背中に魅せられて", "description": "味方全員は「麻痺耐性+100%」と「攻撃対象が麻痺状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 106,
     "base_character_id": 43503,
     "attr": "風",
-    "name": {
-      "zh": "海蒂【Lucky Buddy】",
-      "ja": "ハイディ【Lucky Buddy】",
-      "en": "Heidi【Lucky Buddy】"
-    },
+    "name": { "zh": "海蒂【Lucky Buddy】", "ja": "ハイディ【Lucky Buddy】", "en": "Heidi【Lucky Buddy】"},
     "date": "2024-10-31",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001938,
     "skill2": 12001943,
-    "burst": 14001948
+    "burst": 14001948,
+    "passive_ids": [1990258, 1990259],
+    "tag_ids": [7, 10, 29],
+    "leader_skill": { "name": "やれることならなんだって！", "description": "「ひょうきん者」は「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 105,
     "base_character_id": 43602,
     "attr": "突",
-    "name": {
-      "zh": "芙洛可【Earnest Angel】",
-      "ja": "フロッケ【Earnest Angel】",
-      "en": "Flocke【Earnest Angel】"
-    },
+    "name": { "zh": "芙洛可【Earnest Angel】", "ja": "フロッケ【Earnest Angel】", "en": "Flocke【Earnest Angel】"},
     "date": "2024-10-31",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11001953,
     "skill2": 12001958,
-    "burst": 14001963
+    "burst": 14001963,
+    "passive_ids": [1990260, 1990261],
+    "tag_ids": [7, 10, 13, 16],
+    "leader_skill": { "name": "天使の祝福", "description": "得意属性が突属性のキャラは「物攻・魔攻・物防・魔防+25%」"}
   },
   {
     "id": 104,
     "base_character_id": 15102,
     "attr": "火",
-    "name": {
-      "zh": "優蒂【Heroic Assault】",
-      "ja": "ユーディー【Heroic Assault】",
-      "en": "Judie【Heroic Assault】"
-    },
+    "name": { "zh": "優蒂【Heroic Assault】", "ja": "ユーディー【Heroic Assault】", "en": "Judie【Heroic Assault】"},
     "date": "2024-10-11",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001923,
     "skill2": 12001928,
-    "burst": 14001933
+    "burst": 14001933,
+    "passive_ids": [1990256, 1990257],
+    "tag_ids": [8, 13, 24],
+    "leader_skill": { "name": "火傷させちゃうんだから！", "description": "得意属性が火属性のキャラは「クリティカルダメージ+25%」"}
   },
   {
     "id": 103,
     "base_character_id": 39905,
     "attr": "打",
-    "name": {
-      "zh": "萊莎【Brave Blaze】",
-      "ja": "ライザ【Brave Blaze】",
-      "en": "Ryza【Brave Blaze】"
-    },
+    "name": { "zh": "萊莎【Brave Blaze】", "ja": "ライザ【Brave Blaze】", "en": "Ryza【Brave Blaze】"},
     "date": "2024-10-11",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001908,
     "skill2": 12001913,
-    "burst": 14001918
+    "burst": 14001918,
+    "passive_ids": [1990254, 1990255],
+    "tag_ids": [5, 8, 18, 24],
+    "leader_skill": { "name": "突破してみせるよっ！", "description": "「おてんば」は「物攻・魔攻+10%」と「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 102,
     "base_character_id": 43303,
     "attr": "打",
-    "name": {
-      "zh": "羅曼【Reassuring Shielder】",
-      "ja": "ロマン【Reassuring Shielder】",
-      "en": "Roman【Reassuring Shielder】"
-    },
+    "name": { "zh": "羅曼【Reassuring Shielder】", "ja": "ロマン【Reassuring Shielder】", "en": "Roman【Reassuring Shielder】"},
     "date": "2024-09-30",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11001893,
     "skill2": 12001898,
-    "burst": 14001903
+    "burst": 14001903,
+    "passive_ids": [1990252, 1990253],
+    "tag_ids": [7, 8, 29],
+    "leader_skill": { "name": "愛すべき未来のために", "description": "「正義と探求」は「バーストスキルダメージ+100%」"}
   },
   {
     "id": 101,
     "base_character_id": 43803,
     "attr": "打",
-    "name": {
-      "zh": "伊札娜【Stormy Smite】",
-      "ja": "イザナ【Stormy Smite】",
-      "en": "Izana【Stormy Smite】"
-    },
+    "name": { "zh": "伊札娜【Stormy Smite】", "ja": "イザナ【Stormy Smite】", "en": "Izana【Stormy Smite】"},
     "date": "2024-09-30",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001878,
     "skill2": 12001883,
-    "burst": 14001888
+    "burst": 14001888,
+    "passive_ids": [1990250, 1990251],
+    "tag_ids": [7, 9, 26],
+    "leader_skill": { "name": "友を信じる者に力を！", "description": "「ランターナ」は「先駆け」と「物攻+30%」"}
   },
   {
     "id": 100,
     "base_character_id": 43206,
     "attr": "火",
-    "name": {
-      "zh": "瓦萊莉婭【Awakened Past】",
-      "ja": "ヴァレリア【Awakened Past】",
-      "en": "Valeria【Awakened Past】"
-    },
+    "name": { "zh": "瓦萊莉婭【Awakened Past】", "ja": "ヴァレリア【Awakened Past】", "en": "Valeria【Awakened Past】"},
     "date": "2024-09-11",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001758,
     "skill2": 12001763,
-    "burst": 14001768
+    "burst": 14001768,
+    "passive_ids": [1990239, 1990245],
+    "tag_ids": [7, 10, 25, 27],
+    "has_transform": true,
+    "leader_skill": { "name": "誰も追いつけないわよ！", "description": "「ずぼら」は「先駆け」と「ブレイクダメージ+50%」"}
   },
   {
     "id": 99,
     "base_character_id": 44101,
     "attr": "斬",
-    "name": {
-      "zh": "傑隆【Beastly Fencer】",
-      "ja": "ジェロン【Beastly Fencer】",
-      "en": "Geron【Beastly Fencer】"
-    },
+    "name": { "zh": "傑隆【Beastly Fencer】", "ja": "ジェロン【Beastly Fencer】", "en": "Geron【Beastly Fencer】"},
     "date": "2024-09-11",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11001773,
     "skill2": 12001778,
-    "burst": 14001783
+    "burst": 14001783,
+    "passive_ids": [1990240, 1990241],
+    "tag_ids": [7, 33, 28, 30],
+    "leader_skill": { "name": "冷静な見極め", "description": "「寡黙」は「物攻・物防+25%」"}
   },
   {
     "id": 98,
     "base_character_id": 43107,
     "attr": "火",
-    "name": {
-      "zh": "蕾斯娜【Awakened Future】",
-      "ja": "レスナ【Awakened Future】",
-      "en": "Resna【Awakened Future】"
-    },
+    "name": { "zh": "蕾斯娜【Awakened Future】", "ja": "レスナ【Awakened Future】", "en": "Resna【Awakened Future】"},
     "date": "2024-08-30",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001713,
     "skill2": 12001718,
-    "burst": 14001723
+    "burst": 14001723,
+    "transform_skill1": 11001698,
+    "transform_skill2": 12001703,
+    "transform_Burst": 14001708,
+    "passive_ids": [1990237, 1990243],
+    "tag_ids": [7, 9, 15, 28],
+    "has_transform": true,
+    "leader_skill": { "name": "いざ、気炎万丈の時！", "description": "味方全員は「戦闘アイテムダメージ+30%」と「WEAK攻撃時、スキルダメージ+30%」"}
   },
   {
     "id": 97,
     "base_character_id": 44201,
     "attr": "斬",
-    "name": {
-      "zh": "拉拉【Queen's Grace】",
-      "ja": "ララ【Queen's Grace】",
-      "en": "Lara【Queen's Grace】"
-    },
+    "name": { "zh": "拉拉【Queen's Grace】", "ja": "ララ【Queen's Grace】", "en": "Lara【Queen's Grace】"},
     "date": "2024-08-30",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001728,
     "skill2": 12001733,
-    "burst": 14001738
+    "burst": 14001738,
+    "passive_ids": [1990234, 1990235],
+    "tag_ids": [7, 33, 15, 19, 32],
+    "leader_skill": { "name": "ごめんあそばせ", "description": "味方全員は「お嬢様」1人につき「戦闘アイテムダメージ+20%」"}
   },
   {
     "id": 96,
     "base_character_id": 29203,
     "attr": "冰",
-    "name": {
-      "zh": "愛夏【Twilight Fairy】",
-      "ja": "アーシャ【Twilight Fairy】",
-      "en": "Ayesha【Twilight Fairy】"
-    },
+    "name": { "zh": "愛夏【Twilight Fairy】", "ja": "アーシャ【Twilight Fairy】", "en": "Ayesha【Twilight Fairy】"},
     "date": "2024-08-21",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11001683,
     "skill2": 12001688,
-    "burst": 14001693
+    "burst": 14001693,
+    "passive_ids": [1990232, 1990233],
+    "tag_ids": [8, 23, 26],
+    "leader_skill": { "name": "力みなぎる秘伝薬", "description": "「天然」は「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 95,
     "base_character_id": 33403,
     "attr": "火",
-    "name": {
-      "zh": "蘇菲【Pure Angel】",
-      "ja": "ソフィー【Pure Angel】",
-      "en": "Sophie【Pure Angel】"
-    },
+    "name": { "zh": "蘇菲【Pure Angel】", "ja": "ソフィー【Pure Angel】", "en": "Sophie【Pure Angel】"},
     "date": "2024-08-21",
-    "image": "",
     "職種": "支援者",
     "skill1": 11001668,
     "skill2": 12001673,
-    "burst": 14001678
+    "burst": 14001678,
+    "passive_ids": [1990230, 1990231],
+    "tag_ids": [4, 6, 8, 25],
+    "leader_skill": { "name": "苦しむ人を救いたい！", "description": "「正義と探求」は「物攻・魔攻・物防・魔防+30%」"}
   },
   {
     "id": 94,
     "base_character_id": 43901,
     "attr": "冰",
-    "name": {
-      "zh": "薩絲琪亞【Master of Alchemy】",
-      "ja": "ザスキア【Master of Alchemy】",
-      "en": "Saskia【Master of Alchemy】"
-    },
+    "name": { "zh": "薩絲琪亞【Master of Alchemy】", "ja": "ザスキア【Master of Alchemy】", "en": "Saskia【Master of Alchemy】"},
     "date": "2024-08-13",
-    "image": "",
     "職種": "支援者",
     "skill1": 14001653,
     "skill2": 14001658,
-    "burst": 14001663
+    "burst": 14001663,
+    "passive_ids": [1990226, 1990227],
+    "tag_ids": [7, 9, 31, 14, 25],
+    "leader_skill": { "name": "ほうき星は我らと共に", "description": "味方全員は「ランターナ」1人につき「クリティカルダメージ+5%」"}
   },
   {
     "id": 93,
     "base_character_id": 44001,
     "attr": "斬",
-    "name": {
-      "zh": "約翰娜【Battle Phenom】",
-      "ja": "ヨハナ【Battle Phenom】",
-      "en": "Johanna【Battle Phenom】"
-    },
+    "name": { "zh": "約翰娜【Battle Phenom】", "ja": "ヨハナ【Battle Phenom】", "en": "Johanna【Battle Phenom】"},
     "date": "2024-08-13",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001638,
     "skill2": 12001643,
-    "burst": 14001648
+    "burst": 14001648,
+    "passive_ids": [1990228, 1990229],
+    "tag_ids": [7, 9, 15, 24],
+    "leader_skill": { "name": "獲物は絶対逃がさない！", "description": "「約束と協力」は「攻撃後、対象に毒を1回行動開始するまで高確率で付与」と「攻撃対象が毒状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 92,
     "base_character_id": 10104,
     "attr": "冰",
-    "name": {
-      "zh": "瑪莉【Bomber Cat】",
-      "ja": "マリー【Bomber Cat】",
-      "en": "Marie【Bomber Cat】"
-    },
+    "name": { "zh": "瑪莉【Bomber Cat】", "ja": "マリー【Bomber Cat】", "en": "Marie【Bomber Cat】"},
     "date": "2024-08-05",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001803,
     "skill2": 12001808,
-    "burst": 14001813
+    "burst": 14001813,
+    "passive_ids": [1990248, 1990249],
+    "tag_ids": [1, 8, 25],
+    "leader_skill": { "name": "爆弾娘の切り札", "description": "「ずぼら」は「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 91,
     "base_character_id": 25504,
     "attr": "火",
-    "name": {
-      "zh": "蘿樂娜【Sweetie Rabbit】",
-      "ja": "ロロナ【Sweetie Rabbit】",
-      "en": "Rorona【Sweetie Rabbit】"
-    },
+    "name": { "zh": "蘿樂娜【Sweetie Rabbit】", "ja": "ロロナ【Sweetie Rabbit】", "en": "Rorona【Sweetie Rabbit】"},
     "date": "2024-08-05",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11001788,
     "skill2": 12001793,
-    "burst": 14001798
+    "burst": 14001798,
+    "passive_ids": [1990246, 1990247],
+    "tag_ids": [2, 8, 26],
+    "leader_skill": { "name": "パイマイスターのとっておき", "description": "「天然」は「ターン開始時、自身のHPを5%回復」と「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 90,
     "base_character_id": 40003,
     "attr": "冰",
-    "name": {
-      "zh": "科洛蒂婭【Moonlit Beach】",
-      "ja": "クラウディア【Moonlit Beach】",
-      "en": "Klaudia【Moonlit Beach】"
-    },
+    "name": { "zh": "科洛蒂婭【Moonlit Beach】", "ja": "クラウディア【Moonlit Beach】", "en": "Klaudia【Moonlit Beach】"},
     "date": "2024-07-31",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001608,
     "skill2": 12001613,
-    "burst": 14001618
+    "burst": 14001618,
+    "passive_ids": [1990222, 1990223],
+    "tag_ids": [5, 13, 19, 21],
+    "leader_skill": { "name": "ビーチは魅惑の装いで", "description": "「季節の装い」は「魔攻+50%」"}
   },
   {
     "id": 89,
@@ -1660,241 +1463,211 @@
     "ev_skill2": 12002960,
     "ev_burst": 14002961,
     "attr": "雷",
-    "name": {
-      "zh": "瓦萊莉婭【Radiant Summer】",
-      "ja": "ヴァレリア【Radiant Summer】",
-      "en": "Valeria【Radiant Summer】"
-    },
+    "name": { "zh": "瓦萊莉婭【Radiant Summer】", "ja": "ヴァレリア【Radiant Summer】", "en": "Valeria【Radiant Summer】"},
     "date": "2024-07-19",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001623,
     "skill2": 12001628,
-    "burst": 14001633
+    "burst": 14001633,
+    "passive_ids": [1990224, 1990225, 1990312],
+    "tag_ids": [7, 10, 25, 27, 21],
+    "leader_skill": { "name": "動きやすさはピカイチよ！", "description": "「ランターナ」は「バーストスキルダメージ+100%」"}
   },
   {
     "id": 88,
     "base_character_id": 39904,
     "attr": "冰",
-    "name": {
-      "zh": "萊莎【Sunlit Beach】",
-      "ja": "ライザ【Sunlit Beach】",
-      "en": "Ryza【Sunlit Beach】"
-    },
+    "name": { "zh": "萊莎【Sunlit Beach】", "ja": "ライザ【Sunlit Beach】", "en": "Ryza【Sunlit Beach】"},
     "date": "2024-07-10",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001538,
     "skill2": 12001543,
-    "burst": 14001548
+    "burst": 14001548,
+    "passive_ids": [1990220, 1990221],
+    "tag_ids": [5, 9, 18, 21, 24],
+    "leader_skill": { "name": "波打ち際での大冒険", "description": "「クーケン島」は「攻撃対象がブレイク状態の時、スキルダメージ+75%」"}
   },
   {
     "id": 87,
     "base_character_id": 43105,
     "attr": "雷",
-    "name": {
-      "zh": "蕾斯娜【Pretty Summer】",
-      "ja": "レスナ【Pretty Summer】",
-      "en": "Resna【Pretty Summer】"
-    },
+    "name": { "zh": "蕾斯娜【Pretty Summer】", "ja": "レスナ【Pretty Summer】", "en": "Resna【Pretty Summer】"},
     "date": "2024-07-10",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001523,
     "skill2": 12001528,
-    "burst": 14001533
+    "burst": 14001533,
+    "passive_ids": [1990218, 1990219],
+    "tag_ids": [7, 9, 15, 21],
+    "leader_skill": { "name": "夏はちょっぴり大胆に", "description": "「季節の装い」は「バーストスキルのスキルダメージ・ブレイクダメージ+75%」"}
   },
   {
     "id": 86,
     "base_character_id": 29302,
     "attr": "雷",
-    "name": {
-      "zh": "薇爾貝兒【Witch in the dark】",
-      "ja": "ウィルベル【Witch in the dark】",
-      "en": "Wilbell【Witch in the dark】"
-    },
+    "name": { "zh": "薇爾貝兒【Witch in the dark】", "ja": "ウィルベル【Witch in the dark】", "en": "Wilbell【Witch in the dark】"},
     "date": "2024-06-28",
-    "image": "",
     "職種": "支援者",
     "skill1": 11001493,
     "skill2": 12001498,
-    "burst": 14001503
+    "burst": 14001503,
+    "passive_ids": [1990216, 1990217],
+    "tag_ids": [3, 8, 14],
+    "leader_skill": { "name": "危険だってなんのその", "description": "「正義と探求」は「攻撃を受けた時、自身のHPを5%回復」と「クリティカルダメージ+35%」"}
   },
   {
     "id": 85,
     "base_character_id": 43302,
     "attr": "冰",
-    "name": {
-      "zh": "羅曼【Secret Fellow】",
-      "ja": "ロマン【Secret Fellow】",
-      "en": "Roman【Secret Fellow】"
-    },
+    "name": { "zh": "羅曼【Secret Fellow】", "ja": "ロマン【Secret Fellow】", "en": "Roman【Secret Fellow】"},
     "date": "2024-06-28",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001508,
     "skill2": 12001513,
-    "burst": 14001518
+    "burst": 14001518,
+    "passive_ids": [1990214, 1990215],
+    "tag_ids": [7, 8, 29],
+    "leader_skill": { "name": "クールなロマンの秘密のプラン", "description": "得意属性が氷属性のキャラは「魔攻+25%」"}
   },
   {
     "id": 84,
     "base_character_id": 29702,
     "attr": "火",
-    "name": {
-      "zh": "瑪莉翁【Bullet of Ink】",
-      "ja": "マリオン【Bullet of Ink】",
-      "en": "Marion【Bullet of Ink】"
-    },
+    "name": { "zh": "瑪莉翁【Bullet of Ink】", "ja": "マリオン【Bullet of Ink】", "en": "Marion【Bullet of Ink】"},
     "date": "2024-06-21",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11001448,
     "skill2": 12001453,
-    "burst": 14001458
+    "burst": 14001458,
+    "passive_ids": [1990208, 1990209],
+    "tag_ids": [3, 21, 28],
+    "leader_skill": { "name": "着実にこなしましょう", "description": "「真面目」は「物防・魔防+25%」"}
   },
   {
     "id": 83,
     "base_character_id": 30903,
     "attr": "火",
-    "name": {
-      "zh": "愛絲卡【Challenging Worker】",
-      "ja": "エスカ【Challenging Worker】",
-      "en": "Escha【Challenging Worker】"
-    },
+    "name": { "zh": "愛絲卡【Challenging Worker】", "ja": "エスカ【Challenging Worker】", "en": "Escha【Challenging Worker】"},
     "date": "2024-06-21",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001433,
     "skill2": 12001438,
-    "burst": 14001443
+    "burst": 14001443,
+    "passive_ids": [1990206, 1990207],
+    "tag_ids": [3, 10, 17, 21],
+    "leader_skill": { "name": "お仕事手伝います！", "description": "「コルセイト」は「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 82,
     "base_character_id": 43502,
     "attr": "火",
-    "name": {
-      "zh": "海蒂【Merciful Bride】",
-      "ja": "ハイディ【Merciful Bride】",
-      "en": "Heidi【Merciful Bride】"
-    },
+    "name": { "zh": "海蒂【Merciful Bride】", "ja": "ハイディ【Merciful Bride】", "en": "Heidi【Merciful Bride】"},
     "date": "2024-06-10",
-    "image": "",
     "職種": "支援者",
     "skill1": 11001413,
     "skill2": 12001418,
-    "burst": 14001423
+    "burst": 14001423,
+    "passive_ids": [1990212, 1990213],
+    "tag_ids": [7, 10, 29],
+    "leader_skill": { "name": "情にアツイ花嫁", "description": "「ランターナ」は「ターン開始時、自身のHPを5%回復」と「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 81,
     "base_character_id": 43802,
     "attr": "斬",
-    "name": {
-      "zh": "伊札娜【Dragon's Bride】",
-      "ja": "イザナ【Dragon's Bride】",
-      "en": "Izana【Dragon's Bride】"
-    },
+    "name": { "zh": "伊札娜【Dragon's Bride】", "ja": "イザナ【Dragon's Bride】", "en": "Izana【Dragon's Bride】"},
     "date": "2024-06-10",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001398,
     "skill2": 12001403,
-    "burst": 14001408
+    "burst": 14001408,
+    "passive_ids": [1990210, 1990211],
+    "tag_ids": [7, 9, 26],
+    "leader_skill": { "name": "花嫁の導き", "description": "「約束と協力」は「先駆け」と「クリティカルダメージ+50%」"}
   },
   {
     "id": 80,
     "base_character_id": 29502,
     "attr": "火",
-    "name": {
-      "zh": "琳卡【Valkyrie of the Sun】",
-      "ja": "リンカ【Valkyrie of the Sun】",
-      "en": "Linca【Valkyrie of the Sun】"
-    },
+    "name": { "zh": "琳卡【Valkyrie of the Sun】", "ja": "リンカ【Valkyrie of the Sun】", "en": "Linca【Valkyrie of the Sun】"},
     "date": "2024-05-31",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001383,
     "skill2": 12001388,
-    "burst": 14001393
+    "burst": 14001393,
+    "passive_ids": [1990204, 1990205],
+    "tag_ids": [3, 10, 28],
+    "leader_skill": { "name": "紅き剣士", "description": "味方全員は「火傷耐性+100%」と「攻撃対象が火傷状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 79,
     "base_character_id": 43402,
     "attr": "打",
-    "name": {
-      "zh": "尤娜【Valkyrie in the Sky】",
-      "ja": "ユナ【Valkyrie in the Sky】",
-      "en": "Juna【Valkyrie in the Sky】"
-    },
+    "name": { "zh": "尤娜【Valkyrie in the Sky】", "ja": "ユナ【Valkyrie in the Sky】", "en": "Juna【Valkyrie in the Sky】"},
     "date": "2024-05-31",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001368,
     "skill2": 12001373,
-    "burst": 14001378
+    "burst": 14001378,
+    "passive_ids": [1990202, 1990203],
+    "tag_ids": [7, 8, 11, 22],
+    "leader_skill": { "name": "蒼き騎士", "description": "「騎士」は「WEAK攻撃時、スキルダメージ+75%」"}
   },
   {
     "id": 78,
     "base_character_id": 10103,
     "attr": "雷",
-    "name": {
-      "zh": "瑪莉【Violent Beauty】",
-      "ja": "マリー【Violent Beauty】",
-      "en": "Marie【Violent Beauty】"
-    },
+    "name": { "zh": "瑪莉【Violent Beauty】", "ja": "マリー【Violent Beauty】", "en": "Marie【Violent Beauty】"},
     "date": "2024-05-20",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001333,
     "skill2": 12001338,
-    "burst": 14001343
+    "burst": 14001343,
+    "passive_ids": [1990196, 1990197],
+    "tag_ids": [1, 9, 12, 25],
+    "leader_skill": { "name": "絶対優勝するわよ！", "description": "「約束と協力」は「物攻・魔攻+35%」"}
   },
   {
     "id": 77,
     "base_character_id": 26903,
     "attr": "斬",
-    "name": {
-      "zh": "托托莉【Hopeful Sailor】",
-      "ja": "トトリ【Hopeful Sailor】",
-      "en": "Totori【Hopeful Sailor】"
-    },
+    "name": { "zh": "托托莉【Hopeful Sailor】", "ja": "トトリ【Hopeful Sailor】", "en": "Totori【Hopeful Sailor】"},
     "date": "2024-05-10",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001318,
     "skill2": 12001323,
-    "burst": 14001328
+    "burst": 14001328,
+    "passive_ids": [1990200, 1990201],
+    "tag_ids": [2, 10, 14, 18],
+    "leader_skill": { "name": "旅をして得た強さ", "description": "「家族と友情」は「バーストスキルダメージ+100%」"}
   },
   {
     "id": 76,
     "base_character_id": 43701,
     "attr": "斬",
-    "name": {
-      "zh": "藍澤【The Captain Awakens】",
-      "ja": "ランツェ【The Captain Awakens】",
-      "en": "Lanze【The Captain Awakens】"
-    },
+    "name": { "zh": "藍澤【The Captain Awakens】", "ja": "ランツェ【The Captain Awakens】", "en": "Lanze【The Captain Awakens】"},
     "date": "2024-05-10",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001303,
     "skill2": 12001308,
-    "burst": 14001313
+    "burst": 14001313,
+    "passive_ids": [1990199, 1990198],
+    "tag_ids": [7, 10, 18, 29],
+    "leader_skill": { "name": "もう二度と見送らない", "description": "バトル開始時「冒険」に「受けるダメージ-30%」を2回攻撃を受けるまで付与"}
   },
   {
     "id": 75,
     "base_character_id": 40002,
     "attr": "雷",
-    "name": {
-      "zh": "科洛蒂婭【Fragrant Elegance】",
-      "ja": "クラウディア【Fragrant Elegance】",
-      "en": "Klaudia【Fragrant Elegance】"
-    },
+    "name": { "zh": "科洛蒂婭【Fragrant Elegance】", "ja": "クラウディア【Fragrant Elegance】", "en": "Klaudia【Fragrant Elegance】"},
     "date": "2024-04-30",
-    "image": "",
     "職種": "支援者",
     "skill1": 11001288,
     "skill2": 12001293,
-    "burst": 14001298
+    "burst": 14001298,
+    "passive_ids": [1990194, 1990195],
+    "tag_ids": [5, 13, 19, 21],
+    "leader_skill": { "name": "全力で温泉を楽しみましょ！", "description": "「クーケン島」は「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 74,
@@ -1903,49 +1676,43 @@
     "ev_skill2": 12003738,
     "ev_burst": 14003739,
     "attr": "打",
-    "name": {
-      "zh": "蘿樂娜【Joyful Leader】",
-      "ja": "ロロナ【Joyful Leader】",
-      "en": "Rorona【Joyful Leader】"
-    },
+    "name": { "zh": "蘿樂娜【Joyful Leader】", "ja": "ロロナ【Joyful Leader】", "en": "Rorona【Joyful Leader】"},
     "date": "2024-04-22",
-    "image": "",
     "職種": "支援者",
     "skill1": 11001193,
     "skill2": 12001198,
-    "burst": 14001203
+    "burst": 14001203,
+    "passive_ids": [1990189, 1990190, 1990541],
+    "tag_ids": [2, 31, 26],
+    "leader_skill": { "name": "頑張り屋さんの委員長", "description": "「レスレリ学園」は「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 73,
     "base_character_id": 44301,
     "attr": "風",
-    "name": {
-      "zh": "艾蓮【Noble Wolf】",
-      "ja": "エレン【Noble Wolf】",
-      "en": "Eren【Noble Wolf】"
-    },
+    "name": { "zh": "艾蓮【Noble Wolf】", "ja": "エレン【Noble Wolf】", "en": "Eren【Noble Wolf】"},
     "date": "2024-04-22",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001208,
     "skill2": 12001213,
-    "burst": 14001218
+    "burst": 14001218,
+    "passive_ids": [1990191, 1990192],
+    "tag_ids": [2, 31, 30],
+    "leader_skill": { "name": "人々を助け、守る影", "description": "「寡黙」は「WEAK攻撃時、スキルダメージ+75%」"}
   },
   {
     "id": 72,
     "base_character_id": 27001,
     "attr": "突",
-    "name": {
-      "zh": "敏敏【Lonely Glory】",
-      "ja": "ミミ【Lonely Glory】",
-      "en": "Mimi【Lonely Glory】"
-    },
+    "name": { "zh": "敏敏【Lonely Glory】", "ja": "ミミ【Lonely Glory】", "en": "Mimi【Lonely Glory】"},
     "date": "2024-04-12",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11001163,
     "skill2": 12001168,
-    "burst": 14001173
+    "burst": 14001173,
+    "passive_ids": [1990185, 1990186],
+    "tag_ids": [2, 31, 19, 28],
+    "leader_skill": { "name": "日々、研鑽を積んでいますので", "description": "「アーランド」は「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 71,
@@ -1954,17 +1721,15 @@
     "ev_skill2": 12002800,
     "ev_burst": 14002801,
     "attr": "風",
-    "name": {
-      "zh": "萊莎【Blooming Energy】",
-      "ja": "ライザ【Blooming Energy】",
-      "en": "Ryza【Blooming Energy】"
-    },
+    "name": { "zh": "萊莎【Blooming Energy】", "ja": "ライザ【Blooming Energy】", "en": "Ryza【Blooming Energy】"},
     "date": "2024-04-12",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001178,
     "skill2": 12001183,
-    "burst": 14001188
+    "burst": 14001188,
+    "passive_ids": [1990187, 1990188, 1990307],
+    "tag_ids": [5, 31, 16, 24],
+    "leader_skill": { "name": "うちの野菜、元気出るでしょ？", "description": "「クーケン島」は「先駆け」と「スキルダメージ+50%」"}
   },
   {
     "id": 70,
@@ -1973,17 +1738,15 @@
     "ev_skill2": 12002841,
     "ev_burst": 14002842,
     "attr": "突",
-    "name": {
-      "zh": "蘇菲【Mighty Boss】",
-      "ja": "ソフィー【Mighty Boss】",
-      "en": "Sophie【Mighty Boss】"
-    },
+    "name": { "zh": "蘇菲【Mighty Boss】", "ja": "ソフィー【Mighty Boss】", "en": "Sophie【Mighty Boss】"},
     "date": "2024-04-01",
-    "image": "",
     "職種": "支援者",
     "skill1": 11001118,
     "skill2": 12001123,
-    "burst": 14001128
+    "burst": 14001128,
+    "passive_ids": [1990177, 1990178, 1990305],
+    "tag_ids": [4, 6, 31, 25],
+    "leader_skill": { "name": "おばあちゃん直伝の錬金術特訓", "description": "味方全員は「キルヘン・ベル」1人につき「物攻・魔攻+8%」"}
   },
   {
     "id": 69,
@@ -1992,97 +1755,85 @@
     "ev_skill2": 12003780,
     "ev_burst": 14003781,
     "attr": "風",
-    "name": {
-      "zh": "蕾斯娜【Loved Rookie】",
-      "ja": "レスナ【Loved Rookie】",
-      "en": "Resna【Loved Rookie】"
-    },
+    "name": { "zh": "蕾斯娜【Loved Rookie】", "ja": "レスナ【Loved Rookie】", "en": "Resna【Loved Rookie】"},
     "date": "2024-04-01",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001103,
     "skill2": 12001108,
-    "burst": 14001113
+    "burst": 14001113,
+    "passive_ids": [1990175, 1990176, 1990542],
+    "tag_ids": [7, 9, 31, 15],
+    "leader_skill": { "name": "ここで、私は変わるんだ！", "description": "「レスレリ学園」は「物攻・魔攻・物防・魔防+30%」"}
   },
   {
     "id": 68,
     "base_character_id": 37502,
     "attr": "突",
-    "name": {
-      "zh": "蘇瑞【Ranger of Rose】",
-      "ja": "スール【Ranger of Rose】",
-      "en": "Suelle【Ranger of Rose】"
-    },
+    "name": { "zh": "蘇瑞【Ranger of Rose】", "ja": "スール【Ranger of Rose】", "en": "Suelle【Ranger of Rose】"},
     "date": "2024-03-22",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11001071,
     "skill2": 12001076,
-    "burst": 14001081
+    "burst": 14001081,
+    "passive_ids": [1990170, 1990171],
+    "tag_ids": [6, 10, 24],
+    "leader_skill": { "name": "いたずら好きの小悪魔アイドル", "description": "「「声」を聴く者たち」は「物攻・魔攻・物防・魔防+30%」"}
   },
   {
     "id": 67,
     "base_character_id": 43601,
     "attr": "打",
-    "name": {
-      "zh": "芙洛可【Angel of Rose】",
-      "ja": "フロッケ【Angel of Rose】",
-      "en": "Flocke【Angel of Rose】"
-    },
+    "name": { "zh": "芙洛可【Angel of Rose】", "ja": "フロッケ【Angel of Rose】", "en": "Flocke【Angel of Rose】"},
     "date": "2024-03-22",
-    "image": "",
     "職種": "支援者",
     "skill1": 11001056,
     "skill2": 12001061,
-    "burst": 14001066
+    "burst": 14001066,
+    "passive_ids": [1990168, 1990169],
+    "tag_ids": [7, 10, 13, 16],
+    "leader_skill": { "name": "商人として戦う決意", "description": "味方全員は「商人」1人につき「物攻・魔攻+8%」"}
   },
   {
     "id": 66,
     "base_character_id": 35002,
     "attr": "冰",
-    "name": {
-      "zh": "菲莉絲【Crystaler of Rose】",
-      "ja": "フィリス【Crystaler of Rose】",
-      "en": "Firis【Crystaler of Rose】"
-    },
+    "name": { "zh": "菲莉絲【Crystaler of Rose】", "ja": "フィリス【Crystaler of Rose】", "en": "Firis【Crystaler of Rose】"},
     "date": "2024-03-12",
-    "image": "",
     "職種": "支援者",
     "skill1": 11001021,
     "skill2": 12001026,
-    "burst": 14001031
+    "burst": 14001031,
+    "passive_ids": [1990166, 1990167],
+    "tag_ids": [6, 18],
+    "leader_skill": { "name": "漆黒を纏いし旅人", "description": "味方全員は「冒険」1人につき「物攻・魔攻+8%」"}
   },
   {
     "id": 65,
     "base_character_id": 43501,
     "attr": "打",
-    "name": {
-      "zh": "海蒂【Thief of Rose】",
-      "ja": "ハイディ【Thief of Rose】",
-      "en": "Heidi【Thief of Rose】"
-    },
+    "name": { "zh": "海蒂【Thief of Rose】", "ja": "ハイディ【Thief of Rose】", "en": "Heidi【Thief of Rose】"},
     "date": "2024-03-12",
-    "image": "",
     "職種": "破防者",
     "skill1": 11001036,
     "skill2": 12001041,
-    "burst": 14001046
+    "burst": 14001046,
+    "passive_ids": [1990164, 1990165],
+    "tag_ids": [7, 10, 29],
+    "leader_skill": { "name": "帰る場所を守るために", "description": "「家族と友情」は「物攻・魔攻・物防・魔防+30%」"}
   },
   {
     "id": 64,
     "base_character_id": 37402,
     "attr": "打",
-    "name": {
-      "zh": "莉迪【Witch of Rose】",
-      "ja": "リディー【Witch of Rose】",
-      "en": "Lydie【Witch of Rose】"
-    },
+    "name": { "zh": "莉迪【Witch of Rose】", "ja": "リディー【Witch of Rose】", "en": "Lydie【Witch of Rose】"},
     "date": "2024-02-28",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11001006,
     "skill2": 12001011,
-    "burst": 14001016
+    "burst": 14001016,
+    "passive_ids": [1990162, 1990163],
+    "tag_ids": [6, 10, 27],
+    "leader_skill": { "name": "微笑みの天然アイドル", "description": "「マイペース」は「スキルダメージ・ブレイクダメージ+50%」"}
   },
   {
     "id": 63,
@@ -2091,113 +1842,100 @@
     "ev_skill2": 14003677,
     "ev_burst": 14003678,
     "attr": "打",
-    "name": {
-      "zh": "瓦萊莉婭【Warrior of Rose】",
-      "ja": "ヴァレリア【Warrior of Rose】",
-      "en": "Valeria【Warrior of Rose】"
-    },
+    "name": { "zh": "瓦萊莉婭【Warrior of Rose】", "ja": "ヴァレリア【Warrior of Rose】", "en": "Valeria【Warrior of Rose】"},
     "date": "2024-02-28",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000991,
     "skill2": 12000996,
-    "burst": 14001001
+    "burst": 14001001,
+    "ex_skill": [14003680, 14001051],
+    "passive_ids": [1990160, 1990161, 1990526],
+    "tag_ids": [7, 10, 25, 27],
+    "leader_skill": { "name": "黒薔薇の女戦士", "description": "「ランターナ」は「先駆け」と「クリティカルダメージ+50%」"}
   },
   {
     "id": 62,
     "base_character_id": 25502,
     "attr": "斬",
-    "name": {
-      "zh": "蘿樂娜【フォーリンホワイト】",
-      "ja": "ロロナ【フォーリンホワイト】",
-      "en": "Rorona【フォーリンホワイト】"
-    },
+    "name": { "zh": "蘿樂娜【フォーリンホワイト】", "ja": "ロロナ【フォーリンホワイト】", "en": "Rorona【フォーリンホワイト】"},
     "date": "2024-02-20",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000960,
     "skill2": 12000965,
-    "burst": 14000970
+    "burst": 14000970,
+    "passive_ids": [1990156, 1990157],
+    "tag_ids": [2, 21, 26],
+    "leader_skill": { "name": "あったかい恰好で楽しもう", "description": "「季節の装い」は「クリティカルダメージ+30%」"}
   },
   {
     "id": 61,
     "base_character_id": 25901,
     "attr": "風",
-    "name": {
-      "zh": "史特爾克【気高き剣士】",
-      "ja": "ステルク【気高き剣士】",
-      "en": "Sterk【気高き剣士】"
-    },
+    "name": { "zh": "史特爾克【気高き剣士】", "ja": "ステルク【気高き剣士】", "en": "Sterk【気高き剣士】"},
     "date": "2024-02-20",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000975,
     "skill2": 12000980,
-    "burst": 14000985
+    "burst": 14000985,
+    "passive_ids": [1990158, 1990159],
+    "tag_ids": [2, 11, 22],
+    "leader_skill": { "name": "騎士道の教え", "description": "「アーランド」は「スキルダメージ+30%」"}
   },
   {
     "id": 60,
     "base_character_id": 26902,
     "attr": "風",
-    "name": {
-      "zh": "托托莉【Snow Adventurer】",
-      "ja": "トトリ【Snow Adventurer】",
-      "en": "Totori【Snow Adventurer】"
-    },
+    "name": { "zh": "托托莉【Snow Adventurer】", "ja": "トトリ【Snow Adventurer】", "en": "Totori【Snow Adventurer】"},
     "date": "2024-02-20",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000945,
     "skill2": 12000950,
-    "burst": 14000955
+    "burst": 14000955,
+    "passive_ids": [1990154, 1990155],
+    "tag_ids": [2, 18, 21],
+    "leader_skill": { "name": "オシャレをして行きましょう", "description": "「冒険」は「物攻・魔攻・物防・魔防+15%」"}
   },
   {
     "id": 59,
     "base_character_id": 30902,
     "attr": "突",
-    "name": {
-      "zh": "愛絲卡【Sweet Monochrome】",
-      "ja": "エスカ【Sweet Monochrome】",
-      "en": "Escha【Sweet Monochrome】"
-    },
+    "name": { "zh": "愛絲卡【Sweet Monochrome】", "ja": "エスカ【Sweet Monochrome】", "en": "Escha【Sweet Monochrome】"},
     "date": "2024-02-09",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000690,
     "skill2": 12000695,
-    "burst": 14000700
+    "burst": 14000700,
+    "passive_ids": [1990152, 1990153],
+    "tag_ids": [3, 16, 17],
+    "leader_skill": { "name": "はい、あーん", "description": "「料理」は「物攻・魔攻・物防・魔防+15%」"}
   },
   {
     "id": 58,
     "base_character_id": 31002,
     "attr": "雷",
-    "name": {
-      "zh": "羅吉【トワイライトオーダー】",
-      "ja": "ロジー【トワイライトオーダー】",
-      "en": "Logy【トワイライトオーダー】"
-    },
+    "name": { "zh": "羅吉【トワイライトオーダー】", "ja": "ロジー【トワイライトオーダー】", "en": "Logy【トワイライトオーダー】"},
     "date": "2024-01-31",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000930,
     "skill2": 12000935,
-    "burst": 14000940
+    "burst": 14000940,
+    "passive_ids": [1990150, 1990151],
+    "tag_ids": [3, 8, 11, 23],
+    "leader_skill": { "name": "黄昏の騎士", "description": "「騎士」は「魔攻・魔防+25%」"}
   },
   {
     "id": 57,
     "base_character_id": 43401,
     "attr": "突",
-    "name": {
-      "zh": "尤娜【White Royal Guard】",
-      "ja": "ユナ【White Royal Guard】",
-      "en": "Juna【White Royal Guard】"
-    },
+    "name": { "zh": "尤娜【White Royal Guard】", "ja": "ユナ【White Royal Guard】", "en": "Juna【White Royal Guard】"},
     "date": "2024-01-31",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000915,
     "skill2": 12000920,
-    "burst": 14000925
+    "burst": 14000925,
+    "passive_ids": [1990148, 1990149],
+    "tag_ids": [7, 8, 11, 22],
+    "leader_skill": { "name": "白夜の騎士", "description": "「騎士」は「物攻・魔攻・物防・魔防+15%」"}
   },
   {
     "id": 56,
@@ -2206,17 +1944,15 @@
     "ev_skill2": 12003032,
     "ev_burst": 14003033,
     "attr": "火",
-    "name": {
-      "zh": "夏莉絲堤菈【スクールメイデン】",
-      "ja": "シャリステラ【スクールメイデン】",
-      "en": "Shallie【スクールメイデン】"
-    },
+    "name": { "zh": "夏莉絲堤菈【スクールメイデン】", "ja": "シャリステラ【スクールメイデン】", "en": "Shallie【スクールメイデン】"},
     "date": "2024-01-22",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000870,
     "skill2": 12000875,
-    "burst": 14000880
+    "burst": 14000880,
+    "passive_ids": [1990142, 1990143, 1990375],
+    "tag_ids": [12, 28],
+    "leader_skill": { "name": "太陽のように", "description": "得意属性が火属性のキャラは「物攻・魔攻・物防・魔防+10%」"}
   },
   {
     "id": 55,
@@ -2225,97 +1961,86 @@
     "ev_skill2": 12003043,
     "ev_burst": 14003044,
     "attr": "打",
-    "name": {
-      "zh": "夏露羅蒂【ガールズアンビシャス】",
-      "ja": "シャルロッテ【ガールズアンビシャス】",
-      "en": "Shallote【ガールズアンビシャス】"
-    },
+    "name": { "zh": "夏露羅蒂【ガールズアンビシャス】", "ja": "シャルロッテ【ガールズアンビシャス】", "en": "Shallote【ガールズアンビシャス】"},
     "date": "2024-01-22",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000885,
     "skill2": 12000890,
-    "burst": 14000895
+    "burst": 14000895,
+    "passive_ids": [1990144, 1990145, 1990376],
+    "tag_ids": [24, 29],
+    "leader_skill": { "name": "天性の楽天家", "description": "「ひょうきん者」は「攻撃対象がブレイク状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 54,
     "base_character_id": 33001,
     "attr": "打",
-    "name": {
-      "zh": "娜蒂【微笑みの母】",
-      "ja": "ナディ【微笑みの母】",
-      "en": "Nady【微笑みの母】"
-    },
+    "name": { "zh": "娜蒂【微笑みの母】", "ja": "ナディ【微笑みの母】", "en": "Nady【微笑みの母】"},
     "date": "2024-01-22",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000900,
     "skill2": 12000905,
-    "burst": 14000910
+    "burst": 14000910,
+    "passive_ids": [1990146, 1990147],
+    "tag_ids": [13, 16, 23, 27],
+    "leader_skill": { "name": "お菓子の差し入れ", "description": "味方全員は「スキル発動後、自身のHPを3%回復」"}
   },
   {
     "id": 53,
     "base_character_id": 29202,
     "attr": "雷",
-    "name": {
-      "zh": "愛夏【ノーブルフラワー】",
-      "ja": "アーシャ【ノーブルフラワー】",
-      "en": "Ayesha【ノーブルフラワー】"
-    },
+    "name": { "zh": "愛夏【ノーブルフラワー】", "ja": "アーシャ【ノーブルフラワー】", "en": "Ayesha【ノーブルフラワー】"},
     "date": "2024-01-11",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000855,
     "skill2": 12000860,
-    "burst": 14000865
+    "burst": 14000865,
+    "passive_ids": [1990140, 1990141],
+    "tag_ids": [8, 23, 26],
+    "leader_skill": { "name": "王宮の薬士", "description": "得意属性が雷属性のキャラは「物攻・魔攻・物防・魔防+10%」"}
   },
   {
     "id": 52,
     "base_character_id": 43301,
     "attr": "風",
-    "name": {
-      "zh": "羅曼【Romance Hearts】",
-      "ja": "ロマン【Romance Hearts】",
-      "en": "Roman【Romance Hearts】"
-    },
+    "name": { "zh": "羅曼【Romance Hearts】", "ja": "ロマン【Romance Hearts】", "en": "Roman【Romance Hearts】"},
     "date": "2024-01-11",
     "image": "images/chara/43301.png",
     "職種": "攻擊者",
     "skill1": 11000840,
     "skill2": 12000845,
-    "burst": 14000850
+    "burst": 14000850,
+    "passive_ids": [1990138, 1990139],
+    "tag_ids": [7, 8, 31, 29],
+    "leader_skill": { "name": "策士ロマン", "description": "「正義と探求」は「ターン開始時、自身のHPを5%回復」と「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 51,
     "base_character_id": 10102,
     "attr": "冰",
-    "name": {
-      "zh": "瑪莉【Fortune Full Bloom】",
-      "ja": "マリー【Fortune Full Bloom】",
-      "en": "Marie【Fortune Full Bloom】"
-    },
+    "name": { "zh": "瑪莉【Fortune Full Bloom】", "ja": "マリー【Fortune Full Bloom】", "en": "Marie【Fortune Full Bloom】"},
     "date": "2023-12-31",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000820,
     "skill2": 12000825,
-    "burst": 14000830
+    "burst": 14000830,
+    "passive_ids": [1990136, 1990137],
+    "tag_ids": [1, 21, 25],
+    "leader_skill": { "name": "新年の初仕事", "description": "「ずぼら」は「魔攻・魔防+25%」"}
   },
   {
     "id": 50,
     "base_character_id": 41501,
     "attr": "斬",
-    "name": {
-      "zh": "派翠夏【届けホーリーナイト】",
-      "ja": "パトリツィア【届けホーリーナイト】",
-      "en": "Patricia【届けホーリーナイト】"
-    },
+    "name": { "zh": "派翠夏【届けホーリーナイト】", "ja": "パトリツィア【届けホーリーナイト】", "en": "Patricia【届けホーリーナイト】"},
     "date": "2023-12-22",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000800,
     "skill2": 12000790,
-    "burst": 14000815
+    "burst": 14000815,
+    "passive_ids": [1990134, 1990135],
+    "tag_ids": [19, 21, 28],
+    "leader_skill": { "name": "星誕祭のプレゼント", "description": "「季節の装い」は「物攻・魔攻・物防・魔防+15%」"}
   },
   {
     "id": 49,
@@ -2324,33 +2049,29 @@
     "ev_skill2": 14003335,
     "ev_burst": 14003336,
     "attr": "冰",
-    "name": {
-      "zh": "蕾斯娜【Starry Heavens Gift】",
-      "ja": "レスナ【Starry Heavens Gift】",
-      "en": "Resna【Starry Heavens Gift】"
-    },
+    "name": { "zh": "蕾斯娜【Starry Heavens Gift】", "ja": "レスナ【Starry Heavens Gift】", "en": "Resna【Starry Heavens Gift】"},
     "date": "2023-12-22",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000770,
     "skill2": 12000775,
-    "burst": 14000780
+    "burst": 14000780,
+    "passive_ids": [1990132, 1990133, 1990492],
+    "tag_ids": [7, 9, 13, 15, 21],
+    "leader_skill": { "name": "星空に願いを", "description": "味方全員は「クリティカルダメージ+15%」"}
   },
   {
     "id": 48,
     "base_character_id": 40101,
     "attr": "冰",
-    "name": {
-      "zh": "莉拉【漆黒の護衛】",
-      "ja": "リラ【漆黒の護衛】",
-      "en": "Lila【漆黒の護衛】"
-    },
+    "name": { "zh": "莉拉【漆黒の護衛】", "ja": "リラ【漆黒の護衛】", "en": "Lila【漆黒の護衛】"},
     "date": "2023-12-11",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000750,
     "skill2": 12000755,
-    "burst": 14000760
+    "burst": 14000760,
+    "passive_ids": [1990130, 1990131],
+    "tag_ids": [5, 14, 18],
+    "leader_skill": { "name": "戦士の誓い", "description": "「師匠」は「魔攻・魔防+25%」"}
   },
   {
     "id": 47,
@@ -2359,81 +2080,71 @@
     "ev_skill2": 12003117,
     "ev_burst": 14003118,
     "attr": "雷",
-    "name": {
-      "zh": "伊札娜【Return of the Knight】",
-      "ja": "イザナ【Return of the Knight】",
-      "en": "Izana【Return of the Knight】"
-    },
+    "name": { "zh": "伊札娜【Return of the Knight】", "ja": "イザナ【Return of the Knight】", "en": "Izana【Return of the Knight】"},
     "date": "2023-12-11",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000705,
     "skill2": 12000710,
-    "burst": 14000715
+    "burst": 14000715,
+    "passive_ids": [1990124, 1990125, 1990385],
+    "tag_ids": [7, 9, 26],
+    "leader_skill": { "name": "ハンマーこそ最強！", "description": "「天然」は「魔攻・魔防+25%」"}
   },
   {
     "id": 46,
     "base_character_id": 39902,
     "attr": "斬",
-    "name": {
-      "zh": "萊莎【Master's Right-Hand】",
-      "ja": "ライザ【Master's Right-Hand】",
-      "en": "Ryza【Master's Right-Hand】"
-    },
+    "name": { "zh": "萊莎【Master's Right-Hand】", "ja": "ライザ【Master's Right-Hand】", "en": "Ryza【Master's Right-Hand】"},
     "date": "2023-11-29",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000720,
     "skill2": 12000725,
-    "burst": 14000730
+    "burst": 14000730,
+    "passive_ids": [1990126, 1990127],
+    "tag_ids": [5, 17, 18, 20, 24],
+    "leader_skill": { "name": "こんどはあたしが教えてあげる", "description": "味方全員は「攻撃対象がブレイク状態の時、スキルダメージ+15%」"}
   },
   {
     "id": 45,
     "base_character_id": 40401,
     "attr": "打",
-    "name": {
-      "zh": "安佩爾【門を閉ざす者】",
-      "ja": "アンペル【門を閉ざす者】",
-      "en": "Empel【門を閉ざす者】"
-    },
+    "name": { "zh": "安佩爾【門を閉ざす者】", "ja": "アンペル【門を閉ざす者】", "en": "Empel【門を閉ざす者】"},
     "date": "2023-11-29",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000735,
     "skill2": 12000740,
-    "burst": 14000745
+    "burst": 14000745,
+    "passive_ids": [1990128, 1990129],
+    "tag_ids": [5, 14, 15, 17, 20],
+    "leader_skill": { "name": "知の伝道師", "description": "「読書」は「物攻・物防+25%」"}
   },
   {
     "id": 44,
     "base_character_id": 37401,
     "attr": "雷",
-    "name": {
-      "zh": "莉迪【Rainbow Canvas】",
-      "ja": "リディー【Rainbow Canvas】",
-      "en": "Lydie【Rainbow Canvas】"
-    },
+    "name": { "zh": "莉迪【Rainbow Canvas】", "ja": "リディー【Rainbow Canvas】", "en": "Lydie【Rainbow Canvas】"},
     "date": "2023-11-21",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000530,
     "skill2": 12000535,
-    "burst": 14000540
+    "burst": 14000540,
+    "passive_ids": [1990110, 1990111],
+    "tag_ids": [6, 10, 27],
+    "leader_skill": { "name": "賢く優しい姉", "description": "「「声」を聴く者たち」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 43,
     "base_character_id": 37501,
     "attr": "打",
-    "name": {
-      "zh": "蘇瑞【Ambition Painting】",
-      "ja": "スール【Ambition Painting】",
-      "en": "Suelle【Ambition Painting】"
-    },
+    "name": { "zh": "蘇瑞【Ambition Painting】", "ja": "スール【Ambition Painting】", "en": "Suelle【Ambition Painting】"},
     "date": "2023-11-21",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000515,
     "skill2": 12000520,
-    "burst": 14000525
+    "burst": 14000525,
+    "passive_ids": [1990112, 1990113],
+    "tag_ids": [6, 10, 24],
+    "leader_skill": { "name": "とても元気な妹", "description": "得意属性が打属性のキャラは「物攻・魔攻・物防・魔防+10%」"}
   },
   {
     "id": 42,
@@ -2442,49 +2153,43 @@
     "ev_skill2": 14003465,
     "ev_burst": 14003466,
     "attr": "火",
-    "name": {
-      "zh": "薇爾貝兒【Magical Trick Star】",
-      "ja": "ウィルベル【Magical Trick Star】",
-      "en": "Wilbell【Magical Trick Star】"
-    },
+    "name": { "zh": "薇爾貝兒【Magical Trick Star】", "ja": "ウィルベル【Magical Trick Star】", "en": "Wilbell【Magical Trick Star】"},
     "date": "2023-11-10",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000665,
     "skill2": 12000670,
-    "burst": 14000675
+    "burst": 14000675,
+    "passive_ids": [1990114, 1990115, 1990498],
+    "tag_ids": [3, 24, 39],
+    "leader_skill": { "name": "大魔法使いのウィルベルさん", "description": "「おてんば」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 41,
     "base_character_id": 29401,
     "attr": "火",
-    "name": {
-      "zh": "瑞吉娜【遺跡発掘屋】",
-      "ja": "レジナ【遺跡発掘屋】",
-      "en": "Regina【遺跡発掘屋】"
-    },
+    "name": { "zh": "瑞吉娜【遺跡発掘屋】", "ja": "レジナ【遺跡発掘屋】", "en": "Regina【遺跡発掘屋】"},
     "date": "2023-11-10",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000590,
     "skill2": 12000595,
-    "burst": 14000600
+    "burst": 14000600,
+    "passive_ids": [1990122, 1990123],
+    "tag_ids": [16, 23],
+    "leader_skill": { "name": "大家族のねーちゃん", "description": "味方全員は「世話焼き」1人につき「物攻+7%」"}
   },
   {
     "id": 40,
     "base_character_id": 29601,
     "attr": "打",
-    "name": {
-      "zh": "妮歐【チャーミングシスター】",
-      "ja": "ニオ【チャーミングシスター】",
-      "en": "Nio【チャーミングシスター】"
-    },
+    "name": { "zh": "妮歐【チャーミングシスター】", "ja": "ニオ【チャーミングシスター】", "en": "Nio【チャーミングシスター】"},
     "date": "2023-11-10",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000575,
     "skill2": 12000580,
-    "burst": 14000585
+    "burst": 14000585,
+    "passive_ids": [1990106, 1990107],
+    "tag_ids": [3, 24, 28],
+    "leader_skill": { "name": "しっかり者", "description": "味方全員は「真面目」1人につき「スキルダメージ・ブレイクダメージ+7%」"}
   },
   {
     "id": 39,
@@ -2493,17 +2198,15 @@
     "ev_skill2": 14003290,
     "ev_burst": 14003291,
     "attr": "斬",
-    "name": {
-      "zh": "普拉芙妲【魅惑のヴァンパイア】",
-      "ja": "プラフタ【魅惑のヴァンパイア】",
-      "en": "Plachta【魅惑のヴァンパイア】"
-    },
+    "name": { "zh": "普拉芙妲【魅惑のヴァンパイア】", "ja": "プラフタ【魅惑のヴァンパイア】", "en": "Plachta【魅惑のヴァンパイア】"},
     "date": "2023-10-31",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000620,
     "skill2": 12000625,
-    "burst": 14000630
+    "burst": 14000630,
+    "passive_ids": [1990120, 1990121, 1990487],
+    "tag_ids": [4, 14, 21, 28],
+    "leader_skill": { "name": "イタズラの時間です", "description": "「キルヘン・ベル」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 38,
@@ -2512,17 +2215,15 @@
     "ev_skill2": 12002949,
     "ev_burst": 14002950,
     "attr": "冰",
-    "name": {
-      "zh": "梅露露【Damsel in Distress】",
-      "ja": "メルル【Damsel in Distress】",
-      "en": "Meruru【Damsel in Distress】"
-    },
+    "name": { "zh": "梅露露【Damsel in Distress】", "ja": "メルル【Damsel in Distress】", "en": "Meruru【Damsel in Distress】"},
     "date": "2023-10-24",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000680,
     "skill2": 12000685,
-    "burst": 14000685
+    "burst": 14000685,
+    "passive_ids": [1990118, 1990119, 1990366],
+    "tag_ids": [2, 19, 24],
+    "leader_skill": { "name": "チャーミングロイヤル", "description": "「お嬢様」は「魔攻・魔防+25%」"}
   },
   {
     "id": 37,
@@ -2531,273 +2232,239 @@
     "ev_skill2": 12003141,
     "ev_burst": 14003142,
     "attr": "風",
-    "name": {
-      "zh": "艾莉【チーズケーキの申し子】",
-      "ja": "エリー【チーズケーキの申し子】",
-      "en": "Ellie【チーズケーキの申し子】"
-    },
+    "name": { "zh": "艾莉【チーズケーキの申し子】", "ja": "エリー【チーズケーキの申し子】", "en": "Ellie【チーズケーキの申し子】"},
     "date": "2023-10-17",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000545,
     "skill2": 12000550,
-    "burst": 14000555
+    "burst": 14000555,
+    "passive_ids": [1990102, 1990103, 1990387],
+    "tag_ids": [1, 12, 16, 17],
+    "leader_skill": { "name": "私１番だ！やったね！", "description": "「アカデミー」は「先駆け」と「魔攻+50%」"}
   },
   {
     "id": 36,
     "base_character_id": 13401,
     "attr": "雷",
-    "name": {
-      "zh": "莉莉【Birth of The Legend】",
-      "ja": "リリー【Birth of The Legend】",
-      "en": "Lilie【Birth of The Legend】"
-    },
+    "name": { "zh": "莉莉【Birth of The Legend】", "ja": "リリー【Birth of The Legend】", "en": "Lilie【Birth of The Legend】"},
     "date": "2023-10-17",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000560,
     "skill2": 12000565,
-    "burst": 14000570
+    "burst": 14000570,
+    "passive_ids": [1990104, 1990105],
+    "tag_ids": [1, 14, 15, 24],
+    "leader_skill": { "name": "砥礪切磋", "description": "「読書」は「攻撃後、対象に麻痺を1回行動開始するまで高確率で付与」と「攻撃対象が麻痺状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 35,
     "base_character_id": 40001,
     "attr": "冰",
-    "name": {
-      "zh": "科洛蒂婭【One Summer Melody】",
-      "ja": "クラウディア【One Summer Melody】",
-      "en": "Klaudia【One Summer Melody】"
-    },
+    "name": { "zh": "科洛蒂婭【One Summer Melody】", "ja": "クラウディア【One Summer Melody】", "en": "Klaudia【One Summer Melody】"},
     "date": "2023-10-10",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000650,
     "skill2": 12000655,
-    "burst": 14000660
+    "burst": 14000660,
+    "passive_ids": [1990116, 1990117],
+    "tag_ids": [5, 13, 19],
+    "leader_skill": { "name": "凍麗の舞", "description": "得意属性が氷属性のキャラは「物攻・魔攻・物防・魔防+10%」"}
   },
   {
     "id": 34,
     "base_character_id": 43202,
     "attr": "斬",
-    "name": {
-      "zh": "瓦萊莉婭【Secret Amnesia】",
-      "ja": "ヴァレリア【Secret Amnesia】",
-      "en": "Valeria【Secret Amnesia】"
-    },
+    "name": { "zh": "瓦萊莉婭【Secret Amnesia】", "ja": "ヴァレリア【Secret Amnesia】", "en": "Valeria【Secret Amnesia】"},
     "date": "2023-10-10",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000230,
     "skill2": 12000235,
-    "burst": 14000240
+    "burst": 14000240,
+    "passive_ids": [1990048, 1990049],
+    "tag_ids": [7, 10, 25, 27],
+    "leader_skill": { "name": "裏社会で生きる者", "description": "「家族と友情」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 33,
     "base_character_id": 43201,
     "attr": "突",
-    "name": {
-      "zh": "瓦萊莉婭【過去に夢を求めし者】",
-      "ja": "ヴァレリア【過去に夢を求めし者】",
-      "en": "Valeria【過去に夢を求めし者】"
-    },
+    "name": { "zh": "瓦萊莉婭【過去に夢を求めし者】", "ja": "ヴァレリア【過去に夢を求めし者】", "en": "Valeria【過去に夢を求めし者】"},
     "date": "2023-10-10",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000500,
     "skill2": 12000505,
-    "burst": 14000510
+    "burst": 14000510,
+    "passive_ids": [1990100, 1990101],
+    "tag_ids": [7, 10, 25, 27],
+    "leader_skill": { "name": "手を取った者", "description": "味方全員は「バーストスキルダメージ+30%」"}
   },
   {
     "id": 32,
     "base_character_id": 33401,
     "attr": "雷",
-    "name": {
-      "zh": "蘇菲【百科繚乱フロネシス】",
-      "ja": "ソフィー【百科繚乱フロネシス】",
-      "en": "Sophie【百科繚乱フロネシス】"
-    },
+    "name": { "zh": "蘇菲【百科繚乱フロネシス】", "ja": "ソフィー【百科繚乱フロネシス】", "en": "Sophie【百科繚乱フロネシス】"},
     "date": "2023-10-02",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000170,
     "skill2": 12000175,
-    "burst": 14000180
+    "burst": 14000180,
+    "passive_ids": [1990040, 1990041],
+    "tag_ids": [4, 6, 25, 39],
+    "leader_skill": { "name": "ぐるこん一級", "description": "「キルヘン・ベル」は「物攻・魔攻・物防・魔防+15%」"}
   },
   {
     "id": 31,
     "base_character_id": 33501,
     "attr": "打",
-    "name": {
-      "zh": "普拉芙妲【ミステリアスドール】",
-      "ja": "プラフタ【ミステリアスドール】",
-      "en": "Plachta【ミステリアスドール】"
-    },
+    "name": { "zh": "普拉芙妲【ミステリアスドール】", "ja": "プラフタ【ミステリアスドール】", "en": "Plachta【ミステリアスドール】"},
     "date": "2023-10-02",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000605,
     "skill2": 12000610,
-    "burst": 14000615
+    "burst": 14000615,
+    "passive_ids": [1990108, 1990109],
+    "tag_ids": [4, 14, 28],
+    "leader_skill": { "name": "万物の知識", "description": "「師匠」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 30,
     "base_character_id": 40301,
     "attr": "打",
-    "name": {
-      "zh": "塔奧【學者のタマゴ】",
-      "ja": "タオ【学者のタマゴ】",
-      "en": "Tao【學者のタマゴ】"
-    },
+    "name": { "zh": "塔奧【學者のタマゴ】", "ja": "タオ【学者のタマゴ】", "en": "Tao【學者のタマゴ】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000215,
     "skill2": 12000220,
-    "burst": 14000225
+    "burst": 14000225,
+    "passive_ids": [1990046, 1990047],
+    "tag_ids": [5, 15, 18, 20],
+    "leader_skill": { "name": "本の虫", "description": "「メガネ」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 29,
     "base_character_id": 33901,
     "attr": "突",
-    "name": {
-      "zh": "緹絲【兔耳トラブルメーカー】",
-      "ja": "テス【兎耳トラブルメーカー】",
-      "en": "Tess【兎耳トラブルメーカー】"
-    },
+    "name": { "zh": "緹絲【兔耳トラブルメーカー】", "ja": "テス【兎耳トラブルメーカー】", "en": "Tess【兎耳トラブルメーカー】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000080,
     "skill2": 12000085,
-    "burst": 14000090
+    "burst": 14000090,
+    "passive_ids": [1990028, 1990029],
+    "tag_ids": [4, 17],
+    "leader_skill": { "name": "カフェの看板娘", "description": "「お菓子」は「物防・魔防+25%」"}
   },
   {
     "id": 28,
     "base_character_id": 29701,
     "attr": "突",
-    "name": {
-      "zh": "瑪麗翁【開発班の班長】",
-      "ja": "マリオン【開発班の班長】",
-      "en": "Marion【開発班の班長】"
-    },
+    "name": { "zh": "瑪麗翁【開発班の班長】", "ja": "マリオン【開発班の班長】", "en": "Marion【開発班の班長】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000410,
     "skill2": 12000415,
-    "burst": 14000420
+    "burst": 14000420,
+    "passive_ids": [1990088, 1990089],
+    "tag_ids": [3, 31, 28],
+    "leader_skill": { "name": "役人魂", "description": "「コルセイト」は「物攻・魔攻・物防・魔防+15%」"}
   },
   {
     "id": 27,
     "base_character_id": 29501,
     "attr": "斬",
-    "name": {
-      "zh": "琳卡【班長補佐】",
-      "ja": "リンカ【班長補佐】",
-      "en": "Linca【班長補佐】"
-    },
+    "name": { "zh": "琳卡【班長補佐】", "ja": "リンカ【班長補佐】", "en": "Linca【班長補佐】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000395,
     "skill2": 12000400,
-    "burst": 14000405
+    "burst": 14000405,
+    "passive_ids": [1990086, 1990087],
+    "tag_ids": [3, 28],
+    "leader_skill": { "name": "剣の扱いだけは自信があります", "description": "得意属性が斬属性のキャラは「物攻・魔攻・物防・魔防+10%」"}
   },
   {
     "id": 26,
     "base_character_id": 25601,
     "attr": "突",
-    "name": {
-      "zh": "庫蝶莉亞【貴族令嬢】",
-      "ja": "クーデリア【貴族令嬢】",
-      "en": "Cordelia【貴族令嬢】"
-    },
+    "name": { "zh": "庫蝶莉亞【貴族令嬢】", "ja": "クーデリア【貴族令嬢】", "en": "Cordelia【貴族令嬢】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000335,
     "skill2": 12000340,
-    "burst": 14000345
+    "burst": 14000345,
+    "passive_ids": [1990078, 1990079],
+    "tag_ids": [2, 19, 23],
+    "leader_skill": { "name": "ねえ、あんた…身長いくつ？", "description": "「お嬢様」は「攻撃後、対象に毒を1回行動開始するまで高確率で付与」と「攻撃対象が毒状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 25,
     "base_character_id": 40201,
     "attr": "打",
-    "name": {
-      "zh": "蘭托【剛腕戦士】",
-      "ja": "レント【剛腕戦士】",
-      "en": "Lent【剛腕戦士】"
-    },
+    "name": { "zh": "蘭托【剛腕戦士】", "ja": "レント【剛腕戦士】", "en": "Lent【剛腕戦士】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000200,
     "skill2": 12000205,
-    "burst": 14000210
+    "burst": 14000210,
+    "passive_ids": [1990044, 1990045],
+    "tag_ids": [5, 18, 22],
+    "leader_skill": { "name": "島一番の戦士", "description": "「竜狩り」は「物防・魔防+25%」"}
   },
   {
     "id": 24,
     "base_character_id": 33601,
     "attr": "突",
-    "name": {
-      "zh": "摩妮卡【モニカオンステージ】",
-      "ja": "モニカ【モニカオンステージ】",
-      "en": "Monika【モニカオンステージ】"
-    },
+    "name": { "zh": "摩妮卡【モニカオンステージ】", "ja": "モニカ【モニカオンステージ】", "en": "Monika【モニカオンステージ】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000065,
     "skill2": 12000070,
-    "burst": 14000075
+    "burst": 14000075,
+    "passive_ids": [1990026, 1990027],
+    "tag_ids": [4, 20, 23, 28],
+    "leader_skill": { "name": "女神の盾", "description": "得意属性が突属性のキャラは「物攻・魔攻・物防・魔防+10%」"}
   },
   {
     "id": 23,
     "base_character_id": 32201,
     "attr": "風",
-    "name": {
-      "zh": "夏莉絲堤菈【族長の娘】",
-      "ja": "シャリステラ【族長の娘】",
-      "en": "Shallie【族長の娘】"
-    },
+    "name": { "zh": "夏莉絲堤菈【族長の娘】", "ja": "シャリステラ【族長の娘】", "en": "Shallie【族長の娘】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000155,
     "skill2": 12000160,
-    "burst": 14000165
+    "burst": 14000165,
+    "passive_ids": [1990038, 1990039],
+    "tag_ids": [9, 28],
+    "leader_skill": { "name": "強固な意思", "description": "「約束と協力」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 22,
     "base_character_id": 30901,
     "attr": "風",
-    "name": {
-      "zh": "愛絲卡【エンドレスタルト】",
-      "ja": "エスカ【エンドレスタルト】",
-      "en": "Escha【エンドレスタルト】"
-    },
+    "name": { "zh": "愛絲卡【エンドレスタルト】", "ja": "エスカ【エンドレスタルト】", "en": "Escha【エンドレスタルト】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000185,
     "skill2": 12000190,
-    "burst": 14000195
+    "burst": 14000195,
+    "passive_ids": [1990042, 1990043],
+    "tag_ids": [3, 10, 17],
+    "leader_skill": { "name": "開発班の超元気娘", "description": "「コルセイト」は「物攻・魔攻+25%」"}
   },
   {
     "id": 21,
     "base_character_id": 28401,
     "attr": "風",
-    "name": {
-      "zh": "梅露露【パワフルプリンセス】",
-      "ja": "メルル【パワフルプリンセス】",
-      "en": "Meruru【パワフルプリンセス】"
-    },
+    "name": { "zh": "梅露露【パワフルプリンセス】", "ja": "メルル【パワフルプリンセス】", "en": "Meruru【パワフルプリンセス】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000380,
     "skill2": 12000385,
-    "burst": 14000390
+    "burst": 14000390,
+    "passive_ids": [1990084, 1990085],
+    "tag_ids": [2, 19, 24],
+    "leader_skill": { "name": "ポジティブ思考のお姫様", "description": "味方全員は「おてんば」1人につき「戦闘アイテムダメージ+20%」"}
   },
   {
     "id": 20,
@@ -2806,81 +2473,71 @@
     "ev_skill2": 14003508,
     "ev_burst": 14003509,
     "attr": "冰",
-    "name": {
-      "zh": "托托莉【強き母に憧れる少女】",
-      "ja": "トトリ【強き母に憧れる少女】",
-      "en": "Totori【強き母に憧れる少女】"
-    },
+    "name": { "zh": "托托莉【強き母に憧れる少女】", "ja": "トトリ【強き母に憧れる少女】", "en": "Totori【強き母に憧れる少女】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000035,
     "skill2": 12000040,
-    "burst": 14000045
+    "burst": 14000045,
+    "passive_ids": [1990022, 1990023, 1990505],
+    "tag_ids": [2, 10, 18, 39],
+    "leader_skill": { "name": "最強の冒険者の面影", "description": "「アーランド」は「物防・魔防+25%」"}
   },
   {
     "id": 19,
     "base_character_id": 26501,
     "attr": "斬",
-    "name": {
-      "zh": "艾絲緹【頼れる受付嬢】",
-      "ja": "エスティ【頼れる受付嬢】",
-      "en": "Esty【頼れる受付嬢】"
-    },
+    "name": { "zh": "艾絲緹【頼れる受付嬢】", "ja": "エスティ【頼れる受付嬢】", "en": "Esty【頼れる受付嬢】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000365,
     "skill2": 12000370,
-    "burst": 14000375
+    "burst": 14000375,
+    "passive_ids": [1990082, 1990083],
+    "tag_ids": [2, 11],
+    "leader_skill": { "name": "トリックスター", "description": "得意属性が斬・打・突属性のキャラは「スキルダメージ・ブレイクダメージ+20%」"}
   },
   {
     "id": 18,
     "base_character_id": 22001,
     "attr": "雷",
-    "name": {
-      "zh": "維因【願いを叶える力】",
-      "ja": "ヴェイン【願いを叶える力】",
-      "en": "Vayne【願いを叶える力】"
-    },
+    "name": { "zh": "維因【願いを叶える力】", "ja": "ヴェイン【願いを叶える力】", "en": "Vayne【願いを叶える力】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000110,
     "skill2": 12000115,
-    "burst": 14000120
+    "burst": 14000120,
+    "passive_ids": [1990032, 1990033],
+    "tag_ids": [12, 28],
+    "leader_skill": { "name": "人工のマナ", "description": "味方全員は「魔攻+10%」"}
   },
   {
     "id": 17,
     "base_character_id": 16501,
     "attr": "冰",
-    "name": {
-      "zh": "薇歐拉【カロッテ・キャロット】",
-      "ja": "ヴィオラート【カロッテ・キャロット】",
-      "en": "Viorate【カロッテ・キャロット】"
-    },
+    "name": { "zh": "薇歐拉【カロッテ・キャロット】", "ja": "ヴィオラート【カロッテ・キャロット】", "en": "Viorate【カロッテ・キャロット】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000320,
     "skill2": 12000325,
-    "burst": 14000330
+    "burst": 14000330,
+    "passive_ids": [1990076, 1990077],
+    "tag_ids": [16],
+    "leader_skill": { "name": "にんじん大好き！", "description": "「料理」は「物攻・魔攻+25%」"}
   },
   {
     "id": 16,
     "base_character_id": 10701,
     "attr": "斬",
-    "name": {
-      "zh": "路溫【熱血の冒険者】",
-      "ja": "ルーウェン【熱血の冒険者】",
-      "en": "Ruven【熱血の冒険者】"
-    },
+    "name": { "zh": "路溫【熱血の冒険者】", "ja": "ルーウェン【熱血の冒険者】", "en": "Ruven【熱血の冒険者】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000305,
     "skill2": 12000310,
-    "burst": 14000315
+    "burst": 14000315,
+    "passive_ids": [1990074, 1990075],
+    "tag_ids": [18],
+    "leader_skill": { "name": "がっちり働いてガッポリ稼ぐぜ", "description": "味方全員は「敵が1体の時、スキルダメージ+30%」"}
   },
   {
     "id": 15,
@@ -2889,17 +2546,15 @@
     "ev_skill2": 12002462,
     "ev_burst": 14002463,
     "attr": "雷",
-    "name": {
-      "zh": "蕾斯娜【Innocent Dreamer】",
-      "ja": "レスナ【Innocent Dreamer】",
-      "en": "Resna【Innocent Dreamer】"
-    },
+    "name": { "zh": "蕾斯娜【Innocent Dreamer】", "ja": "レスナ【Innocent Dreamer】", "en": "Resna【Innocent Dreamer】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000095,
     "skill2": 12000100,
-    "burst": 14000105
+    "burst": 14000105,
+    "passive_ids": [1990030, 1990031, 1990325],
+    "tag_ids": [7, 9, 13, 15],
+    "leader_skill": { "name": "夢を叶える強い意志", "description": "味方全員は「約束と協力」1人につき「クリティカルダメージ+5%」"}
   },
   {
     "id": 14,
@@ -2908,161 +2563,141 @@
     "ev_skill2": 12002451,
     "ev_burst": 14002452,
     "attr": "火",
-    "name": {
-      "zh": "萊莎【One Summer Story】",
-      "ja": "ライザ【One Summer Story】",
-      "en": "Ryza【One Summer Story】"
-    },
+    "name": { "zh": "萊莎【One Summer Story】", "ja": "ライザ【One Summer Story】", "en": "Ryza【One Summer Story】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000260,
     "skill2": 12000265,
-    "burst": 14000270
+    "burst": 14000270,
+    "passive_ids": [1990050, 1990051, 1990298],
+    "tag_ids": [5, 9, 18, 22, 24],
+    "leader_skill": { "name": "あたしたちだけの秘密の隠れ家", "description": "「クーケン島」は「物攻・魔攻・物防・魔防+15%」"}
   },
   {
     "id": 13,
     "base_character_id": 35001,
     "attr": "風",
-    "name": {
-      "zh": "菲莉絲【Crystal Master】",
-      "ja": "フィリス【Crystal Master】",
-      "en": "Firis【Crystal Master】"
-    },
+    "name": { "zh": "菲莉絲【Crystal Master】", "ja": "フィリス【Crystal Master】", "en": "Firis【Crystal Master】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000485,
     "skill2": 12000490,
-    "burst": 14000495
+    "burst": 14000495,
+    "passive_ids": [1990098, 1990099],
+    "tag_ids": [6, 9, 18],
+    "leader_skill": { "name": "風の旅人", "description": "得意属性が風属性のキャラは「物攻・魔攻・物防・魔防+10%」"}
   },
   {
     "id": 12,
     "base_character_id": 33801,
     "attr": "打",
-    "name": {
-      "zh": "奧斯卡【植物は親友】",
-      "ja": "オスカー【植物は親友】",
-      "en": "Oskar【植物は親友】"
-    },
+    "name": { "zh": "奧斯卡【植物は親友】", "ja": "オスカー【植物は親友】", "en": "Oskar【植物は親友】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000470,
     "skill2": 12000475,
-    "burst": 14000480
+    "burst": 14000480,
+    "passive_ids": [1990096, 1990097],
+    "tag_ids": [4, 6, 27],
+    "leader_skill": { "name": "頼れるオスカー", "description": "「マイペース」は「攻撃を受けた時、自身のHPを10%回復」"}
   },
   {
     "id": 11,
     "base_character_id": 33701,
     "attr": "打",
-    "name": {
-      "zh": "柯爾涅莉雅【ノーミルクノーライフ】",
-      "ja": "コルネリア【ノーミルクノーライフ】",
-      "en": "Corneria【ノーミルクノーライフ】"
-    },
+    "name": { "zh": "柯爾涅莉雅【ノーミルクノーライフ】", "ja": "コルネリア【ノーミルクノーライフ】", "en": "Corneria【ノーミルクノーライフ】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000455,
     "skill2": 12000460,
-    "burst": 14000465
+    "burst": 14000465,
+    "passive_ids": [1990094, 1990095],
+    "tag_ids": [4, 13, 27],
+    "leader_skill": { "name": "珍しい品物、ばっちりです", "description": "「商人」は「物防・魔防+25%」"}
   },
   {
     "id": 10,
     "base_character_id": 31001,
     "attr": "斬",
-    "name": {
-      "zh": "羅吉【黄昏の錬金剣】",
-      "ja": "ロジー【黄昏の錬金剣】",
-      "en": "Logy【黄昏の錬金剣】"
-    },
+    "name": { "zh": "羅吉【黄昏の錬金剣】", "ja": "ロジー【黄昏の錬金剣】", "en": "Logy【黄昏の錬金剣】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000050,
     "skill2": 12000055,
-    "burst": 14000060
+    "burst": 14000060,
+    "passive_ids": [1990024, 1990025],
+    "tag_ids": [3, 9, 23],
+    "leader_skill": { "name": "中央で鍛えたリーダーシップ", "description": "味方全員は「スキルダメージ+10%」"}
   },
   {
     "id": 9,
     "base_character_id": 29901,
     "attr": "火",
-    "name": {
-      "zh": "奇斯葛里夫【知識の探究者】",
-      "ja": "キースグリフ【知識の探究者】",
-      "en": "Keithgriff【知識の探究者】"
-    },
+    "name": { "zh": "奇斯葛里夫【知識の探究者】", "ja": "キースグリフ【知識の探究者】", "en": "Keithgriff【知識の探究者】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000440,
     "skill2": 12000445,
-    "burst": 14000450
+    "burst": 14000450,
+    "passive_ids": [1990092, 1990093],
+    "tag_ids": [14, 20, 30],
+    "leader_skill": { "name": "真理は自ら求め掴み取るものだ", "description": "「寡黙」は「攻撃対象がブレイク状態の時、スキルダメージ+35%」"}
   },
   {
     "id": 8,
     "base_character_id": 29801,
     "attr": "雷",
-    "name": {
-      "zh": "奧迪莉雅【古の機械人形】",
-      "ja": "オディーリア【古の機械人形】",
-      "en": "Odelia【古の機械人形】"
-    },
+    "name": { "zh": "奧迪莉雅【古の機械人形】", "ja": "オディーリア【古の機械人形】", "en": "Odelia【古の機械人形】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000425,
     "skill2": 12000430,
-    "burst": 14000435
+    "burst": 14000435,
+    "passive_ids": [1990090, 1990091],
+    "tag_ids": [17, 30],
+    "leader_skill": { "name": "むしばになりますよ？", "description": "「お菓子」は「攻撃後、対象に麻痺を1回行動開始するまで高確率で付与」と「攻撃対象が麻痺状態の時、スキルダメージ+50%」"}
   },
   {
     "id": 7,
     "base_character_id": 29201,
     "attr": "風",
-    "name": {
-      "zh": "愛夏【MARIA of Dusk】",
-      "ja": "アーシャ【MARIA of Dusk】",
-      "en": "Ayesha【MARIA of Dusk】"
-    },
+    "name": { "zh": "愛夏【MARIA of Dusk】", "ja": "アーシャ【MARIA of Dusk】", "en": "Ayesha【MARIA of Dusk】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000140,
     "skill2": 12000145,
-    "burst": 14000150
+    "burst": 14000150,
+    "passive_ids": [1990036, 1990037],
+    "tag_ids": [10, 23, 26],
+    "leader_skill": { "name": "想い出の花園", "description": "味方全員は「ブレイクダメージ+10%」"}
   },
   {
     "id": 6,
     "base_character_id": 25801,
     "attr": "火",
-    "name": {
-      "zh": "伊克賽爾【戦う料理人】",
-      "ja": "イクセル【戦う料理人】",
-      "en": "Iksel【戦う料理人】"
-    },
+    "name": { "zh": "伊克賽爾【戦う料理人】", "ja": "イクセル【戦う料理人】", "en": "Iksel【戦う料理人】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "支援者",
     "skill1": 11000350,
     "skill2": 12000355,
-    "burst": 14000360
+    "burst": 14000360,
+    "passive_ids": [1990080, 1990081],
+    "tag_ids": [2, 16],
+    "leader_skill": { "name": "いい食材は自分で探さないとな", "description": "「料理」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 5,
     "base_character_id": 25501,
     "attr": "冰",
-    "name": {
-      "zh": "蘿樂娜【五ツ星パイマイスター】",
-      "ja": "ロロナ【五ツ星パイマイスター】",
-      "en": "Rorona【五ツ星パイマイスター】"
-    },
+    "name": { "zh": "蘿樂娜【五ツ星パイマイスター】", "ja": "ロロナ【五ツ星パイマイスター】", "en": "Rorona【五ツ星パイマイスター】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000125,
     "skill2": 12000130,
-    "burst": 14000135
+    "burst": 14000135,
+    "passive_ids": [1990034, 1990035],
+    "tag_ids": [2, 9, 26],
+    "leader_skill": { "name": "ガーッとしてバーンといこう！", "description": "味方全員は「アーランド」1人につき「戦闘アイテムダメージ+20%」"}
   },
   {
     "id": 4,
@@ -3071,17 +2706,15 @@
     "ev_skill2": 14003453,
     "ev_burst": 14003454,
     "attr": "斬",
-    "name": {
-      "zh": "羅傑【光の剣】",
-      "ja": "ロゼ【光の剣】",
-      "en": "Raze【光の剣】"
-    },
+    "name": { "zh": "羅傑【光の剣】", "ja": "ロゼ【光の剣】", "en": "Raze【光の剣】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000020,
     "skill2": 12000025,
-    "burst": 14000030
+    "burst": 14000030,
+    "passive_ids": [1990019, 1990020, 1990497],
+    "tag_ids": [12, 30, 39],
+    "leader_skill": { "name": "戦闘技術科", "description": "味方全員は「物攻+10%」"}
   },
   {
     "id": 3,
@@ -3090,33 +2723,29 @@
     "ev_skill2": 12003129,
     "ev_burst": 14003130,
     "attr": "火",
-    "name": {
-      "zh": "優蒂【Hero of Tempest】",
-      "ja": "ユーディー【Hero of Tempest】",
-      "en": "Judie【Hero of Tempest】"
-    },
+    "name": { "zh": "優蒂【Hero of Tempest】", "ja": "ユーディー【Hero of Tempest】", "en": "Judie【Hero of Tempest】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "防禦者",
     "skill1": 11000005,
     "skill2": 12000010,
-    "burst": 14000015
+    "burst": 14000015,
+    "passive_ids": [1990052, 1990053, 1990386],
+    "tag_ids": [9, 13, 24],
+    "leader_skill": { "name": "嵐の風雲児", "description": "バトル開始時「おてんば」に「回避(確率100%)」を1回攻撃されるまで付与"}
   },
   {
     "id": 2,
     "base_character_id": 10301,
     "attr": "突",
-    "name": {
-      "zh": "繆羽【南国の冒険者】",
-      "ja": "ミュー【南国の冒険者】",
-      "en": "Mu【南国の冒険者】"
-    },
+    "name": { "zh": "繆羽【南国の冒険者】", "ja": "ミュー【南国の冒険者】", "en": "Mu【南国の冒険者】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000290,
     "skill2": 12000295,
-    "burst": 14000300
+    "burst": 14000300,
+    "passive_ids": [1990072, 1990073],
+    "tag_ids": [18, 27],
+    "leader_skill": { "name": "遠い国からはるばると", "description": "「冒険」は「スキルダメージ・ブレイクダメージ+30%」"}
   },
   {
     "id": 1,
@@ -3125,32 +2754,28 @@
     "ev_skill2": 12002440,
     "ev_burst": 14002441,
     "attr": "火",
-    "name": {
-      "zh": "瑪莉【Lovely Bomber】",
-      "ja": "マリー【Lovely Bomber】",
-      "en": "Marie【Lovely Bomber】"
-    },
+    "name": { "zh": "瑪莉【Lovely Bomber】", "ja": "マリー【Lovely Bomber】", "en": "Marie【Lovely Bomber】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "破防者",
     "skill1": 11000275,
     "skill2": 12000280,
-    "burst": 14000285
+    "burst": 14000285,
+    "passive_ids": [1990056, 1990057, 1990324],
+    "tag_ids": [1, 9, 31, 12, 25],
+    "leader_skill": { "name": "アカデミーの卒業生", "description": "「学生」は「魔攻・魔防+25%」"}
   },
   {
     "id": 0,
     "base_character_id": 43101,
     "attr": "火",
-    "name": {
-      "zh": "蕾斯娜【未来に夢を求めし者】",
-      "ja": "レスナ【未来に夢を求めし者】",
-      "en": "Resna【未来に夢を求めし者】"
-    },
+    "name": { "zh": "蕾斯娜【未来に夢を求めし者】", "ja": "レスナ【未来に夢を求めし者】", "en": "Resna【未来に夢を求めし者】"},
     "date": "2023-09-23",
-    "image": "",
     "職種": "攻擊者",
     "skill1": 11000245,
     "skill2": 12000250,
-    "burst": 14000255
+    "burst": 14000255,
+    "passive_ids": [1990054, 1990055],
+    "tag_ids": [7, 9, 13, 15],
+    "leader_skill": { "name": "錬金術オタク", "description": "味方全員は「戦闘アイテムダメージ+50%」"}
   }
 ]

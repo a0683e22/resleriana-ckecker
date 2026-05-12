@@ -173,6 +173,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "passive_skill": {
+      "skill_id": 14003728,
+      "name": "とびっきりピース",
+      "jp": "攻撃後、自身に「ブレイク威力+{0}%」を2回行動終了するまで付与し、<br>敵全体に「受けるダメージ+{1}%」(上限200％)と「受けるブレイクダメージ+{2}%」を付与(上限150%)<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "攻擊後，賦予自身「破防威力+{0}%」直到2次行動結束為止<br>賦予敵方全體「受到的傷害+{1}%」(上限200%)與「受到的破防傷害+{2}%」(上限150%)<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "After attacking, grants self \"Break Power +{0}%\" until end of 2 actions<br>Grants all enemies \"Damage Taken +{1}%\" (Max 200%) and \"Break DMG Taken +{2}%\" (Max 150%)<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "188": {
@@ -217,6 +224,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "passive_skill": {
+      "skill_id": 14003727,
+      "name": "キラっとファンサ",
+      "jp": "攻撃後、得意属性が雷属性または「レスレリ学園」の味方全員に「スキルダメージ+{0}%」を2回行動終了するまで付与し、<br>「スキル威力+{1}%」(上限100%)と「クリティカル確率+{2}%」(上限100%)を付与し、<br>バーストゲージを{3}%増加<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "攻擊後，賦予雷屬性或「レスレリ学園」的我方全員「技能傷害+{0}%」直到2次行動結束為止<br>賦予「技能威力+{1}%」(上限100%)與「暴擊率+{2}%」(上限100%)<br>爆發量條增加{3}%<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "After attacking, grants all Lightning-element or \"レスレリ学園\" allies \"Skill DMG +{0}%\" until end of 2 actions<br>Grants \"Skill Power +{1}%\" (Max 100%) and \"Critical Rate +{2}%\" (Max 100%)<br>Increases Burst Gauge by {3}%<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "187": {
@@ -261,6 +275,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "passive_skill": {
+      "skill_id": 14003726,
+      "name": "バチっとウィンク",
+      "jp": "この攻撃のクリティカル確率+100%とクリティカルダメージ+50%<br>攻撃後、自身に「スキルダメージ+{0}%」を3回行動終了するまで付与し、<br>「レスレリ学園」タグを持つキャラ数に応じ、自身に「基礎魔攻+100～300」を付与(上限300)(1～3人で多いほど増加)<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "此次攻擊的暴擊率+100%與暴擊傷害+50%<br>攻擊後，賦予自身「技能傷害+{0}%」直到3次行動結束為止<br>依持有「レスレリ学園」標籤的角色數量，賦予自身「基礎魔攻+100～300」(上限300)(1～3人時，數量越多效果越高)<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "Critical Rate of this attack +100% and Critical DMG +50%<br>After attacking, grants self \"Skill DMG +{0}%\" until end of 3 actions<br>Depending on the number of characters with the \"レスレリ学園\" tag, grants self \"Base M.ATK +100~300\" (Max 300) (Higher with more characters, from 1 to 3)<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "186": {
@@ -274,9 +295,9 @@
     "skill2": {
       "skill_id": 12003657,
       "name": "サンクショントリガー",
-      "jp": "この攻撃のクリティカルダメージ+{0}%<br>攻撃前、対象に「突属性耐性-{1}%」を1回攻撃を受けるまで付与<br>攻撃後、自身に「物攻+{2}%」と「スキルダメージ+{3}%」を3回行動終了するまで付与<br>「コールサインα」がLv10の場合、エクストラターン(エクストラスキル：オーダー：インターセプト)を3ターン後ろに生成",
-      "zh": "此攻擊的暴擊傷害+{0}%<br>攻擊前，賦予對象「突屬性耐性-{1}%」直到受1次攻擊為止<br>攻擊後，賦予自身「物攻+{2}%」與「技能傷害+{3}%」直到3次行動結束為止<br>當「コールサインα」為Lv10時，於3回合後生成額外回合（額外技能：オーダー：インターセプト）",
-      "en": "This attack's Critical Damage increases by {0}%.<br>Before attacking, grants target \"Piercing Resistance -{1}%\" for 1 attack.<br>After attacking, grants self \"P.ATK +{2}%\" and \"Skill Damage +{3}%\" until 3 actions end.<br>If \"コールサインα\" is Lv10, generates an Extra Turn after 3 turns (Extra Skill: オーダー：インターセプト)."
+      "jp": "この攻撃のクリティカルダメージ+{0}%<br>攻撃前、対象に「突属性耐性-{1}%」を1回攻撃を受けるまで付与<br>攻撃後、自身に「物攻+{2}%」と「スキルダメージ+{3}%」を3回行動終了するまで付与<br>「コールサインα」がLv10の場合、エクストラターン(エクストラスキル：[ex:14003667]オーダー：インターセプト[/ex])を3ターン後ろに生成",
+      "zh": "此攻擊的暴擊傷害+{0}%<br>攻擊前，賦予對象「突屬性耐性-{1}%」直到受1次攻擊為止<br>攻擊後，賦予自身「物攻+{2}%」與「技能傷害+{3}%」直到3次行動結束為止<br>當「コールサインα」為Lv10時，於3回合後生成額外回合（額外技能：[ex:14003667]オーダー：インターセプト[/ex]）",
+      "en": "This attack's Critical Damage increases by {0}%.<br>Before attacking, grants target \"Piercing Resistance -{1}%\" for 1 attack.<br>After attacking, grants self \"P.ATK +{2}%\" and \"Skill Damage +{3}%\" until 3 actions end.<br>If \"コールサインα\" is Lv10, generates an Extra Turn after 3 turns (Extra Skill: [ex:14003667]オーダー：インターセプト[/ex])."
     },
     "burst": {
       "skill_id": 14003662,
@@ -305,6 +326,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "ex_skill": {
+      "skill_id": 14003667,
+      "name": "オーダー：インターセプト",
+      "jp": "この攻撃のクリティカル確率+100%<br>この攻撃のダメージ+{0}%<br>攻撃前、自身のマイナス効果と状態異常解除<br>攻撃後、自身に「クリティカル確率+{1}%」と「クリティカルダメージ+{2}%」と「バーストスキルダメージ+{3}%」を3回行動終了するまで付与し、<br>自身のバーストゲージを{4}%増加し、<br>「コールサインα」解除",
+      "zh": "此次攻擊的暴擊率+100%<br>此次攻擊的傷害+{0}%<br>攻擊前，解除自身負面效果與異常狀態<br>攻擊後，賦予自身「暴擊率+{1}%」、「暴擊傷害+{2}%」與「爆發技能傷害+{3}%」直到3次行動結束為止<br>自身的爆發量條增加{4}%<br>解除「コールサインα」",
+      "en": "Critical Rate of this attack +100%<br>Damage of this attack +{0}%<br>Before attacking, removes self debuffs and status ailments<br>After attacking, grants self \"Critical Rate +{1}%\", \"Critical DMG +{2}%\", and \"Burst Skill DMG +{3}%\" until end of 3 actions<br>Increases self Burst Gauge by {4}%<br>Removes \"コールサインα\""
     }
   },
   "185": {
@@ -393,6 +421,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "active_skill1": {
+      "skill_id": 14003632,
+      "name": "リムーブオーダー",
+      "jp": "タイムラインの前から5番目までの敵1体の次ターンを消去する(発動上限1回)<br>味方全員のHPを40%回復し、<br>自身のバーストゲージを100%増加<br>※このアクティブスキルはスキル発動前に自身のHPが60%を下回っている場合のみ発動可能",
+      "zh": "消除時間軸前方第5位以內1名敵人的下一次回合(發動上限1次)<br>回復我方全員HP 40%<br>自身的爆發量條增加100%<br>※此Active Skill僅可於技能發動前自身HP低於60%時發動",
+      "en": "Removes the next turn of one enemy within the first 5 positions on the timeline (Activation limit: 1 time)<br>Restores all allies' HP by 40%<br>Increases self Burst Gauge by 100%<br>※This Active Skill can only be activated when self HP is below 60% before skill activation"
     }
   },
   "183": {
@@ -745,6 +780,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "active_skill1": {
+      "skill_id": 14003616,
+      "name": "タクティカルチェンジ・リベンジ",
+      "jp": "タイムラインの前から5番目までの味方1人と自身のターンを入れ替える(発動上限1回)<br>味方全員のHPを50%回復し、<br>魔攻が最も高い味方1人に「スキルダメージ+50%」を1回行動終了するまで付与<br>※このアクティブスキルはスキル発動前に自身のHPが50%を下回っている場合のみ発動可能",
+      "zh": "與時間軸前方第5位以內1名我方角色交換回合(發動上限1次)<br>回復我方全員HP 50%<br>賦予魔攻最高的1名我方角色「技能傷害+50%」直到1次行動結束為止<br>※此Active Skill僅可於技能發動前自身HP低於50%時發動",
+      "en": "Swaps turns with one ally within the first 5 positions on the timeline (Activation limit: 1 time)<br>Restores all allies' HP by 50%<br>Grants the ally with the highest M.ATK \"Skill DMG +50%\" until end of action<br>※This Active Skill can only be activated when self HP is below 50% before skill activation"
     }
   },
   "175": {
@@ -1185,6 +1227,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "active_skill1": {
+      "skill_id": 14003368,
+      "name": "リムーブマジック",
+      "jp": "タイムラインの前から3番目までの敵1体の次ターンを消去する(発動上限3回)<br>※このアクティブスキルは対象をブレイクすると1回まで発動可能",
+      "zh": "消除時間軸前方第3位以內1名敵人的下一次回合(發動上限3次)<br>※此Active Skill於使對象破防時，可額外發動1次",
+      "en": "Removes the next turn of one enemy within the first 3 positions on the timeline (Activation limit: 3 times)<br>※This Active Skill can be activated one additional time when the target is broken"
     }
   },
   "165": {
@@ -1317,6 +1366,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "active_skill1": {
+      "skill_id": 14003280,
+      "name": "タクティカルチェンジ・アモル",
+      "jp": "タイムラインの前から5番目までの敵1体と自身のターンを入れ替える(発動上限4回)<br>自身に「与える強化効果量+80%」を1回行動終了するまで付与",
+      "zh": "與時間軸前方第5位以內1名敵人交換回合(發動上限4次)<br>賦予自身「賦予的強化效果量+80%」直到1次行動結束為止",
+      "en": "Swaps turns with one enemy within the first 5 positions on the timeline (Activation limit: 4 times)<br>Grants self \"Buff Effect Amount +80%\" until end of action"
     }
   },
   "162": {
@@ -1757,6 +1813,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "passive_skill": {
+      "skill_id": 14003144,
+      "name": "桜花ノ一太刀",
+      "jp": "クリティカル攻撃時、この攻撃のブレイクダメージ+{0}%<br>攻撃後、対象に「受ける雷属性ダメージ+{1}%」を2回攻撃を受けるまで付与<br>対象がブレイク状態の時、さらに「受ける雷属性ダメージ+{2}%」を2回攻撃を受けるまで付与",
+      "zh": "暴擊攻擊時，此次攻擊的破防傷害+{0}%<br>攻擊後，賦予對象「受到的雷屬性傷害+{1}%」直到受2次攻擊為止<br>對象為破防狀態時，額外賦予「受到的雷屬性傷害+{2}%」直到受2次攻擊為止",
+      "en": "During a Critical Hit, Break DMG of this attack +{0}%<br>After attacking, grants target \"Lightning DMG Taken +{1}%\" until hit 2 times<br>If the target is broken, additionally grants \"Lightning DMG Taken +{2}%\" until hit 2 times"
     }
   },
   "152": {
@@ -1889,6 +1952,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "active_skill1": {
+      "skill_id": 14003047,
+      "name": "リムーブシグナル",
+      "jp": "タイムラインの前から5番目までの対象の次ターンを消去する(発動上限2回)<br>※このアクティブスキルは対象をブレイクすると1回まで発動可能",
+      "zh": "消除時間軸前方第5位以內對象的下一次回合(發動上限2次)<br>※此Active Skill於使對象破防時，可額外發動1次",
+      "en": "Removes the target's next turn within the first 5 positions on the timeline (Activation limit: 2 times)<br>※This Active Skill can be activated one additional time when the target is broken"
     }
   },
   "149": {
@@ -2021,6 +2091,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "passive_skill": {
+      "skill_id": 14002977,
+      "name": "イレイトショット",
+      "jp": "「お楽しみステッカー」が付与されている時、この攻撃の貫通力+{0}<br>攻撃後、自身に「スキルダメージ+{1}%」を付与(上限100%)",
+      "zh": "被賦予「お楽しみステッカー」時，此次攻擊的貫通力+{0}<br>攻擊後，賦予自身「技能傷害+{1}%」(上限100%)",
+      "en": "When \"お楽しみステッカー\" is active, Penetration of this attack +{0}<br>After attacking, grants self \"Skill DMG +{1}%\" (Max 100%)"
     }
   },
   "146": {
@@ -2109,6 +2186,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "active_skill1": {
+      "skill_id": 14002908,
+      "name": "タクティカルチェンジ",
+      "jp": "タイムラインの前から5番目までの味方1人と自身のターンを入れ替える(発動上限2回) ",
+      "zh": "與時間軸前方5格內距離自身最近的1名我方角色交換回合(發動上限2次)",
+      "en": "Swaps turns with the nearest ally within the first 5 positions on the timeline (Activation limit: 2 times)"
     }
   },
   "144": {
@@ -2210,9 +2294,9 @@
     "skill2": {
       "skill_id": 12002826,
       "name": "絶迅の斬",
-      "jp": "この攻撃のクリティカルダメージ+{0}%<br>攻撃前、対象に「氷属性耐性-{1}%」を2回攻撃を受けるまで付与<br>攻撃後、自身に「スキルダメージ+{2}%」を2回行動終了するまで付与<br>クリティカル攻撃後、エクストラターン(エクストラスキル：裏月影)を2ターン後ろに生成(発動上限5回)",
-      "zh": "此攻擊的暴擊傷害+{0}%<br>攻擊前，賦予對象「冰屬性耐性-{1}%」直到受2次攻擊為止<br>攻擊後，賦予自身「技能傷害+{2}%」直到2次行動結束為止<br>暴擊攻擊後，於2回合後生成額外回合（額外技能：裏月影）（最多發動5次）",
-      "en": "This attack's Critical Damage increases by {0}%.<br>Before attacking, grants target \"Ice Resistance -{1}%\" for 2 attacks.<br>After attacking, grants self \"Skill Damage +{2}%\" until 2 actions end.<br>After landing a critical attack, generates an Extra Turn (Extra Skill: 裏月影) 2 turns later (activation limit: 5 times)."
+      "jp": "この攻撃のクリティカルダメージ+{0}%<br>攻撃前、対象に「氷属性耐性-{1}%」を2回攻撃を受けるまで付与<br>攻撃後、自身に「スキルダメージ+{2}%」を2回行動終了するまで付与<br>クリティカル攻撃後、エクストラターン(エクストラスキル：[ex:14002892]裏月影[/ex])を2ターン後ろに生成(発動上限5回)",
+      "zh": "此攻擊的暴擊傷害+{0}%<br>攻擊前，賦予對象「冰屬性耐性-{1}%」直到受2次攻擊為止<br>攻擊後，賦予自身「技能傷害+{2}%」直到2次行動結束為止<br>暴擊攻擊後，於2回合後生成額外回合（額外技能：[ex:14002892]裏月影[/ex]）（最多發動5次）",
+      "en": "This attack's Critical Damage increases by {0}%.<br>Before attacking, grants target \"Ice Resistance -{1}%\" for 2 attacks.<br>After attacking, grants self \"Skill Damage +{2}%\" until 2 actions end.<br>After landing a critical attack, generates an Extra Turn (Extra Skill: [ex:14002892]裏月影[/ex]) 2 turns later (activation limit: 5 times)."
     },
     "burst": {
       "skill_id": 14002831,
@@ -2241,6 +2325,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "ex_skill": {
+      "skill_id": 14002892,
+      "name": "裏月影",
+      "jp": "ダメージ+{0}%<br>攻撃後、自身に「魔攻+{1}%」を2回行動終了するまで付与",
+      "zh": "傷害+{0}%<br>攻擊後，賦予自身「魔攻+{1}%」直到2次行動結束為止",
+      "en": "Damage +{0}%<br>After attacking, grants self \"M.ATK +{1}%\" until end of 2 actions"
     }
   },
   "141": {
@@ -2511,16 +2602,16 @@
     "skill1": {
       "skill_id": 11002673,
       "name": "ジャックナイフ",
-      "jp": "攻撃後、味方全員のHPを{0}%回復し、<br>このスキル使用前に魔攻が最も高い味方1人の、次のパネルが空パネルの時、強化パネルを生成<br>自身の位置をインレンジに移動<br>インレンジ時のスキル：ランアンドガン",
-      "zh": "攻擊後，回復我方全體{0}% HP<br>於此技能使用前，魔攻最高的我方1人下一個面板為空面板時，生成強化面板<br>自身移動至近距離位置<br>近距離位置時的技能：ランアンドガン",
-      "en": "After attacking, restores {0}% HP to all allies.<br>Before using this skill, if the next panel of the ally with the highest M.ATK is empty, generates a Boost panel.<br>Moves self to In Range position.<br>Skill while In Range: \"ランアンドガン\"."
+      "jp": "攻撃後、味方全員のHPを{0}%回復し、<br>このスキル使用前に魔攻が最も高い味方1人の、次のパネルが空パネルの時、強化パネルを生成<br>自身の位置をインレンジに移動<br>インレンジ時のスキル：[in:11002510]ランアンドガン[/in]",
+      "zh": "攻擊後，回復我方全體{0}% HP<br>於此技能使用前，魔攻最高的我方1人下一個面板為空面板時，生成強化面板<br>自身移動至近距離<br>近距離時的技能：[in:11002510]ランアンドガン[/in]",
+      "en": "After attacking, restores {0}% HP to all allies.<br>Before using this skill, if the next panel of the ally with the highest M.ATK is empty, generates a Boost panel.<br>Moves self to In Range position.<br>Skill while In Range: \"[in:11002510]ランアンドガン[/in]\"."
     },
     "skill2": {
       "skill_id": 12002678,
       "name": "シャットアウト",
-      "jp": "攻撃後、得意属性が火属性または「アラディス調査団」の味方全員に「魔攻+{0}%」と「スキルダメージ+{1}%」を2回行動終了するまで付与<br>味方全員の強化系パネルとバーストパネルを除いたパネル全てを強化パネルに変換(空パネルの時は生成)<br>インレンジ時のスキル：アクロバット",
-      "zh": "攻擊後，賦予火屬性或持有「アラディス調査団」標籤的我方全體「魔攻+{0}%」與「技能傷害+{1}%」直到2次行動結束為止<br>將我方全體除強化系面板與爆發面板以外的所有面板轉換為強化面板（空面板時則生成）<br>近距離位置時的技能：アクロバット",
-      "en": "After attacking, grants all Fire-element allies or allies with the \"アラディス調査団\" tag \"M.ATK +{0}%\" and \"Skill Damage +{1}%\" until 2 actions end.<br>Converts all panels except Boost panels and Burst panels into Boost panels (creates them if empty).<br>Skill while In Range: \"アクロバット\"."
+      "jp": "攻撃後、得意属性が火属性または「アラディス調査団」の味方全員に「魔攻+{0}%」と「スキルダメージ+{1}%」を2回行動終了するまで付与<br>味方全員の強化系パネルとバーストパネルを除いたパネル全てを強化パネルに変換(空パネルの時は生成)<br>インレンジ時のスキル：[in:11002515]アクロバット[/in]",
+      "zh": "攻擊後，賦予火屬性或持有「アラディス調査団」標籤的我方全體「魔攻+{0}%」與「技能傷害+{1}%」直到2次行動結束為止<br>將我方全體除強化系面板與爆發面板以外的所有面板轉換為強化面板（空面板時則生成）<br>近距離時的技能：[in:12002515]アクロバット[/in]",
+      "en": "After attacking, grants all Fire-element allies or allies with the \"アラディス調査団\" tag \"M.ATK +{0}%\" and \"Skill Damage +{1}%\" until 2 actions end.<br>Converts all panels except Boost panels and Burst panels into Boost panels (creates them if empty).<br>Skill while IN RANGE: \"[in:12002515]アクロバット[/in]\"."
     },
     "burst": {
       "skill_id": 14002520,
@@ -2549,22 +2640,43 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "in_skill1": {
+      "skill_id": 11002510,
+      "name": "ランアンドガン",
+      "jp": "攻撃後、得意属性が火属性または「アラディス調査団」の味方全員に「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了するまで付与<br>自身の位置をアウトレンジに移動",
+      "zh": "攻擊後，賦予火屬性或「アラディス調査団」的我方全員「魔攻+{0}%」與「技能傷害+{1}%」直到1次行動結束為止<br>自身移動至遠距離位置",
+      "en": "After attacking, grants all Fire-element or \"アラディス調査団\" allies \"M.ATK +{0}%\" and \"Skill DMG +{1}%\" until end of action<br>Moves self to OUT RANGE"
+    },
+      "in_skill2": {
+      "skill_id": 12002515,
+      "name": "アクロバット",
+      "jp": "攻撃後、対象に「火属性耐性-{0}%」と「受けるダメージ+{1}%」を2回攻撃を受けるまで付与<br>味方全員のHPを{2}%回復し、<br>自身に「回避(確率{3}%固定)」を1回攻撃されるまで付与",
+      "zh": "攻擊後，賦予對象「火屬性耐性-{0}%」與「受到的傷害+{1}%」直到受2次攻擊為止<br>回復我方全員HP {2}%<br>賦予自身「迴避(固定機率{3}%)」直到受到1次攻擊為止",
+      "en": "After attacking, grants target \"Fire RES -{0}%\" and \"Damage Taken +{1}%\" until hit 2 times<br>Restores all allies' HP by {2}%<br>Grants self \"Evasion (Fixed {3}% Chance)\" until hit once."
+    },
+      "passive_skill": {
+      "skill_id": 14002679,
+      "name": "エクセプション",
+      "jp": "追加効果なし<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "無追加效果<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "No additional effect<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "134": {
     "skill1": {
       "skill_id": 11002704,
       "name": "デスパレート",
-      "jp": "攻撃後、自身のHPを{0}%回復<br>得意属性が打属性または「アラディス調査団」の味方全員に「物防・魔防+{1}%」を1回攻撃を受けるまで付与<br>自身の位置をインレンジに移動<br>インレンジ時のスキル：ブラッディハート",
-      "zh": "攻擊後，回復自身{0}% HP<br>賦予打屬性或持有「アラディス調査団」標籤的我方全體「物防・魔防+{1}%」直到受1次攻擊為止<br>自身移動至近距離位置<br>近距離位置時的技能：ブラッディハート",
-      "en": "After attacking, restores {0}% HP to self.<br>Grants all Strike-element allies or allies with the \"アラディス調査団\" tag \"P.DEF/M.DEF +{1}%\" for 1 attack.<br>Moves self to In Range position.<br>Skill while In Range: \"ブラッディハート\"."
+      "jp": "攻撃後、自身のHPを{0}%回復<br>得意属性が打属性または「アラディス調査団」の味方全員に「物防・魔防+{1}%」を1回攻撃を受けるまで付与<br>自身の位置をインレンジに移動<br>インレンジ時のスキル：[in:11002494]ブラッディハート[/in]",
+      "zh": "攻擊後，回復自身{0}% HP<br>賦予打屬性或持有「アラディス調査団」標籤的我方全體「物防・魔防+{1}%」直到受1次攻擊為止<br>自身移動至近距離位置<br>近距離位置時的技能：[in:11002494]ブラッディハート[/in]",
+      "en": "After attacking, restores {0}% HP to self.<br>Grants all Strike-element allies or allies with the \"アラディス調査団\" tag \"P.DEF/M.DEF +{1}%\" for 1 attack.<br>Moves self to In Range position.<br>Skill while In Range: \"[in:11002494]ブラッディハート[/in]\"."
     },
     "skill2": {
       "skill_id": 12002709,
       "name": "リベンジサイズ",
-      "jp": "攻撃後、得意属性が打属性または「アラディス調査団」の味方全員に「物防・魔防+{0}%」を2回攻撃を受けるまで付与(上限2個)し、<br>自身に「回避(確率{1}%)」を1回攻撃されるまで付与<br>インレンジ時のスキル：リベンジサイズ",
-      "zh": "攻擊後，賦予打屬性或持有「アラディス調査団」標籤的我方全體「物防・魔防+{0}%」直到受2次攻擊為止（上限2層）<br>賦予自身「迴避（機率{1}%）」直到受1次攻擊為止<br>近距離位置時的技能：リベンジサイズ",
-      "en": "After attacking, grants all Strike-element allies or allies with the \"アラディス調査団\" tag \"P.DEF/M.DEF +{0}%\" for 2 attacks (MAX 2 stacks).<br>Grants self \"Evasion ({1}% chance)\" for 1 attack.<br>Skill while In Range: \"リベンジサイズ\"."
+      "jp": "攻撃後、得意属性が打属性または「アラディス調査団」の味方全員に「物防・魔防+{0}%」を2回攻撃を受けるまで付与(上限2個)し、<br>自身に「回避(確率{1}%)」を1回攻撃されるまで付与<br>インレンジ時のスキル：[in:12002499]サクリファイス[/in]",
+      "zh": "攻擊後，賦予打屬性或持有「アラディス調査団」標籤的我方全體「物防・魔防+{0}%」直到受2次攻擊為止（上限2層）<br>賦予自身「迴避（機率{1}%）」直到受1次攻擊為止<br>近距離位置時的技能：[in:12002499]サクリファイス[/in]",
+      "en": "After attacking, grants all Strike-element allies or allies with the \"アラディス調査団\" tag \"P.DEF/M.DEF +{0}%\" for 2 attacks (MAX 2 stacks).<br>Grants self \"Evasion ({1}% chance)\" for 1 attack.<br>Skill while In Range: \"[in:12002499]サクリファイス[/in]\"."
     },
     "burst": {
       "skill_id": 14002504,
@@ -2593,22 +2705,43 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "in_skill1": {
+      "skill_id": 11002494,
+      "name": "ブラッディハート",
+      "jp": "攻撃前、自身のマイナス効果を解除<br>攻撃後、自身に「回避(確率{0}%)」を1回攻撃されるまで付与<br>自身の位置をアウトレンジに移動",
+      "zh": "攻擊前，解除自身負面效果<br>攻擊後，賦予自身「迴避(機率{0}%)」直到受到1次攻擊為止<br>自身移動至遠距離位置",
+      "en": "Before attacking, removes self debuffs<br>After attacking, grants self \"Evasion ({0}% Chance)\" until hit once<br>Moves self to OUT RANGE"
+    },
+      "in_skill2": {
+      "skill_id": 12002499,
+      "name": "サクリファイス",
+      "jp": "攻撃後、自身のHPを{0}%回復<br>得意属性が打属性または「アラディス調査団」の味方全員に「受けるダメージ-{1}%」を2回攻撃を受けるまで付与(上限2個)し、<br>攻撃対象のパネル全てを加護弱化パネルに変換(空パネルの時は生成)(発動上限3回)",
+      "zh": "攻擊後，恢復自身HP {0}%<br>賦予打屬性或「アラディス調査団」的我方全員「受到的傷害-{1}%」直到受2次攻擊為止(上限2個)<br>將攻擊對象的全部面板變換為加護弱化面板(空面板時生成)(發動上限3次)",
+      "en": "After attacking, restores self HP by {0}%<br>Grants Strike-element or \"アラディス調査団\" allies \"Damage Taken -{1}%\" until hit 2 times (Max 2 stacks)<br>Converts all target panels into Blessing Weakening Panels (Generates if panel is empty) (Activation limit: 3 times)"
+    },
+      "passive_skill": {
+      "skill_id": 14002710,
+      "name": "ギルティリープ",
+      "jp": "追加効果なし<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "無追加效果<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "No additional effect<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "133": {
     "skill1": {
       "skill_id": 11002468,
       "name": "バウンシングピアース",
-      "jp": "攻撃後、対象に「パネル無効」を1回行動終了するまで付与<br>自身の次のパネルがバーストパネルでない時、ブレイク強化パネルに変換(空パネルの時は生成)<br>自身の位置をアウトレンジに移動<br>アウトレンジ時のスキル：ジャンピングピアース",
-      "zh": "攻擊後，賦予對象「面板無效」直到1次行動結束為止<br>當自身下一個面板不是爆發面板時，轉換為破防強化面板（空面板時則生成）<br>自身移動至遠距離位置<br>遠距離位置時的技能：ジャンピングピアース",
-      "en": "After attacking, grants target \"Panel Nullification\" until 1 action ends.<br>If own next panel is not a Burst panel, converts it into a Break Boost panel (creates one if empty).<br>Moves self to Out Range position.<br>Skill while Out Range: \"ジャンピングピアース\"."
+      "jp": "攻撃後、対象に「パネル無効」を1回行動終了するまで付与<br>自身の次のパネルがバーストパネルでない時、ブレイク強化パネルに変換(空パネルの時は生成)<br>自身の位置をアウトレンジに移動<br>アウトレンジ時のスキル：[in:11002642]ジャンピングピアース[/in]",
+      "zh": "攻擊後，賦予對象「面板無效」直到1次行動結束為止<br>當自身下一個面板不是爆發面板時，轉換為破防強化面板（空面板時則生成）<br>自身移動至遠距離位置<br>遠距離位置時的技能：[in:11002642]ジャンピングピアース[/in]",
+      "en": "After attacking, grants target \"Panel Nullification\" until 1 action ends.<br>If own next panel is not a Burst panel, converts it into a Break Boost panel (creates one if empty).<br>Moves self to Out Range position.<br>Skill while Out Range: \"[in:11002642]ジャンピングピアース[/in]\"."
     },
     "skill2": {
       "skill_id": 12002473,
       "name": "トゥインクルスラスト",
-      "jp": "WEAK攻撃時、ブレイクダメージ+{0}%<br>攻撃前、対象に「火属性耐性-{1}%」を付与(上限50%)<br>攻撃後、対象に「受ける魔法攻撃ダメージ+{2}%」を2回攻撃を受けるまで付与<br>対象の次のパネルが空パネルの時、弱体パネルを生成<br>アウトレンジ時のスキル：ワイルドローズ",
-      "zh": "WEAK攻擊時，破防傷害+{0}%<br>攻擊前，賦予對象「火屬性耐性-{1}%」（上限50%）<br>攻擊後，賦予對象「受到的魔法攻擊傷害+{2}%」直到受2次攻擊為止<br>當對象下一個面板為空面板時，生成弱化面板<br>遠距離位置時的技能：ワイルドローズ",
-      "en": "Increases Break Damage by {0}% during WEAK attacks.<br>Before attacking, grants target \"Fire Resistance -{1}%\" (MAX 50%).<br>After attacking, grants target \"Magic Damage Taken +{2}%\" for 2 attacks.<br>If target's next panel is empty, generates a Weaken panel.<br>Skill while Out Range: \"ワイルドローズ\"."
+      "jp": "WEAK攻撃時、ブレイクダメージ+{0}%<br>攻撃前、対象に「火属性耐性-{1}%」を付与(上限50%)<br>攻撃後、対象に「受ける魔法攻撃ダメージ+{2}%」を2回攻撃を受けるまで付与<br>対象の次のパネルが空パネルの時、弱体パネルを生成<br>アウトレンジ時のスキル：[in:12002647]ワイルドローズ[/in]",
+      "zh": "WEAK攻擊時，破防傷害+{0}%<br>攻擊前，賦予對象「火屬性耐性-{1}%」（上限50%）<br>攻擊後，賦予對象「受到的魔法攻擊傷害+{2}%」直到受2次攻擊為止<br>當對象下一個面板為空面板時，生成弱化面板<br>遠距離位置時的技能：[in:12002647]ワイルドローズ[/in]",
+      "en": "Increases Break Damage by {0}% during WEAK attacks.<br>Before attacking, grants target \"Fire Resistance -{1}%\" (MAX 50%).<br>After attacking, grants target \"Magic Damage Taken +{2}%\" for 2 attacks.<br>If target's next panel is empty, generates a Weaken panel.<br>Skill while Out Range: \"[in:12002647]ワイルドローズ[/in]\"."
     },
     "burst": {
       "skill_id": 14002478,
@@ -2637,22 +2770,43 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "in_skill1": {
+      "skill_id": 11002642,
+      "name": "ジャンピングピアース",
+      "jp": "攻撃前、対象に「火属性耐性-{0}%」を3回攻撃を受けるまで付与し、<br>攻撃後、自身に「ブレイクダメージ+{1}％」を1回行動終了するまで付与<br>自身の位置をインレンジに移動",
+      "zh": "攻擊前，賦予對象「火屬性耐性-{0}%」直到受3次攻擊為止<br>攻擊後，賦予自身「破防傷害+{1}%」直到1次行動結束為止<br>自身移動至近距離位置",
+      "en": "Before attacking, grants target \"Fire RES -{0}%\" until hit 3 times<br>After attacking, grants self \"Break DMG +{1}%\" until end of action<br>Moves self to IN RANGE"
+    },
+      "in_skill2": {
+      "skill_id": 12002647,
+      "name": "ワイルドローズ",
+      "jp": "攻撃後、自身に「ブレイクダメージ+{0}%」を付与(上限60%)し、<br>さらに自身に「ブレイクダメージ+{1}%」を3回行動終了するまで付与<br>攻撃対象がブレイク時、自身の次のパネルをバーストパネルに変換(空パネルの時は生成)",
+      "zh": "攻擊後，賦予自身「破防傷害+{0}%」(上限60%)<br>另外賦予自身「破防傷害+{1}%」直到3次行動結束為止<br>攻擊對象破防時，將自身下一個面板變換為爆發面板(空面板時生成)",
+      "en": "After attacking, grants self \"Break DMG +{0}%\" (Max 60%)<br>Additionally grants self \"Break DMG +{1}%\" until end of 3 actions<br>If the target is broken, converts self's next panel into a Burst Panel (Generates if panel is empty)"
+    },
+      "passive_skill": {
+      "skill_id": 14002648,
+      "name": "シャイニーライド",
+      "jp": "この攻撃のブレイクダメージ+{0}%<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "此次攻擊的破防傷害+{0}%<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "Break DMG of this attack +{0}%<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "132": {
     "skill1": {
       "skill_id": 11002420,
       "name": "フルムーン",
-      "jp": "対象がブレイク状態の時、ダメージ+{0}%、自身のHPを{1}%回復<br>攻撃後、対象に「打属性耐性-{2}%」を2回攻撃を受けるまで付与し、<br>自身に「物攻+{3}%」を1回行動終了するまで付与<br>自身の位置をアウトレンジに移動<br>アウトレンジ時のスキル：エクリプス",
-      "zh": "對象處於破防狀態時，傷害+{0}%並回復自身{1}% HP<br>攻擊後，賦予對象「打屬性耐性-{2}%」直到受2次攻擊為止<br>賦予自身「物攻+{3}%」直到1次行動結束為止<br>自身移動至遠距離位置<br>遠距離位置時的技能：エクリプス",
-      "en": "When target is broken, increases damage by {0}% and restores {1}% HP to self.<br>After attacking, grants target \"Strike Resistance -{2}%\" for 2 attacks.<br>Grants self \"P.ATK +{3}%\" until 1 action ends.<br>Moves self to Out Range position.<br>Skill while Out Range: \"エクリプス\"."
+      "jp": "対象がブレイク状態の時、ダメージ+{0}%、自身のHPを{1}%回復<br>攻撃後、対象に「打属性耐性-{2}%」を2回攻撃を受けるまで付与し、<br>自身に「物攻+{3}%」を1回行動終了するまで付与<br>自身の位置をアウトレンジに移動<br>アウトレンジ時のスキル：[in:11002591]エクリプス[/in]",
+      "zh": "對象處於破防狀態時，傷害+{0}%並回復自身{1}% HP<br>攻擊後，賦予對象「打屬性耐性-{2}%」直到受2次攻擊為止<br>賦予自身「物攻+{3}%」直到1次行動結束為止<br>自身移動至遠距離位置<br>遠距離位置時的技能：[in:11002591]エクリプス[/in]",
+      "en": "When target is broken, increases damage by {0}% and restores {1}% HP to self.<br>After attacking, grants target \"Strike Resistance -{2}%\" for 2 attacks.<br>Grants self \"P.ATK +{3}%\" until 1 action ends.<br>Moves self to Out Range position.<br>Skill while Out Range: \"[in:11002591]エクリプス[/in]\"."
     },
     "skill2": {
       "skill_id": 12002425,
       "name": "スピニングエッジ",
-      "jp": "攻撃前、対象に「打属性耐性-{0}%」を2回攻撃を受けるまで付与<br>攻撃後、自身に「物攻+{1}%」を2回行動終了するまで付与<br>自身に「飛剣」が付与されていない時、「飛剣(Lv2)」を付与<br>既に付与されている時、「飛剣」のLv+2(上限Lv10)<br>アウトレンジ時のスキル：ソニックブラスト",
-      "zh": "攻擊前，賦予對象「打屬性耐性-{0}%」直到受2次攻擊為止<br>攻擊後，賦予自身「物攻+{1}%」直到2次行動結束為止<br>當自身未持有「飛劍」時，賦予「飛劍（Lv2）」<br>已持有時，「飛劍」Lv+2（上限Lv10）<br>遠距離位置時的技能：ソニックブラスト",
-      "en": "Before attacking, grants target \"Strike Resistance -{0}%\" for 2 attacks.<br>After attacking, grants self \"P.ATK +{1}%\" until 2 actions end.<br>If self does not have \"飛剣\", grants \"飛剣 (Lv2)\".<br>If already granted, increases \"飛剣\" Lv by 2 (MAX Lv10).<br>Skill while Out Range: \"ソニックブラスト\"."
+      "jp": "攻撃前、対象に「打属性耐性-{0}%」を2回攻撃を受けるまで付与<br>攻撃後、自身に「物攻+{1}%」を2回行動終了するまで付与<br>自身に「飛剣」が付与されていない時、「飛剣(Lv2)」を付与<br>既に付与されている時、「飛剣」のLv+2(上限Lv10)<br>アウトレンジ時のスキル：[in:12002596]ソニックブラスト[/in]",
+      "zh": "攻擊前，賦予對象「打屬性耐性-{0}%」直到受2次攻擊為止<br>攻擊後，賦予自身「物攻+{1}%」直到2次行動結束為止<br>當自身未持有「飛劍」時，賦予「飛劍（Lv2）」<br>已持有時，「飛劍」Lv+2（上限Lv10）<br>遠距離位置時的技能：[in:12002596]ソニックブラスト[/in]",
+      "en": "Before attacking, grants target \"Strike Resistance -{0}%\" for 2 attacks.<br>After attacking, grants self \"P.ATK +{1}%\" until 2 actions end.<br>If self does not have \"飛剣\", grants \"飛剣 (Lv2)\".<br>If already granted, increases \"飛剣\" Lv by 2 (MAX Lv10).<br>Skill while Out Range: \"[in:12002596]ソニックブラスト[/in]\"."
     },
     "burst": {
       "skill_id": 14002430,
@@ -2681,22 +2835,43 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "in_skill1": {
+      "skill_id": 11002591,
+      "name": "エクリプス",
+      "jp": "攻撃後、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与し、<br>自身の次のパネルが強化系パネルでもバーストパネルでもない時、強化パネルに変換(空パネルの時は生成)<br>自身の位置をインレンジに移動",
+      "zh": "攻擊後，賦予自身「技能傷害+{0}%」直到1次行動結束為止<br>當自身下一個面板不是強化系面板也不是爆發面板時，變換為強化面板(空面板時生成)<br>自身移動至近距離位置",
+      "en": "After attacking, grants self \"Skill DMG +{0}%\" until end of action<br>If self's next panel is neither a buff panel nor a Burst Panel, converts it into a Buff Panel (Generates if panel is empty)<br>Moves self to IN RANGE"
+    },
+      "in_skill2": {
+      "skill_id": 12002596,
+      "name": "ソニックブラスト",
+      "jp": "攻撃前、自身のマイナス効果を解除し、<br>対象に「打属性耐性-{0}%」を2回攻撃を受けるまで付与<br><br>「飛剣」がLv1以上の場合、この攻撃のダメージ+{1}%<br>「飛剣」がLv3以上の場合、この攻撃のダメージ+{2}%、攻撃後、自身のHPを{3}%回復<br>「飛剣」がLv5以上の場合、この攻撃のダメージ+{4}%、攻撃後、自身のHPを{5}%回復<br>「飛剣」がLv7以上の場合、この攻撃のダメージ+{6}%、攻撃後、自身のHPを{7}%回復<br>「飛剣」がLv10の場合、この攻撃のダメージ+{8}%<br><br>攻撃後、「飛剣」を解除",
+      "zh": "攻擊前，解除自身負面效果<br>賦予對象「打屬性耐性-{0}%」直到受2次攻擊為止<br><br>「飛剣」Lv1以上時，此次攻擊的傷害+{1}%<br>「飛剣」Lv3以上時，此次攻擊的傷害+{2}%，攻擊後恢復自身HP {3}%<br>「飛剣」Lv5以上時，此次攻擊的傷害+{4}%，攻擊後恢復自身HP {5}%<br>「飛剣」Lv7以上時，此次攻擊的傷害+{6}%，攻擊後恢復自身HP {7}%<br>「飛剣」Lv10時，此次攻擊的傷害+{8}%<br><br>攻擊後，解除「飛剣」",
+      "en": "Before attacking, removes self debuffs<br>Grants target \"Strike RES -{0}%\" until hit 2 times<br><br>If \"飛剣\" is Lv1 or higher, damage of this attack +{1}%<br>If \"飛剣\" is Lv3 or higher, damage of this attack +{2}%, and restores self HP by {3}% after attacking<br>If \"飛剣\" is Lv5 or higher, damage of this attack +{4}%, and restores self HP by {5}% after attacking<br>If \"飛剣\" is Lv7 or higher, damage of this attack +{6}%, and restores self HP by {7}% after attacking<br>If \"飛剣\" is Lv10, damage of this attack +{8}%<br><br>After attacking, removes \"飛剣\""
+    },
+      "passive_skill": {
+      "skill_id": 14002622,
+      "name": "ニュームーン",
+      "jp": "追加効果なし<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "無追加效果<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "No additional effect<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "131": {
     "skill1": {
       "skill_id": 11002390,
       "name": "ピアシングアーツ",
-      "jp": "攻撃後、「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了するまで付与<br>自身の位置をアウトレンジに移動<br>アウトレンジ時のスキル：ストライクアーツ",
-      "zh": "攻擊後，賦予自身「魔攻+{0}%」與「技能傷害+{1}%」直到1次行動結束為止<br>自身移動至遠距離位置<br>遠距離位置時的技能：ストライクアーツ",
-      "en": "After attacking, grants self \"M.ATK +{0}%\" and \"Skill Damage +{1}%\" until 1 action ends.<br>Moves self to Out Range position.<br>Skill while Out Range: \"ストライクアーツ\"."
+      "jp": "攻撃後、「魔攻+{0}%」と「スキルダメージ+{1}%」を1回行動終了するまで付与<br>自身の位置をアウトレンジに移動<br>アウトレンジ時のスキル：[in:11002545]ストライクアーツ[/in]",
+      "zh": "攻擊後，賦予自身「魔攻+{0}%」與「技能傷害+{1}%」直到1次行動結束為止<br>自身移動至遠距離位置<br>遠距離位置時的技能：[in:11002545]ストライクアーツ[/in]",
+      "en": "After attacking, grants self \"M.ATK +{0}%\" and \"Skill Damage +{1}%\" until 1 action ends.<br>Moves self to Out Range position.<br>Skill while Out Range: \"[in:11002545]ストライクアーツ[/in]\"."
     },
     "skill2": {
       "skill_id": 12002395,
       "name": "スパイラルロンド",
-      "jp": "攻撃後、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を2回行動終了するまで付与<br>アウトレンジ時のスキル：メイルシュトローム",
-      "zh": "攻擊後，賦予自身「魔攻+{0}%」與「技能傷害+{1}%」直到2次行動結束為止<br>遠距離位置時的技能：メイルシュトローム",
-      "en": "After attacking, grants self \"M.ATK +{0}%\" and \"Skill Damage +{1}%\" until 2 actions end.<br>Skill while Out Range: \"メイルシュトローム\"."
+      "jp": "攻撃後、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を2回行動終了するまで付与<br>アウトレンジ時のスキル：[in:12002550]メイルシュトローム[/in]",
+      "zh": "攻擊後，賦予自身「魔攻+{0}%」與「技能傷害+{1}%」直到2次行動結束為止<br>遠距離位置時的技能：[in:12002550]メイルシュトローム[/in]",
+      "en": "After attacking, grants self \"M.ATK +{0}%\" and \"Skill Damage +{1}%\" until 2 actions end.<br>Skill while Out Range: \"[in:12002550]メイルシュトローム[/in]\"."
     },
     "burst": {
       "skill_id": 14002400,
@@ -2725,22 +2900,43 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "in_skill1": {
+      "skill_id": 11002545,
+      "name": "ストライクアーツ",
+      "jp": "攻撃前、自身のマイナス効果を解除<br>攻撃後、アイテムゲージを{0}%回復し、<br>対象に「受ける火属性ダメージ+{1}％」を2回行動終了するまで付与<br>自身の位置をインレンジに移動",
+      "zh": "攻擊前，解除自身負面效果<br>攻擊後，回復道具量條{0}%<br>賦予對象「受到的火屬性傷害+{1}%」直到2次行動結束為止<br>自身移動至近距離位置",
+      "en": "Before attacking, removes self debuffs<br>After attacking, restores Item Gauge by {0}%<br>Grants target \"Fire DMG Taken +{1}%\" until end of 2 actions<br>Moves self to IN RANGE"
+    },
+      "in_skill2": {
+      "skill_id": 12002550,
+      "name": "メイルシュトローム",
+      "jp": "敵の数に応じ、ダメージ+30～120％(1～4体で多いほど増加)<br>敵の数に応じ、クリティカルダメージ+60～180％(1～4体で少ないほど増加)<br>攻撃前、対象に「火属性耐性-{0}%」を2回攻撃を受けるまで付与<br>攻撃後、自身に「魔攻+{1}%」を2回行動終了するまで付与し、アイテムゲージを{2}%回復",
+      "zh": "依敵人數量，傷害+30～120%(1～4人時，數量越多效果越高)<br>依敵人數量，暴擊傷害+60～180%(1～4人時，數量越少效果越高)<br>攻擊前，賦予對象「火屬性耐性-{0}%」直到受2次攻擊為止<br>攻擊後，賦予自身「魔攻+{1}%」直到2次行動結束為止，並回復道具量條{2}%",
+      "en": "Damage +30~120% depending on the number of enemies (Higher with more enemies, from 1 to 4)<br>Critical DMG +60~180% depending on the number of enemies (Higher with fewer enemies, from 1 to 4)<br>Before attacking, grants target \"Fire RES -{0}%\" until hit 2 times<br>After attacking, grants self \"M.ATK +{1}%\" until end of 2 actions and restores Item Gauge by {2}%"
+    },
+      "passive_skill": {
+      "skill_id": 14002551,
+      "name": "スタビングアーツ",
+      "jp": "ダメージ+{0}%<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "傷害+{0}%<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "Damage +{0}%<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "130": {
     "skill1": {
       "skill_id": 11002405,
       "name": "ロウブロウ",
-      "jp": "攻撃後、自身に「ブレイクダメージ+{0}%」と「スキルダメージ+{1}%」を1回行動終了するまで付与<br>自身の位置をアウトレンジに移動<br>アウトレンジ時のスキル：アッパーブロウ",
-      "zh": "攻擊後，賦予自身「破防傷害+{0}%」與「技能傷害+{1}%」直到1次行動結束為止<br>自身移動至遠距離位置<br>遠距離位置時的技能：アッパーブロウ",
-      "en": "After attacking, grants self \"Break Damage +{0}%\" and \"Skill Damage +{1}%\" until 1 action ends.<br>Moves self to Out Range position.<br>Skill while Out Range: \"アッパーブロウ\"."
+      "jp": "攻撃後、自身に「ブレイクダメージ+{0}%」と「スキルダメージ+{1}%」を1回行動終了するまで付与<br>自身の位置をアウトレンジに移動<br>アウトレンジ時のスキル：[in:11002560]アッパーブロウ[/in]",
+      "zh": "攻擊後，賦予自身「破防傷害+{0}%」與「技能傷害+{1}%」直到1次行動結束為止<br>自身移動至遠距離位置<br>遠距離位置時的技能：[in:11002560]アッパーブロウ[/in]",
+      "en": "After attacking, grants self \"Break Damage +{0}%\" and \"Skill Damage +{1}%\" until 1 action ends.<br>Moves self to Out Range position.<br>Skill while Out Range: \"[in:11002560]アッパーブロウ[/in]\"."
     },
     "skill2": {
       "skill_id": 12002410,
       "name": "クルセイドラッシュ",
-      "jp": "攻撃後、対象に「受ける火属性ダメージ+{0}%」と「受ける打属性ダメージ+{1}%」を2回攻撃を受けるまで付与し、<br>自身に「パイル」を付与(重複不可)<br>「アラディス調査団」タグを持つキャラ数に応じ、攻撃後、対象に「受ける火属性ダメージ+5～{2}%」と「受ける打属性ダメージ+5～{3}%」と「受けるブレイクダメージ+5～{4}%」を2回攻撃を受けるまで付与(1～5人で多いほど増加)<br>※パイルは物攻+50%<br>アウトレンジ時のスキル：フォートレス",
-      "zh": "攻擊後，賦予對象「受到的火屬性傷害+{0}%」與「受到的打屬性傷害+{1}%」直到受2次攻擊為止<br>賦予自身「パイル」（不可重複）<br>依據持有「アラディス調査団」標籤的角色數量，攻擊後，賦予對象「受到的火屬性傷害+5~{2}%」、「受到的打屬性傷害+5~{3}%」與「受到的破防傷害+5~{4}%」直到受2次攻擊為止（1~5人間數量越多效果越高）<br>※パイル為物攻+50%<br>遠距離位置時的技能：フォートレス",
-      "en": "After attacking, grants target \"Fire Damage Taken +{0}%\" and \"Strike Damage Taken +{1}%\" for 2 attacks.<br>Grants self \"パイル\" (cannot stack).<br>Based on the number of characters with the \"アラディス調査団\" tag, after attacking, grants target \"Fire Damage Taken +5~{2}%\", \"Strike Damage Taken +5~{3}%\", and \"Break Damage Taken +5~{4}%\" for 2 attacks (higher with 1~5 characters).<br>※パイル grants P.ATK +50%.<br>Skill while Out Range: \"フォートレス\"."
+      "jp": "攻撃後、対象に「受ける火属性ダメージ+{0}%」と「受ける打属性ダメージ+{1}%」を2回攻撃を受けるまで付与し、<br>自身に「パイル」を付与(重複不可)<br>「アラディス調査団」タグを持つキャラ数に応じ、攻撃後、対象に「受ける火属性ダメージ+5～{2}%」と「受ける打属性ダメージ+5～{3}%」と「受けるブレイクダメージ+5～{4}%」を2回攻撃を受けるまで付与(1～5人で多いほど増加)<br>※パイルは物攻+50%<br>アウトレンジ時のスキル：[in:12002565]フォートレス[/in]",
+      "zh": "攻擊後，賦予對象「受到的火屬性傷害+{0}%」與「受到的打屬性傷害+{1}%」直到受2次攻擊為止<br>賦予自身「パイル」（不可重複）<br>依據持有「アラディス調査団」標籤的角色數量，攻擊後，賦予對象「受到的火屬性傷害+5~{2}%」、「受到的打屬性傷害+5~{3}%」與「受到的破防傷害+5~{4}%」直到受2次攻擊為止（1~5人間數量越多效果越高）<br>※パイル為物攻+50%<br>遠距離位置時的技能：[in:12002565]フォートレス[/in]",
+      "en": "After attacking, grants target \"Fire Damage Taken +{0}%\" and \"Strike Damage Taken +{1}%\" for 2 attacks.<br>Grants self \"パイル\" (cannot stack).<br>Based on the number of characters with the \"アラディス調査団\" tag, after attacking, grants target \"Fire Damage Taken +5~{2}%\", \"Strike Damage Taken +5~{3}%\", and \"Break Damage Taken +5~{4}%\" for 2 attacks (higher with 1~5 characters).<br>※パイル grants P.ATK +50%.<br>Skill while Out Range: \"[in:12002565]フォートレス[/in]\"."
     },
     "burst": {
       "skill_id": 14002415,
@@ -2769,6 +2965,27 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "in_skill1": {
+      "skill_id": 11002560,
+      "name": "アッパーブロウ",
+      "jp": "攻撃後、対象に「打属性耐性-{0}%」と「火属性耐性-{1}%」を1回攻撃を受けるまで付与<br>自身の位置をインレンジに移動",
+      "zh": "攻擊後，賦予對象「打屬性耐性-{0}%」與「火屬性耐性-{1}%」直到受1次攻擊為止<br>自身移動至近距離位置",
+      "en": "After attacking, grants target \"Strike RES -{0}%\" and \"Fire RES -{1}%\" until hit once<br>Moves self to IN RANGE"
+    },
+      "in_skill2": {
+      "skill_id": 12002565,
+      "name": "フォートレス",
+      "jp": "「パイル」が付与されている時、スキルダメージ+{0}%<br>攻撃前、対象に「火属性耐性-{1}%」と「打属性耐性-{2}%」を2回攻撃を受けるまで付与<br>攻撃後、自身に「ブレイクダメージ+{3}%」を2回行動終了するまで付与し、<br>自身に「パイル」が付与されている時、「パイル」を解除<br>「アラディス調査団」タグを持つキャラ数に応じ、攻撃前、対象に「火属性耐性-3～{4}%」と「打属性耐性-3～{5}%」を2回攻撃を受けるまで付与<br>攻撃後、自身に「ブレイクダメージ+4～{6}%」を2回行動終了するまで付与(1～5人で多いほど増加)<br>※パイルは物攻+50%",
+      "zh": "「パイル」被賦予時，技能傷害+{0}%<br>攻擊前，賦予對象「火屬性耐性-{1}%」與「打屬性耐性-{2}%」直到受2次攻擊為止<br>攻擊後，賦予自身「破防傷害+{3}%」直到2次行動結束為止<br>自身被賦予「パイル」時，解除「パイル」<br>依持有「アラディス調査団」標籤的角色數量，攻擊前，賦予對象「火屬性耐性-3～{4}%」與「打屬性耐性-3～{5}%」直到受2次攻擊為止<br>攻擊後，賦予自身「破防傷害+4～{6}%」直到2次行動結束為止(1～5人時，數量越多效果越高)<br>※パイル為物攻+50%",
+      "en": "When \"パイル\" is active, Skill DMG +{0}%<br>Before attacking, grants target \"Fire RES -{1}%\" and \"Strike RES -{2}%\" until hit 2 times<br>After attacking, grants self \"Break DMG +{3}%\" until end of 2 actions<br>If \"パイル\" is active on self, removes \"パイル\"<br>Depending on the number of characters with the \"アラディス調査団\" tag, before attacking, grants target \"Fire RES -3~{4}%\" and \"Strike RES -3~{5}%\" until hit 2 times<br>After attacking, grants self \"Break DMG +4~{6}%\" until end of 2 actions (Higher with more characters, from 1 to 5)<br>※パイル: P.ATK +50%"
+    },
+      "passive_skill": {
+      "skill_id": 14002586,
+      "name": "ストレートブロウ",
+      "jp": "ブレイクダメージ+{0}%<br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "破防傷害+{0}%<br>不會消耗狀態變化次數，且不會發動追加效果",
+      "en": "Break DMG +{0}%<br>Does not consume status change count and will not trigger additional effects"
     }
   },
   "129": {
@@ -2789,9 +3006,9 @@
     "burst": {
       "skill_id": 14002340,
       "name": "ゼルプストベヴァイス",
-      "jp": "この攻撃の貫通力+{0}<br>攻撃前、自身のマイナス効果を解除<br>攻撃後、「WEAK攻撃ダメージ+{1}%」を1回行動終了するまで付与し、<br>対象に「受けるダメージ+{2}%」を2回攻撃を受けるまで付与し、<br>エクストラターン(エクストラスキル：ツェアライセン)を{3}ターン後ろに生成",
-      "zh": "此攻擊的貫通力+{0}<br>攻擊前，解除自身負面效果<br>攻擊後，賦予自身「WEAK攻擊傷害+{1}%」直到1次行動結束為止<br>賦予對象「受到的傷害+{2}%」直到受2次攻擊為止<br>於時間軸後方{3}回合處生成額外回合（額外技能：ツェアライセン）",
-      "en": "This attack's Penetration increases by {0}.<br>Before attacking, removes negative effects from self.<br>After attacking, grants self \"WEAK Attack Damage +{1}%\" until 1 action ends.<br>Grants target \"Damage Taken +{2}%\" for 2 attacks.<br>Generates an Extra Turn {3} turns later on the timeline (Extra Skill: \"ツェアライセン\")."
+      "jp": "この攻撃の貫通力+{0}<br>攻撃前、自身のマイナス効果を解除<br>攻撃後、「WEAK攻撃ダメージ+{1}%」を1回行動終了するまで付与し、<br>対象に「受けるダメージ+{2}%」を2回攻撃を受けるまで付与し、<br>エクストラターン(エクストラスキル：[ex:14002489]ツェアライセン[/ex])を{3}ターン後ろに生成",
+      "zh": "此攻擊的貫通力+{0}<br>攻擊前，解除自身負面效果<br>攻擊後，賦予自身「WEAK攻擊傷害+{1}%」直到1次行動結束為止<br>賦予對象「受到的傷害+{2}%」直到受2次攻擊為止<br>於時間軸後方{3}回合處生成額外回合（額外技能：[ex:14002489]ツェアライセン[/ex]）",
+      "en": "This attack's Penetration increases by {0}.<br>Before attacking, removes negative effects from self.<br>After attacking, grants self \"WEAK Attack Damage +{1}%\" until 1 action ends.<br>Grants target \"Damage Taken +{2}%\" for 2 attacks.<br>Generates an Extra Turn {3} turns later on the timeline (Extra Skill: \"[ex:14002489]ツェアライセン[/ex]\")."
     },
     "ev_skill1": {
       "skill_id": null,
@@ -2813,6 +3030,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "ex_skill": {
+      "skill_id": 14002489,
+      "name": "ツェアライセン",
+      "jp": "この攻撃の貫通力+{0}<br>攻撃前、対象に「斬属性耐性-{1}%」を1回攻撃を受けるまで付与<br>攻撃後、自身に「物攻+{2}%」を1回行動終了するまで付与",
+      "zh": "此次攻擊的貫通力+{0}<br>攻擊前，賦予對象「斬屬性耐性-{1}%」直到受1次攻擊為止<br>攻擊後，賦予自身「物攻+{2}%」直到1次行動結束為止",
+      "en": "Penetration of this attack +{0}<br>Before attacking, grants target \"Slash RES -{1}%\" until hit once<br>After attacking, grants self \"P.ATK +{2}%\" until end of action"
     }
   },
   "128": {
@@ -3317,9 +3541,9 @@
     "burst": {
       "skill_id": 14002133,
       "name": "豊寿フルクトゥス",
-      "jp": "攻撃後、自身に「スキルダメージ+{0}%」を2回行動終了するまで付与し、<br>エクストラターン(エクストラスキル：宴明煙舞)を{1}ターン後ろに生成し、<br>アイテムゲージを{2}%回復し、<br>自身に「開運招来」を1回行動終了するまで付与<br>※開運招来は戦闘アイテムから受ける強化効果量+50%",
-      "zh": "攻擊後，賦予自身「技能傷害+{0}%」直到2次行動結束為止<br>於時間軸後方{1}回合處生成額外回合（額外技能：宴明煙舞）<br>回復{2}%道具量表<br>賦予自身「開運招来」直到1次行動結束為止<br>※開運招来為從戰鬥道具獲得的強化效果量+50%",
-      "en": "After attacking, grants self \"Skill Damage +{0}%\" until 2 actions end.<br>Generates an Extra Turn {1} turns later on the timeline (Extra Skill: \"宴明煙舞\").<br>Restores Item Gauge by {2}%.<br>Grants self \"開運招来\" until 1 action ends.<br>※開運招来 increases enhancement effects received from battle items by 50%."
+      "jp": "攻撃後、自身に「スキルダメージ+{0}%」を2回行動終了するまで付与し、<br>エクストラターン(エクストラスキル：[ex:14002183]宴明煙舞[/ex])を{1}ターン後ろに生成し、<br>アイテムゲージを{2}%回復し、<br>自身に「開運招来」を1回行動終了するまで付与<br>※開運招来は戦闘アイテムから受ける強化効果量+50%",
+      "zh": "攻擊後，賦予自身「技能傷害+{0}%」直到2次行動結束為止<br>於時間軸後方{1}回合處生成額外回合（額外技能：[ex:14002183]宴明煙舞[/ex]）<br>回復{2}%道具量表<br>賦予自身「開運招来」直到1次行動結束為止<br>※開運招来為從戰鬥道具獲得的強化效果量+50%",
+      "en": "After attacking, grants self \"Skill Damage +{0}%\" until 2 actions end.<br>Generates an Extra Turn {1} turns later on the timeline (Extra Skill: \"[ex:14002183]宴明煙舞[/ex]\").<br>Restores Item Gauge by {2}%.<br>Grants self \"開運招来\" until 1 action ends.<br>※開運招来 increases enhancement effects received from battle items by 50%."
     },
     "ev_skill1": {
       "skill_id": null,
@@ -3341,6 +3565,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "ex_skill": {
+      "skill_id": 14002183,
+      "name": "宴明煙舞",
+      "jp": "攻撃前、自身に「スキルダメージ+{0}%」を1回行動終了するまで付与し、対象に「氷属性耐性-{1}%」を1回攻撃を受けるまで付与<br>攻撃後、自身に「魔攻+{2}%」を1回行動終了するまで付与",
+      "zh": "攻擊前，賦予自身「技能傷害+{0}%」直到1次行動結束為止，並賦予對象「冰屬性耐性-{1}%」直到受1次攻擊為止<br>攻擊後，賦予自身「魔攻+{2}%」直到1次行動結束為止",
+      "en": "Before attacking, grants self \"Skill DMG +{0}%\" until end of action and grants target \"Ice RES -{1}%\" until hit once<br>After attacking, grants self \"M.ATK +{2}%\" until end of action"
     }
   },
   "116": {
@@ -3964,9 +4195,9 @@
     "skill1": {
       "skill_id": 11001893,
       "name": "ドゥフラッペ",
-      "jp": "攻撃後、自身に「物防・魔防+{0}%」を付与(上限30%)し、<br>自身に「かばう」を2回発動するまで付与し、<br>自身に「カウンター(クリールエンボル)」を2回カウンターするまで付与(重複不可)",
-      "zh": "攻擊後，賦予自身「物防・魔防+{0}%」（上限30%）<br>賦予自身「守護」直到發動2次為止<br>賦予自身「反擊（クリールエンボル）」直到反擊2次為止（不可重複）",
-      "en": "After attacking, grants self \"P.DEF/M.DEF +{0}%\" (MAX 30%).<br>Grants self \"Guard\" until activated 2 times.<br>Grants self \"Counter (クリールエンボル)\" until countering 2 times (cannot stack)."
+      "jp": "攻撃後、自身に「物防・魔防+{0}%」を付与(上限30%)し、<br>自身に「かばう」を2回発動するまで付与し、<br>自身に「<count:14001968>カウンター(クリールエンボル)</count>」を2回カウンターするまで付与(重複不可)",
+      "zh": "攻擊後，賦予自身「物防・魔防+{0}%」（上限30%）<br>賦予自身「守護」直到發動2次為止<br>賦予自身「<count:14001968>反擊（クリールエンボル）</count>」直到反擊2次為止（不可重複）",
+      "en": "After attacking, grants self \"P.DEF/M.DEF +{0}%\" (MAX 30%).<br>Grants self \"Guard\" until activated 2 times.<br>Grants self \"<count:14001968>Counter (クリールエンボル)</count>\" until countering 2 times (cannot stack)."
     },
     "skill2": {
       "skill_id": 12001898,
@@ -4002,6 +4233,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "count_skill": {
+      "skill_id": 14001968,
+      "name": "クリールエンボル",
+      "jp": "攻撃後、味方全員のHPを{0}%回復し、<br>味方全員に「受けるダメージ-{1}%」を1回攻撃を受けるまで付与(上限2個)<br>対象に「ダメージ-{2}%」を1回行動終了するまで付与",
+      "zh": "攻擊後，回復我方全員HP {0}%<br>賦予我方全員「受到的傷害-{1}%」直到受1次攻擊為止(上限2個)<br>賦予對象「傷害-{2}%」直到1次行動結束為止",
+      "en": "After attacking, restores all allies' HP by {0}%<br>Grants all allies \"Damage Taken -{1}%\" until hit once (Max 2 stacks)<br>Grants target \"Damage -{2}%\" until end of action"
     }
   },
   "101": {
@@ -4090,6 +4328,27 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "transform_skill1": {
+      "skill_id": 11001743,
+      "name": "ヒッツェドンスト",
+      "jp": "攻撃後、自身に「ブレイクダメージ+{0}%」を2回行動終了するまで付与し、<br>自身に「スキルダメージ+{1}%」を2回行動終了するまで付与",
+      "zh": "攻擊後，賦予自身「破防傷害+{0}%」直到2次行動結束為止<br>賦予自身「技能傷害+{1}%」直到2次行動結束為止",
+      "en": "After attacking, grants self \"Break DMG +{0}%\" until end of 2 actions<br>Grants self \"Skill DMG +{1}%\" until end of 2 actions"
+    },
+      "transform_skill2": {
+      "skill_id": 12001748,
+      "name": "フランメテオア",
+      "jp": "攻撃前、対象に「火属性耐性-{0}%」を2回攻撃を受けるまで付与<br>WEAK攻撃時、ブレイクダメージ+{1}%<br>攻撃後、自身に「マイナス効果無効」を1回行動終了するまで付与",
+      "zh": "攻擊前，賦予對象「火屬性耐性-{0}%」直到受2次攻擊為止<br>WEAK攻擊時，破防傷害+{1}%<br>攻擊後，賦予自身「負面效果無效」直到1次行動結束為止",
+      "en": "Before attacking, grants target \"Fire RES -{0}%\" until hit 2 times<br>During WEAK attacks, Break DMG +{1}%<br>After attacking, grants self \"Debuff Immunity\" until end of action"
+    },
+      "transform_burst": {
+      "skill_id": 14001753,
+      "name": "グランツアーンスト",
+      "jp": "この攻撃の貫通力+{0}<br>WEAK攻撃時、対象の1つのブレイクゲージを0にする<br>攻撃後、敵全体に「受けるダメージ+{2}%」を1回攻撃を受けるまで付与",
+      "zh": "此次攻擊的貫通力+{0}<br>WEAK攻擊時，將對象1個破防量條歸零<br>攻擊後，賦予敵方全體「受到的傷害+{2}%」直到受1次攻擊為止",
+      "en": "Penetration of this attack +{0}<br>During WEAK attacks, reduces one of the target's Break Gauges to 0<br>After attacking, grants all enemies \"Damage Taken +{2}%\" until hit once"
     }
   },
   "99": {
@@ -4177,6 +4436,27 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "transform_skill1": {
+      "skill_id": 11001698,
+      "name": "ステラトワリング",
+      "jp": "攻撃後、自身に「スキルダメージ+{0}%」を付与(上限60%)し、<br>自身に「素早さ+{1}%」と「魔攻+{2}%」を1回行動終了するまで付与",
+      "zh": "",
+      "en": ""
+    },
+      "transform_skill2": {
+      "skill_id": 12001703,
+      "name": "アスパイアスター",
+      "jp": "攻撃前に、対象に「火属性耐性-{0}%」を5回攻撃を受けるまで付与し、<br>攻撃後、自身に「魔攻+{1}%」を2回行動終了するまで付与",
+      "zh": "攻擊前，賦予對象「火屬性耐性-{0}%」直到受5次攻擊為止<br>攻擊後，賦予自身「魔攻+{1}%」直到2次行動結束為止",
+      "en": "Before attacking, grants target \"Fire RES -{0}%\" until hit 5 times<br>After attacking, grants self \"M.ATK +{1}%\" until end of 2 actions"
+    },
+      "transform_burst": {
+      "skill_id": 14001708,
+      "name": "ルミナスアウルム",
+      "jp": "この攻撃の貫通力+{0}<br>WEAK攻撃時、ダメージ+{1}%<br>WEAK攻撃時、このスキル使用前にタイムラインに並んでいる、次の味方のパネル{2}つをバーストパネルに変換(空パネルの時は生成)",
+      "zh": "此次攻擊的貫通力+{0}<br>WEAK攻擊時，傷害+{1}%<br>WEAK攻擊時，將此技能使用前位於時間軸上的下一位我方角色的{2}個面板變換為爆發面板(空面板時生成)",
+      "en": "Penetration of this attack +{0}<br>During WEAK attacks, Damage +{1}%<br>During WEAK attacks, converts the next ally's {2} panels on the timeline before using this skill into Burst Panels (Generates if panel is empty)"
     }
   },
   "97": {
@@ -5106,9 +5386,9 @@
     "skill1": {
       "skill_id": 11001303,
       "name": "ザンバーフィスト",
-      "jp": "攻撃後、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与し、<br>自身に「かばう」を1回発動するまで付与し、<br>自身に「カウンター(ヒーヴィングフィン)」を1回カウンターするまで付与(重複不可)",
-      "zh": "攻擊後，賦予自身「受到的傷害-{0}%」直到受1次攻擊為止<br>賦予自身「守護」直到發動1次為止<br>賦予自身「反擊（ヒーヴィングフィン）」直到反擊1次為止（不可重複）",
-      "en": "After attacking, grants self \"Damage Taken -{0}%\" for 1 attack.<br>Grants self \"Guard\" until triggered 1 time.<br>Grants self \"Counter (ヒーヴィングフィン)\" until countering 1 time (cannot stack)."
+      "jp": "攻撃後、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与し、<br>自身に「かばう」を1回発動するまで付与し、<br>自身に「<count:14001133>カウンター(ヒーヴィングフィン</count>)」を1回カウンターするまで付与(重複不可)",
+      "zh": "攻擊後，賦予自身「受到的傷害-{0}%」直到受1次攻擊為止<br>賦予自身「守護」直到發動1次為止<br>賦予自身「<count:14001133>反擊（ヒーヴィングフィン）</count>」直到反擊1次為止（不可重複）",
+      "en": "After attacking, grants self \"Damage Taken -{0}%\" for 1 attack.<br>Grants self \"Guard\" until triggered 1 time.<br>Grants self \"<count:14001133>Counter (ヒーヴィングフィン)</count>\" until countering 1 time (cannot stack)."
     },
     "skill2": {
       "skill_id": 12001308,
@@ -5144,6 +5424,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "count_skill": {
+      "skill_id": 14001133,
+      "name": "ヒーヴィングフィン",
+      "jp": "攻撃前、自身のマイナス効果を解除し、<br>攻撃後、自身に「物攻+{0}%」を付与(上限30%)",
+      "zh": "攻擊前，解除自身負面效果<br>攻擊後，賦予自身「物攻+{0}%」(上限30%)",
+      "en": "Before attacking, removes self debuffs<br>After attacking, grants self \"P.ATK +{0}%\" (Max 30%)"
     }
   },
   "75": {
@@ -5693,9 +5980,9 @@
     "burst": {
       "skill_id": 14001001,
       "name": "ドルンシュトラーフェ",
-      "jp": "この攻撃のクリティカル確率+100%<br>攻撃後、自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv3)」を付与<br>既に付与されている時、「戦姫開花」のLv+3(上限Lv10)<br>エクストラターン(エクストラスキル：ブリッツドルン)を3ターン後ろに生成<br>※戦姫開花：「ブルームアクセル」を参照",
-      "zh": "此攻擊的暴擊率+100%<br>攻擊後，若自身未持有「戦姫開花」，則賦予「戦姫開花（Lv3）」<br>若已持有，則「戦姫開花」Lv+3（上限Lv10）<br>生成額外回合（EX技能：ブリッツドルン）並延後3回合<br>※戦姫開花：請參照「ブルームアクセル」",
-      "en": "This attack's Critical Rate increases by 100%.<br>After attacking, if self does not have \"戦姫開花\", grants \"戦姫開花 (Lv3)\".<br>If already granted, increases \"戦姫開花\" Lv by 3 (MAX Lv10).<br>Generates an Extra Turn (EX Skill: ブリッツドルン) and delays it by 3 turns.<br>※戦姫開花: Refer to \"ブルームアクセル\"."
+      "jp": "この攻撃のクリティカル確率+100%<br>攻撃後、自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv3)」を付与<br>既に付与されている時、「戦姫開花」のLv+3(上限Lv10)<br>エクストラターン(エクストラスキル：[ex:14001051]ブリッツドルン[/ex])を3ターン後ろに生成<br>※戦姫開花：「ブルームアクセル」を参照",
+      "zh": "此攻擊的暴擊率+100%<br>攻擊後，若自身未持有「戦姫開花」，則賦予「戦姫開花（Lv3）」<br>若已持有，則「戦姫開花」Lv+3（上限Lv10）<br>生成額外回合（額外技能：[ex:14001051]ブリッツドルン[/ex]）並延後3回合<br>※戦姫開花：請參照「ブルームアクセル」",
+      "en": "This attack's Critical Rate increases by 100%.<br>After attacking, if self does not have \"戦姫開花\", grants \"戦姫開花 (Lv3)\".<br>If already granted, increases \"戦姫開花\" Lv by 3 (MAX Lv10).<br>Generates an Extra Turn (EX Skill: [ex:14001051]ブリッツドルン[/ex]) and delays it by 3 turns.<br>※戦姫開花: Refer to \"ブルームアクセル\"."
     },
     "ev_skill1": {
       "skill_id": 14003672,
@@ -5714,9 +6001,23 @@
     "ev_burst": {
       "skill_id": 14003678,
       "name": "ドルンシュトラーフェ",
-      "jp": "この攻撃のクリティカル確率+100%<br>攻撃後、「戦姫開花」のLvに応じ、自身に「物攻+8～80％」を2回行動終了するまで付与<br>自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv5)」を付与<br>既に付与されている時、「戦姫開花」のLv+5(上限Lv10)<br>エクストラターン(エクストラスキル：ブリッツドルン)を3ターン後ろに生成<br>※戦姫開花：「ブルームアクセル」を参照",
-      "zh": "此攻擊的暴擊率+100%<br>攻擊後，依據「戦姫開花」的Lv，賦予自身「物攻+8～80%」直到2次行動結束為止<br>若自身未持有「戦姫開花」，則賦予「戦姫開花（Lv5）」<br>若已持有，則「戦姫開花」Lv+5（上限Lv10）<br>生成額外回合（EX技能：ブリッツドルン）並延後3回合<br>※戦姫開花：請參照「ブルームアクセル」",
-      "en": "This attack's Critical Rate increases by 100%.<br>After attacking, based on the Lv of \"戦姫開花\", grants self \"P.ATK +8~80%\" until 2 actions end.<br>If self does not have \"戦姫開花\", grants \"戦姫開花 (Lv5)\".<br>If already granted, increases \"戦姫開花\" Lv by 5 (MAX Lv10).<br>Generates an Extra Turn (EX Skill: ブリッツドルン) and delays it by 3 turns.<br>※戦姫開花: Refer to \"ブルームアクセル\"."
+      "jp": "この攻撃のクリティカル確率+100%<br>攻撃後、「戦姫開花」のLvに応じ、自身に「物攻+8～80％」を2回行動終了するまで付与<br>自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv5)」を付与<br>既に付与されている時、「戦姫開花」のLv+5(上限Lv10)<br>エクストラターン(エクストラスキル：[ex:14003680]ブリッツドルン[/ex])を3ターン後ろに生成<br>※戦姫開花：「ブルームアクセル」を参照",
+      "zh": "此攻擊的暴擊率+100%<br>攻擊後，依據「戦姫開花」的Lv，賦予自身「物攻+8～80%」直到2次行動結束為止<br>若自身未持有「戦姫開花」，則賦予「戦姫開花（Lv5）」<br>若已持有，則「戦姫開花」Lv+5（上限Lv10）<br>生成額外回合（額外技能：[ex:14003680]ブリッツドルン[/ex]）並延後3回合<br>※戦姫開花：請參照「ブルームアクセル」",
+      "en": "This attack's Critical Rate increases by 100%.<br>After attacking, based on the Lv of \"戦姫開花\", grants self \"P.ATK +8~80%\" until 2 actions end.<br>If self does not have \"戦姫開花\", grants \"戦姫開花 (Lv5)\".<br>If already granted, increases \"戦姫開花\" Lv by 5 (MAX Lv10).<br>Generates an Extra Turn (EX Skill: ブリッツドルン) and delays it by 3 turns.<br>※戦姫開花: Refer to \"[ex:14003680]ブリッツドルン[/ex]\"."
+    },
+      "ex_skill1": {
+      "skill_id": 14001051,
+      "name": "ブリッツドルン",
+      "jp": "この攻撃のクリティカル確率+100%<br>攻撃後、自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv1)」を付与<br>既に付与されている時、「戦姫開花」のLv+1(上限Lv10)<br>※戦姫開花：「ブルームアクセル」を参照",
+      "zh": "此次攻擊的暴擊率+100%<br>攻擊後，若自身未持有「戦姫開花」，則賦予「戦姫開花（Lv1）<br>已被賦予時，「戦姫開花」Lv+1(上限Lv10)<br>※戦姫開花：請參照「ブルームアクセル」",
+      "en": "Critical Rate of this attack +100%<br>After attacking, if \"戦姫開花\" is not active on self, grants \"戦姫開花 (Lv1)\"<br>If already active, increases \"戦姫開花\" Lv by 1 (Max Lv10)<br>※戦姫開花: See \"ブルームアクセル\""
+    },
+      "ex_skill2": {
+      "skill_id": 14003680,
+      "name": "ブリッツドルン",
+      "jp": "この攻撃のクリティカル確率+100%<br>攻撃後、「戦姫開花」のLvに応じ、自身に「スキルダメージ+5～50％」と「物攻+3～30％」を2回行動終了するまで付与<br>自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv2)」を付与<br>既に付与されている時、「戦姫開花」のLv+2(上限Lv10)<br>※戦姫開花：「ブルームアクセル」を参照",
+      "zh": "此次攻擊的暴擊率+100%<br>攻擊後，依「戦姫開花」的Lv，賦予自身「技能傷害+5～50%」與「物攻+3～30%」直到2次行動結束為止<br>自身未被賦予「戦姫開花」時，賦予「戦姫開花(Lv2)」<br>已被賦予時，「戦姫開花」Lv+2(上限Lv10)<br>※戦姫開花：請參照「ブルームアクセル」",
+      "en": "Critical Rate of this attack +100%<br>After attacking, depending on \"戦姫開花\" Lv, grants self \"Skill DMG +5~50%\" and \"P.ATK +3~30%\" until end of 2 actions<br>If \"戦姫開花\" is not active on self, grants \"戦姫開花 (Lv2)\"<br>If already active, increases \"戦姫開花\" Lv by 2 (Max Lv10)<br>※戦姫開花: See \"ブルームアクセル\""
     }
   },
   "62": {
@@ -6258,9 +6559,9 @@
     "skill2": {
       "skill_id": 12000790,
       "name": "雪花の型",
-      "jp": "攻撃後、自身に「受けるダメージ-{0}%」を2回攻撃を受けるまで付与し、<br>自身に「カウンター(雪抜剣)」を2回カウンターするまで付与(重複不可)",
-      "zh": "攻擊後，賦予自身「受到的傷害-{0}%」直到受2次攻擊為止<br>賦予自身「反擊（雪抜剣）」直到反擊2次為止（不可重複）",
-      "en": "After attacking, grants self \"Damage Taken -{0}%\" for 2 attacks.<br>Grants self \"Counter (雪抜剣)\" until countering 2 times (cannot stack)."
+      "jp": "攻撃後、自身に「受けるダメージ-{0}%」を2回攻撃を受けるまで付与し、<br>自身に「<count:14000820>カウンター(雪抜剣)</count>」を2回カウンターするまで付与(重複不可)",
+      "zh": "攻擊後，賦予自身「受到的傷害-{0}%」直到受2次攻擊為止<br>賦予自身「<count:14000820>反擊（雪抜剣）</count>」直到反擊2次為止（不可重複）",
+      "en": "After attacking, grants self \"Damage Taken -{0}%\" for 2 attacks.<br>Grants self \"<count:14000820>Counter (雪抜剣)</count>\" until countering 2 times (cannot stack)."
     },
     "burst": {
       "skill_id": 14000815,
@@ -6289,6 +6590,13 @@
       "jp": null,
       "zh": null,
       "en": null
+    },
+      "count_skill": {
+      "skill_id": 14000820,
+      "name": "カウンター(雪抜剣)",
+      "jp": "攻撃後、自身に「受けるダメージ-{0}%」を1回攻撃を受けるまで付与し、<br>自身のHPを{1}%回復",
+      "zh": "攻擊後，賦予自身「受到的傷害-{0}%」直到受1次攻擊為止<br>恢復自身HP {1}%",
+      "en": "After attacking, grants self \"Damage Taken -{0}%\" until hit once<br>Restores self HP by {1}%"
     }
   },
   "49": {
@@ -7235,7 +7543,7 @@
       "name": "クロスファイア",
       "jp": "WEAK攻撃時、ブレイクダメージ+{1}%<br>攻撃後、対象に「突属性耐性-{0}%」を3回攻撃を受けるまで付与",
       "zh": "WEAK攻擊時，破防傷害+{1}%<br>攻擊後，賦予對象「突屬性耐性-{0}%」直到受3次攻擊為止",
-      "en": "During WEAK attacks, Break Damage +{1}.<br>After attacking, grants target \"Pierce Resistance -{0}%\" for 3 attacks."
+      "en": "During WEAK attacks, Break Damage +{1}%.<br>After attacking, grants target \"Pierce Resistance -{0}%\" for 3 attacks."
     },
     "ev_skill1": {
       "skill_id": null,

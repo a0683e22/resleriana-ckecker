@@ -1,0 +1,3250 @@
+{
+  "1990019": {
+    "name": "アドバンスオール物攻Ⅰ",
+    "description": {
+      "jp": "味方全員の物攻+5%",
+      "zh": "我方全員的物攻+5%",
+      "en": "All allies' P.ATK +5%"
+    }
+  },
+  "1990020": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990022": {
+    "name": "アドバンスオール魔攻Ⅰ",
+    "description": {
+      "jp": "味方全員の魔攻+5%",
+      "zh": "我方全員的魔攻+5%",
+      "en": "All allies' M.TAK +5%"
+    }
+  },
+  "1990023": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp": "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990024": {
+    "name": "アドバンスオール物攻Ⅰ",
+    "description": {
+      "jp": "味方全員の物攻+5%",
+      "zh": "我方全員的物攻+5%",
+      "en": "All allies' P.ATK +5%"
+    }
+  },
+  "1990025": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990026": {
+    "name": "ヘイト&アドバンスオール物防",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>味方全員の物防+3%",
+      "zh": "更容易成為攻擊目標<br>我方全員的物防+3%",
+      "en": "More likely to be targeted.<br>All allies' P.DEF +3%"
+    }
+  },
+  "1990027": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp": "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990028": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990029": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990030": {
+    "name": "好機逸すべからず",
+    "description": {
+      "jp": "クリティカル攻撃時、クリティカルダメージ+50%",
+      "zh": "暴擊攻擊時，暴擊傷害+50%",
+      "en": "On Critical Hit, Crit DMG +50%"
+    }
+  },
+  "1990031": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990032": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990033": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990034": {
+    "name": "アドバンスオール魔攻Ⅰ",
+    "description": {
+      "jp": "味方全員の魔攻+5%",
+      "zh": "我方全員的魔攻+5%",
+      "en": "All allies' M.TAK +5%"
+    }
+  },
+  "1990035": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990036": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990037": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990038": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990039": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990040": {
+    "name": "援護はお願い！",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>受けるHP回復量+5%",
+      "zh": "更容易成為攻擊目標<br>所受HP回復量+5%",
+      "en": "More likely to be targeted.<br>Healing Received +5%"
+    }
+  },
+  "1990041": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990042": {
+    "name": "アドバンスオール魔攻Ⅰ",
+    "description": {
+      "jp": "味方全員の魔攻+5%",
+      "zh": "我方全員的魔攻+5%",
+      "en": "All allies' M.TAK +5%"
+    }
+  },
+  "1990043": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990044": {
+    "name": "ヘイト&アドバンスオール物防",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>味方全員の物防+3%",
+      "zh": "更容易成為攻擊目標<br>我方全體的物防+3%",
+      "en": "More likely to be targeted.<br>All allies' P.DEF +3%"
+    }
+  },
+  "1990045": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990046": {
+    "name": "アドバンスオール物攻Ⅰ",
+    "description": {
+      "jp": "味方全員の物攻+5%",
+      "zh": "我方全員的物攻+5%",
+      "en": "All allies' P.ATK +5%"
+    }
+  },
+  "1990047": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp": "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990048": {
+    "name": "闘争の力",
+    "description": {
+      "jp": "スキルダメージ+15%",
+      "zh": "技能傷害+15%",
+      "en": "Skill DMG +15%"
+    }
+  },
+  "1990049": {
+    "name": "レジストアップ挑発",
+    "description": {
+      "jp": "挑発耐性+30%",
+      "zh": "挑釁耐性+30%",
+      "en": "Taunt RES +30%"
+    }
+  },
+  "1990050": {
+    "name": "ひと夏のオーバーラン",
+    "description": {
+      "jp": "スキルで撃破時、自身に「スキルダメージ+10%」を付与(上限30%)",
+      "zh": "技能擊破時，賦予自身「技能傷害+10%」(上限30%)",
+      "en": "After defeating an enemy with a skill, grants self \"Skill DMG +10%\" (Max 30%)"
+    }
+  },
+  "1990051": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990052": {
+    "name": "なんでこっちくるのー！",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>HPが50%以上の時、受けるダメージ-10%",
+      "zh": "更容易成為攻擊目標<br>HP50%以上時、受到的傷害-10%",
+      "en": "More likely to be targeted.<br>At 50%+ HP, Damage Taken -10%"
+    }
+  },
+  "1990053": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990054": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990055": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990056": {
+    "name": "びびっとインスピレーション",
+    "description": {
+      "jp": "WEAK攻撃時、ブレイクダメージ+10%",
+      "zh": "WEAK攻擊時、破防傷害+10%",
+      "en": "On WEAK Hit, Break DMG +10%"
+    }
+  },
+  "1990057": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990072": {
+    "name": "アドバンスオール物攻Ⅰ",
+    "description": {
+      "jp": "味方全員の物攻+5%",
+      "zh": "我方全員的物攻+5%",
+      "en": "All allies' P.ATK +5%"
+    }
+  },
+  "1990073": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990074": {
+    "name": "アドバンスオール物防Ⅰ",
+    "description": {
+      "jp": "味方全員の物防+5%",
+      "zh": "我方全員的物防+5%",
+      "en": "All allies' P.DEF +5%"
+    }
+  },
+  "1990075": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990076": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990077": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990078": {
+    "name": "アドバンスオール物攻Ⅰ",
+    "description": {
+      "jp": "味方全員の物攻+5%",
+      "zh": "我方全員的物攻+5%",
+      "en": "All allies' P.ATK +5%"
+    }
+  },
+  "1990079": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp":  "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990080": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990081": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990082": {
+    "name": "アドバンスオール物防Ⅰ",
+    "description": {
+      "jp": "味方全員の物防+5%",
+      "zh": "我方全員的物防+5%",
+      "en": "All allies' P.DEF +5%"
+    }
+  },
+  "1990083": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp": "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990084": {
+    "name": "アドバンスオール魔攻Ⅰ",
+    "description": {
+      "jp": "味方全員の魔攻+5%",
+      "zh": "我方全員的魔攻+5%",
+      "en": "All allies' M.TAK +5%"
+    }
+  },
+  "1990085": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990086": {
+    "name": "ヘイト&アドバンスオール物防",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>味方全員の物防+3%",
+      "zh": "更容易成為攻擊目標<br>我方全員的物防+3%",
+      "en": "More likely to be targeted.<br>All allies'  P.DEF +3%"
+    }
+  },
+  "1990087": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990088": {
+    "name": "アドバンスオール物防Ⅰ",
+    "description": {
+      "jp": "味方全員の物防+5%",
+      "zh": "我方全員的物防+5%",
+      "en": "All allies' P.DEF +5%"
+    }
+  },
+  "1990089": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990090": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990091": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990092": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990093": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990094": {
+    "name": "アドバンスオール物攻Ⅰ",
+    "description": {
+      "jp": "味方全員の物攻+5%",
+      "zh": "我方全員的物攻+5%",
+      "en": "All allies' P.ATK +5%"
+    }
+  },
+  "1990095": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990096": {
+    "name": "ヘイト&アドバンスオール物防",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>味方全員の物防+3%",
+      "zh": "更容易成為攻擊目標<br>我方全員的物防+3%",
+      "en": "More likely to be targeted.<br>All allies'  P.DEF +3%"
+    }
+  },
+  "1990097": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990098": {
+    "name": "アドバンスオール魔攻Ⅰ",
+    "description": {
+      "jp": "味方全員の魔攻+5%",
+      "zh": "我方全員的魔攻+5%",
+      "en": "All allies' M.TAK +5%"
+    }
+  },
+  "1990099": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990100": {
+    "name": "アドバンスオール物防Ⅰ",
+    "description": {
+      "jp": "味方全員の物防+5%",
+      "zh": "我方全員的物防+5%",
+      "en": "All allies' P.DEF +5%"
+    }
+  },
+  "1990101": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990102": {
+    "name": "アドバンスオール魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の魔防+5%",
+      "zh": "我方全員的魔防+5%",
+      "en": "All allies' M.DEF +5%"
+    }
+  },
+  "1990103": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990104": {
+    "name": "溢れ出る破壊の力",
+    "description": {
+      "jp": "味方全員のブレイクダメージ+5%",
+      "zh": "我方全員的破防傷害+5%",
+      "en": "All allies' Break DMG +5%"
+    }
+  },
+  "1990105": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp": "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990106": {
+    "name": "アドバンスオール物防&魔防Ⅰ",
+    "description": {
+      "jp": "味方全員の物防・魔防+5%",
+      "zh": "我方全員的物防・魔防+5%",
+      "en": "All allies' P.DEF/M.DEF +5%"
+    }
+  },
+  "1990107": {
+    "name": "レジストアップ火傷",
+    "description": {
+      "jp": "火傷耐性+30%",
+      "zh": "燒傷耐性+30%",
+      "en": "Burn RES +30%"
+    }
+  },
+  "1990108": {
+    "name": "アドバンスオール物攻Ⅰ",
+    "description": {
+      "jp": "味方全員の物攻+5%",
+      "zh": "我方全員的物攻+5%",
+      "en": "All allies' P.ATK +5%"
+    }
+  },
+  "1990109": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp": "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990110": {
+    "name": "攻撃力の足しになれぇ！",
+    "description": {
+      "jp": "得意属性が雷属性の味方全員のスキルダメージ+30%",
+      "zh": "雷屬性的我方全員技能傷害+30%",
+      "en": "Lightning-element allies' Skill DMG +30%."
+    }
+  },
+  "1990111": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990112": {
+    "name": "アドバンスオール物攻Ⅱ",
+    "description": {
+      "jp": "味方全員の物攻+10%",
+      "zh": "我方全員的物攻+10%",
+      "en": "All allies' P.TAK +10%"
+    }
+  },
+  "1990113": {
+    "name": "レジストアップ挑発",
+    "description": {
+      "jp": "挑発耐性+30%",
+      "zh": "挑釁耐性+30%",
+      "en": "Taunt RES +30%"
+    }
+  },
+  "1990114": {
+    "name": "みんなには内緒ね！",
+    "description": {
+      "jp": "得意属性が火属性の味方全員のスキルダメージ+20%",
+      "zh": "火屬性的我方全員技能傷害+20%",
+      "en": "Fire-element allies' Skill DMG +20%"
+    }
+  },
+  "1990115": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990116": {
+    "name": "アドバンスオール魔攻Ⅰ",
+    "description": {
+      "jp": "味方全員の魔攻+5%",
+      "zh": "我方全員的魔攻+5%",
+      "en": "All allies' M.TAK +5%"
+    }
+  },
+  "1990117": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990118": {
+    "name": "プリンセスの躍進",
+    "description": {
+      "jp": "スキルで撃破時、自身に「魔攻・魔防+10%」を付与(上限20%)",
+      "zh": "技能擊破時，賦予自身「魔攻・魔防+10%」(上限20%)",
+      "en": "After defeating an enemy with a skill, grants self \"M.ATK/M.DEF +10%\" (Max 20%)"
+    }
+  },
+  "1990119": {
+    "name": "レジストアップ眠り",
+    "description": {
+      "jp": "眠り耐性+30%",
+      "zh": "睡眠耐性+30%",
+      "en": "Sleep RES +30%"
+    }
+  },
+  "1990120": {
+    "name": "溢れ出る闘争の力Ⅱ",
+    "description": {
+      "jp": "味方全員のスキルダメージ+20%",
+      "zh": "我方全員的技能傷害+20%",
+      "en": "All allies' Skill DMG +20%."
+    }
+  },
+  "1990121": {
+    "name": "レジストアップ毒",
+    "description": {
+      "jp": "毒耐性+30%",
+      "zh": "中毒耐性+30%",
+      "en": "Poison RES +30%"
+    }
+  },
+  "1990122": {
+    "name": "どんときなさい！",
+    "description": {
+      "jp": "敵が全体攻撃を除くカウンター使用時、カウンター対象の味方をかばい、<br>受けるダメージ-10%",
+      "zh": "敵方使用反擊（不包含全體反擊）時，代替目標我方承受攻擊<br>受到的傷害 -10%",
+      "en": "When an enemy uses a counter attack excluding AoE counters, covers the targeted ally and Damage Taken -10%"
+    }
+  },
+  "1990123": {
+    "name": "レジストアップ眠り",
+    "description": {
+      "jp": "眠り耐性+30%",
+      "zh": "睡眠耐性+30%",
+      "en": "Sleep RES +30%"
+    }
+  },
+  "1990124": {
+    "name": "アタシはもっと強くなる！",
+    "description": {
+      "jp": "スキルで撃破時、自身に「クリティカルダメージ+50%」を付与(上限100%)",
+      "zh": "技能擊破時，賦予自身「暴擊傷害+50%」(上限100%)",
+      "en": "After defeating an enemy with a skill, grants self \"Crit DMG+50%\" (Max 100%)"
+    }
+  },
+  "1990125": {
+    "name": "レジストアップ状態異常",
+    "description": {
+      "jp": "状態異常耐性+20%",
+      "zh": "異常狀態耐性+20%",
+      "en": "Status Ailment RES +20%"
+    }
+  },
+  "1990126": {
+    "name": "みんな今だよ！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、対象に「受けるダメージ+25%」を2回攻撃を受けるまで付与",
+      "zh": "攻擊對象破防時，賦予對象「受到的傷害+25%」直到受2次攻擊為止",
+      "en": "If the attack target is broken, grants target \"Damage Taken +25%\" until hit 2 times."
+    }
+  },
+  "1990127": {
+    "name": "閃きと破壊の力Ⅰ",
+    "description": {
+      "jp": "WEAK攻撃時、ブレイクダメージ+20%",
+      "zh": "WEAK攻擊時，破防傷害+20%",
+      "en": "On WEAK Hit, Break DMG +20%"
+    }
+  },
+  "1990128": {
+    "name": "アドバンスオール物攻Ⅲ",
+    "description": {
+      "jp": "味方全員の物攻+15%",
+      "zh": "我方全員的物攻+15%",
+      "en": "All allies' P.TAK +15%"
+    }
+  },
+  "1990129": {
+    "name": "レジストアップ眠り",
+    "description": {
+      "jp": "眠り耐性+30%",
+      "zh": "睡眠耐性+30%",
+      "en": "Sleep RES +30%"
+    }
+  },
+  "1990130": {
+    "name": "アドバンスオール魔攻Ⅲ",
+    "description": {
+      "jp": "味方全員の魔攻+15%",
+      "zh": "我方全員的魔攻+15%",
+      "en": "All allies' M.ATK +15%"
+    }
+  },
+  "1990131": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990132": {
+    "name": "溢れ出る会心の力Ⅱ",
+    "description": {
+      "jp": "味方全員のクリティカルダメージ+20%",
+      "zh": "我方全員的暴擊傷害+20%",
+      "en": "All allies' Crit DMG +20%"
+    }
+  },
+  "1990133": {
+    "name": "レジストアップ状態異常",
+    "description": {
+      "jp": "状態異常耐性+20%",
+      "zh": "異常狀態耐性+20%",
+      "en": "Status Ailment RES +20%"
+    }
+  },
+  "1990134": {
+    "name": "使者の転身",
+    "description": {
+      "jp": "敵にとても狙われやすくなる\nカウンターを成功させた時、自身に「受けるダメージ-5%」を付与(上限20%)",
+      "zh": "更容易成為攻擊目標<br>反擊成功時，賦予自身「受到的傷害-5%」(上限20%)",
+      "en": "More likely to be targeted.<br>On successful counter, grants self \"Damage Taken -5%\" (Max 20%)"
+    }
+  },
+  "1990135": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp": "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990136": {
+    "name": "厄払いＤＥ運気上昇！",
+    "description": {
+      "jp": "スキルで撃破時、自身に「ターン開始時、マイナス効果解除」を1回行動開始するまで付与し、自身に「クリティカル確率+100%」を1回行動終了するまで付与",
+      "zh": "技能擊破時，賦予自身「回合開始時，負面效果解除」直到1次行動開始為止，賦予自身「暴擊率+100%」直到1次行動結束為止",
+      "en": "After defeating an enemy with a skill, grants self \"Remove debuffs at turn start\" until next action start, and grants self \"Crit Rate +100%\" until next action end."
+    }
+  },
+  "1990137": {
+    "name": "チャンスの後に福来る",
+    "description": {
+      "jp": "クリティカル攻撃後、自身に「スキルダメージ+10%」を付与(上限30%)",
+      "zh": "暴擊攻擊後，賦予自身「技能傷害+10%」(上限30%)",
+      "en": "After a Critical Hit, grants self \"Skill DMG +10%\" (Max 30%)."
+    }
+  },
+  "1990138": {
+    "name": "これが私のオトコマエ",
+    "description": {
+      "jp": "HP回復を受けた時、自身に「スキルダメージ+5%」を付与(上限120%)",
+      "zh": "受到HP回復時，賦予自身「技能傷害+5%」(上限120%)",
+      "en": "When healed, grants self \"Skill DMG +5%\" (Max 120%)."
+    }
+  },
+  "1990139": {
+    "name": "撃砕と治癒Ⅰ",
+    "description": {
+      "jp": "スキルで撃破時、自身のHPを15%回復",
+      "zh": "技能擊破時，恢復自身HP 15%",
+      "en": "After defeating an enemy with a skill, restores 15% HP to self"
+    }
+  },
+  "1990140": {
+    "name": "王宮式応急術",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>攻撃を受けた時、自身のHPを10%回復",
+      "zh": "更容易成為攻擊目標<br>受到攻擊時，恢復自身HP 10%",
+      "en": "More likely to be targeted.<br>When attacked, restores 10% HP to self"
+    }
+  },
+  "1990141": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990142": {
+    "name": "溢れ出る加護の力Ⅰ",
+    "description": {
+      "jp": "味方全員の受けるダメージ-5%",
+      "zh": "我方全員受到的傷害-5%",
+      "en": "All allies' Damage Taken -5%"
+    }
+  },
+  "1990143": {
+    "name": "レジストアップ眠り",
+    "description": {
+      "jp": "眠り耐性+30%",
+      "zh": "睡眠耐性+30%",
+      "en": "Sleep RES +30%"
+    }
+  },
+  "1990144": {
+    "name": "ロッテにおまかせ！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、自身に「物攻+15%」を付与(上限30%)",
+      "zh": "攻擊對象破防時，賦予自身「物攻+15%」(上限30%)",
+      "en": "If the attack target is broken, grants self \"P.ATK +15%\" (Max 30%)"
+    }
+  },
+  "1990145": {
+    "name": "レジストアップ暗闇",
+    "description": {
+      "jp": "暗闇耐性+30%",
+      "zh": "盲目耐性+30%",
+      "en": "Blindness RES +30%"
+    }
+  },
+  "1990146": {
+    "name": "活性の力",
+    "description": {
+      "jp": "自身の受けるHP回復量+10%",
+      "zh": "自身受到的HP回復量+10%",
+      "en": "Self Healing Received +10%"
+    }
+  },
+  "1990147": {
+    "name": "レジストアップ火傷",
+    "description": {
+      "jp": "火傷耐性+30%",
+      "zh": "燒傷耐性+30%",
+      "en": "Burn RES +30%"
+    }
+  },
+  "1990148": {
+    "name": "追撃と闘争の力Ⅲ",
+    "description": {
+      "jp": "攻撃対象がブレイク状態の時、スキルダメージ+40%",
+      "zh": "攻擊對象破防狀態時，技能傷害+40%",
+      "en": "If the target is broken, Skill DMG+40%"
+    }
+  },
+  "1990149": {
+    "name": "我が刃、一日にして成らず",
+    "description": {
+      "jp": "スキルで撃破時、自身に「物攻+10%」を付与(上限30%)",
+      "zh": "技能擊破時，賦予自身「物攻+10%」(上限30%)",
+      "en": "After defeating an enemy with a skill, grants self \"P.ATK +10%\" (Max 30%)."
+    }
+  },
+  "1990150": {
+    "name": "よそ見している場合か？",
+    "description": {
+      "jp": "攻撃対象のブレイクゲージが50%以上の時、ブレイクダメージ+30%",
+      "zh": "攻擊對象的破防量條50%以上時，破防傷害+30%",
+      "en": "If the target's Break Gauge is 50% or higher, Break DMG +30%"
+    }
+  },
+  "1990151": {
+    "name": "破壊の力",
+    "description": {
+      "jp": "ブレイクダメージ+15%",
+      "zh": "破防傷害+15%",
+      "en": "Break DMG+15%"
+    }
+  },
+  "1990152": {
+    "name": "もうチョコっと頑張ります！",
+    "description": {
+      "jp": "攻撃対象がブレイクしなかった時、自身に「ブレイクダメージ+30%」を1回行動するまで付与",
+      "zh": "攻擊對象未破防時，賦予自身「破防傷害+30%」直到1次行動為止",
+      "en": "If the target is not broken, grants self \"Break DMG +30%\" until next action."
+    }
+  },
+  "1990153": {
+    "name": "破壊の力",
+    "description": {
+      "jp": "ブレイクダメージ+15%",
+      "zh": "破防傷害+15%",
+      "en": "Break DMG +15%"
+    }
+  },
+  "1990154": {
+    "name": "ゆるふわニットで視線くぎ付け！",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>スキル発動後、自身のHPを5%回復",
+      "zh": "更容易成為攻擊目標<br>技能發動後，回復自身HP 5%",
+      "en": "More likely to be targeted.<br>After using a skill, restores 5% HP to self"
+    }
+  },
+  "1990155": {
+    "name": "ぬくもりデュプリケイト",
+    "description": {
+      "jp": "HP回復を受けた時、自身に「受けるダメージ-2%」を付与(上限20%)",
+      "zh": "受到HP回復時，賦予自身「受到的傷害-2%」(上限20%)",
+      "en": "When healed, grants self \"Damage Taken -2%\" (Max 20%)"
+    }
+  },
+  "1990156": {
+    "name": "溢れ出る闘争の力Ⅱ",
+    "description": {
+      "jp": "味方全員のスキルダメージ+20%",
+      "zh": "我方全員的技能傷害+20%",
+      "en": "All allies' Skill DMG +20%"
+    }
+  },
+  "1990157": {
+    "name": "レジストアップ麻痺",
+    "description": {
+      "jp": "麻痺耐性+30%",
+      "zh": "麻痺耐性+30%",
+      "en": "Paralysis RES +30%"
+    }
+  },
+  "1990158": {
+    "name": "みなぎる闘志",
+    "description": {
+      "jp": "HP回復を受けた時、自身に「ブレイクダメージ+2%」を付与(上限20%)<br>スキルで撃破時、自身に「ターン開始時、マイナス効果解除」を1回行動開始するまで付与",
+      "zh": "受到HP回復時，賦予自身「破防傷害+2%」(上限20%)<br>技能擊破時，賦予自身「回合開始時，解除負面效果」直到1次行動開始為止",
+      "en": "When healed, grants self \"Break DMG +2%\" (Max 20%)<br>After defeating an enemy with a skill, grants self \"Remove debuffs at turn start\" until next action start"
+    }
+  },
+  "1990159": {
+    "name": "レジストアップ挑発",
+    "description": {
+      "jp": "挑発耐性+30%",
+      "zh": "挑釁耐性+30%",
+      "en": "Taunt RES +30%"
+    }
+  },
+  "1990160": {
+    "name": "ブルームアクセル",
+    "description": {
+      "jp": "スキルで撃破時、自身に「戦姫開花」が付与されていない時、「戦姫開花(Lv2)」を付与<br>既に付与されている時、「戦姫開花」のLv+2(上限Lv10)<br>「戦姫開花」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきクリティカルダメージ+10%<br>Lv3以上：バーストスキルダメージ+50%<br>Lv5以上：バーストスキルダメージ+50%<br>Lv10：バーストスキルダメージ+100%",
+      "zh": "技能擊破時，若自身未持有「戦姫開花」，則賦予「戦姫開花(Lv2)」<br>若已持有，則「戦姫開花」Lv+2(上限Lv10)<br>根據「戦姫開花」Lv獲得以下效果<br>每1Lv：暴擊傷害+10%<br>Lv3以上：Burst技能傷害+50%<br>Lv5以上：Burst技能傷害+50%<br>Lv10：Burst技能傷害+100%",
+      "en": "After defeating an enemy with a skill, if \"戦姫開花\" is not active, grants \"戦姫開花 (Lv2)\"<br>If already active, increases \"戦姫開花\" Lv by 2 (Max Lv10)<br>Grants the following bonuses based on \"戦姫開花\" Lv<br>Crit DMG +10% per Lv<br>Lv3+: Burst Skill DMG +50%<br>Lv5+: Burst Skill DMG +50%<br>Lv10: Burst Skill DMG +100%"
+    }
+  },
+  "1990161": {
+    "name": "決戦装備シュヴァルツロゼ",
+    "description": {
+      "jp": "状態異常無効",
+      "zh": "異常狀態無效",
+      "en": "Status Ailment Immunity"
+    }
+  },
+  "1990162": {
+    "name": "痛いのはダメです！",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>パーティの誰かが戦闘アイテム使用後、自身に「回避(確率100%)」を1回攻撃されるまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "更容易成為攻擊目標<br>當隊伍內任一角色使用戰鬥道具後，賦予自身「迴避(機率100%)」直到受到1次攻擊為止(發動上限3次)<br>同時使用複數道具時，也只會發動1次",
+      "en": "More likely to be targeted<br>After any party member uses a battle item, grants self \"Evasion (100% Chance)\" until hit once (Max 3 activations)<br>Using multiple items at the same time only counts as 1 activation"
+    }
+  },
+  "1990163": {
+    "name": "決戦装備シュヴァルツロゼ",
+    "description": {
+      "jp": "状態異常無効",
+      "zh": "異常狀態無效",
+      "en": "Status Ailment Immunity"
+    }
+  },
+  "1990164": {
+    "name": "さあ、追い打ちと行こうか！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、アイテムゲージを30%回復し、<br>味方全員に「敵に与える戦闘アイテムダメージ+100%」を付与(上限200%)",
+      "zh": "攻擊對象破防時，回復道具量條30%<br>賦予我方全員「對敵人造成的戰鬥道具傷害+100%」(上限200%)",
+      "en": "If the attack target is broken, restores Item Gauge by 30%<br>Grants all allies \"Battle Item DMG dealt to enemies +100%\" (Max 200%)"
+    }
+  },
+  "1990165": {
+    "name": "決戦装備シュヴァルツロゼ",
+    "description": {
+      "jp": "状態異常無効",
+      "zh": "異常狀態無效",
+      "en": "Status Ailment Immunity"
+    }
+  },
+  "1990166": {
+    "name": "隙だらけにしちゃうよ！",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、自身に「攻撃後、対象にカチコチを1回攻撃を受けるまで超高確率で付与」を1回スキル発動するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "當隊伍內任一角色使用戰鬥道具後，賦予自身「攻擊後，超高機率賦予對象僵硬直到受到1次攻擊為止」直到發動1次技能為止<br>同時使用複數道具時，也只會發動1次",
+      "en": "After any party member uses a battle item, grants self \"After attacking, inflicts Brittle to the target with a very high chance until hit once\" until using 1 skill<br>Using multiple items at the same time only counts as 1 activation"
+    }
+  },
+  "1990167": {
+    "name": "決戦装備シュヴァルツロゼ",
+    "description": {
+      "jp": "状態異常無効",
+      "zh": "異常狀態無效",
+      "en": "Status Ailment Immunity"
+    }
+  },
+  "1990168": {
+    "name": "天使の抱擁",
+    "description": {
+      "jp": "味方全員の物攻・魔攻・物防・魔防+10%",
+      "zh": "我方全員的物攻・魔攻・物防・魔防+10%",
+      "en": "All allies' P.ATK/M.ATK/P.DEF/M.DEF +10%"
+    }
+  },
+  "1990169": {
+    "name": "決戦装備シュヴァルツロゼ",
+    "description": {
+      "jp": "状態異常無効",
+      "zh": "異常狀態無效",
+      "en": "Status Ailment Immunity"
+    }
+  },
+  "1990170": {
+    "name": "腰抜かしちゃえ！",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、自身に「攻撃後、対象のターンを1ターン遅らせる」を1回スキル発動するまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "當隊伍內任一角色使用戰鬥道具後，賦予自身「攻擊後，使對象行動延後1回合」直到發動1次技能為止(發動上限3次)<br>同時使用複數道具時，也只會發動1次",
+      "en": "After any party member uses a battle item, grants self \"After attacking, delays the target's turn by 1 turn\" until using 1 skill (Max 3 activations)<br>Using multiple items at the same time only counts as 1 activation"
+    }
+  },
+  "1990171": {
+    "name": "決戦装備シュヴァルツロゼ",
+    "description": {
+      "jp": "状態異常無効",
+      "zh": "異常狀態無效",
+      "en": "Status Ailment Immunity"
+    }
+  },
+  "1990175": {
+    "name": "一球入魂",
+    "description": {
+      "jp": "強化系パネル獲得時、自身に「スキルダメージ+50%」を1回行動終了するまで付与(重複不可)",
+      "zh": "獲得強化面板時，賦予自身「技能傷害+50%」直到1次行動結束為止(不可重複)",
+      "en": "When obtaining a buff panel, grants self \"Skill DMG +50%\" until next action end (Cannot stack)"
+    }
+  },
+  "1990176": {
+    "name": "ねこさんチーム",
+    "description": {
+      "jp": "マイナスパネル無効<br>プラスパネルから受ける効果量+10%",
+      "zh": "負面面板無效<br>正向面版受到的效果量+10%",
+      "en": "Negative panels become ineffective<br>Effects received from positive panels +10%"
+    }
+  },
+  "1990177": {
+    "name": "スパルタ激励",
+    "description": {
+      "jp": "味方全員のスキルダメージ・ブレイクダメージ+15%",
+      "zh": "我方全員的技能傷害・破防傷害+15%",
+      "en": "All allies' Skill DMG and Break DMG +15%"
+    }
+  },
+  "1990178": {
+    "name": "ねこさんチーム",
+    "description": {
+      "jp": "マイナスパネル無効<br>プラスパネルから受ける効果量+10%",
+      "zh": "負面面板無效<br>正向面版受到的效果量+10%",
+      "en": "Negative panels become ineffective<br>Effects received from positive panels +10%"
+    }
+  },
+  "1990185": {
+    "name": "勝つのは私よ！",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>自身のHPが最大でない状態で攻撃を受けた時、自身のバーストパネルを除いたパネル全てをHP回復パネルに変換(c)",
+      "zh": "更容易成為攻擊目標<br>當自身HP非最大狀態受到攻擊時，將自身爆發面板除外的全部面板變換為HP回復面板(空面板時生成)",
+      "en": "More likely to be targeted<br>When attacked while HP is not full, converts all panels except Burst panels into HP Recovery panels (Generates if panel is empty)"
+    }
+  },
+  "1990186": {
+    "name": "ねこさんチーム",
+    "description": {
+      "jp": "マイナスパネル無効<br>プラスパネルから受ける効果量+10%",
+      "zh": "負面面板無效<br>正向面版受到的效果量+10%",
+      "en": "Negative panels become ineffective<br>Effects received from positive panels +10%"
+    }
+  },
+  "1990187": {
+    "name": "野菜のチ・カ・ラ",
+    "description": {
+      "jp": "味方全員、攻撃対象がブレイク状態の時、スキルダメージ+30%<br>攻撃対象がブレイク時、味方の強化パネル全てを1段階強化",
+      "zh": "對象破防狀態時，我方全員技能傷害+30%<br>攻擊對象破防時，我方全部的強化面板強化1階",
+      "en": "When the target is broken, all allies' Skill DMG +30%<br>If the target is broken, upgrades all allies' buff panels by 1 level"
+    }
+  },
+  "1990188": {
+    "name": "ねこさんチーム",
+    "description": {
+      "jp": "マイナスパネル無効<br>プラスパネルから受ける効果量+10%",
+      "zh": "負面面板無效<br>正向面版受到的效果量+10%",
+      "en": "Negative panels become ineffective<br>Effects received from positive panels +10%"
+    }
+  },
+  "1990189": {
+    "name": "元気よくごうれーい！",
+    "description": {
+      "jp": "味方全員のスキルダメージ+20%<br>味方全員の受けるHP回復量+10%",
+      "zh": "我方全員的技能傷害+20%<br>我方全員受到的回復量+10%",
+      "en": "All allies' Skill DMG +20%<br>All allies' Healing Received +10%"
+    }
+  },
+  "1990190": {
+    "name": "ねこさんチーム",
+    "description": {
+      "jp": "マイナスパネル無効<br>プラスパネルから受ける効果量+10%",
+      "zh": "負面面板無效<br>正向面版受到的效果量+10%",
+      "en": "Negative panels become ineffective<br>Effects received from positive panels +10%"
+    }
+  },
+  "1990191": {
+    "name": "気高き誓い",
+    "description": {
+      "jp": "自身がパネル獲得時またはHP回復を受けた時、自身に「魔攻+10%」を付与(上限100%)",
+      "zh": "當自身受到HP回復或獲得面板時，賦予自身「魔攻+10%」(上限100%)",
+      "en": ""
+    }
+  },
+  "1990192": {
+    "name": "ねこさんチーム",
+    "description": {
+      "jp": "マイナスパネル無効<br>プラスパネルから受ける効果量+10%",
+      "zh": "負面面板無效<br>正向面版受到的效果量+10%",
+      "en": "Negative panels become ineffective<br>Effects received from positive panels +10%"
+    }
+  },
+  "1990194": {
+    "name": "ととのいました？",
+    "description": {
+      "jp": "味方全員の与えるマイナス効果量+15%",
+      "zh": "我方全員賦予的負面效果量+15%",
+      "en": "Negative effect amount dealt by all allies +15%"
+    }
+  },
+  "1990195": {
+    "name": "アドバンスオール魔攻Ⅲ",
+    "description": {
+      "jp": "味方全員の魔攻+15%",
+      "zh": "我方全員的魔攻+15%",
+      "en": "All allies' M.ATK +15%"
+    }
+  },
+  "1990196": {
+    "name": "ポジティブシンキング",
+    "description": {
+      "jp": "自身が受ける、与えるダメージ強化の効果量+20%",
+      "zh": "自身受到與賦予的傷害提升效果量+20%",
+      "en": "Damage increase effect amount received and granted by self +20%"
+    }
+  },
+  "1990197": {
+    "name": "パネルアッププラスⅢ",
+    "description": {
+      "jp": "プラスパネルから受ける効果量+30%",
+      "zh": "從增益面板獲得的效果量+30%",
+      "en": "Effect amount received from Plus Panels +30%"
+    }
+  },
+  "1990198": {
+    "name": "溢れ出る闘争の力斬Ⅱ",
+    "description": {
+      "jp": "得意属性が斬属性の味方全員のスキルダメージ+20%",
+      "zh": "所有斬屬性的我方角色技能傷害+20%",
+      "en": "All Slash attribute allies Skill DMG +20%"
+    }
+  },
+  "1990199": {
+    "name": "呼び覚まされる本能",
+    "description": {
+      "jp": "攻撃を受けた時、自身に「クリティカル確率+25%」を付与(上限100%)",
+      "zh": "受到攻擊時，賦予自身「暴擊率+25%」(上限100%)",
+      "en": "When attacked, grants self \"Crit Rate +25%\" (Max 100%)"
+    }
+  },
+  "1990200": {
+    "name": "潮風を味方に",
+    "description": {
+      "jp": "味方全員の受けるマイナス効果量-15%",
+      "zh": "我方全員受到的負面效果量-15%",
+      "en": "Negative effect amount received by all allies -15%"
+    }
+  },
+  "1990201": {
+    "name": "破壊の力",
+    "description": {
+      "jp": "ブレイクダメージ+15%",
+      "zh": "破防傷害+15%",
+      "en": "Break DMG +15%"
+    }
+  },
+  "1990202": {
+    "name": "研ぎ澄まされた嗅覚",
+    "description": {
+      "jp": "バトル開始時、自身に「白夜の護衛」を2回かばうまで付与<br>「白夜の護衛」が付与されている時、以下のボーナス効果が全て発動する<br>・かばう<br>・受けるダメージ-40%<br>・スキルダメージ+40%",
+      "zh": "戰鬥開始時，賦予自身「白夜護衛」直到援護2次為止<br>持有「白夜護衛」時，發動以下所有效果<br>・守護<br>・受到傷害-40%<br>・技能傷害+40%",
+      "en": "At the start of battle, grants self \"白夜の護衛\" until guarding 2 times<br>While \"白夜の護衛\" is active, all of the following effects are activated<br>・Guard<br>・Damage Taken -40%<br>・Skill DMG +40%"
+    }
+  },
+  "1990203": {
+    "name": "野生の本能",
+    "description": {
+      "jp": "攻撃を受けた時、自身に「物攻+5%」を付与(上限25%)",
+      "zh": "受到攻擊時，賦予自身「物攻+5%」(上限25%)",
+      "en": "When attacked, grants self \"P.ATK +5%\" (Max 25%)"
+    }
+  },
+  "1990204": {
+    "name": "燃え上がる闘志",
+    "description": {
+      "jp": "攻撃対象がブレイク時、対象に「火傷」3個を超高確率で付与",
+      "zh": "對象破防時，以超高機率賦予目標3個「燒傷」",
+      "en": "When the target enters Break state, inflicts 3 \"Burn\" stacks on the target with a very high chance"
+    }
+  },
+  "1990205": {
+    "name": "火の闘争と破壊",
+    "description": {
+      "jp": "得意属性が火属性の味方全員のスキルダメージ・ブレイクダメージ+10%",
+      "zh": "所有火屬性的我方角色技能傷害・破防傷害+10%",
+      "en": "All Fire attribute allies Skill DMG・Break DMG +10%"
+    }
+  },
+  "1990206": {
+    "name": "仕返しシャットアウト",
+    "description": {
+      "jp": "カウンター攻撃から受けるダメージを無効",
+      "zh": "無效來自反擊攻擊的傷害",
+      "en": "Nullifies damage received from counter attacks"
+    }
+  },
+  "1990207": {
+    "name": "パネルアッププラスⅢ",
+    "description": {
+      "jp": "プラスパネルから受ける効果量+30%",
+      "zh": "從增益面板獲得的效果量+30%",
+      "en": "Effect amount received from Plus Panels +30%"
+    }
+  },
+  "1990208": {
+    "name": "反撃への布石",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>攻撃を受けた時、アイテムゲージを5%回復",
+      "zh": "更容易成為攻擊目標<br>受到攻擊時，回復道具量條5%",
+      "en": "More likely to be targeted.<br>Restores 5% Item Gauge when attacked"
+    }
+  },
+  "1990209": {
+    "name": "班長の回復術",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、自身のHPを15%回復<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具後，回復自身15%HP<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses a battle item, restores 15% HP to self<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990210": {
+    "name": "心を射抜く愛のハンマー",
+    "description": {
+      "jp": "パネル獲得時、自身に「クリティカル確率+100%」を1回行動終了するまで付与",
+      "zh": "獲得面板時，賦予自身「暴擊率+100%」直到1次行動結束為止",
+      "en": "When acquiring a panel, grants self \"Crit Rate +100%\" until the end of 1 action"
+    }
+  },
+  "1990211": {
+    "name": "溢れ出る会心の力Ⅱ",
+    "description": {
+      "jp": "味方全員のクリティカルダメージ+20%",
+      "zh": "我方全員的暴擊傷害+20%",
+      "en": "All allies Crit DMG +20%"
+    }
+  },
+  "1990212": {
+    "name": "健やかなる時をあなたにも",
+    "description": {
+      "jp": "強化系パネル獲得時、アイテムゲージを10%回復",
+      "zh": "獲得強化系面板時，回復道具量條10%",
+      "en": "When acquiring a buff-type panel, restores 10% Item Gauge"
+    }
+  },
+  "1990213": {
+    "name": "アドバンスオール魔攻Ⅲ",
+    "description": {
+      "jp": "味方全員の魔攻+15%",
+      "zh": "我方全員的魔攻+15%",
+      "en": "All allies' M.ATK +15%"
+    }
+  },
+  "1990214": {
+    "name": "ファントムマジック",
+    "description": {
+      "jp": "攻撃対象がブレイク時、対象に「受ける魔法攻撃ダメージ+25%」を2回攻撃を受けるまで付与",
+      "zh": "對象破防時，賦予對象「受到魔法攻擊傷害+25%」直到受到2次攻擊為止",
+      "en": "When the target enters Break state, inflicts \"Magic Attack Damage Taken +25%\" on the target until hit 2 times"
+    }
+  },
+  "1990215": {
+    "name": "ロイヤルテクニック",
+    "description": {
+      "jp": "プラスパネル獲得時、自身に「ブレイクダメージ+30%」を1回行動終了するまで付与",
+      "zh": "獲得增益面板時，賦予自身「Break傷害+30%」直到1次行動結束為止",
+      "en": "When acquiring a Plus Panel, grants self \"Break DMG +30%\" until the end of 1 action"
+    }
+  },
+  "1990216": {
+    "name": "イッツ・ショータイム",
+    "description": {
+      "jp": "パネル獲得時、味方全員に「クリティカルダメージ+15%」を付与(上限30%)",
+      "zh": "獲得面板時，賦予我方全員「暴擊傷害+15%」(上限30%)",
+      "en": "When acquiring a panel, grants all allies \"Crit DMG +15%\" (Max 30%)"
+    }
+  },
+  "1990217": {
+    "name": "溢れ出る闘争の力雷Ⅱ",
+    "description": {
+      "jp": "得意属性が雷属性の味方全員のスキルダメージ+30%",
+      "zh": "所有雷屬性的我方角色技能傷害+30%",
+      "en": "All Thunder attribute allies Skill DMG +30%"
+    }
+  },
+  "1990218": {
+    "name": "禍を転じて福と為す",
+    "description": {
+      "jp": "バトル中、タイムラインに出現する弱体系パネル全てを麦わらパネルに変換する(変換・生成されたパネルは除く)<br>自身が麦わらパネル獲得時、バーストスキルを発動できる",
+      "zh": "戰鬥中，將時間軸上出現的所有弱化系面板轉換為「麦わらパネル」(不包含轉換或生成的面板)<br>自身獲得「麦わらパネル」時，可發動爆發技能",
+      "en": "During battle, converts all debuff-type panels appearing on the timeline into \"麦わらパネル\" (excluding converted or generated panels)<br>When self acquires \"麦わらパネル\", Burst Skill can be activated"
+    }
+  },
+  "1990219": {
+    "name": "サマーマジック",
+    "description": {
+      "jp": "攻撃対象がブレイク時、味方全員に「魔攻+20%」を1回行動終了するまで付与",
+      "zh": "對象破防時，賦予我方全員「魔攻+20%」直到1次行動結束為止",
+      "en": "When the target enters Break state, grants all allies \"M.ATK +20%\" until the end of 1 action"
+    }
+  },
+  "1990220": {
+    "name": "ひと夏のハイジャンプ",
+    "description": {
+      "jp": "バトル開始時、「トリプルスピア」のスキルランプを2個点灯する<br>パーティの誰かが戦闘アイテム使用後、「トリプルスピア」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "zh": "戰鬥開始時，點亮2個「トリプルスピア」技能燈號<br>隊伍中任一角色使用戰鬥道具後，點亮1個「トリプルスピア」技能燈號<br>※同時使用複數道具也只會點亮1個",
+      "en": "At the start of battle, lights up 2 \"トリプルスピア\" skill lamps<br>After anyone in the party uses a battle item, lights up 1 \"トリプルスピア\" skill lamp<br>※Even if multiple items are used simultaneously, only 1 lamp will light up"
+    }
+  },
+  "1990221": {
+    "name": "トドメのサーブ",
+    "description": {
+      "jp": "攻撃対象がブレイク状態の時、スキルダメージ+50%",
+      "zh": "對象處於破防狀態時，技能傷害+50%",
+      "en": "Skill DMG +50% when the target is in Break state"
+    }
+  },
+  "1990222": {
+    "name": "楽しいバカンスは全力で",
+    "description": {
+      "jp": "バトル開始時、「フレイシュグラセ」のスキルランプを2個点灯する<br>パーティの誰かが戦闘アイテム使用後、「フレイシュグラセ」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "zh": "戰鬥開始時，點亮2個「フレイシュグラセ」技能燈號<br>隊伍中任一角色使用戰鬥道具後，點亮1個「フレイシュグラセ」技能燈號<br>※同時使用複數道具也只會點亮1個",
+      "en": "At the start of battle, lights up 2 \"フレイシュグラセ\" skill lamps<br>After anyone in the party uses a battle item, lights up 1 \"フレイシュグラセ\" skill lamp<br>※Even if multiple items are used simultaneously, only 1 lamp will light up"
+    }
+  },
+  "1990223": {
+    "name": "サマータイムメロディ",
+    "description": {
+      "jp": "攻撃対象がブレイク時、アイテムゲージを30%回復し、自身に「ブレイクダメージ+15%」を付与(上限30%)",
+      "zh": "對象破防時，回復道具量條30%，並賦予自身「破防傷害+15%」(上限30%)",
+      "en": "When the target enters Break state, restores 30% Item Gauge and grants self \"Break DMG +15%\" (Max 30%)"
+    }
+  },
+  "1990224": {
+    "name": "イイ波乗ってこう！",
+    "description": {
+      "jp": "バトル中、タイムラインに出現する強化系パネル全てを浮き輪パネルに変換する(変換・生成されたパネルは除く)<br>自身が浮き輪パネル獲得時、バーストスキルを発動できる",
+      "zh": "戰鬥中，將時間軸上出現的所有強化系面板轉換為「浮き輪パネル」(不包含轉換或生成的面板)<br>自身獲得「浮き輪パネル」時，可發動爆發技能",
+      "en": "During battle, converts all buff-type panels appearing on the timeline into \"浮き輪パネル\" (excluding converted or generated panels)<br>When self acquires \"浮き輪パネル\", Burst Skill can be activated"
+    }
+  },
+  "1990225": {
+    "name": "超えるホットリミット",
+    "description": {
+      "jp": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)",
+      "zh": "自身暴擊率超過100%時，攻擊時會將超過100%的暴擊率提升量轉換為暴擊傷害提升(轉換上限300%)",
+      "en": "When self Crit Rate exceeds 100%, converts the amount exceeding 100% into Crit DMG when attacking (conversion cap: 300%)"
+    }
+  },
+  "1990226": {
+    "name": "ここは師匠に任せなさい",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、味方全員に「マイナス効果無効」を1回行動終了するまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具後，賦予我方全員「負面效果無效」直到1次行動結束為止(發動上限3次)<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses a battle item, grants all allies \"Negative Effect Nullification\" until the end of 1 action (activation limit: 3 times)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990227": {
+    "name": "アドバンスオール物防&魔防Ⅱ",
+    "description": {
+      "jp": "味方全員の物防・魔防+10%",
+      "zh": "我方全員物防・魔防+10%",
+      "en": "All allies P.DEF/M.DEF +10%"
+    }
+  },
+  "1990228": {
+    "name": "これが才能ってこと！",
+    "description": {
+      "jp": "バトル開始時、「幻鏡の斬」のスキルランプを3個点灯する<br>パーティの誰かが戦闘アイテム使用後、「幻鏡の斬」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "zh": "戰鬥開始時，點亮3個「幻鏡の斬」技能燈號<br>隊伍中任一角色使用戰鬥道具後，點亮1個「幻鏡の斬」技能燈號<br>※同時使用複數道具也只會點亮1個",
+      "en": "At the start of battle, lights up 3 \"幻鏡の斬\" skill lamps<br>After anyone in the party uses a battle item, lights up 1 \"幻鏡の斬\" skill lamp<br>※Even if multiple items are used simultaneously, only 1 lamp will light up"
+    }
+  },
+  "1990229": {
+    "name": "私は戦闘の天才よ！",
+    "description": {
+      "jp": "自身の素早さに応じ、スキルダメージ+0～100%(素早さ280～520で多いほど増加)",
+      "zh": "依據自身速度，技能傷害+0～100%(速度280～520時越高增加越多)",
+      "en": "Skill DMG +0~100% based on self Speed (increases more as Speed rises from 280 to 520)"
+    }
+  },
+  "1990230": {
+    "name": "万病予防薬",
+    "description": {
+      "jp": "味方全員の物攻・魔攻・物防・魔防+10%",
+      "zh": "我方全員的物攻・魔攻・物防・魔防+10%",
+      "en": "All allies P.ATK/M.ATK/P.DEF/M.DEF +10%"
+    }
+  },
+  "1990231": {
+    "name": "みんなの願い、手伝うよ！",
+    "description": {
+      "jp": "得意属性が火属性の味方全員のスキルダメージ+30%",
+      "zh": "所有火屬性的我方角色技能傷害+30%",
+      "en": "All Fire attribute allies Skill DMG +30%"
+    }
+  },
+  "1990232": {
+    "name": "へこたれません！",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>攻撃を受けた時、自身に「受けるダメージ-2%」を付与(上限20%)",
+      "zh": "更容易成為攻擊目標<br>",
+      "en": "More likely to be targeted.<br>"
+    }
+  },
+  "1990233": {
+    "name": "柔軟な受け流し",
+    "description": {
+      "jp": "自身のHPが最大の時、受けるダメージ-50%",
+      "zh": "受到攻擊時，賦予自身「受到傷害-2%」(上限20%)",
+      "en": "When attacked, grants self \"Damage Taken -2%\" (Max 20%)"
+    }
+  },
+  "1990234": {
+    "name": "王の前にひれ伏しなさい！",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、自身に「攻撃後、対象に麻痺を1回行動開始するまで超高確率で付与」を1回スキル発動するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具後，賦予自身「攻擊後，以超高機率賦予對象麻痺直到1次行動開始為止」直到發動1次技能為止<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses a battle item, grants self \"After attacking, inflicts Paralysis on the target with a very high chance until the start of 1 action\" until using 1 skill<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990235": {
+    "name": "施しはいかが？",
+    "description": {
+      "jp": "スキルで撃破時、味方全員のHPを15%回復し、自身に「物攻+5%」を付与(上限15%)",
+      "zh": "技能擊破時，回復我方全員15%HP，並賦予自身「物攻+5%」(上限15%)",
+      "en": "When defeating an enemy with a skill, restores 15% HP to all allies and grants self \"P.ATK +5%\" (Max 15%)"
+    }
+  },
+  "1990237": {
+    "name": "目覚める決意",
+    "description": {
+      "jp": "HP回復を受けた時、<br>「ステラクラフト」のスキルランプを1個点灯する",
+      "zh": "受到HP回復時，<br>點亮1個「ステラクラフト」技能燈號",
+      "en": "When receiving HP recovery,<br>lights up 1 \"ステラクラフト\" skill lamp"
+    }
+  },
+  "1990239": {
+    "name": "目覚める闘魂",
+    "description": {
+      "jp": "いずれかのスキル使用後「メッサーベント」のスキルランプを1個点灯する",
+      "zh": "使用任一技能後，點亮1個「メッサーベント」技能燈號",
+      "en": "After using any skill, lights up 1 \"メッサーベント\" skill lamp"
+    }
+  },
+  "1990240": {
+    "name": "ヘイト&物防&魔防アップ",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>自身の物防・魔防+30%",
+      "zh": "更容易成為攻擊目標<br>自身的物防・魔防+30%",
+      "en": "More likely to be targeted.<br>Self P.DEF/M.DEF +30%"
+    }
+  },
+  "1990241": {
+    "name": "レジストアップオール状態異常",
+    "description": {
+      "jp": "味方全員の全状態異常耐性＋50%",
+      "zh": "我方全員所有異常狀態耐性+50%",
+      "en": "All allies All Status Ailment Resistance +50%"
+    }
+  },
+  "1990243": {
+    "name": "パネルアッププラスⅤ",
+    "description": {
+      "jp": "プラスパネルから受ける効果量+30%",
+      "zh": "從增益面板獲得的效果量+30%",
+      "en": "Effect amount received from Plus Panels +30%"
+    }
+  },
+  "1990245": {
+    "name": "覚悟はできてる？",
+    "description": {
+      "jp": "スキル発動後、自身に「魔攻+5%」を付与(上限50%)",
+      "zh": "技能發動後，賦予自身「魔攻+5%」(上限50%)",
+      "en": "After using a skill, grants self \"M.ATK +5%\" (Max 50%)"
+    }
+  },
+  "1990246": {
+    "name": "あま～いパイの匂い",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>味方全員の受けるダメージ-10%",
+      "zh": "更容易成為攻擊目標<br>我方全員受到的傷害-10%",
+      "en": "More likely to be targeted.<br>All allies Damage Taken -10%"
+    }
+  },
+  "1990247": {
+    "name": "お腹空いちゃった！",
+    "description": {
+      "jp": "自身のHPが最大でない状態で攻撃を受けた時、自身のバーストパネルを除いたパネル全てをHP回復パネルに変換(空パネルの時は生成)",
+      "zh": "自身受到攻擊或HP未滿時時，將自身除爆發面板外的所有面板轉換為HP回復面板(空面板時則生成)",
+      "en": "When attacked while self HP is not full, converts all panels except Burst Panels into HP Recovery Panels (generates panels if empty)"
+    }
+  },
+  "1990248": {
+    "name": "突撃隊長マリー",
+    "description": {
+      "jp": "スキルで撃破時、自身に「魔攻+10%」を付与(上限30%)",
+      "zh": "技能擊破時，賦予自身「魔攻+10%」(上限30%)",
+      "en": "When defeating an enemy with a skill, grants self \"M.ATK +10%\" (Max 30%)"
+    }
+  },
+  "1990249": {
+    "name": "徹底的にやるわよ！",
+    "description": {
+      "jp": "攻撃対象がブレイク状態の時、自身に「スキルダメージ+20%」を付与(上限60%)",
+      "zh": "對象處於破防狀態時，賦予自身「技能傷害+20%」(上限60%)",
+      "en": "When the target is in Break state, grants self \"Skill DMG +20%\" (Max 60%)"
+    }
+  },
+  "1990250": {
+    "name": "新しいアタシ！",
+    "description": {
+      "jp": "スキルで撃破時、自身に「クリティカルダメージ+50%」を付与(上限100%)し、<br>自身に「バーストスキルダメージ+50%」を付与(上限100%)",
+      "zh": "技能擊破時，賦予自身「暴擊傷害+50%」(上限100%)，<br>並賦予自身「爆發技能傷害+50%」(上限100%)",
+      "en": "When defeating an enemy with a skill, grants self \"Crit DMG +50%\" (Max 100%),<br>and grants self \"Burst Skill DMG +50%\" (Max 100%)"
+    }
+  },
+  "1990251": {
+    "name": "ハンマーとひとつになる！",
+    "description": {
+      "jp": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)",
+      "zh": "自身暴擊率超過100%時，攻擊時會將超過100%的暴擊率提升量轉換為暴擊傷害提升(轉換上限300%)",
+      "en": "When self Crit Rate exceeds 100%, converts the amount exceeding 100% into Crit DMG when attacking (conversion cap: 300%)"
+    }
+  },
+  "1990252": {
+    "name": "背中で語る王家の誇り",
+    "description": {
+      "jp": "敵が全体攻撃を除くカウンター使用時、カウンター対象の味方をかばい、<br>受けるダメージ-20%",
+      "zh": "敵方使用非全體攻擊的反擊時，守護成為反擊對象的我方角色，<br>並使受到傷害-20%",
+      "en": "When an enemy uses a counter attack excluding AoE attacks, guards the allied counter target,<br>and reduces Damage Taken by 20%"
+    }
+  },
+  "1990253": {
+    "name": "ロマン式応急術",
+    "description": {
+      "jp": "攻撃を受けた時、自身のHPを15%回復",
+      "zh": "受到攻擊時，回復自身15%HP",
+      "en": "Restores 15% HP to self when attacked"
+    }
+  },
+  "1990254": {
+    "name": "アドバンスオール物攻Ⅱ",
+    "description": {
+      "jp": "味方全員の物攻+10%",
+      "zh": "我方全員的物攻+10%",
+      "en": "All allies' P.TAK +10%"
+    }
+  },
+  "1990255": {
+    "name": "破壊の力",
+    "description": {
+      "jp": "ブレイクダメージ+15%",
+      "zh": "破防傷害+15%",
+      "en": "Break DMG +15%"
+    }
+  },
+  "1990256": {
+    "name": "前のめりおてんば娘",
+    "description": {
+      "jp": "自身が受ける、与えるダメージ強化の効果量+20%",
+      "zh": "自身受到與賦予的傷害提升效果量+20%",
+      "en": "Damage increase effect amount received and granted by self +20%"
+    }
+  },
+  "1990257": {
+    "name": "一矢報いてやるわ！",
+    "description": {
+      "jp": "スキル発動後、自身に「魔攻+10%」を付与(上限50%)",
+      "zh": "技能發動後，賦予自身「魔攻+10%」(上限50%)",
+      "en": "After using a skill, grants self \"M.ATK +10%\" (Max 50%)"
+    }
+  },
+  "1990258": {
+    "name": "もう逃げてばかりじゃない！",
+    "description": {
+      "jp": "バトル開始時、「ファレインピタス」のスキルランプを2個点灯する<br>HP回復を受けた時、<br>「ファレインピタス」のスキルランプを1個点灯する",
+      "zh": "戰鬥開始時，點亮2個「ファレインピタス」技能燈號<br>受到HP回復時，<br>點亮1個「ファレインピタス」技能燈號",
+      "en": "At the start of battle, lights up 2 \"ファレインピタス\" skill lamps<br>When receiving HP recovery,<br>lights up 1 \"ファレインピタス\" skill lamp"
+    }
+  },
+  "1990259": {
+    "name": "アドバンスオール魔攻Ⅱ",
+    "description": {
+      "jp": "味方全員の魔攻+10%",
+      "zh": "我方全員的魔攻+10%",
+      "en": "All allies' M.TAK +10%"
+    }
+  },
+  "1990260": {
+    "name": "ヘイト&物防&魔防アップ",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>自身の物防・魔防+30%",
+      "zh": "更容易成為攻擊目標<br>自身的物防・魔防+30%",
+      "en": "More likely to be targeted.<br>Self P.DEF/M.DEF +30%"
+    }
+  },
+  "1990261": {
+    "name": "フロッケが支えます！",
+    "description": {
+      "jp": "スキル発動後、自身のHPを5%回復<br>自身のHPが95%以上の状態で攻撃を受けた時、タイムラインに並んでいる、次の味方のパネル1つをバーストパネルに変換(空パネルの時は生成)",
+      "zh": "技能發動後，回復自身5%HP<br>自身HP在95%以上時受到攻擊，將時間軸上下一位我方角色的1個面板轉換為爆發面板(空面板時則生成)",
+      "en": "After using a skill, restores 5% HP to self<br>When attacked while self HP is 95% or higher, converts 1 panel of the next ally on the timeline into a Burst Panel (generates panels if empty)"
+    }
+  },
+  "1990262": {
+    "name": "友の支えが力になる！",
+    "description": {
+      "jp": "自身に付与されている強化効果の数に応じ、スキルダメージ+10〜100%(1〜20個で多いほど増加)<br>※バトル開始時に発動した回数制限のない強化効果は含まない",
+      "zh": "依據自身持有的強化效果數量，技能傷害+10〜100%(1〜20個時越多增加越多)<br>※不包含戰鬥開始時發動且無次數限制的強化效果",
+      "en": "Skill DMG +10~100% based on the number of buffs granted to self (increases more with 1~20 buffs)<br>※Does not include unlimited-duration buffs activated at the start of battle"
+    }
+  },
+  "1990263": {
+    "name": "イタズラしちゃうよ！",
+    "description": {
+      "jp": "スキル使用前、攻撃対象に「絡まりリボン」が付与されている時、その攻撃のスキルダメージ+30%",
+      "zh": "技能使用前，對象持有「絡まりリボン」時，該次攻擊的技能傷害+30%",
+      "en": "Before using a skill, if the target is inflicted with \"絡まりリボン\", Skill DMG of that attack +30%"
+    }
+  },
+  "1990264": {
+    "name": "盛り上がり上昇中！",
+    "description": {
+      "jp": "自身がパネル獲得時またはHP回復を受けた時、自身に「物攻+10%」を付与(上限100%)し、<br>自身に「突属性ダメージ+30%」を<br>1回行動終了するまで付与(上限5個)",
+      "zh": "自身獲得面板時或受到HP回復時，賦予自身「物攻+10%」(上限100%)，並賦予自身「突屬性傷害+30%」直到1次行動結束為止(上限5個)",
+      "en": "When self acquires a panel or receives HP recovery, grants self \"P.ATK +10%\" (Max 100%), and grants self \"Pierce Attribute Damage +30%\" until the end of 1 action (Max 5 stacks)"
+    }
+  },
+  "1990265": {
+    "name": "ビーッグチャーンス！",
+    "description": {
+      "jp": "プラスパネルから受ける効果量+30%<br>攻撃対象が麻痺・ねむり・スタン状態あるいは「王の威光」が付与された状態の時、ダメージ+50%",
+      "zh": "從增益面板獲得的效果量+30%<br>對象處於麻痺、睡眠、昏眩狀態或持有「王的威勢」時，傷害+50%",
+      "en": "Effect amount received from Plus Panels +30%<br>Damage +50% when the target is inflicted with Paralysis, Sleep, Stun, or \"Royal Authority\""
+    }
+  },
+  "1990266": {
+    "name": "溢れ出る闘争の力Ⅱ",
+    "description": {
+      "jp": "味方全員のスキルダメージ+20%",
+      "zh": "我方全員技能傷害+20%",
+      "en": "All allies Skill DMG +20%"
+    }
+  },
+  "1990267": {
+    "name": "心安らげる歌姫の旋律",
+    "description": {
+      "jp": "スキル発動後、アイテムゲージを10%回復し、<br>味方全員のHPを5%回復",
+      "zh": "技能發動後，回復道具量條10%<br>回復我方全員5%HP",
+      "en": "After using a skill, restores 10% Item Gauge<br>Restores 5% HP to all allies"
+    }
+  },
+  "1990268": {
+    "name": "錬金爵の計略",
+    "description": {
+      "jp": "味方全員の与えるマイナス効果量+15%",
+      "zh": "我方全員賦予的負面效果量+15%",
+      "en": "Negative effect amount dealt by all allies +15%"
+    }
+  },
+  "1990269": {
+    "name": "ブラッド式突撃戦術",
+    "description": {
+      "jp": "得意属性が突属性の味方全員のスキルダメージ・ブレイクダメージ+40%",
+      "zh": "所有突屬性的我方角色技能傷害・破防傷害+40%",
+      "en": "All Pierce attribute allies Skill DMG・Break DMG +40%"
+    }
+  },
+  "1990270": {
+    "name": "来たぜ、好機！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、自身に「スキルダメージ+100%」を2回行動終了するまで付与し、<br>味方全員に「スキル2の貫通力+20」を付与（上限100）",
+      "zh": "對象破防時，賦予自身「技能傷害+100%」直到2次行動結束為止，並賦予我方全員「Skill 2 貫通力+20」(上限100)",
+      "en": "When the target enters Break state, grants self \"Skill DMG +100%\" until the end of 2 actions, and grants all allies \"Skill 2 Penetration +20\" (Max 100)"
+    }
+  },
+  "1990271": {
+    "name": "喧嘩屋マクダ様につづけぇ！",
+    "description": {
+      "jp": "バトル開始時、自身に「素早さ+15%」と「強制ブレイク」を1回行動終了するまで付与",
+      "zh": "戰鬥開始時，賦予自身「速度+15%」與「強制破防」直到1次行動結束為止",
+      "en": "At the start of battle, grants self \"Speed +15%\" and \"Forced Break\" until the end of 1 action"
+    }
+  },
+  "1990272": {
+    "name": "無理しないでよね……",
+    "description": {
+      "jp": "得意属性が雷属性の味方全員の魔攻+20%<br>スキル発動後、味方全員に「ターン開始時、HP回復+5%」を1回行動開始するまで付与",
+      "zh": "所有雷屬性的我方角色魔攻+20%<br>技能發動後，賦予我方全員「回合開始時，HP回復+5%」直到1次行動開始為止",
+      "en": "All Thunder attribute allies M.ATK +20%<br>After using a skill, grants all allies \"At turn start, HP Recovery +5%\" until the start of 1 action"
+    }
+  },
+  "1990273": {
+    "name": "邪魔するヤツは許さない",
+    "description": {
+      "jp": "得意属性が雷属性の味方全員に以下の追加効果を付与<br>追加効果：「攻撃後、対象に受けるダメージ+15%を1回攻撃を受けるまで付与(上限4個)」",
+      "zh": "賦予所有雷屬性的我方角色以下追加效果<br>追加效果：「攻擊後，賦予對象『受到傷害+15%』直到受到1次攻擊為止(上限4個)」",
+      "en": "Grants the following additional effect to all Thunder attribute allies<br>Additional Effect: \"After attacking, inflicts 'Damage Taken +15%' on the target until hit once (Max 4 stacks)\""
+    }
+  },
+  "1990274": {
+    "name": "研究に犠牲は付きものです",
+    "description": {
+      "jp": "自身が劇薬パネル獲得時、バーストスキルを発動でき、<br>自身に「受けるダメージ+6%」を1回攻撃を受けるまで付与し、<br>自身に「スキルダメージ+80%」を1回行動終了するまで付与(上限150%)",
+      "zh": "自身獲得「劇薬パネル」時，可發動爆發技能，<br>並賦予自身「受到傷害+6%」直到受到1次攻擊為止，<br>以及賦予自身「技能傷害+80%」直到1次行動結束為止(上限150%)",
+      "en": "When self acquires \"劇薬パネル\", Burst Skill can be activated,<br>and grants self \"Damage Taken +6%\" until hit once,<br>and grants self \"Skill DMG +80%\" until the end of 1 action (Max 150%)"
+    }
+  },
+  "1990275": {
+    "name": "弱化被検体対象実験",
+    "description": {
+      "jp": "スキル使用前、攻撃対象にマイナス効果が5個以上付与されている時、その攻撃のクリティカル確率+100%",
+      "zh": "技能使用前，對象持有5個以上負面效果時，該次攻擊的暴擊率+100%",
+      "en": "Before using a skill, if the target has 5 or more negative effects, Crit Rate of that attack +100%"
+    }
+  },
+  "1990276": {
+    "name": "風に乗ってガンガンいくわよ！",
+    "description": {
+      "jp": "得意属性が風属性の味方全員のスキルダメージ+40%",
+      "zh": "所有風屬性的我方角色技能傷害+40%",
+      "en": "All Wind attribute allies Skill DMG +40%"
+    }
+  },
+  "1990277": {
+    "name": "思いっきり戦うために",
+    "description": {
+      "jp": "スキル発動後、得意属性が風属性の味方全員に「ターン開始時、HP回復+3%」を2回行動開始するまで付与",
+      "zh": "技能發動後，賦予所有風屬性的我方角色「回合開始時，HP回復+3%」直到2次行動開始為止",
+      "en": "After using a skill, grants all Wind attribute allies \"At turn start, HP Recovery +3%\" until the start of 2 actions"
+    }
+  },
+  "1990278": {
+    "name": "魅惑の曲線美",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>自身の物防・魔防+30%",
+      "zh": "更容易成為攻擊目標<br>自身的物防・魔防+30%",
+      "en": "More likely to be targeted.<br>Self P.DEF/M.DEF +30%"
+    }
+  },
+  "1990279": {
+    "name": "星の輝きをこの手に",
+    "description": {
+      "jp": "バトル開始時、「エレクトリカルワルツ」のスキルランプを3個点灯する<br>自身がパネル獲得時または攻撃を受けた時、「エレクトリカルワルツ」のスキルランプを1個点灯する",
+      "zh": "戰鬥開始時，點亮3個「エレクトリカルワルツ」技能燈號<br>自身獲得面板時或受到攻擊時，點亮1個「エレクトリカルワルツ」技能燈號",
+      "en": "At the start of battle, lights up 3 \"エレクトリカルワルツ\" skill lamps<br>When self acquires a panel or is attacked, lights up 1 \"エレクトリカルワルツ\" skill lamp"
+    }
+  },
+  "1990280": {
+    "name": "破壊の天稟",
+    "description": {
+      "jp": "「サピエンティア」または「フルグルハスタ」で攻撃対象がブレイク時、味方全員のバーストパネルを除いたパネル全てを、叡智解放パネルに変換(空パネルの時は生成)<br>自身が叡智解放パネル獲得時、バーストスキルを発動できる",
+      "zh": "以「サピエンティア」或「フルグルハスタ」攻擊使對象破防時，將我方全員除爆發面板外的所有面板轉換為「叡智解放パネル」(空面板時則生成)<br>自身獲得「叡智解放パネル」時，可發動爆發技能",
+      "en": "When \"サピエンティア\" or \"フルグルハスタ\" causes the target to enter Break state, converts all allies' panels except Burst Panels into \"叡智解放パネル\" (generates panels if empty)<br>When self acquires \"叡智解放パネルパネル\", Burst Skill can be activated"
+    }
+  },
+  "1990281": {
+    "name": "「解放」を始めましょう",
+    "description": {
+      "jp": "パーティの誰かがアイテム使用後、自身に「強制ブレイク」を1回行動終了するまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用道具後，賦予自身「強制破防」直到1次行動結束為止(發動上限3次)<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses an item, grants self \"Forced Break\" until the end of 1 action (activation limit: 3 times)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990282": {
+    "name": "福招く一撃",
+    "description": {
+      "jp": "スキルで撃破時、自身に「魔攻+50%」を付与(上限100%)し、自身に「スキルダメージ+50%」を付与(上限200%)",
+      "zh": "以技能擊破敵人時，賦予自身「魔攻+50%」(上限100%)，並賦予自身「技能傷害+50%」(上限200%)",
+      "en": "When defeating an enemy with a skill, grants self \"M.ATK +50%\" (Max 100%), and grants self \"Skill DMG +50%\" (Max 200%)"
+    }
+  },
+  "1990283": {
+    "name": "一戦の計は初動にあり",
+    "description": {
+      "jp": "自身のクリティカル確率+100%<br>自身のHPが50%以上の時、クリティカルダメージ+50%<br>自身のHPが70%以上の時、スキルダメージ+50%",
+      "zh": "自身暴擊率+100%<br>自身HP在50%以上時，暴擊傷害+50%<br>自身HP在70%以上時，技能傷害+50%",
+      "en": "Self Crit Rate +100%<br>Crit DMG +50% when self HP is 50% or higher<br>Skill DMG +50% when self HP is 70% or higher"
+    }
+  },
+  "1990284": {
+    "name": "無駄な足掻きはおよし",
+    "description": {
+      "jp": "攻撃対象がブレイク時、対象に「受ける魔法攻撃ダメージ+25%」を2回攻撃を受けるまで付与<br>WEAK攻撃時、スキルダメージ+30%",
+      "zh": "對象破防時，賦予對象「受到魔法攻擊傷害+25%」直到受到2次攻擊為止<br>WEAK攻擊時，技能傷害+30%",
+      "en": "When the target enters Break state, inflicts \"Magic Attack Damage Taken +25%\" on the target until hit 2 times<br>Skill DMG +30% on WEAK attacks"
+    }
+  },
+  "1990285": {
+    "name": "刮目なさい！",
+    "description": {
+      "jp": "バーストパネル獲得時、自身に「ブレイクダメージ+50%」を1回行動終了するまで付与",
+      "zh": "獲得爆發面板時，賦予自身「破防傷害+50%」直到1次行動結束為止",
+      "en": "When acquiring a Burst Panel, grants self \"Break DMG +50%\" until the end of 1 action"
+    }
+  },
+  "1990286": {
+    "name": "凍りつかせてやろう",
+    "description": {
+      "jp": "得意属性が氷属性の味方全員のスキルダメージ・ブレイクダメージ+40%",
+      "zh": "所有冰屬性的我方角色技能傷害・破防傷害+40%",
+      "en": "All Ice attribute allies Skill DMG・Break DMG +40%"
+    }
+  },
+  "1990287": {
+    "name": "錬金術で道を拓く",
+    "description": {
+      "jp": "強化系パネル獲得時、アイテムゲージを10%回復",
+      "zh": "獲得強化系面板時，回復道具量條10%",
+      "en": "When acquiring a buff-type panel, restores 10% Item Gauge"
+    }
+  },
+  "1990288": {
+    "name": "親友から学んだ使い方",
+    "description": {
+      "jp": "味方全員の戦闘アイテムから受ける強化効果量+50%",
+      "zh": "我方全員從戰鬥道具獲得的強化效果量+50%",
+      "en": "Buff effect amount received from battle items by all allies +50%"
+    }
+  },
+  "1990289": {
+    "name": "活力は電撃の如く",
+    "description": {
+      "jp": "得意属性が雷属性の味方全員のクリティカルダメージ・ブレイクダメージ+40%",
+      "zh": "所有雷屬性的我方角色暴擊傷害・破防傷害+40%",
+      "en": "All Thunder attribute allies Crit DMG・Break DMG +40%"
+    }
+  },
+  "1990290": {
+    "name": "努力は怠らないわ",
+    "description": {
+      "jp": "スキル発動後、アイテムゲージを10%回復",
+      "zh": "技能發動後，回復道具量條10%",
+      "en": "After using a skill, restores 10% Item Gauge"
+    }
+  },
+  "1990291": {
+    "name": "天才の追い風よ！",
+    "description": {
+      "jp": "得意属性が風属性の味方全員のスキルダメージ・ブレイクダメージ+40%",
+      "zh": "所有風屬性的我方角色技能傷害・破防傷害+40%",
+      "en": "All Wind attribute allies Skill DMG・Break DMG +40%"
+    }
+  },
+  "1990292": {
+    "name": "オートアトラクトシールド",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>自身の物防・魔防+30%<br>味方全員の最大HP+30%<br>バトル開始時、味方全員のHPを100%回復",
+      "zh": "更容易成為攻擊目標<br>自身物防・魔防+30%<br>我方全員最大HP+30%<br>戰鬥開始時，回復我方全員100%HP",
+      "en": "More likely to be targeted.<br>Self P.DEF/M.DEF +30%<br>All allies Max HP +30%<br>At the start of battle, restores 100% HP to all allies"
+    }
+  },
+  "1990293": {
+    "name": "理論家の知恵",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、味方全員に「受けるダメージ-100%(固定)」を1回攻撃を受けるまで付与(発動上限2回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具後，賦予我方全員「受到傷害-100%(固定)」直到受到1次攻擊為止(發動上限2次)<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses a battle item, grants all allies \"Damage Taken -100% (Fixed)\" until hit once (activation limit: 2 times)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990294": {
+    "name": "弓使いの心得",
+    "description": {
+      "jp": "味方全員の物攻+20%<br>味方全員のスキルダメージ+10%",
+      "zh": "我方全員物攻+20%<br>我方全員技能傷害+10%",
+      "en": "All allies P.ATK +20%<br>All allies Skill DMG +10%"
+    }
+  },
+  "1990295": {
+    "name": "補助の一矢",
+    "description": {
+      "jp": "スキル発動後、アイテムゲージを10%回復",
+      "zh": "技能發動後，回復道具量條10%",
+      "en": "After using a skill, restores 10% Item Gauge"
+    }
+  },
+  "1990296": {
+    "name": "けた外れの突破力",
+    "description": {
+      "jp": "自身がクリティカルパネル獲得時またはスキルで撃破時、自身に「バーストスキルダメージ+50%」を付与(上限100%)し、<br>「クリティカルダメージ+50%」を付与(上限100%)",
+      "zh": "自身獲得暴擊面板時或以技能擊破敵人時，賦予自身「爆發技能傷害+50%」(上限100%)，並賦予「暴擊傷害+50%」(上限100%)",
+      "en": "When self acquires a Crit panel or defeats an enemy with a skill, grants self \"Burst Skill DMG +50%\" (Max 100%), and grants \"Crit DMG +50%\" (Max 100%)"
+    }
+  },
+  "1990297": {
+    "name": "最後のオーバーラン",
+    "description": {
+      "jp": "スキル発動後、自身に「クリティカルダメージ+100%」を1回行動終了するまで付与<br>クリティカル攻撃時、自身のHPを15%回復",
+      "zh": "技能發動後，賦予自身「暴擊傷害+100%」直到1次行動結束為止<br>暴擊攻擊時，回復自身15%HP",
+      "en": "After using a skill, grants self \"Crit DMG +100%\" until the end of 1 action<br>Restores 15% HP to self when landing a Crit attack"
+    }
+  },
+  "1990298": {
+    "name": "冒険があたしを成長させる！",
+    "description": {
+      "jp": "WEAK攻撃後、自身に「スキル威力+15%」を付与(上限5個)",
+      "zh": "WEAK攻擊後，賦予自身「技能威力+15%」(上限5個)",
+      "en": "After a WEAK attack, grants self \"Skill Power +15%\" (Max 5 stacks)"
+    }
+  },
+  "1990305": {
+    "name": "あたしの特訓についてきて！",
+    "description": {
+      "jp": "スキル発動後、「レスレリ学園」タグを持つキャラ数に応じ、得意属性が突属性または「レスレリ学園」の味方全員に「バーストスキルダメージ+15～35%」を付与(上限140%) ",
+      "zh": "技能發動後，依據持有「レスレリ学園」標籤的角色數量，賦予所有突屬性或持有「レスレリ學園」標籤的我方角色「爆發技能傷害+15～35%」(上限140%)",
+      "en": "After using a skill, grants all Pierce attribute allies or allies with the \"レスレリ学園\" tag \"Burst Skill DMG +15~35%\" (Max 140%) based on the number of characters with the \"レスレリ学園\" tag"
+    }
+  },
+  "1990307": {
+    "name": "シャッターチャンス、逃さないで！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、「レスレリ学園」タグを持つキャラ数に応じ、敵全体に「受ける風属性ダメージ+20～100%」を付与(上限100％)",
+      "zh": "目標破防時，依據持有「レスレリ学園」標籤的角色數量，賦予敵方全體「受到風屬性傷害+20～100%」(上限100%)",
+      "en": "When the target enters Break state, inflicts \"Wind Damage Taken +20~100%\" on all enemies based on the number of characters with the \"レスレリ学園\" tag (Max 100%)"
+    }
+  },
+  "1990312": {
+    "name": "絶好のイイ波が来たわ！",
+    "description": {
+      "jp": "浮き輪パネル獲得時、敵全体に「受けるクリティカルダメージ+50%」を付与(上限100%)し、<br>自身に「クリティカル確率+50%」を付与(上限200%)",
+      "zh": "獲得「浮き輪パネル」時，賦予敵方全體「受到暴擊傷害+50%」(上限100%)，並賦予自身「暴擊率+50%」(上限200%)",
+      "en": "When acquiring \"浮き輪パネル\", inflicts \"Crit DMG Taken +50%\" on all enemies (Max 100%), and grants self \"Crit Rate +50%\" (Max 200%)"
+    }
+  },
+  "1990320": {
+    "name": "羽化する闘志",
+    "description": {
+      "jp": "スキルで撃破時または強化系パネル獲得時またはHP回復を受けた時、自身に「連刃研磨」が付与されていない時、「連刃研磨(Lv1)」を付与<br>既に付与されている時、「連刃研磨」のLv+1(上限Lv10)<br>「連刃研磨」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきクリティカル確率+10%<br>Lv3以上：クリティカルダメージ+50%<br>Lv5以上：クリティカルダメージ+50%<br>Lv10：クリティカルダメージ+50%<br><br>「商人」と「おてんば」はクリティカル確率+10%とクリティカルダメージ+25%",
+      "zh": "以技能擊破敵人時、獲得強化系面板時或受到HP回復時，若自身未持有「連刃研磨」，則賦予「連刃研磨(Lv1)」<br>已持有時，「連刃研磨」Lv+1(上限Lv10)<br>依據「連刃研磨」Lv獲得以下效果<br>每1Lv：暴擊率+10%<br>Lv3以上：暴擊傷害+50%<br>Lv5以上：暴擊傷害+50%<br>Lv10：暴擊傷害+50%<br><br>「商人」與「おてんば」為暴擊率+10%與暴擊傷害+25%",
+      "en": "When defeating an enemy with a skill, acquiring a buff-type panel, or receiving HP recovery, if self does not have \"連刃研磨\", grants \"連刃研磨(Lv1)\"<br>If already granted, \"連刃研磨\" Lv +1 (Max Lv10)<br>Grants the following bonuses based on \"連刃研磨\" Lv<br>Per Lv: Crit Rate +10%<br>Lv3 or higher: Crit DMG +50%<br>Lv5 or higher: Crit DMG +50%<br>Lv10: Crit DMG +50%<br><br>\"商人\" and \"おてんば\" grant Crit Rate +10% and Crit DMG +25%"
+    }
+  },
+  "1990321": {
+    "name": "必勝の舞い",
+    "description": {
+      "jp": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)",
+      "zh": "自身暴擊率超過100%時，攻擊時會將超過100%的暴擊率提升量轉換為暴擊傷害提升(轉換上限300%)",
+      "en": "When self Crit Rate exceeds 100%, converts the amount exceeding 100% into Crit DMG when attacking (conversion cap: 300%)"
+    }
+  },
+  "1990322": {
+    "name": "錬金術で英雄に！",
+    "description": {
+      "jp": "味方全員の戦闘アイテムから受ける強化効果量+50%<br>パーティの誰かが戦闘アイテム使用後、味方全員のHPを5%回復<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "我方全員從戰鬥道具獲得的強化效果量+50%<br>隊伍中任一角色使用戰鬥道具後，回復我方全員5%HP<br>※同時使用複數道具也只會發動1次",
+      "en": "Buff effect amount received from battle items by all allies +50%<br>After anyone in the party uses a battle item, restores 5% HP to all allies<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990323": {
+    "name": "アルビちゃんの出番だね！",
+    "description": {
+      "jp": "味方全員の与える戦闘アイテムダメージ+30%<br>強化系パネル獲得時、味方全員に「クリティカル確率+100%」を1回行動終了まで付与",
+      "zh": "我方全員造成的戰鬥道具傷害+30%<br>獲得強化系面板時，賦予我方全員「暴擊率+100%」直到1次行動結束為止",
+      "en": "Battle item damage dealt by all allies +30%<br>When acquiring a buff-type panel, grants all allies \"Crit Rate +100%\" until the end of 1 action"
+    }
+  },
+  "1990324": {
+    "name": "学びの成果を見せてあげる！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、得意属性が火属性の味方全員に「スキルダメージ+50%」を付与(上限200%)",
+      "zh": "對象破防時，賦予所有火屬性的我方角色「技能傷害+50%」(上限200%)",
+      "en": "When the target enters Break state, grants all Fire attribute allies \"Skill DMG +50%\" (Max 200%)"
+    }
+  },
+  "1990325": {
+    "name": "あなたの夢、お手伝いします！",
+    "description": {
+      "jp": "スキル発動後、味方全員に「クリティカルダメージ+50%」を付与(上限250%)",
+      "zh": "技能發動後，賦予我方全員「暴擊傷害+50%」(上限250%)",
+      "en": "After using a skill, grants all allies \"Crit DMG +50%\" (Max 250%)"
+    }
+  },
+  "1990326": {
+    "name": "強者の存在感",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>自身の物防・魔防+15%",
+      "zh": "更容易成為攻擊目標<br>自身的物防・魔防+15%",
+      "en": "More likely to be targeted.<br>Self P.DEF/M.DEF +15%"
+    }
+  },
+  "1990327": {
+    "name": "母の慈愛",
+    "description": {
+      "jp": "得意属性が斬属性の味方全員の最大HP+40%、物防・魔防+20%<br>バトル開始時、味方全員のHPを100%回復し、<br>得意属性が斬属性の味方全員に「受けるダメージ-40%」を1回攻撃を受けるまで付与",
+      "zh": "所有斬屬性的我方角色最大HP+40%、物防・魔防+20%<br>戰鬥開始時，回復我方全員100%HP，並賦予所有斬屬性的我方角色「受到傷害-40%」直到受到1次攻擊為止",
+      "en": "All Slash attribute allies gain Max HP +40% and Physical/Magic Defense +20%<br>At the start of battle, restores 100% HP to all allies, and grants all Slash attribute allies \"Damage Taken -40%\" until hit once"
+    }
+  },
+  "1990328": {
+    "name": "夢への道、切り拓く！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、得意属性が斬属性の味方全員に「バーストスキルダメージ+100%」を付与(上限200%)し、「物攻+30%」を1回行動終了するまで付与",
+      "zh": "目標破防時，賦予所有斬屬性的我方角色「爆發技能傷害+100%」(上限200%)，並賦予「物攻+30%」直到1次行動結束為止",
+      "en": "When the target enters Break state, grants all Slash attribute allies \"Burst Skill DMG +100%\" (Max 200%), and grants \"Physical Attack +30%\" until the end of 1 action"
+    }
+  },
+  "1990329": {
+    "name": "悪さはさせません！",
+    "description": {
+      "jp": "「ステラストーム」または「ステラプリズム」で攻撃対象がブレイク時、対象にパネル無効を3回行動終了するまで付与",
+      "zh": "以「ステラストーム」或「ステラプリズム」攻擊時，若目標進入破防狀態，賦予目標面板無效直到3次行動結束為止",
+      "en": "When attacking with \"ステラストーム\" or \"ステラプリズム\", if the target enters Break state, inflicts Panel Nullification on the target until the end of 3 actions"
+    }
+  },
+  "1990330": {
+    "name": "仲間の道、切り拓く！",
+    "description": {
+      "jp": "バトル開始時、「ヘツエンドレーエン」のスキルランプを3個点灯する<br>スキルランプの点灯数1個につき、スキルダメージ+35%",
+      "zh": "戰鬥開始時，點亮3個「ヘツエンドレーエン」技能燈號<br>每點亮1個技能燈號，技能傷害+35%",
+      "en": "At the start of battle, lights up 3 \"ヘツエンドレーエン\" skill lamps<br>Skill DMG +35% for each lit skill lamp"
+    }
+  },
+  "1990331": {
+    "name": "戦い方は身体が覚えているわ",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後または「レーヴェバイセン」、「ヘツエンドレーエン」、「ツェアライセン」でWEAK攻撃後、「ヘツエンドレーエン」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "zh": "隊伍中任一角色使用戰鬥道具後，或以「レーヴェバイセン」、「ヘツエンドレーエン」、「ツェアライセン」進行WEAK攻擊後，點亮1個「ヘツエンドレーエン」技能燈號<br>※即使同時使用多個道具也只會點亮1個",
+      "en": "After anyone in the party uses a battle item, or after landing a WEAK attack with \"レーヴェバイセン\", \"ヘツエンドレーエン\", or \"ツェアライセン\", lights up 1 \"ヘツエンドレーエン\" skill lamp<br>※Even if multiple items are used simultaneously, only 1 lamp will light up"
+    }
+  },
+  "1990334": {
+    "name": "私にしかできないことを",
+    "description": {
+      "jp": "強化系パネル獲得時または誰かが戦闘アイテム使用時、自身に「クリティカル確率+100%」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回<br><br>自身がプラスパネル獲得時またはバーストパネル獲得時、現在HPが最大の敵へパネルスキル：[passive:14002551]スタビングアーツ[/passive]を発動する",
+      "zh": "獲得強化系面板時，或任一角色使用戰鬥道具時，賦予自身「暴擊率+100%」直到1次行動結束為止<br>※同時使用複數道具也只會發動1次<br><br>自身獲得增益面板或獲得爆發面板時，對現在HP最高的敵人發動面板技能：[passive:14002551]スタビングアーツ[/passive]",
+      "en": "When acquiring a buff-type panel or when anyone uses a battle item, grants self \"Critical Rate +100%\" until the end of 1 action<br>※Even if multiple items are used simultaneously, it only activates once<br><br>When self acquires a plus panel or a Burst Panel, activates Panel Skill: [passive:14002551]スタビングアーツ[/passive] against the enemy with the highest current HP"
+    }
+  },
+  "1990335": {
+    "name": "これが私の可能性！",
+    "description": {
+      "jp": "スキル発動後、自身に「素早さ+3%」を付与(上限15%)し、<br>「スキルダメージ+35%」を付与(上限175%)<br>対象が被ダメージUP状態の時、ダメージ+30%",
+      "zh": "技能發動後，賦予自身「速度+3%」(上限15%)，<br>賦予「技能傷害+35%」(上限175%)<br>目標處於受傷害提升狀態時，傷害+30%",
+      "en": "After using a skill, grants self \"Speed +3%\" (Max 15%),<br>and grants \"Skill DMG +35%\" (Max 175%)<br>When the target is in a Damage Taken UP state, damage +30%"
+    }
+  },
+  "1990336": {
+    "name": "好機を逃しはしない",
+    "description": {
+      "jp": "自身がバーストパネル獲得時、現在HPが最大の敵へパネルスキル：[passive:14002586]ストレートブロウ[/passive]を発動する",
+      "zh": "自身獲得爆發面板時，對現在HP最高的敵人發動面板技能：[passive:14002586]ストレートブロウ[/passive]",
+      "en": "When self acquires a Burst Panel, activates Panel Skill: [passive:14002586]ストレートブロウ[/passive] against the enemy with the highest current HP"
+    }
+  },
+  "1990337": {
+    "name": "これでまた、誰かを守れる",
+    "description": {
+      "jp": "自身に「パイル」が付与されている時、以下のボーナス効果が全て発動する<br>・スキルダメージ+40%<br>・WEAK攻撃時、ブレイクダメージ+50%",
+      "zh": "自身持有「パイル」時，發動以下所有效果<br>・技能傷害+40%<br>・WEAK攻擊時，破防傷害+50%",
+      "en": "While self is inflicted with \"パイル\", all of the following effects are activated<br>・Skill DMG +40%<br>・Break DMG +50% on WEAK attacks"
+    }
+  },
+  "1990338": {
+    "name": "レイニャ、もっと頑張ります！",
+    "description": {
+      "jp": "自身がプラスパネル獲得時とバーストパネル獲得時、自身のHPを50%回復し、\n現在HPが最小の敵へパネルスキル：[passive:14002622]ニュームーン[/passive]を発動する<br>HPが最大の時、「クリティカル確率+100%」と「クリティカルダメージ+50%」",
+      "zh": "自身獲得增益面板與爆發面板時，回復自身50%HP，並對現在HP最低的敵人發動面板技能：[passive:14002622]ニュームーン[/passive]<br>HP最大時，「暴擊率+100%」與「暴擊傷害+50%」",
+      "en": "When self acquires a Plus Panel or Burst Panel, restores 50% HP to self and activates Panel Skill: [passive:14002622]ニュームーン[/passive] against the enemy with the lowest current HP<br>When HP is full, grants \"Crit Rate +100%\" and \"Crit DMG +50%\""
+    }
+  },
+  "1990339": {
+    "name": "レイニャの敵はどこかなー？",
+    "description": {
+      "jp": "パネル獲得時、自身に「飛剣」が付与されていない時、「飛剣(Lv2)」を付与<br>既に付与されている時、「飛剣」のLv+2(上限Lv10)<br>「飛剣」のLvに応じて以下のボーナスをそれぞれ獲得する<br>Lv3以上：貫通力+50<br>Lv5以上：貫通力+100<br>Lv10：貫通力+150<br><br>攻撃対象がスタン状態の時、ダメージ+50%",
+      "zh": "獲得面板時，若自身未持有「飛剣」，則賦予「飛剣(Lv2)」<br>已持有時，「飛剣」Lv+2(上限Lv10)<br>依據「飛剣」Lv獲得以下效果<br>Lv3以上：貫通力+50<br>Lv5以上：貫通力+100<br>Lv10：貫通力+150<br><br>對象處於昏眩狀態時，傷害+50%",
+      "en": "When acquiring a panel, if self does not have \"飛剣\", grants \"飛剣(Lv2)\"<br>If already granted, \"飛剣\" Lv +2 (Max Lv10)<br>Grants the following bonuses based on \"飛剣\" Lv<br>Lv3 or higher: Penetration +50<br>Lv5 or higher: Penetration +100<br>Lv10: Penetration +150<br><br>Damage +50% when the target is in Stun state"
+    }
+  },
+  "1990340": {
+    "name": "今のあたしは強いよー！",
+    "description": {
+      "jp": "自身がバーストパネル獲得時に現在HPが最大の敵へパネルスキル：[passive:14002648]シャイニーライド[/passive]を発動する<br>WEAK攻撃時、スキルダメージ+30%",
+      "zh": "自身獲得爆發面板時，對現在HP最高的敵人發動面板技能：[passive:14002648]シャイニーライド[/passive]<br>WEAK攻擊時，技能傷害+30%",
+      "en": "When self acquires a Burst Panel, activates Panel Skill: [passive:14002648]シャイニーライド[/passive] against the enemy with the highest current HP<br>Skill DMG +30% on WEAK attacks"
+    }
+  },
+  "1990341": {
+    "name": "最後はかわいくねっ",
+    "description": {
+      "jp": "攻撃対象がブレイク時、得意属性が火属性の味方全員に「スキルダメージ+25%」を1回行動終了するまで付与し、<br>対象に「受けるダメージ+50%」を1回攻撃を受けるまで付与",
+      "zh": "對象破防時，賦予所有火屬性的我方角色「技能傷害+25%」直到1次行動結束為止，並賦予對象「受到傷害+50%」直到受到1次攻擊為止",
+      "en": "When the target enters Break state, grants all Fire attribute allies \"Skill DMG +25%\" until the end of 1 action, and inflicts \"Damage Taken +50%\" on the target until hit once"
+    }
+  },
+  "1990342": {
+    "name": "一気に畳みかけるわよ",
+    "description": {
+      "jp": "自身がバーストパネル獲得時、アイテムゲージを20%回復し、現在HPが最大の敵へパネルスキル：[passive:14002710]ギルティリープ[/passive]を発動する<br>得意属性が火属性の味方全員のプラスパネルから受ける効果量+30%",
+      "zh": "自身獲得爆發面板時，回復道具量條20%，並對現在HP最高的敵人發動面板技能：[passive:14002710]ギルティリープ[/passive]<br>所有火屬性的我方角色從增益面板獲得的效果量+30%",
+      "en": "When self acquires a Burst Panel, restores 20% Item Gauge and activates Panel Skill: [passive:14002710]ギルティリープ[/passive] against the enemy with the highest current HP<br>Effect amount received from Plus Panels by all Fire attribute allies +30%"
+    }
+  },
+  "1990343": {
+    "name": "学ぶことは尽きないわね",
+    "description": {
+      "jp": "スキル発動後、アイテムゲージを10%回復し、味方全員のHPを5%回復<br>自身に回避を付与時、得意属性が火属性の味方全員に「魔攻+65%」を1回行動終了するまで付与(重複不可)",
+      "zh": "技能發動後，回復道具量條10%，並回復我方全員5%HP<br>自身被賦予迴避時，賦予所有火屬性的我方角色「魔攻+65%」直到1次行動結束為止(不可重複)",
+      "en": "After using a skill, restores 10% Item Gauge and restores 5% HP to all allies<br>When self is granted Evasion, grants all Fire attribute allies \"M.ATK +65%\" until the end of 1 action (cannot stack)"
+    }
+  },
+  "1990344": {
+    "name": "オレの限界はオレが決める",
+    "description": {
+      "jp": "自身がバーストパネル獲得時、自身のHPを15%回復し、現在HPが最大の敵へパネルスキル：[passive:14002710]ギルティリープ[/passive]を発動する<br>敵にとても狙われやすくなる<br>自身の物防・魔防+15%",
+      "zh": "自身獲得爆發面板時，回復自身15%HP，並對現在HP最高的敵人發動面板技能：[passive:14002710]ギルティリープ[/passive]<br>更容易成為攻擊目標<br>自身物防・魔防+15%",
+      "en": "When self acquires a Burst Panel, restores 15% HP to self and activates Panel Skill: [passive:14002710]ギルティリープ[/passive] against the enemy with the highest current HP<br>More likely to be targeted.<br>Self P.DEF/M.DEF +15%"
+    }
+  },
+  "1990345": {
+    "name": "ショウタイムだ――！",
+    "description": {
+      "jp": "得意属性が打属性または「アラディス調査団」の味方全員の最大HP+40%<br>バトル開始時、味方全員のHPを100%回復<br>プラスパネル獲得時またはバーストパネル獲得時、「アラディス調査団」の味方全員の「物防・魔防+10％」(上限70％)<br>バーストパネル獲得時、「アラディス調査団」以外の味方全員の「物防・魔防+10％」(上限30％)",
+      "zh": "所有打屬性或「アラディス調査団」的我方角色最大HP+40%<br>戰鬥開始時，回復我方全員100%HP<br>獲得增益面板時或爆發面板時，賦予「アラディス調査団」的我方角色「物防・魔防+10%」(上限70%)<br>獲得爆發面板時，賦予「アラディス調査団」以外的我方角色「物防・魔防+10%」(上限30%)",
+      "en": "All Strike attribute allies or allies from \"アラディス調査団\" gain Max HP +40%<br>At the start of battle, restores 100% HP to all allies<br>When acquiring a Plus Panel or Burst Panel, grants allies from \"アラディス調査団\" \"P.DEF/M.DEF +10%\" (Max 70%)<br>When acquiring a Burst Panel, grants allies outside of \"アラディス調査団\" \"P.DEF/M.DEF +10%\" (Max 30%)"
+    }
+  },
+  "1990346": {
+    "name": "科学の発展に貢献してもらうよ！",
+    "description": {
+      "jp": "WEAK攻撃時とブレイク時、自身に「分解レポート」が付与されていない時、「分解レポート(Lv2)」を付与<br>既に付与されている時、「分解レポート」のLv+2(上限Lv10)<br>「分解レポート」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきブレイクダメージ+5%<br>Lv3以上：スキルダメージ+25%<br>Lv5以上：スキルダメージ+25%<br>Lv10：スキルダメージ+50%",
+      "zh": "WEAK攻擊時與破防時，若自身未持有「分解レポート」，則賦予「分解レポート(Lv2)」<br>已持有時，「分解レポート」Lv+2(上限Lv10)<br>依據「分解レポート」Lv獲得以下效果<br>每1Lv：破防傷害+5%<br>Lv3以上：技能傷害+25%<br>Lv5以上：技能傷害+25%<br>Lv10：技能傷害+50%",
+      "en": "On WEAK attacks and Break, if self does not have \"分解レポート\", grants \"分解レポート(Lv2)\"<br>If already granted, \"分解レポート\" Lv +2 (Max Lv10)<br>Grants the following bonuses based on \"分解レポート\" Lv<br>Per Lv: Break DMG +5%<br>Lv3 or higher: Skill DMG +25%<br>Lv5 or higher: Skill DMG +25%<br>Lv10: Skill DMG +50%"
+    }
+  },
+  "1990347": {
+    "name": "未来を拓くテクノロジー",
+    "description": {
+      "jp": "WEAK攻撃時、ブレイクダメージ+25%<br>状態異常が付与された攻撃対象がブレイク時、「レスレリ学園」の味方全員に「クリティカル確率+100%」を1回行動終了するまで付与",
+      "zh": "WEAK攻擊時，破防傷害+25%<br>持有異常狀態的對象破防時，賦予「レスレリ学園」的我方角色「暴擊率+100%」直到1次行動結束為止",
+      "en": "Break DMG +25% on WEAK attacks<br>When a target inflicted with a status ailment enters Break state, grants allies from \"レスレリ学園\" \"Crit Rate +100%\" until the end of 1 action"
+    }
+  },
+  "1990348": {
+    "name": "リズミカルにいきましょう！",
+    "description": {
+      "jp": "「エミットリソン」または「クラルテレゾナンス」で状態異常が付与された対象を攻撃時、味方全員のバーストパネルを除いたパネル全てを、マルテラートパネルに変換(空パネルの時は生成)<br>自身がマルテラートパネル獲得時、自身に「アッチェレランド」を1回行動終了するまで付与し、バーストスキルを発動できる<br>※「アッチェレランド」は魔攻+30%",
+      "zh": "以「エミットリソン」或「クラルテレゾナンス」攻擊持有異常狀態的對象時，將我方全員除爆發面板外的所有面板轉換為「マルテラートパネル」(空面板時則生成)<br>自身獲得「マルテラートパネル」時，賦予自身「アッチェレランド」直到1次行動結束為止，並可發動爆發技能<br>※「アッチェレランド」為魔攻+30%",
+      "en": "When attacking a target inflicted with a status ailment using \"エミットリソン\" or \"クラルテレゾナンス\", converts all allies' panels except Burst Panels into \"マルテラートパネル\" (generates panels if empty)<br>When self acquires \"マルテラートパネル\", grants self \"アッチェレランド\" until the end of 1 action, and Burst Skill can be activated<br>※\"アッチェレランド\" grants M.ATK +30%"
+    }
+  },
+  "1990349": {
+    "name": "会長令嬢のセンス",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、敵全体に「麻痺」を1回行動開始するまで超高確率で付与<br>※アイテムを複数同時に使用しても発動は1回<br>攻撃対象が状態異常時、スキルダメージ+30%",
+      "zh": "隊伍中任一角色使用戰鬥道具後，以超高機率賦予敵方全體「麻痺」直到1次行動開始為止<br>※同時使用複數道具也只會發動1次<br>對象處於異常狀態時，技能傷害+30%",
+      "en": "After anyone in the party uses a battle item, inflicts \"Paralysis\" on all enemies with a very high chance until the start of 1 action<br>※Even if multiple items are used simultaneously, it only activates once<br>Skill DMG +30% when the target is inflicted with a status ailment"
+    }
+  },
+  "1990350": {
+    "name": "私の理論を証明します",
+    "description": {
+      "jp": "スキル発動後またはHP回復を受けた時、自身に「バーストスキルダメージ+25%」を付与(上限50%)し、「スキルダメージ+30%」を付与(上限120%)",
+      "zh": "技能發動後或受到HP回復時，賦予自身「爆發技能傷害+25%」(上限50%)，並賦予「技能傷害+30%」(上限120%)",
+      "en": "After using a skill or receiving HP recovery, grants self \"Burst Skill DMG +25%\" (Max 50%), and grants \"Skill DMG +30%\" (Max 120%)"
+    }
+  },
+  "1990351": {
+    "name": "若き天才の観察眼",
+    "description": {
+      "jp": "攻撃対象が状態異常時、スキルダメージ+50%",
+      "zh": "對象處於異常狀態時，技能傷害+50%",
+      "en": "Skill DMG +50% when the target is inflicted with a status ailment"
+    }
+  },
+  "1990352": {
+    "name": "科学のサポート力",
+    "description": {
+      "jp": "状態異常が付与された対象を攻撃時、味方全員のHPを15%回復し、アイテムゲージを30%回復し、得意属性が風属性の味方全員に「魔攻+50%」を1回行動終了するまで付与(重複不可)",
+      "zh": "攻擊持有異常狀態的對象時，回復我方全員15%HP，回復道具量條30%，並賦予所有風屬性的我方角色「魔攻+50%」直到1次行動結束為止(不可重複)",
+      "en": "When attacking a target inflicted with a status ailment, restores 15% HP to all allies, restores 30% Item Gauge, and grants all Wind attribute allies \"M.ATK +50%\" until the end of 1 action (cannot stack)"
+    }
+  },
+  "1990353": {
+    "name": "予習済みです！",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、味方全員のHPを5%回復し、味方全員のマイナス効果を解除<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具後，回復我方全員5%HP，並解除我方全員的負面效果<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses a battle item, restores 5% HP to all allies and removes negative effects from all allies<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990354": {
+    "name": "皆の期待に応えよう",
+    "description": {
+      "jp": "バトル開始時、「ドライシュネルシュトース」のスキルランプを3個点灯する<br>スキル発動後またはパーティの誰かが戦闘アイテムを使用後、「ドライシュネルシュトース」のスキルランプを1個点灯し、味方全員のHPを10%回復<br>※アイテムを複数同時に使用しても点灯は1個",
+      "zh": "戰鬥開始時，點亮3個「ドライシュネルシュトース」技能燈號<br>技能發動後或隊伍中任一角色使用戰鬥道具後，點亮1個「ドライシュネルシュトース」技能燈號，並回復我方全員10%HP<br>※同時使用複數道具也只會點亮1個",
+      "en": "At the start of battle, lights up 3 \"ドライシュネルシュトース\" skill lamps<br>After using a skill or after anyone in the party uses a battle item, lights up 1 \"ドライシュネルシュトース\" skill lamp and restores 10% HP to all allies<br>※Even if multiple items are used simultaneously, only 1 lamp will light up"
+    }
+  },
+  "1990355": {
+    "name": "ねこさんチームの優等生",
+    "description": {
+      "jp": "得意属性が突属性の味方全員のスキルダメージ+30%<br>「レスレリ学園」タグを持つキャラ数に応じ、味方全員の「スキルダメージ+6%～30%」(1～5人で多いほど増加)",
+      "zh": "所有突屬性的我方角色技能傷害+30%<br>依據持有「レスレリ学園」標籤的角色數量，賦予我方全員「技能傷害+6%～30%」(1～5人時越多增加越多)",
+      "en": "All Pierce attribute allies Skill DMG +30%<br>Grants all allies \"Skill DMG +6~30%\" based on the number of characters with the \"レスレリ学園\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990356": {
+    "name": "輝く騎士のハンマー",
+    "description": {
+      "jp": "1回目のターン開始時、自身のパネルをバーストパネルに変換(空パネルの時は生成)",
+      "zh": "第1次回合開始時，將自身面板轉換為爆發面板(空面板時則生成)",
+      "en": "At the start of the 1st turn, converts self panel into a Burst Panel (generates panels if empty)"
+    }
+  },
+  "1990357": {
+    "name": "アタシの進化は止まらない！",
+    "description": {
+      "jp": "自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をスキル威力に変換(変換上限200%)<br>WEAK攻撃時、自身に「クリティカル確率+50%」を付与(上限200%)",
+      "zh": "自身暴擊率超過100%時，攻擊時會將超過100%的暴擊率提升量轉換為技能威力(轉換上限200%)<br>WEAK攻擊時，賦予自身「暴擊率+50%」(上限200%)",
+      "en": "When self Crit Rate exceeds 100%, converts the amount exceeding 100% into Skill Power when attacking (conversion cap: 200%)<br>On WEAK attacks, grants self \"Crit Rate +50%\" (Max 200%)"
+    }
+  },
+  "1990358": {
+    "name": "魅惑の装い",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>自身の物防・魔防+15%<br>自身のHPが50％以下の時、自身のHPを100%回復(発動上限1回)",
+      "zh": "更容易成為攻擊目標<br>自身物防・魔防+15%<br>自身HP在50%以下時，回復自身100%HP(發動上限1次)",
+      "en": "More likely to be targeted.<br>Self P.DEF/M.DEF +15%<br>When self HP is 50% or lower, restores 100% HP to self (activation limit: 1 time)"
+    }
+  },
+  "1990359": {
+    "name": "守護の鐘",
+    "description": {
+      "jp": "得意属性が風属性の味方全員の最大HP+40%<br>バトル開始時、味方全員のHPを100%回復<br>HP回復を受けた時、得意属性が風属性の味方全員に「物防・魔防+10％」を付与(上限70％)",
+      "zh": "所有風屬性的我方角色最大HP+40%<br>戰鬥開始時，回復我方全員100%HP<br>受到HP回復時，賦予所有風屬性的我方角色「物防・魔防+10%」(上限70%)",
+      "en": "All Wind attribute allies gain Max HP +40%<br>At the start of battle, restores 100% HP to all allies<br>When receiving HP recovery, grants all Wind attribute allies \"P.DEF/M.DEF +10%\" (Max 70%)"
+    }
+  },
+  "1990360": {
+    "name": "天才の新たな実力",
+    "description": {
+      "jp": "スキル発動後、自身に「魔攻+50%」を付与(上限100%)し、「スキルダメージ+100%」を付与(上限100%)",
+      "zh": "技能發動後，賦予自身「魔攻+50%」(上限100%)，並賦予「技能傷害+100%」(上限100%)",
+      "en": "After using a skill, grants self \"M.ATK +50%\" (Max 100%), and grants \"Skill DMG +100%\" (Max 100%)"
+    }
+  },
+  "1990361": {
+    "name": "私が手本を見せてあげる！",
+    "description": {
+      "jp": "「真月影」と「絶迅の斬」と「裏月影」で被ダメージUP状態の対象を攻撃後、「クリティカル確率+25%」を付与(上限100%)<br>WEAK攻撃後、自身に「バーストスキルダメージ+20%」を付与(上限60%)",
+      "zh": "以「真月影」、「絶迅の斬」與「裏月影」攻擊處於受傷害提升狀態的對象後，賦予自身「暴擊率+25%」(上限100%)<br>WEAK攻擊後，賦予自身「爆發技能傷害+20%」(上限60%)",
+      "en": "After attacking a target inflicted with Damage Taken UP using \"真月影\", \"絶迅の斬\", or \"裏月影\", grants self \"Crit Rate +25%\" (Max 100%)<br>After a WEAK attack, grants self \"Burst Skill DMG +20%\" (Max 60%)"
+    }
+  },
+  "1990362": {
+    "name": "この槍で、穿つ！",
+    "description": {
+      "jp": "バトル開始時またはパーティの誰かが戦闘アイテム使用後、自身に「ブレイクダメージ+150%」を1回行動終了するまで付与(発動上限4回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "戰鬥開始時或隊伍中任一角色使用戰鬥道具後，賦予自身「破防傷害+150%」直到1次行動結束為止(發動上限4次)<br>※同時使用複數道具也只會發動1次",
+      "en": "At the start of battle or after anyone in the party uses a battle item, grants self \"Break DMG +150%\" until the end of 1 action (activation limit: 4 times)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990363": {
+    "name": "熟練冒険者の号令",
+    "description": {
+      "jp": "攻撃対象がブレイク時、得意属性が氷属性の味方全員に「魔攻+30％」を1回行動終了するまで付与",
+      "zh": "對象破防時，賦予所有冰屬性的我方角色「魔攻+30%」直到1次行動結束為止",
+      "en": "When the target enters Break state, grants all Ice attribute allies \"M.ATK +30%\" until the end of 1 action"
+    }
+  },
+  "1990364": {
+    "name": "熟練冒険者の戦術",
+    "description": {
+      "jp": "得意属性が氷属性の味方全員に以下の追加効果を付与<br>追加効果：「攻撃後、対象に受けるダメージ+40%を1回攻撃を受けるまで付与(上限4個)」",
+      "zh": "賦予所有冰屬性的我方角色以下追加效果<br>追加效果：「攻擊後，賦予對象『受到傷害+40%』直到受到1次攻擊為止(上限4個)」",
+      "en": "Grants the following additional effect to all Ice attribute allies<br>Additional Effect: \"After attacking, inflicts 'Damage Taken +40%' on the target until hit once (Max 4 stacks)\""
+    }
+  },
+  "1990365": {
+    "name": "みんなの力になるよ！",
+    "description": {
+      "jp": "被ダメージUP状態の対象を攻撃時、アイテムゲージを20%回復し、得意属性が氷属性の味方全員に「バーストスキルダメージ+30%」を付与(重複不可)",
+      "zh": "攻擊處於受傷害提升狀態的對象時，回復道具量條20%，並賦予所有冰屬性的我方角色「爆發技能傷害+30%」(不可重複)",
+      "en": "When attacking a target inflicted with Damage Taken UP, restores 20% Item Gauge and grants all Ice attribute allies \"Burst Skill DMG +30%\" (cannot stack)"
+    }
+  },
+  "1990366": {
+    "name": "パーティーはまだこれからだよ！",
+    "description": {
+      "jp": "被ダメージUP状態の対象を攻撃後、自身に「魔攻+30%」と「スキルダメージ+30%」を付与(上限180%)",
+      "zh": "攻擊處於受傷害提升狀態的對象後，賦予自身「魔攻+30%」與「技能傷害+30%」(上限180%)",
+      "en": "After attacking a target inflicted with Damage Taken UP, grants self \"M.ATK +30%\" and \"Skill DMG +30%\" (Max 180%)"
+    }
+  },
+  "1990367": {
+    "name": "全員、ちゅうもーく！",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>得意属性が氷属性または「アーランド」の味方全員の最大HP+30％<br>バトル開始時、味方全員のHPを100%回復",
+      "zh": "更容易成為攻擊目標<br>所有冰屬性或「アーランド」的我方角色最大HP+30%<br>戰鬥開始時，回復我方全員100%HP",
+      "en": "More likely to be targeted.<br>All Ice attribute allies or allies from \"アーランド\" gain Max HP +30%<br>At the start of battle, restores 100% HP to all allies"
+    }
+  },
+  "1990368": {
+    "name": "幸せのおすそ分け",
+    "description": {
+      "jp": "自身がパネル獲得時またはHP回復を受けた時、得意属性が氷属性または「アーランド」の味方全員に「物防・魔防+5%」を付与(上限30%)し、<br>アイテムゲージを2%回復<br>「バリア」の耐久値が消費されたとき、「受けるダメージ-10%」を付与(重複不可)",
+      "zh": "自身獲得面板時或受到HP回復時，賦予所有冰屬性或「アーランド」的我方角色「物防・魔防+5%」(上限30%)，並回復道具量條2%<br>「Barrier」耐久值被消耗時，賦予「受到傷害-10%」(不可重複)",
+      "en": "When self acquires a panel or receives HP recovery, grants all Ice attribute allies or allies from \"アーランド\" \"P.DEF/M.DEF +5%\" (Max 30%), and restores 2% Item Gauge<br>When \"Barrier\" durability is consumed, grants \"Damage Taken -10%\" (cannot stack)"
+    }
+  },
+  "1990369": {
+    "name": "逃がさないわ……",
+    "description": {
+      "jp": "WEAK攻撃時またはブレイク状態の敵を攻撃時、追加攻撃：[passive:14002977]イレイトショット[/passive]を発動する",
+      "zh": "WEAK攻擊時或攻擊處於破防狀態的敵人時，發動追加攻擊：[passive:14002977]イレイトショット[/passive]",
+      "en": "On WEAK attacks or when attacking an enemy in Break state, activates additional attack: [passive:14002977]イレイトショット[/passive]"
+    }
+  },
+  "1990370": {
+    "name": "アンチュのお楽しみ",
+    "description": {
+      "jp": "ブレイク状態の対象を攻撃後、自身に「お楽しみステッカー」が付与されていない時、「お楽しみステッカー(Lv1)」を付与<br>既に付与されている時、「お楽しみステッカー」のLv+1(上限Lv5)<br>「お楽しみステッカー」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつき追加攻撃のダメージ+10%<br>Lv1以上：スキルダメージ+30%<br>Lv3以上：スキルダメージ+50%<br>Lv5：スキルダメージ+70%",
+      "zh": "攻擊處於破防狀態的對象後，若自身未持有「お楽しみステッカー」，則賦予「お楽しみステッカー(Lv1)」<br>已持有時，「お楽しみステッカー」Lv+1(上限Lv5)<br>依據「お楽しみステッカー」Lv獲得以下效果<br>每1Lv：追加攻擊傷害+10%<br>Lv1以上：技能傷害+30%<br>Lv3以上：技能傷害+50%<br>Lv5：技能傷害+70%",
+      "en": "After attacking a target in Break state, if self does not have \"お楽しみステッカー\", grants \"お楽しみステッカー(Lv1)\"<br>If already granted, \"お楽しみステッカー\" Lv +1 (Max Lv5)<br>Grants the following bonuses based on \"お楽しみステッカー\" Lv<br>Per Lv: Additional Attack DMG +10%<br>Lv1 or higher: Skill DMG +30%<br>Lv3 or higher: Skill DMG +50%<br>Lv5: Skill DMG +70%"
+    }
+  },
+  "1990371": {
+    "name": "眩い王の輝き",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>得意属性が斬属性または「ランターナ」の味方全員の最大HP+30%<br>バトル開始時、味方全員のHPを100%回復<br>HP回復を受けた時、得意属性が斬属性の味方全員に「物防・魔防+10%」を付与(上限50%)",
+      "zh": "更容易成為攻擊目標<br>所有斬屬性或「ランターナ」的我方角色最大HP+30%<br>戰鬥開始時，回復我方全員100%HP<br>受到HP回復時，賦予所有斬屬性的我方角色「物防・魔防+10%」(上限50%)",
+      "en": "More likely to be targeted.<br>All Slash attribute allies or allies from \"ランターナ\" gain Max HP +30%<br>At the start of battle, restores 100% HP to all allies<br>When receiving HP recovery, grants all Slash attribute allies \"P.DEF/M.DEF +10%\" (Max 50%)"
+    }
+  },
+  "1990372": {
+    "name": "ララ式危機回避術",
+    "description": {
+      "jp": "バトル開始時、味方全員に以下の追加効果を付与<br>追加効果：「攻撃対象がブレイク状態の時、自身に回避(確率80%固定)を2回攻撃を受けるまで付与(発動上限3回)」",
+      "zh": "戰鬥開始時，賦予我方全員以下追加效果<br>追加效果：「攻擊處於破防狀態的對象時，賦予自身迴避(固定80%)直到受到2次攻擊為止(發動上限3次)」",
+      "en": "At the start of battle, grants all allies the following additional effect<br>Additional Effect: \"When attacking a target in Break state, grants self Evasion (fixed 80%) until hit 2 times (activation limit: 3 times)\""
+    }
+  },
+  "1990373": {
+    "name": "蝶の策略",
+    "description": {
+      "jp": "WAVE開始時、敵全体に「マイナスパネルから受けるマイナス効果量+30%」を付与",
+      "zh": "WAVE開始時，賦予敵方全體「從負面面板獲得的負面效果量+30%」",
+      "en": "At the start of a WAVE, inflicts \"Negative effect amount received from Minus Panels +30%\" on all enemies"
+    }
+  },
+  "1990374": {
+    "name": "みんなの高揚を感じるわ",
+    "description": {
+      "jp": "パーティの誰かが攻撃対象をブレイク時、味方全員に「バーストスキル以外の貫通力+50」を付与(上限150）",
+      "zh": "隊伍中任一角色使對象破防時，賦予我方全員「爆發技能以外的貫通力+50」(上限150)",
+      "en": "When anyone in the party causes the target to enter Break state, grants all allies \"Penetration +50 for non-Burst Skills\" (Max 150)"
+    }
+  },
+  "1990375": {
+    "name": "精一杯、応援します！",
+    "description": {
+      "jp": "味方全員の戦闘アイテムから受ける強化効果量+50%<br>「プライムシャイン」または「ミックスチア」を使用時、自身に「与えるHP回復量+10%」を付与(上限70%)",
+      "zh": "我方全員從戰鬥道具獲得的強化效果量+50%<br>使用「プライムシャイン」或「ミックスチア」時，賦予自身「HP回復量+10%」(上限70%)",
+      "en": "Buff effect amount received from battle items by all allies +50%<br>When using \"プライムシャイン\" or \"ミックスチア\", grants self \"HP Recovery Amount +10%\" (Max 70%)"
+    }
+  },
+  "1990376": {
+    "name": "お仕置きしてあげるっ！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、対象に「受ける物理攻撃ダメージ+25%」を2回攻撃を受けるまで付与し、<br>得意属性が打属性の味方全員に「クリティカル確率+50％」を1回行動終了するまで付与",
+      "zh": "對象破防時，賦予對象「受到物理攻擊傷害+25%」直到受到2次攻擊為止，並賦予所有打屬性的我方角色「暴擊率+50%」直到1次行動結束為止",
+      "en": "When the target enters Break state, inflicts \"Physical Attack Damage Taken +25%\" on the target until hit 2 times, and grants all Strike attribute allies \"Crit Rate +50%\" until the end of 1 action"
+    }
+  },
+  "1990377": {
+    "name": "真夏の裂傷",
+    "description": {
+      "jp": "攻撃対象がブレイク時、対象に「受ける物理攻撃ダメージ+50%」を2回攻撃を受けるまで付与",
+      "zh": "對象破防時，賦予對象「受到物理攻擊傷害+50%」直到受到2次攻擊為止",
+      "en": "When the target enters Break state, inflicts \"Physical Attack Damage Taken +50%\" on the target until hit 2 times"
+    }
+  },
+  "1990378": {
+    "name": "天才の追い討ちよ！",
+    "description": {
+      "jp": "対象の現在のブレイクゲージが50%以上の時、ブレイクダメージ+30%<br>WEAK攻撃時、スキルダメージ+30%",
+      "zh": "對象目前破防量條在50%以上時，破防傷害+30%<br>WEAK攻擊時，技能傷害+30%",
+      "en": "Break DMG +30% when the target's current Break Gauge is 50% or higher<br>Skill DMG +30% on WEAK attacks"
+    }
+  },
+  "1990379": {
+    "name": "忍術の極意",
+    "description": {
+      "jp": "スキル発動後、または自身がパネル獲得時、自身に「忍術ひらめき覚え書き」が付与されていない時、「忍術ひらめき覚え書き(Lv2)」を付与<br>既に付与されている時、「忍術ひらめき覚え書き」のLv+2(上限Lv10)<br>「忍術ひらめき覚え書き」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきスキルダメージ+10%<br>Lv3以上：バーストスキルダメージ+50%<br>Lv5以上：バーストスキルダメージ+50%<br>Lv10：バーストスキルダメージ+100%",
+      "zh": "技能發動後或自身獲得面板時，若自身未持有「忍術ひらめき覚え書き」，則賦予「忍術ひらめき覚え書き(Lv2)」<br>已持有時，「忍術ひらめき覚え書き」Lv+2(上限Lv10)<br>依據「忍術ひらめき覚え書き」Lv獲得以下效果<br>每1Lv：技能傷害+10%<br>Lv3以上：爆發技能傷害+50%<br>Lv5以上：爆發技能傷害+50%<br>Lv10：爆發技能傷害+100%",
+      "en": "After using a skill or when self acquires a panel, if self does not have \"忍術ひらめき覚え書き\", grants \"忍術ひらめき覚え書き(Lv2)\"<br>If already granted, \"忍術ひらめき覚え書き\" Lv +2 (Max Lv10)<br>Grants the following bonuses based on \"忍術ひらめき覚え書き\" Lv<br>Per Lv: Skill DMG +10%<br>Lv3 or higher: Burst Skill DMG +50%<br>Lv5 or higher: Burst Skill DMG +50%<br>Lv10: Burst Skill DMG +100%"
+    }
+  },
+  "1990380": {
+    "name": "錬金術の力、借りまする！",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用時、自身の次のパネルをバーストパネルに変換(空パネルの時は生成)(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具時，將自身下一個面板轉換為爆發面板(空面板時則生成)(發動上限3次)<br>※同時使用複數道具也只會發動1次",
+      "en": "When anyone in the party uses a battle item, converts self's next panel into a Burst Panel (generates panels if empty) (activation limit: 3 times)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990381": {
+    "name": "陰陽師の結界術",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>攻撃を受けた時、アイテムゲージを5%回復<br>得意属性が雷属性の味方全員の最大HP+40%、物防・魔防+20%<br>バトル開始時、味方全員のHPを100%回復し、<br>得意属性が雷属性の味方全員に「回避(確率100%固定)」を1回攻撃を受けるまで付与",
+      "zh": "更容易成為攻擊目標<br>受到攻擊時，回復道具量條5%<br>所有雷屬性的我方角色最大HP+40%、物防・魔防+20%<br>戰鬥開始時，回復我方全員100%HP，並賦予所有雷屬性的我方角色「迴避(固定100%)」直到受到1次攻擊為止",
+      "en": "More likely to be targeted.<br>Restores 5% Item Gauge when attacked<br>All Thunder attribute allies gain Max HP +40% and P.DEF/M.DEF +20%<br>At the start of battle, restores 100% HP to all allies, and grants all Thunder attribute allies \"Evasion (fixed 100%)\" until hit once"
+    }
+  },
+  "1990382": {
+    "name": "錬金術の力を借りようか！",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、自身に「受けるダメージ-100%(固定)」を1回攻撃を受けるまで付与(発動上限2回)し、<br>得意属性が雷属性の味方全員に「物防・魔防+30%」を付与(上限60%)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具後，賦予自身「受到傷害-100%(固定)」直到受到1次攻擊為止(發動上限2次)，並賦予所有雷屬性的我方角色「物防・魔防+30%」(上限60%)<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses a battle item, grants self \"Damage Taken -100% (Fixed)\" until hit once (activation limit: 2 times), and grants all Thunder attribute allies \"P.DEF/M.DEF +30%\" (Max 60%)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990383": {
+    "name": "巫女の祈祷",
+    "description": {
+      "jp": "味方全員の戦闘アイテムから受ける強化効果量+50%<br>スキル発動後、アイテムゲージを10%回復し、<br>味方全員のHPを15%回復",
+      "zh": "我方全員從戰鬥道具獲得的強化效果量+50%<br>技能發動後，回復道具量條10%，並回復我方全員15%HP",
+      "en": "Buff effect amount received from battle items by all allies +50%<br>After using a skill, restores 10% Item Gauge and restores 15% HP to all allies"
+    }
+  },
+  "1990384": {
+    "name": "錬金術の力、お借りします",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、味方全員に「スキルダメージ+30%」と「ブレイクダメージ+30%」を付与(上限120%)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具後，賦予我方全員「技能傷害+30%」與「破防傷害+30%」(上限120%)<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses a battle item, grants all allies \"Skill DMG +30%\" and \"Break DMG +30%\" (Max 120%)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990385": {
+    "name": "ハンマーでドカーンといくよ！",
+    "description": {
+      "jp": "クリティカル攻撃後、自身の強化系パネルとバーストパネルを除くパネル全てを強化パネルに変換(空パネルの時は生成)",
+      "zh": "暴擊攻擊後，將自身除強化系面板與爆發面板外的所有面板轉換為強化面板(空面板時則生成)",
+      "en": "After a Crit attack, converts all self panels except buff-type panels and Burst Panels into buff panels (generates panels if empty)"
+    }
+  },
+  "1990386": {
+    "name": "逆境なんて、なんのその！",
+    "description": {
+      "jp": "バトル開始時、敵の数に応じ、自身に「物防・魔防+10～40%」と「受けるダメージ-5～20%」を付与（1～4体で多いほど増加）<br>攻撃を受けた時、得意属性が火属性の味方全員に「物防・魔防+20%」(上限40%)と「受けるダメージ-5%」(上限10%)を付与",
+      "zh": "戰鬥開始時，依據敵人數量，賦予自身「物防・魔防+10～40%」與「受到傷害-5～20%」(1～4體時越多增加越多)<br>受到攻擊時，賦予所有火屬性的我方角色「物防・魔防+20%」(上限40%)與「受到傷害-5%」(上限10%)",
+      "en": "At the start of battle, based on the number of enemies, grants self \"P.DEF/M.DEF +10~40%\" and \"Damage Taken -5~20%\" (increases more with 1~4 enemies)<br>When attacked, grants all Fire attribute allies \"P.DEF/M.DEF +20%\" (Max 40%) and \"Damage Taken -5%\" (Max 10%)"
+    }
+  },
+  "1990387": {
+    "name": "いい追い風が来てるよ！",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用後、得意属性が風属性の味方全員に「スキルダメージ+50%」(上限100%)と「クリティカルダメージ+50%」(上限100%)を付与<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具後，賦予所有風屬性的我方角色「技能傷害+50%」(上限100%)與「暴擊傷害+50%」(上限100%)<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party uses a battle item, grants all Wind attribute allies \"Skill DMG +50%\" (Max 100%) and \"Crit DMG +50%\" (Max 100%)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990388": {
+    "name": "月下爛漫",
+    "description": {
+      "jp": "1回目のターン開始時、自身のパネルをバーストパネルに変換(空パネルの時は生成)<br>スキル発動後、残りブレイクゲージが最も高い敵へ追加攻撃：[passive:14003144]桜花ノ一太刀[/passive]を発動する",
+      "zh": "第1次回合開始時，將自身面板轉換為爆發面板(空面板時則生成)<br>技能發動後，對剩餘破防量條最高的敵人發動追加攻擊：[passive:14003144]桜花ノ一太刀[/passive]",
+      "en": "At the start of the 1st turn, converts self panel into a Burst Panel (generates panels if empty)<br>After using a skill, activates additional attack: [passive:14003144]桜花ノ一太刀[/passive] against the enemy with the highest remaining Break Gauge"
+    }
+  },
+  "1990389": {
+    "name": "錬金術の力、見せてみよ！",
+    "description": {
+      "jp": "WAVE開始時、自身に「クリティカル確率+100%」を1回行動終了するまで付与<br>パーティの誰かが戦闘アイテム使用後、自身に「クリティカル確率+100%」を2回行動終了するまで付与(発動上限3回)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "WAVE開始時，賦予自身「暴擊率+100%」直到1次行動結束為止<br>隊伍中任一角色使用戰鬥道具後，賦予自身「暴擊率+100%」直到2次行動結束為止(發動上限3次)<br>※同時使用複數道具也只會發動1次",
+      "en": "At the start of a WAVE, grants self \"Crit Rate +100%\" until the end of 1 action<br>After anyone in the party uses a battle item, grants self \"Crit Rate +100%\" until the end of 2 actions (activation limit: 3 times)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990390": {
+    "name": "龍鱗の猛る炎",
+    "description": {
+      "jp": "自身が猛る炎パネル獲得時、自身のHPを30%回復し、自身に「クリティカル確率+100%」を2回行動終了するまで付与し、バーストスキルを発動できる",
+      "zh": "自身獲得「猛る炎パネル」時，回復自身30%HP，賦予自身「暴擊率+100%」直到2次行動結束為止，並可發動爆發技能",
+      "en": "When self acquires \"猛る炎パネル\", restores 30% HP to self, grants self \"Crit Rate +100%\" until the end of 2 actions, and Burst Skill can be activated"
+    }
+  },
+  "1990391": {
+    "name": "粋ってやつを見せてやるよ",
+    "description": {
+      "jp": "クリティカル攻撃後、自身に「クリティカルダメージ+25%」を付与(上限150%)<br>スキルで撃破時、そのスキル使用前から自身に付与されている被ダメージDOWN効果を1回延長",
+      "zh": "暴擊攻擊後，賦予自身「暴擊傷害+25%」(上限150%)<br>以技能擊破敵人時，將自身在該技能使用前已持有的受傷害減少效果延長1次",
+      "en": "After a Crit attack, grants self \"Crit DMG +25%\" (Max 150%)<br>When defeating an enemy with a skill, extends Damage Taken DOWN effects already granted to self before using that skill by 1 time"
+    }
+  },
+  "1990467": {
+    "name": "九偉人の力-Ⅲ-",
+    "description": {
+      "jp": "WEAK攻撃後、自身に「スキルダメージ+25%」を付与(上限100%)",
+      "zh": "WEAK攻擊後，賦予自身「技能傷害+25%」(上限100%)",
+      "en": "After a WEAK attack, grants self \"Skill DMG +25%\" (Max 100%)"
+    }
+  },
+  "1990468": {
+    "name": "アタシの心意気",
+    "description": {
+      "jp": "WEAK攻撃後、自身に「ターン開始時、HP10%回復」を2回行動開始するまで付与<br>HP回復を受けた時、自身に「魔攻+5%」(上限70%)と「素早さ+3%」(上限30%)を付与",
+      "zh": "WEAK攻擊後，賦予自身「回合開始時，HP回復10%」直到2次行動開始為止<br>受到HP回復時，賦予自身「魔攻+5%」(上限70%)與「速度+3%」(上限30%)",
+      "en": "After a WEAK attack, grants self \"At turn start, restores 10% HP\" until the start of 2 actions<br>When receiving HP recovery, grants self \"M.ATK +5%\" (Max 70%) and \"Speed +3%\" (Max 30%)"
+    }
+  },
+  "1990469": {
+    "name": "兄としての責任",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>自身の物防・魔防+20%<br><br>得意属性が打属性の味方全員の最大HP+40%<br>バトル開始時、味方全員のHPを100%回復",
+      "zh": "更容易成為攻擊目標<br>自身物防・魔防+20%<br><br>所有打屬性的我方角色最大HP+40%<br>戰鬥開始時，回復我方全員100%HP",
+      "en": "More likely to be targeted.<br>Self P.DEF/M.DEF +20%<br><br>All Strike attribute allies gain Max HP +40%<br>At the start of battle, restores 100% HP to all allies"
+    }
+  },
+  "1990470": {
+    "name": "私が守ってみせる！",
+    "description": {
+      "jp": "自身のHPが一定以下になった時、以下の効果をそれぞれ発動する(全て発動上限1回)(戦闘不能時以外で解除されない)<br>80%以下：得意属性が打属性の味方全員に「物防・魔防+20%」を付与<br>50%以下：得意属性が打属性の味方全員に「物防・魔防+20%」を付与<br>30%以下：得意属性が打属性の味方全員に「物防・魔防+30%」を付与し、自身のHPを100%回復",
+      "zh": "自身HP低於一定值時，分別發動以下效果(全部發動上限1次)(非戰鬥不能時不會解除)<br>80%以下：賦予所有打屬性的我方角色「物防・魔防+20%」<br>50%以下：賦予所有打屬性的我方角色「物防・魔防+20%」<br>30%以下：賦予所有打屬性的我方角色「物防・魔防+30%」，並回復自身100%HP",
+      "en": "When self HP falls below certain thresholds, activates the following effects respectively (all activation limit: 1 time) (will not be removed except by KO)<br>80% or lower: Grants all Strike attribute allies \"P.DEF/M.DEF +20%\"<br>50% or lower: Grants all Strike attribute allies \"P.DEF/M.DEF +20%\"<br>30% or lower: Grants all Strike attribute allies \"P.DEF/M.DEF +30%\" and restores 100% HP to self"
+    }
+  },
+  "1990471": {
+    "name": "血の薔薇、咲かせてあげる♪",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>スキルで撃破時、自身のバーストゲージを100%増加<br>自身への攻撃から1以上のダメージを受けなかった時、自身のバーストゲージを30%増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>以技能擊破敵人時，自身爆發量條增加100%<br>自身受到攻擊時未受到1以上傷害時，自身爆發量條增加30%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>When defeating an enemy with a skill, increases self Burst Gauge by 100%<br>When taking no damage greater than 0 from an attack, increases self Burst Gauge by 30%"
+    }
+  },
+  "1990472": {
+    "name": "もーっと盛り上げるんだから！",
+    "description": {
+      "jp": "バーストスキル発動後、自身に「スキル威力+30%」と「スキルダメージ+30%」を2回行動終了するまで付与",
+      "zh": "爆發技能發動後，賦予自身「技能威力+30%」與「技能傷害+30%」直到2次行動結束為止",
+      "en": "After activating a Burst Skill, grants self \"Skill Power +30%\" and \"Skill DMG +30%\" until the end of 2 actions"
+    }
+  },
+  "1990473": {
+    "name": "盛り上げていくよっ！",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>WAVE開始時、自身に「味方を対象としたスキル発動後、対象の次のパネルをバーストパネルに変換(空パネルの時は生成)」を1回行動終了するまで付与",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>WAVE開始時，賦予自身「對我方角色發動技能後，將對象下一個面板轉換為爆發面板(空面板時則生成)」直到1次行動結束為止",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>At the start of a WAVE, grants self \"After using a skill targeting an ally, converts the target's next panel into a Burst Panel (generates panels if empty)\" until the end of 1 action"
+    }
+  },
+  "1990474": {
+    "name": "バカンスチャージ",
+    "description": {
+      "jp": "スキル発動後、味方全員のHPを15%回復し、<br>自身のバーストゲージを15%増加し、<br>自身に「与えるHP回復量+10%」を付与(上限50%)",
+      "zh": "技能發動後，回復我方全員15%HP，<br>自身爆發量條增加15%，並賦予自身「HP回復量+10%」(上限50%)",
+      "en": "After using a skill, restores 15% HP to all allies,<br>increases self Burst Gauge by 15%, and grants self \"HP Recovery Amount +10%\" (Max 50%)"
+    }
+  },
+  "1990475": {
+    "name": "みんなには内緒だよ♪",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>自身を除くパーティの誰かがバーストスキル発動後、自身のバーストゲージを20%増加<br>攻撃対象がブレイク時、自身のバーストゲージを40%増加<br>ブレイク状態の敵を攻撃時、自身のバーストゲージを20%増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>自身以外的隊伍角色發動爆發技能後，自身爆發量條增加20%<br>對象破防時，自身爆發量條增加40%<br>攻擊處於破防狀態的敵人時，自身爆發量條增加20%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>After another party member activates a Burst Skill, increases self Burst Gauge by 20%<br>When the target enters Break state, increases self Burst Gauge by 40%<br>When attacking an enemy in Break state, increases self Burst Gauge by 20%"
+    }
+  },
+  "1990476": {
+    "name": "わたしがお手伝いします！",
+    "description": {
+      "jp": "バーストスキル発動後、得意属性が打属性の味方全員に「物攻+50%」と「クリティカルダメージ+50%」を2回行動終了するまで付与",
+      "zh": "爆發技能發動後，賦予所有打屬性的我方角色「物攻+50%」與「暴擊傷害+50%」直到2次行動結束為止",
+      "en": "After activating a Burst Skill, grants all Strike attribute allies \"P.ATK +50%\" and \"Crit DMG +50%\" until the end of 2 actions"
+    }
+  },
+  "1990477": {
+    "name": "アルビちゃんにくぎづけ！",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>「ビューティーシャイン」で「がち恋アルビ担モード(Lv5)」が付与された対象を攻撃後、対象の「がち恋アルビ担モード(Lv5)」を解除し、自身のバーストゲージを100%増加<br>「メロメロ☆トラップ」または「魅惑のアルビちゃんスペシャル☆」発動時、対象に「がち恋アルビ担モード」が付与されている場合、自身のバーストゲージを20%増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>以「ビューティーシャイン」攻擊持有「がち恋アルビ担モード(Lv5)」的對象後，解除對象的「がち恋アルビ担モード(Lv5)」，並使自身爆發量條增加100%<br>發動「メロメロ☆トラップ」或「魅惑のアルビちゃんスペシャル☆」時，若對象持有「がち恋アルビ担モード」，則自身爆發量條增加20%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>After attacking a target inflicted with \"がち恋アルビ担モード(Lv5)\" using \"ビューティーシャイン\", removes \"がち恋アルビ担モード(Lv5)\" from the target and increases self Burst Gauge by 100%<br>When activating \"メロメロ☆トラップ\" or \"魅惑のアルビちゃんスペシャル☆\", if the target is inflicted with \"がち恋アルビ担モード\", increases self Burst Gauge by 20%"
+    }
+  },
+  "1990478": {
+    "name": "バカンストリック",
+    "description": {
+      "jp": "バーストスキル発動後、敵全体に「受ける物理攻撃ダメージ+50%」(上限200%)と「受ける攻撃の貫通力+50」(上限150)を付与",
+      "zh": "爆發技能發動後，賦予敵方全體「受到物理攻擊傷害+50%」(上限200%)與「受到攻擊的貫通力+50」(上限150)",
+      "en": "After activating a Burst Skill, inflicts \"Physical Attack Damage Taken +50%\" (Max 200%) and \"Penetration Taken +50\" (Max 150) on all enemies"
+    }
+  },
+  "1990479": {
+    "name": "すべて予定通りです",
+    "description": {
+      "jp": "バトル開始時、「クレアティオフロース」のスキルランプを3個点灯する<br>パーティの誰かが戦闘アイテム使用後、「クレアティオフロース」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても点灯は1個",
+      "zh": "戰鬥開始時，點亮3個「クレアティオフロース」技能燈號<br>隊伍中任一角色使用戰鬥道具後，點亮1個「クレアティオフロース」技能燈號<br>※同時使用複數道具也只會點亮1個",
+      "en": "At the start of battle, lights up 3 \"クレアティオフロース\" skill lamps<br>After anyone in the party uses a battle item, lights up 1 \"クレアティオフロース\" skill lamp<br>※Even if multiple items are used simultaneously, only 1 lamp will light up"
+    }
+  },
+  "1990480": {
+    "name": "突破の方程式",
+    "description": {
+      "jp": "得意属性が突属性の味方全員は、スキル使用前に付与されている強化効果の数に応じて以下のボーナスをそれぞれ獲得する<br>3個以上：スキルダメージ+30%<br>5個以上：スキルダメージ+30%<br>10個以上：スキル発動後、自身の次のパネル1つをバーストパネルに変換(空パネルの時は生成)(発動上限2回)<br>※バトル開始時に発動した回数制限のない強化効果は含まない",
+      "zh": "所有突屬性的我方角色會依據技能使用前持有的強化效果數量獲得以下效果<br>3個以上：技能傷害+30%<br>5個以上：技能傷害+30%<br>10個以上：技能發動後，將自身下一個面板轉換為爆發面板(空面板時則生成)(發動上限2次)<br>※不包含戰鬥開始時發動且無次數限制的強化效果",
+      "en": "All Pierce attribute allies gain the following bonuses based on the number of buffs granted before using a skill<br>3 or more: Skill DMG +30%<br>5 or more: Skill DMG +30%<br>10 or more: After using a skill, converts self's next panel into a Burst Panel (generates panels if empty) (activation limit: 2 times)<br>※Does not include unlimited-duration buffs activated at the start of battle"
+    }
+  },
+  "1990481": {
+    "name": "侵食する冥暗",
+    "description": {
+      "jp": "スキル発動後、アイテムゲージを15%回復<br>「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員の「物攻・魔攻・クリティカルダメージ+6～30％」(1～5人で多いほど増加)",
+      "zh": "技能發動後，回復道具量條15%<br>依據持有「冥き追憶」標籤的角色數量，賦予「冥き追憶」的我方角色「物攻・魔攻・暴擊傷害+6～30%」(1～5人時越多增加越多)",
+      "en": "After using a skill, restores 15% Item Gauge<br>Based on the number of characters with the \"冥き追憶\" tag, grants allies from \"冥き追憶\" \"P.ATK/M.ATK/Crit DMG +6~30%\" (increases more with 1~5 characters)"
+    }
+  },
+  "1990482": {
+    "name": "突き刺す眼光",
+    "description": {
+      "jp": "ブレイク状態の敵を攻撃後またはパーティの誰かが戦闘アイテム使用後、味方全員に「クリティカル確率+50%」を付与(上限50%)し、<br>物攻が最も高い味方1人に「クリティカル確率+50%」と「クリティカルダメージ+30%」を2回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "攻擊處於破防狀態的敵人後或隊伍中任一角色使用戰鬥道具後，賦予我方全員「暴擊率+50%」(上限50%)，並賦予物攻最高的1名我方角色「暴擊率+50%」與「暴擊傷害+30%」直到2次行動結束為止<br>※同時使用複數道具也只會發動1次",
+      "en": "After attacking an enemy in Break state or after anyone in the party uses a battle item, grants all allies \"Crit Rate +50%\" (Max 50%), and grants the ally with the highest P.ATK \"Crit Rate +50%\" and \"Crit DMG +30%\" until the end of 2 actions<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990483": {
+    "name": "すっごく綺麗でしょ？",
+    "description": {
+      "jp": "1回目のターン開始時、自身に「黄水晶の加護」を3個付与(上限5個）<br>スキルで撃破時または敵の攻撃を回避した時、自身に「黄水晶の加護」を1個付与(上限5個)<br>自身への攻撃で1ダメージ以上受けた時、自身に付与されている「黄水晶の加護」を1個解除<br><br>※「黄水晶の加護」は、スキル威力+30%とクリティカル確率+30%(全て効果量固定)",
+      "zh": "第1次回合開始時，賦予自身3個「黄水晶の加護」(上限5個)<br>以技能擊破敵人時或迴避敵方攻擊時，賦予自身1個「黄水晶の加護」(上限5個)<br>自身受到超過1點傷害時，解除自身1個「黄水晶の加護」<br><br>※「黄水晶の加護」為技能威力+30%與暴擊率+30%(全部為固定效果量)",
+      "en": "At the start of the 1st turn, grants self 3 \"黄水晶の加護\" (Max 5 stacks)<br>When defeating an enemy with a skill or evading an enemy attack, grants self 1 \"黄水晶の加護\" (Max 5 stacks)<br>When self takes 1 or more damage, removes 1 \"黄水晶の加護\" from self<br><br>※\"黄水晶の加護\" grants Skill Power +30% and Crit Rate +30% (all fixed values)"
+    }
+  },
+  "1990484": {
+    "name": "無垢で無情な身のこなし",
+    "description": {
+      "jp": "WAVE開始時、自身に「回避(確率100%固定)」を1回攻撃を受けるまで付与<br>自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限200%)",
+      "zh": "WAVE開始時，賦予自身「迴避(固定100%)」直到受到1次攻擊為止<br>自身暴擊率超過100%時，攻擊時會將超過100%的暴擊率提升量轉換為暴擊傷害提升(轉換上限200%)",
+      "en": "At the start of a WAVE, grants self \"Evasion (fixed 100%)\" until hit once<br>When self Crit Rate exceeds 100%, converts the amount exceeding 100% into Crit DMG when attacking (conversion cap: 200%)"
+    }
+  },
+  "1990485": {
+    "name": "九偉人の力-Ⅴ-",
+    "description": {
+      "jp": "スキル発動前に自身に付与されている強化効果の数に応じて以下のボーナスをそれぞれ獲得する<br>3個以上：ブレイクダメージ+20%<br>5個以上：ブレイクダメージ+30%<br>10個以上：ブレイクダメージ+50%<br>※バトル開始時に発動した回数制限のない強化効果は含まない",
+      "zh": "依據技能發動前自身持有的強化效果數量獲得以下效果<br>3個以上：破防傷害+20%<br>5個以上：破防傷害+30%<br>10個以上：破防傷害+50%<br>※不包含戰鬥開始時發動且無次數限制的強化效果",
+      "en": "Grants the following bonuses based on the number of buffs granted to self before using a skill<br>3 or more: Break DMG +20%<br>5 or more: Break DMG +30%<br>10 or more: Break DMG +50%<br>※Does not include unlimited-duration buffs activated at the start of battle"
+    }
+  },
+  "1990486": {
+    "name": "脈動する冥暗",
+    "description": {
+      "jp": "WAVE開始時、自身に「ブレイクダメージ+150%」を1回行動終了するまで付与<br>攻撃対象がブレイク時、得意属性が突属性または「冥き追憶」の味方全員に「スキルダメージ+30%」(上限60%)と「物攻+25%」(上限50%)と「素早さ+5%」(上限15%)を付与<br>「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員の「物攻・魔攻+6～30％」と「ブレイクダメージ+10～50%」(1～5人で多いほど増加)",
+      "zh": "WAVE開始時，賦予自身「破防傷害+150%」直到1次行動結束為止<br>對象破防時，賦予所有突屬性或「冥き追憶」的我方角色「技能傷害+30%」(上限60%)、「物攻+25%」(上限50%)與「速度+5%」(上限15%)<br>依據持有「冥き追憶」標籤的角色數量，賦予「冥き追憶」的我方角色「物攻・魔攻+6～30%」與「破防傷害+10～50%」(1～5人時越多增加越多)",
+      "en": "At the start of a WAVE, grants self \"Break DMG +150%\" until the end of 1 action<br>When the target enters Break state, grants all Pierce attribute allies or allies from \"冥き追憶\" \"Skill DMG +30%\" (Max 60%), \"P.ATK +25%\" (Max 50%), and \"Speed +5%\" (Max 15%)<br>Based on the number of characters with the \"冥き追憶\" tag, grants allies from \"冥き追憶\" \"P.ATK/M.ATK +6~30%\" and \"Break DMG +10~50%\" (increases more with 1~5 characters)"
+    }
+  },
+  "1990487": {
+    "name": "元気の出るイタズラです！",
+    "description": {
+      "jp": "自身に付与されている強化効果の数に応じ、与える強化効果量+0～30%(0～10個で多いほど増加)<br>スキル使用前に自身に付与されている強化効果の数が10個以上の時、スキル発動後、物攻が最も高い味方1人の強化系パネルとバーストパネルを除くパネル全てを強化パネルに変換(空パネルの時は生成)<br>※バトル開始時に発動した回数制限のない強化効果は含まない",
+      "zh": "依據自身持有的強化效果數量，賦予強化效果量+0～30%(0～10個時越多增加越多)<br>技能使用前自身持有10個以上強化效果時，技能發動後，將物攻最高的1名我方角色除強化系面板與爆發面板外的所有面板轉換為強化面板(空面板時則生成)<br>※不包含戰鬥開始時發動且無次數限制的強化效果",
+      "en": "Buff effect amount granted +0~30% based on the number of buffs granted to self (increases more with 0~10 buffs)<br>When self has 10 or more buffs before using a skill, after using the skill, converts all panels except buff-type panels and Burst Panels of the ally with the highest P.ATK into buff panels (generates panels if empty)<br>※Does not include unlimited-duration buffs activated at the start of battle"
+    }
+  },
+  "1990488": {
+    "name": "バニーの奇術",
+    "description": {
+      "jp": "「アメイジングハット」または「叡智の切断イリュージョン」発動後、アイテムゲージを20%回復",
+      "zh": "發動「アメイジングハット」或「叡智の切断イリュージョン」後，回復道具量條20%",
+      "en": "After activating \"アメイジングハット\" or \"叡智の切断イリュージョン\", restores 20% Item Gauge"
+    }
+  },
+  "1990489": {
+    "name": "種も仕掛けも錬金術よ",
+    "description": {
+      "jp": "強化系パネル獲得時またはパーティの誰かが戦闘アイテム使用後、自身に「ブレイクダメージ+100%」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回<br><br>攻撃対象がブレイク時、得意属性が火属性の味方全員に「クリティカル確率+100%」を2回行動終了するまで付与",
+      "zh": "獲得強化系面板時或隊伍中任一角色使用戰鬥道具後，賦予自身「破防傷害+100%」直到1次行動結束為止<br>※同時使用複數道具也只會發動1次<br><br>對象破防時，賦予所有火屬性的我方角色「暴擊率+100%」直到2次行動結束為止",
+      "en": "When acquiring a buff-type panel or after anyone in the party uses a battle item, grants self \"Break DMG +100%\" until the end of 1 action<br>※Even if multiple items are used simultaneously, it only activates once<br><br>When the target enters Break state, grants all Fire attribute allies \"Crit Rate +100%\" until the end of 2 actions"
+    }
+  },
+  "1990490": {
+    "name": "バニーの献身",
+    "description": {
+      "jp": "スキル発動後、アイテムゲージを10%回復し、味方全員のHPを15%回復",
+      "zh": "技能發動後，回復道具量條10%，並回復我方全員15%HP",
+      "en": "After using a skill, restores 10% Item Gauge and restores 15% HP to all allies"
+    }
+  },
+  "1990491": {
+    "name": "絶対当たりラッキーカード",
+    "description": {
+      "jp": "強化系パネルまたはバーストパネル獲得時またはパーティの誰かが戦闘アイテム使用後、得意属性が火属性の味方全員それぞれに以下の効果をランダムで付与<br>・「スキルダメージ+35%」を1回行動終了するまで付与<br>・「クリティカルダメージ+35%」を1回行動終了するまで付与<br>・「魔攻+35%」を1回行動終了するまで付与<br>・「受けるダメージ-35%(固定)」を1回攻撃を受けるまで付与<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "獲得強化系面板或爆發面板時，或隊伍中任一角色使用戰鬥道具後，隨機賦予所有火屬性的我方角色以下其中1種效果<br>・賦予「技能傷害+35%」直到1次行動結束為止<br>・賦予「暴擊傷害+35%」直到1次行動結束為止<br>・賦予「魔攻+35%」直到1次行動結束為止<br>・賦予「受到傷害-35%(固定)」直到受到1次攻擊為止<br>※同時使用複數道具也只會發動1次",
+      "en": "When acquiring a buff-type panel or Burst Panel, or after anyone in the party uses a battle item, randomly grants one of the following effects to each Fire attribute ally<br>・Grants \"Skill DMG +35%\" until the end of 1 action<br>・Grants \"Crit DMG +35%\" until the end of 1 action<br>・Grants \"M.ATK +35%\" until the end of 1 action<br>・Grants \"Damage Taken -35% (Fixed)\" until hit once<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990492": {
+    "name": "星誕の使者より祝福です！",
+    "description": {
+      "jp": "自身を含むパーティの誰かがクリティカル攻撃後、得意属性が氷属性の味方全員に「スキル威力+20％」(上限60％)を付与<br>得意属性が氷属性の味方全員は、スキル発動前に「カチコチ」が付与されている攻撃対象へのクリティカルダメージ+100％",
+      "zh": "自身或隊伍中任一角色暴擊攻擊後，賦予所有冰屬性的我方角色「技能威力+20%」(上限60%)<br>所有冰屬性的我方角色在技能發動前，對持有「カチコチ」的對象造成的暴擊傷害+100%",
+      "en": "After self or anyone in the party lands a Crit attack, grants all Ice attribute allies \"Skill Power +20%\" (Max 60%)<br>All Ice attribute allies deal +100% Crit DMG to targets inflicted with \"カチコチ\" before using a skill"
+    }
+  },
+  "1990493": {
+    "name": "プレゼントボックス",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>自身が聖夜のまごころパネル獲得時、自身に「クリティカル確率+100%」を1回行動終了するまで付与し、バーストスキルを発動できる<br><br>WAVE開始時、自身に「クリティカル確率+100%」を1回行動終了するまで付与",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>自身獲得「聖夜のまごころパネル」時，賦予自身「暴擊率+100%」直到1次行動結束為止，並可發動爆發技能<br><br>WAVE開始時，賦予自身「暴擊率+100%」直到1次行動結束為止",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>When self acquires \"聖夜のまごころパネル\", grants self \"Crit Rate +100%\" until the end of 1 action, and Burst Skill can be activated<br><br>At the start of a WAVE, grants self \"Crit Rate +100%\" until the end of 1 action"
+    }
+  },
+  "1990494": {
+    "name": "アタシからの祝福だよ！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、自身に「ブレイクダメージ+35%」を付与(上限100%)し、得意属性が風属性の味方全員に「魔攻+25%」を付与(上限50%)",
+      "zh": "對象破防時，賦予自身「破防傷害+35%」(上限100%)，並賦予所有風屬性的我方角色「魔攻+25%」(上限50%)",
+      "en": "When the target enters Break state, grants self \"Break DMG +35%\" (Max 100%), and grants all Wind attribute allies \"M.ATK +25%\" (Max 50%)"
+    }
+  },
+  "1990495": {
+    "name": "お祭りへご招待",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>WEAK攻撃時、自身のバーストゲージを15%増加<br>自身を除くパーティの誰かがバーストスキル発動後、自身のバーストゲージを20%増加<br><br>プラスパネルから受ける効果量+50%",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>WEAK攻擊時，自身爆發量條增加15%<br>自身以外的隊伍角色發動爆發技能後，自身爆發量條增加20%<br><br>從增益面板獲得的效果量+50%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>On WEAK attacks, increases self Burst Gauge by 15%<br>After another party member activates a Burst Skill, increases self Burst Gauge by 20%<br><br>Effect amount received from Plus Panels +50%"
+    }
+  },
+  "1990496": {
+    "name": "福よ、来たれ！",
+    "description": {
+      "jp": "WEAK攻撃時、自身に「万福招来！」が付与されていない時、「万福招来！(Lv1)」を付与<br>既に付与されている時、「万福招来！」のLv+1(上限Lv5)<br>※スキル発動前に「万福招来！」のLvが5の場合、以上の効果は発動しない<br>強化系パネルまたはバーストパネル獲得時、自身に「万福招来！」が付与されていない時、「万福招来！(Lv2)」を付与<br>既に付与されている時、「万福招来！」のLv+2(上限Lv5)<br>「万福招来！」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1LvにつきWEAK攻撃ダメージ+20%<br>Lv3以上：スキルダメージ+50%<br>Lv5：スキルダメージ+50%",
+      "zh": "",
+      "en": ""
+    }
+  },
+  "1990497": {
+    "name": "遠慮なくやらせてもらう",
+    "description": {
+      "jp": "攻撃対象がブレイク時またはブレイク状態の敵を攻撃後、味方全員に「クリティカルダメージ+40％」を付与(上限80％)し、<br>「ハルフェン復興隊」の味方全員に「物攻+25％」(上限50％)と「魔攻+25％」(上限50％)を付与",
+      "zh": "WEAK攻擊時，若自身未持有「万福招来！」，則賦予「万福招来！(Lv1)」<br>已持有時，「万福招来！」Lv+1(上限Lv5)<br>※技能發動前若「万福招来！」Lv為5，則不發動以上效果<br>獲得強化系面板或爆發面板時，若自身未持有「万福招来！」，則賦予「万福招来！(Lv2)」<br>已持有時，「万福招来！」Lv+2(上限Lv5)<br>依據「万福招来！」Lv獲得以下效果<br>每1Lv：WEAK攻擊傷害+20%<br>Lv3以上：技能傷害+50%<br>Lv5：技能傷害+50%",
+      "en": "On WEAK attacks, if self does not have \"万福招来！\", grants \"万福招来！(Lv1)\"<br>If already granted, \"万福招来！\" Lv +1 (Max Lv5)<br>※If \"万福招来！\" is already Lv5 before using a skill, the above effect will not activate<br>When acquiring a buff-type panel or Burst Panel, if self does not have \"万福招来！\", grants \"万福招来！(Lv2)\"<br>If already granted, \"万福招来！\" Lv +2 (Max Lv5)<br>Grants the following bonuses based on \"万福招来！\" Lv<br>Per Lv: WEAK Attack DMG +20%<br>Lv3 or higher: Skill DMG +50%<br>Lv5: Skill DMG +50%"
+    }
+  },
+  "1990498": {
+    "name": "いい感じに燃えてきたわ！",
+    "description": {
+      "jp": "「ハルフェン復興隊」タグを持つキャラ数に応じ、自身が与えるダメージ+20～100％(1～5人で多いほど増加)<br>「パンプキンボム」または「メテオストーム」発動後、敵の数に応じ、自身に「スキル威力+5～25％(1～5体で多いほど増加)」を付与(上限50％)",
+      "zh": "依據持有「ハルフェン復興隊」標籤的角色數量，自身造成傷害+20～100%(1～5人時越多增加越多)<br>發動「パンプキンボム」或「メテオストーム」後，依據敵人數量，賦予自身「技能威力+5～25%」(1～5體時越多增加越多)(上限50%)",
+      "en": "Damage dealt by self +20~100% based on the number of characters with the \"ハルフェン復興隊\" tag (increases more with 1~5 characters)<br>After activating \"パンプキンボム\" or \"メテオストーム\", based on the number of enemies, grants self \"Skill Power +5~25%\" (increases more with 1~5 enemies) (Max 50%)"
+    }
+  },
+  "1990499": {
+    "name": "アルケミチャンス",
+    "description": {
+      "jp": "スキル発動後、アイテムゲージを15%回復<br>クリティカル攻撃後、さらにアイテムゲージを15%回復<br>パーティの誰かが戦闘アイテム使用後、自身に「クリティカル確率+100%」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回<br><br>自身のターンでアイテムゲージが100％の時、{{hyperlink_id 151}}を発動可能<br>アイテムミックススキル発動後、自身に「クリティカル確率+100%」を3回行動終了するまで付与し、「クリティカルダメージ+100%」を付与(上限300%)",
+      "zh": "技能發動後，回復道具量條15%<br>暴擊攻擊後，額外回復道具量條15%<br>隊伍中任一角色使用戰鬥道具後，賦予自身「暴擊率+100%」直到1次行動結束為止<br>※同時使用複數道具也只會發動1次<br><br>自身回合中道具量條為100%時，可發動{{hyperlink_id 151}}<br>發動道具混合技能後，賦予自身「暴擊率+100%」直到3次行動結束為止，並賦予「暴擊傷害+100%」(上限300%)",
+      "en": "After using a skill, restores 15% Item Gauge<br>After a Crit attack, additionally restores 15% Item Gauge<br>After anyone in the party uses a battle item, grants self \"Crit Rate +100%\" until the end of 1 action<br>※Even if multiple items are used simultaneously, it only activates once<br><br>When Item Gauge is at 100% during self turn, {{hyperlink_id 151}} can be activated<br>After activating an Item Mix Skill, grants self \"Crit Rate +100%\" until the end of 3 actions, and grants \"Crit DMG +100%\" (Max 300%)"
+    }
+  },
+  "1990500": {
+    "name": "みんなと一緒なら！",
+    "description": {
+      "jp": "「ハルフェン復興隊」タグを持つキャラ数に応じ、基礎魔攻+100～500(1～5人で多いほど増加)",
+      "zh": "依據持有「ハルフェン復興隊」標籤的角色數量，基礎魔攻+100～500(1～5人時越多增加越多)",
+      "en": "Base M.ATK +100~500 based on the number of characters with the \"ハルフェン復興隊\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990501": {
+    "name": "奮うこと雷霆の如し",
+    "description": {
+      "jp": "パーティの誰かが戦闘アイテム使用時、自身に「ブレイクダメージ+40%」を付与(上限80%)し、味方全員に「クリティカルダメージ+40%」を付与(上限80%)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色使用戰鬥道具時，賦予自身「破防傷害+40%」(上限80%)，並賦予我方全員「暴擊傷害+40%」(上限80%)<br>※同時使用複數道具也只會發動1次",
+      "en": "When anyone in the party uses a battle item, grants self \"Break DMG +40%\" (Max 80%), and grants all allies \"Crit DMG +40%\" (Max 80%)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990502": {
+    "name": "一気に仕掛けよう！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、アイテムゲージを50%回復し、対象に「受ける魔法攻撃ダメージ+40%」を付与(上限80%)",
+      "zh": "對象破防時，回復道具量條50%，並賦予對象「受到魔法攻擊傷害+40%」(上限80%)",
+      "en": "When the target enters Break state, restores 50% Item Gauge and inflicts \"Magic Attack Damage Taken +40%\" on the target (Max 80%)"
+    }
+  },
+  "1990503": {
+    "name": "最後までお相手しましょう",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>得意属性が雷属性または「ハルフェン復興隊」の味方全員の最大HP+40%<br>バトル開始時、「ウェルテックスソード」のスキルランプを3個点灯し、<br>味方全員のHPを100%回復<br>自身が攻撃を受けた時またはパーティの誰かが戦闘アイテム使用時、「ウェルテックスソード」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "更容易成為攻擊目標 <br>所有雷屬性或「ハルフェン復興隊」的我方角色最大HP+40%<br>戰鬥開始時，點亮3個「ウェルテックスソード」技能燈號，並回復我方全員100%HP<br>自身受到攻擊時或隊伍中任一角色使用戰鬥道具時，點亮1個「ウェルテックスソード」技能燈號<br>※同時使用複數道具也只會發動1次",
+      "en": "More likely to be targeted.<br>All Thunder attribute allies or allies from \"ハルフェン復興隊\" gain Max HP +40%<br>At the start of battle, lights up 3 \"ウェルテックスソード\" skill lamps and restores 100% HP to all allies<br>When self is attacked or when anyone in the party uses a battle item, lights up 1 \"ウェルテックスソード\" skill lamp<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990504": {
+    "name": "錬金術効果検証実験",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>攻撃を受けた時、自身のバーストゲージを10%増加<br>スキル発動後、自身のHPを15%回復<br><br>パーティの誰かが戦闘アイテム使用後、「ハルフェン復興隊」タグを持つキャラ数に応じ、得意属性が雷属性または「ハルフェン復興隊」の味方全員に「基礎物防・基礎魔防+50～250」を付与(上限500)(1～5人で多いほど増加)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>受到攻擊時，自身爆發量條增加10%<br>技能發動後，回復自身15%HP<br><br>隊伍中任一角色使用戰鬥道具後，依據持有「ハルフェン復興隊」標籤的角色數量，賦予所有雷屬性或「ハルフェン復興隊」的我方角色「基礎物防・基礎魔防+50～250」(上限500)(1～5人時越多增加越多)<br>※同時使用複數道具也只會發動1次",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>When attacked, increases self Burst Gauge by 10%<br>After using a skill, restores 15% HP to self<br><br>After anyone in the party uses a battle item, based on the number of characters with the \"ハルフェン復興隊\" tag, grants all Thunder attribute allies or allies from \"ハルフェン復興隊\" \"Base P.DEF/Base M.DEF +50~250\" (Max 500) (increases more with 1~5 characters)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990505": {
+    "name": "みんなで力を合わせよう！",
+    "description": {
+      "jp": "味方全員は「ハルフェン復興隊」タグを持つキャラ数に応じ「クリティカルダメージ+10～50％」と「戦闘アイテムクリティカルダメージ+10～50%」(1～5人で多いほど増加)<br><br>スキル発動後、アイテムゲージを10%回復し、味方全員のHPを15%回復",
+      "zh": "我方全員會依據持有「ハルフェン復興隊」標籤的角色數量獲得「暴擊傷害+10～50%」與「戰鬥道具暴擊傷害+10～50%」(1～5人時越多增加越多)<br><br>技能發動後，回復道具量條10%，並回復我方全員15%HP",
+      "en": "All allies gain \"Crit DMG +10~50%\" and \"Battle Item Crit DMG +10~50%\" based on the number of characters with the \"ハルフェン復興隊\" tag (increases more with 1~5 characters)<br><br>After using a skill, restores 10% Item Gauge and restores 15% HP to all allies"
+    }
+  },
+  "1990506": {
+    "name": "＜新星団結＞スキル後物攻アップ",
+    "description": {
+      "jp": "スキル発動後、「新星」タグを持つキャラ数に応じ、自身に「物攻+2～10%」(1～5人で多いほど増加)を付与(上限30%)",
+      "zh": "技能發動後，依據持有「新星」標籤的角色數量，賦予自身「物攻+2～10%」(1～5人時越多增加越多)(上限30%)",
+      "en": "After using a skill, based on the number of characters with the \"新星\" tag, grants self \"P.ATK +2~10%\" (increases more with 1~5 characters) (Max 30%)"
+    }
+  },
+  "1990507": {
+    "name": "＜新星団結＞物攻の力",
+    "description": {
+      "jp": "「新星」タグを持つキャラ数に応じ「物攻+4～20%」(1～5人で多いほど増加)",
+      "zh": "依據持有「新星」標籤的角色數量，物攻+4～20%(1～5人時越多增加越多)",
+      "en": "P.ATK +4~20% based on the number of characters with the \"新星\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990508": {
+    "name": "＜新星団結＞ブレイク被ダメージアップ",
+    "description": {
+      "jp": "攻撃対象がブレイク時、「新星」のタグをもつキャラクターの数に応じ、対象に「受けるダメージ+4～20%」を2回攻撃を受けるまで付与(1～5人で多いほど増加)",
+      "zh": "對象破防時，依據持有「新星」標籤的角色數量，賦予對象「受到傷害+4～20%」直到受到2次攻擊為止(1～5人時越多增加越多)",
+      "en": "When the target enters Break state, based on the number of characters with the \"新星\" tag, inflicts \"Damage Taken +4~20%\" on the target until hit 2 times (increases more with 1~5 characters)"
+    }
+  },
+  "1990509": {
+    "name": "＜新星団結＞破壊の力",
+    "description": {
+      "jp": "「新星」タグを持つキャラ数に応じ「ブレイクダメージ+4～20%」(1～5人で多いほど増加)",
+      "zh": "依據持有「新星」標籤的角色數量，破防傷害+4～20%(1～5人時越多增加越多)",
+      "en": "Break DMG +4~20% based on the number of characters with the \"新星\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990510": {
+    "name": "＜新星団結＞溢れ出る会心確率の力",
+    "description": {
+      "jp": "味方全員は「新星」タグを持つキャラ数に応じ「クリティカル確率+20～100%」(1～5人で多いほど増加)",
+      "zh": "我方全員會依據持有「新星」標籤的角色數量獲得「暴擊率+20～100%」(1～5人時越多增加越多)",
+      "en": "All allies gain \"Crit Rate +20~100%\" based on the number of characters with the \"新星\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990511": {
+    "name": "＜新星団結＞溢れ出る会心の力",
+    "description": {
+      "jp": "味方全員は「新星」タグを持つキャラ数に応じ「クリティカルダメージ+4～20%」(1～5人で多いほど増加)",
+      "zh": "我方全員會依據持有「新星」標籤的角色數量獲得「暴擊傷害+4～20%」(1～5人時越多增加越多)",
+      "en": "All allies gain \"Crit DMG +4~20%\" based on the number of characters with the \"新星\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990512": {
+    "name": "＜新星＞スキル後ヒール",
+    "description": {
+      "jp": "スキル発動後、「新星」の味方全員のHPを10%回復",
+      "zh": "技能發動後，回復「新星」我方全員10%HP",
+      "en": "After using a skill, restores 10% HP to all allies from \"新星\""
+    }
+  },
+  "1990513": {
+    "name": "＜新星団結＞溢れ出る闘争の力",
+    "description": {
+      "jp": "味方全員は「新星」タグを持つキャラ数に応じ「スキルダメージ+4～20%」(1～5人で多いほど増加)",
+      "zh": "我方全員會依據持有「新星」標籤的角色數量獲得「技能傷害+4～20%」(1～5人時越多增加越多)",
+      "en": "All allies gain \"Skill DMG +4~20%\" based on the number of characters with the \"新星\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990514": {
+    "name": "＜新星＞ヘイト＆体力の力",
+    "description": {
+      "jp": "敵にとても狙われやすくなる\n\n得意属性が火属性または「新星」の味方全員の最大HP+20%\nバトル開始時、味方全員のHPを100%回復",
+      "zh": "更容易成為攻擊目標<br><br>所有火屬性或「新星」的我方角色最大HP+20%<br>戰鬥開始時，回復我方全員100%HP",
+      "en": "More likely to be targeted.<br><br>All Fire attribute allies or allies from \"新星\" gain Max HP +20%<br>At the start of battle, restores 100% HP to all allies"
+    }
+  },
+  "1990515": {
+    "name": "＜新星団結＞溢れ出る物防＆魔防の力",
+    "description": {
+      "jp": "味方全員は「新星」タグを持つキャラ数に応じ「物防・魔防+3～15%」(1～5人で多いほど増加)",
+      "zh": "我方全員會依據持有「新星」標籤的角色數量獲得「物防・魔防+3～15%」(1～5人時越多增加越多)",
+      "en": "All allies gain \"P.DEF/M.DEF +3~15%\" based on the number of characters with the \"新星\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990516": {
+    "name": "兄の背を追って",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>「餓狼の影」が付与された敵を攻撃後、自身のバーストゲージを15%増加<br>スキル発動後、味方全員のHPを15%回復",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>攻擊持有「餓狼の影」的敵人後，自身爆發量條增加15%<br>技能發動後，回復我方全員15%HP",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>After attacking an enemy inflicted with \"餓狼の影\", increases self Burst Gauge by 15%<br>After using a skill, restores 15% HP to all allies"
+    }
+  },
+  "1990517": {
+    "name": "兄想いの献身",
+    "description": {
+      "jp": "バトル開始時、得意属性が物理属性の味方全員に以下の追加効果を付与<br>追加効果：「HP回復を受けた時、自身にクリティカルダメージ+35%を付与(上限210%)(効果量固定)」<br><br>※バトル開始時に発動した回復効果は含まない",
+      "zh": "戰鬥開始時，賦予所有物理屬性的我方角色以下追加效果<br>追加效果：「受到HP回復時，賦予自身暴擊傷害+35%」(上限210%)(固定效果量)<br><br>※不包含戰鬥開始時發動的回復效果",
+      "en": "At the start of battle, grants the following additional effect to all Physical attribute allies<br>Additional Effect: \"When receiving HP recovery, grants self Crit DMG +35%\" (Max 210%) (fixed effect value)<br><br>※Does not include recovery effects activated at the start of battle"
+    }
+  },
+  "1990518": {
+    "name": "頼れる兄として",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>「餓狼の影」が付与された敵を攻撃後、自身のバーストゲージを15%増加<br>「餓狼の影(Lv10)」が付与された対象を攻撃時、「バーストスキルダメージ+50%」を1回行動終了するまで付与し、自身のバーストゲージを100%増加(発動上限3回)",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>攻擊持有「餓狼の影」的敵人後，自身爆發量條增加15%<br>攻擊持有「餓狼の影(Lv10)」的對象時，賦予自身「爆發技能傷害+50%」直到1次行動結束為止，並使自身爆發量條增加100%(發動上限3次)",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>After attacking an enemy inflicted with \"餓狼の影\", increases self Burst Gauge by 15%<br>When attacking a target inflicted with \"餓狼の影(Lv10)\", grants self \"Burst Skill DMG +50%\" until the end of 1 action and increases self Burst Gauge by 100% (activation limit: 3 times)"
+    }
+  },
+  "1990519": {
+    "name": "弟と共に見る夢",
+    "description": {
+      "jp": "パーティに自身以外の「騎士」がいる時、基礎物攻+300",
+      "zh": "隊伍中存在自身以外的「騎士」時，基礎物攻+300",
+      "en": "Base P.ATK +300 when there is another \"Knight\" in the party besides self"
+    }
+  },
+  "1990520": {
+    "name": "一族秘伝の錬金術",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>クリティカル攻撃後、自身のバーストゲージを15%増加<br>スキル発動前に状態異常が付与されている敵を攻撃後、自身のバーストゲージを20%増加<br><br>スキル発動前に自身に付与されている強化効果の数が10個以上の時、クリティカル確率+100%<br>自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限400%)",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>暴擊攻擊後，自身爆發量條增加15%<br>技能發動前攻擊持有異常狀態的敵人後，自身爆發量條增加20%<br><br>技能發動前自身持有10個以上強化效果時，暴擊率+100%<br>自身暴擊率超過100%時，攻擊時會將超過100%的暴擊率提升量轉換為暴擊傷害提升(轉換上限400%)",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>After a Crit attack, increases self Burst Gauge by 15%<br>After attacking an enemy inflicted with a status ailment before using a skill, increases self Burst Gauge by 20%<br><br>When self has 10 or more buffs before using a skill, Crit Rate +100%<br>When self Crit Rate exceeds 100%, converts the amount exceeding 100% into Crit DMG when attacking (conversion cap: 400%)"
+    }
+  },
+  "1990521": {
+    "name": "渇望する冥暗",
+    "description": {
+      "jp": "「冥き追憶」タグを持つキャラ数に応じ、スキル威力+30～150%(1～5人で多いほど増加)<br><br>バトル開始時、「シュテルケミッシェン」のスキルランプを2個点灯する<br>スキル発動前に状態異常が付与されている敵を攻撃後、「シュテルケミッシェン」のスキルランプを1個点灯する",
+      "zh": "依據持有「冥き追憶」標籤的角色數量，技能威力+30～150%(1～5人時越多增加越多)<br><br>戰鬥開始時，點亮2個「シュテルケミッシェン」技能燈號<br>技能發動前攻擊持有異常狀態的敵人後，點亮1個「シュテルケミッシェン」技能燈號",
+      "en": "Skill Power +30~150% based on the number of characters with the \"冥き追憶\" tag (increases more with 1~5 characters)<br><br>At the start of battle, lights up 2 \"シュテルケミッシェン\" skill lamps<br>After attacking an enemy inflicted with a status ailment before using a skill, lights up 1 \"シュテルケミッシェン\" skill lamp"
+    }
+  },
+  "1990522": {
+    "name": "不愉快はいらない",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>WEAK攻撃時、自身のバーストゲージを10%増加し、氷属性または「冥き追憶」の味方全員のHPを15%回復し、「スキルダメージ+25%」を付与(上限150%)<br>スキル発動前に状態異常が付与されている敵を攻撃後、自身のバーストゲージを15%増加し、氷属性または「冥き追憶」の味方全員のHPを15%回復し、「物攻・魔攻+40%」を付与(上限80%)",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>WEAK攻擊時，自身爆發量條增加10%，回復所有冰屬性或「冥き追憶」的我方角色15%HP，並賦予「技能傷害+25%」(上限150%)<br>技能發動前攻擊持有異常狀態的敵人後，自身爆發量條增加15%，回復所有冰屬性或「冥き追憶」的我方角色15%HP，並賦予「物攻・魔攻+40%」(上限80%)",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>On WEAK attacks, increases self Burst Gauge by 10%, restores 15% HP to all Ice attribute allies or allies from \"冥き追憶\", and grants \"Skill DMG +25%\" (Max 150%)<br>After attacking an enemy inflicted with a status ailment before using a skill, increases self Burst Gauge by 15%, restores 15% HP to all Ice attribute allies or allies from \"冥き追憶\", and grants \"P.ATK/M.ATK +40%\" (Max 80%)"
+    }
+  },
+  "1990523": {
+    "name": "呪詛する冥暗",
+    "description": {
+      "jp": "「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員の基礎物攻・基礎魔攻+50～400(1～5人で多いほど増加)",
+      "zh": "依據持有「冥き追憶」標籤的角色數量，賦予「冥き追憶」的我方角色基礎物攻・基礎魔攻+50～400(1～5人時越多增加越多)",
+      "en": "Grants allies from \"冥き追憶\" Base P.ATK/Base M.ATK +50~400 based on the number of characters with the \"冥き追憶\" tag (increases more with 1~5 characters)"
+    }
+  },
+  "1990524": {
+    "name": "美しき薔薇の毒",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>ブレイク状態の敵に攻撃時、自身のバーストゲージを30%増加<br>スキル発動前に状態異常が付与されている対象がブレイク時、自身のバーストゲージを50%増加し、「冥き追憶」の味方全員に「クリティカル確率+100%」を1回行動終了するまで付与<br><br>1回目のターン開始時と攻撃対象がブレイク時、自身に「クリティカル確率＋100%」を2回行動終了するまで付与し、敵全体に「麻痺」を1回行動開始するまで超高確率で付与",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>攻擊處於破防狀態的敵人時，自身爆發量條增加30%<br>技能發動前攻擊持有異常狀態且處於破防狀態的對象時，自身爆發量條增加50%，並賦予「冥き追憶」的我方角色「暴擊率+100%」直到1次行動結束為止<br><br>第1次回合開始時與對象破防時，賦予自身「暴擊率+100%」直到2次行動結束為止，並以超高機率賦予敵方全體「麻痺」直到1次行動開始為止",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>When attacking an enemy in Break state, increases self Burst Gauge by 30%<br>When attacking a target inflicted with a status ailment and in Break state before using a skill, increases self Burst Gauge by 50% and grants allies from \"冥き追憶\" \"Crit Rate +100%\" until the end of 1 action<br><br>At the start of the 1st turn and when the target enters Break state, grants self \"Crit Rate +100%\" until the end of 2 actions, and inflicts \"Paralysis\" on all enemies with a very high chance until the start of 1 action"
+    }
+  },
+  "1990525": {
+    "name": "君臨する冥暗",
+    "description": {
+      "jp": "「冥き追憶」タグを持つキャラ数に応じ、自身のブレイクダメージ+50～250%と「冥き追憶」の味方全員の貫通力+50～300(1～5人で多いほど増加)<br><br>バトル開始時、得意属性が氷属性または「冥き追憶」の味方全員に以下の追加効果を付与<br>追加効果：「クリティカル攻撃後、対象に受けるダメージ+40%と受けるブレイクダメージ+40%を付与(全て上限160%)」<br>「スキル発動前に状態異常が付与されている対象を攻撃後、対象に受ける攻撃の貫通力+20を付与(上限100)」",
+      "zh": "依據持有「冥き追憶」標籤的角色數量，自身破防傷害+50～250%，並賦予「冥き追憶」的我方角色貫通力+50～300(1～5人時越多增加越多)<br><br>戰鬥開始時，賦予所有冰屬性或「冥き追憶」的我方角色以下追加效果<br>追加效果：「暴擊攻擊後，賦予對象『受到傷害+40%』與『受到破防傷害+40%』(全部上限160%)」<br>「技能發動前攻擊持有異常狀態的對象後，賦予對象『受到攻擊的貫通力+20』(上限100)」",
+      "en": "Based on the number of characters with the \"冥き追憶\" tag, self gains Break DMG +50~250%, and allies from \"冥き追憶\" gain Penetration +50~300 (increases more with 1~5 characters)<br><br>At the start of battle, grants the following additional effect to all Ice attribute allies or allies from \"冥き追憶\"<br>Additional Effect: \"After a Crit attack, inflicts 'Damage Taken +40%' and 'Break DMG Taken +40%' on the target (all up to 160%)\"<br>\"After attacking a target inflicted with a status ailment before using a skill, inflicts 'Penetration Taken +20' on the target (Max 100)\""
+    }
+  },
+  "1990526": {
+    "name": "もっと強く咲いてみせる！",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>「戦姫開花」のLvが4以上の時、クリティカル攻撃後、自身のバーストゲージを10％増加<br><br>パーティに自身以外の「ランターナ」がいるかつ「戦姫開花」のLvが10の時、クリティカルダメージ+150％",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>「戦姫開花」Lv4以上時，暴擊攻擊後，自身爆發量條增加10%<br><br>隊伍中存在自身以外的「ランターナ」且「戦姫開花」Lv為10時，暴擊傷害+150%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>When \"戦姫開花\" is Lv4 or higher, after a Crit attack, increases self Burst Gauge by 10%<br><br>When there is another \"ランターナ\" in the party besides self and \"戦姫開花\" is Lv10, Crit DMG +150%"
+    }
+  },
+  "1990527": {
+    "name": "やる気いっぱいエール",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>WEAK攻撃時、自身のバーストゲージを10%増加し、味方全員のHPを15%回復し、アイテムゲージを10%回復<br><br>スキル発動前に自身に付与されている強化効果が10個以上かつブレイク状態の敵を攻撃後、以下の効果を全て発動する(発動上限2回)<br>・自身のバーストゲージを100%増加<br>・スキル発動前に物攻が最も高い味方1人に付与されている与ダメージUP効果を1回延長<br>※バトル開始時に発動した回数制限のない強化効果は含まない<br>※延長効果が発動したターンに付与される与ダメージUP効果は延長の対象に含まない",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>WEAK攻擊時，自身爆發量條增加10%，回復我方全員15%HP，並回復道具量條10%<br><br>技能發動前自身持有10個以上強化效果且攻擊處於破防狀態的敵人後，發動以下所有效果(發動上限2次)<br>・自身爆發量條增加100%<br>・將技能發動前物攻最高的1名我方角色持有的與傷害提升效果延長1次<br>※不包含戰鬥開始時發動且無次數限制的強化效果<br>※於延長效果發動回合中賦予的與傷害提升效果不列入延長對象",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>On WEAK attacks, increases self Burst Gauge by 10%, restores 15% HP to all allies, and restores 10% Item Gauge<br><br>When self has 10 or more buffs before using a skill and attacks an enemy in Break state, activates all of the following effects (activation limit: 2 times)<br>・Increases self Burst Gauge by 100%<br>・Extends Damage Dealt UP effects granted to the ally with the highest P.ATK before skill activation by 1 time<br>※Does not include unlimited-duration buffs activated at the start of battle<br>※Damage Dealt UP effects granted during the same turn as the extension effect are not included"
+    }
+  },
+  "1990528": {
+    "name": "一緒に秩序を守りましょう！",
+    "description": {
+      "jp": "「無数島群域」タグを持つキャラ数に応じ、与える強化効果量+10～50%(1～3人で多いほど増加)<br><br>パーティの誰かがバーストスキル発動後、得意属性が突属性の味方全員に「受けるバーストゲージ増加量+10%」を付与(上限50%)<br>パーティの誰かがバーストスキル以外のスキル発動後または戦闘アイテム使用後、「無数島群域」の味方全員に「物攻・魔攻+15%」を付与(上限150%)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "依據持有「無数島群域」標籤的角色數量，賦予強化效果量+10～50%(1～3人時越多增加越多)<br><br>隊伍中任一角色發動爆發技能後，賦予所有突屬性的我方角色「受到爆發量條增加量+10%」(上限50%)<br>隊伍中任一角色發動非爆發技能後或使用戰鬥道具後，賦予「無数島群域」的我方角色「物攻・魔攻+15%」(上限150%)<br>※同時使用複數道具也只會發動1次",
+      "en": "Buff effect amount granted +10~50% based on the number of characters with the \"無数島群域\" tag (increases more with 1~3 characters)<br><br>After anyone in the party activates a Burst Skill, grants all Pierce attribute allies \"Burst Gauge Gain Received +10%\" (Max 50%)<br>After anyone in the party uses a non-Burst Skill or a battle item, grants allies from \"無数島群域\" \"P.ATK/M.ATK +15%\" (Max 150%)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990529": {
+    "name": "悪を狩る仮面",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>攻撃対象がブレイク時、自身のバーストゲージを40%増加し、自身のHPを20%回復し、アイテムゲージを30%回復<br>ブレイク状態の敵を攻撃時、自身のバーストゲージを30%増加<br><br>パーティに自身以外の「無数島群域」がいる時、味方全員のバトル中に与えるマイナス効果量+50%",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>對象破防時，自身爆發量條增加40%，回復自身20%HP，並回復道具量條30%<br>攻擊處於破防狀態的敵人時，自身爆發量條增加30%<br><br>隊伍中存在自身以外的「無数島群域」時，我方全員於戰鬥中賦予的負面效果量+50%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>When the target enters Break state, increases self Burst Gauge by 40%, restores 20% HP to self, and restores 30% Item Gauge<br>When attacking an enemy in Break state, increases self Burst Gauge by 30%<br><br>When there is another \"無数島群域\" in the party besides self, negative effect amount inflicted by all allies during battle +50%"
+    }
+  },
+  "1990530": {
+    "name": "利害の一致ってやつだね",
+    "description": {
+      "jp": "パーティの誰かがバーストスキル発動後、「無数島群域」の味方全員に「クリティカルダメージ+50%」を付与(上限200%)<br>パーティの誰かがバーストスキル以外のスキル発動後または戦闘アイテム使用後、自身に「ブレイクダメージ+25%」を付与(上限200%)<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "隊伍中任一角色發動爆發技能後，賦予「無数島群域」的我方角色「暴擊傷害+50%」(上限200%)<br>隊伍中任一角色發動非爆發技能後或使用戰鬥道具後，賦予自身「破防傷害+25%」(上限200%)<br>※同時使用複數道具也只會發動1次",
+      "en": "After anyone in the party activates a Burst Skill, grants allies from \"無数島群域\" \"Crit DMG +50%\" (Max 200%)<br>After anyone in the party uses a non-Burst Skill or a battle item, grants self \"Break DMG +25%\" (Max 200%)<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990531": {
+    "name": "九偉人の力-Ⅵ-",
+    "description": {
+      "jp": "敵にとても狙われやすくなる<br>得意属性が突属性または「冥き追憶」の味方全員の最大HP+40%<br>バトル開始時、味方全員のHPを100%回復<br>スキル発動後、味方全員のHPを10%回復し、<br>スキル使用前に「バリア」が付与されている味方全員のHPをさらに5%回復",
+      "zh": "更容易成為攻擊目標<br>所有突屬性或「冥き追憶」的我方角色最大HP+40%<br>戰鬥開始時，回復我方全員100%HP<br>技能發動後，回復我方全員10%HP，並額外回復技能使用前持有「Barrier」的我方角色5%HP",
+      "en": "More likely to be targeted.<br>All Pierce attribute allies or allies from \"冥き追憶\" gain Max HP +40%<br>At the start of battle, restores 100% HP to all allies<br>After using a skill, restores 10% HP to all allies, and additionally restores 5% HP to allies who had \"Barrier\" before skill activation"
+    }
+  },
+  "1990532": {
+    "name": "熟考する冥暗",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>攻撃を受けた時、自身のバーストゲージを15%増加<br><br>自身のHPが70%、40%以下になった時、自身のバーストゲージを100%増加(全て発動上限1回)<br>自身に付与されている強化効果の数に応じ、受けるダメージ-3〜30%(1〜10個で多いほど増加)(効果量固定)<br>※バトル開始時に発動した回数制限のない強化効果は含まない<br><br>「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員の基礎物防・基礎魔防+100～500(1～5人で多いほど増加)",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>受到攻擊時，自身爆發量條增加15%<br><br>自身HP降至70%、40%以下時，自身爆發量條增加100%(全部發動上限1次)<br>依據自身持有的強化效果數量，受到傷害-3～30%(1～10個時越多增加越多)(固定效果量)<br>※不包含戰鬥開始時發動且無次數限制的強化效果<br><br>依據持有「冥き追憶」標籤的角色數量，賦予「冥き追憶」的我方角色基礎物防・基礎魔防+100～500(1～5人時越多增加越多)",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>When attacked, increases self Burst Gauge by 15%<br><br>When self HP falls below 70% or 40%, increases self Burst Gauge by 100% (all activation limit: 1 time)<br>Damage Taken -3~30% based on the number of buffs granted to self (increases more with 1~10 buffs) (fixed effect value)<br>※Does not include unlimited-duration buffs activated at the start of battle<br><br>Based on the number of characters with the \"冥き追憶\" tag, grants allies from \"冥き追憶\" Base P.DEF/Base M.DEF +100~500 (increases more with 1~5 characters)"
+    }
+  },
+  "1990533": {
+    "name": "秩序の番人",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>クリティカル攻撃時、自身のバーストゲージを20%増加<br>スキルで撃破時、自身のバーストゲージを100%増加<br><br>パーティに自身以外の「無数島群域」がいる時、基礎物攻+400",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存2圈<br><br>暴擊攻擊時，自身爆發量條增加20%<br>以技能擊破敵人時，自身爆發量條增加100%<br><br>隊伍中存在自身以外的「無数島群域」時，基礎物攻+400",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>On Crit attacks, increases self Burst Gauge by 20%<br>When defeating an enemy with a skill, increases self Burst Gauge by 100%<br><br>When there is another \"無数島群域\" in the party besides self, Base P.ATK +400"
+    }
+  },
+  "1990534": {
+    "name": "我々の使命を果たそう",
+    "description": {
+      "jp": "パーティの誰かがバーストスキル発動後、自身に「コールサインα」が付与されていない時、「コールサインα(Lv2)」を付与<br>既に付与されている時、「コールサインα」のLv+2(上限Lv10)<br>パーティの誰かがバーストスキル以外のスキル発動後または戦闘アイテム使用後、自身に「コールサインα」が付与されていない時、「コールサインα(Lv1)」を付与<br>既に付与されている時、「コールサインα」のLv+1(上限Lv10)<br>※アイテムを複数同時に使用しても発動は1回<br>※「オーダー：インターセプト」発動時、以上の効果は発動しない",
+      "zh": "隊伍中任一角色發動爆發技能後，若自身未持有「コールサインα」，則賦予「コールサインα(Lv2)」<br>已持有時，「コールサインα」Lv+2(上限Lv10)<br>隊伍中任一角色發動非爆發技能後或使用戰鬥道具後，若自身未持有「コールサインα」，則賦予「コールサインα(Lv1)」<br>已持有時，「コールサインα」Lv+1(上限Lv10)<br>※同時使用複數道具也只會發動1次<br>※發動「オーダー：インターセプト」時，不會發動以上效果",
+      "en": "After anyone in the party activates a Burst Skill, if self does not have \"コールサインα\", grants \"コールサインα(Lv2)\"<br>If already granted, \"コールサインα\" Lv +2 (Max Lv10)<br>After anyone in the party uses a non-Burst Skill or a battle item, if self does not have \"コールサインα\", grants \"コールサインα(Lv1)\"<br>If already granted, \"コールサインα\" Lv +1 (Max Lv10)<br>※Even if multiple items are used simultaneously, it only activates once<br>※These effects do not activate when \"オーダー：インターセプト\" is activated"
+    }
+  },
+  "1990535": {
+    "name": "よそ見厳禁でござる！",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>HP回復を受けた時、自身のバーストゲージを10%増加<br>WEAK攻撃後、自身のバーストゲージを15%増加<br>スキルで撃破時、自身のバーストゲージを100%増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>受到HP回復時，自身爆發量條增加10%<br>WEAK攻擊後，自身爆發量條增加15%<br>以技能擊破敵人時，自身爆發量條增加100%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>When receiving HP recovery, increases self Burst Gauge by 10%<br>After a WEAK attack, increases self Burst Gauge by 15%<br>When defeating an enemy with a skill, increases self Burst Gauge by 100%"
+    }
+  },
+  "1990536": {
+    "name": "貴殿の心にお邪魔しまする！",
+    "description": {
+      "jp": "「レスレリ学園」タグを持つキャラ数に応じ、基礎魔攻+100～400(1～4人で多いほど増加)<br><br>バーストゲージが200%以上かつバーストスキル発動後、バーストゲージをさらに100%消費し、現在HPが最も低い敵へ追加攻撃：[passive:14003726]バチっとウィンク[/passive]を発動する",
+      "zh": "依據持有「レスレリ学園」標籤的角色數量，基礎魔攻+100～400(1～4人時越多增加越多)<br><br>爆發量條達200%以上且發動爆發技能後，額外消耗100%爆發量條，對目前HP最低的敵人發動追加攻擊：[passive:14003726]バチっとウィンク[/passive]",
+      "en": "Base M.ATK +100~400 based on the number of characters with the \"レスレリ学園\" tag (increases more with 1~4 characters)<br><br>When Burst Gauge is 200% or higher and after activating a Burst Skill, additionally consumes 100% Burst Gauge and activates additional attack: [passive:14003726]バチっとウィンク[/passive] against the enemy with the lowest current HP"
+    }
+  },
+  "1990537": {
+    "name": "みんなでトップを目指すわよ！",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは4周分ストック可能<br><br>「レスレリ学園」の味方全員のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>自身を除くパーティの誰かがバーストスキル発動後、自身のバーストゲージを20%増加<br>スキル発動後、得意属性が雷属性または「レスレリ学園」の味方全員のバーストゲージを15%増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存4圈<br><br>「レスレリ学園」的我方角色爆發技能量條化<br>※爆發量條可儲存2圈<br><br>自身以外的隊伍角色發動爆發技能後，自身爆發量條增加20%<br>技能發動後，所有雷屬性或「レスレリ学園」的我方角色爆發量條增加15%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 4 rotations<br><br>All allies from \"レスレリ学園\" have their Burst Skills become gauge-based<br>※Burst Gauge can store up to 2 rotations<br><br>After another party member activates a Burst Skill, increases self Burst Gauge by 20%<br>After using a skill, increases Burst Gauge of all Thunder attribute allies or allies from \"レスレリ学園\" by 15%"
+    }
+  },
+  "1990538": {
+    "name": "絶対一番、ナンバーワン！",
+    "description": {
+      "jp": "「レスレリ学園」タグを持つキャラ数に応じ、得意属性が雷属性または「レスレリ学園」の味方全員のバトル中に受けるバーストゲージ増加量+30～50%(1～5人で多いほど増加)<br><br>バーストゲージが200%以上かつバーストスキル発動後、バーストゲージをさらに100%消費し、現在HPが最も高い敵へ追加攻撃：[/passive:14003727]キラっとファンサ[/passive]を発動する",
+      "zh": "依據持有「レスレリ学園」標籤的角色數量，所有雷屬性或「レスレリ学園」的我方角色於戰鬥中受到的爆發量條增加量+30～50%(1～5人時越多增加越多)<br><br>爆發量條達200%以上且發動爆發技能後，額外消耗100%爆發量條，對目前HP最高的敵人發動追加攻擊：[passive:14003727]キラっとファンサ[/passive]",
+      "en": "Burst Gauge gain received during battle by all Thunder attribute allies or allies from \"レスレリ学園\" +30~50% based on the number of characters with the \"レスレリ学園\" tag (increases more with 1~5 characters)<br><br>When Burst Gauge is 200% or higher and after activating a Burst Skill, additionally consumes 100% Burst Gauge and activates additional attack: [passive:14003727]キラっとファンサ[/passive] against the enemy with the highest current HP"
+    }
+  },
+  "1990539": {
+    "name": "アタシの演奏にしびれちゃえ！",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>スキル発動後、自身のバーストゲージを10%増加<br>ブレイク状態の敵を攻撃後、自身のバーストゲージを30%増加<br>攻撃対象がブレイク時、自身のバーストゲージを60%増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>技能發動後，自身爆發量條增加10%<br>攻擊處於破防狀態的敵人後，自身爆發量條增加30%<br>對象破防時，自身爆發量條增加60%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>After using a skill, increases self Burst Gauge by 10%<br>After attacking an enemy in Break state, increases self Burst Gauge by 30%<br>When the target enters Break state, increases self Burst Gauge by 60%"
+    }
+  },
+  "1990540": {
+    "name": "ねこじゃらしよりハンマー！",
+    "description": {
+      "jp": "攻撃対象がブレイク時、味方全員に「スキルダメージ+50%」を付与し、さらに「レスレリ学園」の味方全員に「スキルダメージ+50%」を付与(全て上限100％)<br><br>バーストゲージが200%以上かつバーストスキル発動後、バーストゲージをさらに100%消費し、残りブレイクゲージが最も高い敵へ追加攻撃：[passive:14003728]とびっきりピース[/passive]を発動する",
+      "zh": "對象破防時，賦予我方全員「技能傷害+50%」，並額外賦予「レスレリ学園」的我方角色「技能傷害+50%」(全部上限100%)<br><br>爆發量條達200%以上且發動爆發技能後，額外消耗100%爆發量條，對剩餘Break Gauge最高的敵人發動追加攻擊：[passive:14003728]とびっきりピース[/passive]",
+      "en": "When the target enters Break state, grants all allies \"Skill DMG +50%\", and additionally grants allies from \"レスレリ学園\" \"Skill DMG +50%\" (all up to 100%)<br><br>When Burst Gauge is 200% or higher and after activating a Burst Skill, additionally consumes 100% Burst Gauge and activates additional attack: [passive:14003728]とびっきりピース[/passive] against the enemy with the highest remaining Break Gauge"
+    }
+  },
+  "1990541": {
+    "name": "フレーフレー、みんな！",
+    "description": {
+      "jp": "スキル発動後、「レスレリ学園」の味方全員のバーストゲージを10％増加<br>パーティの誰かがバーストスキルで敵を撃破時、「レスレリ学園」の味方全員のバーストゲージを30％増加",
+      "zh": "技能發動後，「レスレリ学園」的我方角色爆發量條增加10%<br>隊伍中任一角色以爆發技能擊破敵人時，「レスレリ学園」的我方角色爆發量條增加30%",
+      "en": "After using a skill, increases Burst Gauge of allies from \"レスレリ学園\" by 10%<br>When anyone in the party defeats an enemy with a Burst Skill, increases Burst Gauge of allies from \"レスレリ学園\" by 30%"
+    }
+  },
+  "1990542": {
+    "name": "みんなと一緒に駆け抜けます！",
+    "description": {
+      "jp": "「レスレリ学園」タグを持つキャラ数に応じ、スキルダメージ+20～100％(1～5人で多いほど増加)<br>クリティカル攻撃後、「レスレリ学園」タグを持つキャラ数に応じ、自身に「スキル威力+10～50%」を2回行動終了するまで付与(1～5人で多いほど増加)",
+      "zh": "依據持有「レスレリ学園」標籤的角色數量，技能傷害+20～100%(1～5人時越多增加越多)<br>暴擊攻擊後，依據持有「レスレリ学園」標籤的角色數量，賦予自身「技能威力+10～50%」直到2次行動結束為止(1～5人時越多增加越多)",
+      "en": "Skill DMG +20~100% based on the number of characters with the \"レスレリ学園\" tag (increases more with 1~5 characters)<br>After a Crit attack, based on the number of characters with the \"レスレリ学園\" tag, grants self \"Skill Power +10~50%\" until the end of 2 actions (increases more with 1~5 characters)"
+    }
+  },
+  "1990543": {
+    "name": "星に捧げる祈り",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パーティの誰かが戦闘アイテム使用時、自身のバーストゲージを50%増加<br>※アイテムを複数同時に使用しても発動は1回<br><br>パネル獲得時、自身に「スキルダメージ+50%」を付与(上限200%)し、アイテムゲージを30%回復",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>隊伍中任一角色使用戰鬥道具時，自身爆發量條增加50%<br>※同時使用複數道具也只會發動1次<br><br>獲得面板時，賦予自身「技能傷害+50%」(上限200%)，並回復道具量條30%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>When anyone in the party uses a battle item, increases self Burst Gauge by 50%<br>※Even if multiple items are used simultaneously, it only activates once<br><br>When acquiring a panel, grants self \"Skill DMG +50%\" (Max 200%) and restores 30% Item Gauge"
+    }
+  },
+  "1990544": {
+    "name": "説法の時間です",
+    "description": {
+      "jp": "バトル開始時、「クーゲルウルタイル」のスキルランプを3個点灯<br>パネル獲得時またはパーティの誰かが戦闘アイテム使用時、「クーゲルウルタイル」のスキルランプを1個点灯する<br>※アイテムを複数同時に使用しても発動は1回<br><br>弱体パネルと弱体+パネル無効<br>パネルから受ける強化効果量+50%<br>戦闘アイテムから受ける強化効果量+50%<br>パーティに自身以外の「家族と友情」がいる時、自身の基礎物攻+400",
+      "zh": "戰鬥開始時，點亮3個「クーゲルウルタイル」技能燈號<br>獲得面板時或隊伍中任一角色使用戰鬥道具時，點亮1個「クーゲルウルタイル」技能燈號<br>※同時使用複數道具也只會發動1次<br><br>弱化面板與弱化+面板無效<br>從面板獲得的強化效果量+50%<br>從戰鬥道具獲得的強化效果量+50%<br>隊伍中存在自身以外的「家族と友情」時，自身基礎物攻+400",
+      "en": "At the start of battle, lights up 3 \"クーゲルウルタイル\" skill lamps<br>When acquiring a panel or when anyone in the party uses a battle item, lights up 1 \"クーゲルウルタイル\" skill lamp<br>※Even if multiple items are used simultaneously, it only activates once<br><br>Debuff Panels and Debuff+ Panels are nullified<br>Buff effect amount received from panels +50%<br>Buff effect amount received from battle items +50%<br>When there is another \"家族と友情\" in the party besides self, self Base P.ATK +400"
+    }
+  },
+  "1990545": {
+    "name": "ロックオンバレット",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>自身が赫の凶弾パネル獲得時、バーストスキルを発動できる<br>ブレイク状態の対象を攻撃時、自身のバーストゲージを30%増加<br>パーティの誰かが戦闘アイテム使用時、自身のバーストゲージを30%増加<br>※アイテムを複数同時に使用しても発動は1回",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>自身獲得「赫の凶弾パネル」時，可發動爆發技能<br>攻擊處於破防狀態的對象時，自身爆發量條增加30%<br>隊伍中任一角色使用戰鬥道具時，自身爆發量條增加30%<br>※同時使用複數道具也只會發動1次",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>When self acquires \"赫の凶弾パネル\", Burst Skill can be activated<br>When attacking a target in Break state, increases self Burst Gauge by 30%<br>When anyone in the party uses a battle item, increases self Burst Gauge by 30%<br>※Even if multiple items are used simultaneously, it only activates once"
+    }
+  },
+  "1990546": {
+    "name": "向き合うって決めたんだ",
+    "description": {
+      "jp": "バトル開始時、味方全員に以下の追加効果を付与<br>追加効果：「マイナスパネル獲得時、自身のバーストゲージを25%増加」<br><br>パネル獲得時、自身に「ブレイク威力+20%」を1回行動終了するまで付与し、アイテムゲージを20%回復<br><br>パネルから受ける強化効果量+50%<br>パーティに自身以外の「家族と友情」がいる時、自身のブレイクダメージ+50%と味方全員の戦闘アイテムから受ける強化効果量+50%",
+      "zh": "戰鬥開始時，賦予我方全員以下追加效果<br>追加效果：「獲得負面面板時，自身爆發量條增加25%」<br><br>獲得面板時，賦予自身「破防威力+20%」直到1次行動結束為止，並回復道具量條20%<br><br>從面板獲得的強化效果量+50%<br>隊伍中存在自身以外的「家族と友情」時，自身破防傷害+50%，並使我方全員從戰鬥道具獲得的強化效果量+50%",
+      "en": "At the start of battle, grants the following additional effect to all allies<br>Additional Effect: \"When acquiring a negative panel, increases self Burst Gauge by 25%\"<br><br>When acquiring a panel, grants self \"Break Power +20%\" until the end of 1 action and restores 20% Item Gauge<br><br>Buff effect amount received from panels +50%<br>When there is another \"家族と友情\" in the party besides self, self Break DMG +50% and buff effect amount received from battle items by all allies +50%"
+    }
+  },
+  "1990547": {
+    "name": "九偉人の力-Ⅳ-",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>自身に回避が付与された時、自身のバーストゲージを15%増加<br>自身への攻撃から1ダメージ以上受けなかった時、自身のバーストゲージを20%増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>自身被賦予迴避時，自身爆發量條增加15%<br>自身受到攻擊時未受到1以上傷害時，自身爆發量條增加20%",
+      "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rotations<br><br>When self is granted Evasion, increases self Burst Gauge by 15%<br>When taking no damage greater than 0 from an attack, increases self Burst Gauge by 20%"
+    }
+  },
+  "1990548": {
+    "name": "愚弄する冥暗",
+    "description": {
+      "jp": "「ゾディアクス」または「ルキドゥス・シデラ」発動後、ディフェンダーの味方全員に以下の追加効果を1回行動終了するまで付与<br>追加効果：「スキル発動後、敵全体に挑発を2回行動終了するまで超高確率で付与」<br><br>スキル発動前に状態異常が付与されている対象を攻撃後、味方全員に「スキルダメージ+50%」と「ブレイクダメージ+50%」を付与(全て上限300%)<br><br>「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員のスキル威力+8～40%とバトル中に受けるバーストゲージ増加量+8～40%(1～5人で多いほど増加)",
+      "zh": "發動「ゾディアクス」或「ルキドゥス・シデラ」後，賦予所有Defender我方角色以下追加效果直到1次行動結束為止<br>追加效果：「技能發動後，以超高機率賦予敵方全體『挑發』直到2次行動結束為止」<br><br>技能發動前攻擊持有異常狀態的對象後，賦予我方全員「技能傷害+50%」與「破防傷害+50%」(全部上限300%)<br><br>依據持有「冥き追憶」標籤的角色數量，賦予「冥き追憶」的我方角色技能威力+8～40%與戰鬥中受到的爆發量條增加量+8～40%(1～5人時越多增加越多)",
+      "en": "After activating \"ゾディアクス\" or \"ルキドゥス・シデラ\", grants the following additional effect to all Defender allies until the end of 1 action<br>Additional Effect: \"After using a skill, inflicts 'Taunt' on all enemies with a very high chance until the end of 2 actions\"<br><br>After attacking a target inflicted with a status ailment before using a skill, grants all allies \"Skill DMG +50%\" and \"Break DMG +50%\" (all up to 300%)<br><br>Based on the number of characters with the \"冥き追憶\" tag, grants allies from \"冥き追憶\" Skill Power +8~40% and Burst Gauge gain received during battle +8~40% (increases more with 1~5 characters)"
+    }
+  }
+}

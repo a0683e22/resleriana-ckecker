@@ -1,6 +1,36 @@
 {
-  "version": "2026-05-10",
+  "version": "2026-05-12",
   "notes": [
+    {
+      "date": "2026-05-12",
+      "title": "Skill Viewer Update",
+      "items": [
+        {
+          "text": "Improved Skill List",
+          "details": [
+            {
+              "type": "improve",
+              "contents": [
+                "Completed skill previews for all characters.",
+                "Added preview support for Transform, Active, Extra, and other special skills.",
+                "Add Passive/Ldeader Skill Preview."
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Share URL BUG Fix",
+          "details": [
+            {
+              "type": "fix",
+              "contents": [
+                "Fixed an issue where shared URLs did not display the correct ownership data."
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-10",
       "title": "Update Note",
@@ -10,7 +40,9 @@
           "details": [
             {
               "type": "new",
-              "content": "Display only characters with available 6★ awakenings."
+              "contents": [
+                "Display only characters with available 6★ awakenings."
+              ]
             }
           ]
         },
@@ -19,7 +51,9 @@
           "details": [
             {
               "type": "new",
-              "content": "Display only owned characters."
+              "contents": [
+                "Display only owned characters."
+              ]
             }
           ]
         },
@@ -28,7 +62,10 @@
           "details": [
             {
               "type": "improve",
-              "content": "In List View, clicking the character portrait on the right now shows skill information.\\nAdded CHT / JP / EN language support for skill descriptions."
+              "contents": [
+                "In List View, clicking the character portrait on the right now shows skill information.",
+                "Added CHT / JP / EN language support for skill descriptions."
+              ]
             }
           ]
         },
@@ -37,22 +74,10 @@
           "details": [
             {
               "type": "improve",
-              "content": "Optimized the URL encoding method to generate shorter share links.\\nShare URLs generated before this update are no longer supported."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-05-07",
-      "title": "Update Note",
-      "items": [
-        {
-          "text": "Add Grid View",
-          "details": [
-            {
-              "type": "new",
-              "content": "Added Grid View for easier character selection."
+              "contents": [
+                "Optimized the URL encoding method to generate shorter share links.",
+                "Share URLs generated before this update are no longer supported."
+              ]
             }
           ]
         }
