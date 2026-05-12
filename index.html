@@ -1382,44 +1382,36 @@
          // ===== Share URL / LocalStorage =====
          
          const params =
-            new URLSearchParams(window.location.search);
-         
-         const sharedKey = params.get('k');
-         
-         if (sharedKey) {
-         
-            try {
-         
-                const ids =
-                    decodeKeyToIds(sharedKey);
-         
-                document
-                    .querySelectorAll('.owned-check')
-                    .forEach(cb => {
-         
-                        cb.checked =
-                            ids.includes(
-                                Number(cb.dataset.id)
-                            );
-         
-                    });
-         
-            } catch (e) {
-         
-                console.error(
-                    'share decode failed',
-                    e
-                );
-         
-                loadFromLocalStorage();
-         
-            }
-         
-         } else {
-         
-            loadFromLocalStorage();
-         
-         }
+new URLSearchParams(window.location.search);
+
+const sharedKey = params.get('k');
+
+if (sharedKey) {
+
+    try {
+
+        const ids =
+        decodeKeyToIds(sharedKey);
+
+        renderCharacters(allCharacters);
+
+        setCheckedIds(ids);
+
+    } catch (e) {
+
+        console.error(e);
+
+        loadFromLocalStorage();
+
+    }
+
+} else {
+
+    renderCharacters(allCharacters);
+
+    loadFromLocalStorage();
+
+}
          
          // ===== UI =====
          
