@@ -4441,8 +4441,8 @@
       "skill_id": 11001698,
       "name": "ステラトワリング",
       "jp": "攻撃後、自身に「スキルダメージ+{0}%」を付与(上限60%)し、<br>自身に「素早さ+{1}%」と「魔攻+{2}%」を1回行動終了するまで付与",
-      "zh": "",
-      "en": ""
+      "zh": "攻擊後，賦予自身「技能傷害+{0}%」(上限60%)，<br>並賦予自身「速度+{1}%」與「魔攻+{2}%」直到1次行動結束為止",
+      "en": "After attacking, grants self \"Skill DMG +{0}%\" (Max 60%),<br>and grants self \"SPD +{1}%\" and \"M.ATK +{2}%\" until the end of 1 action"
     },
       "transform_skill2": {
       "skill_id": 12001703,
