@@ -3243,7 +3243,7 @@
     "name": "愚弄する冥暗",
     "description": {
       "jp": "「ゾディアクス」または「ルキドゥス・シデラ」発動後、ディフェンダーの味方全員に以下の追加効果を1回行動終了するまで付与<br>追加効果：「スキル発動後、敵全体に挑発を2回行動終了するまで超高確率で付与」<br><br>スキル発動前に状態異常が付与されている対象を攻撃後、味方全員に「スキルダメージ+50%」と「ブレイクダメージ+50%」を付与(全て上限300%)<br><br>「冥き追憶」タグを持つキャラ数に応じ、「冥き追憶」の味方全員のスキル威力+8～40%とバトル中に受けるバーストゲージ増加量+8～40%(1～5人で多いほど増加)",
-      "zh": "發動「ゾディアクス」或「ルキドゥス・シデラ」後，賦予所有Defender我方角色以下追加效果直到1次行動結束為止<br>追加效果：「技能發動後，以超高機率賦予敵方全體『挑發』直到2次行動結束為止」<br><br>技能發動前攻擊持有異常狀態的對象後，賦予我方全員「技能傷害+50%」與「破防傷害+50%」(全部上限300%)<br><br>依據持有「冥き追憶」標籤的角色數量，賦予「冥き追憶」的我方角色技能威力+8～40%與戰鬥中受到的爆發量條增加量+8～40%(1～5人時越多增加越多)",
+      "zh": "發動「ゾディアクス」或「ルキドゥス・シデラ」後，賦予所有防禦者我方角色以下追加效果直到1次行動結束為止<br>追加效果：「技能發動後，以超高機率賦予敵方全體『挑發』直到2次行動結束為止」<br><br>技能發動前攻擊持有異常狀態的對象後，賦予我方全員「技能傷害+50%」與「破防傷害+50%」(全部上限300%)<br><br>依據持有「冥き追憶」標籤的角色數量，賦予「冥き追憶」的我方角色技能威力+8～40%與戰鬥中受到的爆發量條增加量+8～40%(1～5人時越多增加越多)",
       "en": "After activating \"ゾディアクス\" or \"ルキドゥス・シデラ\", grants the following additional effect to all Defender allies until the end of 1 action<br>Additional Effect: \"After using a skill, inflicts 'Taunt' on all enemies with a very high chance until the end of 2 actions\"<br><br>After attacking a target inflicted with a status ailment before using a skill, grants all allies \"Skill DMG +50%\" and \"Break DMG +50%\" (all up to 300%)<br><br>Based on the number of characters with the \"冥き追憶\" tag, grants allies from \"冥き追憶\" Skill Power +8~40% and Burst Gauge gain received during battle +8~40% (increases more with 1~5 characters)"
     }
   }
