@@ -1,6 +1,37 @@
 {
-  "version": "2026-05-12",
+  "version": "2026-05-13",
   "notes": [
+    {
+      "date": "2026-05-13",
+      "title": "List Mode Update",
+      "items": [
+        {
+          "text": "Added Trait Display",
+          "details": [
+            {
+              "type": "new",
+              "contents": [
+                "Traits are now displayed in List Mode.",
+                "Traits can be clicked for quick filtering.",
+                "Displays all characters with the selected Trait, with owned characters highlighted."
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mobile List Mode Adjustments",
+          "details": [
+            {
+              "type": "improve",
+              "contents": [
+                "Mobile devices will now recommend landscape orientation.",
+                "Skill Modal is now supported in landscape mode on mobile devices."
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-12",
       "title": "Skill Viewer Update",
@@ -13,7 +44,7 @@
               "contents": [
                 "Completed skill previews for all characters.",
                 "Added preview support for Transform, Active, Extra, and other special skills.",
-                "Add Passive/Ldeader Skill Preview."
+                "Added Passive / Leader Skill Preview."
               ]
             }
           ]
@@ -25,58 +56,6 @@
               "type": "fix",
               "contents": [
                 "Fixed an issue where shared URLs did not display the correct ownership data."
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "date": "2026-05-10",
-      "title": "Update Note",
-      "items": [
-        {
-          "text": "Added 6★ Filter",
-          "details": [
-            {
-              "type": "new",
-              "contents": [
-                "Display only characters with available 6★ awakenings."
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Added Owned Filter",
-          "details": [
-            {
-              "type": "new",
-              "contents": [
-                "Display only owned characters."
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Added Skill Info in List View",
-          "details": [
-            {
-              "type": "improve",
-              "contents": [
-                "In List View, clicking the character portrait on the right now shows skill information.",
-                "Added CHT / JP / EN language support for skill descriptions."
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Improved Share URL Compression",
-          "details": [
-            {
-              "type": "improve",
-              "contents": [
-                "Optimized the URL encoding method to generate shorter share links.",
-                "Share URLs generated before this update are no longer supported."
               ]
             }
           ]
