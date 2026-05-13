@@ -2887,6 +2887,18 @@
       }
     ]
   },
+  "14003468": {
+    "attr": [],
+    "target_type": [],
+    "power_type": null,
+    "power": null,
+    "break_power": 0,
+    "break_power_type": 1,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": []
+  },
   "11001493": {
     "attr": 7,
     "target_type": 3,

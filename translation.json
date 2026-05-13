@@ -1051,7 +1051,13 @@
       "jp": null,
       "zh": null,
       "en": null
-    }
+    },
+      "passive_skill": {
+      "skill_id": 14003468,
+      "name": "<span class='keyword-link' onclick='openItemMixModal()'>アイテムミックス</span>",
+      "jp": "アイテムゲージを100%消費し、火氷雷風いずれかの属性の攻撃アイテムを2つ選択して使用する<br>戦闘アイテム使用後、対応する属性のアイテムミックススキルが発動する<br>※アイテムゲージが100%の時のみ発動可能<br>※アイテムミックススキルのスキル威力とブレイク威力と攻撃範囲は使用したアイテムに応じて変化<br>※アイテムミックススキルのダメージは戦闘アイテムダメージとして扱う<br>※選択した2つのアイテムの特性はアイテムミックススキルに反映される",
+      "zh": "消耗100%道具計量表，選擇2個火／冰／雷／風屬性的攻擊道具並使用<br>使用戰鬥道具後，將發動對應屬性的道具混合技能<br>※僅可在道具計量表為100%時發動<br>※道具混合技能的技能威力、Break威力與攻擊範圍會根據所使用的道具而變化<br>※道具混合技能的傷害視為戰鬥道具傷害<br>※所選擇的2個道具特性會反映至道具混合技能",
+      "en": "Consumes 100% Item Gauge and uses 2 offensive items of either Fire, Ice, Thunder, or Wind attribute<br>After using battle items, an Item Mix Skill corresponding to the selected attributes will be activated<br>※Can only be activated when the Item Gauge is at 100%<br>※The Skill Power, Break Power, and attack range of the Item Mix Skill will change depending on the items used<br>※Damage from the Item Mix Skill is treated as battle item damage<br>※Traits of the 2 selected items will be reflected in the Item Mix Skill"    }
   },
   "169": {
     "skill1": {

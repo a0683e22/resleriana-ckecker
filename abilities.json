@@ -2850,9 +2850,9 @@
   "1990499": {
     "name": "アルケミチャンス",
     "description": {
-      "jp": "スキル発動後、アイテムゲージを15%回復<br>クリティカル攻撃後、さらにアイテムゲージを15%回復<br>パーティの誰かが戦闘アイテム使用後、自身に「クリティカル確率+100%」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回<br><br>自身のターンでアイテムゲージが100％の時、{{hyperlink_id 151}}を発動可能<br>アイテムミックススキル発動後、自身に「クリティカル確率+100%」を3回行動終了するまで付与し、「クリティカルダメージ+100%」を付与(上限300%)",
-      "zh": "技能發動後，回復道具量條15%<br>暴擊攻擊後，額外回復道具量條15%<br>隊伍中任一角色使用戰鬥道具後，賦予自身「暴擊率+100%」直到1次行動結束為止<br>※同時使用複數道具也只會發動1次<br><br>自身回合中道具量條為100%時，可發動{{hyperlink_id 151}}<br>發動道具混合技能後，賦予自身「暴擊率+100%」直到3次行動結束為止，並賦予「暴擊傷害+100%」(上限300%)",
-      "en": "After using a skill, restores 15% Item Gauge<br>After a Crit attack, additionally restores 15% Item Gauge<br>After anyone in the party uses a battle item, grants self \"Crit Rate +100%\" until the end of 1 action<br>※Even if multiple items are used simultaneously, it only activates once<br><br>When Item Gauge is at 100% during self turn, {{hyperlink_id 151}} can be activated<br>After activating an Item Mix Skill, grants self \"Crit Rate +100%\" until the end of 3 actions, and grants \"Crit DMG +100%\" (Max 300%)"
+      "jp": "スキル発動後、アイテムゲージを15%回復<br>クリティカル攻撃後、さらにアイテムゲージを15%回復<br>パーティの誰かが戦闘アイテム使用後、自身に「クリティカル確率+100%」を1回行動終了するまで付与<br>※アイテムを複数同時に使用しても発動は1回<br><br>自身のターンでアイテムゲージが100％の時、[passive:14003468]アイテムミックス[/passive]を発動可能<br>アイテムミックススキル発動後、自身に「クリティカル確率+100%」を3回行動終了するまで付与し、「クリティカルダメージ+100%」を付与(上限300%)",
+      "zh": "技能發動後，回復道具量條15%<br>暴擊攻擊後，額外回復道具量條15%<br>隊伍中任一角色使用戰鬥道具後，賦予自身「暴擊率+100%」直到1次行動結束為止<br>※同時使用複數道具也只會發動1次<br><br>自身回合中道具量條為100%時，可發動[passive:14003468]アイテムミックス[/passive]<br>發動道具混合技能後，賦予自身「暴擊率+100%」直到3次行動結束為止，並賦予「暴擊傷害+100%」(上限300%)",
+      "en": "After using a skill, restores 15% Item Gauge<br>After a Crit attack, additionally restores 15% Item Gauge<br>After anyone in the party uses a battle item, grants self \"Crit Rate +100%\" until the end of 1 action<br>※Even if multiple items are used simultaneously, it only activates once<br><br>When Item Gauge is at 100% during self turn, [passive:14003468]アイテムミックス[/passive] can be activated<br>After activating an Item Mix Skill, grants self \"Crit Rate +100%\" until the end of 3 actions, and grants \"Crit DMG +100%\" (Max 300%)"
     }
   },
   "1990500": {

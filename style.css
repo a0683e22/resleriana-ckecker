@@ -979,7 +979,7 @@ body[data-view="icon"] .container {
 	border: 1px solid var(--border);
 	border-radius: 12px;
 	box-shadow: 0 10px 30px rgba(0,0,0,0.35);
-	z-index: 999;
+	z-index: 99;
 	padding: 12px;
 }
 
@@ -1554,7 +1554,7 @@ body[data-view="icon"] .container {
 .passive-modal {
 	position: fixed;
 	inset: 0;
-	z-index: 9999;
+	z-index: 601;
 }
 
 .passive-modal.hidden {
@@ -1685,7 +1685,7 @@ body[data-view="icon"] .container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	z-index: 99999;
+	z-index: 602;
 }
 
 .linked-skill-content {
@@ -1751,7 +1751,7 @@ body[data-view="icon"] .container {
     align-items: center;
     justify-content: center;
 
-    z-index: 9999;
+    z-index: 603;
 }
 
 .trait-modal.hidden {
@@ -1864,6 +1864,97 @@ body[data-view="icon"] .container {
     font-weight: 700;
 }
 
+.mix-combo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+}
+
+.mix-combo img {
+
+    width: 28px;
+
+    height: 28px;
+}
+
+.item-mix-table td {
+
+    padding: 10px 12px;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    vertical-align: top;
+
+    text-align: center;
+}
+
+.mix-combo {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 6px;
+}
+
+#item-mix-modal {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 1000;
+
+    background: rgba(0,0,0,0.7);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+#item-mix-modal.hidden {
+
+    display: none;
+}
+
+.item-mix-content {
+    max-width: 92vw;
+    max-height: 88vh;
+    overflow-y: auto;
+    padding: 24px;
+    border-radius: 20px;
+    background: #091224;
+}
+.item-mix-table td:first-child {
+
+    vertical-align: middle;
+}
+.item-mix-content.lang-ja {
+
+    width: 440px;
+}
+
+.item-mix-content.lang-en {
+
+    width: 500px;
+}
+
+.item-mix-content.lang-zh {
+
+    width: 380px;
+}
+
 @media (max-width: 900px) and (orientation: landscape) {
 
     .skill-modal-content {
@@ -1876,3 +1967,4 @@ body[data-view="icon"] .container {
     }
 
 }
+
