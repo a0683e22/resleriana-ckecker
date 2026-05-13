@@ -808,7 +808,7 @@ body[data-view="list"] .list-wrapper .item:first-of-type {
 }
          /* ===== Icon View ===== */
 body[data-view="icon"] .container {
-	max-width: 980px;
+	max-width: 1280px;
 }
 
 .icon-view {
