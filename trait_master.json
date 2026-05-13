@@ -1,0 +1,954 @@
+{
+  "battle_tool_traits": {
+    "1": {
+      "jp": "剛力の祝福",
+      "zh": "剛力的祝福",
+      "en": "Mighty Blessing",
+      "category_id": 1
+    },
+    "2": {
+      "jp": "斬の祝福",
+      "zh": "斬的祝福",
+      "en": "Slash Blessing",
+      "category_id": 1
+    },
+    "3": {
+      "jp": "打の祝福",
+      "zh": "打的祝福",
+      "en": "Strike Blessing",
+      "category_id": 1
+    },
+    "4": {
+      "jp": "突の祝福",
+      "zh": "突的祝福",
+      "en": "Blessing of Pierce",
+      "category_id": 1
+    },
+    "5": {
+      "jp": "魔力の祝福",
+      "zh": "魔力的祝福",
+      "en": "Magic Blessing",
+      "category_id": 1
+    },
+    "6": {
+      "jp": "火の祝福",
+      "zh": "火的祝福",
+      "en": "Fire Blessing",
+      "category_id": 1
+    },
+    "7": {
+      "jp": "氷の祝福",
+      "zh": "冰的祝福",
+      "en": "Ice Blessing",
+      "category_id": 1
+    },
+    "8": {
+      "jp": "風の祝福",
+      "zh": "風的祝福",
+      "en": "Wind Blessing",
+      "category_id": 1
+    },
+    "9": {
+      "jp": "雷の祝福",
+      "zh": "雷的祝福",
+      "en": "Bolt Blessing",
+      "category_id": 1
+    },
+    "10": {
+      "jp": "守護の祝福",
+      "zh": "守護的祝福",
+      "en": "Guardian's Blessing",
+      "category_id": 2
+    },
+    "11": {
+      "jp": "魔防の祝福",
+      "zh": "魔防的祝福",
+      "en": "M. DEF Blessing",
+      "category_id": 2
+    },
+    "12": {
+      "jp": "物防の祝福",
+      "zh": "物防的祝福",
+      "en": "P.DEF Blessing",
+      "category_id": 2
+    },
+    "13": {
+      "jp": "剛力の呪詛",
+      "zh": "剛力的詛咒 ",
+      "en": "Mighty Curse",
+      "category_id": 3
+    },
+    "14": {
+      "jp": "斬の呪詛",
+      "zh": "斬的祝福",
+      "en": "Slash Curse",
+      "category_id": 3
+    },
+    "15": {
+      "jp": "打の呪詛",
+      "zh": "打的祝福",
+      "en": "Strike Curse",
+      "category_id": 3
+    },
+    "16": {
+      "jp": "突の呪詛",
+      "zh": "突的詛咒",
+      "en": "Stab Curse",
+      "category_id": 3
+    },
+    "17": {
+      "jp": "魔力の呪詛",
+      "zh": "魔力的詛咒",
+      "en": "Magic Curse",
+      "category_id": 3
+    },
+    "18": {
+      "jp": "火の呪詛",
+      "zh": "火的詛咒",
+      "en": "Fire Curse",
+      "category_id": 3
+    },
+    "19": {
+      "jp": "氷の呪詛",
+      "zh": "冰的詛咒",
+      "en": "Ice Curse",
+      "category_id": 3
+    },
+    "20": {
+      "jp": "風の呪詛",
+      "zh": "風的詛咒",
+      "en": "Wind Curse",
+      "category_id": 3
+    },
+    "21": {
+      "jp": "雷の呪詛",
+      "zh": "雷的詛咒",
+      "en": "Bolt Curse",
+      "category_id": 3
+    },
+    "22": {
+      "jp": "斬の盾",
+      "zh": "斬之盾",
+      "en": "Slash Shield",
+      "category_id": 2
+    },
+    "23": {
+      "jp": "打の盾",
+      "zh": "打之盾",
+      "en": "Strike Shield",
+      "category_id": 2
+    },
+    "24": {
+      "jp": "突の盾",
+      "zh": "突之盾",
+      "en": "Stab Shield",
+      "category_id": 2
+    },
+    "25": {
+      "jp": "火の盾",
+      "zh": "火之盾",
+      "en": "Fire Shield",
+      "category_id": 2
+    },
+    "26": {
+      "jp": "氷の盾",
+      "zh": "冰之盾",
+      "en": "Ice Shield",
+      "category_id": 2
+    },
+    "27": {
+      "jp": "風の盾",
+      "zh": "風之盾",
+      "en": "Wind Shield",
+      "category_id": 2
+    },
+    "28": {
+      "jp": "雷の盾",
+      "zh": "雷之盾",
+      "en": "Bolt Shield",
+      "category_id": 2
+    },
+    "29": {
+      "jp": "ぷに特攻",
+      "zh": "噗尼特攻",
+      "en": "Puni Slayer",
+      "category_id": 1
+    },
+    "30": {
+      "jp": "精霊特攻",
+      "zh": "精靈特攻",
+      "en": "Spirit Slayer",
+      "category_id": 1
+    },
+    "31": {
+      "jp": "獣特攻",
+      "zh": "野獸特攻",
+      "en": "Beast Slayer",
+      "category_id": 1
+    },
+    "32": {
+      "jp": "鳥特攻",
+      "zh": "鳥類特攻",
+      "en": "Bird Slayer",
+      "category_id": 1
+    },
+    "33": {
+      "jp": "水棲特攻",
+      "zh": "水棲特攻",
+      "en": "Aquatic Slayer",
+      "category_id": 1
+    },
+    "34": {
+      "jp": "ぷに特防",
+      "zh": "噗尼特防",
+      "en": "RES vs. Puni",
+      "category_id": 2
+    },
+    "35": {
+      "jp": "精霊特防",
+      "zh": "精靈特防",
+      "en": "RES vs. Spirit",
+      "category_id": 2
+    },
+    "36": {
+      "jp": "獣特防",
+      "zh": "野獸特防",
+      "en": "RES vs. Beast",
+      "category_id": 2
+    },
+    "37": {
+      "jp": "鳥特防",
+      "zh": "鳥類特防",
+      "en": "RES vs. Bird",
+      "category_id": 2
+    },
+    "38": {
+      "jp": "水棲特防",
+      "zh": "水棲特防",
+      "en": "RES vs. Aquatic",
+      "category_id": 2
+    },
+    "39": {
+      "jp": "ぷに弱点サーチ",
+      "zh": "尋找噗尼弱點",
+      "en": "Puni Weakness Scan",
+      "category_id": 3
+    },
+    "40": {
+      "jp": "精霊弱点サーチ",
+      "zh": "尋找精靈弱點",
+      "en": "Spirit Weakness Scan",
+      "category_id": 3
+    },
+    "41": {
+      "jp": "獣弱点サーチ",
+      "zh": "尋找野獸弱點",
+      "en": "Beast Weakness Scan",
+      "category_id": 3
+    },
+    "42": {
+      "jp": "鳥弱点サーチ",
+      "zh": "尋找鳥類弱點",
+      "en": "Bird Weakness Scan",
+      "category_id": 3
+    },
+    "43": {
+      "jp": "水棲弱点サーチ",
+      "zh": "尋找水棲弱點",
+      "en": "Aquatic Weakness Scan",
+      "category_id": 3
+    },
+    "44": {
+      "jp": "大きな回復量",
+      "zh": "強大的回復量",
+      "en": "Ample Healing",
+      "category_id": 4
+    },
+    "45": {
+      "jp": "単体回復ボーナス",
+      "zh": "單體回復獎勵",
+      "en": "Single Recovery Bonus",
+      "category_id": 4
+    },
+    "46": {
+      "jp": "全体回復ボーナス",
+      "zh": "全體回復獎勵",
+      "en": "All Recovery Bonus",
+      "category_id": 4
+    },
+    "47": {
+      "jp": "使い切り回復強化",
+      "zh": "一次性回復強化",
+      "en": "Enhanced Last Recovery",
+      "category_id": 4
+    },
+    "48": {
+      "jp": "使い切り攻撃強化",
+      "zh": "一次性攻擊強化",
+      "en": "Enhanced Last Attack",
+      "category_id": 1
+    },
+    "49": {
+      "jp": "追い打ち強化",
+      "zh": "追擊強化",
+      "en": "Chaser Charge",
+      "category_id": 1
+    },
+    "50": {
+      "jp": "会心の出来",
+      "zh": "暴擊成果",
+      "en": "Critical Quality",
+      "category_id": 2
+    },
+    "51": {
+      "jp": "破壊力上昇",
+      "zh": "破壞力上升",
+      "en": "Destructive Power Boost",
+      "category_id": 1
+    },
+    "52": {
+      "jp": "アイテムリチャージ",
+      "zh": "道具條填充",
+      "en": "Item Recharge",
+      "category_id": 4
+    },
+    "53": {
+      "jp": "攻撃ダウン",
+      "zh": "攻擊下降",
+      "en": "Attack Down",
+      "category_id": 3
+    },
+    "54": {
+      "jp": "アイテム会心確率上昇",
+      "zh": "道具暴擊率上升",
+      "en": "Item Crit Rate Up",
+      "category_id": 1
+    },
+    "55": {
+      "jp": "アイテム会心ダメージ上昇",
+      "zh": "道具暴擊傷害上升",
+      "en": "Item Crit DMG Up",
+      "category_id": 1
+    }
+  },
+  "equipment_tool_traits": {
+    "1": {
+      "jp": "与ダメージ上昇",
+      "zh": "給予傷害上升",
+      "en": "Dealt Damage Boost",
+      "category_id": 1
+    },
+    "2": {
+      "jp": "スキル威力上昇",
+      "zh": "技能威力上升",
+      "en": "Skill Power Up",
+      "category_id": 1
+    },
+    "3": {
+      "jp": "斬ダメージ上昇",
+      "zh": "斬傷害上升",
+      "en": "Slash DMG Up",
+      "category_id": 1
+    },
+    "4": {
+      "jp": "打ダメージ上昇",
+      "zh": "打傷害上升",
+      "en": "Strike DMG Up",
+      "category_id": 1
+    },
+    "5": {
+      "jp": "突ダメージ上昇",
+      "zh": "突傷害上升",
+      "en": "Stab DMG Up",
+      "category_id": 1
+    },
+    "6": {
+      "jp": "火ダメージ上昇",
+      "zh": "火傷害上升",
+      "en": "Fire DMG Up",
+      "category_id": 1
+    },
+    "7": {
+      "jp": "氷ダメージ上昇",
+      "zh": "冰傷害上升",
+      "en": "Ice DMG Up",
+      "category_id": 1
+    },
+    "8": {
+      "jp": "風ダメージ上昇",
+      "zh": "風傷害上升",
+      "en": "Wind DMG Up",
+      "category_id": 1
+    },
+    "9": {
+      "jp": "雷ダメージ上昇",
+      "zh": "雷傷害上升",
+      "en": "Bolt DMG Up",
+      "category_id": 1
+    },
+    "10": {
+      "jp": "物理ダメージ上昇",
+      "zh": "物理傷害上升",
+      "en": "P. DMG Up",
+      "category_id": 1
+    },
+    "11": {
+      "jp": "魔法ダメージ上昇",
+      "zh": "魔法傷害上升",
+      "en": "M. DMG Up",
+      "category_id": 1
+    },
+    "12": {
+      "jp": "ブレイク中ダメージ上昇",
+      "zh": "破防中傷害上升",
+      "en": "Stunned Damage Up",
+      "category_id": 1
+    },
+    "13": {
+      "jp": "ブレイクダメージ上昇",
+      "zh": "破防傷害上升",
+      "en": "Break DMG Up",
+      "category_id": 1
+    },
+    "14": {
+      "jp": "物理ブレイクダメージ上昇",
+      "zh": "物理破防傷害上升",
+      "en": "P. Break DMG Up",
+      "category_id": 1
+    },
+    "15": {
+      "jp": "魔法ブレイクダメージ上昇",
+      "zh": "魔法破防傷害上升",
+      "en": "M. Break DMG Up",
+      "category_id": 1
+    },
+    "16": {
+      "jp": "ブレイクダメージ上昇【背水】",
+      "zh": "破防傷害上升【背水】",
+      "en": "Break DMG Up [Resolve]",
+      "category_id": 1
+    },
+    "17": {
+      "jp": "ブレイクダメージ上昇【渾身】",
+      "zh": "破防傷害上升【滿血】",
+      "en": "Break DMG Up [Full]",
+      "category_id": 1
+    },
+    "18": {
+      "jp": "斬耐性上昇",
+      "zh": "斬耐性上升",
+      "en": "Slash RES Up",
+      "category_id": 2
+    },
+    "19": {
+      "jp": "打耐性上昇",
+      "zh": "打耐性上升",
+      "en": "Strike RES Up",
+      "category_id": 2
+    },
+    "20": {
+      "jp": "突耐性上昇",
+      "zh": "突耐性上升",
+      "en": "Stab RES Up",
+      "category_id": 2
+    },
+    "21": {
+      "jp": "火耐性上昇",
+      "zh": "火耐性上升",
+      "en": "Fire RES Up",
+      "category_id": 2
+    },
+    "22": {
+      "jp": "氷耐性上昇",
+      "zh": "冰耐性上升",
+      "en": "Ice RES Up",
+      "category_id": 2
+    },
+    "23": {
+      "jp": "風耐性上昇",
+      "zh": "風耐性上升",
+      "en": "Wind RES Up",
+      "category_id": 2
+    },
+    "24": {
+      "jp": "雷耐性上昇",
+      "zh": "雷耐性上升",
+      "en": "Bolt RES Up",
+      "category_id": 2
+    },
+    "25": {
+      "jp": "物理耐性上昇",
+      "zh": "物理耐性上升",
+      "en": "P. RES Up",
+      "category_id": 2
+    },
+    "26": {
+      "jp": "魔法耐性上昇",
+      "zh": "魔法耐性上升",
+      "en": "M. RES Up",
+      "category_id": 2
+    },
+    "27": {
+      "jp": "単体攻撃威力上昇",
+      "zh": "單體攻擊威力上升",
+      "en": "Single-Target ATK Power UP",
+      "category_id": 1
+    },
+    "28": {
+      "jp": "全体攻撃威力上昇",
+      "zh": "全體攻擊威力上升",
+      "en": "AoE ATK Power Up",
+      "category_id": 1
+    },
+    "29": {
+      "jp": "全体攻撃耐性上昇",
+      "zh": "全體攻擊耐性上升",
+      "en": "AoE ATK RES Up",
+      "category_id": 2
+    },
+    "30": {
+      "jp": "物理ダメージ上昇【背水】",
+      "zh": "物理傷害上升【背水】",
+      "en": "P. DMG Up [Resolve]",
+      "category_id": 1
+    },
+    "31": {
+      "jp": "物理ダメージ上昇【渾身】",
+      "zh": "物理傷害上升【滿血】",
+      "en": "P. DMG Up [Full]",
+      "category_id": 1
+    },
+    "32": {
+      "jp": "魔法ダメージ上昇【背水】",
+      "zh": "魔法傷害上升【背水】",
+      "en": "M. DMG Up [Resolve]",
+      "category_id": 1
+    },
+    "33": {
+      "jp": "魔法ダメージ上昇【渾身】",
+      "zh": "魔法傷害上升【滿血】",
+      "en": "M. DMG Up [Full]",
+      "category_id": 1
+    },
+    "34": {
+      "jp": "全耐性上昇【背水】",
+      "zh": "全耐性上升【背水】",
+      "en": "All RES Up [Resolve]",
+      "category_id": 2
+    },
+    "35": {
+      "jp": "魔法耐性上昇【渾身】",
+      "zh": "魔法耐性上升【滿血】",
+      "en": "M. RES Up [Full]",
+      "category_id": 2
+    },
+    "36": {
+      "jp": "物理耐性上昇【渾身】",
+      "zh": "物理耐性上升【滿血】",
+      "en": "P. RES Up [Full]",
+      "category_id": 2
+    },
+    "37": {
+      "jp": "回復量上昇【渾身】",
+      "zh": "回復量上升【滿血】",
+      "en": "Recovery Boost [Full]",
+      "category_id": 4
+    },
+    "38": {
+      "jp": "回復量上昇【背水】",
+      "zh": "回復量上升【背水】",
+      "en": "Recovery Boost [Resolve]",
+      "category_id": 4
+    },
+    "39": {
+      "jp": "回復量上昇",
+      "zh": "回復量上升",
+      "en": "Recovery Boost",
+      "category_id": 4
+    },
+    "40": {
+      "jp": "単体回復量上昇",
+      "zh": "單體回復量上升",
+      "en": "Single Recovery Boost",
+      "category_id": 4
+    },
+    "41": {
+      "jp": "全体回復量上昇",
+      "zh": "全體回復量上升",
+      "en": "Aoe Recovery Boost",
+      "category_id": 4
+    },
+    "42": {
+      "jp": "魔法耐性上昇【D】",
+      "zh": "魔法耐性上升【D】",
+      "en": "M. RES Up [D]",
+      "category_id": 2
+    },
+    "43": {
+      "jp": "物理耐性上昇【D】",
+      "zh": "物理耐性上升【D】",
+      "en": "P. RES Up [D]",
+      "category_id": 2
+    },
+    "44": {
+      "jp": "物理/魔法耐性アップ強化【D】",
+      "zh": "物理/魔法耐性提升強化【D】",
+      "en": "Enhanced Phys./Magic RES Up [D]",
+      "category_id": 2
+    },
+    "45": {
+      "jp": "ダメージバフ強化【A】",
+      "zh": "傷害增益強化【A】",
+      "en": "Enhanced Damage Buff [A]",
+      "category_id": 2
+    },
+    "46": {
+      "jp": "ダメージバフ強化【B】",
+      "zh": "傷害增益強化【B】",
+      "en": "Enhanced Damage Buff [B]",
+      "category_id": 2
+    },
+    "47": {
+      "jp": "回復量上昇【D】",
+      "zh": "回復量上升【D】",
+      "en": "Recovery Boost [D]",
+      "category_id": 4
+    },
+    "48": {
+      "jp": "物理/魔法耐性ダウン強化",
+      "zh": "物理/魔法耐性下降強化",
+      "en": "Enhanced P./M. RES Down",
+      "category_id": 3
+    },
+    "49": {
+      "jp": "物理/魔法耐性アップ強化",
+      "zh": "物理/魔法耐性提升強化",
+      "en": "Enhanced P./M. RES Up",
+      "category_id": 2
+    },
+    "50": {
+      "jp": "ぷにダメージ軽減",
+      "zh": "噗尼傷害減輕",
+      "en": "Reduced Puni DMG",
+      "category_id": 2
+    },
+    "51": {
+      "jp": "獣ダメージ軽減",
+      "zh": "野獸傷害減輕",
+      "en": "Reduced Beast DMG",
+      "category_id": 2
+    },
+    "52": {
+      "jp": "精霊ダメージ軽減",
+      "zh": "精靈傷害減輕",
+      "en": "Reduced Spirit DMG",
+      "category_id": 2
+    },
+    "53": {
+      "jp": "水棲ダメージ軽減",
+      "zh": "水棲傷害減輕",
+      "en": "Reduced Aquatic DMG",
+      "category_id": 2
+    },
+    "54": {
+      "jp": "鳥ダメージ軽減",
+      "zh": "鳥類傷害減輕",
+      "en": "Reduced Bird DMG",
+      "category_id": 2
+    },
+    "55": {
+      "jp": "ぷにダメージ上昇",
+      "zh": "噗尼傷害上升",
+      "en": "Puni DMG Up",
+      "category_id": 1
+    },
+    "56": {
+      "jp": "獣ダメージ上昇",
+      "zh": "野獸傷害上升",
+      "en": "Beast DMG Up",
+      "category_id": 1
+    },
+    "57": {
+      "jp": "精霊ダメージ上昇",
+      "zh": "精靈傷害上升",
+      "en": "Spirit DMG Up",
+      "category_id": 1
+    },
+    "58": {
+      "jp": "水棲ダメージ上昇",
+      "zh": "水棲傷害上升",
+      "en": "Beast DMG Up",
+      "category_id": 1
+    },
+    "59": {
+      "jp": "鳥ダメージ上昇",
+      "zh": "鳥類傷害上升",
+      "en": "Bird DMG Up",
+      "category_id": 1
+    },
+    "60": {
+      "jp": "クリティカルダメージ上昇",
+      "zh": "暴擊傷害上升",
+      "en": "Crit DMG Up",
+      "category_id": 1
+    },
+    "61": {
+      "jp": "バーストスキル威力上昇",
+      "zh": "爆發技能威力上升",
+      "en": "Burst Skill Power Up",
+      "category_id": 1
+    },
+    "62": {
+      "jp": "被回復量上昇",
+      "zh": "被回復量上升",
+      "en": "Received Recovery Up",
+      "category_id": 4
+    },
+    "63": {
+      "jp": "スキル2威力上昇",
+      "zh": "技能2威力上升",
+      "en": "Skill2 Power Up",
+      "category_id": 1
+    },
+    "64": {
+      "jp": "鳥ブレイクダメージ上昇",
+      "zh": "鳥類破防傷害上升",
+      "en": "Avian Break DMG Up",
+      "category_id": 1
+    },
+    "65": {
+      "jp": "属性耐性ダウン強化【雷】",
+      "zh": "屬性耐性下降強化【雷】",
+      "en": "Enhanced RES Down [Bolt]",
+      "category_id": 3
+    },
+    "66": {
+      "jp": "属性耐性ダウン強化【氷】",
+      "zh": "屬性耐性下降強化【冰】",
+      "en": "Enhanced RES Down [Ice]",
+      "category_id": 3
+    },
+    "67": {
+      "jp": "WEAK時ブレイクダメージ上昇",
+      "zh": "WEAK時破防傷害上升",
+      "en": "Break DMG Up on WEAK",
+      "category_id": 1
+    },
+    "68": {
+      "jp": "スキル2ブレイクダメージ上昇",
+      "zh": "技能2破防傷害上升",
+      "en": "Skill2 Break DMG Up",
+      "category_id": 1
+    },
+    "69": {
+      "jp": "属性耐性ダウン強化【火】",
+      "zh": "屬性耐性下降強化【火】",
+      "en": "Enhanced RES Down [Fire]",
+      "category_id": 3
+    },
+    "70": {
+      "jp": "属性耐性ダウン強化【突】",
+      "zh": "屬性耐性下降強化【突】",
+      "en": "Enhanced RES Down [Stab]",
+      "category_id": 3
+    },
+    "71": {
+      "jp": "雷スキル威力上昇",
+      "zh": "雷技能威力上升",
+      "en": "Bolt Skill Power Up",
+      "category_id": 1
+    },
+    "72": {
+      "jp": "氷スキル威力上昇",
+      "zh": "冰技能威力上升",
+      "en": "Ice Skill Power Up",
+      "category_id": 1
+    },
+    "73": {
+      "jp": "風スキル威力上昇",
+      "zh": "風技能威力上升",
+      "en": "Wind Skill Power Up",
+      "category_id": 1
+    },
+    "74": {
+      "jp": "斬スキル威力上昇",
+      "zh": "斬技能威力上升",
+      "en": "Slash Skill Power Up",
+      "category_id": 1
+    },
+    "75": {
+      "jp": "打スキル威力上昇",
+      "zh": "打技能威力上升",
+      "en": "Strike Skill Power Up",
+      "category_id": 1
+    },
+    "76": {
+      "jp": "突スキル威力上昇",
+      "zh": "突技能威力上升",
+      "en": "Stab Skill Power Up",
+      "category_id": 1
+    },
+    "77": {
+      "jp": "火スキル威力上昇",
+      "zh": "火技能威力上升",
+      "en": "Fire Skill Power Up",
+      "category_id": 1
+    },
+    "78": {
+      "jp": "属性耐性ダウン強化【斬】",
+      "zh": "屬性耐性下降強化【斬】",
+      "en": "Enhanced RES Down [Slash]",
+      "category_id": 3
+    },
+    "79": {
+      "jp": "属性耐性ダウン強化【打】",
+      "zh": "屬性耐性下降強化【打】",
+      "en": "Enhanced RES Down [Strike]",
+      "category_id": 3
+    },
+    "80": {
+      "jp": "属性耐性ダウン強化【風】",
+      "zh": "屬性耐性下降強化【風】",
+      "en": "Enhanced RES Down [Wind]",
+      "category_id": 3
+    },
+    "81": {
+      "jp": "先行物攻アップ",
+      "zh": "先行物攻提升",
+      "en": "Preemptive P. ATK Up",
+      "category_id": 1
+    },
+    "82": {
+      "jp": "先行魔攻アップ",
+      "zh": "先行魔攻提升",
+      "en": "Preemptive M. ATK Up",
+      "category_id": 1
+    },
+    "83": {
+      "jp": "晩成物攻アップ",
+      "zh": "晚成物攻提升",
+      "en": "Ramping P. ATK Up",
+      "category_id": 1
+    },
+    "84": {
+      "jp": "晩成魔攻アップ",
+      "zh": "晚成魔攻提升",
+      "en": "Ramping M. ATK Up",
+      "category_id": 1
+    },
+    "91": {
+      "jp": "雷クリティカル確率上昇",
+      "zh": "雷暴擊率上升",
+      "en": "Bolt Crit Rate Up",
+      "category_id": 2
+    },
+    "92": {
+      "jp": "氷クリティカル確率上昇",
+      "zh": "冰暴擊率上升",
+      "en": "Ice Crit Rate Up",
+      "category_id": 2
+    },
+    "93": {
+      "jp": "風クリティカル確率上昇",
+      "zh": "風暴擊率上升",
+      "en": "Wind Crit Rate Up",
+      "category_id": 2
+    },
+    "94": {
+      "jp": "斬クリティカル確率上昇",
+      "zh": "斬暴擊率上升",
+      "en": "Slash Crit Rate Up",
+      "category_id": 2
+    },
+    "95": {
+      "jp": "打クリティカル確率上昇",
+      "zh": "打暴擊率上升",
+      "en": "Strike Crit Rate Up",
+      "category_id": 2
+    },
+    "96": {
+      "jp": "突クリティカル確率上昇",
+      "zh": "突暴擊率上升",
+      "en": "Stab Crit Rate Up",
+      "category_id": 2
+    },
+    "97": {
+      "jp": "火クリティカル確率上昇",
+      "zh": "火暴擊率上升",
+      "en": "Fire Crit Raite Up",
+      "category_id": 2
+    },
+    "98": {
+      "jp": "雷クリティカルダメージ上昇",
+      "zh": "雷暴擊傷害上升",
+      "en": "Bolt Crit DMG Up",
+      "category_id": 1
+    },
+    "99": {
+      "jp": "氷クリティカルダメージ上昇",
+      "zh": "冰暴擊傷害上升",
+      "en": "Ice Crit DMG Up",
+      "category_id": 1
+    },
+    "100": {
+      "jp": "風クリティカルダメージ上昇",
+      "zh": "風暴擊傷害上升",
+      "en": "Wind Crit DMG Up",
+      "category_id": 1
+    },
+    "101": {
+      "jp": "斬クリティカルダメージ上昇",
+      "zh": "斬暴擊傷害上升",
+      "en": "Slash Crit DMG Up",
+      "category_id": 1
+    },
+    "102": {
+      "jp": "打クリティカルダメージ上昇",
+      "zh": "打暴擊傷害上升",
+      "en": "Strike Crit DMG Up",
+      "category_id": 1
+    },
+    "103": {
+      "jp": "突クリティカルダメージ上昇",
+      "zh": "突暴擊傷害上升",
+      "en": "Stab Crit DMG Up",
+      "category_id": 1
+    },
+    "104": {
+      "jp": "火クリティカルダメージ上昇",
+      "zh": "火暴擊傷害上升",
+      "en": "Fire Crit DMG Up",
+      "category_id": 1
+    },
+    "105": {
+      "jp": "戦闘アイテムダメージバフ強化",
+      "zh": "戰鬥道具傷害增益強化",
+      "en": "Enhanced Battle Item DMG Buff",
+      "category_id": 2
+    },
+    "106": {
+      "jp": "アトリエ砲ダメージバフ強化",
+      "zh": "工房砲傷害增益強化",
+      "en": "Enhanced Atelier Cannon DMG Buff",
+      "category_id": 2
+    },
+    "107": {
+      "jp": "物攻/魔攻バフ強化【A】",
+      "zh": "物攻/魔攻增益強化【A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [A]",
+      "category_id": 2
+    },
+    "118": {
+      "jp": "ダメージバフ強化【風A】",
+      "zh": "傷害增益強化【風A】",
+      "en": "Enhanced DMG Buff [Wind A]",
+      "category_id": 2
+    },
+    "120": {
+      "jp": "ダメージバフ強化【打A】",
+      "zh": "傷害增益強化【打A】",
+      "en": "Enhanced DMG Buff [Strike A]",
+      "category_id": 2
+    }
+  }
+}
