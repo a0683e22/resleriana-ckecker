@@ -161,10 +161,10 @@
          const DATA_FILE = 'characters.json';
          const TRANSLATION_FILE = 'translation.json';
          const ABILITY_FILE = 'test/abilities.json';
-	 const TRAIT_FILE = 'trait_master.json';
-	 let TRAIT_DATA = {};
-	 let selectedCharacterIds = new Set();
-	 let checkedCharacterIds = [];
+         const TRAIT_FILE = 'trait_master.json';
+         let TRAIT_DATA = {};
+         let selectedCharacterIds = new Set();
+         let checkedCharacterIds = [];
          const BASE_CHARS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_';
          const FIXED_CHARACTER_IDS = new Set(['0', '23']);
          const TAG_MAP = {
@@ -254,12 +254,12 @@
          "新星": 40,
          "ブラオール": 41
          };
-const RESET_CONFIRM_TEXT = {
-    zh: '確定要重置所持角色嗎？',
-    en: 'Are you sure you want to reset owned characters?',
-    ja: '所持キャラをリセットしますか？'
-};
-
+         const RESET_CONFIRM_TEXT = {
+         zh: '確定要重置所持角色嗎？',
+         en: 'Are you sure you want to reset owned characters?',
+         ja: '所持キャラをリセットしますか？'
+         };
+         
          const ROLE_ALIASES = {
              1: '攻擊者', '1': '攻擊者', 'Attacker': '攻擊者', 'attacker': '攻擊者', '攻擊者': '攻擊者',
              2: '破防者', '2': '破防者', 'Breaker': '破防者', 'breaker': '破防者', '破防者': '破防者', '破壞者': '破防者',
@@ -512,18 +512,18 @@ const RESET_CONFIRM_TEXT = {
          getNormalCheckboxes().forEach(cb => {
          cb.onchange = (e) => {
          checkedCharacterIds = Array.from(
-    new Set([
-        ...checkedCharacterIds,
-        Number(cb.id.replace('c', ''))
-    ])
-);
-
-if (!cb.checked) {
-    checkedCharacterIds =
-        checkedCharacterIds.filter(
+         new Set([
+         ...checkedCharacterIds,
+         Number(cb.id.replace('c', ''))
+         ])
+         );
+         
+         if (!cb.checked) {
+         checkedCharacterIds =
+         checkedCharacterIds.filter(
             id => id !== Number(cb.id.replace('c', ''))
-        );
-}
+         );
+         }
             if (isReadOnlyMode) {
                 cb.checked = !cb.checked; // 還原
                 return;
@@ -569,7 +569,7 @@ if (!cb.checked) {
                  });
              });
              updateViewButtons();
-	updateRotateWarning();
+         updateRotateWarning();
          }
          function syncOwnedState() {
          document.querySelectorAll('.table-card, .icon-card').forEach(card => {
@@ -971,9 +971,9 @@ if (!cb.checked) {
          if (showOwnedOnly) {
          
          const checkedIds =
-    new Set(
-        checkedCharacterIds.map(String)
-    );
+         new Set(
+         checkedCharacterIds.map(String)
+         );
          
          characters = characters.filter(c => {
          
@@ -998,79 +998,79 @@ if (!cb.checked) {
          }
          
          function renderCharactersList(characters) {
-
-    const list = document.getElementById('dynamic-list');
-
-    list.innerHTML = characters.map(char => {
-
-        const id = getCharacterId(char);
-
-        if (!Number.isFinite(id)) return '';
-
-        const attr = getCharacterAttr(char);
-        const role = getCharacterRole(char);
-        const roleIcon = ROLE_ICON_MAP[role] || '';
-        const dateText = getDateText(char);
-        const name = getCharacterName(char);
-
-        const image =
+         
+         const list = document.getElementById('dynamic-list');
+         
+         list.innerHTML = characters.map(char => {
+         
+         const id = getCharacterId(char);
+         
+         if (!Number.isFinite(id)) return '';
+         
+         const attr = getCharacterAttr(char);
+         const role = getCharacterRole(char);
+         const roleIcon = ROLE_ICON_MAP[role] || '';
+         const dateText = getDateText(char);
+         const name = getCharacterName(char);
+         
+         const image =
             char.image ||
             `images/chara/${char.base_character_id}.png`;
-
-        const toolTraits = char.tool || [];
-        const equipTrait = char.equip || null;
-
-        // ===== Trait HTML =====
-
-        const traitHtml = `
-<div class="trait-row">
-
-    ${toolTraits.map(id => `
-        <span class="trait-tag" onclick="openTraitModal(${id}, 'battle')">
+         
+         const toolTraits = char.tool || [];
+         const equipTrait = char.equip || null;
+         
+         // ===== Trait HTML =====
+         
+         const traitHtml = `
+         <div class="trait-row">
+         
+         ${toolTraits.map(id => `
+         <span class="trait-tag" onclick="openTraitModal(${id}, 'battle')">
             ${
                 TRAIT_DATA.battle_tool_traits?.[String(id)]?.[currentLang]
                 || TRAIT_DATA.battle_tool_traits?.[String(id)]?.jp
                 || id
             }
-        </span>
-    `).join('')}
-
-    ${equipTrait
-        ? `
-        <span class="trait-tag equip" onclick="openTraitModal(${equipTrait}, 'equip')">
+         </span>
+         `).join('')}
+         
+         ${equipTrait
+         ? `
+         <span class="trait-tag equip" onclick="openTraitModal(${equipTrait}, 'equip')">
             ${
                 TRAIT_DATA.equipment_tool_traits?.[String(equipTrait)]?.[currentLang]
                 || TRAIT_DATA.equipment_tool_traits?.[String(equipTrait)]?.jp
                 || equipTrait
             }
-        </span>
-        `
-        : ''
-    }
-
-</div>
-`;
-
-        return `
-<div class="item${isFixedCharacterId(id) ? ' fixed' : ''}"
-     data-attr="${escapeHtml(attr)}"
-     data-role="${escapeHtml(role)}">
-
-    <div class="checkbox-wrapper">
-        <input type="checkbox"
+         </span>
+         `
+         : ''
+         }
+         
+         </div>
+         `;
+         
+         return `
+         <div class="item${isFixedCharacterId(id) ? ' fixed' : ''}"
+         data-attr="${escapeHtml(attr)}"
+         data-role="${escapeHtml(role)}">
+         
+         <div class="checkbox-wrapper">
+         <input type="checkbox"
                id="c${id}"
                class="char-cb${isFixedCharacterId(id) ? ' fixed-cb' : ''}"
                ${getCheckboxAttrs(id)}>
-    </div>
-
-    <div class="info">
-
-        <label for="c${id}" class="main-line">
-
+         </div>
+         
+         <div class="info">
+         
+         <label for="c${id}" class="main-line">
+         
             <span class="attr-tag tag-${escapeHtml(attr)}">
                 ${escapeHtml(attr)}
             </span>
-
+         
             ${roleIcon
                 ? `<img class="role-icon"
                         src="${roleIcon}"
@@ -1078,108 +1078,109 @@ if (!cb.checked) {
                         title="${escapeHtml(ROLE_TEXT[currentLang][role] || role)}">`
                 : ''
             }
-
+         
             ${escapeHtml(name)}
-
-        </label>
-
-        ${traitHtml}
-
-        <span class="date-line">
+         
+         </label>
+         
+         ${traitHtml}
+         
+         <span class="date-line">
             ${escapeHtml(dateText)}
-        </span>
-
-    </div>
-
-    ${image
-        ? `
-        <div class="char-image-wrapper clickable"
+         </span>
+         
+         </div>
+         
+         ${image
+         ? `
+         <div class="char-image-wrapper clickable"
              onclick="openSkillModal(${id})">
-
+         
             <img class="char-image"
                  src="${escapeHtml(image)}"
                  alt="${escapeHtml(name)}"
                  onerror="this.parentElement.style.display='none'">
-
-        </div>
-        `
-        : ''
-    }
-
-</div>
-`;
-
-    }).join('');
-}
-function openTraitModal(id, type) {
-
-    const ownedIds = getCheckedIds();
-
-    const matched = allCharacters.filter(char => {
-
-        if (type === 'battle') {
+         
+         </div>
+         `
+         : ''
+         }
+         
+         </div>
+         `;
+         
+         }).join('');
+         }
+         function openTraitModal(id, type) {
+         
+         const ownedIds = getCheckedIds();
+         
+         const matched = allCharacters.filter(char => {
+         
+         if (type === 'battle') {
             return char.tool?.includes(id);
-        }
-
-        return char.equip === id;
-
-    });
-
-    const modal =
-        document.getElementById('trait-modal');
-
-    const title =
-        document.getElementById('trait-modal-title');
-
-    const grid =
-        document.getElementById('trait-modal-grid');
-
-    title.textContent =
-        type === 'battle'
-        ? (
+         }
+         
+         return char.equip === id;
+         
+         });
+         
+         const modal =
+         document.getElementById('trait-modal');
+         
+         const title =
+         document.getElementById('trait-modal-title');
+         
+         const grid =
+         document.getElementById('trait-modal-grid');
+         
+         title.textContent =
+         type === 'battle'
+         ? (
             TRAIT_DATA.battle_tool_traits?.[String(id)]?.[currentLang]
             || TRAIT_DATA.battle_tool_traits?.[String(id)]?.jp
             || id
-        )
-        : (
+         )
+         : (
             TRAIT_DATA.equipment_tool_traits?.[String(id)]?.[currentLang]
             || TRAIT_DATA.equipment_tool_traits?.[String(id)]?.jp
             || id
-        );
-
-    modal.classList.remove('hidden');
-
-    modal.onclick = (e) => {
-
-        if (e.target === modal) {
-
+         );
+         
+         modal.classList.remove('hidden');
+         
+         modal.onclick = (e) => {
+         
+         if (e.target === modal) {
+         
             modal.classList.add('hidden');
-
-        }
-
-    };
-
-    grid.innerHTML = matched.map(char => {
-
-        const owned =
-            ownedIds.includes(char.id);
-
-        return `
-
-<div class="trait-char-wrap ${owned ? '' : 'not-owned'}">
-
-    <img
-        class="trait-char-image"
-        src="${char.image || `images/chara/${char.base_character_id}.png`}"
-        alt=""
-    >
-
-</div>
-
-`;
-
-    }).join('');
-}
+         
+         }
+         
+         };
+         
+         grid.innerHTML = matched.map(char => {
+         
+         const owned =
+         ownedIds.includes(char.id)
+         || isFixedCharacterId(char.id);
+         
+         return `
+         
+         <div class="trait-char-wrap ${owned ? '' : 'not-owned'}">
+         
+         <img
+         class="trait-char-image"
+         src="${char.image || `images/chara/${char.base_character_id}.png`}"
+         alt=""
+         >
+         
+         </div>
+         
+         `;
+         
+         }).join('');
+         }
          function renderCharactersIcon(characters) {
          const list = document.getElementById('dynamic-list');
          
@@ -1342,8 +1343,8 @@ function openTraitModal(id, type) {
          }
          
          function getCheckedIds() {
-    return checkedCharacterIds;
-}
+         return checkedCharacterIds;
+         }
          
          function setCheckedIds(ids) {
          const idSet = new Set((ids || []).map(String));
@@ -1354,7 +1355,7 @@ function openTraitModal(id, type) {
          });
          
          syncOwnedState();
-	 checkedCharacterIds = ids.map(Number);
+         checkedCharacterIds = ids.map(Number);
          }
          
          function saveToLocalStorage() {
@@ -1389,28 +1390,28 @@ function openTraitModal(id, type) {
          }
          
          function resetTable() {
-
-    if (isReadOnlyMode) return;
-
-    if (!confirm(
-    RESET_CONFIRM_TEXT[currentLang]
-    || RESET_CONFIRM_TEXT.en
-)) {
-        return;
-    }
-
-    getNormalCheckboxes().forEach(cb => {
-        cb.checked = false;
-    });
-
-    checkedCharacterIds = [];
-
-    syncOwnedState();
-
-    updateTableSelectAllState();
-
-    syncShareUrl();
-}
+         
+         if (isReadOnlyMode) return;
+         
+         if (!confirm(
+         RESET_CONFIRM_TEXT[currentLang]
+         || RESET_CONFIRM_TEXT.en
+         )) {
+         return;
+         }
+         
+         getNormalCheckboxes().forEach(cb => {
+         cb.checked = false;
+         });
+         
+         checkedCharacterIds = [];
+         
+         syncOwnedState();
+         
+         updateTableSelectAllState();
+         
+         syncShareUrl();
+         }
          function clearAllFilters() {
          activeAttrFilters.clear();
          activeRoleFilters.clear();
@@ -1526,13 +1527,13 @@ function openTraitModal(id, type) {
          ABILITY_DATA =
             await abilityResponse.json()
          const traitResponse =
-    await fetch(TRAIT_FILE);
-
-TRAIT_DATA =
-    await traitResponse.json();
+         await fetch(TRAIT_FILE);
+         
+         TRAIT_DATA =
+         await traitResponse.json();
          } catch (error) {
          
-
+         
          
          }
          
@@ -1555,36 +1556,36 @@ TRAIT_DATA =
          // ===== Share URL / LocalStorage =====
          
          const params =
-new URLSearchParams(window.location.search);
-
-const sharedKey = params.get('k');
-
-if (sharedKey) {
-
-    try {
-
-        const ids =
-        decodeKeyToIds(sharedKey);
-
-        renderCharacters(allCharacters);
-
-        setCheckedIds(ids);
-
-    } catch (e) {
-
-        console.error(e);
-
-        loadFromLocalStorage();
-
-    }
-
-} else {
-
-    renderCharacters(allCharacters);
-
-    loadFromLocalStorage();
-
-}
+         new URLSearchParams(window.location.search);
+         
+         const sharedKey = params.get('k');
+         
+         if (sharedKey) {
+         
+         try {
+         
+         const ids =
+         decodeKeyToIds(sharedKey);
+         
+         renderCharacters(allCharacters);
+         
+         setCheckedIds(ids);
+         
+         } catch (e) {
+         
+         console.error(e);
+         
+         loadFromLocalStorage();
+         
+         }
+         
+         } else {
+         
+         renderCharacters(allCharacters);
+         
+         loadFromLocalStorage();
+         
+         }
          
          // ===== UI =====
          
@@ -1647,14 +1648,14 @@ if (sharedKey) {
          }
          
          function openSkillModal(charId, forceAwaken6 = null, linkedSkill = null) {
-
-    const isMobile =
-        window.innerWidth <= 1024;
-
-    const isPortrait =
-        window.innerHeight > window.innerWidth;
-
-    if (isMobile && isPortrait) return;
+         
+         const isMobile =
+         window.innerWidth <= 1024;
+         
+         const isPortrait =
+         window.innerHeight > window.innerWidth;
+         
+         if (isMobile && isPortrait) return;
          
          const char =
          allCharacters.find(c => getCharacterId(c) === charId);
@@ -2102,61 +2103,61 @@ if (sharedKey) {
          let patchNoteLoaded = false;
          
          function renderDetail(detail) {
-
-    if (typeof detail === 'string') {
-        return escapeHtml(detail);
-    }
-
-    if (detail.type === 'link') {
-        return `
-        <a href="${escapeHtml(detail.url)}"
+         
+         if (typeof detail === 'string') {
+         return escapeHtml(detail);
+         }
+         
+         if (detail.type === 'link') {
+         return `
+         <a href="${escapeHtml(detail.url)}"
            target="_blank"
            rel="noopener noreferrer">
            ${escapeHtml(detail.text)}
-        </a>
-        `;
-    }
-
-    const labelMap = {
-        new: 'NEW',
-        fix: 'FIX',
-        improve: 'UPD'
-    };
-
-    const contents =
-        Array.isArray(detail.contents)
-        ? detail.contents
-        : [detail.content || ''];
-
-    if (labelMap[detail.type]) {
-
-        return `
-        <span class="patch-badge patch-${detail.type}">
+         </a>
+         `;
+         }
+         
+         const labelMap = {
+         new: 'NEW',
+         fix: 'FIX',
+         improve: 'UPD'
+         };
+         
+         const contents =
+         Array.isArray(detail.contents)
+         ? detail.contents
+         : [detail.content || ''];
+         
+         if (labelMap[detail.type]) {
+         
+         return `
+         <span class="patch-badge patch-${detail.type}">
             ${labelMap[detail.type]}
-        </span>
-
-        <ul class="patch-content-list">
+         </span>
+         
+         <ul class="patch-content-list">
             ${contents.map(content => `
                 <li>
                     ${escapeHtml(content)
                     .replace(/\\n/g, '<br>')}
                 </li>
             `).join('')}
-        </ul>
-        `;
-    }
-
-    return `
-    <ul class="patch-content-list">
-        ${contents.map(content => `
+         </ul>
+         `;
+         }
+         
+         return `
+         <ul class="patch-content-list">
+         ${contents.map(content => `
             <li>
                 ${escapeHtml(content)
                 .replace(/\\n/g, '<br>')}
             </li>
-        `).join('')}
-    </ul>
-    `;
-}
+         `).join('')}
+         </ul>
+         `;
+         }
          function togglePatchNote() {
              const panel = document.getElementById('patch-note-panel');
              if (!panel) return;
@@ -2371,71 +2372,62 @@ if (sharedKey) {
          );
          }
          /* =====  手機橫向提醒 ===== */
-function updateRotateWarning() {
-
-    const warning =
-        document.getElementById('rotate-warning');
-
-    if (!warning) return;
-
-    const isMobile =
-        window.innerWidth <= 768;
-
-    const isPortrait =
-        window.innerHeight > window.innerWidth;
-
-    const shouldShow =
-        isMobile
-        && isPortrait
-        && currentView === 'list';
-
-    warning.style.display =
-        shouldShow
-        ? 'flex'
-        : 'none';
-}
-
-window.addEventListener(
-    'resize',
-    updateRotateWarning
-);
-
-window.addEventListener(
-    'load',
-    updateRotateWarning
-);
-</script>
-
-<div id="trait-modal" class="trait-modal hidden">
-    <div class="trait-modal-content">
-        <div id="trait-modal-title"></div>
-        <div id="trait-modal-grid"></div>
-    </div>
-</div>
-
-<div id="skill-modal" class="skill-modal hidden">
-    <div class="skill-modal-backdrop" onclick="closeSkillModal()"></div>
-
-    <div class="skill-modal-content">
-        <button class="skill-modal-close" onclick="closeSkillModal()">×</button>
-
-        <div id="skill-modal-body"></div>
-    </div>
-</div>
-
-<div id="rotate-warning">
-    <div class="rotate-box">
-
-        <div class="rotate-icon">
-            📱↔
-        </div>
-
-        <div class="rotate-text">
-            横向き推奨
-        </div>
-
-    </div>
-</div>
-
-</body>
+         function updateRotateWarning() {
+         
+         const warning =
+         document.getElementById('rotate-warning');
+         
+         if (!warning) return;
+         
+         const isMobile =
+         window.innerWidth <= 768;
+         
+         const isPortrait =
+         window.innerHeight > window.innerWidth;
+         
+         const shouldShow =
+         isMobile
+         && isPortrait
+         && currentView === 'list';
+         
+         warning.style.display =
+         shouldShow
+         ? 'flex'
+         : 'none';
+         }
+         
+         window.addEventListener(
+         'resize',
+         updateRotateWarning
+         );
+         
+         window.addEventListener(
+         'load',
+         updateRotateWarning
+         );
+      </script>
+      <div id="trait-modal" class="trait-modal hidden">
+         <div class="trait-modal-content">
+            <div id="trait-modal-title"></div>
+            <div id="trait-modal-grid"></div>
+         </div>
+      </div>
+      <div id="skill-modal" class="skill-modal hidden">
+         <div class="skill-modal-backdrop" onclick="closeSkillModal()"></div>
+         <div class="skill-modal-content">
+            <button class="skill-modal-close" onclick="closeSkillModal()">×</button>
+            <div id="skill-modal-body"></div>
+         </div>
+      </div>
+      <div id="rotate-warning">
+         <div class="rotate-box">
+            <div class="rotate-icon">
+               📱↔
+            </div>
+            <div class="rotate-text">
+               横向き推奨
+            </div>
+         </div>
+      </div>
+   </body>
 </html>
