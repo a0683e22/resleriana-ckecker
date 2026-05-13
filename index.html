@@ -1240,11 +1240,7 @@ const ITEM_MIX_TEXT = {
          
          <div class="trait-char-wrap ${owned ? '' : 'not-owned'}">
          
-         <img
-         class="trait-char-image"
-         src="${char.image || `images/chara/${char.base_character_id}.png`}"
-         alt=""
-         >
+         <img class="trait-char-image" src="${char.image || `images/chara/${char.base_character_id}.png`}" title="${char.name?.[currentLang] || char.name?.jp || ''} | ${char.date || ''}">
          
          </div>
          
