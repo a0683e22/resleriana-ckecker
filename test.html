@@ -2376,6 +2376,8 @@ function updateRotateWarning() {
     const warning =
         document.getElementById('rotate-warning');
 
+    if (!warning) return;
+
     const isMobile =
         window.innerWidth <= 768;
 
@@ -2398,33 +2400,42 @@ window.addEventListener(
     updateRotateWarning
 );
 
-updateRotateWarning();
-      </script>
-<div id="rotate-warning">
+window.addEventListener(
+    'load',
+    updateRotateWarning
+);
+</script>
 
-    <div class="rotate-box">
-
-        <div class="rotate-icon">📱↔</div>
-
-        <div class="rotate-text">
-            横向き推奨
-        </div>
-
-</div>
-</div>
 <div id="trait-modal" class="trait-modal hidden">
     <div class="trait-modal-content">
         <div id="trait-modal-title"></div>
         <div id="trait-modal-grid"></div>
     </div>
 </div>
-      <div id="skill-modal" class="skill-modal hidden">
-         <div class="skill-modal-backdrop" onclick="closeSkillModal()"></div>
-         <div class="skill-modal-content">
-            <button class="skill-modal-close" onclick="closeSkillModal()">×</button>
-            <div id="skill-modal-body"></div>
-         </div>
-      </div>
 
-   </body>
+<div id="skill-modal" class="skill-modal hidden">
+    <div class="skill-modal-backdrop" onclick="closeSkillModal()"></div>
+
+    <div class="skill-modal-content">
+        <button class="skill-modal-close" onclick="closeSkillModal()">×</button>
+
+        <div id="skill-modal-body"></div>
+    </div>
+</div>
+
+<div id="rotate-warning">
+    <div class="rotate-box">
+
+        <div class="rotate-icon">
+            📱↔
+        </div>
+
+        <div class="rotate-text">
+            横向き推奨
+        </div>
+
+    </div>
+</div>
+
+</body>
 </html>
