@@ -1805,9 +1805,9 @@ body[data-view="icon"] .container {
 
     width: 100%;
     height: 100%;
-
+    position: relative;
     object-fit: cover;
-
+    overflow: hidden;
     transform: rotate(-45deg) scale(1.42);
 }
 
@@ -1968,3 +1968,7 @@ body[data-view="icon"] .container {
 
 }
 
+#trait-modal-desc {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}

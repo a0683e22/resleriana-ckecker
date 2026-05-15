@@ -254,76 +254,76 @@
          "新星": 40,
          "ブラオール": 41
          };
-const ATTR_ICONS = {
-
-    '火': 'images/attr/f.1dbf47.png',
-
-    '冰': 'images/attr/i.b647e3.png',
-
-    '雷': 'images/attr/l.119818.png',
-
-    '風': 'images/attr/w.d06628.png'
-
-};
-const ITEM_MIX_TEXT = {
-
-    zh: {
-        combination: '組合',
-        effect: '效果',
-        same: '同屬上位',
-        others: '其他',
-        none: '無效果',
-	CAR: '對應屬性耐性',
-	UTPAR: '在全角色合計行動',
-	turns: '次結束前持續發動',
-	SHR: ' （僅上位）技能命中率',
-	EP: '對象次回合為強化面板時',
-	EAW: '空面板 / 弱化面板',
-	SPD: '速度',
-	DT: '受到傷害',
-	TD: '延遲',
-	turn: '回合',
-	DMG: '傷害'
-    },
-
-    en: {
-        combination: 'Combination',
-        effect: 'Effect',
-        same: 'Same Attribute (Upper)',
-        others: 'Others',
-        none: 'None effect',
-	CAR: 'Corresponding Attribute Resistance',
-	UTPAR: 'Until total party actions reach',
-	turns: 'turns',
-	SHR: '(Upper Only) Skill Hit Rate',
-	EP: 'Target\'s next Enhanced Panel',
-	EAW: 'Empty / Weakened Panel',
-	SPD: 'SPD' ,
-	DT: 'Damage Taken',
-	TD: 'Turn Delay',
-	turn: '.',
-	DMG: 'Damage Dealt'
-    },
-
-    ja: {
-        combination: '組み合わせ',
-        effect: '効果',
-        same: '同属性（上位）',
-        others: 'その他',
-        none: 'なし効果',
-	CAR: '対応属性耐性',
-	UTPAR: '全キャラ合計で',
-	turns: '回行動終了するまで発動',
-	SHR: ' （上位のみ）スキル命中率',
-	EP: '対象の次のパネルが強化パネルの時',
-	EAW: '空パネルへ / 弱体パネルへ' ,
-	SPD: '素早さ',
-	DT: '受けるダメージ',
-	TD: '対象のターンを',
-	turn: 'ターン遅らせる',
-	DMG: 'ダメージ'
-    }
-};
+         const ATTR_ICONS = {
+         
+         '火': 'images/attr/f.1dbf47.png',
+         
+         '冰': 'images/attr/i.b647e3.png',
+         
+         '雷': 'images/attr/l.119818.png',
+         
+         '風': 'images/attr/w.d06628.png'
+         
+         };
+         const ITEM_MIX_TEXT = {
+         
+         zh: {
+         combination: '組合',
+         effect: '效果',
+         same: '同屬上位',
+         others: '其他',
+         none: '無效果',
+         CAR: '對應屬性耐性',
+         UTPAR: '在全角色合計行動',
+         turns: '次結束前持續發動',
+         SHR: ' （僅上位）技能命中率',
+         EP: '對象次回合為強化面板時',
+         EAW: '空面板 / 弱化面板',
+         SPD: '速度',
+         DT: '受到傷害',
+         TD: '延遲',
+         turn: '回合',
+         DMG: '傷害'
+         },
+         
+         en: {
+         combination: 'Combination',
+         effect: 'Effect',
+         same: 'Same Attribute (Upper)',
+         others: 'Others',
+         none: 'None effect',
+         CAR: 'Corresponding Attribute Resistance',
+         UTPAR: 'Until total party actions reach',
+         turns: 'turns',
+         SHR: '(Upper Only) Skill Hit Rate',
+         EP: 'Target\'s next Enhanced Panel',
+         EAW: 'Empty / Weakened Panel',
+         SPD: 'SPD' ,
+         DT: 'Damage Taken',
+         TD: 'Turn Delay',
+         turn: '.',
+         DMG: 'Damage Dealt'
+         },
+         
+         ja: {
+         combination: '組み合わせ',
+         effect: '効果',
+         same: '同属性（上位）',
+         others: 'その他',
+         none: 'なし効果',
+         CAR: '対応属性耐性',
+         UTPAR: '全キャラ合計で',
+         turns: '回行動終了するまで発動',
+         SHR: ' （上位のみ）スキル命中率',
+         EP: '対象の次のパネルが強化パネルの時',
+         EAW: '空パネルへ / 弱体パネルへ' ,
+         SPD: '素早さ',
+         DT: '受けるダメージ',
+         TD: '対象のターンを',
+         turn: 'ターン遅らせる',
+         DMG: 'ダメージ'
+         }
+         };
          const RESET_CONFIRM_TEXT = {
          zh: '確定要重置所持角色嗎？',
          en: 'Are you sure you want to reset owned characters?',
@@ -494,7 +494,7 @@ const ITEM_MIX_TEXT = {
          let showSixStarOnly = false;
          let showOwnedOnly = false;
          let transformMode = false;
-	 const t = ITEM_MIX_TEXT[currentLang];
+         const t = ITEM_MIX_TEXT[currentLang];
          function applyTheme() {
              document.body.classList.toggle('light', currentTheme === 'light');
              const btn = document.getElementById('theme-toggle');
@@ -1196,14 +1196,26 @@ const ITEM_MIX_TEXT = {
          
          });
          
-         const modal =
-         document.getElementById('trait-modal');
+         const modal = document.getElementById('trait-modal');
          
-         const title =
-         document.getElementById('trait-modal-title');
+         const title = document.getElementById('trait-modal-title');
          
-         const grid =
-         document.getElementById('trait-modal-grid');
+         const descBox = document.getElementById('trait-modal-desc');
+         
+         const grid = document.getElementById('trait-modal-grid');
+         
+         const traitData =
+         type === 'battle'
+         ? TRAIT_DATA.battle_tool_traits?.[String(id)]
+         : TRAIT_DATA.equipment_tool_traits?.[String(id)];
+         
+         const desc =
+         traitData?.description?.[currentLang]
+         || traitData?.description?.jp
+         || '';
+         console.log(currentLang);
+console.log(traitData.description);
+         descBox.innerHTML = desc;
          
          title.textContent =
          type === 'battle'
@@ -2472,52 +2484,53 @@ const ITEM_MIX_TEXT = {
          'load',
          updateRotateWarning
          );
-function mixIcons(a, b) {
-
-    return `
-    <div class="mix-combo">
-
-        <img src="${ATTR_ICONS[a]}">
-
-        <img src="${ATTR_ICONS[b]}">
-
-    </div>
-    `;
-}
-function openItemMixModal() {
-
-const modal =
-        document.querySelector('.item-mix-content');
-
-modal.classList.remove(
-    'lang-ja',
-    'lang-en',
-    'lang-zh'
-);
-
-modal.classList.add(`lang-${currentLang}`);
-
-document.body.appendChild(
-    document.getElementById('item-mix-modal')
-);
-
-    document
-        .getElementById('item-mix-modal')
-        .classList
-        .remove('hidden');
-}
-
-function closeItemMixModal() {
-
-    document
-        .getElementById('item-mix-modal')
-        .classList
-        .add('hidden');
-}
+         function mixIcons(a, b) {
+         
+         return `
+         <div class="mix-combo">
+         
+         <img src="${ATTR_ICONS[a]}">
+         
+         <img src="${ATTR_ICONS[b]}">
+         
+         </div>
+         `;
+         }
+         function openItemMixModal() {
+         
+         const modal =
+         document.querySelector('.item-mix-content');
+         
+         modal.classList.remove(
+         'lang-ja',
+         'lang-en',
+         'lang-zh'
+         );
+         
+         modal.classList.add(`lang-${currentLang}`);
+         
+         document.body.appendChild(
+         document.getElementById('item-mix-modal')
+         );
+         
+         document
+         .getElementById('item-mix-modal')
+         .classList
+         .remove('hidden');
+         }
+         
+         function closeItemMixModal() {
+         
+         document
+         .getElementById('item-mix-modal')
+         .classList
+         .add('hidden');
+         }
       </script>
       <div id="trait-modal" class="trait-modal hidden">
          <div class="trait-modal-content">
             <div id="trait-modal-title"></div>
+            <div id="trait-modal-desc"></div>
             <div id="trait-modal-grid"></div>
          </div>
       </div>
@@ -2538,82 +2551,81 @@ function closeItemMixModal() {
             </div>
          </div>
       </div>
-<div id="item-mix-modal" class="hidden" onclick="closeItemMixModal()">
-
-    <div class="item-mix-content">
-<div id="item-mix-table"></div>
-<script>
-document.getElementById('item-mix-table').innerHTML = `
-
-<table class="item-mix-table">
-
-    <tr>
-        <th>${t.combination}</th>
-        <th>${t.effect}</th>
-    </tr>
-
-    <tr>
-        <td>${t.same}</td>
-        <td>
-            ${t.CAR} -50%<br>
-            ${t.UTPAR} 10 ${t.turns}
-        </td>
-    </tr>
-
-    <tr>
-        <td>${mixIcons('火', '冰')}</td>
-        <td>
-            ${t.SHR} -40%
-        </td>
-    </tr>
-
-    <tr>
-        <td>${mixIcons('火', '雷')}</td>
-        <td>
-            ${t.EP} <br>→ ${t.EAW}
-        </td>
-    </tr>
-
-    <tr>
-        <td>${mixIcons('火', '風')}</td>
-        <td>
-            ${t.SPD} ↓ (3% / 7%)
-        </td>
-    </tr>
-
-    <tr>
-        <td>${mixIcons('冰', '雷')}</td>
-        <td>
-            ${t.DT} + (50% / 100%)
-        </td>
-    </tr>
-
-    <tr>
-        <td>${mixIcons('冰', '風')}</td>
-        <td>
-            ${t.TD} (1 / 2) ${t.turn}
-        </td>
-    </tr>
-
-    <tr>
-        <td>${mixIcons('雷', '風')}</td>
-        <td>
-            ${t.DMG} - (30% / 50%)
-        </td>
-    </tr>
-
-    <tr>
-        <th>${t.others}</th>
-        <td>
-            ${t.none}
-        </td>
-    </tr>
-
-</table>
-
-`;
-</script>
-</div>
-</div>
+      <div id="item-mix-modal" class="hidden" onclick="closeItemMixModal()">
+         <div class="item-mix-content">
+            <div id="item-mix-table"></div>
+            <script>
+               document.getElementById('item-mix-table').innerHTML = `
+               
+               <table class="item-mix-table">
+               
+                   <tr>
+                       <th>${t.combination}</th>
+                       <th>${t.effect}</th>
+                   </tr>
+               
+                   <tr>
+                       <td>${t.same}</td>
+                       <td>
+                           ${t.CAR} -50%<br>
+                           ${t.UTPAR} 10 ${t.turns}
+                       </td>
+                   </tr>
+               
+                   <tr>
+                       <td>${mixIcons('火', '冰')}</td>
+                       <td>
+                           ${t.SHR} -40%
+                       </td>
+                   </tr>
+               
+                   <tr>
+                       <td>${mixIcons('火', '雷')}</td>
+                       <td>
+                           ${t.EP} <br>→ ${t.EAW}
+                       </td>
+                   </tr>
+               
+                   <tr>
+                       <td>${mixIcons('火', '風')}</td>
+                       <td>
+                           ${t.SPD} ↓ (3% / 7%)
+                       </td>
+                   </tr>
+               
+                   <tr>
+                       <td>${mixIcons('冰', '雷')}</td>
+                       <td>
+                           ${t.DT} + (50% / 100%)
+                       </td>
+                   </tr>
+               
+                   <tr>
+                       <td>${mixIcons('冰', '風')}</td>
+                       <td>
+                           ${t.TD} (1 / 2) ${t.turn}
+                       </td>
+                   </tr>
+               
+                   <tr>
+                       <td>${mixIcons('雷', '風')}</td>
+                       <td>
+                           ${t.DMG} - (30% / 50%)
+                       </td>
+                   </tr>
+               
+                   <tr>
+                       <th>${t.others}</th>
+                       <td>
+                           ${t.none}
+                       </td>
+                   </tr>
+               
+               </table>
+               
+               `;
+            </script>
+         </div>
+      </div>
    </body>
 </html>
