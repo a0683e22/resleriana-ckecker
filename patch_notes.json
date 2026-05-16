@@ -1,6 +1,38 @@
 {
-  "version": "2026-05-13",
+  "version": "2026-05-17",
   "notes": [
+    {
+      "date": "2026-05-17",
+      "title": "Memoria & Save System Update",
+      "items": [
+        {
+          "text": "Added Memoria Ownership List",
+          "details": [
+            {
+              "type": "new",
+              "contents": [
+                "Added Memoria ownership display and basic sorting / filtering functions.",
+                "Currently only Japanese text is supported. Other languages have not been translated yet."
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Share System Adjustments",
+          "details": [
+            {
+              "type": "improve",
+              "contents": [
+                "Due to the addition of the Memoria page, the sharing system has been redesigned.",
+                "The old k= URL sharing format is no longer supported and has been fully replaced with Save Code mode.",
+                "Because importing a Save Code will overwrite local save data, a warning message will now appear before importing.",
+                "It is recommended to use Incognito Mode when viewing other people's save data."
+              ]
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-05-13",
       "title": "List Mode Update",
@@ -31,36 +63,7 @@
           ]
         }
       ]
-    },
-    {
-      "date": "2026-05-12",
-      "title": "Skill Viewer Update",
-      "items": [
-        {
-          "text": "Improved Skill List",
-          "details": [
-            {
-              "type": "improve",
-              "contents": [
-                "Completed skill previews for all characters.",
-                "Added preview support for Transform, Active, Extra, and other special skills.",
-                "Added Passive / Leader Skill Preview."
-              ]
-            }
-          ]
-        },
-        {
-          "text": "Share URL BUG Fix",
-          "details": [
-            {
-              "type": "fix",
-              "contents": [
-                "Fixed an issue where shared URLs did not display the correct ownership data."
-              ]
-            }
-          ]
-        }
-      ]
     }
   ]
 }
+
