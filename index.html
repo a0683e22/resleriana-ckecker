@@ -2190,7 +2190,18 @@
              
              }
              async function loadMemories() {
-
+            Object.entries(DEFAULT_MEMO_LIMIT)
+            .forEach(([id, value]) => {
+            
+            if (
+            gameSaveData.memories[id]
+            === undefined
+            ) {
+            
+            gameSaveData.memories[id] =
+                value;
+            }
+            });
              const sortType =
              document.getElementById('memo-sort').value;
              const memoriaResponse =
