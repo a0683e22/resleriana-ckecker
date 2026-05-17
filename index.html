@@ -1910,88 +1910,92 @@
          loadCharacters();
          loadMemories();
          }
-         function cycleMemoLimit(id, delta = 1) {
-         
-         let current;
-         let next;
-         
-         current =
-         gameSaveData.memories[id]
-         ?? DEFAULT_MEMO_LIMIT[id]
-         ?? 0;
-         
-         // ===== 固定 V =====
-         
-         if (delta === 1) {
-         
-         next =
-         current === 5 ? 0 : 5;
-         
-         } else {
-         
-         next =
-         current === 0 ? 5 : 0;
-         }
-         
-         // ===== 單張限定 =====
-         
-         } else if (
-         SINGLE_COPY_MEMOS.includes(id)
-         ) {
-         
-         if (delta === 1) {
-         
-         next =
-         current === 1 ? 0 : 1;
-         
-         } else {
-         
-         next =
-         current === 0 ? 1 : 0;
-         }
-         
-         // ===== 一般 =====
-         
-         } else {
-         
-         next =
-             (current + delta + 6) % 6;
-         }
-         
-         gameSaveData.memories[id] = next;
-         
-         saveStorage();
-         
-         const el =
-         document.getElementById(
-             `memo-limit-${id}`
-         );
-         
-         if (el) {
-         
-         el.textContent =
-             limitText[next];
-         
-         const card =
-             el.closest('.memo-card');
-         
-         if (card) {
-         
-             if (next === 0) {
-         
-                 card.classList.add(
-                     'unowned'
-                 );
-         
-             } else {
-         
-                 card.classList.remove(
-                     'unowned'
-                 );
-             }
-         }
-         }
-         }
+function cycleMemoLimit(id, delta = 1) {
+
+    let current;
+    let next;
+
+    current =
+        gameSaveData.memories[id]
+        ?? DEFAULT_MEMO_LIMIT[id]
+        ?? 0;
+
+    // ===== 固定 V =====
+
+    if (
+        FIXED_V_MEMOS.includes(id)
+    ) {
+
+        if (delta === 1) {
+
+            next =
+                current === 5 ? 0 : 5;
+
+        } else {
+
+            next =
+                current === 0 ? 5 : 0;
+        }
+
+    // ===== 單張限定 =====
+
+    } else if (
+        SINGLE_COPY_MEMOS.includes(id)
+    ) {
+
+        if (delta === 1) {
+
+            next =
+                current === 1 ? 0 : 1;
+
+        } else {
+
+            next =
+                current === 0 ? 1 : 0;
+        }
+
+    // ===== 一般 =====
+
+    } else {
+
+        next =
+            (current + delta + 6) % 6;
+    }
+
+    gameSaveData.memories[id] = next;
+
+    saveStorage();
+
+    const el =
+        document.getElementById(
+            `memo-limit-${id}`
+        );
+
+    if (el) {
+
+        el.textContent =
+            limitText[next];
+
+        const card =
+            el.closest('.memo-card');
+
+        if (card) {
+
+            if (next === 0) {
+
+                card.classList.add(
+                    'unowned'
+                );
+
+            } else {
+
+                card.classList.remove(
+                    'unowned'
+                );
+            }
+        }
+    }
+}
           function encodeSaveData() {
           
           return btoa(
