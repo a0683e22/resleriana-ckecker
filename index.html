@@ -240,9 +240,7 @@
                 2: 'SR',
                 3: 'SSR'
              };
-             const DEFAULT_MEMO_LIMIT = {};
-             
-             const FIXED_V_MEMOS = [
+            const FIXED_V_MEMOS = [
             30190,
             30018
              ];
@@ -2190,18 +2188,7 @@
              
              }
              async function loadMemories() {
-            Object.entries(DEFAULT_MEMO_LIMIT)
-            .forEach(([id, value]) => {
-            
-            if (
-            gameSaveData.memories[id]
-            === undefined
-            ) {
-            
-            gameSaveData.memories[id] =
-                value;
-            }
-            });
+
              const sortType =
              document.getElementById('memo-sort').value;
              const memoriaResponse =
