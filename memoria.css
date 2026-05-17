@@ -28,131 +28,105 @@
 	position: relative;
 	cursor: pointer;
 }
+
 .memo-card img {
 	width: 150px;
 	height: 225px;
-
 	object-fit: cover;
-
 	border-radius: 10px;
 }
 
 .memo-name {
 	width: 150px;
-
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-
 	text-align: center;
-
 	font-size: 14px;
 	margin-top: 6px;
 }
 
 #memo-view {
 	display: grid;
-
-	grid-template-columns:
-		repeat(auto-fill, minmax(140px, 1fr));
-
+	grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
 	gap: 16px;
 }
 
 .memo-rank {
 	position: absolute;
-
 	top: 2px;
 	left: 4px;
-
 	z-index: 10;
-
 	font-size: 24px;
 	font-weight: 900;
-
 	letter-spacing: -1px;
-
 	user-select: none;
-
 	pointer-events: none;
 }
 
 .memo-rank.rarity-3 {
 	color: #ffe76a;
-
 	-webkit-text-stroke: 1px rgba(80,40,0,0.7);
-
-	text-shadow:
-		0 0 2px rgba(255,220,120,0.8),
+	text-shadow: 0 0 2px rgba(255,220,120,0.8),
 		0 0 6px rgba(255,200,0,0.5);
 }
 
 .memo-rank.rarity-2 {
 	color: #7fd6ff;
-
 	-webkit-text-stroke: 1px rgba(0,40,80,0.7);
-
-	text-shadow:
-		0 0 2px rgba(120,220,255,0.8),
+	text-shadow: 0 0 2px rgba(120,220,255,0.8),
 		0 0 6px rgba(0,180,255,0.5);
 }
 
 .memo-rank.rarity-1 {
 	color: #ffffff;
-
 	-webkit-text-stroke: 1px rgba(50,50,50,0.7);
-
-	text-shadow:
-		0 0 2px rgba(255,255,255,0.7);
+	text-shadow: 0 0 2px rgba(255,255,255,0.7);
 }
 
 .memo-limit {
 	position: absolute;
-
 	top: 2px;
 	right: 2px;
 	opacity: 0.92;
 	width: 28px;
 	height: 28px;
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	z-index: 20;
-
 	font-size: 18px;
 	font-weight: 900;
-
 	color: white;
-
-	text-shadow:
-		0 0 2px rgba(0,0,0,0.9),
+	text-shadow: 0 0 2px rgba(0,0,0,0.9),
 		0 0 4px rgba(0,0,0,0.8);
-
 	cursor: pointer;
-
 	user-select: none;
+}
+
+@media (orientation: portrait) {
+
+	.memo-limit {
+		top: 4px;
+		right: 4px;
+		width: 24px;
+		height: 24px;
+		font-size: 14px;
+	}
 }
 
 .memo-card.unowned img {
 	filter: grayscale(100%) brightness(0.6);
-
 	opacity: 0.75;
 }
 
 .memo-popup {
 	position: fixed;
-
 	inset: 0;
-
 	background: rgba(0,0,0,0.75);
-
 	display: flex;
-
 	align-items: center;
 	justify-content: center;
-
 	z-index: 9999;
 }
 
@@ -162,19 +136,12 @@
 
 .memo-popup-content {
 	width: 720px;
-
 	max-width: 90vw;
-
 	max-height: 90vh;
-
 	overflow-y: auto;
-
 	background: #08152f;
-
 	border-radius: 20px;
-
 	padding: 24px;
-
 	position: relative;
 }
 
@@ -191,47 +158,34 @@
 
 .memo-popup-title {
 	text-align: center;
-
 	font-size: 32px;
-
 	font-weight: 800;
-
 	margin-bottom: 20px;
 }
 
 .memo-popup-image {
 	display: flex;
-
 	justify-content: center;
-
 	margin-bottom: 24px;
 }
 
 .memo-popup-image img {
 	display: block;
-
 	width: 300px;
-
 	max-width: 100%;
-
 	height: auto;
-
 	border-radius: 16px;
 }
 
 .memo-popup-status {
 	display: grid;
-
 	grid-template-columns: 1fr 1fr;
-
 	gap: 24px;
 }
 
 .memo-status-column {
 	background: rgba(255,255,255,0.05);
-
 	border-radius: 14px;
-
 	padding: 16px;
 }
 
@@ -239,29 +193,21 @@
 	font-size: 16px;
 	text-align: center;
 	font-weight: 700;
-
 	margin-bottom: 14px;
 }
 
 .memo-status-grid {
 	display: grid;
-
 	grid-template-columns: 1fr 1fr;
-
 	gap: 12px;
 }
 
 .memo-stat {
 	display: flex;
-
 	justify-content: space-between;
-
 	align-items: center;
-
 	background: rgba(255,255,255,0.05);
-
 	padding: 8px 12px;
-
 	border-radius: 10px;
 }
 
@@ -284,14 +230,10 @@
 }
 
 #save-code {
-
-    width: 100%;
-
-    min-height: 100px;
-
-    resize: vertical;
-
-    font-size: 14px;
-word-break: break-all;
-    line-height: 1.5;
+	width: 100%;
+	min-height: 100px;
+	resize: vertical;
+	font-size: 14px;
+	word-break: break-all;
+	line-height: 1.5;
 }
