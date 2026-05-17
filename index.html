@@ -1996,41 +1996,119 @@ function cycleMemoLimit(id, delta = 1) {
         }
     }
 }
-          function encodeSaveData() {
-          
-          return btoa(
-          JSON.stringify(gameSaveData)
-          );
-          }
-          
-          function decodeSaveData(code) {
-          
-          try {
-          
-          const parsed =
-          JSON.parse(
-          atob(code)
-          );
-          
-          gameSaveData.characters =
-          parsed.characters || {};
-          
-          gameSaveData.memories =
-          parsed.memories || {};
-          
-          saveStorage();
-          
-          rerenderCharactersKeepChecked();
-          
-          loadMemories();
-          
-          } catch (e) {
-          
-          console.error(e);
-          
-          alert('Invalid Save Code');
-          }
-          }
+function exportCharacters() {
+
+    let result = '';
+
+    allCharacters.forEach(char => {
+
+        result +=
+            gameSaveData.characters[char.id]
+            ? '1'
+            : '0';
+    });
+
+    return result;
+}
+function exportMemories() {
+
+    let result = '';
+
+    MEMO_ID_LIST.forEach(id => {
+
+        result +=
+            gameSaveData.memories[id]
+            ?? DEFAULT_MEMO_LIMIT[id]
+            ?? 0;
+    });
+
+    return result;
+}
+function exportSaveCode() {
+
+    const charData =
+        exportCharacters();
+
+    const memoData =
+        exportMemories();
+
+    const raw =
+        `${charData}|${memoData}`;
+
+    const saveCode =
+        btoa(raw);
+
+    document.getElementById(
+        'save-code'
+    ).value = saveCode;
+}
+function importSaveCode() {
+
+    const code =
+        document.getElementById(
+            'save-code'
+        ).value;
+
+    const raw =
+        atob(code);
+
+    const [
+        charData,
+        memoData
+    ] = raw.split('|');
+
+    // ===== 角色 =====
+
+    gameSaveData.characters = {};
+
+    for (
+        let i = 0;
+        i < charData.length;
+        i++
+    ) {
+
+        const char =
+            allCharacters[i];
+
+        if (!char) continue;
+
+        if (charData[i] === '1') {
+
+            gameSaveData.characters[
+                char.id
+            ] = 1;
+        }
+    }
+
+    // ===== 回憶 =====
+
+    gameSaveData.memories = {};
+
+    for (
+        let i = 0;
+        i < memoData.length;
+        i++
+    ) {
+
+        const id =
+            MEMO_ID_LIST[i];
+
+        const value =
+            Number(memoData[i]);
+
+        if (value > 0) {
+
+            gameSaveData.memories[id] =
+                value;
+        }
+    }
+
+    saveStorage();
+
+    loadCharacters();
+
+    loadMemories();
+}
           function saveStorage() {
           
           localStorage.setItem(
@@ -2101,6 +2179,11 @@ function cycleMemoLimit(id, delta = 1) {
           id: Number(id),
           ...data
           }));
+	
+	  MEMO_ID_LIST =
+    memories
+    .map(m => m.id)
+    .sort((a, b) => a - b);
           
           const rarityOrder = {
           3: 3, // SSR
