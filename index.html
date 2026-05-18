@@ -244,6 +244,8 @@
              
              const FIXED_V_MEMOS = [
             30190,
+            30183,
+            30182,
             30018
              ];
             const SINGLE_COPY_MEMOS = [
@@ -3512,9 +3514,10 @@
                        .src = `images/memo/${id}.png`;
                        
                        document
-                       .getElementById('memo-effect-text')
-                       .innerHTML =
-                       memo.description.jp;
+                    .getElementById('memo-effect-text')
+                    .innerHTML =
+                    memo.description[currentLang]
+                    || memo.description.jp;
                        const typeMap = {
                        'HP': 'hp',
                        '素早さ': 'speed',
