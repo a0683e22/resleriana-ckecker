@@ -1,866 +1,866 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>Items</title>
-        <link rel="icon" href="images/favicon2.ico">
-        <style>
-            body {
-            background: #1f2430;
-            color: #fff;
-            font-family: sans-serif;
-            margin: 20px
-            }
-            .control-panel {
-            width: 1280px;
-            margin: 20px auto;
-            padding: 16px 20px;
-            background: #4b556f;
-            border-radius: 14px;
-            display: flex;
-            align-items: center;
-            gap: 24px;
-            position: sticky;
-            top: 0;
-            z-index: 100
-            }
-            #search-input {
-            width: 420px;
-            height: 40px;
-            padding: 0 14px;
-            border: none;
-            border-radius: 8px;
-            background: #2f374a;
-            color: #fff;
-            font-size: 18px
-            }
-            .filter-group {
-            display: flex;
-            align-items: center;
-            gap: 8px
-            }
-            .filter-btn {
-            height: 36px;
-            padding: 0 14px;
-            border: none;
-            border-radius: 8px;
-            background: #69758f;
-            color: #fff;
-            font-size: 16px;
-            cursor: pointer
-            }
-            .filter-btn:hover {
-            background: #8291b2
-            }
-            .gift-filter-icon {
-            width: 22px;
-            height: 22px;
-            cursor: pointer
-            }
-            #language-select {
-            margin-left: auto;
-            height: 38px;
-            padding: 0 10px;
-            border: none;
-            border-radius: 8px;
-            background: #2f374a;
-            color: #fff;
-            font-size: 16px
-            }
-            #equipment-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px
-            }
-            .equip-card {
-            width: 1280px;
-            display: flex;
-            gap: 16px;
-            background: #3e4658;
-            border-radius: 12px;
-            padding: 12px
-            }
-            .equip-left {
-            position: relative;
-            width: 180px;
-            height: 220px;
-            flex-shrink: 0
-            }
-            .equip-bg {
-            width: 100%;
-            height: 100%;
-            object-fit: cover
-            }
-            .equip-image {
-            position: absolute;
-            top: 18px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 128px;
-            height: 128px;
-            object-fit: contain
-            }
-            .equip-slot-icon {
-            position: absolute;
-            top: 4px;
-            right: 4px;
-            width: 34px;
-            height: 34px
-            }
-            .equip-name {
-            position: absolute;
-            bottom: 8px;
-            width: 100%;
-            text-align: center;
-            font-size: 16px;
-            font-weight: 700;
-            color: #fff;
-            text-shadow: 0 0 4px #000
-            }
-            .equip-main {
-            width: 860px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 14px
-            }
-            .equip-status {
-            display: flex;
-            gap: 18px;
-            font-size: 22px;
-            color: #fff;
-            font-weight: 700
-            }
-            .equip-effect {
-            font-size: 28px;
-            line-height: 1.5;
-            color: #dfe8ff
-            }
-            .equip-materials {
-            width: 200px;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            gap: 8px
-            }
-            .material-item {
-            position: relative;
-            width: 64px;
-            height: 64px
-            }
-            .material-image {
-            width: 100%;
-            height: 100%;
-            object-fit: contain
-            }
-            .material-count {
-            position: absolute;
-            bottom: -6px;
-            right: 0;
-            font-size: 18px;
-            font-weight: 700;
-            color: #fff;
-            text-shadow: 0 0 4px #000
-            }
-            .material-item {
-            position: relative;
-            width: 72px;
-            height: 72px
-            }
-            .material-bg {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            object-fit: cover
-            }
-            .material-image {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            width: 56px;
-            height: 56px;
-            object-fit: contain
-            }
-            .event-reward {
-            font-size: 20px;
-            color: #ffd36b;
-            font-weight: 700;
-            text-align: right
-            }
-            .gift-color-icon {
-            width: 24px;
-            height: 24px;
-            object-fit: contain
-            }
-            .filter-btn.active {
-            background: #9db6ff;
-            color: #fff
-            }
-            .gift-filter-icon.active {
-            transform: scale(1.15);
-            filter: drop-shadow(
-            0 0 6px white
-            )
-            }
-            .shard-frame {
-            position: absolute;
-            width: 72px;
-            height: 72px;
-            object-fit: contain
-            }
-            .shard-image {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            width: 42px;
-            height: 42px;
-            object-fit: cover;
-            border-radius: 50%
-            }
-        </style>
-    </head>
-    <body>
-        <div class="control-panel">
-            <input
-                type="text"
-                id="search-input"
-                placeholder="Search..."
-                >
-            <div class="filter-group">
-                <button class="filter-btn" data-rarity="UR">
-                UR
-                </button>
-                <button class="filter-btn" data-rarity="SSR">
-                SSR
-                </button>
-                <button class="filter-btn" data-rarity="SR">
-                SR
-                </button>
-                <button class="filter-btn" data-rarity="R">
-                R
-                </button>
-            </div>
-            <div class="filter-group">
-                <button class="filter-btn" data-type="Weapon">
-                Weapon
-                </button>
-                <button class="filter-btn" data-type="Armor">
-                Armor
-                </button>
-                <button class="filter-btn" data-type="Accessory">
-                Accessory
-                </button>
-            </div>
-            <div class="filter-group">
-                <img
-                    src="images/ui/blue.png"
-                    class="gift-filter-icon"
-                    alt="">
-                <img
-                    src="images/ui/yellow.png"
-                    class="gift-filter-icon"
-                    alt="">
-                <img
-                    src="images/ui/red.png"
-                    class="gift-filter-icon"
-                    alt="">
-                <img
-                    src="images/ui/green.png"
-                    class="gift-filter-icon"
-                    alt="">
-                <img
-                    src="images/ui/purple.png"
-                    class="gift-filter-icon"
-                    alt="">
-            </div>
-            <select id="sort-select">
-                <option value="desc">
-                    New → Old
-                </option>
-                <option value="asc">
-                    Old → New
-                </option>
-            </select>
-            <select id="language-select">
-                <option value="zh">
-                    zh-TW
-                </option>
-                <option value="ja">
-                    JA
-                </option>
-                <option value="en">
-                    EN
-                </option>
-            </select>
-        </div>
-        <div id="equipment-list"></div>
-        <script>
-            const EQUIP_SOURCE = {
-            	838: 'buyshop',
-            	839: 'buyshop',
-            	840: 'buyshop'
-            };
-            const TEXTS = {
-                             zh: {
-            		event_reward: '活動獎勵',
-            		buyshop: '商城購買',
-            		mission: '任務獎勵',
-            		materials: "素材" ,
-            		weapon: '武器',
-            		armor: '防具',
-            		accessory: '裝飾品',
-            		hp: 'HP',
-            		speed: '速度',
-            		physical_attack: '物攻',
-            		magic_attack: '魔攻',
-            		physical_defense: '物防',
-            		magic_defense: '魔防',
-            		no_ability: '無追加效果'
-                             },
-                             ja: {
-            		event: 'イベント報酬',
-            		buyshop: 'ショップ購入',
-            		mission: '任務報酬',
-            		materials: "素材" ,
-            		weapon: '武器',
-            		armor: '防具',
-            		accessory: '装飾',
-            		hp: 'HP',
-            		speed: '素早さ',
-            		physical_attack: '物攻',
-            		magic_attack: '魔攻',
-            		physical_defense: '物防',
-            		magic_defense: '魔防',
-            		no_ability: '追加効果なし'
-                             },
-                             en: {
-            		event: 'Event Reward',
-            		buyshop: 'Shop',
-            		mission: 'Mission Reward',
-            		materials: "Materials" ,
-            		weapon: 'Weapon',
-            		armor: 'Armor',
-            		accessory: 'Accessory',
-            		hp: 'HP',
-            		speed: 'SPD',
-            		physical_attack: 'P.ATK',
-            		magic_attack: 'M.ATK',
-            		physical_defense: 'P.DEF',
-            		magic_defense: 'M.DEF',
-            		no_ability: 'No Additional Effect'
-                                  }
-                         };
-            let currentRarity = null;
-            let currentType = null;
-            let currentSearch = '';
-            let currentLang = 'zh';
-            let currentSort = 'desc';
-            
-            async function init() {
-            
-                // ===== item =====
-            
-                const itemResponse =
-                await fetch(
-                    'data/item.json'
-                );
-            
-                const items =
-                await itemResponse.json();
-            
-                // ===== recipe =====
-            
-                const recipeResponse =
-                await fetch(
-                    'data/recipe_master.json'
-                );
-            
-                const recipes =
-                await recipeResponse.json();
-            
-                // ===== map =====
-            
-                const itemMap = {};
-            
-                items.forEach(
-                    item => {
-            
-                        itemMap[item.id] = item;
-                    }
-                );
-            
-                const recipeMap = {};
-            
-                recipes.forEach(
-                    recipe => {
-            
-                        recipeMap[
-                            recipe.target_id
-                        ] = recipe;
-                    }
-                );
-            
-                // ===== slot icon =====
-            
-                function getSlotIcon(type) {
-            
-                    switch(type) {
-            
-                        case 'Weapon':
-                            return 'images/ui/weapon.webp';
-            
-                        case 'Armor':
-                            return 'images/ui/armor.webp';
-            
-                        case 'Accessory':
-                            return 'images/ui/accessory.webp';
-            
-                        default:
-                            return '';
-                    }
-                }
-            function getRarityBg(rarity) {
-            
-                switch(rarity) {
-            
-                    case 1:
-                    case 'R':
-                        return 'images/ui/r.webp';
-            
-                    case 2:
-                    case 'SR':
-                        return 'images/ui/sr.webp';
-            
-                    case 3:
-                    case 'SSR':
-                        return 'images/ui/ssr.webp';
-            
-                    case 4:
-                    case 'UR':
-                        return 'images/ui/ur.webp';
-            
-                    default:
-                        return '';
-                }
-            }
-            
-            function getGiftColorIcon(colorId) {
-            
-                switch(colorId) {
-            
-                    case 1:
-                        return 'images/ui/blue.png';
-            
-                    case 2:
-                        return 'images/ui/purple.png';
-            
-                    case 3:
-                        return 'images/ui/yellow.png';
-            
-                    case 4:
-                        return 'images/ui/red.png';
-            
-                    case 5:
-                        return 'images/ui/green.png';
-            
-                    default:
-                        return '';
-                }
-            }
-            
-            	//篩選階級
-            		document
-            .querySelectorAll(
-                '[data-rarity]'
-            )
-            .forEach(
-                btn => {
-            
-                    btn.addEventListener(
-                        'click',
-                        () => {
-            
-                            const rarity =
-                            btn.dataset.rarity;
-            
-                            if (
-                                currentRarity === rarity
-                            ) {
-            
-                                currentRarity = null;
-                            }
-                            else {
-            
-                                currentRarity = rarity;
-                            }
-            
-                            loadEquipment();
-                        }
-                    );
-                }
-            );
-            //篩選種類
-            document
-            .querySelectorAll(
-                '[data-type]'
-            )
-            .forEach(
-                btn => {
-            
-                    btn.addEventListener(
-                        'click',
-                        () => {
-            
-                            const type =
-                            btn.dataset.type;
-            
-                            if (
-                                currentType === type
-                            ) {
-            
-                                currentType = null;
-                            }
-                            else {
-            
-                                currentType = type;
-                            }
-            
-                            loadEquipment();
-                        }
-                    );
-                }
-            );
-            //切換語言
-            document
-            .getElementById(
-                'language-select'
-            )
-            .addEventListener(
-                'change',
-                e => {
-            
-                    currentLang =
-                    e.target.value;
-            
-                    loadEquipment();
-                }
-            );
-            //搜尋
-            document
-            .getElementById(
-                'search-input'
-            )
-            .addEventListener(
-                'input',
-                e => {
-            
-                    currentSearch =
-                    e.target.value
-                    .toLowerCase();
-            
-                    loadEquipment();
-                }
-            );
-                // ===== material render =====
-            
-                function renderMaterials(recipe, currentEquipId) {
-            
-                if (!recipe) {
-            
-                    const source =
-                    EQUIP_SOURCE[
-                        currentEquipId
-                    ] || 'event';
-            
-                    return `
-                    
-                    <div class="event-reward">
-                        ${t(source)}
-                    </div>
-            
-                    `;
-                }
-            
-                return recipe.materials.map(
-                    material => {
-            
-                        // ===== 角色碎片 =====
-            
-                        if (material.type === 8) {
-            
-                return `
-            
-                <div class="material-item">
-            
-                    <img
-                        src="images/ui/shard_frame.webp"
-                        class="shard-frame"
-                    >
-            
-                    <img
-                        src="images/ingredient/${material.id}.webp"
-                        class="shard-image"
-                    >
-            
-                    <div class="material-count">
-                        x${material.quantity}
-                    </div>
-            
-                </div>
-            
-                `;
-            }
-            
-                        // ===== 一般素材 =====
-            
-                        const item =
-                        itemMap[
-                            material.id
-                        ];
-            
-                        if (!item) {
-                            return '';
-                        }
-            
-                        return `
-            
-                        <div class="material-item">
-            
-                            <img
-                                src="${getRarityBg(item.rarity)}"
-                                class="material-bg"
-                            >
-            
-                            <img
-                                src="${item.image}"
-                                class="material-image"
-                            >
-            
-                            <div class="material-count">
-                                x${material.quantity}
-                            </div>
-            
-                        </div>
-            
-                        `;
-                    }
-                ).join('');
-            }
-            function renderGiftColors(recipe) {
-            
-                if (!recipe) {
-                    return '';
-                }
-            
-                return recipe.gift_colors.map(
-                    color => `
-            
-                    <img
-                        src="${getGiftColorIcon(color)}"
-                        class="gift-color-icon"
-                    >
-            
-                    `
-                ).join('');
-            }
-                // ===== equipment =====
-            
-                async function loadEquipment() {
-            
-                    const response =
-                    await fetch(
-                        'data/equipment.json'
-                    );
-            
-                    const data =
-                    await response.json();
-            
-                    const container =
-                    document.getElementById(
-                        'equipment-list'
-                    );
-            data.sort(
-                (a, b) => {
-            
-                    if (
-                        currentSort === 'desc'
-                    ) {
-            
-                        return b.id - a.id;
-                    }
-            
-                    return a.id - b.id;
-                }
-            );
-            let filteredData = data;
-            
-            if (currentRarity) {
-            
-                filteredData =
-                filteredData.filter(
-                    equip =>
-                    equip.rarity === currentRarity
-                );
-            }
-            if (currentType) {
-            
-                filteredData =
-                filteredData.filter(
-                    equip =>
-                    equip.slot_type === currentType
-                );
-            }
-            if (currentSearch) {
-            
-                filteredData =
-                filteredData.filter(
-                    equip =>
-            
-                    equip.name
-                    .toLowerCase()
-                    .includes(
-                        currentSearch
-                    )
-                );
-            }
-                    container.innerHTML = filteredData.map(
-                        equip => {
-            
-                            const recipe =
-                            recipeMap[
-                                equip.id
-                            ];
-            
-                            return `
-            
-                            <div class="equip-card">
-            
-                                <div class="equip-left" onclick="copyText('${equip.name}')">
-            
-                                    <img src="${getRarityBg(equip.rarity)}" class="equip-bg">
-            
-                                    <img
-                                        src="${equip.image}"
-                                        class="equip-image"
-                                    >
-            
-                                    <img
-                                        src="${getSlotIcon(equip.slot_type)}"
-                                        class="equip-slot-icon"
-                                    >
-            
-                                    <div class="equip-name">
-                                        ${equip.name}
-                                    </div>
-            
-                                </div>
-            
-                                <div class="equip-main">
-            
-                                    <div class="equip-status">
-            
-            				    ${
-                    renderGiftColors(recipe)
-                }
-                                        ${
-                                            equip.status.map(
-                                                s => `
-                                                <div>
-                                                    ${getStatusText(s.type)}
-                                                    +${s.value}
-                                                </div>
-                                                `
-                                            ).join('')
-                                        }
-            
-                                    </div>
-            
-                                    <div class="equip-effect">
-                                        ${
-                equip.ability === 'None'
-                ? t('no_ability')
-                : equip.ability
-            }
-                                    </div>
-            
-                                </div>
-            
-                                <div class="equip-materials">
-            
-                                    ${
-                                        renderMaterials(recipe, equip.id)
-                                    }
-            
-                                </div>
-            
-                            </div>
-            
-                            `;
-                        }
-                    ).join('');
-                }
-            
-            document
-            .getElementById(
-                'sort-select'
-            )
-            .addEventListener(
-                'change',
-                e => {
-            
-                    currentSort =
-                    e.target.value;
-            
-                    loadEquipment();
-                }
-            );
-            document
-            .getElementById(
-                'search-input'
-            )
-            .addEventListener(
-                'input',
-                e => {
-            
-                    currentSearch =
-                    e.target.value
-                    .toLowerCase();
-            
-                    loadEquipment();
-                }
-            );
-            
-                loadEquipment();
-            }
-            
-            init();
-            function copyText(text) {
-            
-                navigator.clipboard.writeText(text);
-            }
-            // 切換語言顯示
-            function getStatusText(type) {
-            
-                return t(
-                    type
-                    .toLowerCase()
-                    .replaceAll(' ', '_')
-                );
-            }
-            function t(key) {
-            
-                return (
-                    TEXTS[
-                        currentLang
-                    ]?.[
-                        key
-                    ]
-                    ||
-                    key
-                );
-            }
-        </script>
-    </body>
+   <head>
+      <meta charset="UTF-8">
+      <title>Items</title>
+      <link rel="icon" href="images/favicon2.ico">
+      <style>
+         body {
+         background: #1f2430;
+         color: #fff;
+         font-family: sans-serif;
+         margin: 20px
+         }
+         .control-panel {
+         width: 1280px;
+         margin: 20px auto;
+         padding: 16px 20px;
+         background: #4b556f;
+         border-radius: 14px;
+         display: flex;
+         align-items: center;
+         gap: 24px;
+         position: sticky;
+         top: 0;
+         z-index: 100
+         }
+         #search-input {
+         width: 420px;
+         height: 40px;
+         padding: 0 14px;
+         border: none;
+         border-radius: 8px;
+         background: #2f374a;
+         color: #fff;
+         font-size: 18px
+         }
+         .filter-group {
+         display: flex;
+         align-items: center;
+         gap: 8px
+         }
+         .filter-btn {
+         height: 36px;
+         padding: 0 14px;
+         border: none;
+         border-radius: 8px;
+         background: #69758f;
+         color: #fff;
+         font-size: 16px;
+         cursor: pointer
+         }
+         .filter-btn:hover {
+         background: #8291b2
+         }
+         .gift-filter-icon {
+         width: 22px;
+         height: 22px;
+         cursor: pointer
+         }
+         #language-select {
+         margin-left: auto;
+         height: 38px;
+         padding: 0 10px;
+         border: none;
+         border-radius: 8px;
+         background: #2f374a;
+         color: #fff;
+         font-size: 16px
+         }
+         #equipment-list {
+         display: flex;
+         flex-direction: column;
+         gap: 12px
+         }
+         .equip-card {
+         width: 1280px;
+         display: flex;
+         gap: 16px;
+         background: #3e4658;
+         border-radius: 12px;
+         padding: 12px
+         }
+         .equip-left {
+         position: relative;
+         width: 180px;
+         height: 220px;
+         flex-shrink: 0
+         }
+         .equip-bg {
+         width: 100%;
+         height: 100%;
+         object-fit: cover
+         }
+         .equip-image {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         width: 72px;
+         height: 72px;
+         object-fit: contain
+         }
+         .equip-slot-icon {
+         position: absolute;
+         top: 4px;
+         right: 4px;
+         width: 34px;
+         height: 34px
+         }
+         .equip-name {
+         position: absolute;
+         bottom: 8px;
+         width: 100%;
+         text-align: center;
+         font-size: 16px;
+         font-weight: 700;
+         color: #fff;
+         text-shadow: 0 0 4px #000
+         }
+         .equip-main {
+         width: 860px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         gap: 14px
+         }
+         .equip-status {
+         display: flex;
+         gap: 18px;
+         font-size: 22px;
+         color: #fff;
+         font-weight: 700
+         }
+         .equip-effect {
+         font-size: 28px;
+         line-height: 1.5;
+         color: #dfe8ff
+         }
+         .equip-materials {
+         width: 200px;
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         gap: 8px
+         }
+         .material-item {
+         position: relative;
+         width: 64px;
+         height: 64px
+         }
+         .material-image {
+         width: 100%;
+         height: 100%;
+         object-fit: contain
+         }
+         .material-count {
+         position: absolute;
+         bottom: -6px;
+         right: 0;
+         font-size: 18px;
+         font-weight: 700;
+         color: #fff;
+         text-shadow: 0 0 4px #000
+         }
+         .material-item {
+         position: relative;
+         width: 72px;
+         height: 72px
+         }
+         .material-bg {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         object-fit: cover
+         }
+         .material-image {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         width: 56px;
+         height: 56px;
+         object-fit: contain
+         }
+         .event-reward {
+         font-size: 20px;
+         color: #ffd36b;
+         font-weight: 700;
+         text-align: right
+         }
+         .gift-color-icon {
+         width: 24px;
+         height: 24px;
+         object-fit: contain
+         }
+         .filter-btn.active {
+         background: #9db6ff;
+         color: #fff
+         }
+         .gift-filter-icon.active {
+         transform: scale(1.15);
+         filter: drop-shadow(
+         0 0 6px white
+         )
+         }
+         .shard-frame {
+         position: absolute;
+         width: 72px;
+         height: 72px;
+         object-fit: contain
+         }
+         .shard-image {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%,-50%);
+         width: 42px;
+         height: 42px;
+         object-fit: cover;
+         border-radius: 50%
+         }
+      </style>
+   </head>
+   <body>
+      <div class="control-panel">
+         <input
+            type="text"
+            id="search-input"
+            placeholder="Search..."
+            >
+         <div class="filter-group">
+            <button class="filter-btn" data-rarity="UR">
+            UR
+            </button>
+            <button class="filter-btn" data-rarity="SSR">
+            SSR
+            </button>
+            <button class="filter-btn" data-rarity="SR">
+            SR
+            </button>
+            <button class="filter-btn" data-rarity="R">
+            R
+            </button>
+         </div>
+         <div class="filter-group">
+            <button class="filter-btn" data-type="Weapon">
+            Weapon
+            </button>
+            <button class="filter-btn" data-type="Armor">
+            Armor
+            </button>
+            <button class="filter-btn" data-type="Accessory">
+            Accessory
+            </button>
+         </div>
+         <div class="filter-group">
+            <img
+               src="images/ui/blue.png"
+               class="gift-filter-icon"
+               alt="">
+            <img
+               src="images/ui/yellow.png"
+               class="gift-filter-icon"
+               alt="">
+            <img
+               src="images/ui/red.png"
+               class="gift-filter-icon"
+               alt="">
+            <img
+               src="images/ui/green.png"
+               class="gift-filter-icon"
+               alt="">
+            <img
+               src="images/ui/purple.png"
+               class="gift-filter-icon"
+               alt="">
+         </div>
+         <select id="sort-select">
+            <option value="desc">
+               New → Old
+            </option>
+            <option value="asc">
+               Old → New
+            </option>
+         </select>
+         <select id="language-select">
+            <option value="zh">
+               zh-TW
+            </option>
+            <option value="ja">
+               JA
+            </option>
+            <option value="en">
+               EN
+            </option>
+         </select>
+      </div>
+      <div id="equipment-list"></div>
+      <script>
+         const EQUIP_SOURCE = {
+         	838: 'buyshop',
+         	839: 'buyshop',
+         	840: 'buyshop'
+         };
+         const TEXTS = {
+                          zh: {
+         		event_reward: '活動獎勵',
+         		buyshop: '商城購買',
+         		mission: '任務獎勵',
+         		materials: "素材" ,
+         		weapon: '武器',
+         		armor: '防具',
+         		accessory: '裝飾品',
+         		hp: 'HP',
+         		speed: '速度',
+         		physical_attack: '物攻',
+         		magic_attack: '魔攻',
+         		physical_defense: '物防',
+         		magic_defense: '魔防',
+         		no_ability: '無追加效果'
+                          },
+                          ja: {
+         		event: 'イベント報酬',
+         		buyshop: 'ショップ購入',
+         		mission: '任務報酬',
+         		materials: "素材" ,
+         		weapon: '武器',
+         		armor: '防具',
+         		accessory: '装飾',
+         		hp: 'HP',
+         		speed: '素早さ',
+         		physical_attack: '物攻',
+         		magic_attack: '魔攻',
+         		physical_defense: '物防',
+         		magic_defense: '魔防',
+         		no_ability: '追加効果なし'
+                          },
+                          en: {
+         		event: 'Event Reward',
+         		buyshop: 'Shop',
+         		mission: 'Mission Reward',
+         		materials: "Materials" ,
+         		weapon: 'Weapon',
+         		armor: 'Armor',
+         		accessory: 'Accessory',
+         		hp: 'HP',
+         		speed: 'SPD',
+         		physical_attack: 'P.ATK',
+         		magic_attack: 'M.ATK',
+         		physical_defense: 'P.DEF',
+         		magic_defense: 'M.DEF',
+         		no_ability: 'No Additional Effect'
+                               }
+                      };
+         let currentRarity = null;
+         let currentType = null;
+         let currentSearch = '';
+         let currentLang = 'zh';
+         let currentSort = 'desc';
+         
+         async function init() {
+         
+             // ===== item =====
+         
+             const itemResponse =
+             await fetch(
+                 'data/item.json'
+             );
+         
+             const items =
+             await itemResponse.json();
+         
+             // ===== recipe =====
+         
+             const recipeResponse =
+             await fetch(
+                 'data/recipe_master.json'
+             );
+         
+             const recipes =
+             await recipeResponse.json();
+         
+             // ===== map =====
+         
+             const itemMap = {};
+         
+             items.forEach(
+                 item => {
+         
+                     itemMap[item.id] = item;
+                 }
+             );
+         
+             const recipeMap = {};
+         
+             recipes.forEach(
+                 recipe => {
+         
+                     recipeMap[
+                         recipe.target_id
+                     ] = recipe;
+                 }
+             );
+         
+             // ===== slot icon =====
+         
+             function getSlotIcon(type) {
+         
+                 switch(type) {
+         
+                     case 'Weapon':
+                         return 'images/ui/weapon.webp';
+         
+                     case 'Armor':
+                         return 'images/ui/armor.webp';
+         
+                     case 'Accessory':
+                         return 'images/ui/accessory.webp';
+         
+                     default:
+                         return '';
+                 }
+             }
+         function getRarityBg(rarity) {
+         
+             switch(rarity) {
+         
+                 case 1:
+                 case 'R':
+                     return 'images/ui/r.webp';
+         
+                 case 2:
+                 case 'SR':
+                     return 'images/ui/sr.webp';
+         
+                 case 3:
+                 case 'SSR':
+                     return 'images/ui/ssr.webp';
+         
+                 case 4:
+                 case 'UR':
+                     return 'images/ui/ur.webp';
+         
+                 default:
+                     return '';
+             }
+         }
+         
+         function getGiftColorIcon(colorId) {
+         
+             switch(colorId) {
+         
+                 case 1:
+                     return 'images/ui/blue.png';
+         
+                 case 2:
+                     return 'images/ui/purple.png';
+         
+                 case 3:
+                     return 'images/ui/yellow.png';
+         
+                 case 4:
+                     return 'images/ui/red.png';
+         
+                 case 5:
+                     return 'images/ui/green.png';
+         
+                 default:
+                     return '';
+             }
+         }
+         
+         	//篩選階級
+         		document
+         .querySelectorAll(
+             '[data-rarity]'
+         )
+         .forEach(
+             btn => {
+         
+                 btn.addEventListener(
+                     'click',
+                     () => {
+         
+                         const rarity =
+                         btn.dataset.rarity;
+         
+                         if (
+                             currentRarity === rarity
+                         ) {
+         
+                             currentRarity = null;
+                         }
+                         else {
+         
+                             currentRarity = rarity;
+                         }
+         
+                         loadEquipment();
+                     }
+                 );
+             }
+         );
+         //篩選種類
+         document
+         .querySelectorAll(
+             '[data-type]'
+         )
+         .forEach(
+             btn => {
+         
+                 btn.addEventListener(
+                     'click',
+                     () => {
+         
+                         const type =
+                         btn.dataset.type;
+         
+                         if (
+                             currentType === type
+                         ) {
+         
+                             currentType = null;
+                         }
+                         else {
+         
+                             currentType = type;
+                         }
+         
+                         loadEquipment();
+                     }
+                 );
+             }
+         );
+         //切換語言
+         document
+         .getElementById(
+             'language-select'
+         )
+         .addEventListener(
+             'change',
+             e => {
+         
+                 currentLang =
+                 e.target.value;
+         
+                 loadEquipment();
+             }
+         );
+         //搜尋
+         document
+         .getElementById(
+             'search-input'
+         )
+         .addEventListener(
+             'input',
+             e => {
+         
+                 currentSearch =
+                 e.target.value
+                 .toLowerCase();
+         
+                 loadEquipment();
+             }
+         );
+             // ===== material render =====
+         
+             function renderMaterials(recipe, currentEquipId) {
+         
+             if (!recipe) {
+         
+                 const source =
+                 EQUIP_SOURCE[
+                     currentEquipId
+                 ] || 'event';
+         
+                 return `
+                 
+                 <div class="event-reward">
+                     ${t(source)}
+                 </div>
+         
+                 `;
+             }
+         
+             return recipe.materials.map(
+                 material => {
+         
+                     // ===== 角色碎片 =====
+         
+                     if (material.type === 8) {
+         
+             return `
+         
+             <div class="material-item">
+         
+                 <img
+                     src="images/ui/shard_frame.webp"
+                     class="shard-frame"
+                 >
+         
+                 <img
+                     src="images/ingredient/${material.id}.webp"
+                     class="shard-image"
+                 >
+         
+                 <div class="material-count">
+                     x${material.quantity}
+                 </div>
+         
+             </div>
+         
+             `;
+         }
+         
+                     // ===== 一般素材 =====
+         
+                     const item =
+                     itemMap[
+                         material.id
+                     ];
+         
+                     if (!item) {
+                         return '';
+                     }
+         
+                     return `
+         
+                     <div class="material-item">
+         
+                         <img
+                             src="${getRarityBg(item.rarity)}"
+                             class="material-bg"
+                         >
+         
+                         <img
+                             src="${item.image}"
+                             class="material-image"
+                         >
+         
+                         <div class="material-count">
+                             x${material.quantity}
+                         </div>
+         
+                     </div>
+         
+                     `;
+                 }
+             ).join('');
+         }
+         function renderGiftColors(recipe) {
+         
+             if (!recipe) {
+                 return '';
+             }
+         
+             return recipe.gift_colors.map(
+                 color => `
+         
+                 <img
+                     src="${getGiftColorIcon(color)}"
+                     class="gift-color-icon"
+                 >
+         
+                 `
+             ).join('');
+         }
+             // ===== equipment =====
+         
+             async function loadEquipment() {
+         
+                 const response =
+                 await fetch(
+                     'data/equipment.json'
+                 );
+         
+                 const data =
+                 await response.json();
+         
+                 const container =
+                 document.getElementById(
+                     'equipment-list'
+                 );
+         data.sort(
+             (a, b) => {
+         
+                 if (
+                     currentSort === 'desc'
+                 ) {
+         
+                     return b.id - a.id;
+                 }
+         
+                 return a.id - b.id;
+             }
+         );
+         let filteredData = data;
+         
+         if (currentRarity) {
+         
+             filteredData =
+             filteredData.filter(
+                 equip =>
+                 equip.rarity === currentRarity
+             );
+         }
+         if (currentType) {
+         
+             filteredData =
+             filteredData.filter(
+                 equip =>
+                 equip.slot_type === currentType
+             );
+         }
+         if (currentSearch) {
+         
+             filteredData =
+             filteredData.filter(
+                 equip =>
+         
+                 equip.name
+                 .toLowerCase()
+                 .includes(
+                     currentSearch
+                 )
+             );
+         }
+                 container.innerHTML = filteredData.map(
+                     equip => {
+         
+                         const recipe =
+                         recipeMap[
+                             equip.id
+                         ];
+         
+                         return `
+         
+                         <div class="equip-card">
+         
+                             <div class="equip-left" onclick="copyText('${equip.name}')">
+         
+                                 <img src="${getRarityBg(equip.rarity)}" class="equip-bg">
+         
+                                 <img
+                                     src="${equip.image}"
+                                     class="equip-image"
+                                 >
+         
+                                 <img
+                                     src="${getSlotIcon(equip.slot_type)}"
+                                     class="equip-slot-icon"
+                                 >
+         
+                                 <div class="equip-name">
+                                     ${equip.name}
+                                 </div>
+         
+                             </div>
+         
+                             <div class="equip-main">
+         
+                                 <div class="equip-status">
+         
+         				    ${
+                 renderGiftColors(recipe)
+             }
+                                     ${
+                                         equip.status.map(
+                                             s => `
+                                             <div>
+                                                 ${getStatusText(s.type)}
+                                                 +${s.value}
+                                             </div>
+                                             `
+                                         ).join('')
+                                     }
+         
+                                 </div>
+         
+                                 <div class="equip-effect">
+                                     ${
+             equip.ability === 'None'
+             ? t('no_ability')
+             : equip.ability
+         }
+                                 </div>
+         
+                             </div>
+         
+                             <div class="equip-materials">
+         
+                                 ${
+                                     renderMaterials(recipe, equip.id)
+                                 }
+         
+                             </div>
+         
+                         </div>
+         
+                         `;
+                     }
+                 ).join('');
+             }
+         
+         document
+         .getElementById(
+             'sort-select'
+         )
+         .addEventListener(
+             'change',
+             e => {
+         
+                 currentSort =
+                 e.target.value;
+         
+                 loadEquipment();
+             }
+         );
+         document
+         .getElementById(
+             'search-input'
+         )
+         .addEventListener(
+             'input',
+             e => {
+         
+                 currentSearch =
+                 e.target.value
+                 .toLowerCase();
+         
+                 loadEquipment();
+             }
+         );
+         
+             loadEquipment();
+         }
+         
+         init();
+         function copyText(text) {
+         
+             navigator.clipboard.writeText(text);
+         }
+         // 切換語言顯示
+         function getStatusText(type) {
+         
+             return t(
+                 type
+                 .toLowerCase()
+                 .replaceAll(' ', '_')
+             );
+         }
+         function t(key) {
+         
+             return (
+                 TEXTS[
+                     currentLang
+                 ]?.[
+                     key
+                 ]
+                 ||
+                 key
+             );
+         }
+      </script>
+   </body>
 </html>
