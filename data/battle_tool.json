@@ -1,0 +1,1559 @@
+[
+  {
+    "id": 1,
+    "name": "ヒーリングサルヴ",
+    "rarity": 1,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0001_S.webp",
+    "effect": "HPが最も減っている味方1人のHPを回復"
+  },
+  {
+    "id": 2,
+    "name": "フラム",
+    "rarity": 1,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0002_S.webp",
+    "effect": "現在HPが最も高い敵1体に火属性ダメージ"
+  },
+  {
+    "id": 3,
+    "name": "うに袋",
+    "rarity": 1,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0003_S.webp",
+    "effect": "敵全体に突属性ダメージ"
+  },
+  {
+    "id": 4,
+    "name": "ドライビスク",
+    "rarity": 2,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0004_S.webp",
+    "effect": "味方全員のHPを回復"
+  },
+  {
+    "id": 5,
+    "name": "魔女の秘薬",
+    "rarity": 1,
+    "usage_count": 1,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0005_S.webp",
+    "effect": "敵全体に「火氷雷風属性耐性-10%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 6,
+    "name": "ナントカの秘薬",
+    "rarity": 1,
+    "usage_count": 1,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0006_S.webp",
+    "effect": "味方全員に「火氷雷風属性スキルダメージ+10%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 7,
+    "name": "クラフト",
+    "rarity": 2,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0007_S.webp",
+    "effect": "現在HPが最も高い敵1体に突属性ダメージ"
+  },
+  {
+    "id": 8,
+    "name": "ドナーストーン",
+    "rarity": 2,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0008_S.webp",
+    "effect": "現在HPが最も高い敵1体に雷属性ダメージ"
+  },
+  {
+    "id": 9,
+    "name": "ヒーリングベル",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0009_S.webp",
+    "effect": "味方全員のHPを15%回復"
+  },
+  {
+    "id": 11,
+    "name": "暗黒水",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0010_S.webp",
+    "effect": "敵全体に「受ける魔法攻撃スキルダメージ+15%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 13,
+    "name": "素朴な焼き菓子",
+    "rarity": 2,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0011_S.webp",
+    "effect": "味方全員に「受ける物理攻撃スキルダメージ-10%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 14,
+    "name": "神秘の羽衣",
+    "rarity": 2,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0012_S.webp",
+    "effect": "味方全員に「受ける魔法攻撃スキルダメージ-10%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 15,
+    "name": "ウォーパウダー",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0013_S.webp",
+    "effect": "味方全員に「クリティカル確率+15%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 17,
+    "name": "たたかう魔剣",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0014_S.webp",
+    "effect": "現在HPが最も低い敵1体に斬属性ダメージ"
+  },
+  {
+    "id": 19,
+    "name": "ローゼフラム",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0015_S.webp",
+    "effect": "現在HPが最も高い敵1体に火属性ダメージ"
+  },
+  {
+    "id": 21,
+    "name": "エネルジアニカ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0016_S.webp",
+    "effect": "最大HPが最も高い味方1人に「ターン開始時HP40%回復」を2回行動開始するまで付与"
+  },
+  {
+    "id": 23,
+    "name": "不幸の瓶詰め",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0017_S.webp",
+    "effect": "最大HPが最も高い敵1体に「斬属性耐性-25%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 25,
+    "name": "燃える水",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0018_S.webp",
+    "effect": "最大HPが最も高い敵1体に「火属性耐性-25%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 27,
+    "name": "妙薬ドラッヘン",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0019_S.webp",
+    "effect": "魔攻が最も高い味方1人に「バーストスキルダメージ+60%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 29,
+    "name": "黄金エキススープ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0020_S.webp",
+    "effect": "味方全員に「クリティカル確率+25%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 31,
+    "name": "スモークミート",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0021_S.webp",
+    "effect": "味方全員に「物理攻撃スキルダメージ+25%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 33,
+    "name": "錬金キャンディ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0022_S.webp",
+    "effect": "味方全員に「魔法攻撃スキルダメージ+25%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 35,
+    "name": "創世の槌",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0023_S.webp",
+    "effect": "現在HPが最も高い敵1体に打属性ダメージ"
+  },
+  {
+    "id": 37,
+    "name": "リュミエールランス",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0024_S.webp",
+    "effect": "現在HPが最も低い敵1体に突属性ダメージ"
+  },
+  {
+    "id": 39,
+    "name": "レーツェルフト",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0026_S.webp",
+    "effect": "現在HPが最も高い敵1体に風属性ダメージ"
+  },
+  {
+    "id": 41,
+    "name": "クライトレヘルン",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0028_S.webp",
+    "effect": "現在HPが最も低い敵1体に氷属性ダメージ"
+  },
+  {
+    "id": 43,
+    "name": "シュトラプラジグ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0030_S.webp",
+    "effect": "現在HPが最も低い敵1体に雷属性ダメージ"
+  },
+  {
+    "id": 45,
+    "name": "生きてるゴミ箱",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0031_S.webp",
+    "effect": "最大HPが最も高い敵1体に「打属性耐性-25%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 47,
+    "name": "かぼちゃドール",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0032_S.webp",
+    "effect": "最大HPが最も高い敵1体に「突属性耐性-25%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 49,
+    "name": "イバラの抱擁",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0033_S.webp",
+    "effect": "最大HPが最も高い敵1体に「風属性耐性-25%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 51,
+    "name": "氷びし",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0034_S.webp",
+    "effect": "最大HPが最も高い敵1体に「氷属性耐性-25%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 53,
+    "name": "ブリッツコア",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0035_S.webp",
+    "effect": "最大HPが最も高い敵1体に「雷属性耐性-25%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 55,
+    "name": "肉体活性の粉末",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0036_S.webp",
+    "effect": "物攻が最も高い味方1人に「斬属性スキルダメージ+40%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 57,
+    "name": "剛力の塗り薬",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0037_S.webp",
+    "effect": "物攻が最も高い味方1人に「打属性スキルダメージ+40%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 59,
+    "name": "トリトンのほら貝",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0038_S.webp",
+    "effect": "物攻が最も高い味方1人に「突属性スキルダメージ+40%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 61,
+    "name": "風繰り車",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0039_S.webp",
+    "effect": "魔攻が最も高い味方1人に「風属性スキルダメージ+40%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 63,
+    "name": "シュネーシュトルム",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0040_S.webp",
+    "effect": "魔攻が最も高い味方1人に「氷属性スキルダメージ+40%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 65,
+    "name": "雷の呼び鈴",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0041_S.webp",
+    "effect": "魔攻が最も高い味方1人に「雷属性スキルダメージ+40%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 67,
+    "name": "レッドウォーパウダー",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0042_S.webp",
+    "effect": "魔攻が最も高い味方1人に「火属性スキルダメージ+40%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 69,
+    "name": "リストレア薬瓶",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0043_S.webp",
+    "effect": "HPが最も減っている味方1人のHPを50%回復"
+  },
+  {
+    "id": 71,
+    "name": "エリキシル剤",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0046_S.webp",
+    "effect": "HPが最も減っている味方1人のHPを30%回復<br>回復後、対象の状態異常を解除する"
+  },
+  {
+    "id": 73,
+    "name": "万物の写本",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0045_S.webp",
+    "effect": "最大HPが最も高い敵1体に「物理攻撃ダメージ-15%」と「受ける物理攻撃ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 75,
+    "name": "ヒロイックガイスト",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0044_S.webp",
+    "effect": "敵全体に「受けるブレイクダメージ+30%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 77,
+    "name": "妖薬エボニアル",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0049_S.webp",
+    "effect": "味方全員に「自身がアタッカーの時、スキルダメージ+35%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 79,
+    "name": "廻る魔剣",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0047_S.webp",
+    "effect": "敵全体に斬属性ダメージ"
+  },
+  {
+    "id": 81,
+    "name": "トランヒールサルヴ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0051_S.webp",
+    "effect": "HPが最も減っている味方1人のHPを30%回復<br>回復後、対象のマイナス効果を解除する"
+  },
+  {
+    "id": 83,
+    "name": "ドナークリスタル",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0048_S.webp",
+    "effect": "現在HPが最も高い敵1体に雷属性ダメージを与え、<br>対象に「麻痺」を2回行動開始するまで中確率で付与"
+  },
+  {
+    "id": 85,
+    "name": "破壊の秘薬",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0050_S.webp",
+    "effect": "味方全員に「自身がブレイカーの時、ブレイクダメージ+35%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 87,
+    "name": "プロテクトパウダー",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0052_S.webp",
+    "effect": "最大HPが最も高い味方1人に「受けるダメージ-15%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 89,
+    "name": "ラーヴァキューブ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0053_S.webp",
+    "effect": "現在HPが最も低い敵1体に火属性ダメージ"
+  },
+  {
+    "id": 91,
+    "name": "カクテルレープ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0054_S.webp",
+    "effect": "最大HPが最も高い味方1人のHPを30%回復<br>回復後、対象に「ターン開始時HP15%回復」を2回行動開始するまで付与"
+  },
+  {
+    "id": 93,
+    "name": "シュタルレヘルン",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0055_S.webp",
+    "effect": "敵全体に氷属性ダメージ"
+  },
+  {
+    "id": 95,
+    "name": "詰め合わせキャンディ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0056_S.webp",
+    "effect": "味方全員に「自身がサポーターの時、スキルダメージ+45%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 97,
+    "name": "さすらう地球儀",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0067_S.webp",
+    "effect": "最大HPが最も低い敵1体に打属性ダメージを与え、<br>対象が水棲種族の時、ターンを2ターン遅らせる"
+  },
+  {
+    "id": 99,
+    "name": "グラスビーンズ",
+    "rarity": 2,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0063_S.webp",
+    "effect": "HPが最も減っている味方1人のマイナス効果を解除し、HPを15%回復"
+  },
+  {
+    "id": 100,
+    "name": "爆粉うに",
+    "rarity": 2,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0062_S.webp",
+    "effect": "現在HPが最も低い敵1体に斬属性ダメージ"
+  },
+  {
+    "id": 101,
+    "name": "クラフトリオ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0066_S.webp",
+    "effect": "最大HPが最も高い敵1体に突属性ブレイクダメージ"
+  },
+  {
+    "id": 102,
+    "name": "ゆらぎの毒煙",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0064_S.webp",
+    "effect": "最大HPが最も高い敵1体に「毒耐性-30%」と「毒」2つを2回行動するまでそれぞれ超高確率で付与"
+  },
+  {
+    "id": 103,
+    "name": "アスラドーナツ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0065_S.webp",
+    "effect": "味方全員に「攻撃対象がブレイク状態の時、スキルダメージ+40%」を1回行動終了するまで付与                                                                                                                                                                                                                                              "
+  },
+  {
+    "id": 104,
+    "name": "栄養剤",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0057_S.webp",
+    "effect": "魔攻が最も高い味方1人に「クリティカルダメージ+30%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 106,
+    "name": "禁じられた秘薬",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0058_S.webp",
+    "effect": "現在HPが最も高い敵1体に「状態異常耐性-10%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 108,
+    "name": "リフュールボトル",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0059_S.webp",
+    "effect": "HPが最も減っている味方1人のHPを40%回復<br>回復後、対象に「ブレイクダメージ+40%」を1回行動終了するまで付与"
+  },
+  {
+    "id": 110,
+    "name": "放電管",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0060_S.webp",
+    "effect": "敵全体に「雷属性耐性-10%」を3回攻撃を受けるまで付与し、雷属性ダメージ"
+  },
+  {
+    "id": 112,
+    "name": "守護女神の盾",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0061_S.webp",
+    "effect": "最大HPが最も高い味方1人に「かばう」と「受けるダメージ-15%」を1回付与"
+  },
+  {
+    "id": 114,
+    "name": "伝承のエリキシル剤",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0075_S.webp",
+    "effect": "HPが最も減っている味方1人に「最大HP+10%」を付与(上限30%)し、HPを50%回復"
+  },
+  {
+    "id": 116,
+    "name": "伝承の教典",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0076_S.webp",
+    "effect": "物攻が最も高い味方1人に「HPが50%以上の時、バーストスキルダメージ+70%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 118,
+    "name": "伝承の呪術書",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0077_S.webp",
+    "effect": "最大HPが最も高い敵1体に「全属性耐性-30%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 120,
+    "name": "フレアノヴァフラム",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0068_S.webp",
+    "effect": "敵全体に火属性ダメージを与え、対象に「火属性耐性-15%」と味方全員に「火属性ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 122,
+    "name": "ブリザードレヘルン",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0069_S.webp",
+    "effect": "敵全体に氷属性ダメージを与え、対象に「氷属性耐性-15%」と味方全員に「氷属性ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 124,
+    "name": "グングニルプラジグ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0070_S.webp",
+    "effect": "敵全体に雷属性ダメージを与え、対象に「雷属性耐性-15%」と味方全員に「雷属性ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 126,
+    "name": "トルネードルフト",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0071_S.webp",
+    "effect": "敵全体に風属性ダメージを与え、対象に「風属性耐性-15%」と味方全員に「風属性ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 128,
+    "name": "シュレッドディザスター",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0072_S.webp",
+    "effect": "敵全体に斬属性ダメージを与え、対象に「斬属性耐性-15%」と味方全員に「斬属性ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 130,
+    "name": "ディスペアカノン",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0073_S.webp",
+    "effect": "敵全体に打属性ダメージを与え、対象に「打属性耐性-15%」と味方全員に「打属性ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 132,
+    "name": "カタストクラフト",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0074_S.webp",
+    "effect": "敵全体に突属性ダメージを与え、対象に「突属性耐性-15%」と味方全員に「突属性ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 137,
+    "name": "小悪魔のいたずら",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0078_S.webp",
+    "effect": "敵全体に「受ける物理攻撃スキルダメージ+15%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 139,
+    "name": "オーカンルフェン",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0079_S.webp",
+    "effect": "敵全体に「風属性耐性-10%」を3回攻撃を受けるまで付与し、風属性ダメージ"
+  },
+  {
+    "id": 141,
+    "name": "吸魂ひょうたん",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0080_S.webp",
+    "effect": "最大HPが最も高い敵1体に「魔法攻撃ダメージ-15%」と「受ける魔法攻撃ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 143,
+    "name": "ガラスのバラ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0081_S.webp",
+    "effect": "敵全体に「氷属性耐性-10%」を3回攻撃を受けるまで付与し、氷属性ダメージ"
+  },
+  {
+    "id": 145,
+    "name": "ストラパール",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0082_S.webp",
+    "effect": "HPが最も減っている味方1人の回復無効を解除し、HPを30%回復"
+  },
+  {
+    "id": 147,
+    "name": "みなぎるドリンク",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0088_S.webp",
+    "effect": "味方全員に「ターン開始時HP10%回復」を2回行動開始するまで付与"
+  },
+  {
+    "id": 149,
+    "name": "テネブルランス",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0084_S.webp",
+    "effect": "敵全体に「突属性耐性-10%」を3回攻撃を受けるまで付与し、突属性ダメージ"
+  },
+  {
+    "id": 151,
+    "name": "夢幻の羽衣",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0085_S.webp",
+    "effect": "物攻が最も高い味方1人に「攻撃対象のHPが50%未満の時、スキルダメージ+50%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 153,
+    "name": "酸の霧雲",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0086_S.webp",
+    "effect": "最大HPが最も高い敵1体に「火傷耐性-30%」を2回行動終了するまで付与し、「火傷」を超高確率で付与"
+  },
+  {
+    "id": 155,
+    "name": "ピュアアロマ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0087_S.webp",
+    "effect": "敵全体に「全体攻撃から受けるブレイクダメージ+40%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 157,
+    "name": "まごころチョコレート",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0083_S.webp",
+    "effect": "味方全員に「アタッカーの時、スキルダメージ+25%」と「ブレイカーの時、ブレイクダメージ+25%」を2回付与"
+  },
+  {
+    "id": 159,
+    "name": "高火力錬金大砲",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0089_S.webp",
+    "effect": "現在HPが最も低い敵1体に打属性ダメージ"
+  },
+  {
+    "id": 161,
+    "name": "凍結破壊爆弾",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0090_S.webp",
+    "effect": "敵全体に氷属性ダメージを与え、対象に「受けるブレイクダメージ+20%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 163,
+    "name": "力のトーテム",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0091_S.webp",
+    "effect": "物攻が最も高い味方1人に「クリティカルダメージ+30%」を2回行動終了するまで付与 "
+  },
+  {
+    "id": 165,
+    "name": "凶兆水",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0092_S.webp",
+    "effect": "最大HPが最も高い敵1体に、「受けるクリティカルダメージ+30%」を3回攻撃を受けるまで付与"
+  },
+  {
+    "id": 167,
+    "name": "ピロソティー",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0093_S.webp",
+    "effect": "味方全員のHPを10%回復し、「火傷状態」と「毒状態」を解除"
+  },
+  {
+    "id": 169,
+    "name": "つけもの石",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0094_S.webp",
+    "effect": "敵全体に打属性ダメージ。対象がブレイク状態の時、このアイテムのダメージ+150%"
+  },
+  {
+    "id": 171,
+    "name": "原初の力肉",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0095_S.webp",
+    "effect": "物攻が最も高い味方1人に「物理攻撃スキルダメージ+80%」を1回行動終了するまで付与(重複不可)"
+  },
+  {
+    "id": 173,
+    "name": "魔法の鎖",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0096_S.webp",
+    "effect": "敵全体に「受けるブレイクダメージ+50%」を2回攻撃を受けるまで付与(重複不可)"
+  },
+  {
+    "id": 175,
+    "name": "シェルペルホルン",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0097_S.webp",
+    "effect": "味方全員に「クリティカル攻撃時、クリティカルダメージ+30%とブレイクダメージ+30%」を1回付与"
+  },
+  {
+    "id": 177,
+    "name": "アジルチャクラム",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0098_S.webp",
+    "effect": "敵全体に「斬属性耐性-10%」を3回攻撃を受けるまで付与し、斬属性ダメージ"
+  },
+  {
+    "id": 179,
+    "name": "試作品うに袋",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0099_S.webp",
+    "effect": "敵全体に突属性ダメージ"
+  },
+  {
+    "id": 181,
+    "name": "学生応援レッドゼリー",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0100_S.webp",
+    "effect": "味方全員に「スキルダメージ+10%」を1回付与し、次のパネル4つを強化パネルに変換もしくは生成"
+  },
+  {
+    "id": 183,
+    "name": "学生応援大盛定食",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0101_S.webp",
+    "effect": "味方全員のHPを10%回復<br>回復後、対象に「スキルダメージ+20%」を1回行動終了するまで付与"
+  },
+  {
+    "id": 185,
+    "name": "魔物除けスプレー",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0102_S.webp",
+    "effect": "敵全体に「暗闇」を1回行動終了するまで超高確率で付与"
+  },
+  {
+    "id": 187,
+    "name": "試作品ルフト",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0103_S.webp",
+    "effect": "敵全体に風属性ダメージ"
+  },
+  {
+    "id": 189,
+    "name": "学生応援ブルーゼリー",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0104_S.webp",
+    "effect": "味方全員に「スキルダメージ+10%」を1回付与し、次のパネル3つをクリティカルパネルに変換もしくは生成"
+  },
+  {
+    "id": 191,
+    "name": "学生応援健康定食",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0105_S.webp",
+    "effect": "味方全員のHPを10%回復。回復後、HPが最も減っている味方1人のHPをさらに10%回復"
+  },
+  {
+    "id": 193,
+    "name": "魔物集めトラップ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0106_S.webp",
+    "effect": "現在HPが最も高い敵1体に「麻痺」と「毒」を1回行動開始するまで超高確率で付与"
+  },
+  {
+    "id": 195,
+    "name": "蛮勇の角笛",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0107_S.webp",
+    "effect": "物攻が最も高い味方1人に「バーストスキルダメージ+60%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 197,
+    "name": "フェーダクナイ",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0108_S.webp",
+    "effect": "敵全体に斬属性ダメージ"
+  },
+  {
+    "id": 199,
+    "name": "魔除けの霧吹き",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0109_S.webp",
+    "effect": "味方全員に「自身がアタッカーの時、スキルダメージ+25%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 201,
+    "name": "因果の鎖",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0110_S.webp",
+    "effect": "敵全体に「受ける斬属性ダメージ+20%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 203,
+    "name": "エクサボム",
+    "rarity": 3,
+    "usage_count": 4,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0111_S.webp",
+    "effect": "敵全体に火属性ダメージ"
+  },
+  {
+    "id": 205,
+    "name": "猛火の塗り薬",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0112_S.webp",
+    "effect": "魔攻が最も高い味方1人に「火属性スキルダメージ+50%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 207,
+    "name": "メディアの秘毒",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0113_S.webp",
+    "effect": "敵全体に「毒」を1回行動開始するまで超高確率で付与"
+  },
+  {
+    "id": 209,
+    "name": "しびれ毒液",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0114_S.webp",
+    "effect": "敵全体に「麻痺」を1回行動開始するまで超高確率で付与"
+  },
+  {
+    "id": 211,
+    "name": "氷結の塗り薬",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0115_S.webp",
+    "effect": "魔攻が最も高い味方1人に「氷属性スキルダメージ+50%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 213,
+    "name": "帯電の塗り薬",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0116_S.webp",
+    "effect": "魔攻が最も高い味方1人に「雷属性スキルダメージ+50%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 215,
+    "name": "ドナーシュテルン",
+    "rarity": 3,
+    "usage_count": 4,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0117_S.webp",
+    "effect": "敵全体に雷属性ダメージ"
+  },
+  {
+    "id": 217,
+    "name": "エーテルインキ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0118_S.webp",
+    "effect": "敵全体に「受ける雷属性ダメージ+20%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 219,
+    "name": "海の家特製かき氷",
+    "rarity": 3,
+    "usage_count": 4,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0119_S.webp",
+    "effect": "敵全体に氷属性ダメージ"
+  },
+  {
+    "id": 221,
+    "name": "海の家特製オイル",
+    "rarity": 3,
+    "usage_count": 5,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0120_S.webp",
+    "effect": "味方全員に「アタッカーの時、スキルダメージ+25%」と「ブレイカーの時、ブレイクダメージ+25%」を1回付与"
+  },
+  {
+    "id": 223,
+    "name": "海の家特製焼きそば",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0121_S.webp",
+    "effect": "味方全員の回復無効を解除し、HPを5%回復"
+  },
+  {
+    "id": 225,
+    "name": "海の家特製トラップ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0122_S.webp",
+    "effect": "敵全体に「受ける氷属性ダメージ+20%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 227,
+    "name": "フワットケーキ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0123_S.webp",
+    "effect": "味方全員に「受けるダメージ-10%」を1回攻撃を受けるまで付与"
+  },
+  {
+    "id": 229,
+    "name": "クイーンズクレイブ",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0124_S.webp",
+    "effect": "最大HPが最も低い敵1体に火属性ダメージを与え、対象のターンを1ターン遅らせる"
+  },
+  {
+    "id": 231,
+    "name": "号令のホイッスル",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0125_S.webp",
+    "effect": "物攻が最も高い味方に、「クリティカル確率+10%」と「クリティカルダメージ+20%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 233,
+    "name": "ブランクシチュー",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0126_S.webp",
+    "effect": "HPが最も減っている味方1人のHPを40%回復後、「受けるダメージ-15%」を1回攻撃を受けるまで付与"
+  },
+  {
+    "id": 235,
+    "name": "プレーンワッフル",
+    "rarity": 3,
+    "usage_count": 4,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0128_S.webp",
+    "effect": "HPが最も減っている味方のHPを25%回復後、対象のマイナス効果を解除する"
+  },
+  {
+    "id": 237,
+    "name": "禁断の袋",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0127_S.webp",
+    "effect": "最大HPが最も高い敵1体に、「状態異常耐性-10%」と「受ける物理攻撃ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 239,
+    "name": "嘆きの毒煙瓶",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0129_S.webp",
+    "effect": "最大HPが最も高い敵1体に、「受ける魔法攻撃ダメージ+15%」を2回攻撃を受けるまで付与し、「毒」を1回行動開始するまで超高確率で付与"
+  },
+  {
+    "id": 241,
+    "name": "スペシャルミート",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0131_S.webp",
+    "effect": "魔攻が最も高い味方1人に「魔法攻撃スキルダメージ+80%」を1回行動終了するまで付与(重複不可)"
+  },
+  {
+    "id": 243,
+    "name": "フェアニヒターメテオール",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0130_S.webp",
+    "effect": "敵全体に雷属性ダメージを与え、対象に「受けるブレイクダメージ+20%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 245,
+    "name": "大巨人の鉄槌",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0132_S.webp",
+    "effect": "敵全体に氷属性ダメージを与え、対象に「素早さ-5%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 247,
+    "name": "安らぎの灯火",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0133_S.webp",
+    "effect": "魔攻が最も高い味方1人に「攻撃対象がブレイク状態の時、スキルダメージ+60%」を1回行動終了するまで付与"
+  },
+  {
+    "id": 249,
+    "name": "きずなチョコレート",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0134_S.webp",
+    "effect": "味方全員に「受けるHP回復量+5%」を1回行動終了するまで付与し、HPを10%回復"
+  },
+  {
+    "id": 251,
+    "name": "カンタムフラム",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0136_S.webp",
+    "effect": "敵全体に火属性ダメージを与え、対象に「受ける火属性ダメージ+20%」を2回行動終了まで付与"
+  },
+  {
+    "id": 253,
+    "name": "アイスエイジレヘルン",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0137_S.webp",
+    "effect": "敵全体に氷属性ダメージを与え、対象に「受ける氷属性ダメージ+20%」を2回行動終了まで付与"
+  },
+  {
+    "id": 255,
+    "name": "ケラウノスプラジグ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0138_S.webp",
+    "effect": "敵全体に雷属性ダメージを与え、対象に「受ける雷属性ダメージ+20%」を2回行動終了まで付与"
+  },
+  {
+    "id": 257,
+    "name": "ゲリラストームルフト",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0139_S.webp",
+    "effect": "敵全体に風属性ダメージを与え、対象に「受ける風属性ダメージ+20%」を2回行動終了まで付与"
+  },
+  {
+    "id": 259,
+    "name": "自走する鎖鎌",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0140_S.webp",
+    "effect": "敵全体に斬属性ダメージを与え、対象に「受ける斬属性ダメージ+20%」を2回行動終了まで付与"
+  },
+  {
+    "id": 261,
+    "name": "自立駆動型メテオール",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0141_S.webp",
+    "effect": "敵全体に打属性ダメージを与え、対象に「受ける打属性ダメージ+20%」を2回行動終了まで付与"
+  },
+  {
+    "id": 263,
+    "name": "絡繰：針千本",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0142_S.webp",
+    "effect": "敵全体に突属性ダメージを与え、対象に「受ける突属性ダメージ+20%」を2回行動終了まで付与"
+  },
+  {
+    "id": 265,
+    "name": "沈黙の丸薬",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0135_S.webp",
+    "effect": "物攻が最も高い味方1人に「物理攻撃スキルダメージ+35%」と「受けるダメージ-15%」を1回付与"
+  },
+  {
+    "id": 267,
+    "name": "うに袋ハイパー",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0143_S.webp",
+    "effect": "最大HPが最も高い敵1体に突属性ダメージ"
+  },
+  {
+    "id": 269,
+    "name": "蠱惑の香炉",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0144_S.webp",
+    "effect": "敵全体に「受けるクリティカルダメージ+30%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 274,
+    "name": "樹林の治療薬",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0145_S.webp",
+    "effect": "味方全員のHPを7%回復。回復後、味方全員に「ターン開始時HP7%回復」を2回行動開始するまで付与"
+  },
+  {
+    "id": 276,
+    "name": "エンハンスフルート",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0146_S.webp",
+    "effect": "味方全員に「自身がアタッカーの時、クリティカルダメージ+42%」を1回行動終了するまで付与"
+  },
+  {
+    "id": 278,
+    "name": "ハピレスシャトル",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0147_S.webp",
+    "effect": "最大HPが最も高い敵1体に、「状態異常耐性-10%」と「受ける魔法攻撃ダメージ+15%」を2回付与"
+  },
+  {
+    "id": 280,
+    "name": "試作型旋風爆弾",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0148_S.webp",
+    "effect": "現在HPが最も低い敵1体に風属性ダメージ"
+  },
+  {
+    "id": 282,
+    "name": "コズミック・エナジー",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0149_S.webp",
+    "effect": "味方全員に「風属性スキルダメージ+30%」と「突属性スキルダメージ+30%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 284,
+    "name": "リンゴのタルト",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0150_S.webp",
+    "effect": "味方全員のHPを10%回復<br>回復後、味方全員に「クリティカルダメージ+25%」を1回行動終了するまで付与"
+  },
+  {
+    "id": 286,
+    "name": "頭脳明晰の煎薬",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0151_S.webp",
+    "effect": "味方全員に「自身がアタッカーの時、クリティカル確率+40%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 288,
+    "name": "カースオブプリンセス",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0152_S.webp",
+    "effect": "敵全体に「全属性耐性-25%」を1回攻撃を受けるまで付与"
+  },
+  {
+    "id": 290,
+    "name": "ブルーナイトぷにカクテル",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0153_S.webp",
+    "effect": "最大HPが最も高い味方1人に「最大HP+10%」を付与(上限30%)し、HPを50%回復"
+  },
+  {
+    "id": 292,
+    "name": "昔懐かし水爆弾",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0154_S.webp",
+    "effect": "最大HPが最も高い敵1人に「氷属性耐性-15%」を2回攻撃を受けるまで付与し、氷属性ダメージ"
+  },
+  {
+    "id": 294,
+    "name": "月欠けの闇霧",
+    "rarity": 3,
+    "usage_count": 5,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0155_S.webp",
+    "effect": "現在HPが最も低い敵1体に「雷属性耐性-15%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 296,
+    "name": "極上の奉献酒",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0156_S.webp",
+    "effect": "味方全員のHPを100回復"
+  },
+  {
+    "id": 297,
+    "name": "性命双修の香",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0157_S.webp",
+    "effect": "味方全員のHPを10%回復<br>回復後、味方全員に「クリティカル確率+15%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 299,
+    "name": "トニトルスミレーヌ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0158_S.webp",
+    "effect": "敵全体に雷属性ダメージを与え、対象に麻痺を2回行動開始するまで中確率で付与"
+  },
+  {
+    "id": 301,
+    "name": "英雄降ろしの丸薬",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0159_S.webp",
+    "effect": "味方全員に「対象がブレイク状態の時、クリティカルダメージ+48%」を1回行動終了するまで付与"
+  },
+  {
+    "id": 303,
+    "name": "アマ競技用スイカ",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0160_S.webp",
+    "effect": "敵全体に打属性ダメージを与え、対象に「受けるブレイクダメージ+20%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 305,
+    "name": "ガッツ注入ドリンク",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0161_S.webp",
+    "effect": "最大HPが最も高い味方1人に「物防・魔防+15%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 307,
+    "name": "モガ・トケール",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0162_S.webp",
+    "effect": "敵全体に「受けるバーストスキルダメージ+70％」を2回攻撃を受けるまで付与(重複不可)"
+  },
+  {
+    "id": 309,
+    "name": "マテリアルコレクター",
+    "rarity": 3,
+    "usage_count": 1,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0163_S.webp",
+    "effect": "物攻が最も高い味方1人に、「HPが80％以上の時、クリティカルダメージ+60％」を1回行動終了するまで付与"
+  },
+  {
+    "id": 311,
+    "name": "せいなるおくりもの",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0164_S.webp",
+    "effect": "味方全員のHPを10％回復。回復後、味方全員に「バーストスキルダメージ+45%」を1回行動終了するまで付与"
+  },
+  {
+    "id": 313,
+    "name": "はじけるおくりもの",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0165_S.webp",
+    "effect": "敵全体に「全体攻撃から受ける魔法攻撃ダメージ+24%」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 315,
+    "name": "新春の黒箱",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0168_S.webp",
+    "effect": "味方全員に「最大HP+15％」を2回行動終了するまで付与(上限15％)し、HPを15％回復"
+  },
+  {
+    "id": 1004,
+    "name": "デコ魔導書",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0166_S.webp",
+    "effect": "最大HPが最も高い敵1体に風属性ダメージを与え、HPが最も減っている味方1人のHPを15%回復"
+  },
+  {
+    "id": 1006,
+    "name": "サンダーフィート",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0167_S.webp",
+    "effect": "最大HPが最も高い敵1体に雷属性ダメージと雷属性ブレイクダメージ"
+  },
+  {
+    "id": 1008,
+    "name": "ローゼ・ショコラフラム",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0169_S.webp",
+    "effect": "魔攻が最も高い味方1人に「状態異常が付与されている敵を攻撃時、バーストスキルダメージ+60％」を1回行動終了するまで付与"
+  },
+  {
+    "id": 1010,
+    "name": "まごころビスケ",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0170_S.webp",
+    "effect": "味方全員のHPを15％回復<br>回復後、HPが最も減っている味方のHPを35%回復"
+  },
+  {
+    "id": 1012,
+    "name": "あやしいアイス",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0171_S.webp",
+    "effect": "最大HPが最も高い敵1体に「氷属性耐性-15％」を2回攻撃を受けるまで付与し、「眠り」を1回行動開始するまで中確率で付与"
+  },
+  {
+    "id": 1014,
+    "name": "フィッシュレーション",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0172_S.webp",
+    "effect": "味方全員のHPを15％回復。回復後、「突属性スキルダメージ+30%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 1016,
+    "name": "ホットチリミスト",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0173_S.webp",
+    "effect": "最大HPが最も高い敵1体に「雷耐性-15％」を2回攻撃を受けるまで付与し、「麻痺」を1回行動開始するまで中確率で付与"
+  },
+  {
+    "id": 1018,
+    "name": "地球儀",
+    "rarity": 3,
+    "usage_count": 3,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0174_S.webp",
+    "effect": "敵全体に打属性ダメージと打属性ブレイクダメージ"
+  },
+  {
+    "id": 1020,
+    "name": "プリズムコア",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0176_S.webp",
+    "effect": "敵全体に火属性ダメージを与え、対象に「受けるバーストスキルダメージ+30％」を2回攻撃を受けるまで付与"
+  },
+  {
+    "id": 1022,
+    "name": "神秘のアンク",
+    "rarity": 3,
+    "usage_count": 2,
+    "trait_filter_ids": 2,
+    "image": "images/battle/battle_tool_0177_S.webp",
+    "effect": "物攻が最も高い味方1人に「強化系パネルから受ける強化効果量+30％」を1回行動終了するまで付与(重複不可)"
+  }
+]
