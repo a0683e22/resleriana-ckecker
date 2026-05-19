@@ -51,10 +51,12 @@
          color: #fff;
          font-size: 16px;
          cursor: pointer
+	 transition: 0.2s ease
          }
-         .filter-btn:hover {
-         background: #8291b2
-         }
+.filter-btn:hover {
+	background: #8798be;
+	transform: translateY(-1px)
+}
          .gift-filter-icon {
          width: 22px;
          height: 22px;
@@ -198,10 +200,14 @@
          height: 24px;
          object-fit: contain
          }
-         .filter-btn.active {
-         background: #9db6ff;
-         color: #fff
-         }
+.filter-btn.active {
+	background: linear-gradient(180deg,#9db6ff,#7f96d9);
+	color: #fff;
+	box-shadow: 0 0 14px rgba(157,182,255,.55);
+	transform: translateY(-2px);
+	border: 1px solid rgba(255,255,255,.35)
+}
+
          .gift-filter-icon.active {
          transform: scale(1.15);
          filter: drop-shadow(
@@ -641,7 +647,7 @@
             <br>
             ・素材用途反查
             <br>
-            ・多語言切換
+            ・多語言UI切換
             <br>
             ・Release Date 顯示
             <br>
@@ -879,68 +885,120 @@
              }
          }
          
-         	//篩選階級
-         		document
-         .querySelectorAll(
-             '[data-rarity]'
-         )
-         .forEach(
-             btn => {
-         
-                 btn.addEventListener(
-                     'click',
-                     () => {
-         
-                         const rarity =
-                         btn.dataset.rarity;
-         
-                         if (
-                             currentRarity === rarity
-                         ) {
-         
-                             currentRarity = null;
-                         }
-                         else {
-         
-                             currentRarity = rarity;
-                         }
-         
-                         loadEquipment();
-                     }
-                 );
-             }
-         );
-         //篩選種類
-         document
-         .querySelectorAll(
-             '[data-type]'
-         )
-         .forEach(
-             btn => {
-         
-                 btn.addEventListener(
-                     'click',
-                     () => {
-         
-                         const type =
-                         btn.dataset.type;
-         
-                         if (
-                             currentType === type
-                         ) {
-         
-                             currentType = null;
-                         }
-                         else {
-         
-                             currentType = type;
-                         }
-         
-                         loadEquipment();
-                     }
-                 );
-             }
-         );
+         	// ===== 篩選階級 =====
+
+document
+.querySelectorAll(
+    '[data-rarity]'
+)
+.forEach(
+    btn => {
+
+        btn.addEventListener(
+            'click',
+            () => {
+
+                const rarity =
+                btn.dataset.rarity;
+
+                // ===== toggle =====
+
+                if (
+                    currentRarity === rarity
+                ) {
+
+                    currentRarity =
+                    null;
+
+                    btn.classList.remove(
+                        'active'
+                    );
+
+                } else {
+
+                    currentRarity =
+                    rarity;
+
+                    // ===== clear =====
+
+                    document
+                    .querySelectorAll(
+                        '[data-rarity]'
+                    )
+                    .forEach(
+                        b =>
+                        b.classList.remove(
+                            'active'
+                        )
+                    );
+
+                    // ===== active =====
+
+                    btn.classList.add(
+                        'active'
+                    );
+                }
+
+                loadEquipment();
+            }
+        );
+
+    }
+);
+// ===== 篩選種類 =====
+
+document
+.querySelectorAll(
+    '[data-type]'
+)
+.forEach(
+    btn => {
+
+        btn.addEventListener(
+            'click',
+            () => {
+
+                const type =
+                btn.dataset.type;
+
+                if (
+                    currentType === type
+                ) {
+
+                    currentType =
+                    null;
+
+                    btn.classList.remove(
+                        'active'
+                    );
+
+                } else {
+
+                    currentType =
+                    type;
+
+                    document
+                    .querySelectorAll(
+                        '[data-type]'
+                    )
+                    .forEach(
+                        b =>
+                        b.classList.remove(
+                            'active'
+                        )
+                    );
+
+                    btn.classList.add(
+                        'active'
+                    );
+                }
+
+                loadEquipment();
+            }
+        );
+
+    }
+);
          //分類按鈕
          document
          .querySelectorAll(
