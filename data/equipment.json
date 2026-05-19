@@ -6390,7 +6390,7 @@
   {
     "id": 766,
     "name": "水天の斧",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0396_S.webp",
     "status": [
@@ -6404,7 +6404,7 @@
   {
     "id": 767,
     "name": "水天の槍",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0397_S.webp",
     "status": [
@@ -6518,7 +6518,7 @@
   {
     "id": 780,
     "name": "水天の鎌",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0404_S.webp",
     "status": [
@@ -6632,7 +6632,7 @@
   {
     "id": 793,
     "name": "水天の弓",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0411_S.webp",
     "status": [
@@ -6792,7 +6792,7 @@
   {
     "id": 812,
     "name": "グレーセアクス",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0421_S.webp",
     "status": [
@@ -6810,7 +6810,7 @@
   {
     "id": 813,
     "name": "ケルビムスタッフ",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0422_S.webp",
     "status": [
@@ -7178,7 +7178,7 @@
   {
     "id": 853,
     "name": "チョアビートハート",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0444_S.webp",
     "status": [
@@ -7192,7 +7192,7 @@
   {
     "id": 854,
     "name": "エーテルスタッフ",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0445_S.webp",
     "status": [
@@ -7414,7 +7414,7 @@
   {
     "id": 879,
     "name": "トリプルエレメント",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0458_S.webp",
     "status": [
@@ -7428,7 +7428,7 @@
   {
     "id": 880,
     "name": "マギシュフリューゲル",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0459_S.webp",
     "status": [
@@ -7996,7 +7996,7 @@
   {
     "id": 947,
     "name": "スターリーナイトランス",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0495_S.webp",
     "status": [
@@ -8268,7 +8268,7 @@
   {
     "id": 978,
     "name": "ワンダーレイピア",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0511_S.webp",
     "status": [
@@ -8536,7 +8536,7 @@
   {
     "id": 1010,
     "name": "セレスティアルマキナ",
-    "rarity": 4,
+    "rarity": "UR",
     "slot_type": "Weapon",
     "image": "images/equip/equipment_tool_0539_S.webp",
     "status": [
