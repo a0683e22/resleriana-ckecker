@@ -414,6 +414,60 @@
          .gift-color-group.empty {
          opacity: 0
          }
+.patch-modal {
+	position: fixed;
+	inset: 0;
+	background: rgba(0,0,0,.7);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	z-index: 600
+}
+
+.patch-modal.show {
+    display: flex;
+}
+
+.patch-modal-content {
+	width: 520px;
+	background: #3e4658;
+	border-radius: 18px;
+	padding: 30px;
+	text-align: Left;
+	box-shadow: 0 0 40px rgba(0,0,0,.4)
+}
+
+.patch-title {
+	font-size: 34px;
+	font-weight: 700;
+	color: #9db6ff
+}
+
+.patch-subtitle {
+	margin-top: 8px;
+	font-size: 24px;
+	font-weight: 700
+}
+
+.patch-body {
+	margin-top: 24px;
+	line-height: 1.8;
+	font-size: 18px
+}
+
+.patch-close-btn {
+	margin-top: 28px;
+	width: 100%;
+	height: 46px;
+	border: none;
+	border-radius: 12px;
+	background: #7487b8;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer
+}
+
       </style>
    </head>
    <body>
@@ -571,6 +625,39 @@
             </button>
          </div>
       </div>
+<div id="patch-modal" class="patch-modal">
+
+    <div class="patch-modal-content">
+
+        <div class="patch-title">
+            v1.0 - 網頁正式開張
+        </div>
+
+        <div class="patch-body">
+
+            新增：
+            <br>
+            ・裝備一覽
+            <br>
+            ・素材用途反查
+            <br>
+            ・多語言切換
+            <br>
+            ・Release Date 顯示
+            <br>
+            ・<span style="color:#ffb84d; font-weight:800;">戰鬥道具與素材頁面尚未製作，僅先顯示按鈕</span>
+        </div>
+
+        <button
+            class="patch-close-btn"
+            onclick="closePatchModal()"
+        >
+            Enter Database
+        </button>
+
+    </div>
+
+</div>
       <script>
          const EQUIP_SOURCE = {
          	838: 'buyshop',
@@ -654,7 +741,7 @@
          let equipmentData = [];
          let materialUsageMap = {};
          let currentCategory = 'equipment';
-         
+	 const PATCH_VERSION = '1.0';
          async function init() {
          
              // ===== item =====
@@ -1434,7 +1521,8 @@
          updateLanguageUI();
          }
          init();
-         
+         checkPatchNote();
+
          function showMaterialUsage(materialId) {
          
          const usage =
@@ -1648,6 +1736,43 @@
          1800
          );
          }
+
+
+function checkPatchNote() {
+
+    const viewedVersion =
+    localStorage.getItem(
+        'patchNoteVersion'
+    );
+
+    if (
+        viewedVersion !==
+        PATCH_VERSION
+    ) {
+
+        document
+        .getElementById(
+            'patch-modal'
+        )
+        .classList.add(
+            'show'
+        );
+    }
+}
+function closePatchModal() {
+
+    localStorage.setItem(
+        'patchNoteVersion',
+        PATCH_VERSION
+    );
+
+    document
+    .getElementById(
+        'patch-modal'
+    )
+    .remove();
+}
       </script>
+
    </body>
 </html>
