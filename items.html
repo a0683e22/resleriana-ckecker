@@ -931,21 +931,20 @@
     </div>
     <div class="patch-modal" id="patch-modal">
       <div class="patch-modal-content">
-        <div class="patch-title">v1.0 - 網頁正式開張</div>
+        <div class="patch-title">v1.05 - 追加素材頁面</div>
         <div class="patch-body">
           新增：
           <br />
-          ・裝備一覽
+          ・素材一覽
           <br />
-          ・素材用途反查
+          ・點擊名稱複製素材日文名
           <br />
-          ・多語言UI切換
+          ・點擊圖片會顯示目前支援配方
           <br />
-          ・Release Date 顯示
+          ・點擊特性可以開啟特性篩選其他素材
           <br />
-          ・
           <span style="color: #ffb84d; font-weight: 800">
-            戰鬥道具與素材頁面尚未製作，僅先顯示按鈕
+            戰鬥道具尚未製作，僅先顯示按鈕
           </span>
         </div>
         <button class="patch-close-btn" onclick="closePatchModal()">
@@ -1089,7 +1088,7 @@
       let equipmentTraitMap = {};
       let battleTraitMap = {};
       let currentCategory = "equipment";
-      let PATCH_VERSION = "1.0";
+      let PATCH_VERSION = "1.05";
 
       async function init() {
         let traitResponse = await fetch("trait_master.json");
