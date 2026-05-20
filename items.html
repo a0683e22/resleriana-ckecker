@@ -756,156 +756,26 @@
             </button>
           </div>
           <div class="filter-group" data-type-group="">
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="1"
-              src="images/ui/blue.png"
-            />
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="3"
-              src="images/ui/yellow.png"
-            />
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="4"
-              src="images/ui/red.png"
-            />
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="5"
-              src="images/ui/green.png"
-            />
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="2"
-              src="images/ui/purple.png"
-            />
+            <img alt="" class="gift-filter-icon" data-color="1" src="images/ui/blue.png"/>
+            <img alt="" class="gift-filter-icon" data-color="2" src="images/ui/purple.png"/>
+            <img alt="" class="gift-filter-icon" data-color="3" src="images/ui/yellow.png"/>
+            <img alt="" class="gift-filter-icon" data-color="4" src="images/ui/red.png"/>
+            <img alt="" class="gift-filter-icon" data-color="5" src="images/ui/green.png" />
           </div>
         </div>
         <div id="material-bottom-controls">
           <div class="filter-group">
-            <button
-              class="filter-btn"
-              data-rarity="SSR"
-              onclick="
-                if (selectedMaterialRarity === 'SSR') {
-                  selectedMaterialRarity = null;
-                } else {
-                  selectedMaterialRarity = 'SSR';
-                }
-                loadMaterial();
-              "
-            >
-              SSR
-            </button>
-            <button
-              class="filter-btn"
-              data-rarity="SR"
-              onclick="
-                if (selectedMaterialRarity === 'SR') {
-                  selectedMaterialRarity = null;
-                } else {
-                  selectedMaterialRarity = 'SR';
-                }
-                loadMaterial();
-              "
-            >
-              SR
-            </button>
-            <button
-              class="filter-btn"
-              data-rarity="R"
-              onclick="
-                if (selectedMaterialRarity === 'R') {
-                  selectedMaterialRarity = null;
-                } else {
-                  selectedMaterialRarity = 'R';
-                }
-                loadMaterial();
-              "
-            >
-              R
-            </button>
+            <button class="filter-btn" data-rarity="SSR">SSR</button>
+            <button class="filter-btn" data-rarity="SR">SR</button>
+            <button class="filter-btn" data-rarity="R">R</button>
           </div>
           <div class="filter-group">
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="1"
-              onclick="
-                if (selectedMaterialColor === 1) {
-                  selectedMaterialColor = null;
-                } else {
-                  selectedMaterialColor = 1;
-                }
-                loadMaterial();
-              "
-              src="images/ui/blue.png"
-            />
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="2"
-              onclick="
-                if (selectedMaterialColor === 2) {
-                  selectedMaterialColor = null;
-                } else {
-                  selectedMaterialColor = 2;
-                }
-                loadMaterial();
-              "
-              src="images/ui/purple.png"
-            />
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="3"
-              onclick="
-                if (selectedMaterialColor === 3) {
-                  selectedMaterialColor = null;
-                } else {
-                  selectedMaterialColor = 3;
-                }
-                loadMaterial();
-              "
-              src="images/ui/yellow.png"
-            />
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="4"
-              onclick="
-                if (selectedMaterialColor === 4) {
-                  selectedMaterialColor = null;
-                } else {
-                  selectedMaterialColor = 4;
-                }
-                loadMaterial();
-              "
-              src="images/ui/red.png"
-            />
-            <img
-              alt=""
-              class="gift-filter-icon"
-              data-color="5"
-              onclick="
-                if (selectedMaterialColor === 5) {
-                  selectedMaterialColor = null;
-                } else {
-                  selectedMaterialColor = 5;
-                }
-                loadMaterial();
-              "
-              src="images/ui/green.png"
-            />
-          </div>
-        </div>
+            <img alt="" class="gift-filter-icon" data-color="1" src="images/ui/blue.png"/>
+            <img alt="" class="gift-filter-icon" data-color="2" src="images/ui/purple.png"/>
+            <img alt="" class="gift-filter-icon" data-color="3" src="images/ui/yellow.png"/>
+            <img alt="" class="gift-filter-icon" data-color="4" src="images/ui/red.png"/>
+            <img alt="" class="gift-filter-icon" data-color="5" src="images/ui/green.png" />
+          </div>        </div>
       </div>
     </div>
     <div id="main-list"></div>
@@ -1253,6 +1123,63 @@
           });
         }
 
+document
+.querySelectorAll(
+    '.filter-btn'
+)
+.forEach(btn => {
+
+    btn.onclick = () => {
+
+        const rarity =
+        btn.dataset.rarity;
+
+        if (
+            selectedMaterialRarity
+            === rarity
+        ) {
+
+            selectedMaterialRarity = null;
+
+        } else {
+
+            selectedMaterialRarity = rarity;
+        }
+
+        loadMaterial();
+    };
+
+});
+
+document
+.querySelectorAll(
+    '.gift-filter-icon'
+)
+.forEach(icon => {
+
+    icon.onclick = () => {
+
+        const color =
+        Number(
+            icon.dataset.color
+        );
+
+        if (
+            selectedMaterialColor
+            === color
+        ) {
+
+            selectedMaterialColor = null;
+
+        } else {
+
+            selectedMaterialColor = color;
+        }
+
+        loadMaterial();
+    };
+
+});
         function refreshView() {
           if (currentCategory === "equipment") {
             loadEquipment();
