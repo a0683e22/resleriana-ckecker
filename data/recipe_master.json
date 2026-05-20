@@ -1,5 +1,33 @@
 [
   {
+    "recipe_id": 1,
+    "name": "フラム",
+    "target_id": 2,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 70,
+        "quantity": 8,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 2,
+    "name": "ヒーリングサルヴ",
+    "target_id": 1,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 68,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
     "recipe_id": 3,
     "name": "エナジーペンダント",
     "target_id": 3,
@@ -46,6 +74,39 @@
       {
         "id": 68,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 6,
+    "name": "うに袋",
+    "target_id": 3,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 67,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 7,
+    "name": "ドライビスク",
+    "target_id": 4,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 2,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 24,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -151,6 +212,68 @@
     "start_at": "2023-09-23"
   },
   {
+    "recipe_id": 14,
+    "name": "魔女の秘薬",
+    "target_id": 5,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 23,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 34,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 15,
+    "name": "ナントカの秘薬",
+    "target_id": 6,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 73,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 23,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 16,
+    "name": "ヒーリングベル",
+    "target_id": 9,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 74,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 75,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 76,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
     "recipe_id": 17,
     "name": "モノクログラス",
     "target_id": 12,
@@ -192,6 +315,58 @@
       {
         "id": 15,
         "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 20,
+    "name": "ドナーストーン",
+    "target_id": 8,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 80,
+        "quantity": 8,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 21,
+    "name": "暗黒水",
+    "target_id": 11,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 6,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 28,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 39,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 22,
+    "name": "素朴な焼き菓子",
+    "target_id": 13,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 81,
+        "quantity": 8,
         "type": 5
       }
     ],
@@ -255,6 +430,20 @@
     "start_at": "2023-09-23"
   },
   {
+    "recipe_id": 26,
+    "name": "クラフト",
+    "target_id": 7,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 83,
+        "quantity": 8,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
     "recipe_id": 27,
     "name": "ルーンストーン",
     "target_id": 15,
@@ -312,6 +501,25 @@
     "start_at": "2023-09-23"
   },
   {
+    "recipe_id": 30,
+    "name": "神秘の羽衣",
+    "target_id": 14,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 82,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 83,
+        "quantity": 4,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
     "recipe_id": 31,
     "name": "クォーツネックレス",
     "target_id": 21,
@@ -362,6 +570,49 @@
       },
       {
         "id": 16,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 34,
+    "name": "ウォーパウダー",
+    "target_id": 15,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 7,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 17,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 29,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 35,
+    "name": "たたかう魔剣",
+    "target_id": 17,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 90,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 15,
         "quantity": 1,
         "type": 5
       }
@@ -464,6 +715,44 @@
     "start_at": "2023-09-23"
   },
   {
+    "recipe_id": 41,
+    "name": "スモークミート",
+    "target_id": 31,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 91,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 36,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 42,
+    "name": "不幸の瓶詰め",
+    "target_id": 23,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 91,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 45,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
     "recipe_id": 43,
     "name": "クレアエンパシー",
     "target_id": 36,
@@ -533,6 +822,63 @@
       },
       {
         "id": 60,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 47,
+    "name": "ローゼフラム",
+    "target_id": 19,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 92,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 7,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 48,
+    "name": "妙薬ドラッヘン",
+    "target_id": 27,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 92,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 19,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 49,
+    "name": "エネルジアニカ",
+    "target_id": 21,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 85,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 62,
         "quantity": 2,
         "type": 5
       }
@@ -610,6 +956,44 @@
       {
         "id": 16,
         "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 54,
+    "name": "燃える水",
+    "target_id": 25,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 26,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 17,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 55,
+    "name": "錬金キャンディ",
+    "target_id": 33,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 36,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 29,
+        "quantity": 2,
         "type": 5
       }
     ],
@@ -762,6 +1146,164 @@
       {
         "id": 47,
         "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 64,
+    "name": "黄金エキススープ",
+    "target_id": 29,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 93,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 86,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 65,
+    "name": "エリキシル剤",
+    "target_id": 71,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 10,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 20,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 32,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 66,
+    "name": "創世の槌",
+    "target_id": 35,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 37,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 63,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 94,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 67,
+    "name": "リュミエールランス",
+    "target_id": 37,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 46,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 40,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 68,
+    "name": "レーツェルフト",
+    "target_id": 39,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 60,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 50,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 94,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 69,
+    "name": "クライトレヘルン",
+    "target_id": 41,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 37,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 63,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 95,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 70,
+    "name": "シュトラプラジグ",
+    "target_id": 43,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 46,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 50,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 94,
+        "quantity": 2,
         "type": 5
       }
     ],
@@ -944,6 +1486,63 @@
     "start_at": "2023-09-23"
   },
   {
+    "recipe_id": 80,
+    "name": "肉体活性の粉末",
+    "target_id": 55,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 40,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 30,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 81,
+    "name": "剛力の塗り薬",
+    "target_id": 57,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 50,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 41,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 82,
+    "name": "トリトンのほら貝",
+    "target_id": 59,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 63,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 51,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
     "recipe_id": 83,
     "name": "スカラーコート",
     "target_id": 84,
@@ -982,6 +1581,44 @@
     "start_at": "2023-09-23"
   },
   {
+    "recipe_id": 85,
+    "name": "風繰り車",
+    "target_id": 61,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 8,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 30,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 86,
+    "name": "シュネーシュトルム",
+    "target_id": 63,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 19,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 41,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
     "recipe_id": 87,
     "name": "薬草のシャツ",
     "target_id": 82,
@@ -995,6 +1632,68 @@
       {
         "id": 85,
         "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 88,
+    "name": "雷の呼び鈴",
+    "target_id": 65,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 63,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 40,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 89,
+    "name": "レッドウォーパウダー",
+    "target_id": 67,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 30,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 51,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 90,
+    "name": "リストレア薬瓶",
+    "target_id": 69,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 55,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 21,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 64,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -1052,6 +1751,25 @@
       {
         "id": 10,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 94,
+    "name": "かぼちゃドール",
+    "target_id": 47,
+    "gift_colors": [2, 4, 5],
+    "materials": [
+      {
+        "id": 9,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 42,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -1210,6 +1928,30 @@
     "start_at": "2023-09-23"
   },
   {
+    "recipe_id": 103,
+    "name": "イバラの抱擁",
+    "target_id": 49,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 10,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 20,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 32,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
     "recipe_id": 104,
     "name": "ワンダーミステル・火",
     "target_id": 104,
@@ -1241,6 +1983,30 @@
       },
       {
         "id": 22,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 106,
+    "name": "氷びし",
+    "target_id": 51,
+    "gift_colors": [1, 3, 2],
+    "materials": [
+      {
+        "id": 11,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 22,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 65,
         "quantity": 1,
         "type": 5
       }
@@ -1280,6 +2046,49 @@
       {
         "id": 33,
         "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 109,
+    "name": "ブリッツコア",
+    "target_id": 53,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 33,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 44,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 54,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 110,
+    "name": "生きてるゴミ箱",
+    "target_id": 45,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 77,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 88,
+        "quantity": 3,
         "type": 5
       }
     ],
@@ -1375,6 +2184,44 @@
       {
         "id": 97,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 116,
+    "name": "ヒロイックガイスト",
+    "target_id": 75,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 66,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 55,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 117,
+    "name": "万物の写本",
+    "target_id": 73,
+    "gift_colors": [2, 4, 5],
+    "materials": [
+      {
+        "id": 54,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 65,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -1479,6 +2326,116 @@
       }
     ],
     "start_at": "2023-09-23"
+  },
+  {
+    "recipe_id": 123,
+    "name": "妖薬エボニアル",
+    "target_id": 77,
+    "gift_colors": [1, 5, 3],
+    "materials": [
+      {
+        "id": 165,
+        "quantity": 10,
+        "type": 5
+      },
+      {
+        "id": 94,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-10-10"
+  },
+  {
+    "recipe_id": 124,
+    "name": "廻る魔剣",
+    "target_id": 79,
+    "gift_colors": [4, 5, 2],
+    "materials": [
+      {
+        "id": 143,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 145,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-10-10"
+  },
+  {
+    "recipe_id": 125,
+    "name": "トランヒールサルヴ",
+    "target_id": 81,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 150,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 151,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 152,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-10-10"
+  },
+  {
+    "recipe_id": 126,
+    "name": "ドナークリスタル",
+    "target_id": 83,
+    "gift_colors": [4, 3, 5],
+    "materials": [
+      {
+        "id": 169,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 149,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 154,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-10-10"
+  },
+  {
+    "recipe_id": 127,
+    "name": "破壊の秘薬",
+    "target_id": 85,
+    "gift_colors": [2, 1, 3],
+    "materials": [
+      {
+        "id": 170,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 147,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 155,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-10-10"
   },
   {
     "recipe_id": 128,
@@ -2053,6 +3010,25 @@
     "start_at": "2023-10-31"
   },
   {
+    "recipe_id": 161,
+    "name": "プロテクトパウダー",
+    "target_id": 87,
+    "gift_colors": [4, 3, 5],
+    "materials": [
+      {
+        "id": 221,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 169,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-11-10"
+  },
+  {
     "recipe_id": 162,
     "name": "まじないほうき",
     "target_id": 204,
@@ -2123,6 +3099,25 @@
       {
         "id": 200,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-11-10"
+  },
+  {
+    "recipe_id": 166,
+    "name": "シュタルレヘルン",
+    "target_id": 93,
+    "gift_colors": [5, 3, 2],
+    "materials": [
+      {
+        "id": 207,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 199,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -2210,6 +3205,49 @@
     "start_at": "2023-11-10"
   },
   {
+    "recipe_id": 171,
+    "name": "カクテルレープ",
+    "target_id": 91,
+    "gift_colors": [3, 1, 4],
+    "materials": [
+      {
+        "id": 218,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 214,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-11-10"
+  },
+  {
+    "recipe_id": 172,
+    "name": "ラーヴァキューブ",
+    "target_id": 89,
+    "gift_colors": [4, 3, 5],
+    "materials": [
+      {
+        "id": 225,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 204,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 205,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-11-10"
+  },
+  {
     "recipe_id": 173,
     "name": "コールドハンマー",
     "target_id": 220,
@@ -2246,6 +3284,30 @@
       },
       {
         "id": 211,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-11-10"
+  },
+  {
+    "recipe_id": 175,
+    "name": "詰め合わせキャンディ",
+    "target_id": 95,
+    "gift_colors": [4, 1, 5],
+    "materials": [
+      {
+        "id": 226,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 208,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 209,
         "quantity": 2,
         "type": 5
       }
@@ -2457,6 +3519,20 @@
     "start_at": "2023-11-21"
   },
   {
+    "recipe_id": 187,
+    "name": "さすらう地球儀",
+    "target_id": 97,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 233,
+        "quantity": 30,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-11-21"
+  },
+  {
     "recipe_id": 188,
     "name": "ヘリオプロクス",
     "target_id": 246,
@@ -2560,6 +3636,25 @@
     "start_at": "2023-11-29"
   },
   {
+    "recipe_id": 195,
+    "name": "グラスビーンズ",
+    "target_id": 99,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 23,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 70,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-11-29"
+  },
+  {
     "recipe_id": 196,
     "name": "クーケンスウェット",
     "target_id": 261,
@@ -2596,6 +3691,25 @@
       }
     ],
     "start_at": "2023-11-29"
+  },
+  {
+    "recipe_id": 198,
+    "name": "栄養剤",
+    "target_id": 104,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 275,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 225,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
   },
   {
     "recipe_id": 199,
@@ -2649,6 +3763,25 @@
       {
         "id": 260,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 202,
+    "name": "禁じられた秘薬",
+    "target_id": 106,
+    "gift_colors": [2, 4, 5],
+    "materials": [
+      {
+        "id": 253,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 267,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -2760,6 +3893,49 @@
     "start_at": "2023-12-11"
   },
   {
+    "recipe_id": 208,
+    "name": "リフュールボトル",
+    "target_id": 108,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 257,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 272,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 209,
+    "name": "放電管",
+    "target_id": 110,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 279,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 254,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 255,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
     "recipe_id": 210,
     "name": "真紅の皮鎧",
     "target_id": 279,
@@ -2796,6 +3972,30 @@
       },
       {
         "id": 272,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 212,
+    "name": "守護女神の盾",
+    "target_id": 112,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 280,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 261,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 262,
         "quantity": 2,
         "type": 5
       }
@@ -3247,6 +4447,78 @@
       },
       {
         "id": 87,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 232,
+    "name": "伝承のエリキシル剤",
+    "target_id": 114,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 9,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 55,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 78,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 233,
+    "name": "伝承の教典",
+    "target_id": 116,
+    "gift_colors": [5, 4, 2],
+    "materials": [
+      {
+        "id": 42,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 64,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 88,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 234,
+    "name": "伝承の呪術書",
+    "target_id": 118,
+    "gift_colors": [3, 1, 4],
+    "materials": [
+      {
+        "id": 20,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 22,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 89,
         "quantity": 10,
         "type": 5
       }
@@ -3926,6 +5198,193 @@
     "start_at": "2023-12-11"
   },
   {
+    "recipe_id": 263,
+    "name": "フレアノヴァフラム",
+    "target_id": 120,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 256,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 160,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 171,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 264,
+    "name": "ブリザードレヘルン",
+    "target_id": 122,
+    "gift_colors": [2, 4, 3],
+    "materials": [
+      {
+        "id": 270,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 159,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 172,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 265,
+    "name": "トルネードルフト",
+    "target_id": 126,
+    "gift_colors": [5, 3, 1],
+    "materials": [
+      {
+        "id": 263,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 161,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 227,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 266,
+    "name": "グングニルプラジグ",
+    "target_id": 124,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 259,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 220,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 228,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 267,
+    "name": "シュレッドディザスター",
+    "target_id": 128,
+    "gift_colors": [2, 5, 1],
+    "materials": [
+      {
+        "id": 266,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 216,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 281,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 268,
+    "name": "ディスペアカノン",
+    "target_id": 130,
+    "gift_colors": [4, 2, 3],
+    "materials": [
+      {
+        "id": 274,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 213,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 282,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 269,
+    "name": "カタストクラフト",
+    "target_id": 132,
+    "gift_colors": [3, 1, 5],
+    "materials": [
+      {
+        "id": 164,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 202,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 281,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 270,
+    "name": "爆粉うに",
+    "target_id": 100,
+    "gift_colors": [4, 1, 3],
+    "materials": [
+      {
+        "id": 67,
+        "quantity": 10,
+        "type": 5
+      },
+      {
+        "id": 23,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
     "recipe_id": 271,
     "name": "旅人のコート",
     "target_id": 293,
@@ -3976,6 +5435,25 @@
       },
       {
         "id": 153,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-11"
+  },
+  {
+    "recipe_id": 274,
+    "name": "クラフトリオ",
+    "target_id": 101,
+    "gift_colors": [1, 4, 2],
+    "materials": [
+      {
+        "id": 279,
+        "quantity": 10,
+        "type": 5
+      },
+      {
+        "id": 262,
         "quantity": 10,
         "type": 5
       }
@@ -4034,6 +5512,44 @@
       {
         "id": 161,
         "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-22"
+  },
+  {
+    "recipe_id": 278,
+    "name": "ゆらぎの毒煙",
+    "target_id": 102,
+    "gift_colors": [4, 1, 2],
+    "materials": [
+      {
+        "id": 228,
+        "quantity": 10,
+        "type": 5
+      },
+      {
+        "id": 216,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2023-12-22"
+  },
+  {
+    "recipe_id": 279,
+    "name": "アスラドーナツ",
+    "target_id": 103,
+    "gift_colors": [4, 3, 5],
+    "materials": [
+      {
+        "id": 280,
+        "quantity": 20,
+        "type": 5
+      },
+      {
+        "id": 258,
+        "quantity": 10,
         "type": 5
       }
     ],
@@ -4208,6 +5724,25 @@
     "start_at": "2023-12-31"
   },
   {
+    "recipe_id": 292,
+    "name": "小悪魔のいたずら",
+    "target_id": 137,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 335,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 279,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-11"
+  },
+  {
     "recipe_id": 293,
     "name": "トゥルビヨン",
     "target_id": 412,
@@ -4264,6 +5799,30 @@
       {
         "id": 328,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-11"
+  },
+  {
+    "recipe_id": 296,
+    "name": "オーカンルフェン",
+    "target_id": 139,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 320,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 313,
+        "quantity": 1,
+        "type": 5
+      },
+      {
+        "id": 327,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -4370,6 +5929,54 @@
     "start_at": "2024-01-11"
   },
   {
+    "recipe_id": 302,
+    "name": "吸魂ひょうたん",
+    "target_id": 141,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 322,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 315,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 332,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-11"
+  },
+  {
+    "recipe_id": 303,
+    "name": "ガラスのバラ",
+    "target_id": 143,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 339,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 321,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 323,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-11"
+  },
+  {
     "recipe_id": 304,
     "name": "疾風の小太刀",
     "target_id": 428,
@@ -4406,6 +6013,30 @@
       },
       {
         "id": 332,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-11"
+  },
+  {
+    "recipe_id": 306,
+    "name": "ストラパール",
+    "target_id": 145,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 340,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 328,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 329,
         "quantity": 2,
         "type": 5
       }
@@ -4612,6 +6243,25 @@
     "start_at": "2024-01-22"
   },
   {
+    "recipe_id": 318,
+    "name": "テネブルランス",
+    "target_id": 149,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 374,
+        "quantity": 8,
+        "type": 5
+      },
+      {
+        "id": 339,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-31"
+  },
+  {
     "recipe_id": 319,
     "name": "トモストリアイナ",
     "target_id": 456,
@@ -4693,6 +6343,49 @@
     "start_at": "2024-01-31"
   },
   {
+    "recipe_id": 323,
+    "name": "夢幻の羽衣",
+    "target_id": 151,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 375,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 359,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 366,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-31"
+  },
+  {
+    "recipe_id": 324,
+    "name": "酸の霧雲",
+    "target_id": 153,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 370,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 371,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-31"
+  },
+  {
     "recipe_id": 325,
     "name": "アービデルトネ",
     "target_id": 462,
@@ -4743,6 +6436,30 @@
       },
       {
         "id": 354,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 371,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-31"
+  },
+  {
+    "recipe_id": 328,
+    "name": "みなぎるドリンク",
+    "target_id": 147,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 377,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 370,
         "quantity": 2,
         "type": 5
       },
@@ -4821,6 +6538,25 @@
       {
         "id": 371,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-01-31"
+  },
+  {
+    "recipe_id": 332,
+    "name": "ピュアアロマ",
+    "target_id": 155,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 371,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 372,
+        "quantity": 3,
         "type": 5
       }
     ],
@@ -5021,6 +6757,30 @@
     "start_at": "2024-02-09"
   },
   {
+    "recipe_id": 344,
+    "name": "まごころチョコレート",
+    "target_id": 157,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 392,
+        "quantity": 7,
+        "type": 5
+      },
+      {
+        "id": 393,
+        "quantity": 7,
+        "type": 5
+      },
+      {
+        "id": 394,
+        "quantity": 7,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-02-09"
+  },
+  {
     "recipe_id": 345,
     "name": "天使の杖",
     "target_id": 496,
@@ -5103,6 +6863,92 @@
       }
     ],
     "start_at": "2024-02-20"
+  },
+  {
+    "recipe_id": 351,
+    "name": "高火力錬金大砲",
+    "target_id": 159,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 408,
+        "quantity": 12,
+        "type": 5
+      },
+      {
+        "id": 378,
+        "quantity": 12,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-02-28"
+  },
+  {
+    "recipe_id": 352,
+    "name": "凍結破壊爆弾",
+    "target_id": 161,
+    "gift_colors": [2, 4, 5],
+    "materials": [
+      {
+        "id": 416,
+        "quantity": 3,
+        "type": 5
+      },
+      {
+        "id": 417,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 418,
+        "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-02-28"
+  },
+  {
+    "recipe_id": 353,
+    "name": "力のトーテム",
+    "target_id": 163,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 410,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 417,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 423,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-02-28"
+  },
+  {
+    "recipe_id": 354,
+    "name": "凶兆水",
+    "target_id": 165,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 419,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 424,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-02-28"
   },
   {
     "recipe_id": 355,
@@ -5233,6 +7079,25 @@
       {
         "id": 425,
         "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-02-28"
+  },
+  {
+    "recipe_id": 361,
+    "name": "ピロソティー",
+    "target_id": 167,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 424,
+        "quantity": 6,
+        "type": 5
+      },
+      {
+        "id": 429,
+        "quantity": 6,
         "type": 5
       }
     ],
@@ -5579,6 +7444,78 @@
     "start_at": "2024-03-12"
   },
   {
+    "recipe_id": 377,
+    "name": "つけもの石",
+    "target_id": 169,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 448,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 456,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 457,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-03-12"
+  },
+  {
+    "recipe_id": 378,
+    "name": "原初の力肉",
+    "target_id": 171,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 447,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 455,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 456,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-03-12"
+  },
+  {
+    "recipe_id": 379,
+    "name": "魔法の鎖",
+    "target_id": 173,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 458,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 459,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 460,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-03-12"
+  },
+  {
     "recipe_id": 380,
     "name": "ファウンダーブーメラン",
     "target_id": 550,
@@ -5707,6 +7644,54 @@
       {
         "id": 471,
         "quantity": 8,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-03-22"
+  },
+  {
+    "recipe_id": 386,
+    "name": "シェルペルホルン",
+    "target_id": 175,
+    "gift_colors": [2, 4, 5],
+    "materials": [
+      {
+        "id": 461,
+        "quantity": 6,
+        "type": 5
+      },
+      {
+        "id": 462,
+        "quantity": 6,
+        "type": 5
+      },
+      {
+        "id": 465,
+        "quantity": 4,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-03-22"
+  },
+  {
+    "recipe_id": 387,
+    "name": "アジルチャクラム",
+    "target_id": 177,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 448,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 460,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 474,
+        "quantity": 2,
         "type": 5
       }
     ],
@@ -5968,6 +7953,54 @@
     "start_at": "2024-04-12"
   },
   {
+    "recipe_id": 403,
+    "name": "試作品うに袋",
+    "target_id": 179,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 490,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 491,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 492,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-04-12"
+  },
+  {
+    "recipe_id": 404,
+    "name": "学生応援レッドゼリー",
+    "target_id": 181,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 490,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 491,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 492,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-04-12"
+  },
+  {
     "recipe_id": 405,
     "name": "ギャルの杖",
     "target_id": 592,
@@ -6004,6 +8037,54 @@
       {
         "id": 492,
         "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-04-12"
+  },
+  {
+    "recipe_id": 408,
+    "name": "学生応援大盛定食",
+    "target_id": 183,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 490,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 491,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 492,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-04-12"
+  },
+  {
+    "recipe_id": 409,
+    "name": "魔物除けスプレー",
+    "target_id": 185,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 490,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 491,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 492,
+        "quantity": 5,
         "type": 5
       }
     ],
@@ -6081,6 +8162,30 @@
     "start_at": "2024-04-22"
   },
   {
+    "recipe_id": 414,
+    "name": "試作品ルフト",
+    "target_id": 187,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 499,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 500,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 501,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-04-22"
+  },
+  {
     "recipe_id": 415,
     "name": "委員長の制服",
     "target_id": 606,
@@ -6089,6 +8194,30 @@
       {
         "id": 499,
         "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-04-22"
+  },
+  {
+    "recipe_id": 416,
+    "name": "学生応援ブルーゼリー",
+    "target_id": 189,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 499,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 500,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 501,
+        "quantity": 5,
         "type": 5
       }
     ],
@@ -6145,6 +8274,54 @@
       {
         "id": 500,
         "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-04-22"
+  },
+  {
+    "recipe_id": 421,
+    "name": "学生応援健康定食",
+    "target_id": 191,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 499,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 500,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 501,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-04-22"
+  },
+  {
+    "recipe_id": 422,
+    "name": "魔物集めトラップ",
+    "target_id": 193,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 499,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 500,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 501,
+        "quantity": 5,
         "type": 5
       }
     ],
@@ -6330,6 +8507,30 @@
     "start_at": "2024-05-10"
   },
   {
+    "recipe_id": 434,
+    "name": "フェーダクナイ",
+    "target_id": 197,
+    "gift_colors": [5, 4, 2],
+    "materials": [
+      {
+        "id": 528,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 530,
+        "quantity": 2,
+        "type": 5
+      },
+      {
+        "id": 526,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-05-10"
+  },
+  {
     "recipe_id": 435,
     "name": "ヘルスシャツ",
     "target_id": 684,
@@ -6421,6 +8622,30 @@
     "start_at": "2024-05-10"
   },
   {
+    "recipe_id": 439,
+    "name": "因果の鎖",
+    "target_id": 201,
+    "gift_colors": [5, 2, 3],
+    "materials": [
+      {
+        "id": 520,
+        "quantity": 8,
+        "type": 5
+      },
+      {
+        "id": 519,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 527,
+        "quantity": 6,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-05-10"
+  },
+  {
     "recipe_id": 440,
     "name": "テンペストギア",
     "target_id": 688,
@@ -6487,6 +8712,54 @@
       {
         "id": 541,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-05-10"
+  },
+  {
+    "recipe_id": 443,
+    "name": "魔除けの霧吹き",
+    "target_id": 199,
+    "gift_colors": [4, 2, 3],
+    "materials": [
+      {
+        "id": 523,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 519,
+        "quantity": 9,
+        "type": 5
+      },
+      {
+        "id": 540,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-05-10"
+  },
+  {
+    "recipe_id": 444,
+    "name": "蛮勇の角笛",
+    "target_id": 195,
+    "gift_colors": [3, 5, 4],
+    "materials": [
+      {
+        "id": 524,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 525,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 535,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -6762,6 +9035,97 @@
       {
         "id": 576,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-05-31"
+  },
+  {
+    "recipe_id": 460,
+    "name": "エクサボム",
+    "target_id": 203,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 556,
+        "quantity": 8,
+        "type": 5
+      },
+      {
+        "id": 555,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 564,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-05-31"
+  },
+  {
+    "recipe_id": 461,
+    "name": "猛火の塗り薬",
+    "target_id": 205,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 554,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 566,
+        "quantity": 6,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-05-31"
+  },
+  {
+    "recipe_id": 462,
+    "name": "メディアの秘毒",
+    "target_id": 207,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 558,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 554,
+        "quantity": 10,
+        "type": 5
+      },
+      {
+        "id": 565,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-05-31"
+  },
+  {
+    "recipe_id": 463,
+    "name": "しびれ毒液",
+    "target_id": 209,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 559,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 560,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 573,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -7131,6 +9495,97 @@
       {
         "id": 620,
         "quantity": 2,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-06-28"
+  },
+  {
+    "recipe_id": 485,
+    "name": "氷結の塗り薬",
+    "target_id": 211,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 597,
+        "quantity": 8,
+        "type": 5
+      },
+      {
+        "id": 599,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 611,
+        "quantity": 3,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-06-28"
+  },
+  {
+    "recipe_id": 486,
+    "name": "帯電の塗り薬",
+    "target_id": 213,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 600,
+        "quantity": 8,
+        "type": 5
+      },
+      {
+        "id": 598,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 615,
+        "quantity": 6,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-06-28"
+  },
+  {
+    "recipe_id": 487,
+    "name": "ドナーシュテルン",
+    "target_id": 215,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 602,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 600,
+        "quantity": 10,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-06-28"
+  },
+  {
+    "recipe_id": 488,
+    "name": "エーテルインキ",
+    "target_id": 217,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 603,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 604,
+        "quantity": 4,
+        "type": 5
+      },
+      {
+        "id": 620,
+        "quantity": 1,
         "type": 5
       }
     ],
@@ -7851,6 +10306,72 @@
     "start_at": "2024-07-31"
   },
   {
+    "recipe_id": 525,
+    "name": "海の家特製かき氷",
+    "target_id": 219,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 646,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-07-31"
+  },
+  {
+    "recipe_id": 526,
+    "name": "海の家特製オイル",
+    "target_id": 221,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 647,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-07-31"
+  },
+  {
+    "recipe_id": 527,
+    "name": "海の家特製焼きそば",
+    "target_id": 223,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 647,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-07-31"
+  },
+  {
+    "recipe_id": 528,
+    "name": "海の家特製トラップ",
+    "target_id": 225,
+    "gift_colors": [2, 4, 5],
+    "materials": [
+      {
+        "id": 645,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 646,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 647,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-07-31"
+  },
+  {
     "recipe_id": 529,
     "name": "月夜の双星",
     "target_id": 800,
@@ -8093,6 +10614,34 @@
     "name": "ラディアントコロネット",
     "target_id": 836,
     "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 683,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-08-30"
+  },
+  {
+    "recipe_id": 547,
+    "name": "フワットケーキ",
+    "target_id": 227,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 682,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-08-30"
+  },
+  {
+    "recipe_id": 548,
+    "name": "クイーンズクレイブ",
+    "target_id": 229,
+    "gift_colors": [2, 4, 5],
     "materials": [
       {
         "id": 683,
@@ -8355,6 +10904,34 @@
     "start_at": "2024-09-30"
   },
   {
+    "recipe_id": 570,
+    "name": "号令のホイッスル",
+    "target_id": 231,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 729,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-09-30"
+  },
+  {
+    "recipe_id": 571,
+    "name": "ブランクシチュー",
+    "target_id": 233,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 730,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-09-30"
+  },
+  {
     "recipe_id": 572,
     "name": "審判の鉄槌",
     "target_id": 881,
@@ -8607,6 +11184,54 @@
     "start_at": "2024-11-08"
   },
   {
+    "recipe_id": 590,
+    "name": "禁断の袋",
+    "target_id": 237,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 765,
+        "quantity": 7,
+        "type": 5
+      },
+      {
+        "id": 766,
+        "quantity": 7,
+        "type": 5
+      },
+      {
+        "id": 767,
+        "quantity": 7,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-11-08"
+  },
+  {
+    "recipe_id": 591,
+    "name": "プレーンワッフル",
+    "target_id": 235,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 765,
+        "quantity": 7,
+        "type": 5
+      },
+      {
+        "id": 766,
+        "quantity": 7,
+        "type": 5
+      },
+      {
+        "id": 767,
+        "quantity": 7,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-11-08"
+  },
+  {
     "recipe_id": 592,
     "name": "石割りアックス",
     "target_id": 917,
@@ -8775,6 +11400,20 @@
     "start_at": "2024-11-29"
   },
   {
+    "recipe_id": 604,
+    "name": "スペシャルミート",
+    "target_id": 241,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 807,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-11-29"
+  },
+  {
     "recipe_id": 605,
     "name": "シュメルツシュヴェールト",
     "target_id": 941,
@@ -8820,6 +11459,30 @@
       }
     ],
     "start_at": "2024-12-06"
+  },
+  {
+    "recipe_id": 608,
+    "name": "嘆きの毒煙瓶",
+    "target_id": 239,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 794,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 795,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 796,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-11-29"
   },
   {
     "recipe_id": 609,
@@ -8910,6 +11573,20 @@
       {
         "id": 802,
         "quantity": 8,
+        "type": 5
+      }
+    ],
+    "start_at": "2024-12-20"
+  },
+  {
+    "recipe_id": 615,
+    "name": "フェアニヒターメテオール",
+    "target_id": 243,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 823,
+        "quantity": 16,
         "type": 5
       }
     ],
@@ -9042,6 +11719,34 @@
     "start_at": "2025-01-17"
   },
   {
+    "recipe_id": 625,
+    "name": "大巨人の鉄槌",
+    "target_id": 245,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 848,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-01-17"
+  },
+  {
+    "recipe_id": 626,
+    "name": "安らぎの灯火",
+    "target_id": 247,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 850,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-01-17"
+  },
+  {
     "recipe_id": 627,
     "name": "鳥と陽の杖",
     "target_id": 979,
@@ -9126,6 +11831,174 @@
     "start_at": "2025-01-31"
   },
   {
+    "recipe_id": 637,
+    "name": "カンタムフラム",
+    "target_id": 251,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 660,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 614,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 8,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-14"
+  },
+  {
+    "recipe_id": 638,
+    "name": "アイスエイジレヘルン",
+    "target_id": 253,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 686,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 685,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 684,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-14"
+  },
+  {
+    "recipe_id": 639,
+    "name": "ケラウノスプラジグ",
+    "target_id": 255,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 705,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 704,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 703,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-14"
+  },
+  {
+    "recipe_id": 640,
+    "name": "ゲリラストームルフト",
+    "target_id": 257,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 733,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 732,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 731,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-14"
+  },
+  {
+    "recipe_id": 641,
+    "name": "自走する鎖鎌",
+    "target_id": 259,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 755,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 754,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 753,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-14"
+  },
+  {
+    "recipe_id": 642,
+    "name": "自立駆動型メテオール",
+    "target_id": 261,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 799,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 798,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 797,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-14"
+  },
+  {
+    "recipe_id": 643,
+    "name": "絡繰：針千本",
+    "target_id": 263,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 824,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 804,
+        "quantity": 5,
+        "type": 5
+      },
+      {
+        "id": 803,
+        "quantity": 5,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-14"
+  },
+  {
     "recipe_id": 644,
     "name": "クリアハートハンド",
     "target_id": 991,
@@ -9161,6 +12034,20 @@
     "materials": [
       {
         "id": 872,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-14"
+  },
+  {
+    "recipe_id": 647,
+    "name": "きずなチョコレート",
+    "target_id": 249,
+    "gift_colors": [1, 2, 3],
+    "materials": [
+      {
+        "id": 871,
         "quantity": 20,
         "type": 5
       }
@@ -9252,6 +12139,20 @@
     "start_at": "2025-02-28"
   },
   {
+    "recipe_id": 658,
+    "name": "沈黙の丸薬",
+    "target_id": 265,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 894,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-02-28"
+  },
+  {
     "recipe_id": 659,
     "name": "花紺青の刀",
     "target_id": 1018,
@@ -9326,6 +12227,34 @@
     "name": "鍛錬のお守り",
     "target_id": 1015,
     "gift_colors": [5, 2, 4],
+    "materials": [
+      {
+        "id": 909,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-03-06"
+  },
+  {
+    "recipe_id": 665,
+    "name": "うに袋ハイパー",
+    "target_id": 267,
+    "gift_colors": [4, 2, 1],
+    "materials": [
+      {
+        "id": 911,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-03-06"
+  },
+  {
+    "recipe_id": 666,
+    "name": "蠱惑の香炉",
+    "target_id": 269,
+    "gift_colors": [3, 4, 1],
     "materials": [
       {
         "id": 909,
@@ -9743,6 +12672,20 @@
     "start_at": "2025-03-31"
   },
   {
+    "recipe_id": 690,
+    "name": "樹林の治療薬",
+    "target_id": 274,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 956,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-03-31"
+  },
+  {
     "recipe_id": 691,
     "name": "黄泉之蟷螂",
     "target_id": 1054,
@@ -9837,6 +12780,20 @@
     "name": "スカーレットスカーフ",
     "target_id": 1067,
     "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 971,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-04-09"
+  },
+  {
+    "recipe_id": 697,
+    "name": "エンハンスフルート",
+    "target_id": 276,
+    "gift_colors": [1, 3, 5],
     "materials": [
       {
         "id": 971,
@@ -9951,6 +12908,20 @@
     "start_at": "2025-04-23"
   },
   {
+    "recipe_id": 706,
+    "name": "ハピレスシャトル",
+    "target_id": 278,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 985,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-04-23"
+  },
+  {
     "recipe_id": 707,
     "name": "アルテミスコンパウンド",
     "target_id": 1080,
@@ -9993,6 +12964,20 @@
     "name": "箱入り娘のローファー",
     "target_id": 1083,
     "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 990,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-04-30"
+  },
+  {
+    "recipe_id": 710,
+    "name": "試作型旋風爆弾",
+    "target_id": 280,
+    "gift_colors": [1, 3, 4],
     "materials": [
       {
         "id": 990,
@@ -10119,6 +13104,20 @@
     "materials": [
       {
         "id": 1006,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-05-12"
+  },
+  {
+    "recipe_id": 718,
+    "name": "コズミック・エナジー",
+    "target_id": 282,
+    "gift_colors": [5, 1, 2],
+    "materials": [
+      {
+        "id": 1005,
         "quantity": 20,
         "type": 5
       }
@@ -10305,6 +13304,20 @@
     "start_at": "2025-05-30"
   },
   {
+    "recipe_id": 730,
+    "name": "リンゴのタルト",
+    "target_id": 284,
+    "gift_colors": [3, 4, 5],
+    "materials": [
+      {
+        "id": 1027,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-05-30"
+  },
+  {
     "recipe_id": 731,
     "name": "フギ＝ムニ",
     "target_id": 1113,
@@ -10446,6 +13459,20 @@
     "start_at": "2025-06-19"
   },
   {
+    "recipe_id": 741,
+    "name": "頭脳明晰の煎薬",
+    "target_id": 286,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 1042,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-06-19"
+  },
+  {
     "recipe_id": 742,
     "name": "漁村の錬金術士の杖",
     "target_id": 1129,
@@ -10559,6 +13586,20 @@
     "start_at": "2025-06-23"
   },
   {
+    "recipe_id": 749,
+    "name": "カースオブプリンセス",
+    "target_id": 288,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 1060,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-06-30"
+  },
+  {
     "recipe_id": 750,
     "name": "ベアーズシューター",
     "target_id": 1140,
@@ -10572,6 +13613,20 @@
       {
         "id": 1068,
         "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-07-11"
+  },
+  {
+    "recipe_id": 751,
+    "name": "ブルーナイトぷにカクテル",
+    "target_id": 290,
+    "gift_colors": [2, 5, 4],
+    "materials": [
+      {
+        "id": 1068,
+        "quantity": 20,
         "type": 5
       }
     ],
@@ -10785,6 +13840,20 @@
     "start_at": "2025-07-31"
   },
   {
+    "recipe_id": 765,
+    "name": "昔懐かし水爆弾",
+    "target_id": 292,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 1091,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-07-31"
+  },
+  {
     "recipe_id": 766,
     "name": "アルバディキティア",
     "target_id": 1163,
@@ -10851,6 +13920,20 @@
     "start_at": "2025-08-15"
   },
   {
+    "recipe_id": 770,
+    "name": "月欠けの闇霧",
+    "target_id": 294,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 1101,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-08-15"
+  },
+  {
     "recipe_id": 771,
     "name": "折型の護符",
     "target_id": 1169,
@@ -10868,6 +13951,34 @@
       }
     ],
     "start_at": "2025-08-22"
+  },
+  {
+    "recipe_id": 772,
+    "name": "性命双修の香",
+    "target_id": 297,
+    "gift_colors": [3, 4, 2],
+    "materials": [
+      {
+        "id": 1124,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-08-29"
+  },
+  {
+    "recipe_id": 773,
+    "name": "トニトルスミレーヌ",
+    "target_id": 299,
+    "gift_colors": [1, 5, 2],
+    "materials": [
+      {
+        "id": 1124,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-08-29"
   },
   {
     "recipe_id": 774,
@@ -11031,6 +14142,20 @@
     "start_at": "2025-09-12"
   },
   {
+    "recipe_id": 783,
+    "name": "英雄降ろしの丸薬",
+    "target_id": 301,
+    "gift_colors": [1, 4, 5],
+    "materials": [
+      {
+        "id": 1141,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-09-12"
+  },
+  {
     "recipe_id": 784,
     "name": "天ヲ断チ切ル刀刃",
     "target_id": 1181,
@@ -11090,6 +14215,34 @@
     "materials": [
       {
         "id": 82,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-09-29"
+  },
+  {
+    "recipe_id": 788,
+    "name": "アマ競技用スイカ",
+    "target_id": 303,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 1160,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-09-29"
+  },
+  {
+    "recipe_id": 789,
+    "name": "ガッツ注入ドリンク",
+    "target_id": 305,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 1160,
         "quantity": 20,
         "type": 5
       }
@@ -11267,6 +14420,20 @@
     "start_at": "2025-11-19"
   },
   {
+    "recipe_id": 800,
+    "name": "モガ・トケール",
+    "target_id": 307,
+    "gift_colors": [4, 3, 1],
+    "materials": [
+      {
+        "id": 1193,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-11-21"
+  },
+  {
     "recipe_id": 801,
     "name": "魔彩ナル傾国ノ瞳",
     "target_id": 1208,
@@ -11277,6 +14444,20 @@
         "quantity": 10,
         "type": 8
       },
+      {
+        "id": 1197,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-11-28"
+  },
+  {
+    "recipe_id": 802,
+    "name": "マテリアルコレクター",
+    "target_id": 309,
+    "gift_colors": [5, 2, 1],
+    "materials": [
       {
         "id": 1197,
         "quantity": 16,
@@ -11331,6 +14512,34 @@
       }
     ],
     "start_at": "2025-11-28"
+  },
+  {
+    "recipe_id": 806,
+    "name": "せいなるおくりもの",
+    "target_id": 311,
+    "gift_colors": [1, 2, 4],
+    "materials": [
+      {
+        "id": 1211,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-12-12"
+  },
+  {
+    "recipe_id": 807,
+    "name": "はじけるおくりもの",
+    "target_id": 313,
+    "gift_colors": [1, 3, 4],
+    "materials": [
+      {
+        "id": 1211,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-12-12"
   },
   {
     "recipe_id": 808,
@@ -11422,6 +14631,20 @@
       {
         "id": 1225,
         "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2025-12-31"
+  },
+  {
+    "recipe_id": 813,
+    "name": "新春の黒箱",
+    "target_id": 315,
+    "gift_colors": [3, 5, 1],
+    "materials": [
+      {
+        "id": 1225,
+        "quantity": 20,
         "type": 5
       }
     ],
@@ -11525,6 +14748,34 @@
     "materials": [
       {
         "id": 328,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-01-16"
+  },
+  {
+    "recipe_id": 820,
+    "name": "デコ魔導書",
+    "target_id": 1004,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 1243,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-01-16"
+  },
+  {
+    "recipe_id": 821,
+    "name": "サンダーフィート",
+    "target_id": 1006,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 1243,
         "quantity": 20,
         "type": 5
       }
@@ -11655,6 +14906,34 @@
     "start_at": "2026-02-09"
   },
   {
+    "recipe_id": 829,
+    "name": "ローゼ・ショコラフラム",
+    "target_id": 1008,
+    "gift_colors": [1, 2, 5],
+    "materials": [
+      {
+        "id": 1273,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-02-09"
+  },
+  {
+    "recipe_id": 830,
+    "name": "まごころビスケ",
+    "target_id": 1010,
+    "gift_colors": [4, 3, 1],
+    "materials": [
+      {
+        "id": 1273,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-02-09"
+  },
+  {
     "recipe_id": 831,
     "name": "新米監察官の警棒",
     "target_id": 1238,
@@ -11706,6 +14985,34 @@
       {
         "id": 1282,
         "quantity": 32,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-02-27"
+  },
+  {
+    "recipe_id": 834,
+    "name": "あやしいアイス",
+    "target_id": 1012,
+    "gift_colors": [2, 3, 4],
+    "materials": [
+      {
+        "id": 1282,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-02-27"
+  },
+  {
+    "recipe_id": 835,
+    "name": "フィッシュレーション",
+    "target_id": 1014,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 1282,
+        "quantity": 16,
         "type": 5
       }
     ],
@@ -11810,6 +15117,34 @@
       {
         "id": 1348,
         "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-03-30"
+  },
+  {
+    "recipe_id": 842,
+    "name": "ホットチリミスト",
+    "target_id": 1016,
+    "gift_colors": [2, 4, 5],
+    "materials": [
+      {
+        "id": 1348,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-03-30"
+  },
+  {
+    "recipe_id": 843,
+    "name": "地球儀",
+    "target_id": 1018,
+    "gift_colors": [1, 3, 5],
+    "materials": [
+      {
+        "id": 1348,
+        "quantity": 20,
         "type": 5
       }
     ],
@@ -11990,6 +15325,34 @@
     "start_at": "2026-04-24"
   },
   {
+    "recipe_id": 855,
+    "name": "プリズムコア",
+    "target_id": 1020,
+    "gift_colors": [2, 3, 5],
+    "materials": [
+      {
+        "id": 1370,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-04-24"
+  },
+  {
+    "recipe_id": 856,
+    "name": "神秘のアンク",
+    "target_id": 1022,
+    "gift_colors": [1, 5, 4],
+    "materials": [
+      {
+        "id": 1370,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-04-24"
+  },
+  {
     "recipe_id": 857,
     "name": "魔彩ナル傾国ノ瞳・凶華",
     "target_id": 1263,
@@ -12007,5 +15370,103 @@
       }
     ],
     "start_at": "2026-05-08"
+  },
+  {
+    "recipe_id": 10037,
+    "name": "カノンボール",
+    "target_id": 2,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1320,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-03-19"
+  },
+  {
+    "recipe_id": 10038,
+    "name": "アルケミットシェル",
+    "target_id": 3,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1321,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-03-19"
+  },
+  {
+    "recipe_id": 10039,
+    "name": "グラナートボム",
+    "target_id": 4,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1322,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-03-19"
+  },
+  {
+    "recipe_id": 10040,
+    "name": "二六一式徹甲弾",
+    "target_id": 5,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1324,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-03-19"
+  },
+  {
+    "recipe_id": 10041,
+    "name": "シュテルンピッツェ",
+    "target_id": 6,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1323,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-03-19"
+  },
+  {
+    "recipe_id": 10042,
+    "name": "ブレイクショット",
+    "target_id": 7,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1325,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-03-19"
+  },
+  {
+    "recipe_id": 10043,
+    "name": "ゼーゲンクーゲル",
+    "target_id": 8,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1383,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-04-24"
   }
 ]

@@ -6,6 +6,9 @@
     <title>Items</title>
     <link href="images/favicon2.ico" rel="icon" />
     <style>
+      /* =========================
+         Base Style
+         ========================= */
       body {
         background: #1f2430;
         color: #fff;
@@ -13,227 +16,34 @@
         margin: 20px;
         overflow-x: auto;
       }
+      button, select, input {
+        font-family: inherit;
+      }
+
+      /* =========================
+         Control Panel (主控台)
+         ========================= */
       .control-panel {
-        width: min(1280px, 100%);
-        margin: 20px auto;
+        width: 1280px;
+        margin: 0 auto 20px;
         padding: 16px 20px;
+        border-radius: 16px;
         background: #4b556f;
-        border-radius: 14px;
         display: flex;
         flex-direction: column;
-        align-items: stretch;
-        gap: 14px;
+        gap: 16px;
         position: sticky;
         top: 0;
         z-index: 100;
+        box-sizing: border-box;
       }
-      #search-input {
-        width: 420px;
-        height: 40px;
-        padding: 0 14px;
-        border: none;
-        border-radius: 8px;
-        background: #2f374a;
-        color: #fff;
-        font-size: 18px;
-      }
-      .filter-group {
+      .top-row, .bottom-row {
         display: flex;
         align-items: center;
-        gap: 8px;
-      }
-      .filter-btn {
-        height: 36px;
-        padding: 0 14px;
-        border: none;
-        border-radius: 8px;
-        background: #69758f;
-        color: #fff;
-        font-size: 16px;
-        cursor: pointer;
-        transition: 0.2s ease;
-      }
-      .filter-btn:hover {
-        background: #8798be;
-        transform: translateY(-1px);
-      }
-      .gift-filter-icon {
-        width: 22px;
-        height: 22px;
-        cursor: pointer;
-      }
-      #language-select {
-        margin-left: auto;
-        height: 38px;
-        padding: 0 10px;
-        border: none;
-        border-radius: 8px;
-        background: #2f374a;
-        color: #fff;
-        font-size: 16px;
-      }
-      #main-list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 12px;
-        min-width: 1280px;
-      }
-      .equip-card {
-        width: min(1280px, 100%);
-        display: flex;
-        gap: 16px;
-        background: #3e4658;
-        border-radius: 12px;
-        padding: 12px;
-      }
-      .equip-left {
-        position: relative;
-        width: 180px;
-        height: 220px;
-        flex-shrink: 0;
-      }
-      .equip-bg {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .equip-image {
-        position: absolute;
-        top: 46%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 120px;
-        height: 120px;
-        object-fit: contain;
-      }
-      .equip-slot-icon {
-        position: absolute;
-        top: 4px;
-        right: 4px;
-        width: 34px;
-        height: 34px;
-      }
-      .equip-name {
-        position: absolute;
-        bottom: 8px;
-        width: 100%;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 700;
-        color: #fff;
-        text-shadow: 0 0 4px #000;
-      }
-      .equip-main {
-        width: 860px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 14px;
-      }
-      .equip-status {
-        display: flex;
-        gap: 18px;
-        font-size: 22px;
-        color: #fff;
-        font-weight: 700;
-      }
-      .equip-effect {
-        font-size: 28px;
-        line-height: 1.5;
-        color: #dfe8ff;
-      }
-      .equip-materials {
-        width: 200px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 8px;
-      }
-      .material-item {
-        position: relative;
-        width: 64px;
-        height: 64px;
-      }
-      .material-image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-      }
-      .material-count {
-        position: absolute;
-        bottom: -6px;
-        right: 0;
-        font-size: 18px;
-        font-weight: 700;
-        color: #fff;
-        text-shadow: 0 0 4px #000;
-      }
-      .material-item {
-        position: relative;
-        width: 72px;
-        height: 72px;
-      }
-      .material-bg {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .material-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 56px;
-        height: 56px;
-        object-fit: contain;
-      }
-      .event-reward {
-        font-size: 20px;
-        color: #ffd36b;
-        font-weight: 700;
-        text-align: right;
-      }
-      .gift-color-icon {
-        width: 24px;
-        height: 24px;
-        object-fit: contain;
-      }
-      .filter-btn.active {
-        background: linear-gradient(180deg, #9db6ff, #7f96d9);
-        color: #fff;
-        box-shadow: 0 0 14px rgba(157, 182, 255, 0.55);
-        transform: translateY(-2px);
-        border: 1px solid rgba(255, 255, 255, 0.35);
-      }
-      .gift-filter-icon.active {
-        transform: scale(1.15);
-        filter: drop-shadow(0 0 6px #fff);
-      }
-      .shard-frame {
-        position: absolute;
-        width: 72px;
-        height: 72px;
-        object-fit: contain;
-      }
-      .shard-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 42px;
-        height: 42px;
-        object-fit: cover;
-        border-radius: 50%;
-      }
-      .top-row {
-        display: flex;
         justify-content: space-between;
-        align-items: center;
         gap: 20px;
       }
-      .left-controls {
+      #dynamic-controls, #dynamic-bottom-controls {
         display: flex;
         align-items: center;
         gap: 12px;
@@ -245,41 +55,219 @@
         gap: 12px;
         margin-left: auto;
       }
-      #equipment-controls,
-      #material-controls {
+      .search-input {
+        width: 420px;
+        height: 40px;
+        padding: 0 14px;
+        border: none;
+        border-radius: 8px;
+        background: #2f374a;
+        color: #fff;
+        font-size: 18px;
+      }
+      .sort-select, #language-select {
+        height: 40px;
+        padding: 0 12px;
+        border: none;
+        border-radius: 8px;
+        background: #2f374a;
+        color: #fff;
+        font-size: 16px;
+      }
+      .filter-group {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 10px;
       }
-      .bottom-row {
+      .filter-btn {
+        height: 38px;
+        padding: 0 16px;
+        border: none;
+        border-radius: 10px;
+        background: #69758f;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: .2s;
+      }
+      .filter-btn:hover { background: #8291b2; }
+      .filter-btn.active {
+        background: linear-gradient(180deg, #9db6ff, #7f96d9);
+        color: #fff;
+        box-shadow: 0 0 14px rgba(157, 182, 255, 0.55);
+        border: 1px solid rgba(255, 255, 255, 0.35);
+      }
+      .gift-filter-icon {
+        width: 32px;
+        height: 32px;
+        object-fit: contain;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+      .gift-filter-icon.active {
+        transform: scale(1.15);
+        filter: drop-shadow(0 0 6px #fff);
+      }
+      .category-tabs { display: flex; gap: 10px; }
+      .category-tab {
+        height: 42px;
+        padding: 0 18px;
+        border: none;
+        border-radius: 10px;
+        background: #69758f;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+      .category-tab.active { background: #9db6ff; }
+      .home-link { width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; }
+      .home-icon { width: 100%; height: 100%; border-radius: 14px; object-fit: contain; }
+
+      /* =========================
+         Layouts (寬度均為 1280px)
+         ========================= */
+      #main-list {
+        width: 1280px;
+        margin: 0 auto;
+      }
+      .list-flex-wrapper {
         display: flex;
+        flex-direction: column;
         align-items: center;
         gap: 12px;
-        flex-wrap: wrap;
-        margin-top: 14px;
+        width: 100%;
       }
-      #equipment-bottom-controls,
-      #material-bottom-controls {
+
+      /* 裝備 & 戰鬥 橫條卡片 */
+      .equip-card {
+        width: 100%;
         display: flex;
-        align-items: center;
-        gap: 12px;
-        flex-wrap: wrap;
+        gap: 16px;
+        background: #3e4658;
+        border-radius: 12px;
+        padding: 12px;
+        position: relative;
+        box-sizing: border-box;
       }
-      #material-bottom-controls,
-      #material-controls {
-        display: none;
+      .equip-left {
+        position: relative;
+        width: 180px;
+        height: 220px;
+        flex-shrink: 0;
+      }
+      .equip-bg { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; }
+      .equip-image {
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+      }
+      .equip-slot-icon { position: absolute; top: 4px; right: 4px; width: 34px; height: 34px; }
+      .equip-name {
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+        color: #fff;
+        text-shadow: 0 0 4px #000;
       }
       .equip-release {
         position: absolute;
-        top: 6px;
-        left: 6px;
+        top: 4px;
+        left: 4px;
         padding: 2px 6px;
         border-radius: 6px;
         background: rgba(0, 0, 0, 0.6);
-        font-size: 13px;
+        font-size: 12px;
         color: #fff;
         font-weight: 700;
+        z-index: 2;
       }
+      .battle-attr-label {
+        position: absolute;
+        bottom: 32px;
+        left: 8px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 12px;
+        color: #ffd36b;
+      }
+      .battle-usage-label {
+        position: absolute;
+        bottom: 32px;
+        right: 8px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 12px;
+        color: #fff;
+      }
+      .equip-main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 10px;
+      }
+      .equip-status { display: flex; gap: 18px; font-size: 20px; color: #fff; font-weight: 700; align-items: center; flex-wrap: wrap; }
+      .equip-effect { font-size: 24px; line-height: 1.4; color: #dfe8ff; }
+      .equip-materials { width: 260px; display: flex; justify-content: flex-end; align-items: center; gap: 8px; flex-shrink: 0; }
+      
+      .material-item { position: relative; width: 72px; height: 72px; cursor: pointer; border-radius: 4px; }
+      .material-bg { position: absolute; width: 100%; height: 100%; object-fit: cover; border-radius: 4px; }
+      .material-image { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 44px; height: 44px; object-fit: contain; z-index: 2;}
+      .material-bg.shard-bg { transform: scale(1.18); z-index: 1; }
+      .material-count { position: absolute; bottom: -4px; right: 2px; font-size: 16px; font-weight: 700; color: #fff; text-shadow: 0 0 4px #000; }
+      .gift-color-group { display: flex; align-items: center; gap: 6px; }
+      .gift-color-icon { width: 24px; height: 24px; object-fit: contain; }
+
+      /* 戰鬥 專用素質面板 */
+      .battle-tool-status { display: flex; gap: 20px; align-items: center; }
+      .battle-status-block { display: flex; align-items: center; gap: 6px; font-size: 20px; font-weight: 700; }
+      .battle-power-icon { width: 34px; height: 34px; }
+
+      /* =========================
+         Material Grid Mode (4行格子)
+         ========================= */
+      .material-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 310px);
+        gap: 13px;
+        width: 100%;
+      }
+      .material-card {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: #3e4658;
+        border-radius: 12px;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 110px;
+      }
+      .material-left { position: relative; width: 80px; height: 90px; flex-shrink: 0; cursor: pointer; }
+      .material-rarity-bg { width: 100%; height: 100%; object-fit: cover; border-radius: 6px; }
+      .material-main-image { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 64px; height: 64px; object-fit: contain; }
+      .material-content { flex: 1; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+      .material-name-row { display: flex; align-items: center; gap: 6px; justify-content: space-between; }
+      .material-name { font-size: 17px; font-weight: 700; cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1; }
+      .material-color-icon { width: 24px; height: 24px; flex-shrink: 0; }
+      .material-traits { display: flex; flex-direction: column; gap: 2px; }
+      .material-trait { font-size: 13px; cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #ffd39b; }
+      .material-trait:hover { text-decoration: underline; }
+
+      /* =========================
+         Modals & Toast
+         ========================= */
       .copy-toast {
         position: fixed;
         left: 50%;
@@ -293,36 +281,9 @@
         font-weight: 700;
         opacity: 0;
         transition: all 0.3s ease;
-        z-index: 300;
-        pointer-events: none;
+        z-index: 1000;
       }
-      .copy-toast.show {
-        opacity: 1;
-        transform: translateX(-50%) translateY(0);
-      }
-      .category-tabs {
-        display: flex;
-        gap: 10px;
-      }
-      .category-tab {
-        height: 40px;
-        padding: 0 18px;
-        border: none;
-        border-radius: 10px;
-        background: #69758f;
-        color: #fff;
-        font-size: 16px;
-        font-weight: 700;
-        cursor: pointer;
-        transition: 0.2s;
-      }
-      .category-tab:hover {
-        background: #8291b2;
-      }
-      .category-tab.active {
-        background: #9db6ff;
-        box-shadow: 0 0 10px rgba(255, 255, 255, 0.25);
-      }
+      .copy-toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
       .usage-modal {
         position: fixed;
         inset: 0;
@@ -330,404 +291,78 @@
         display: none;
         justify-content: center;
         align-items: center;
-        z-index: 400;
+        z-index: 500;
       }
-      .usage-modal.show {
-        display: flex;
-      }
+      .usage-modal.show { display: flex; }
       .usage-modal-content {
-        width: 520px;
-        max-height: 70vh;
+        width: 700px;
+        max-height: 80vh;
         overflow-y: auto;
         background: #3e4658;
         border-radius: 18px;
         padding: 24px;
-        box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
       }
-      .usage-modal-title {
-        font-size: 28px;
-        font-weight: 700;
-        margin-bottom: 18px;
+      .usage-modal-title { font-size: 26px; font-weight: 700; margin-bottom: 18px; border-bottom: 2px solid #525f7a; padding-bottom: 8px; }
+      
+      .trait-description-box {
+        background: #232a3b;
+        border-left: 4px solid #9db6ff;
+        padding: 12px 16px;
+        border-radius: 6px;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #e2e8f0;
+        margin-bottom: 20px;
       }
+
       .usage-item {
         display: flex;
         align-items: center;
-        flex-direction: column;
-        gap: 14px;
-        justify-content: center;
-        padding: 10px;
-        border-radius: 12px;
+        gap: 16px;
+        padding: 12px;
+        border-radius: 10px;
+        background: #2f374a;
+        margin-bottom: 10px;
         cursor: pointer;
-        transition: 0.2s;
       }
-      .usage-item:hover {
-        background: rgba(255, 255, 255, 0.08);
-      }
-      .usage-item img {
-        width: 64px;
-        height: 64px;
-        object-fit: contain;
-      }
-      .usage-item-name {
-        font-size: 24px;
-        font-weight: 700;
-        line-height: 1.3;
-        text-align: center;
-      }
+      .usage-item img { width: 50px; height: 50px; object-fit: contain; }
+      .usage-item-name { font-size: 18px; font-weight: 700; }
       .usage-close-btn {
-        margin-top: 20px;
+        margin-top: 16px;
         width: 100%;
         height: 44px;
         border: none;
         border-radius: 10px;
         background: #7487b8;
         color: #fff;
-        font-size: 18px;
-        font-weight: 700;
-        cursor: pointer;
-      }
-      .equip-highlight {
-        animation: equipFlash 1.8s ease;
-      }
-      @keyframes equipFlash {
-        0% {
-          box-shadow: 0 0 0 rgba(255, 255, 255, 0);
-        }
-        30% {
-          box-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
-        }
-        100% {
-          box-shadow: 0 0 0 rgba(255, 255, 255, 0);
-        }
-      }
-      .home-link {
-        margin-left: auto;
-        height: 38px;
-        padding: 0 16px;
-        border-radius: 8px;
-        background: #2f374a;
-        color: #fff;
         font-size: 16px;
         font-weight: 700;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: 0.2s;
-      }
-      .home-link:hover {
-        background: #44506a;
-      }
-      .home-link {
-        margin-left: auto;
-        width: 52px;
-        height: 52px;
-        border-radius: 14px;
-        background: 0 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: 0.2s;
-      }
-      .home-link:hover {
-        transform: scale(1.08);
-      }
-      .home-icon {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        border-radius: 14px;
-      }
-      .gift-color-group {
-        width: 110px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        flex-shrink: 0;
-      }
-      .gift-color-group.empty {
-        opacity: 0;
-      }
-      .patch-modal {
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.7);
-        display: none;
-        justify-content: center;
-        align-items: center;
-        z-index: 600;
-      }
-      .patch-modal.show {
-        display: flex;
-      }
-      .patch-modal-content {
-        width: 520px;
-        background: #3e4658;
-        border-radius: 18px;
-        padding: 30px;
-        text-align: Left;
-        box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
-      }
-      .patch-title {
-        font-size: 34px;
-        font-weight: 700;
-        color: #9db6ff;
-      }
-      .patch-subtitle {
-        margin-top: 8px;
-        font-size: 24px;
-        font-weight: 700;
-      }
-      .patch-body {
-        margin-top: 24px;
-        line-height: 1.8;
-        font-size: 18px;
-      }
-      .patch-close-btn {
-        margin-top: 28px;
-        width: 100%;
-        height: 46px;
-        border: none;
-        border-radius: 12px;
-        background: #7487b8;
-        color: #fff;
-        font-size: 18px;
-        font-weight: 700;
         cursor: pointer;
       }
-      .material-grid {
-        width: min(1280px, 100%);
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
-        gap: 12px;
-        margin: 0 auto;
+      .equip-highlight { animation: equipFlash 1.5s ease; }
+      @keyframes equipFlash {
+        0% { box-shadow: 0 0 0 rgba(255, 255, 255, 0); }
+        30% { box-shadow: 0 0 25px rgba(255, 255, 255, 0.8); }
+        100% { box-shadow: 0 0 0 rgba(255, 255, 255, 0); }
       }
-      .material-card {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        background: #3e4658;
-        border-radius: 12px;
-        padding: 10px 14px;
-        min-height: 96px;
-      }
-      .material-left {
-        position: relative;
-        width: 72px;
-        height: 72px;
-        flex-shrink: 0;
-        cursor: pointer;
-      }
-      .material-rarity-bg {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .material-main-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 56px;
-        height: 56px;
-        object-fit: contain;
-      }
-      .material-content {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-        min-width: 0;
-      }
-      .material-name {
-        font-size: 18px;
-        font-weight: 700;
-        cursor: pointer;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-      .material-traits {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-      }
-      .material-trait {
-        font-size: 15px;
-        color: #dfe8ff;
-        cursor: pointer;
-        transition: 0.15s;
-      }
-      .material-trait:hover {
-        color: #fff;
-        transform: translateX(2px);
-      }
-      .material-grid {
-        width: min(1280px, 100%);
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap: 12px;
-      }
-      .material-card {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        background: #3e4658;
-        border-radius: 12px;
-        padding: 10px 14px;
-        min-height: 84px;
-      }
-      .material-left {
-        position: relative;
-        width: 60px;
-        height: 60px;
-        flex-shrink: 0;
-        cursor: pointer;
-      }
-      .material-rarity-bg {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-      .material-main-image {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 48px;
-        height: 48px;
-        object-fit: contain;
-      }
-      .material-content {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-        min-width: 0;
-      }
-      .material-name {
-        font-size: 18px;
-        font-weight: 700;
-        cursor: pointer;
-      }
-      .material-name:hover {
-        opacity: 0.85;
-      }
-      .material-traits {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-      }
-      .material-trait {
-        font-size: 15px;
-        color: #c8d3ea;
-        cursor: pointer;
-      }
-      .material-trait {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
-      .material-trait.equipment {
-        color: #c8dcff;
-      }
-      .material-trait.battle {
-        color: #ffd39b;
-      }
-      .active {
-        background: #6ea8ff;
-        color: #fff;
-      }
-      .active-color {
-        transform: scale(1.15);
-        filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
-      }
-      .material-name-row {
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
-      .material-color-icon {
-        width: 24px;
-        height: 24px;
-        transform: translateY(2px);
-      }
+      .type-icon-btn { width: 42px; height: 42px; padding: 0; background: transparent; border: none; box-shadow: none; display: flex; align-items: center; justify-content: center; }
+      .type-icon-btn img { width: 48px; height: 48px; object-fit: contain; }
     </style>
   </head>
   <body>
+
     <div class="control-panel">
       <div class="top-row">
-        <div class="left-controls">
-          <div id="equipment-controls">
-            <input id="search-input" placeholder="Search..." type="text" />
-            <select id="filter-select">
-              <option value="desc" data-i18n="new_old">New → Old</option>
-              <option value="asc" data-i18n="old_new">Old → New</option>
-              <option value="hp" data-i18n="hp">HP</option>
-              <option value="speed" data-i18n="speed">Speed</option>
-              <option value="physical_attack" data-i18n="physical_attack">P.ATK</option>
-              <option value="magic_attack" data-i18n="magic_attack">M.ATK</option>
-              <option value="physical_defense" data-i18n="physical_defense">P.DEF</option>
-              <option value="magic_defense" data-i18n="magic_defense">M.DEF</option>
-            </select>
-          </div>
-          <div id="material-controls">
-            <button
-              class="filter-btn" data-i18n="normal_material"
-              onclick="
-                if (materialMode === 'normal') {
-                  materialMode = null;
-                } else {
-                  materialMode = 'normal';
-                }
-                loadMaterial();
-              "
-            >
-              一般素材
-            </button>
-            <button
-              class="filter-btn" data-i18n="canon_material"
-              onclick="
-                if (materialMode === 'canon') {
-                  materialMode = null;
-                } else {
-                  materialMode = 'canon';
-                }
-                loadMaterial();
-              "
-            >
-              工房砲素材
-            </button>
-            <select id="material-sort-select">
-              <option value="desc" data-i18n="new_old">New → Old</option>
-              <option value="asc" data-i18n="old_new">Old → New</option>
-              <option value="red" data-i18n="red_first">Red First</option>
-              <option value="blue" data-i18n="blue_first">Blue First</option>
-              <option value="green" data-i18n="green_first">Green First</option>
-              <option value="yellow" data-i18n="yellow_first">Yellow First</option>
-              <option value="purple" data-i18n="purple_first">Purple First</option>
-            </select>
-          </div>
-        </div>
+        <div id="dynamic-controls"></div>
         <div class="right-controls">
           <div class="category-tabs">
-            <button class="category-tab active" data-category="equipment">
-              <span data-i18n="equipment"> 裝備 </span>
-            </button>
-            <button class="category-tab" data-category="battle_item">
-              <span data-i18n="battle_item"> 戰鬥道具 </span>
-            </button>
-            <button class="category-tab" data-category="material">
-              <span data-i18n="material"> 素材 </span>
-            </button>
+            <button class="category-tab active" data-category="equipment">裝備</button>
+            <button class="category-tab" data-category="battle_item">戰鬥 </button>
+            <button class="category-tab" data-category="material">素材</button>
           </div>
           <a class="home-link" href="index.html">
-            <img
-              alt="角色/回憶持有一覽"
-              class="home-icon"
-              src="images/ui/home.webp"
-            />
+            <img class="home-icon" src="images/ui/home.webp" alt="Home" />
           </a>
           <select id="language-select">
             <option value="zh">zh-TW</option>
@@ -737,938 +372,735 @@
         </div>
       </div>
       <div class="bottom-row">
-        <div id="equipment-bottom-controls">
-          <div class="filter-group">
-            <button class="filter-btn" data-rarity="UR">UR</button>
-            <button class="filter-btn" data-rarity="SSR">SSR</button>
-            <button class="filter-btn" data-rarity="SR">SR</button>
-            <button class="filter-btn" data-rarity="R">R</button>
-          </div>
-          <div class="filter-group">
-            <button class="filter-btn" data-type="Weapon">
-              <span data-i18n="weapon"> Weapon </span>
-            </button>
-            <button class="filter-btn" data-type="Armor">
-              <span data-i18n="armor"> Armor </span>
-            </button>
-            <button class="filter-btn" data-type="Accessory">
-              <span data-i18n="accessory"> Accessory </span>
-            </button>
-          </div>
-          <div class="filter-group" data-type-group="">
-            <img alt="" class="gift-filter-icon" data-color="1" src="images/ui/blue.png"/>
-            <img alt="" class="gift-filter-icon" data-color="2" src="images/ui/purple.png"/>
-            <img alt="" class="gift-filter-icon" data-color="3" src="images/ui/yellow.png"/>
-            <img alt="" class="gift-filter-icon" data-color="4" src="images/ui/red.png"/>
-            <img alt="" class="gift-filter-icon" data-color="5" src="images/ui/green.png" />
-          </div>
-        </div>
-        <div id="material-bottom-controls">
-          <div class="filter-group">
-            <button class="filter-btn" data-rarity="SSR">SSR</button>
-            <button class="filter-btn" data-rarity="SR">SR</button>
-            <button class="filter-btn" data-rarity="R">R</button>
-          </div>
-          <div class="filter-group">
-            <img alt="" class="gift-filter-icon" data-color="1" src="images/ui/blue.png"/>
-            <img alt="" class="gift-filter-icon" data-color="2" src="images/ui/purple.png"/>
-            <img alt="" class="gift-filter-icon" data-color="3" src="images/ui/yellow.png"/>
-            <img alt="" class="gift-filter-icon" data-color="4" src="images/ui/red.png"/>
-            <img alt="" class="gift-filter-icon" data-color="5" src="images/ui/green.png" />
-          </div>        </div>
+        <div id="dynamic-bottom-controls"></div>
       </div>
     </div>
+
     <div id="main-list"></div>
-<div id="trait-modal" class="usage-modal" onclick="closeTraitModal()">
-  <div class="usage-modal-content">
-    <div id="trait-modal-title" class="usage-modal-title" ></div>
-    <div id="trait-material-list"></div>
-    <button class="usage-close-btn" onclick="closeTraitModal()">
-      <span data-i18n="close">關閉</span>
-    </button>
-  </div>
-</div>
-    <div class="usage-modal" id="usage-modal" onclick="closeUsageModal()">
-      <div class="usage-modal-content" onclick="event.stopPropagation()">
-        <div class="usage-modal-title">
-          <span data-i18n="usein"> Used In </span>
-        </div>
+
+    <div class="usage-modal" id="usage-modal">
+      <div class="usage-modal-content">
+        <div class="usage-modal-title" id="usage-modal-title">可製作的配方列表</div>
         <div id="usage-list"></div>
-        <button class="usage-close-btn" onclick="closeUsageModal()">
-          <span data-i18n="close"> Close </span>
-        </button>
+        <button class="usage-close-btn" onclick="closeUsageModal()">關閉</button>
       </div>
     </div>
-    <div class="patch-modal" id="patch-modal">
-      <div class="patch-modal-content">
-        <div class="patch-title">v1.05 - 追加素材頁面</div>
-        <div class="patch-body">
-          新增：
-          <br />
-          ・素材一覽
-          <br />
-          ・點擊名稱複製素材日文名
-          <br />
-          ・點擊圖片會顯示目前支援配方
-          <br />
-          ・點擊特性可以開啟特性篩選其他素材
-          <br />
-          <span style="color: #ffb84d; font-weight: 800">
-            戰鬥道具尚未製作，僅先顯示按鈕
-          </span>
-        </div>
-        <button class="patch-close-btn" onclick="closePatchModal()">
-          Enter Database
-        </button>
+
+    <div class="usage-modal" id="trait-modal">
+      <div class="usage-modal-content" style="width: 1330px;">
+        <div class="usage-modal-title" id="trait-modal-title">具備此特性的素材</div>
+        <div class="trait-description-box" id="trait-modal-desc"></div>
+        <div id="trait-usage-list"></div>
+        <button class="usage-close-btn" onclick="closeTraitModal()">關閉</button>
       </div>
     </div>
+
     <script>
-      let EQUIP_SOURCE = {
-        838: "buyshop",
-        839: "buyshop",
-        840: "buyshop",
-      };
-
-      let TEXTS = {
-        zh: {
-          event: "活動獎勵",
-          buyshop: "商城購買",
-          mission: "任務獎勵",
-          materials: "素材",
-          weapon: "武器",
-          armor: "防具",
-          accessory: "裝飾品",
-          hp: "HP",
-          speed: "速度",
-          physical_attack: "物攻",
-          magic_attack: "魔攻",
-          physical_defense: "物防",
-          magic_defense: "魔防",
-          no_ability: "無追加效果",
-          copied: "已複製",
-          material: "素材",
-          battle_item: "戰鬥道具",
-          equipment: "裝備",
-          usein: "使用此素材的裝備",
-          close: "關閉",
-          trait_materials: "持有此特性的素材",
-	  new_old: '新 → 舊',
-	  old_new: '舊 → 新',
-	  red_first: '紅優先',
-	  blue_first: '藍優先',
-	  green_first: '綠優先',
-	  yellow_first: '黃優先',
-	  purple_first: '紫優先',
-	  normal_material: '一般素材',
-	  canon_material: '工房砲素材'
-	  
-        },
-        ja: {
-          event: "イベント報酬",
-          buyshop: "ショップ購入",
-          mission: "任務報酬",
-          materials: "素材",
-          weapon: "武器",
-          armor: "防具",
-          accessory: "装飾",
-          hp: "HP",
-          speed: "素早さ",
-          physical_attack: "物攻",
-          magic_attack: "魔攻",
-          physical_defense: "物防",
-          magic_defense: "魔防",
-          no_ability: "追加効果なし",
-          copied: "コピーしました",
-          material: "素材",
-          battle_item: "戦闘アイテム",
-          equipment: "装備",
-          usein: "用途",
-          close: "閉じる",
-          trait_materials: "この特性を持つ素材",
-	  new_old: '新 → 古',
-	  old_new: '古 → 新',
-	  red_first: '赤優先',
-	  blue_first: '青優先',
-	  green_first: '緑優先',
-	  yellow_first: '黄優先',
-	  purple_first: '紫優先',
-	  normal_material: '通常素材',
-	  canon_material: 'アトリエ砲'
-        },
-        en: {
-          event: "Event Reward",
-          buyshop: "Shop",
-          mission: "Mission Reward",
-          materials: "Materials",
-          weapon: "Weapon",
-          armor: "Armor",
-          accessory: "Accessory",
-          hp: "HP",
-          speed: "SPD",
-          physical_attack: "P.ATK",
-          magic_attack: "M.ATK",
-          physical_defense: "P.DEF",
-          magic_defense: "M.DEF",
-          no_ability: "No Additional Effect",
-          copied: "Copied",
-          material: "Material",
-          battle_item: "Battle Item",
-          equipment: "Equipment",
-          usein: "Use In",
-          close: "Close",
-          trait_materials: "Materials With This Trait",
-	  new_old: 'New → Old',
-	  old_new: 'Old → New',
-	  red_first: 'Red First',
-	  blue_first: 'Blue First',
-	  green_first: 'Green First',
-	  yellow_first: 'Yellow First',
-	  purple_first: 'Purple First',
-	  normal_material: 'Normal',
-	  canon_material: 'Atelier Cannon'
-        },
-      };
-
-      let colorPriorityMap = {
-        1: [1, 2, 3, 4, 5],
-        2: [2, 3, 4, 5, 1],
-        3: [3, 4, 5, 1, 2],
-        4: [4, 5, 1, 2, 3],
-        5: [5, 1, 2, 3, 4],
-      };
-
-      let AtelierCanon = new Set([
-        1320, 1321, 1322, 1323, 1324, 1325, 1326, 1327, 1328, 1329, 1330,
-        1331, 1332, 1333, 1334, 1335, 1336, 1337,
-      ]);
-
+      /* ==========================================
+         全域變數與狀態
+         ========================================== */
+      let currentCategory = 'equipment';
+      let currentSearch = "";
+      let currentSort = "desc";
       let currentRarity = null;
       let currentType = null;
       let currentGiftColor = null;
-      let selectedTrait = null;
+      let currentLang = "zh";
+
       let selectedMaterialRarity = null;
       let selectedMaterialColor = null;
-      let selectedPriority = null;
-      let materialMode = null;
-      let currentSearch = "";
-      let currentLang = "zh";
-      let currentSort = "desc";
+
+      // 💡 在此處設定「活動取得」與「商城販售」的裝備 ID 清單
+      const EVENT_EQUIP_IDS = [766, 767, 780, 793, 812, 813, 853, 854, 879, 880, 947, 978, 1010, 1194, 1195, 1196, 1197, 1198, 1199, 1200, 1201]; // 活動裝備 ID
+      const SHOP_EQUIP_IDS = [838, 839, 840];  // 商城新手裝ID
+
+      // 工房砲素材 ID 手動管理大清單
+      const ATELIER_CANNON_IDS = [...Array.from({ length: 1337 - 1320 + 1 }, (_, i) => 1320 + i), 1383, 1384];
+
+      const colorPriorityMap = {
+        1: [1, 2, 3, 4, 5], 2: [2, 3, 4, 5, 1], 3: [3, 4, 5, 1, 2], 4: [4, 5, 1, 2, 3], 5: [5, 1, 2, 3, 4]
+      };
+
+      // 核心資料庫
       let equipmentData = [];
-      let materialUsageMap = {};
-      let equipmentTraitMap = {};
-      let battleTraitMap = {};
-      let currentCategory = "equipment";
-      let PATCH_VERSION = "1.05";
+      let battleToolData = [];
+      let itemData = [];
+      let recipeMasterData = [];
+      let traitMasterData = { battle_tool_traits: {}, equipment_tool_traits: {} };
+      
+      let itemUsageMap = {}; 
 
-      async function init() {
-        let traitResponse = await fetch("trait_master.json");
-        let traitData = await traitResponse.json();
-        
-        Object.entries(traitData.equipment_tool_traits).forEach(([key, val]) => {
-          equipmentTraitMap[key] = val;
-        });
-        Object.entries(traitData.battle_tool_traits).forEach(([key, val]) => {
-          battleTraitMap[key] = val;
-        });
+      /* ==========================================
+         語系轉換對應 (中文:zh, 英文:en, 日文:jp)
+         ========================================== */
+      function getLangKey(lang) {
+        if (lang === 'zh') return 'zh';
+        if (lang === 'ja') return 'jp'; 
+        if (lang === 'en') return 'en';
+        return 'zh';
+      }
 
-        let itemResponse = await fetch("data/item.json");
-        let itemData = await itemResponse.json();
-        
-        let recipeResponse = await fetch("data/recipe_master.json");
-        let recipeData = await recipeResponse.json();
+      /* ==========================================
+         🧱 素材背景圖核心判定
+         ========================================== */
+      function getMaterialBgPath(item) {
+        if (item && item.type === 8) {
+          return "images/ui/shard_frame.webp";
+        }
+        const rarity = (item ? item.rarity : 'R').toLowerCase();
+        return `images/ui/${rarity}.webp`;
+      }
 
-        let itemMap = {};
-        itemData.forEach((item) => {
-          itemMap[item.id] = item;
-        });
-        
-        let recipeMap = {};
+      /* ==========================================
+         主控台配置 (CATEGORY_CONFIG)
+         ========================================== */
+      const CATEGORY_CONFIG = {
+        equipment: {
+          search: true,
+          sortOptions: [
+            { value: 'desc', labelKey: 'new_old' }, { value: 'asc', labelKey: 'old_new' },
+            { value: 'hp', labelKey: 'hp' }, { value: 'speed', labelKey: 'speed' },
+            { value: 'physical_attack', labelKey: 'physical_attack' }, { value: 'magic_attack', labelKey: 'magic_attack' },
+            { value: 'physical_defense', labelKey: 'physical_defense' }, { value: 'magic_defense', labelKey: 'magic_defense' }
+          ],
+          rarity: ['UR', 'SSR', 'SR', 'R'],
+          types: [{ value: 'Weapon', labelKey: 'weapon' }, { value: 'Armor', labelKey: 'armor' }, { value: 'Accessory', labelKey: 'accessory' }],
+          useColors: true
+        },
+        battle_item: {
+          search: true,
+          sortOptions: [
+            { value: 'desc', labelKey: 'new_old' }, 
+            { value: 'asc', labelKey: 'old_new' },
+            { value: 'type_1', labelKey: 'attack_first' },
+            { value: 'type_2', labelKey: 'buff_first' },
+            { value: 'type_3', labelKey: 'debuff_first' },
+            { value: 'type_4', labelKey: 'heal_first' }
+          ],
+          rarity: ['SSR', 'SR', 'R'],
+          types: [{ value: 1, icon: 'attack.webp' }, { value: 2, icon: 'buff.webp' }, { value: 3, icon: 'debuff.webp' }, { value: 4, icon: 'heal.webp' }],
+          useColors: true
+        },
+        material: {
+          search: false,
+          sortOptions: [
+            { value: 'desc', labelKey: 'new_old' }, { value: 'asc', labelKey: 'old_new' },
+            { value: 'red', labelKey: 'red_first' }, { value: 'blue', labelKey: 'blue_first' },
+            { value: 'green', labelKey: 'green_first' }, { value: 'yellow', labelKey: 'yellow_first' },
+            { value: 'purple', labelKey: 'purple_first' }
+          ],
+          rarity: ['SSR', 'SR', 'R'],
+          types: [],
+          useColors: true
+        }
+      };
 
-        async function loadEquipment() {
-          let equipResponse = await fetch("data/equipment.json");
-          let equipDataList = await equipResponse.json();
-          equipmentData = equipDataList;
-          
-          let mainListEl = document.getElementById("main-list");
-          
-          equipDataList.sort((a, b) => {
-            if (currentSort === "desc") {
-              return b.id - a.id;
-            }
-            if (currentSort === "asc") {
-              return a.id - b.id;
-            }
+      /* ==========================================
+         萬用渲染配置核心 (RENDER_CONFIG)
+         ========================================== */
+      const RENDER_CONFIG = {
+        equipment: {
+          layoutMode: 'flex',
+          getLeftPart: (item) => {
+            const slotMap = { Weapon: "weapon.webp", Armor: "armor.webp", Accessory: "accessory.webp" };
+            const slotIconHtml = item.slot_type ? `<img src="images/ui/${slotMap[item.slot_type]}" class="equip-slot-icon">` : '';
             
-            function getStatusValue(item, sortType) {
-              let typeMap = {
-                hp: "HP",
-                speed: "Speed",
-                physical_attack: "Physical Attack",
-                magic_attack: "Magic Attack",
-                physical_defense: "Physical Defense",
-                magic_defense: "Magic Defense",
-              };
-              let mappedType = typeMap[sortType];
-              let statusObj = item.status.find((s) => s.type === mappedType);
-              return statusObj ? statusObj.value : 0;
-            }
-            
-            return getStatusValue(b, currentSort) - getStatusValue(a, currentSort);
-          });
-
-          let filteredEquip = equipDataList;
-          if (currentRarity) {
-            filteredEquip = filteredEquip.filter((e) => e.rarity === currentRarity);
-          }
-          if (currentType) {
-            filteredEquip = filteredEquip.filter((e) => e.slot_type === currentType);
-          }
-          if (currentGiftColor) {
-            filteredEquip = filteredEquip.filter((e) => {
-              let recipe = recipeMap[e.id];
-              return recipe && recipe.gift_colors && recipe.gift_colors.includes(currentGiftColor);
-            });
-          }
-          if (currentSearch) {
-            filteredEquip = filteredEquip.filter((e) => e.name.toLowerCase().includes(currentSearch));
-          }
-
-          mainListEl.innerHTML = filteredEquip.map((equip) => {
-            let recipe = recipeMap[equip.id];
-            
-            let slotIconSrc = "";
-            switch (equip.slot_type) {
-              case "Weapon":
-                slotIconSrc = "images/ui/weapon.webp";
-                break;
-              case "Armor":
-                slotIconSrc = "images/ui/armor.webp";
-                break;
-              case "Accessory":
-                slotIconSrc = "images/ui/accessory.webp";
-                break;
-            }
-
-            let giftColorsHtml = '<div class="gift-color-group empty"></div>';
-            if (recipe && recipe.gift_colors) {
-              let icons = recipe.gift_colors.map((color) => `
-                <img src="${getGiftColorIcon(color)}" class="gift-color-icon">
-              `).join("");
-              giftColorsHtml = `<div class="gift-color-group">${icons}</div>`;
-            }
-
-            let statusHtml = equip.status.map((stat) => `
-              <div>${getStatusText(stat.type)} +${stat.value}</div>
-            `).join("");
-
-            let materialsHtml = "";
-            if (recipe) {
-              materialsHtml = recipe.materials.map((mat) => {
-                if (mat.type === 8) {
-                  return `
-                    <div class="material-item" data-material-id="${mat.id}">
-                      <img src="images/ui/shard_frame.webp" class="shard-frame">
-                      <img src="images/ingredient/${mat.id}.webp" class="shard-image">
-                      <div class="material-count">x${mat.quantity}</div>
-                    </div>
-                  `;
-                } else {
-                  let matchedItem = itemMap[mat.id];
-                  if (matchedItem) {
-                    return `
-                      <div class="material-item" data-material-id="${mat.id}">
-                        <img src="${getRarityBg(matchedItem.rarity)}" class="material-bg">
-                        <img src="${matchedItem.image?.trim()}" class="material-image">
-                        <div class="material-count">x${mat.quantity}</div>
-                      </div>
-                    `;
-                  }
-                  return "";
-                }
-              }).join("");
-            } else {
-              let sourceKey = EQUIP_SOURCE[equip.id] || "event";
-              materialsHtml = `<div class="event-reward">${t(sourceKey)}</div>`;
-            }
-
-            let abilityText = equip.ability === "None" ? t("no_ability") : equip.ability;
+            const rcp = recipeMasterData.find(r => r.name === item.name || r.target_id === item.id);
+            const dateHtml = rcp && rcp.start_at ? `<div class="equip-release">${rcp.start_at.split(' ')[0]}</div>` : '';
+            const bgPath = `images/ui/${(item.rarity || 'r').toLowerCase()}.webp`;
 
             return `
-              <div class="equip-card" id="equip-${equip.id}">
-                <div class="equip-left" onclick="copyText('${equip.name}')">
-                  <img src="${getRarityBg(equip.rarity)}" class="equip-bg">
-                  <img src="${equip.image?.trim()}" class="equip-image">
-                  <img src="${slotIconSrc}" class="equip-slot-icon">
-                  <div class="equip-release">${recipe ? recipe.start_at : ""}</div>
-                  <div class="equip-name">${equip.name}</div>
+              ${dateHtml}
+              <div class="equip-left" onclick="copyText('${item.name}')" style="cursor:pointer;">
+                <img src="${bgPath}" class="equip-bg">
+                <img src="${item.image?.trim()}" class="equip-image" loading="lazy">
+                ${slotIconHtml}
+                <div class="equip-name">${item.name}</div>
+              </div>
+            `;
+          },
+          renderMain: (item) => {
+            let statusHtml = item.status.map(s => `<span>${getStatusText(s.type)} +${s.value}</span>`).join("");
+            const rcp = recipeMasterData.find(r => r.name === item.name);
+            if (rcp && rcp.gift_colors) {
+              statusHtml += `<div class="gift-color-group" style="margin-left:auto;">
+                ${rcp.gift_colors.map(cId => `<img class="gift-color-icon" src="${getColorIcon(cId)}">`).join("")}
+              </div>`;
+            }
+	    const abilityText = item.ability || t("no_ability");
+            return `
+              <div class="equip-status">${statusHtml}</div>
+              <div class="equip-effect">${item.ability || t("no_ability")}</div>
+            `;
+          },
+          renderRight: (item) => {
+            // 💡 核心修改：判斷入手管道並在素材區域顯示對應文字
+            if (EVENT_EQUIP_IDS.includes(Number(item.id))) {
+              return `<div style="font-size: 22px; font-weight: bold; color: #ffb84d; width: 260px; text-align: right; padding-right: 12px; letter-spacing: 1px;">${t('event_obtain')}</div>`;
+            }
+            if (SHOP_EQUIP_IDS.includes(Number(item.id))) {
+              return `<div style="font-size: 22px; font-weight: bold; color: #4da6ff; width: 260px; text-align: right; padding-right: 12px; letter-spacing: 1px;">${t('shop_obtain')}</div>`;
+            }
+
+            // 若不是活動或商城裝，則照舊顯示製作素材小框
+            const rcp = recipeMasterData.find(r => r.name === item.name);
+            if (!rcp || !rcp.materials) return '';
+            return rcp.materials.map(mat => {
+              const targetMat = itemData.find(i => i.id === mat.id);
+              const matBgPath = mat.type === 8 ? "images/ui/shard_frame.webp" : getMaterialBgPath(targetMat);
+              
+              let imgPath = targetMat ? targetMat.image?.trim() : '';
+              if (mat.type === 8) {
+                imgPath = `images/ingredient/${mat.id}.webp`;
+              }
+
+              return `
+                <div class="material-item" onclick="showMaterialUsage(${mat.id})">
+                  <img src="${matBgPath}" class="material-bg ${mat.type === 8 ? 'shard-bg' : ''}">
+                  <img src="${imgPath}" class="material-image">
+                  <div class="material-count">${mat.quantity}</div>
                 </div>
-                <div class="equip-main">
-                  <div class="equip-status">
-                    ${giftColorsHtml}
-                    ${statusHtml}
+              `;
+            }).join("");
+          }
+        },
+
+        battle_item: {
+          layoutMode: 'flex',
+          getLeftPart: (item) => {
+            const filterTypeMap = { 1: "attack.webp", 2: "buff.webp", 3: "debuff.webp", 4: "heal.webp" };
+            const typeId = Number(item.trait_filter_ids);
+            let typeIconHtml = '';
+
+            if (typeId >= 1 && typeId <= 4 && filterTypeMap[typeId]) {
+              typeIconHtml = `<img src="images/ui/${filterTypeMap[typeId]}" class="equip-slot-icon" style="position: absolute; top: 6px; right: 6px; width: 32px; height: 32px; object-fit: contain;">`;
+            }
+
+            const attrImgMap = {
+              1: "s.42817b.png",  // 斬
+              2: "k.3148cc.png",  // 打
+              3: "t.ac73b3.png",  // 突
+              5: "f.1dbf47.png",  // 火
+              6: "i.b647e3.png",  // 冰
+              7: "l.119818.png",  // 雷
+              8: "w.d06628.png"   // 風
+            };
+
+            let attrHtml = '';
+            if (item.attack_attributes !== null && typeof item.attack_attributes === 'number' && attrImgMap[item.attack_attributes]) {
+              attrHtml = `<img src="images/attr/${attrImgMap[item.attack_attributes]}" class="battle-attr-label" style="background:transparent; width:32px; height:32px; object-fit:contain;">`;
+            }
+
+            const rarityMap = { 1: "r", 2: "sr", 3: "ssr" };
+            const bgPath = `images/ui/${rarityMap[item.rarity] || 'r'}.webp`;
+
+            return `
+              <div class="equip-left" onclick="copyText('${item.name}')" style="cursor:pointer; position: relative;">
+                <img src="${bgPath}" class="equip-bg">
+                <img src="${item.image?.trim()}" class="equip-image" loading="lazy">
+                ${typeIconHtml}
+                ${attrHtml}
+                <div class="battle-usage-label">${item.usage_count}</div>
+                <div class="equip-name">${item.name}</div>
+              </div>
+            `;
+          },
+          renderMain: (item) => {
+            const rValues = { 1: '-', 2: '-', 3: '-' };
+            if (item.power !== null && item.power !== undefined) {
+              (item.power_types || []).forEach((pType, idx) => {
+                const hasPercent = item.show_percent?.[idx] === 1;
+                rValues[pType] = hasPercent ? `+${item.power}%` : `+${item.power}`;
+              });
+            }
+
+            let statusHtml = `
+              <div class="battle-tool-status">
+                <div class="battle-status-block"><img class="battle-power-icon" src="images/ui/power2.png"><span>${rValues[1]}</span></div>
+                <div class="battle-status-block"><img class="battle-power-icon" src="images/ui/bpower2.png"><span>${rValues[2]}</span></div>
+                <div class="battle-status-block"><img class="battle-power-icon" src="images/ui/heal2.png"><span>${rValues[3]}</span></div>
+              </div>
+            `;
+
+            const rcp = recipeMasterData.find(r => r.name === item.name);
+            if (rcp && rcp.gift_colors) {
+              statusHtml += `<div class="gift-color-group" style="margin-left:auto;">
+                ${rcp.gift_colors.map(cId => `<img class="gift-color-icon" src="${getColorIcon(cId)}">`).join("")}
+              </div>`;
+            }
+
+            return `
+              <div class="equip-status">${statusHtml}</div>
+              <div class="equip-effect">${item.effect || ''}</div>
+            `;
+          },
+          renderRight: (item) => {
+            const rcp = recipeMasterData.find(r => r.name === item.name);
+            if (!rcp || !rcp.materials) return '';
+            return rcp.materials.map(mat => {
+              const targetMat = itemData.find(i => i.id === mat.id);
+              const matBgPath = mat.type === 8 ? "images/ui/shard_frame.webp" : getMaterialBgPath(targetMat);
+              
+              let imgPath = targetMat ? targetMat.image?.trim() : '';
+              if (mat.type === 8) {
+                imgPath = `images/ingredient/${mat.id}.webp`;
+              }
+
+              return `
+                <div class="material-item" onclick="showMaterialUsage(${mat.id})">
+                  <img src="${matBgPath}" class="material-bg">
+                  <img src="${imgPath}" class="material-image">
+                  <div class="material-count">${mat.quantity}</div>
+                </div>
+              `;
+            }).join("");
+          }
+        },
+
+        material: {
+          layoutMode: 'grid',
+          renderGridCard: (item) => {
+            let traitHtmls = [];
+            
+            if (item.battle_tool_trait_ids && item.battle_tool_trait_ids.length > 0) {
+              item.battle_tool_trait_ids.forEach(t => {
+                const id = typeof t === "object" ? t?.id : t, k = getLangKey(currentLang), name = traitMasterData.battle_tool_traits?.[id]?.[k] ?? `Trait ${id}`;
+                if (id && id !== 0) traitHtmls.push(`<div class="material-trait" onclick="showTraitUsage(${id}, 'battle')">🧪 ${name}</div>`);
+              });
+            } else if (item.equipment_tool_trait_ids && item.equipment_tool_trait_ids.length > 0) {
+              item.equipment_tool_trait_ids.forEach(t => {
+                const id = typeof t === "object" ? t?.id : t, k = getLangKey(currentLang), name = traitMasterData.equipment_tool_traits?.[id]?.[k] ?? `Trait ${id}`;
+                if (id && id !== 0) traitHtmls.push(`<div class="material-trait" onclick="showTraitUsage(${id}, 'equipment')">⚔️ ${name}</div>`);
+              });
+            }
+
+            const matBgPath = getMaterialBgPath(item);
+
+            return `
+              <div class="material-card">
+                <div class="material-left" onclick="showMaterialUsage(${item.id})">
+                  <img src="${matBgPath}" class="material-rarity-bg">
+                  <img src="${item.image?.trim()}" class="material-main-image" loading="lazy">
+                </div>
+                <div class="material-content">
+                  <div class="material-name-row">
+                    <div class="material-name" onclick="copyText('${item.name}')">${item.name}</div>
+                    <img class="material-color-icon" src="${getColorIcon(item.trait_color_id)}">
                   </div>
-                  <div class="equip-effect">${abilityText}</div>
-                </div>
-                <div class="equip-materials">
-                  ${materialsHtml}
+                  <div class="material-traits">
+                    ${traitHtmls.join("")}
+                  </div>
                 </div>
               </div>
             `;
-          }).join("");
-
-          document.querySelectorAll(".material-item").forEach((el) => {
-            el.addEventListener("click", () => {
-              showMaterialUsage(Number(el.dataset.materialId));
-            });
-          });
-        }
-
-document
-.querySelectorAll(
-    '.filter-btn'
-)
-.forEach(btn => {
-
-    btn.onclick = () => {
-
-        const rarity =
-        btn.dataset.rarity;
-
-        if (
-            selectedMaterialRarity
-            === rarity
-        ) {
-
-            selectedMaterialRarity = null;
-
-        } else {
-
-            selectedMaterialRarity = rarity;
-        }
-
-        loadMaterial();
-    };
-
-});
-
-document
-.querySelectorAll(
-    '.gift-filter-icon'
-)
-.forEach(icon => {
-
-    icon.onclick = () => {
-
-        const color =
-        Number(
-            icon.dataset.color
-        );
-
-        if (
-            selectedMaterialColor
-            === color
-        ) {
-
-            selectedMaterialColor = null;
-
-        } else {
-
-            selectedMaterialColor = color;
-        }
-
-        loadMaterial();
-    };
-
-});
-        function refreshView() {
-          if (currentCategory === "equipment") {
-            loadEquipment();
-          } else if (currentCategory === "material") {
-            loadMaterial();
           }
         }
+      };
 
-        recipeData.forEach((recipe) => {
-          recipeMap[recipe.target_id] = recipe;
-          recipe.materials.forEach((mat) => {
-            if (!materialUsageMap[mat.id]) {
-              materialUsageMap[mat.id] = [];
-            }
-            materialUsageMap[mat.id].push(recipe.target_id);
-          });
-        });
+      /* ==========================================
+         萬用排版引擎調度
+         ========================================== */
+      function renderCategoryView(category, dataList, targetElementId = "main-list") {
+        const container = document.getElementById(targetElementId);
+        const cfg = RENDER_CONFIG[category];
+        if (!cfg || !container) return;
 
-        document.querySelectorAll("[data-rarity]").forEach((btn) => {
-          btn.addEventListener("click", () => {
-            let rarity = btn.dataset.rarity;
-            if (currentRarity === rarity) {
-              currentRarity = null;
-              btn.classList.remove("active");
-            } else {
-              currentRarity = rarity;
-              document.querySelectorAll("[data-rarity]").forEach((b) => b.classList.remove("active"));
-              btn.classList.add("active");
-            }
-            refreshView();
-          });
-        });
-
-        document.querySelectorAll("[data-type]").forEach((btn) => {
-          btn.addEventListener("click", () => {
-            let type = btn.dataset.type;
-            if (currentType === type) {
-              currentType = null;
-              btn.classList.remove("active");
-            } else {
-              currentType = type;
-              document.querySelectorAll("[data-type]").forEach((b) => b.classList.remove("active"));
-              btn.classList.add("active");
-            }
-            refreshView();
-          });
-        });
-
-        document.querySelectorAll(".category-tab").forEach((tab) => {
-          tab.addEventListener("click", () => {
-            document.querySelectorAll(".category-tab").forEach((t) => t.classList.remove("active"));
-            tab.classList.add("active");
-            currentCategory = tab.dataset.category;
-            updateControlPanel();
-            refreshView();
-          });
-        });
-
-        document.querySelectorAll(".gift-filter-icon").forEach((icon) => {
-          icon.addEventListener("click", () => {
-            let colorId = Number(icon.dataset.color);
-            if (currentGiftColor === colorId) {
-              currentGiftColor = null;
-            } else {
-              currentGiftColor = colorId;
-            }
-            document.querySelectorAll(".gift-filter-icon").forEach((i) => i.classList.remove("active"));
-            if (currentGiftColor) {
-              icon.classList.add("active");
-            }
-            refreshView();
-          });
-        });
-
-        document.getElementById("language-select").addEventListener("change", (e) => {
-          currentLang = e.target.value;
-          updateLanguageUI();
-          refreshView();
-        });
-
-        document.getElementById("search-input").addEventListener("input", (e) => {
-          currentSearch = e.target.value.toLowerCase();
-          refreshView();
-        });
-
-        document.getElementById("filter-select").addEventListener("change", (e) => {
-          currentSort = e.target.value;
-          refreshView();
-        });
-
-        document.getElementById("material-sort-select").addEventListener("change", (e) => {
-          currentSort = e.target.value;
-          loadMaterial();
-        });
-
-        refreshView();
-        updateLanguageUI();
-      }
-
-      function getGiftColorIcon(colorId) {
-        switch (colorId) {
-          case 1: return "images/ui/blue.png";
-          case 2: return "images/ui/purple.png";
-          case 3: return "images/ui/yellow.png";
-          case 4: return "images/ui/red.png";
-          case 5: return "images/ui/green.png";
-          default: return "";
-        }
-      }
-
-      function getRarityBg(rarity) {
-        switch (rarity) {
-          case 1:
-          case "R":
-            return "images/ui/r.webp";
-          case 2:
-          case "SR":
-            return "images/ui/sr.webp";
-          case 3:
-          case "SSR":
-            return "images/ui/ssr.webp";
-          case 4:
-          case "UR":
-            return "images/ui/ur.webp";
-          default:
-            return "";
-        }
-      }
-
-      function showMaterialUsage(materialId) {
-console.log(materialId);
-console.log(materialUsageMap[materialId]);
-	document
-.getElementById(
-    "usage-modal"
-)
-.classList
-.remove("show");
-        let usages = materialUsageMap[materialId];
-        if (usages && usages.length !== 0) {
-          document.getElementById("usage-list").innerHTML = usages.map((id) => {
-            let equip =
-equipmentData.find(
-    (e) => e.id == id
-);
-            if (equip) {
-              return `
-                <div class="usage-item" onclick="scrollToEquip(${equip.id})">
-                  <img src="${equip.image?.trim()}">
-                  <div class="usage-item-name">${equip.name}</div>
-                </div>
-              `;
-            }
-            return "";
-          }).join("");
-          requestAnimationFrame(() => {
-
-    document
-    .getElementById(
-        "usage-modal"
-    )
-    .classList
-    .add("show");
-
-});
+        if (cfg.layoutMode === 'grid') {
+          container.innerHTML = `<div class="material-grid">${dataList.map(item => cfg.renderGridCard(item)).join("")}</div>`;
         } else {
-          showToast("No Usage");
+          container.innerHTML = `
+            <div class="list-flex-wrapper">
+              ${dataList.map(item => `
+                <div class="equip-card" id="${category}-${item.id}">
+                  ${cfg.getLeftPart(item)}
+                  <div class="equip-main">${cfg.renderMain(item)}</div>
+                  <div class="equip-materials">${cfg.renderRight(item)}</div>
+                </div>
+              `).join("")}
+            </div>
+          `;
         }
       }
 
+      /* ==========================================
+         主控台核心控制與過濾
+         ========================================== */
+      function switchControlPanel(category) {
+        const config = CATEGORY_CONFIG[category];
+        const topContainer = document.getElementById('dynamic-controls');
+        const bottomContainer = document.getElementById('dynamic-bottom-controls');
+
+        currentSearch = "";
+        currentSort = config.sortOptions[0]?.value || "desc";
+        currentRarity = null;
+        currentType = null;
+        currentGiftColor = null;
+        selectedMaterialRarity = null;
+        selectedMaterialColor = null;
+
+        let topHtml = '';
+        if (config.search) {
+          topHtml += `<input type="text" id="search-input" class="search-input" placeholder="搜尋名稱..." oninput="handleSearch(this.value)">`;
+        }
+
+        if (category === 'material') {
+          const activeNormal = currentType === 'normal' ? 'active' : '';
+          const activeCannon = currentType === 'cannon' ? 'active' : '';
+
+          topHtml += `
+            <div class="filter-group" style="margin-right: 4px;">
+              <button class="filter-btn ${activeNormal}" data-type="normal" onclick="handleMaterialTopTypeClick(this, 'normal')">${t('normal_material')}</button>
+              <button class="filter-btn ${activeCannon}" data-type="cannon" onclick="handleMaterialTopTypeClick(this, 'cannon')">${t('atelier_cannon_material')}</button>
+            </div>
+          `;
+        }
+
+        if (config.sortOptions && config.sortOptions.length > 0) {
+          topHtml += `
+            <select id="filter-select" class="sort-select" onchange="handleSort(this.value)">
+              ${config.sortOptions.map(opt => `<option value="${opt.value}">${t(opt.labelKey)}</option>`).join('')}
+            </select>
+          `;
+        }
+        topContainer.innerHTML = topHtml;
+
+        let bottomHtml = '';
+        if (config.rarity && config.rarity.length > 0) {
+          bottomHtml += `
+            <div class="filter-group">
+              ${config.rarity.map(r => `<button class="filter-btn" data-rarity="${r}" onclick="handleRarityClick(this, '${r}')">${r}</button>`).join('')}
+            </div>
+          `;
+        }
+        if (config.types && config.types.length > 0) {
+          bottomHtml += `
+            <div class="filter-group">
+              ${config.types.map(o => `<button class="filter-btn ${o.icon ? 'type-icon-btn' : ''}" data-type="${o.value}" onclick="handleTypeClick(this, '${o.value}')">${o.icon ? `<img src="images/ui/${o.icon}">` : (o.label ?? t(o.labelKey))}</button>`).join('')}
+            </div>
+          `;
+        }
+        if (config.useColors) {
+          bottomHtml += `
+            <div class="filter-group">
+              <img class="gift-filter-icon" data-color="1" src="images/ui/blue.png" onclick="handleColorClick(this, 1)">
+              <img class="gift-filter-icon" data-color="2" src="images/ui/purple.png" onclick="handleColorClick(this, 2)">
+              <img class="gift-filter-icon" data-color="3" src="images/ui/yellow.png" onclick="handleColorClick(this, 3)">
+              <img class="gift-filter-icon" data-color="4" src="images/ui/red.png" onclick="handleColorClick(this, 4)">
+              <img class="gift-filter-icon" data-color="5" src="images/ui/green.png" onclick="handleColorClick(this, 5)">
+            </div>
+          `;
+        }
+        bottomContainer.innerHTML = bottomHtml;
+      }
+
+      function handleSearch(val) { currentSearch = val.toLowerCase().trim(); refreshView(); }
+      function handleSort(val) { currentSort = val; refreshView(); }
+
+      function handleRarityClick(btn, rarity) {
+        let activeVar = (currentCategory === 'equipment') ? currentRarity : selectedMaterialRarity;
+        if (activeVar === rarity) {
+          if (currentCategory === 'equipment') currentRarity = null; else selectedMaterialRarity = null;
+          btn.classList.remove('active');
+        } else {
+          if (currentCategory === 'equipment') currentRarity = rarity; else selectedMaterialRarity = rarity;
+          btn.parentNode.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        }
+        refreshView();
+      }
+
+      function handleTypeClick(btn, typeValue) {
+        if (currentType === typeValue) { currentType = null; btn.classList.remove('active'); }
+        else { currentType = typeValue; btn.parentNode.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); }
+        refreshView();
+      }
+
+      function handleMaterialTopTypeClick(btn, typeValue) {
+        if (currentType === typeValue) {
+          currentType = null;
+          btn.classList.remove('active');
+        } else {
+          currentType = typeValue;
+          btn.parentNode.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        }
+        refreshView();
+      }
+
+      function handleColorClick(img, colorId) {
+        let activeColor = (currentCategory === 'equipment') ? currentGiftColor : selectedMaterialColor;
+        if (activeColor === colorId) {
+          if (currentCategory === 'equipment') currentGiftColor = null; else selectedMaterialColor = null;
+          img.classList.remove('active');
+        } else {
+          if (currentCategory === 'equipment') currentGiftColor = colorId; else selectedMaterialColor = colorId;
+          img.parentNode.querySelectorAll('.gift-filter-icon').forEach(i => i.classList.remove('active'));
+          img.classList.add('active');
+        }
+        refreshView();
+      }
+
+      /* ==========================================
+         資料庫過濾與排序核心處理器
+         ========================================== */
+      function refreshView() {
+        if (currentCategory === "equipment") {
+          let list = [...equipmentData];
+          list.sort((a, b) => {
+            if (currentSort === "desc") return b.id - a.id;
+            if (currentSort === "asc") return a.id - b.id;
+            let typeMap = { hp: "HP", speed: "Speed", physical_attack: "Physical Attack", magic_attack: "Magic Attack", physical_defense: "Physical Defense", magic_defense: "Magic Defense" };
+            let getVal = (item, sType) => (item.status?.find(s => s.type === typeMap[sType])?.value || 0);
+            return getVal(b, currentSort) - getVal(a, currentSort);
+          });
+          if (currentRarity) list = list.filter(e => e.rarity === currentRarity);
+          if (currentType) list = list.filter(e => e.slot_type === currentType);
+          if (currentGiftColor) list = list.filter(e => recipeMasterData.find(r => r.target_id === e.id)?.gift_colors?.includes(currentGiftColor));
+          if (currentSearch) list = list.filter(e => e.name.toLowerCase().includes(currentSearch));
+          renderCategoryView('equipment', list);
+
+        } else if (currentCategory === "battle_item") {
+          let list = [...battleToolData];
+          
+          if (currentSort === "asc") {
+            list.sort((a, b) => a.id - b.id);
+          } else if (currentSort === "desc") {
+            list.sort((a, b) => b.id - a.id);
+          } else if (currentSort.startsWith("type_")) {
+            const targetTypeNum = Number(currentSort.split("_")[1]);
+            list.sort((a, b) => {
+              const weightA = Number(a.trait_filter_ids) === targetTypeNum ? 1 : 0;
+              const weightB = Number(b.trait_filter_ids) === targetTypeNum ? 1 : 0;
+              return weightB - weightA || b.id - a.id;
+            });
+          }
+          
+          if (selectedMaterialRarity) {
+            const revMap = { "R": 1, "SR": 2, "SSR": 3 };
+            list = list.filter(item => item.rarity === revMap[selectedMaterialRarity]);
+          }
+
+          if (currentType) {
+            list = list.filter(item => Number(item.trait_filter_ids) === Number(currentType));
+          }
+
+          if (currentGiftColor) list = list.filter(e => recipeMasterData.find(r => r.target_id === e.id)?.gift_colors?.includes(currentGiftColor));
+          if (currentSearch) list = list.filter(item => item.name.toLowerCase().includes(currentSearch));
+          renderCategoryView('battle_item', list);
+
+        } else if (currentCategory === "material") {
+          let list = [...itemData];
+          if (currentSearch) list = list.filter(item => item.name.toLowerCase().includes(currentSearch));
+          if (selectedMaterialRarity) list = list.filter(item => item.rarity === selectedMaterialRarity);
+          if (selectedMaterialColor) list = list.filter(item => item.trait_color_id === selectedMaterialColor);
+
+          if (currentType === 'normal') {
+            list = list.filter(item => !ATELIER_CANNON_IDS.includes(Number(item.id)));
+          } else if (currentType === 'cannon') {
+            list = list.filter(item => ATELIER_CANNON_IDS.includes(Number(item.id)));
+          }
+
+          let colorSortOptions = ["red", "blue", "green", "yellow", "purple"];
+          if (colorSortOptions.includes(currentSort)) {
+            let priorityMap = { blue: 1, purple: 2, yellow: 3, red: 4, green: 5 };
+            let order = colorPriorityMap[priorityMap[currentSort]];
+            list.sort((a, b) => order.indexOf(a.trait_color_id) - order.indexOf(b.trait_color_id) || b.id - a.id);
+          } else {
+            list.sort((a, b) => currentSort === "asc" ? a.id - b.id : b.id - a.id);
+          }
+          renderCategoryView('material', list);
+        }
+      }
+
+      /* ==========================================
+         頁面點擊功能互動邏輯
+         ========================================== */
+      function bindCategoryTabs() {
+        document.querySelectorAll('.category-tab').forEach(tab => {
+          tab.onclick = () => {
+            document.querySelectorAll('.category-tab').forEach(btn => btn.classList.remove('active'));
+            tab.classList.add('active');
+            currentCategory = tab.dataset.category;
+            switchControlPanel(currentCategory);
+            refreshView();
+          };
+        });
+      }
+
+function showMaterialUsage(materialId) {
+
+  let matchedRecipeIds =
+    itemUsageMap[materialId] || [];
+
+  let htmlContent = "";
+
+	if (matchedRecipeIds.length === 0) {
+	  showToast(t("no_recipe_usage"));
+	  return;
+	}
+  matchedRecipeIds.forEach((rId) => {
+
+    const recipe =
+      recipeMasterData.find(
+        r => r.recipe_id === rId
+      );
+
+    if (recipe) {
+
+      const targetEquip =
+        equipmentData.find(
+          e => e.name === recipe.name
+        );
+
+      const targetBattle =
+        battleToolData.find(
+          b => b.name === recipe.name
+        );
+
+      const targetItem =
+        targetEquip || targetBattle;
+
+      const bombFallbacks = [
+  'images/bomb/bomb_tool_0001_S.webp', 'images/bomb/bomb_tool_0002_S.webp', 'images/bomb/bomb_tool_0003_S.webp', 'images/bomb/bomb_tool_0004_S.webp',
+  'images/bomb/bomb_tool_0005_S.webp', 'images/bomb/bomb_tool_0006_S.webp', 'images/bomb/bomb_tool_0019_S.webp'];
+	const fallbackImage = ATELIER_CANNON_IDS.includes( recipe.materials?.[0]?.id ) ? bombFallbacks[ recipe.recipe_id % bombFallbacks.length ] : 'images/ui/r.webp';
+
+      htmlContent += `
+        <div class="usage-item">
+          <img src="${targetItem?.image || fallbackImage}">
+
+          <div class="usage-item-name">
+            ${recipe.name}
+          </div>
+        </div>
+      `;
+    }
+  });
+
+  document.getElementById(
+    "usage-list"
+  ).innerHTML = htmlContent;
+
+  document.getElementById(
+    "usage-modal"
+  ).classList.add("show");
+}
+      function scrollToTarget(category, targetId) {
+        closeUsageModal();
+        if (currentCategory !== category) {
+          const tab = document.querySelector(`.category-tab[data-category="${category}"]`);
+          if (tab) tab.click();
+        }
+        setTimeout(() => {
+          let targetEl = document.getElementById(`${category}-${targetId}`);
+          if (targetEl) {
+            targetEl.scrollIntoView({ behavior: "smooth", block: "center" });
+            targetEl.classList.add("equip-highlight");
+            setTimeout(() => targetEl.classList.remove("equip-highlight"), 1500);
+          }
+        }, 150);
+      }
+
+      function closeUsageModal() { document.getElementById("usage-modal").classList.remove("show"); }
+      function closeTraitModal() { document.getElementById("trait-modal").classList.remove("show"); }
+      
       function copyText(text) {
         navigator.clipboard.writeText(text);
         showToast(t("copied") + `「${text}」`);
       }
 
+      function getColorIcon(colorId) { const cMap = {1:'blue', 2:'purple', 3:'yellow', 4:'red', 5:'green'}; return `images/ui/${cMap[colorId] || 'blue'}.png`; }
+      function getStatusText(statusType) { return t(statusType.toLowerCase().replaceAll(" ", "_")); }
+      
+      const TEXTS = {
+        zh: {
+          hp: "HP", speed: "敏捷", physical_attack: "物攻", magic_attack: "魔攻", physical_defense: "物防", magic_defense: "魔防", no_ability: "無追加效果", copied: "已複製",
+          weapon: "武器", armor: "防具", accessory: "裝飾品", new_old: '新 → 舊', old_new: '舊 → 新', red_first: '紅優先', blue_first: '藍優先', green_first: '綠優先', yellow_first: '黃優先', purple_first: '紫優先',
+          normal_material: "一般素材", atelier_cannon_material: "工房砲素材", attack_first: "攻擊 優先", buff_first: "強化 優先", debuff_first: "弱體 優先", heal_first: "回復 優先",
+          event_obtain: "活動獎勵", shop_obtain: "商城販售", no_recipe_usage: "無配方需求"
+        },
+        ja: {
+          hp: "HP", speed: "素早さ", physical_attack: "物攻", magic_attack: "魔攻", physical_defense: "物防", magic_defense: "魔防", no_ability: "追加効果なし", copied: "コピーしました",
+          weapon: "武器", armor: "防具", accessory: "装飾", new_old: '新 → 古', old_new: '古 → 新', red_first: '赤優先', blue_first: '青優先', green_first: '緑優先', yellow_first: '黄優先', purple_first: '紫優先',
+          normal_material: "一般素材", atelier_cannon_material: "工房砲素材", attack_first: "攻撃 優先", buff_first: "強化 優先", debuff_first: "弱体 優先", heal_first: "回復 優先",
+          event_obtain: "イベント報酬", shop_obtain: "ショップ販売", no_recipe_usage: "配方需要なし"
+        },
+        en: {
+          hp: "HP", speed: "SPD", physical_attack: "P.ATK", magic_attack: "M.ATK", physical_defense: "P.DEF", magic_defense: "M.DEF", no_ability: "No Effect", copied: "Copied",
+          weapon: "Weapon", armor: "Armor", accessory: "Accessory", new_old: 'New → Old', old_new: 'Old → New', red_first: 'Red First', blue_first: 'Blue First', green_first: 'Green First', yellow_first: 'Yellow First', purple_first: 'Purple First',
+          normal_material: "Normal Mat.", atelier_cannon_material: "Atelier Cannon Mat.", attack_first: "Attack First", buff_first: "Buff First", debuff_first: "Debuff First", heal_first: "Heal First",
+          event_obtain: "Event Reward", shop_obtain: "Shop Purchased", no_recipe_usage: "No Recipe Usage",
+        }
+      };
+      function t(key) { return TEXTS[currentLang]?.[key] || key; }
+      
       function showToast(message) {
-        let toast = document.createElement("div");
-        toast.textContent = message;
-        toast.className = "copy-toast";
-        document.body.appendChild(toast);
-        
-        setTimeout(() => {
-          toast.classList.add("show");
-        }, 10);
-        
-        setTimeout(() => {
-          toast.classList.remove("show");
-          setTimeout(() => {
-            toast.remove();
-          }, 300);
-        }, 1800);
+        let toast = document.createElement("div"); toast.textContent = message; toast.className = "copy-toast"; document.body.appendChild(toast);
+        setTimeout(() => toast.classList.add("show"), 10);
+        setTimeout(() => { toast.classList.remove("show"); setTimeout(() => toast.remove(), 300); }, 1800);
       }
 
-      function getStatusText(statusType) {
-        let cleanType = statusType.toLowerCase().replaceAll(" ", "_");
-        return t(cleanType);
+      /* ==========================================
+         🛠️ 資料庫非同步初始化
+         ========================================== */
+      async function init() {
+        const langSelect = document.getElementById("language-select");
+        langSelect.value = currentLang;
+        langSelect.addEventListener("change", (e) => { 
+          currentLang = e.target.value; 
+          switchControlPanel(currentCategory); 
+          refreshView(); 
+        });
+
+        const [recipeRes, itemsRes, traitRes, battleToolRes, equipRes] = await Promise.all([
+          fetch("data/recipe_master.json"),
+          fetch("data/item.json"),
+          fetch("trait_master.json"), 
+          fetch("data/battle_tool.json"),
+          fetch("data/equipment.json")
+        ]);
+
+        recipeMasterData = await recipeRes.json();
+        itemData = await itemsRes.json();
+        traitMasterData = await traitRes.json();
+        battleToolData = await battleToolRes.json();
+        equipmentData = await equipRes.json();
+
+// 重新初始化索引
+itemUsageMap = {}; 
+
+recipeMasterData.forEach((recipe) => {
+  if (recipe.materials && recipe.materials.length > 0) {
+    recipe.materials.forEach((mat) => {
+      // 這裡直接存入配方的 ID，最乾淨、最直接
+      if (!itemUsageMap[mat.id]) { 
+        itemUsageMap[mat.id] = []; 
       }
-
-      function t(key) {
-        return TEXTS[currentLang]?.[key] || key;
+      
+      // 確保不重複加入
+      if (!itemUsageMap[mat.id].includes(recipe.recipe_id)) {
+        itemUsageMap[mat.id].push(recipe.recipe_id);
       }
-function getTraitLang() {
+    });
+  }
+});
 
-  return currentLang === "ja"
-    ? "jp"
-    : currentLang;
-
+// 初始化頁面
+switchControlPanel(currentCategory);
+bindCategoryTabs();
+refreshView();
 }
-      function updateLanguageUI() {
-        document.querySelectorAll("[data-i18n]").forEach((el) => {
-          let key = el.dataset.i18n;
-          el.textContent = t(key);
-        });
-      }
 
-      function closeUsageModal() {
-        document.getElementById("usage-modal").classList.remove("show");
-      }
 
-      function scrollToEquip(equipId) {
-        closeUsageModal();
-        let targetEl = document.getElementById("equip-" + equipId);
-        if (targetEl) {
-          targetEl.scrollIntoView({
-            behavior: "smooth",
-            block: "center",
-          });
-          targetEl.classList.add("equip-highlight");
-          setTimeout(() => {
-            targetEl.classList.remove("equip-highlight");
-          }, 1800);
-        }
-      }
+      document.getElementById("usage-modal").addEventListener("click", e => {
+        if (e.target.id === "usage-modal") { closeUsageModal(); }
+      });
 
-      function checkPatchNote() {
-        if (localStorage.getItem("patchNoteVersion") !== PATCH_VERSION) {
-          document.getElementById("patch-modal").classList.add("show");
-        }
-      }
-
-      function closePatchModal() {
-        localStorage.setItem("patchNoteVersion", PATCH_VERSION);
-        document.getElementById("patch-modal").remove();
-      }
-
-      function updateControlPanel() {
-        let equipCtrl = document.getElementById("equipment-controls");
-        let matCtrl = document.getElementById("material-controls");
-        let equipBottomCtrl = document.getElementById("equipment-bottom-controls");
-        let matBottomCtrl = document.getElementById("material-bottom-controls");
-        
-        if (currentCategory === "material") {
-          equipCtrl.style.display = "none";
-          matCtrl.style.display = "flex";
-          equipBottomCtrl.style.display = "none";
-          matBottomCtrl.style.display = "flex";
-        } else {
-          equipCtrl.style.display = "flex";
-          matCtrl.style.display = "none";
-          equipBottomCtrl.style.display = "flex";
-          matBottomCtrl.style.display = "none";
-        }
-      }
-
-      async function loadMaterial() {
-        let response = await fetch("data/item.json");
-        let rawItems = await response.json();
-        let filteredItems = rawItems;
-
-        if (materialMode === "canon") {
-          filteredItems = filteredItems.filter((item) => AtelierCanon.has(item.id));
-        }
-        if (materialMode === "normal") {
-          filteredItems = filteredItems.filter((item) => !AtelierCanon.has(item.id));
-        }
-        if (selectedMaterialRarity) {
-          filteredItems = filteredItems.filter((item) => item.rarity === selectedMaterialRarity);
-        }
-        if (selectedMaterialColor) {
-          filteredItems = filteredItems.filter((item) => item.trait_color_id === selectedMaterialColor);
-        }
-        if (selectedTrait) {
-          filteredItems = rawItems.filter((item) => {
-            let combinedTraits = [...item.equipment_tool_trait_ids, ...item.battle_tool_trait_ids];
-            let localizedTraits = combinedTraits.map((id) => equipmentTraitMap[id]?.[currentLang]);
-            return localizedTraits.includes(selectedTrait);
-          });
-        }
-
-        if (selectedPriority) {
-          let priorities = colorPriorityMap[selectedPriority];
-          filteredItems.sort((a, b) => priorities.indexOf(a.trait_color_id) - priorities.indexOf(b.trait_color_id));
-        }
-
-        let colorSortOptions = ["red", "blue", "green", "yellow", "purple"];
-        if (colorSortOptions.includes(currentSort)) {
-          let priorityMap = {
-            blue: 1,
-            purple: 2,
-            yellow: 3,
-            red: 4,
-            green: 5,
-          };
-          let priorityOrder = colorPriorityMap[priorityMap[currentSort]];
-          filteredItems.sort((a, b) => {
-            let colorDiff = priorityOrder.indexOf(a.trait_color_id) - priorityOrder.indexOf(b.trait_color_id);
-            if (colorDiff !== 0) {
-              return colorDiff;
-            }
-            return b.id - a.id;
-          });
-        } else if (currentSort === "asc") {
-          filteredItems.sort((a, b) => a.id - b.id);
-        } else {
-          filteredItems.sort((a, b) => b.id - a.id);
-        }
-
-        document.getElementById("main-list").innerHTML = `
-          <div class="material-grid">
-            ${filteredItems.map((item) => {
-              try {
-                return renderMaterialCard(item);
-              } catch (err) {
-                console.log(err);
-                return "";
-              }
-            }).join("")}
-          </div>
-        `;
-      }
-
-      function renderMaterialCard(item) {
-        let traits = [];
-        if (item.equipment_tool_trait_ids) {
-          item.equipment_tool_trait_ids.forEach((id) => {
-            traits.push({
-              type: "equipment",
-              name: equipmentTraitMap[id]?.[getTraitLang()],
-            });
-          });
-        }
-        if (item.battle_tool_trait_ids) {
-          item.battle_tool_trait_ids.forEach((id) => {
-            traits.push({
-              type: "battle",
-              name: battleTraitMap[id]?.[getTraitLang()],
-            });
-          });
-        }
-        traits = traits.filter((t) => t.name);
-
-        return `
-          <div class="material-card">
-            <div class="material-left" onclick="showMaterialUsage(${item.id})">
-              <img src="${getRarityBg(item.rarity)}" class="material-rarity-bg">
-              <img src="${item.image?.trim()}" class="material-main-image">
-            </div>
-            <div class="material-content">
-              <div class="material-name" onclick="copyText('${item.name}')">
-                <img src="${getGiftColorIcon(item.trait_color_id)}" class="material-color-icon">
-                ${item.name}
-              </div>
-              <div class="material-traits">
-                ${traits.slice(0, 2).map((trait) => `
-                  <div class="material-trait ${trait.type}" onclick="showTraitMaterials('${trait.name}')">
-                    ・${trait.name}
-                  </div>
-                `).join("")}
-              </div>
-            </div>
-          </div>
-        `;
-      }
-
-      function filterTrait(traitName) {
-        selectedTrait = traitName;
-        refreshCurrentCategory();
-      }
-
-      function updateMaterialFilterButtons() {
-        document.querySelectorAll("#material-bottom-controls [data-rarity]").forEach((btn) => {
-          btn.classList.toggle("active", btn.dataset.rarity === selectedMaterialRarity);
-        });
-        document.querySelectorAll("#material-bottom-controls [data-color]").forEach((btn) => {
-          let colorNum = Number(btn.dataset.color);
-          btn.classList.toggle("active-color", colorNum === selectedMaterialColor);
-        });
-      }
-
-      async function showTraitMaterials(traitName) {
-        let response = await fetch("data/item.json");
-        let rawItems = await response.json();
-        
-        let matchedItems = rawItems.filter((item) => {
-          let equipTraits = (item.equipment_tool_trait_ids || []).map((id) => equipmentTraitMap[id]?.[getTraitLang()]);
-          let battleTraits = (item.battle_tool_trait_ids || []).map((id) => battleTraitMap[id]?.[getTraitLang()]);
-          return [...equipTraits, ...battleTraits].includes(traitName);
-        });
-        
-        showMaterialTraitModal(traitName, matchedItems);
-      }
-
-      function showMaterialTraitModal(
-    traitName,
-    materials
-) {
-
-    document
-    .getElementById(
-        "trait-material-list"
-    ).innerHTML = `
-
-      <div
-        style="
-          display:grid;
-          grid-template-columns:
-          repeat(
-            auto-fill,
-            minmax(220px,1fr)
-          );
-          gap:12px;
-        "
-      >
-
-        ${
-          materials.map(
-            (item) => `
-
-            <div
-              class="usage-item"
-              onclick="
-                showMaterialUsage(
-                  ${item.id}
-                )
-              "
-            >
-
-              <img
-                src="${
-                  item.image?.trim()
-                }"
-              >
-
-              <div
-                class="
-                  usage-item-name
-                "
-              >
-                ${item.name}
-              </div>
-
-            </div>
-
-            `
-          ).join("")
-        }
-
-      </div>
-
-    `;
-
-    document
-.getElementById(
-    "trait-modal-title"
-)
-.textContent =
-t("trait_materials");
-
-    document
-    .getElementById(
-        "trait-modal"
-    )
-    .classList
-    .add("show");
-
-}
+      document.getElementById("trait-modal").addEventListener("click", e => {
+        if (e.target.id === "trait-modal") { closeTraitModal(); }
+      });
 
       init();
-      checkPatchNote();
-function closeTraitModal() {
-
-    document
-    .getElementById(
-        "trait-modal"
-    )
-    .classList
-    .remove("show");
-
-}
     </script>
   </body>
 </html>

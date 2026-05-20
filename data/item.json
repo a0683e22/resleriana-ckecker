@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "ナナシ草",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0001_S.webp",
     "equipment_tool_trait_ids": [1, 25]
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "コゲクサ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0002_S.webp",
     "battle_tool_trait_ids": [18, 10]
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "食毒草",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0003_S.webp",
     "equipment_tool_trait_ids": [13, 19]
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "アオツメクサ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0004_S.webp",
     "equipment_tool_trait_ids": [6, 21]
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "スイートリーフ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0005_S.webp",
     "battle_tool_trait_ids": [19, 11]
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "雲海の隠れ家",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0006_S.webp",
     "equipment_tool_trait_ids": [16, 43]
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "蓮",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0007_S.webp",
     "equipment_tool_trait_ids": [17, 42]
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "幸せクローバー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0008_S.webp",
     "equipment_tool_trait_ids": [40, 41]
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "千日草",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0009_S.webp",
     "equipment_tool_trait_ids": [55, 50]
@@ -74,7 +74,7 @@
   {
     "id": 10,
     "name": "エスプラント",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0010_S.webp",
     "equipment_tool_trait_ids": [56, 51]
@@ -82,7 +82,7 @@
   {
     "id": 11,
     "name": "ほたる火草",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0011_S.webp",
     "battle_tool_trait_ids": [30, 35]
@@ -90,7 +90,7 @@
   {
     "id": 12,
     "name": "カブトバッタ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0012_S.webp",
     "equipment_tool_trait_ids": [8, 23]
@@ -98,7 +98,7 @@
   {
     "id": 13,
     "name": "キラービー",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0013_S.webp",
     "equipment_tool_trait_ids": [14, 24]
@@ -106,7 +106,7 @@
   {
     "id": 14,
     "name": "貯ミツアリ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0014_S.webp",
     "battle_tool_trait_ids": [9, 28]
@@ -114,7 +114,7 @@
   {
     "id": 15,
     "name": "苦ミミズ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0015_S.webp",
     "equipment_tool_trait_ids": [15, 18]
@@ -122,7 +122,7 @@
   {
     "id": 16,
     "name": "星テントウ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0016_S.webp",
     "equipment_tool_trait_ids": [13, 19]
@@ -130,7 +130,7 @@
   {
     "id": 17,
     "name": "うにゾウムシ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0017_S.webp",
     "battle_tool_trait_ids": [21, 9]
@@ -138,7 +138,7 @@
   {
     "id": 18,
     "name": "インゴットバグ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0018_S.webp",
     "equipment_tool_trait_ids": [9, 41]
@@ -146,7 +146,7 @@
   {
     "id": 19,
     "name": "ベビーヴルム",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0019_S.webp",
     "equipment_tool_trait_ids": [4, 41]
@@ -154,7 +154,7 @@
   {
     "id": 20,
     "name": "月イナゴ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0020_S.webp",
     "battle_tool_trait_ids": [29, 34]
@@ -162,7 +162,7 @@
   {
     "id": 21,
     "name": "ラピス・パピヨン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0021_S.webp",
     "equipment_tool_trait_ids": [57, 52]
@@ -170,7 +170,7 @@
   {
     "id": 22,
     "name": "アンバーフライ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0022_S.webp",
     "equipment_tool_trait_ids": [32, 34]
@@ -178,7 +178,7 @@
   {
     "id": 23,
     "name": "植物エキス",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0023_S.webp",
     "battle_tool_trait_ids": [4, 24]
@@ -186,7 +186,7 @@
   {
     "id": 24,
     "name": "パチパチ水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0024_S.webp",
     "equipment_tool_trait_ids": [25, 26]
@@ -194,7 +194,7 @@
   {
     "id": 25,
     "name": "ビリビリ水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0025_S.webp",
     "equipment_tool_trait_ids": [2, 39]
@@ -202,7 +202,7 @@
   {
     "id": 26,
     "name": "きれいな水",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0026_S.webp",
     "battle_tool_trait_ids": [44, 17]
@@ -210,7 +210,7 @@
   {
     "id": 27,
     "name": "水底の水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0027_S.webp",
     "equipment_tool_trait_ids": [39, 1]
@@ -218,7 +218,7 @@
   {
     "id": 28,
     "name": "闇の雫",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0028_S.webp",
     "equipment_tool_trait_ids": [10, 48]
@@ -226,7 +226,7 @@
   {
     "id": 29,
     "name": "黒水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0029_S.webp",
     "battle_tool_trait_ids": [16, 10]
@@ -234,7 +234,7 @@
   {
     "id": 30,
     "name": "甘露の湧水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0030_S.webp",
     "equipment_tool_trait_ids": [11, 48]
@@ -242,7 +242,7 @@
   {
     "id": 31,
     "name": "誘惑の溶樹液",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0031_S.webp",
     "equipment_tool_trait_ids": [47, 26]
@@ -250,7 +250,7 @@
   {
     "id": 32,
     "name": "ミネラル液晶",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0032_S.webp",
     "battle_tool_trait_ids": [31, 36]
@@ -258,7 +258,7 @@
   {
     "id": 33,
     "name": "太古の蒼水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0033_S.webp",
     "equipment_tool_trait_ids": [58, 53]
@@ -266,7 +266,7 @@
   {
     "id": 34,
     "name": "サルディン",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0034_S.webp",
     "equipment_tool_trait_ids": [7, 22]
@@ -274,7 +274,7 @@
   {
     "id": 35,
     "name": "チョウチョウウオ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0035_S.webp",
     "battle_tool_trait_ids": [20, 12]
@@ -282,7 +282,7 @@
   {
     "id": 36,
     "name": "セリヨル",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0036_S.webp",
     "equipment_tool_trait_ids": [5, 20]
@@ -290,7 +290,7 @@
   {
     "id": 37,
     "name": "エグゾフィッシュ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0037_S.webp",
     "equipment_tool_trait_ids": [13, 21]
@@ -298,7 +298,7 @@
   {
     "id": 38,
     "name": "トゲトゲ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0038_S.webp",
     "battle_tool_trait_ids": [14, 11]
@@ -306,7 +306,7 @@
   {
     "id": 39,
     "name": "風船魚",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0039_S.webp",
     "equipment_tool_trait_ids": [16, 42]
@@ -314,7 +314,7 @@
   {
     "id": 40,
     "name": "ワームフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0040_S.webp",
     "equipment_tool_trait_ids": [17, 43]
@@ -322,7 +322,7 @@
   {
     "id": 41,
     "name": "レピアフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0041_S.webp",
     "battle_tool_trait_ids": [1, 5]
@@ -330,7 +330,7 @@
   {
     "id": 42,
     "name": "湖底のぬし",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0042_S.webp",
     "equipment_tool_trait_ids": [45, 8]
@@ -338,7 +338,7 @@
   {
     "id": 43,
     "name": "メイスフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0043_S.webp",
     "equipment_tool_trait_ids": [37, 7]
@@ -346,7 +346,7 @@
   {
     "id": 44,
     "name": "ソーンフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0044_S.webp",
     "battle_tool_trait_ids": [33, 38]
@@ -354,7 +354,7 @@
   {
     "id": 45,
     "name": "アイヒェ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0045_S.webp",
     "equipment_tool_trait_ids": [8, 23]
@@ -362,7 +362,7 @@
   {
     "id": 46,
     "name": "パルマ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0046_S.webp",
     "equipment_tool_trait_ids": [14, 24]
@@ -370,7 +370,7 @@
   {
     "id": 47,
     "name": "乾いた木くず",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0047_S.webp",
     "battle_tool_trait_ids": [15, 12]
@@ -378,7 +378,7 @@
   {
     "id": 48,
     "name": "白灰砂",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0048_S.webp",
     "equipment_tool_trait_ids": [3, 18]
@@ -386,7 +386,7 @@
   {
     "id": 49,
     "name": "エメラルドグラス",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0049_S.webp",
     "equipment_tool_trait_ids": [15, 19]
@@ -394,7 +394,7 @@
   {
     "id": 50,
     "name": "パルマの実",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0050_S.webp",
     "battle_tool_trait_ids": [13, 46]
@@ -402,7 +402,7 @@
   {
     "id": 51,
     "name": "パルマ樹皮",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0051_S.webp",
     "equipment_tool_trait_ids": [10, 40]
@@ -410,7 +410,7 @@
   {
     "id": 52,
     "name": "聖樹の大枝",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0052_S.webp",
     "equipment_tool_trait_ids": [11, 40]
@@ -418,7 +418,7 @@
   {
     "id": 53,
     "name": "甘露の実",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0053_S.webp",
     "battle_tool_trait_ids": [48, 47]
@@ -426,7 +426,7 @@
   {
     "id": 54,
     "name": "エヴィヒブラウ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0054_S.webp",
     "equipment_tool_trait_ids": [28, 29]
@@ -434,7 +434,7 @@
   {
     "id": 55,
     "name": "聖樹結晶",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0055_S.webp",
     "equipment_tool_trait_ids": [30, 34]
@@ -442,7 +442,7 @@
   {
     "id": 56,
     "name": "フェスト",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0056_S.webp",
     "battle_tool_trait_ids": [44, 13]
@@ -450,7 +450,7 @@
   {
     "id": 57,
     "name": "震える結晶",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0057_S.webp",
     "equipment_tool_trait_ids": [2, 41]
@@ -458,7 +458,7 @@
   {
     "id": 58,
     "name": "スティム鋼石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0058_S.webp",
     "equipment_tool_trait_ids": [20, 40]
@@ -466,7 +466,7 @@
   {
     "id": 59,
     "name": "樹氷石",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0059_S.webp",
     "battle_tool_trait_ids": [51, 46]
@@ -474,7 +474,7 @@
   {
     "id": 60,
     "name": "蒼剛石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0060_S.webp",
     "equipment_tool_trait_ids": [23, 1]
@@ -482,7 +482,7 @@
   {
     "id": 61,
     "name": "剛鉄鉱",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0061_S.webp",
     "equipment_tool_trait_ids": [4, 49]
@@ -490,7 +490,7 @@
   {
     "id": 62,
     "name": "モルディナイト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0062_S.webp",
     "battle_tool_trait_ids": [17, 45]
@@ -498,7 +498,7 @@
   {
     "id": 63,
     "name": "琥珀水晶",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0063_S.webp",
     "equipment_tool_trait_ids": [25, 49]
@@ -506,7 +506,7 @@
   {
     "id": 64,
     "name": "ゴルディナイト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0064_S.webp",
     "equipment_tool_trait_ids": [38, 6]
@@ -514,7 +514,7 @@
   {
     "id": 65,
     "name": "黒陽鉱",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0065_S.webp",
     "battle_tool_trait_ids": [50, 49]
@@ -522,7 +522,7 @@
   {
     "id": 66,
     "name": "永遠結晶",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0066_S.webp",
     "equipment_tool_trait_ids": [31, 36]
@@ -530,7 +530,7 @@
   {
     "id": 67,
     "name": "うに",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0067_S.webp",
     "battle_tool_trait_ids": [6, 25]
@@ -538,7 +538,7 @@
   {
     "id": 68,
     "name": "トーン",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0068_S.webp",
     "equipment_tool_trait_ids": [6, 21]
@@ -546,7 +546,7 @@
   {
     "id": 69,
     "name": "若木の枝葉",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0069_S.webp",
     "equipment_tool_trait_ids": [2, 26]
@@ -554,7 +554,7 @@
   {
     "id": 70,
     "name": "ハチの巣",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0070_S.webp",
     "equipment_tool_trait_ids": [3, 18]
@@ -562,7 +562,7 @@
   {
     "id": 71,
     "name": "シロヒメクサ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0071_S.webp",
     "battle_tool_trait_ids": [8, 27]
@@ -570,7 +570,7 @@
   {
     "id": 72,
     "name": "正体不明の原石",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0072_S.webp",
     "equipment_tool_trait_ids": [4, 19]
@@ -578,7 +578,7 @@
   {
     "id": 73,
     "name": "怨嗟の叫び",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0073_S.webp",
     "equipment_tool_trait_ids": [9, 24]
@@ -586,7 +586,7 @@
   {
     "id": 74,
     "name": "セイタカトーン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0074_S.webp",
     "battle_tool_trait_ids": [5, 17]
@@ -594,7 +594,7 @@
   {
     "id": 75,
     "name": "マジックグラス",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0075_S.webp",
     "equipment_tool_trait_ids": [10, 42]
@@ -602,7 +602,7 @@
   {
     "id": 76,
     "name": "銀のハチの巣",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0076_S.webp",
     "equipment_tool_trait_ids": [11, 42]
@@ -610,7 +610,7 @@
   {
     "id": 77,
     "name": "三つ子トーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0077_S.webp",
     "battle_tool_trait_ids": [32, 37]
@@ -618,7 +618,7 @@
   {
     "id": 78,
     "name": "安らぎの花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0078_S.webp",
     "equipment_tool_trait_ids": [59, 54]
@@ -626,7 +626,7 @@
   {
     "id": 79,
     "name": "金のハチの巣",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0079_S.webp",
     "equipment_tool_trait_ids": [46, 5]
@@ -634,7 +634,7 @@
   {
     "id": 80,
     "name": "コベリナイト",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0080_S.webp",
     "battle_tool_trait_ids": [2, 22]
@@ -642,7 +642,7 @@
   {
     "id": 81,
     "name": "ペントナイト",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0081_S.webp",
     "equipment_tool_trait_ids": [7, 22]
@@ -650,7 +650,7 @@
   {
     "id": 82,
     "name": "自然油",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0082_S.webp",
     "equipment_tool_trait_ids": [5, 20]
@@ -658,7 +658,7 @@
   {
     "id": 83,
     "name": "綿毛草",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0083_S.webp",
     "battle_tool_trait_ids": [3, 23]
@@ -666,7 +666,7 @@
   {
     "id": 84,
     "name": "丈夫なつる",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0084_S.webp",
     "equipment_tool_trait_ids": [10, 43]
@@ -674,7 +674,7 @@
   {
     "id": 85,
     "name": "魔石の欠片",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0085_S.webp",
     "equipment_tool_trait_ids": [11, 43]
@@ -682,7 +682,7 @@
   {
     "id": 86,
     "name": "スカイバブル",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0086_S.webp",
     "battle_tool_trait_ids": [1, 13]
@@ -690,7 +690,7 @@
   {
     "id": 87,
     "name": "リュウソウラン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0087_S.webp",
     "equipment_tool_trait_ids": [44, 3]
@@ -698,7 +698,7 @@
   {
     "id": 88,
     "name": "大木のツタ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0088_S.webp",
     "equipment_tool_trait_ids": [12, 37]
@@ -706,7 +706,7 @@
   {
     "id": 89,
     "name": "彗星岩",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0089_S.webp",
     "battle_tool_trait_ids": [50, 51]
@@ -714,7 +714,7 @@
   {
     "id": 90,
     "name": "灯火草",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0090_S.webp",
     "equipment_tool_trait_ids": [11, 39]
@@ -722,7 +722,7 @@
   {
     "id": 91,
     "name": "赤い花",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0091_S.webp",
     "equipment_tool_trait_ids": [10, 39]
@@ -730,7 +730,7 @@
   {
     "id": 92,
     "name": "赤砂",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0092_S.webp",
     "battle_tool_trait_ids": [7, 26]
@@ -738,7 +738,7 @@
   {
     "id": 93,
     "name": "クスリゴケ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0093_S.webp",
     "equipment_tool_trait_ids": [39, 1]
@@ -746,7 +746,7 @@
   {
     "id": 94,
     "name": "輝く水晶のカケラ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0094_S.webp",
     "equipment_tool_trait_ids": [1, 22]
@@ -754,7 +754,7 @@
   {
     "id": 95,
     "name": "砂晶石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0095_S.webp",
     "battle_tool_trait_ids": [49, 45]
@@ -762,7 +762,7 @@
   {
     "id": 96,
     "name": "光る砂",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0096_S.webp",
     "equipment_tool_trait_ids": [27, 9]
@@ -770,7 +770,7 @@
   {
     "id": 97,
     "name": "太陽の花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0097_S.webp",
     "equipment_tool_trait_ids": [33, 35]
@@ -778,7 +778,7 @@
   {
     "id": 143,
     "name": "香木のくず",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0118_S.webp",
     "battle_tool_trait_ids": [6, 25]
@@ -786,7 +786,7 @@
   {
     "id": 144,
     "name": "ラプチャー",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0119_S.webp",
     "equipment_tool_trait_ids": [37, 18]
@@ -794,7 +794,7 @@
   {
     "id": 145,
     "name": "砕けた石材",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0120_S.webp",
     "equipment_tool_trait_ids": [7, 22]
@@ -802,7 +802,7 @@
   {
     "id": 146,
     "name": "スキマグサ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0121_S.webp",
     "battle_tool_trait_ids": [47, 18]
@@ -810,7 +810,7 @@
   {
     "id": 147,
     "name": "聖なるねじれ樹",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0122_S.webp",
     "equipment_tool_trait_ids": [15, 3]
@@ -818,7 +818,7 @@
   {
     "id": 148,
     "name": "スーメック",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0123_S.webp",
     "equipment_tool_trait_ids": [13, 29]
@@ -826,7 +826,7 @@
   {
     "id": 149,
     "name": "ルインストン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0124_S.webp",
     "equipment_tool_trait_ids": [24, 47]
@@ -834,7 +834,7 @@
   {
     "id": 150,
     "name": "朽ちた樹の大枝",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0125_S.webp",
     "equipment_tool_trait_ids": [38, 26]
@@ -842,7 +842,7 @@
   {
     "id": 151,
     "name": "古代魚",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0126_S.webp",
     "battle_tool_trait_ids": [20, 24]
@@ -850,7 +850,7 @@
   {
     "id": 152,
     "name": "朽ちた樹の枯れ枝",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0127_S.webp",
     "battle_tool_trait_ids": [8, 50]
@@ -858,7 +858,7 @@
   {
     "id": 153,
     "name": "幻惑の木片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0128_S.webp",
     "battle_tool_trait_ids": [15, 44]
@@ -866,7 +866,7 @@
   {
     "id": 154,
     "name": "ルインフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0129_S.webp",
     "equipment_tool_trait_ids": [28, 36]
@@ -874,7 +874,7 @@
   {
     "id": 155,
     "name": "派手な石材",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0130_S.webp",
     "equipment_tool_trait_ids": [57, 47]
@@ -882,7 +882,7 @@
   {
     "id": 156,
     "name": "邪なるねじれ樹",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0131_S.webp",
     "equipment_tool_trait_ids": [46, 35]
@@ -890,7 +890,7 @@
   {
     "id": 157,
     "name": "ブラストフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0132_S.webp",
     "battle_tool_trait_ids": [28, 48]
@@ -898,7 +898,7 @@
   {
     "id": 158,
     "name": "ツドイグサ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0133_S.webp",
     "equipment_tool_trait_ids": [59, 12]
@@ -906,7 +906,7 @@
   {
     "id": 159,
     "name": "ブランチトランク",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0134_S.webp",
     "equipment_tool_trait_ids": [29, 37]
@@ -914,7 +914,7 @@
   {
     "id": 160,
     "name": "チョウロウウオ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0135_S.webp",
     "equipment_tool_trait_ids": [27, 52]
@@ -922,7 +922,7 @@
   {
     "id": 161,
     "name": "正体不明の輝石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0136_S.webp",
     "equipment_tool_trait_ids": [45, 49]
@@ -930,7 +930,7 @@
   {
     "id": 162,
     "name": "太古の老木",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0137_S.webp",
     "battle_tool_trait_ids": [32, 17]
@@ -938,7 +938,7 @@
   {
     "id": 163,
     "name": "太古の聖魚",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0138_S.webp",
     "equipment_tool_trait_ids": [30, 44]
@@ -946,7 +946,7 @@
   {
     "id": 164,
     "name": "導きの花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0139_S.webp",
     "equipment_tool_trait_ids": [33, 53]
@@ -954,7 +954,7 @@
   {
     "id": 165,
     "name": "ローズビー",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0140_S.webp",
     "battle_tool_trait_ids": [27, 21]
@@ -962,7 +962,7 @@
   {
     "id": 166,
     "name": "首垂れ草",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0141_S.webp",
     "equipment_tool_trait_ids": [8, 20]
@@ -970,7 +970,7 @@
   {
     "id": 167,
     "name": "紫紺の雫",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0142_S.webp",
     "equipment_tool_trait_ids": [12, 23]
@@ -978,7 +978,7 @@
   {
     "id": 168,
     "name": "オレンジグラス",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0143_S.webp",
     "equipment_tool_trait_ids": [4, 21]
@@ -986,7 +986,7 @@
   {
     "id": 169,
     "name": "ジェムフライ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0144_S.webp",
     "battle_tool_trait_ids": [2, 22]
@@ -994,7 +994,7 @@
   {
     "id": 170,
     "name": "灯篭ホタル",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0145_S.webp",
     "equipment_tool_trait_ids": [14, 41]
@@ -1002,7 +1002,7 @@
   {
     "id": 171,
     "name": "激憤の叫び",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0146_S.webp",
     "battle_tool_trait_ids": [30, 47]
@@ -1010,7 +1010,7 @@
   {
     "id": 172,
     "name": "霊魂宝珠",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0147_S.webp",
     "equipment_tool_trait_ids": [38, 51]
@@ -1018,7 +1018,7 @@
   {
     "id": 175,
     "name": "オニワライタケ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0148_S.webp",
     "equipment_tool_trait_ids": [28, 25]
@@ -1026,7 +1026,7 @@
   {
     "id": 176,
     "name": "こじょのこしかけ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0149_S.webp",
     "equipment_tool_trait_ids": [29, 38]
@@ -1034,7 +1034,7 @@
   {
     "id": 177,
     "name": "レジエン石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0150_S.webp",
     "equipment_tool_trait_ids": [15, 46]
@@ -1042,7 +1042,7 @@
   {
     "id": 178,
     "name": "日影石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0151_S.webp",
     "battle_tool_trait_ids": [35, 1]
@@ -1050,7 +1050,7 @@
   {
     "id": 179,
     "name": "宝石草のタネ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0152_S.webp",
     "battle_tool_trait_ids": [12, 17]
@@ -1058,7 +1058,7 @@
   {
     "id": 180,
     "name": "月のしずく",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0153_S.webp",
     "battle_tool_trait_ids": [20, 48]
@@ -1066,7 +1066,7 @@
   {
     "id": 182,
     "name": "黄金うにの枝",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0155_S.webp",
     "equipment_tool_trait_ids": [25, 32]
@@ -1074,7 +1074,7 @@
   {
     "id": 183,
     "name": "聖銀石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0156_S.webp",
     "equipment_tool_trait_ids": [2, 24]
@@ -1082,7 +1082,7 @@
   {
     "id": 189,
     "name": "ハロウィンパンプキン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0157_S.webp",
     "equipment_tool_trait_ids": [49, 33]
@@ -1090,7 +1090,7 @@
   {
     "id": 190,
     "name": "ハロウィンツリー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0158_S.webp",
     "battle_tool_trait_ids": [34, 44]
@@ -1098,7 +1098,7 @@
   {
     "id": 191,
     "name": "ハロウィンバグ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0159_S.webp",
     "battle_tool_trait_ids": [29, 14]
@@ -1106,7 +1106,7 @@
   {
     "id": 199,
     "name": "赤曜鉱",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0160_S.webp",
     "battle_tool_trait_ids": [16, 11]
@@ -1114,7 +1114,7 @@
   {
     "id": 200,
     "name": "赤玉鉱石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0161_S.webp",
     "equipment_tool_trait_ids": [28, 18]
@@ -1122,7 +1122,7 @@
   {
     "id": 201,
     "name": "フロジストン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0162_S.webp",
     "battle_tool_trait_ids": [9, 44]
@@ -1130,7 +1130,7 @@
   {
     "id": 202,
     "name": "聖石の欠片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0163_S.webp",
     "equipment_tool_trait_ids": [34, 48]
@@ -1138,7 +1138,7 @@
   {
     "id": 203,
     "name": "ホシナナ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0164_S.webp",
     "equipment_tool_trait_ids": [2, 21]
@@ -1146,7 +1146,7 @@
   {
     "id": 204,
     "name": "スピリト・モルグ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0165_S.webp",
     "equipment_tool_trait_ids": [31, 49]
@@ -1154,7 +1154,7 @@
   {
     "id": 205,
     "name": "モノノフバッタ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0166_S.webp",
     "equipment_tool_trait_ids": [12, 36]
@@ -1162,7 +1162,7 @@
   {
     "id": 206,
     "name": "フラムドラグーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0167_S.webp",
     "equipment_tool_trait_ids": [30, 44]
@@ -1170,7 +1170,7 @@
   {
     "id": 207,
     "name": "マグマパウダー",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0168_S.webp",
     "equipment_tool_trait_ids": [26, 13]
@@ -1178,7 +1178,7 @@
   {
     "id": 208,
     "name": "炭化樹皮",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0169_S.webp",
     "equipment_tool_trait_ids": [27, 35]
@@ -1186,7 +1186,7 @@
   {
     "id": 209,
     "name": "シュランク",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0170_S.webp",
     "battle_tool_trait_ids": [51, 46]
@@ -1194,7 +1194,7 @@
   {
     "id": 210,
     "name": "熔けあう硬木",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0171_S.webp",
     "equipment_tool_trait_ids": [37, 56]
@@ -1202,7 +1202,7 @@
   {
     "id": 211,
     "name": "赤熱結晶",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0172_S.webp",
     "equipment_tool_trait_ids": [45, 47]
@@ -1210,7 +1210,7 @@
   {
     "id": 212,
     "name": "黒玉鉱石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0173_S.webp",
     "equipment_tool_trait_ids": [3, 35]
@@ -1218,7 +1218,7 @@
   {
     "id": 213,
     "name": "ヴァイヒ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0174_S.webp",
     "equipment_tool_trait_ids": [55, 38]
@@ -1226,7 +1226,7 @@
   {
     "id": 214,
     "name": "トキシーアント",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0175_S.webp",
     "battle_tool_trait_ids": [21, 26]
@@ -1234,7 +1234,7 @@
   {
     "id": 215,
     "name": "スピアワーム",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0176_S.webp",
     "equipment_tool_trait_ids": [57, 36]
@@ -1242,7 +1242,7 @@
   {
     "id": 216,
     "name": "フェロス・モルグ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0177_S.webp",
     "battle_tool_trait_ids": [10, 2]
@@ -1250,7 +1250,7 @@
   {
     "id": 217,
     "name": "紅草",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0178_S.webp",
     "battle_tool_trait_ids": [22, 6]
@@ -1258,7 +1258,7 @@
   {
     "id": 218,
     "name": "灰かぶり草",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0179_S.webp",
     "battle_tool_trait_ids": [7, 47]
@@ -1266,7 +1266,7 @@
   {
     "id": 219,
     "name": "ブルリエーレ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0180_S.webp",
     "equipment_tool_trait_ids": [32, 54]
@@ -1274,7 +1274,7 @@
   {
     "id": 220,
     "name": "老木の枝葉",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0181_S.webp",
     "equipment_tool_trait_ids": [12, 46]
@@ -1282,7 +1282,7 @@
   {
     "id": 221,
     "name": "ファニプラント",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0182_S.webp",
     "battle_tool_trait_ids": [8, 24]
@@ -1290,7 +1290,7 @@
   {
     "id": 222,
     "name": "酸いの実",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0183_S.webp",
     "equipment_tool_trait_ids": [9, 19]
@@ -1298,7 +1298,7 @@
   {
     "id": 223,
     "name": "アイヒェロア",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0184_S.webp",
     "equipment_tool_trait_ids": [5, 23]
@@ -1306,7 +1306,7 @@
   {
     "id": 224,
     "name": "ハイネの炎石",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0185_S.webp",
     "equipment_tool_trait_ids": [6, 40]
@@ -1314,7 +1314,7 @@
   {
     "id": 225,
     "name": "プルムル",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0186_S.webp",
     "battle_tool_trait_ids": [15, 28]
@@ -1322,7 +1322,7 @@
   {
     "id": 226,
     "name": "ザフロア油",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0187_S.webp",
     "equipment_tool_trait_ids": [6, 48]
@@ -1330,7 +1330,7 @@
   {
     "id": 227,
     "name": "煌く砂",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0188_S.webp",
     "battle_tool_trait_ids": [13, 51]
@@ -1338,7 +1338,7 @@
   {
     "id": 228,
     "name": "恩寵の淑女",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0189_S.webp",
     "equipment_tool_trait_ids": [14, 20]
@@ -1346,7 +1346,7 @@
   {
     "id": 231,
     "name": "星の花",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0190_S.webp",
     "equipment_tool_trait_ids": [48, 4]
@@ -1354,7 +1354,7 @@
   {
     "id": 232,
     "name": "星の実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0191_S.webp",
     "equipment_tool_trait_ids": [28, 53]
@@ -1362,7 +1362,7 @@
   {
     "id": 233,
     "name": "ハイネライト",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0192_S.webp",
     "battle_tool_trait_ids": [15, 49]
@@ -1370,7 +1370,7 @@
   {
     "id": 234,
     "name": "玉鋼石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0193_S.webp",
     "battle_tool_trait_ids": [26, 48]
@@ -1378,7 +1378,7 @@
   {
     "id": 235,
     "name": "オオオニカブト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0194_S.webp",
     "battle_tool_trait_ids": [3, 46]
@@ -1386,7 +1386,7 @@
   {
     "id": 236,
     "name": "黄金樹の葉",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0195_S.webp",
     "battle_tool_trait_ids": [33, 21]
@@ -1394,7 +1394,7 @@
   {
     "id": 246,
     "name": "ヤギミルク",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0196_S.webp",
     "equipment_tool_trait_ids": [13, 22]
@@ -1402,7 +1402,7 @@
   {
     "id": 247,
     "name": "夢見の霧花",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0197_S.webp",
     "battle_tool_trait_ids": [31, 11]
@@ -1410,7 +1410,7 @@
   {
     "id": 248,
     "name": "森の賢人",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0198_S.webp",
     "equipment_tool_trait_ids": [42, 27]
@@ -1418,7 +1418,7 @@
   {
     "id": 249,
     "name": "七煌原石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0199_S.webp",
     "battle_tool_trait_ids": [14, 36]
@@ -1426,7 +1426,7 @@
   {
     "id": 250,
     "name": "ゴールデンクラウン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0200_S.webp",
     "equipment_tool_trait_ids": [46, 16]
@@ -1434,7 +1434,7 @@
   {
     "id": 251,
     "name": "大王うに",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0201_S.webp",
     "battle_tool_trait_ids": [18, 23]
@@ -1442,7 +1442,7 @@
   {
     "id": 253,
     "name": "ホーテエルブ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0202_S.webp",
     "battle_tool_trait_ids": [13, 45]
@@ -1450,7 +1450,7 @@
   {
     "id": 254,
     "name": "雷雲の隠れ家",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0203_S.webp",
     "equipment_tool_trait_ids": [2, 34]
@@ -1458,7 +1458,7 @@
   {
     "id": 255,
     "name": "甘露の枝",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0204_S.webp",
     "equipment_tool_trait_ids": [16, 46]
@@ -1466,7 +1466,7 @@
   {
     "id": 256,
     "name": "常世の仙花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0205_S.webp",
     "equipment_tool_trait_ids": [31, 45]
@@ -1474,7 +1474,7 @@
   {
     "id": 257,
     "name": "青い花",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0206_S.webp",
     "battle_tool_trait_ids": [5, 23]
@@ -1482,7 +1482,7 @@
   {
     "id": 258,
     "name": "ソンブルエルブ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0207_S.webp",
     "equipment_tool_trait_ids": [33, 47]
@@ -1490,7 +1490,7 @@
   {
     "id": 259,
     "name": "ニガゴケグサ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0208_S.webp",
     "equipment_tool_trait_ids": [15, 25]
@@ -1498,7 +1498,7 @@
   {
     "id": 260,
     "name": "清香水",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0209_S.webp",
     "equipment_tool_trait_ids": [27, 29]
@@ -1506,7 +1506,7 @@
   {
     "id": 261,
     "name": "混濁水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0210_S.webp",
     "equipment_tool_trait_ids": [7, 44]
@@ -1514,7 +1514,7 @@
   {
     "id": 262,
     "name": "透き通る水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0211_S.webp",
     "battle_tool_trait_ids": [3, 27]
@@ -1522,7 +1522,7 @@
   {
     "id": 263,
     "name": "ユグドールの湧水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0212_S.webp",
     "equipment_tool_trait_ids": [18, 31]
@@ -1530,7 +1530,7 @@
   {
     "id": 264,
     "name": "甘美な樹液",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0213_S.webp",
     "equipment_tool_trait_ids": [12, 19]
@@ -1538,7 +1538,7 @@
   {
     "id": 265,
     "name": "原野の湧水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0214_S.webp",
     "equipment_tool_trait_ids": [14, 34]
@@ -1546,7 +1546,7 @@
   {
     "id": 266,
     "name": "花香水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0215_S.webp",
     "battle_tool_trait_ids": [3, 45]
@@ -1554,7 +1554,7 @@
   {
     "id": 267,
     "name": "カゲイナゴ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0216_S.webp",
     "equipment_tool_trait_ids": [4, 20]
@@ -1562,7 +1562,7 @@
   {
     "id": 268,
     "name": "ルビー・パピヨン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0217_S.webp",
     "battle_tool_trait_ids": [6, 50]
@@ -1570,7 +1570,7 @@
   {
     "id": 269,
     "name": "毒トンボ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0218_S.webp",
     "equipment_tool_trait_ids": [31, 51]
@@ -1578,7 +1578,7 @@
   {
     "id": 270,
     "name": "月光ホタル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0219_S.webp",
     "battle_tool_trait_ids": [10, 19]
@@ -1586,7 +1586,7 @@
   {
     "id": 271,
     "name": "アメル",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0220_S.webp",
     "battle_tool_trait_ids": [10, 14]
@@ -1594,7 +1594,7 @@
   {
     "id": 272,
     "name": "カタ巻き貝",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0221_S.webp",
     "equipment_tool_trait_ids": [30, 39]
@@ -1602,7 +1602,7 @@
   {
     "id": 273,
     "name": "ミミクリー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0222_S.webp",
     "battle_tool_trait_ids": [20, 49]
@@ -1610,7 +1610,7 @@
   {
     "id": 274,
     "name": "ルミナアメル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0223_S.webp",
     "equipment_tool_trait_ids": [32, 51]
@@ -1618,7 +1618,7 @@
   {
     "id": 275,
     "name": "オニナキダケ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0224_S.webp",
     "equipment_tool_trait_ids": [5, 22]
@@ -1626,7 +1626,7 @@
   {
     "id": 276,
     "name": "ニューズ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0225_S.webp",
     "battle_tool_trait_ids": [7, 23]
@@ -1634,7 +1634,7 @@
   {
     "id": 277,
     "name": "濁った結晶",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0226_S.webp",
     "equipment_tool_trait_ids": [1, 39]
@@ -1642,7 +1642,7 @@
   {
     "id": 278,
     "name": "翡翠の煌水",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0227_S.webp",
     "equipment_tool_trait_ids": [9, 21]
@@ -1650,7 +1650,7 @@
   {
     "id": 279,
     "name": "色綿草",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0228_S.webp",
     "battle_tool_trait_ids": [18, 48]
@@ -1658,7 +1658,7 @@
   {
     "id": 280,
     "name": "宵闇草",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0229_S.webp",
     "equipment_tool_trait_ids": [8, 45]
@@ -1666,7 +1666,7 @@
   {
     "id": 281,
     "name": "グンセイゴケ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0230_S.webp",
     "equipment_tool_trait_ids": [43, 27]
@@ -1674,7 +1674,7 @@
   {
     "id": 282,
     "name": "フロートオクトパス",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0231_S.webp",
     "equipment_tool_trait_ids": [13, 35]
@@ -1682,7 +1682,7 @@
   {
     "id": 283,
     "name": "デルフィローズ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0238_S.webp",
     "equipment_tool_trait_ids": [14, 3]
@@ -1690,7 +1690,7 @@
   {
     "id": 284,
     "name": "創生の逆さ石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0241_S.webp",
     "battle_tool_trait_ids": [44, 45]
@@ -1698,7 +1698,7 @@
   {
     "id": 285,
     "name": "ローズクリスタル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0239_S.webp",
     "equipment_tool_trait_ids": [9, 2]
@@ -1706,7 +1706,7 @@
   {
     "id": 286,
     "name": "アークナイト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0242_S.webp",
     "battle_tool_trait_ids": [51, 49]
@@ -1714,7 +1714,7 @@
   {
     "id": 287,
     "name": "キュリオスアクア",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0240_S.webp",
     "equipment_tool_trait_ids": [7, 2]
@@ -1722,7 +1722,7 @@
   {
     "id": 288,
     "name": "虹翼の欠片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0243_S.webp",
     "battle_tool_trait_ids": [13, 17]
@@ -1730,7 +1730,7 @@
   {
     "id": 291,
     "name": "星夜の葡萄",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0232_S.webp",
     "battle_tool_trait_ids": [19, 46]
@@ -1738,7 +1738,7 @@
   {
     "id": 292,
     "name": "星夜のシゾール",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0233_S.webp",
     "battle_tool_trait_ids": [14, 22]
@@ -1746,7 +1746,7 @@
   {
     "id": 293,
     "name": "星夜の丹花",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0236_S.webp",
     "battle_tool_trait_ids": [7, 50]
@@ -1754,7 +1754,7 @@
   {
     "id": 294,
     "name": "星夜の樹",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0235_S.webp",
     "equipment_tool_trait_ids": [27, 20]
@@ -1762,7 +1762,7 @@
   {
     "id": 295,
     "name": "星夜の琥珀",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0234_S.webp",
     "equipment_tool_trait_ids": [7, 38]
@@ -1770,7 +1770,7 @@
   {
     "id": 296,
     "name": "星夜の白花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0237_S.webp",
     "equipment_tool_trait_ids": [36, 40]
@@ -1778,7 +1778,7 @@
   {
     "id": 299,
     "name": "初春の迎え竹",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0244_S.webp",
     "equipment_tool_trait_ids": [12, 44]
@@ -1786,7 +1786,7 @@
   {
     "id": 300,
     "name": "初春の果実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0245_S.webp",
     "equipment_tool_trait_ids": [2, 25]
@@ -1794,7 +1794,7 @@
   {
     "id": 301,
     "name": "初春の長寿海老",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0246_S.webp",
     "battle_tool_trait_ids": [12, 13]
@@ -1802,7 +1802,7 @@
   {
     "id": 302,
     "name": "初春の若水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0247_S.webp",
     "equipment_tool_trait_ids": [32, 25]
@@ -1810,7 +1810,7 @@
   {
     "id": 303,
     "name": "初春の清葉",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0248_S.webp",
     "equipment_tool_trait_ids": [33, 29]
@@ -1818,7 +1818,7 @@
   {
     "id": 304,
     "name": "初春の祝い魚",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0249_S.webp",
     "battle_tool_trait_ids": [46, 50]
@@ -1826,7 +1826,7 @@
   {
     "id": 313,
     "name": "地下蜘蛛",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0250_S.webp",
     "equipment_tool_trait_ids": [13, 24]
@@ -1834,7 +1834,7 @@
   {
     "id": 314,
     "name": "ライデンドラグーン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0251_S.webp",
     "equipment_tool_trait_ids": [4, 44]
@@ -1842,7 +1842,7 @@
   {
     "id": 315,
     "name": "ベビーメナス",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0252_S.webp",
     "equipment_tool_trait_ids": [41, 59]
@@ -1850,7 +1850,7 @@
   {
     "id": 316,
     "name": "イグルワーム",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0253_S.webp",
     "equipment_tool_trait_ids": [23, 30]
@@ -1858,7 +1858,7 @@
   {
     "id": 317,
     "name": "マインアント",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0254_S.webp",
     "battle_tool_trait_ids": [5, 19]
@@ -1866,7 +1866,7 @@
   {
     "id": 318,
     "name": "地下女王蜘蛛",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0255_S.webp",
     "equipment_tool_trait_ids": [31, 47]
@@ -1874,7 +1874,7 @@
   {
     "id": 319,
     "name": "ファントムバタフライ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0256_S.webp",
     "equipment_tool_trait_ids": [1, 36]
@@ -1882,7 +1882,7 @@
   {
     "id": 320,
     "name": "水晶のかけら",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0257_S.webp",
     "battle_tool_trait_ids": [7, 16]
@@ -1890,7 +1890,7 @@
   {
     "id": 321,
     "name": "フーレエルズ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0258_S.webp",
     "battle_tool_trait_ids": [27, 32]
@@ -1898,7 +1898,7 @@
   {
     "id": 322,
     "name": "紅い原石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0259_S.webp",
     "battle_tool_trait_ids": [33, 38]
@@ -1906,7 +1906,7 @@
   {
     "id": 323,
     "name": "蒼い原石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0260_S.webp",
     "battle_tool_trait_ids": [18, 22]
@@ -1914,7 +1914,7 @@
   {
     "id": 324,
     "name": "夢想石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0261_S.webp",
     "equipment_tool_trait_ids": [16, 35]
@@ -1922,7 +1922,7 @@
   {
     "id": 325,
     "name": "眩い水晶のかけら",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0262_S.webp",
     "battle_tool_trait_ids": [1, 28]
@@ -1930,7 +1930,7 @@
   {
     "id": 326,
     "name": "虹色の水晶片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0263_S.webp",
     "equipment_tool_trait_ids": [28, 29]
@@ -1938,7 +1938,7 @@
   {
     "id": 327,
     "name": "ソフレソース",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0264_S.webp",
     "equipment_tool_trait_ids": [26, 40]
@@ -1946,7 +1946,7 @@
   {
     "id": 328,
     "name": "地底水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0265_S.webp",
     "equipment_tool_trait_ids": [27, 20]
@@ -1954,7 +1954,7 @@
   {
     "id": 329,
     "name": "療養水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0266_S.webp",
     "equipment_tool_trait_ids": [9, 38]
@@ -1962,7 +1962,7 @@
   {
     "id": 330,
     "name": "シュトロムヴァッサー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0267_S.webp",
     "equipment_tool_trait_ids": [26, 33]
@@ -1970,7 +1970,7 @@
   {
     "id": 331,
     "name": "フーレシュメーレ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0268_S.webp",
     "battle_tool_trait_ids": [12, 46]
@@ -1978,7 +1978,7 @@
   {
     "id": 332,
     "name": "チークフィッシュ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0269_S.webp",
     "equipment_tool_trait_ids": [36, 39]
@@ -1986,7 +1986,7 @@
   {
     "id": 333,
     "name": "リードフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0270_S.webp",
     "equipment_tool_trait_ids": [45, 48]
@@ -1994,7 +1994,7 @@
   {
     "id": 334,
     "name": "幽暗魚",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0271_S.webp",
     "battle_tool_trait_ids": [4, 11]
@@ -2002,7 +2002,7 @@
   {
     "id": 335,
     "name": "何かのぬけがら",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0272_S.webp",
     "equipment_tool_trait_ids": [10, 18]
@@ -2010,7 +2010,7 @@
   {
     "id": 336,
     "name": "とげとげの実",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0273_S.webp",
     "equipment_tool_trait_ids": [23, 41]
@@ -2018,7 +2018,7 @@
   {
     "id": 337,
     "name": "何かのタマゴ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0274_S.webp",
     "equipment_tool_trait_ids": [8, 22]
@@ -2026,7 +2026,7 @@
   {
     "id": 338,
     "name": "チャミーバブル",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0275_S.webp",
     "battle_tool_trait_ids": [8, 18]
@@ -2034,7 +2034,7 @@
   {
     "id": 339,
     "name": "青とげの実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0276_S.webp",
     "equipment_tool_trait_ids": [18, 37]
@@ -2042,7 +2042,7 @@
   {
     "id": 340,
     "name": "純白の砂",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0277_S.webp",
     "battle_tool_trait_ids": [21, 29]
@@ -2050,7 +2050,7 @@
   {
     "id": 341,
     "name": "金とげの実",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0278_S.webp",
     "equipment_tool_trait_ids": [2, 53]
@@ -2058,7 +2058,7 @@
   {
     "id": 342,
     "name": "オーロラツリー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0279_S.webp",
     "battle_tool_trait_ids": [5, 20]
@@ -2066,7 +2066,7 @@
   {
     "id": 346,
     "name": "鉱石かぼちゃ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0280_S.webp",
     "battle_tool_trait_ids": [9, 27]
@@ -2074,7 +2074,7 @@
   {
     "id": 347,
     "name": "百色貝の貝がら",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0281_S.webp",
     "battle_tool_trait_ids": [1, 26]
@@ -2082,7 +2082,7 @@
   {
     "id": 348,
     "name": "おおがさ木イチゴ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0282_S.webp",
     "equipment_tool_trait_ids": [39, 19]
@@ -2090,7 +2090,7 @@
   {
     "id": 349,
     "name": "絶滅寸前の薬草",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0283_S.webp",
     "battle_tool_trait_ids": [25, 19]
@@ -2098,7 +2098,7 @@
   {
     "id": 350,
     "name": "星核",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0284_S.webp",
     "equipment_tool_trait_ids": [6, 19]
@@ -2106,7 +2106,7 @@
   {
     "id": 351,
     "name": "古ぼけた宝箱",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0285_S.webp",
     "equipment_tool_trait_ids": [12, 41]
@@ -2114,7 +2114,7 @@
   {
     "id": 352,
     "name": "ホワイトフライ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0286_S.webp",
     "equipment_tool_trait_ids": [7, 42]
@@ -2122,7 +2122,7 @@
   {
     "id": 353,
     "name": "ヒョウセツカブト",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0287_S.webp",
     "equipment_tool_trait_ids": [31, 43]
@@ -2130,7 +2130,7 @@
   {
     "id": 354,
     "name": "アイスホッパー",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0288_S.webp",
     "equipment_tool_trait_ids": [16, 50]
@@ -2138,7 +2138,7 @@
   {
     "id": 355,
     "name": "スノーフレイク",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0289_S.webp",
     "equipment_tool_trait_ids": [33, 35]
@@ -2146,7 +2146,7 @@
   {
     "id": 356,
     "name": "パラサイト・モルグ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0290_S.webp",
     "equipment_tool_trait_ids": [21, 47]
@@ -2154,7 +2154,7 @@
   {
     "id": 357,
     "name": "アイシクルフライ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0291_S.webp",
     "equipment_tool_trait_ids": [12, 48]
@@ -2162,7 +2162,7 @@
   {
     "id": 358,
     "name": "ウォームマンティス",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0292_S.webp",
     "equipment_tool_trait_ids": [27, 38]
@@ -2170,7 +2170,7 @@
   {
     "id": 359,
     "name": "エルテ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0293_S.webp",
     "battle_tool_trait_ids": [25, 32]
@@ -2178,7 +2178,7 @@
   {
     "id": 360,
     "name": "ブロンエクレトン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0294_S.webp",
     "battle_tool_trait_ids": [4, 11]
@@ -2186,7 +2186,7 @@
   {
     "id": 361,
     "name": "薫木の皮",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0295_S.webp",
     "battle_tool_trait_ids": [8, 10]
@@ -2194,7 +2194,7 @@
   {
     "id": 362,
     "name": "浄化の木片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0296_S.webp",
     "battle_tool_trait_ids": [36, 45]
@@ -2202,7 +2202,7 @@
   {
     "id": 363,
     "name": "フリーズツリー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0297_S.webp",
     "equipment_tool_trait_ids": [25, 28]
@@ -2210,7 +2210,7 @@
   {
     "id": 364,
     "name": "ネージュエルテ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0298_S.webp",
     "battle_tool_trait_ids": [20, 51]
@@ -2218,7 +2218,7 @@
   {
     "id": 365,
     "name": "ジェルアルブル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0299_S.webp",
     "equipment_tool_trait_ids": [31, 36]
@@ -2226,7 +2226,7 @@
   {
     "id": 366,
     "name": "光る結晶",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0300_S.webp",
     "equipment_tool_trait_ids": [1, 24]
@@ -2234,7 +2234,7 @@
   {
     "id": 367,
     "name": "零氷石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0301_S.webp",
     "equipment_tool_trait_ids": [8, 21]
@@ -2242,7 +2242,7 @@
   {
     "id": 368,
     "name": "ディアマント原石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0302_S.webp",
     "equipment_tool_trait_ids": [17, 26]
@@ -2250,7 +2250,7 @@
   {
     "id": 369,
     "name": "透輝石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0303_S.webp",
     "equipment_tool_trait_ids": [15, 20]
@@ -2258,7 +2258,7 @@
   {
     "id": 370,
     "name": "凍てつく水",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0304_S.webp",
     "equipment_tool_trait_ids": [9, 41]
@@ -2266,7 +2266,7 @@
   {
     "id": 371,
     "name": "万年霧氷",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0305_S.webp",
     "equipment_tool_trait_ids": [11, 45]
@@ -2274,7 +2274,7 @@
   {
     "id": 372,
     "name": "吹雪く水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0306_S.webp",
     "equipment_tool_trait_ids": [13, 54]
@@ -2282,7 +2282,7 @@
   {
     "id": 373,
     "name": "不凍のしずく",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0307_S.webp",
     "battle_tool_trait_ids": [12, 49]
@@ -2290,7 +2290,7 @@
   {
     "id": 374,
     "name": "泥だんご",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0308_S.webp",
     "equipment_tool_trait_ids": [14, 46]
@@ -2298,7 +2298,7 @@
   {
     "id": 375,
     "name": "きまぐれいちご",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0309_S.webp",
     "equipment_tool_trait_ids": [5, 23]
@@ -2306,7 +2306,7 @@
   {
     "id": 376,
     "name": "きふじんのこしかけ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0310_S.webp",
     "equipment_tool_trait_ids": [1, 40]
@@ -2314,7 +2314,7 @@
   {
     "id": 377,
     "name": "雪の女王",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0311_S.webp",
     "battle_tool_trait_ids": [2, 15]
@@ -2322,7 +2322,7 @@
   {
     "id": 378,
     "name": "灰だんご",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0312_S.webp",
     "equipment_tool_trait_ids": [11, 24]
@@ -2330,7 +2330,7 @@
   {
     "id": 379,
     "name": "深碧きのこ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0313_S.webp",
     "battle_tool_trait_ids": [8, 19]
@@ -2338,7 +2338,7 @@
   {
     "id": 380,
     "name": "金のだんご",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0314_S.webp",
     "equipment_tool_trait_ids": [10, 37]
@@ -2346,7 +2346,7 @@
   {
     "id": 381,
     "name": "ハイリヒブルーメ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0315_S.webp",
     "battle_tool_trait_ids": [4, 16]
@@ -2354,7 +2354,7 @@
   {
     "id": 392,
     "name": "スウィートフラワー",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0316_S.webp",
     "battle_tool_trait_ids": [4, 12]
@@ -2362,7 +2362,7 @@
   {
     "id": 393,
     "name": "スウィートリーフ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0317_S.webp",
     "battle_tool_trait_ids": [23, 47]
@@ -2370,7 +2370,7 @@
   {
     "id": 394,
     "name": "スウィートミルク",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0318_S.webp",
     "battle_tool_trait_ids": [50, 3]
@@ -2378,7 +2378,7 @@
   {
     "id": 395,
     "name": "スウィートピース",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0319_S.webp",
     "equipment_tool_trait_ids": [14, 29]
@@ -2386,7 +2386,7 @@
   {
     "id": 396,
     "name": "スウィートバタフライ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0320_S.webp",
     "equipment_tool_trait_ids": [2, 40]
@@ -2394,7 +2394,7 @@
   {
     "id": 397,
     "name": "スウィートフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0321_S.webp",
     "equipment_tool_trait_ids": [45, 17]
@@ -2402,7 +2402,7 @@
   {
     "id": 403,
     "name": "グラビ石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0388_S.webp",
     "equipment_tool_trait_ids": [22, 61]
@@ -2410,7 +2410,7 @@
   {
     "id": 404,
     "name": "虹のかけら",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0389_S.webp",
     "equipment_tool_trait_ids": [41, 60]
@@ -2418,7 +2418,7 @@
   {
     "id": 405,
     "name": "ペンデローク",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0327_S.webp",
     "equipment_tool_trait_ids": [2, 62]
@@ -2426,7 +2426,7 @@
   {
     "id": 408,
     "name": "やせた果実",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0350_S.webp",
     "battle_tool_trait_ids": [1, 15]
@@ -2434,7 +2434,7 @@
   {
     "id": 409,
     "name": "大きな骨",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0351_S.webp",
     "equipment_tool_trait_ids": [1, 23]
@@ -2442,7 +2442,7 @@
   {
     "id": 410,
     "name": "エイグルフリュイ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0352_S.webp",
     "battle_tool_trait_ids": [13, 10]
@@ -2450,7 +2450,7 @@
   {
     "id": 411,
     "name": "群体きのこ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0353_S.webp",
     "equipment_tool_trait_ids": [10, 22]
@@ -2458,7 +2458,7 @@
   {
     "id": 412,
     "name": "熟した果実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0354_S.webp",
     "equipment_tool_trait_ids": [18, 9]
@@ -2466,7 +2466,7 @@
   {
     "id": 413,
     "name": "アカネゴケ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0355_S.webp",
     "battle_tool_trait_ids": [46, 23]
@@ -2474,7 +2474,7 @@
   {
     "id": 414,
     "name": "黄金の果実",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0356_S.webp",
     "equipment_tool_trait_ids": [45, 26]
@@ -2482,7 +2482,7 @@
   {
     "id": 415,
     "name": "幻のタマゴ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0357_S.webp",
     "equipment_tool_trait_ids": [60, 20]
@@ -2490,7 +2490,7 @@
   {
     "id": 416,
     "name": "ソプラノコオロギ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0328_S.webp",
     "battle_tool_trait_ids": [5, 15]
@@ -2498,7 +2498,7 @@
   {
     "id": 417,
     "name": "ディソワフルール",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0335_S.webp",
     "equipment_tool_trait_ids": [25, 47]
@@ -2506,7 +2506,7 @@
   {
     "id": 418,
     "name": "古びた木片",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0342_S.webp",
     "battle_tool_trait_ids": [11, 20]
@@ -2514,7 +2514,7 @@
   {
     "id": 419,
     "name": "アイゼン鉱",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0346_S.webp",
     "equipment_tool_trait_ids": [26, 1]
@@ -2522,7 +2522,7 @@
   {
     "id": 420,
     "name": "ストーンアント",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0329_S.webp",
     "equipment_tool_trait_ids": [30, 38]
@@ -2530,7 +2530,7 @@
   {
     "id": 421,
     "name": "変異トーン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0336_S.webp",
     "equipment_tool_trait_ids": [39, 20]
@@ -2538,7 +2538,7 @@
   {
     "id": 422,
     "name": "シニストランク",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0343_S.webp",
     "battle_tool_trait_ids": [3, 25]
@@ -2546,7 +2546,7 @@
   {
     "id": 423,
     "name": "アンウェワーム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0330_S.webp",
     "equipment_tool_trait_ids": [9, 36]
@@ -2554,7 +2554,7 @@
   {
     "id": 424,
     "name": "カスミソウ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0337_S.webp",
     "equipment_tool_trait_ids": [7, 47]
@@ -2562,7 +2562,7 @@
   {
     "id": 425,
     "name": "柔鉄鉱",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0347_S.webp",
     "equipment_tool_trait_ids": [8, 18]
@@ -2570,7 +2570,7 @@
   {
     "id": 426,
     "name": "バスコオロギ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0331_S.webp",
     "equipment_tool_trait_ids": [14, 40]
@@ -2578,7 +2578,7 @@
   {
     "id": 427,
     "name": "ミニュイフルール",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0338_S.webp",
     "equipment_tool_trait_ids": [49, 12]
@@ -2586,7 +2586,7 @@
   {
     "id": 428,
     "name": "ジンビオーズ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0344_S.webp",
     "equipment_tool_trait_ids": [28, 21]
@@ -2594,7 +2594,7 @@
   {
     "id": 429,
     "name": "王古虫",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0332_S.webp",
     "battle_tool_trait_ids": [15, 48]
@@ -2602,7 +2602,7 @@
   {
     "id": 430,
     "name": "夜光花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0339_S.webp",
     "equipment_tool_trait_ids": [46, 6]
@@ -2610,7 +2610,7 @@
   {
     "id": 431,
     "name": "エッグストーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0348_S.webp",
     "equipment_tool_trait_ids": [15, 44]
@@ -2618,7 +2618,7 @@
   {
     "id": 432,
     "name": "タートルバグ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0333_S.webp",
     "equipment_tool_trait_ids": [41, 58]
@@ -2626,7 +2626,7 @@
   {
     "id": 433,
     "name": "しなるつる",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0340_S.webp",
     "equipment_tool_trait_ids": [2, 43]
@@ -2634,7 +2634,7 @@
   {
     "id": 434,
     "name": "悠久の枝",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0345_S.webp",
     "battle_tool_trait_ids": [38, 51]
@@ -2642,7 +2642,7 @@
   {
     "id": 435,
     "name": "エンジェルスパイダー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0334_S.webp",
     "equipment_tool_trait_ids": [12, 53]
@@ -2650,7 +2650,7 @@
   {
     "id": 436,
     "name": "アカキシクサ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0341_S.webp",
     "equipment_tool_trait_ids": [63, 34]
@@ -2658,7 +2658,7 @@
   {
     "id": 437,
     "name": "碧剛石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0349_S.webp",
     "battle_tool_trait_ids": [50, 33]
@@ -2666,7 +2666,7 @@
   {
     "id": 445,
     "name": "青い悪魔",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0370_S.webp",
     "battle_tool_trait_ids": [14, 26]
@@ -2674,7 +2674,7 @@
   {
     "id": 446,
     "name": "リドルバブル",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0371_S.webp",
     "equipment_tool_trait_ids": [7, 21]
@@ -2682,7 +2682,7 @@
   {
     "id": 447,
     "name": "赤い悪魔",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0372_S.webp",
     "equipment_tool_trait_ids": [11, 35]
@@ -2690,7 +2690,7 @@
   {
     "id": 448,
     "name": "とんがり辛子",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0373_S.webp",
     "equipment_tool_trait_ids": [61, 45]
@@ -2698,7 +2698,7 @@
   {
     "id": 449,
     "name": "シャイネスフラワー",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0362_S.webp",
     "battle_tool_trait_ids": [24, 9]
@@ -2706,7 +2706,7 @@
   {
     "id": 450,
     "name": "シュラブ",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0358_S.webp",
     "equipment_tool_trait_ids": [4, 26]
@@ -2714,7 +2714,7 @@
   {
     "id": 451,
     "name": "フラウリーウッド",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0366_S.webp",
     "equipment_tool_trait_ids": [3, 21]
@@ -2722,7 +2722,7 @@
   {
     "id": 452,
     "name": "雲綿花",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0363_S.webp",
     "equipment_tool_trait_ids": [8, 26]
@@ -2730,7 +2730,7 @@
   {
     "id": 453,
     "name": "リーフィッシュ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0359_S.webp",
     "equipment_tool_trait_ids": [5, 18]
@@ -2738,7 +2738,7 @@
   {
     "id": 454,
     "name": "善なるうねり樹",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0367_S.webp",
     "equipment_tool_trait_ids": [38, 23]
@@ -2746,7 +2746,7 @@
   {
     "id": 455,
     "name": "魔法の草",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0364_S.webp",
     "equipment_tool_trait_ids": [36, 28]
@@ -2754,7 +2754,7 @@
   {
     "id": 456,
     "name": "アヴィヨンフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0360_S.webp",
     "equipment_tool_trait_ids": [54, 12]
@@ -2762,7 +2762,7 @@
   {
     "id": 457,
     "name": "薫る木片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0368_S.webp",
     "battle_tool_trait_ids": [44, 13]
@@ -2770,7 +2770,7 @@
   {
     "id": 458,
     "name": "アンエルフラワー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0365_S.webp",
     "equipment_tool_trait_ids": [56, 46]
@@ -2778,7 +2778,7 @@
   {
     "id": 459,
     "name": "キングシュラブ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0361_S.webp",
     "equipment_tool_trait_ids": [62, 30]
@@ -2786,7 +2786,7 @@
   {
     "id": 460,
     "name": "ウンショイト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0369_S.webp",
     "equipment_tool_trait_ids": [49, 37]
@@ -2794,7 +2794,7 @@
   {
     "id": 461,
     "name": "土かぶり",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0322_S.webp",
     "battle_tool_trait_ids": [2, 24]
@@ -2802,7 +2802,7 @@
   {
     "id": 462,
     "name": "きれいな貝殻",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0385_S.webp",
     "equipment_tool_trait_ids": [10, 38]
@@ -2810,7 +2810,7 @@
   {
     "id": 463,
     "name": "悲哀の叫び",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0384_S.webp",
     "equipment_tool_trait_ids": [17, 46]
@@ -2818,7 +2818,7 @@
   {
     "id": 464,
     "name": "ペイントストーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0387_S.webp",
     "equipment_tool_trait_ids": [60, 19]
@@ -2826,7 +2826,7 @@
   {
     "id": 465,
     "name": "クラルクリスタル",
-    "rarity": 1,
+    "rarity": "R",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0380_S.webp",
     "equipment_tool_trait_ids": [11, 22]
@@ -2834,7 +2834,7 @@
   {
     "id": 466,
     "name": "蛍光花",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0377_S.webp",
     "battle_tool_trait_ids": [35, 44]
@@ -2842,7 +2842,7 @@
   {
     "id": 467,
     "name": "グラコフィッシュ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0374_S.webp",
     "equipment_tool_trait_ids": [3, 37]
@@ -2850,7 +2850,7 @@
   {
     "id": 468,
     "name": "畜輝石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0381_S.webp",
     "equipment_tool_trait_ids": [32, 23]
@@ -2858,7 +2858,7 @@
   {
     "id": 469,
     "name": "アルドピルム",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0378_S.webp",
     "equipment_tool_trait_ids": [27, 19]
@@ -2866,7 +2866,7 @@
   {
     "id": 470,
     "name": "チクチク",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0375_S.webp",
     "battle_tool_trait_ids": [15, 50]
@@ -2874,7 +2874,7 @@
   {
     "id": 471,
     "name": "球棘岩",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0382_S.webp",
     "equipment_tool_trait_ids": [5, 53]
@@ -2882,7 +2882,7 @@
   {
     "id": 472,
     "name": "デザートステラ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0379_S.webp",
     "equipment_tool_trait_ids": [28, 62]
@@ -2890,7 +2890,7 @@
   {
     "id": 473,
     "name": "なまけぬし",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0376_S.webp",
     "equipment_tool_trait_ids": [61, 44]
@@ -2898,7 +2898,7 @@
   {
     "id": 474,
     "name": "擬花石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0383_S.webp",
     "equipment_tool_trait_ids": [63, 29]
@@ -2906,7 +2906,7 @@
   {
     "id": 480,
     "name": "鎖グモの巣",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0390_S.webp",
     "battle_tool_trait_ids": [10, 25]
@@ -2914,7 +2914,7 @@
   {
     "id": 481,
     "name": "魔導書の切れ端",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0391_S.webp",
     "battle_tool_trait_ids": [40, 22]
@@ -2922,7 +2922,7 @@
   {
     "id": 482,
     "name": "サワーアップル",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0325_S.webp",
     "battle_tool_trait_ids": [47, 6]
@@ -2930,7 +2930,7 @@
   {
     "id": 483,
     "name": "学園うに",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0392_S.webp",
     "equipment_tool_trait_ids": [2, 60]
@@ -2938,7 +2938,7 @@
   {
     "id": 484,
     "name": "学園トーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0393_S.webp",
     "equipment_tool_trait_ids": [63, 39]
@@ -2946,7 +2946,7 @@
   {
     "id": 485,
     "name": "学園の伝承花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0394_S.webp",
     "equipment_tool_trait_ids": [35, 8]
@@ -2954,7 +2954,7 @@
   {
     "id": 490,
     "name": "夢見る王冠",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0324_S.webp",
     "battle_tool_trait_ids": [12, 16]
@@ -2962,7 +2962,7 @@
   {
     "id": 491,
     "name": "土忍び",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0395_S.webp",
     "equipment_tool_trait_ids": [39, 48]
@@ -2970,7 +2970,7 @@
   {
     "id": 492,
     "name": "風船の実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0396_S.webp",
     "battle_tool_trait_ids": [28, 42]
@@ -2978,7 +2978,7 @@
   {
     "id": 493,
     "name": "学園きのこ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0397_S.webp",
     "equipment_tool_trait_ids": [15, 13]
@@ -2986,7 +2986,7 @@
   {
     "id": 494,
     "name": "学園小魚",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0398_S.webp",
     "battle_tool_trait_ids": [4, 51]
@@ -2994,7 +2994,7 @@
   {
     "id": 495,
     "name": "学園のシンボルリーフ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0399_S.webp",
     "equipment_tool_trait_ids": [29, 61]
@@ -3002,7 +3002,7 @@
   {
     "id": 499,
     "name": "サラート",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0400_S.webp",
     "battle_tool_trait_ids": [51, 20]
@@ -3010,7 +3010,7 @@
   {
     "id": 500,
     "name": "破れた破片",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0401_S.webp",
     "equipment_tool_trait_ids": [8, 40]
@@ -3018,7 +3018,7 @@
   {
     "id": 501,
     "name": "祝福のハネ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0402_S.webp",
     "battle_tool_trait_ids": [44, 39]
@@ -3026,7 +3026,7 @@
   {
     "id": 502,
     "name": "学園タマゴ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0403_S.webp",
     "equipment_tool_trait_ids": [25, 26]
@@ -3034,7 +3034,7 @@
   {
     "id": 503,
     "name": "学園セイタカトーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0404_S.webp",
     "battle_tool_trait_ids": [50, 5]
@@ -3042,7 +3042,7 @@
   {
     "id": 504,
     "name": "学園のシンボルツリー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0405_S.webp",
     "equipment_tool_trait_ids": [45, 29]
@@ -3050,7 +3050,7 @@
   {
     "id": 508,
     "name": "湯けむりタマゴ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0406_S.webp",
     "battle_tool_trait_ids": [21, 35]
@@ -3058,7 +3058,7 @@
   {
     "id": 509,
     "name": "湯けむりホロ苦ミルク",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0407_S.webp",
     "battle_tool_trait_ids": [40, 28]
@@ -3066,7 +3066,7 @@
   {
     "id": 510,
     "name": "湯けむり源泉の水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0408_S.webp",
     "battle_tool_trait_ids": [17, 50]
@@ -3074,7 +3074,7 @@
   {
     "id": 511,
     "name": "湯けむりフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0409_S.webp",
     "equipment_tool_trait_ids": [36, 48]
@@ -3082,7 +3082,7 @@
   {
     "id": 512,
     "name": "湯けむりスチームストーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0410_S.webp",
     "equipment_tool_trait_ids": [63, 41]
@@ -3090,7 +3090,7 @@
   {
     "id": 513,
     "name": "湯けむりシトラス",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0411_S.webp",
     "equipment_tool_trait_ids": [61, 34]
@@ -3098,7 +3098,7 @@
   {
     "id": 518,
     "name": "巨獣の化石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0412_S.webp",
     "equipment_tool_trait_ids": [3, 26]
@@ -3106,7 +3106,7 @@
   {
     "id": 519,
     "name": "ニガアマウリ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0413_S.webp",
     "equipment_tool_trait_ids": [37, 10]
@@ -3114,7 +3114,7 @@
   {
     "id": 520,
     "name": "変なぬけがら",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0414_S.webp",
     "battle_tool_trait_ids": [27, 1]
@@ -3122,7 +3122,7 @@
   {
     "id": 521,
     "name": "毒かぶり",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0386_S.webp",
     "equipment_tool_trait_ids": [17, 22]
@@ -3130,7 +3130,7 @@
   {
     "id": 522,
     "name": "死神のくちづけ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0416_S.webp",
     "equipment_tool_trait_ids": [61, 45]
@@ -3138,7 +3138,7 @@
   {
     "id": 523,
     "name": "ハニーメロン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0417_S.webp",
     "equipment_tool_trait_ids": [41, 27]
@@ -3146,7 +3146,7 @@
   {
     "id": 524,
     "name": "グリュクフート",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0418_S.webp",
     "equipment_tool_trait_ids": [12, 47]
@@ -3154,7 +3154,7 @@
   {
     "id": 525,
     "name": "パシオンフュイユ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0419_S.webp",
     "equipment_tool_trait_ids": [11, 3]
@@ -3162,7 +3162,7 @@
   {
     "id": 526,
     "name": "デザートブロック",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0420_S.webp",
     "battle_tool_trait_ids": [5, 2]
@@ -3170,7 +3170,7 @@
   {
     "id": 527,
     "name": "デザートストン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0421_S.webp",
     "equipment_tool_trait_ids": [25, 14]
@@ -3178,7 +3178,7 @@
   {
     "id": 528,
     "name": "オアシスウォーター",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0422_S.webp",
     "equipment_tool_trait_ids": [4, 38]
@@ -3186,7 +3186,7 @@
   {
     "id": 529,
     "name": "薬木の根っこ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0423_S.webp",
     "equipment_tool_trait_ids": [44, 59]
@@ -3194,7 +3194,7 @@
   {
     "id": 530,
     "name": "焼砂石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0424_S.webp",
     "equipment_tool_trait_ids": [18, 3]
@@ -3202,7 +3202,7 @@
   {
     "id": 531,
     "name": "凝砂石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0425_S.webp",
     "battle_tool_trait_ids": [45, 49]
@@ -3210,7 +3210,7 @@
   {
     "id": 532,
     "name": "湖底の溜まり",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0426_S.webp",
     "equipment_tool_trait_ids": [48, 5]
@@ -3218,7 +3218,7 @@
   {
     "id": 533,
     "name": "藍灰砂",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0427_S.webp",
     "equipment_tool_trait_ids": [30, 21]
@@ -3226,7 +3226,7 @@
   {
     "id": 534,
     "name": "サクレミヌレ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0428_S.webp",
     "equipment_tool_trait_ids": [8, 34]
@@ -3234,7 +3234,7 @@
   {
     "id": 535,
     "name": "不蒸のしずく",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0429_S.webp",
     "equipment_tool_trait_ids": [1, 17]
@@ -3242,7 +3242,7 @@
   {
     "id": 536,
     "name": "ストレンジブロック",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0430_S.webp",
     "battle_tool_trait_ids": [12, 14]
@@ -3250,7 +3250,7 @@
   {
     "id": 537,
     "name": "ベイルフルストン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0431_S.webp",
     "equipment_tool_trait_ids": [41, 50]
@@ -3258,7 +3258,7 @@
   {
     "id": 538,
     "name": "生きたサボテン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0432_S.webp",
     "equipment_tool_trait_ids": [11, 24]
@@ -3266,7 +3266,7 @@
   {
     "id": 539,
     "name": "黒砂",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0433_S.webp",
     "equipment_tool_trait_ids": [63, 18]
@@ -3274,7 +3274,7 @@
   {
     "id": 540,
     "name": "黒輝石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0434_S.webp",
     "battle_tool_trait_ids": [21, 11]
@@ -3282,7 +3282,7 @@
   {
     "id": 541,
     "name": "フヨプヨリーフ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0435_S.webp",
     "equipment_tool_trait_ids": [60, 44]
@@ -3290,7 +3290,7 @@
   {
     "id": 545,
     "name": "地底湖の溜まり",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0436_S.webp",
     "equipment_tool_trait_ids": [58, 24]
@@ -3298,7 +3298,7 @@
   {
     "id": 546,
     "name": "ナゾの木の実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0437_S.webp",
     "battle_tool_trait_ids": [31, 41]
@@ -3306,7 +3306,7 @@
   {
     "id": 547,
     "name": "黄金色の岩",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0438_S.webp",
     "battle_tool_trait_ids": [9, 39]
@@ -3314,7 +3314,7 @@
   {
     "id": 548,
     "name": "滝つぼのしずく",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0439_S.webp",
     "equipment_tool_trait_ids": [60, 38]
@@ -3322,7 +3322,7 @@
   {
     "id": 549,
     "name": "金色の鮭",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0440_S.webp",
     "battle_tool_trait_ids": [21, 48]
@@ -3330,7 +3330,7 @@
   {
     "id": 550,
     "name": "常若のリンゴ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0441_S.webp",
     "equipment_tool_trait_ids": [61, 24]
@@ -3338,7 +3338,7 @@
   {
     "id": 553,
     "name": "乾いた根っこ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0442_S.webp",
     "equipment_tool_trait_ids": [10, 42]
@@ -3346,7 +3346,7 @@
   {
     "id": 554,
     "name": "貴婦人のヒゲ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0443_S.webp",
     "equipment_tool_trait_ids": [3, 25]
@@ -3354,7 +3354,7 @@
   {
     "id": 555,
     "name": "ケムリキノコ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0444_S.webp",
     "equipment_tool_trait_ids": [42, 48]
@@ -3362,7 +3362,7 @@
   {
     "id": 556,
     "name": "魅惑の骨",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0445_S.webp",
     "battle_tool_trait_ids": [15, 25]
@@ -3370,7 +3370,7 @@
   {
     "id": 557,
     "name": "豊かな根っこ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0446_S.webp",
     "equipment_tool_trait_ids": [30, 34]
@@ -3378,7 +3378,7 @@
   {
     "id": 558,
     "name": "金色の糸毛",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0447_S.webp",
     "equipment_tool_trait_ids": [21, 40]
@@ -3386,7 +3386,7 @@
   {
     "id": 559,
     "name": "アトラフレグラ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0448_S.webp",
     "equipment_tool_trait_ids": [16, 44]
@@ -3394,7 +3394,7 @@
   {
     "id": 560,
     "name": "ファルシュフルト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0449_S.webp",
     "equipment_tool_trait_ids": [35, 55]
@@ -3402,7 +3402,7 @@
   {
     "id": 561,
     "name": "キャニークレア",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0450_S.webp",
     "battle_tool_trait_ids": [3, 41]
@@ -3410,7 +3410,7 @@
   {
     "id": 562,
     "name": "テイルゼンマイ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0451_S.webp",
     "equipment_tool_trait_ids": [6, 41]
@@ -3418,7 +3418,7 @@
   {
     "id": 563,
     "name": "かみつき草",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0452_S.webp",
     "equipment_tool_trait_ids": [13, 24]
@@ -3426,7 +3426,7 @@
   {
     "id": 564,
     "name": "トキシクレア",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0453_S.webp",
     "equipment_tool_trait_ids": [11, 26]
@@ -3434,7 +3434,7 @@
   {
     "id": 565,
     "name": "威光花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0454_S.webp",
     "equipment_tool_trait_ids": [60, 37]
@@ -3442,7 +3442,7 @@
   {
     "id": 566,
     "name": "物見の樹",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0455_S.webp",
     "battle_tool_trait_ids": [6, 10]
@@ -3450,7 +3450,7 @@
   {
     "id": 567,
     "name": "巨人の木切れ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0456_S.webp",
     "equipment_tool_trait_ids": [33, 44]
@@ -3458,7 +3458,7 @@
   {
     "id": 568,
     "name": "悪なるうねり樹",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0457_S.webp",
     "equipment_tool_trait_ids": [15, 37]
@@ -3466,7 +3466,7 @@
   {
     "id": 569,
     "name": "鳥瞰樹",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0458_S.webp",
     "equipment_tool_trait_ids": [4, 22]
@@ -3474,7 +3474,7 @@
   {
     "id": 570,
     "name": "ラップドシャフト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0459_S.webp",
     "equipment_tool_trait_ids": [28, 42]
@@ -3482,7 +3482,7 @@
   {
     "id": 571,
     "name": "けものぬし",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0460_S.webp",
     "battle_tool_trait_ids": [18, 44]
@@ -3490,7 +3490,7 @@
   {
     "id": 572,
     "name": "アジュムル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0461_S.webp",
     "equipment_tool_trait_ids": [5, 24]
@@ -3498,7 +3498,7 @@
   {
     "id": 573,
     "name": "獰猛魚",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0462_S.webp",
     "equipment_tool_trait_ids": [11, 45]
@@ -3506,7 +3506,7 @@
   {
     "id": 574,
     "name": "鉄混じりの石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0463_S.webp",
     "battle_tool_trait_ids": [17, 24]
@@ -3514,7 +3514,7 @@
   {
     "id": 575,
     "name": "光輝のカケラ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0464_S.webp",
     "equipment_tool_trait_ids": [4, 62]
@@ -3522,7 +3522,7 @@
   {
     "id": 576,
     "name": "模倣の逆さ石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0465_S.webp",
     "equipment_tool_trait_ids": [25, 32]
@@ -3530,7 +3530,7 @@
   {
     "id": 580,
     "name": "ブライドボンドフラワー",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0466_S.webp",
     "battle_tool_trait_ids": [32, 12]
@@ -3538,7 +3538,7 @@
   {
     "id": 581,
     "name": "ブライドフルーツ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0467_S.webp",
     "equipment_tool_trait_ids": [6, 54]
@@ -3546,7 +3546,7 @@
   {
     "id": 582,
     "name": "ブライドバグ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0468_S.webp",
     "equipment_tool_trait_ids": [13, 43]
@@ -3554,7 +3554,7 @@
   {
     "id": 583,
     "name": "ブライドラブフラワー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0469_S.webp",
     "battle_tool_trait_ids": [50, 10]
@@ -3562,7 +3562,7 @@
   {
     "id": 584,
     "name": "ブライドレインドロップ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0471_S.webp",
     "equipment_tool_trait_ids": [61, 28]
@@ -3570,7 +3570,7 @@
   {
     "id": 589,
     "name": "トロイモ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0472_S.webp",
     "battle_tool_trait_ids": [6, 25]
@@ -3578,7 +3578,7 @@
   {
     "id": 590,
     "name": "蒼白の粘土",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0473_S.webp",
     "equipment_tool_trait_ids": [35, 52]
@@ -3586,7 +3586,7 @@
   {
     "id": 591,
     "name": "ホタル石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0474_S.webp",
     "battle_tool_trait_ids": [46, 18]
@@ -3594,7 +3594,7 @@
   {
     "id": 592,
     "name": "リビングクレイ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0475_S.webp",
     "equipment_tool_trait_ids": [60, 32]
@@ -3602,7 +3602,7 @@
   {
     "id": 593,
     "name": "ハニーポピー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0476_S.webp",
     "battle_tool_trait_ids": [18, 50]
@@ -3610,7 +3610,7 @@
   {
     "id": 594,
     "name": "灼熱の熔鉱石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0477_S.webp",
     "equipment_tool_trait_ids": [45, 33]
@@ -3618,7 +3618,7 @@
   {
     "id": 597,
     "name": "粘銀の糸",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0478_S.webp",
     "equipment_tool_trait_ids": [42, 41]
@@ -3626,7 +3626,7 @@
   {
     "id": 598,
     "name": "こんがりきのこ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0479_S.webp",
     "equipment_tool_trait_ids": [7, 25]
@@ -3634,7 +3634,7 @@
   {
     "id": 599,
     "name": "土いも",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0481_S.webp",
     "equipment_tool_trait_ids": [33, 18]
@@ -3642,7 +3642,7 @@
   {
     "id": 600,
     "name": "スポンジの実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0323_S.webp",
     "battle_tool_trait_ids": [9, 17]
@@ -3650,7 +3650,7 @@
   {
     "id": 601,
     "name": "粘金の鋼糸",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0482_S.webp",
     "equipment_tool_trait_ids": [17, 19]
@@ -3658,7 +3658,7 @@
   {
     "id": 602,
     "name": "アルタル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0483_S.webp",
     "equipment_tool_trait_ids": [15, 48]
@@ -3666,7 +3666,7 @@
   {
     "id": 603,
     "name": "夢見るきのこ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0484_S.webp",
     "equipment_tool_trait_ids": [34, 62]
@@ -3674,7 +3674,7 @@
   {
     "id": 604,
     "name": "ブリーアフルー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0485_S.webp",
     "equipment_tool_trait_ids": [27, 24]
@@ -3682,7 +3682,7 @@
   {
     "id": 605,
     "name": "リバーストン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0486_S.webp",
     "battle_tool_trait_ids": [22, 47]
@@ -3690,7 +3690,7 @@
   {
     "id": 606,
     "name": "冷輝棘岩",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0487_S.webp",
     "equipment_tool_trait_ids": [5, 39]
@@ -3698,7 +3698,7 @@
   {
     "id": 607,
     "name": "リバーストン・蒼炎",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0488_S.webp",
     "equipment_tool_trait_ids": [61, 22]
@@ -3706,7 +3706,7 @@
   {
     "id": 608,
     "name": "マダラ石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0489_S.webp",
     "equipment_tool_trait_ids": [23, 47]
@@ -3714,7 +3714,7 @@
   {
     "id": 609,
     "name": "変異石の欠片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0490_S.webp",
     "battle_tool_trait_ids": [49, 41]
@@ -3722,7 +3722,7 @@
   {
     "id": 610,
     "name": "泰然の切り株",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0491_S.webp",
     "equipment_tool_trait_ids": [10, 20]
@@ -3730,7 +3730,7 @@
   {
     "id": 611,
     "name": "腐した樹の枯れ枝",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0492_S.webp",
     "equipment_tool_trait_ids": [16, 19]
@@ -3738,7 +3738,7 @@
   {
     "id": 612,
     "name": "自若の切り株",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0493_S.webp",
     "equipment_tool_trait_ids": [2, 49]
@@ -3746,7 +3746,7 @@
   {
     "id": 613,
     "name": "古の樹根",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0494_S.webp",
     "equipment_tool_trait_ids": [7, 21]
@@ -3754,7 +3754,7 @@
   {
     "id": 614,
     "name": "魔の木くず",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0495_S.webp",
     "battle_tool_trait_ids": [19, 45]
@@ -3762,7 +3762,7 @@
   {
     "id": 615,
     "name": "超常の湧水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0496_S.webp",
     "equipment_tool_trait_ids": [31, 25]
@@ -3770,7 +3770,7 @@
   {
     "id": 616,
     "name": "ビザールアクア",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0497_S.webp",
     "equipment_tool_trait_ids": [18, 40]
@@ -3778,7 +3778,7 @@
   {
     "id": 617,
     "name": "おぼろ泥水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0498_S.webp",
     "equipment_tool_trait_ids": [60, 44]
@@ -3786,7 +3786,7 @@
   {
     "id": 618,
     "name": "ヴェイパーバタフライ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0499_S.webp",
     "battle_tool_trait_ids": [4, 26]
@@ -3794,7 +3794,7 @@
   {
     "id": 619,
     "name": "ゼログラホッパー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0500_S.webp",
     "equipment_tool_trait_ids": [6, 43]
@@ -3802,7 +3802,7 @@
   {
     "id": 620,
     "name": "アーンズアント",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0501_S.webp",
     "equipment_tool_trait_ids": [63, 62]
@@ -3810,7 +3810,7 @@
   {
     "id": 624,
     "name": "海の星",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0502_S.webp",
     "battle_tool_trait_ids": [6, 25]
@@ -3818,7 +3818,7 @@
   {
     "id": 625,
     "name": "虹珊瑚",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0503_S.webp",
     "equipment_tool_trait_ids": [11, 52]
@@ -3826,7 +3826,7 @@
   {
     "id": 626,
     "name": "マーメイドの涙",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0510_S.webp",
     "battle_tool_trait_ids": [46, 18]
@@ -3834,7 +3834,7 @@
   {
     "id": 627,
     "name": "サマータイムうに",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0505_S.webp",
     "equipment_tool_trait_ids": [67, 65]
@@ -3842,7 +3842,7 @@
   {
     "id": 628,
     "name": "サマータイムフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0506_S.webp",
     "battle_tool_trait_ids": [46, 28]
@@ -3850,7 +3850,7 @@
   {
     "id": 629,
     "name": "サマータイムツリー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0507_S.webp",
     "equipment_tool_trait_ids": [66, 2]
@@ -3858,7 +3858,7 @@
   {
     "id": 638,
     "name": "水樹の実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0508_S.webp",
     "battle_tool_trait_ids": [9, 47]
@@ -3866,7 +3866,7 @@
   {
     "id": 639,
     "name": "石サンゴ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0509_S.webp",
     "equipment_tool_trait_ids": [32, 53]
@@ -3874,7 +3874,7 @@
   {
     "id": 640,
     "name": "セイレーンの涙",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0504_S.webp",
     "battle_tool_trait_ids": [21, 49]
@@ -3882,7 +3882,7 @@
   {
     "id": 641,
     "name": "サマータイムきのこ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0511_S.webp",
     "equipment_tool_trait_ids": [61, 60]
@@ -3890,7 +3890,7 @@
   {
     "id": 642,
     "name": "サマータイムオクトパス",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0512_S.webp",
     "battle_tool_trait_ids": [51, 43]
@@ -3898,7 +3898,7 @@
   {
     "id": 643,
     "name": "サマータイムシェル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0513_S.webp",
     "equipment_tool_trait_ids": [2, 45]
@@ -3906,7 +3906,7 @@
   {
     "id": 645,
     "name": "海のくさ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0514_S.webp",
     "battle_tool_trait_ids": [50, 41]
@@ -3914,7 +3914,7 @@
   {
     "id": 646,
     "name": "砂石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0515_S.webp",
     "equipment_tool_trait_ids": [2, 26]
@@ -3922,7 +3922,7 @@
   {
     "id": 647,
     "name": "リシリコ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0516_S.webp",
     "battle_tool_trait_ids": [46, 38]
@@ -3930,7 +3930,7 @@
   {
     "id": 648,
     "name": "サマータイムスクウィッド",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0517_S.webp",
     "equipment_tool_trait_ids": [11, 48]
@@ -3938,7 +3938,7 @@
   {
     "id": 649,
     "name": "サマータイムフラワー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0518_S.webp",
     "battle_tool_trait_ids": [17, 49]
@@ -3946,7 +3946,7 @@
   {
     "id": 650,
     "name": "サマータイムフルーツ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0519_S.webp",
     "equipment_tool_trait_ids": [68, 15]
@@ -3954,7 +3954,7 @@
   {
     "id": 657,
     "name": "幸福のハネ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0520_S.webp",
     "equipment_tool_trait_ids": [30, 23]
@@ -3962,7 +3962,7 @@
   {
     "id": 658,
     "name": "グレヌジョーヌ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0521_S.webp",
     "battle_tool_trait_ids": [45, 24]
@@ -3970,7 +3970,7 @@
   {
     "id": 659,
     "name": "ジェイドエッグ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0522_S.webp",
     "equipment_tool_trait_ids": [26, 41]
@@ -3978,7 +3978,7 @@
   {
     "id": 660,
     "name": "宝石虫",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0523_S.webp",
     "equipment_tool_trait_ids": [28, 2]
@@ -3986,7 +3986,7 @@
   {
     "id": 661,
     "name": "トキシラセ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0524_S.webp",
     "battle_tool_trait_ids": [19, 50]
@@ -3994,7 +3994,7 @@
   {
     "id": 662,
     "name": "クラゲタケ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0525_S.webp",
     "equipment_tool_trait_ids": [41, 21]
@@ -4002,7 +4002,7 @@
   {
     "id": 668,
     "name": "フィラト石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0526_S.webp",
     "battle_tool_trait_ids": [10, 17]
@@ -4010,7 +4010,7 @@
   {
     "id": 669,
     "name": "玉水晶",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0527_S.webp",
     "equipment_tool_trait_ids": [7, 15]
@@ -4018,7 +4018,7 @@
   {
     "id": 670,
     "name": "ドライフラワー",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0528_S.webp",
     "battle_tool_trait_ids": [18, 46]
@@ -4026,7 +4026,7 @@
   {
     "id": 671,
     "name": "岩トカゲ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0529_S.webp",
     "equipment_tool_trait_ids": [41, 12]
@@ -4034,7 +4034,7 @@
   {
     "id": 672,
     "name": "ミカライト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0530_S.webp",
     "equipment_tool_trait_ids": [45, 29]
@@ -4042,7 +4042,7 @@
   {
     "id": 673,
     "name": "傷心の花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0531_S.webp",
     "equipment_tool_trait_ids": [42, 61]
@@ -4050,7 +4050,7 @@
   {
     "id": 681,
     "name": "銀白の水晶片",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0532_S.webp",
     "battle_tool_trait_ids": [35, 45]
@@ -4058,7 +4058,7 @@
   {
     "id": 682,
     "name": "ローズデュニュイ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0533_S.webp",
     "equipment_tool_trait_ids": [25, 8]
@@ -4066,7 +4066,7 @@
   {
     "id": 683,
     "name": "赤い悪魔のタネ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0534_S.webp",
     "battle_tool_trait_ids": [6, 48]
@@ -4074,7 +4074,7 @@
   {
     "id": 684,
     "name": "キエンタケ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0535_S.webp",
     "equipment_tool_trait_ids": [12, 61]
@@ -4082,7 +4082,7 @@
   {
     "id": 685,
     "name": "プルールファントーム",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0536_S.webp",
     "battle_tool_trait_ids": [2, 14]
@@ -4090,7 +4090,7 @@
   {
     "id": 686,
     "name": "ジェムイータ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0537_S.webp",
     "equipment_tool_trait_ids": [29, 48]
@@ -4098,7 +4098,7 @@
   {
     "id": 700,
     "name": "ラインヴァイス",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0538_S.webp",
     "battle_tool_trait_ids": [31, 12]
@@ -4106,7 +4106,7 @@
   {
     "id": 701,
     "name": "六花魚",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0539_S.webp",
     "equipment_tool_trait_ids": [25, 56]
@@ -4114,7 +4114,7 @@
   {
     "id": 702,
     "name": "黒の魔石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0540_S.webp",
     "battle_tool_trait_ids": [6, 45]
@@ -4122,7 +4122,7 @@
   {
     "id": 703,
     "name": "ひかりクラゲ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0541_S.webp",
     "battle_tool_trait_ids": [10, 18]
@@ -4130,7 +4130,7 @@
   {
     "id": 704,
     "name": "閃光水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0542_S.webp",
     "equipment_tool_trait_ids": [29, 41]
@@ -4138,7 +4138,7 @@
   {
     "id": 705,
     "name": "忘れ去られた宝石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0543_S.webp",
     "equipment_tool_trait_ids": [69, 46]
@@ -4146,7 +4146,7 @@
   {
     "id": 716,
     "name": "プルプルーム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0544_S.webp",
     "battle_tool_trait_ids": [5, 17]
@@ -4154,7 +4154,7 @@
   {
     "id": 717,
     "name": "ブラウシュメーレ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0545_S.webp",
     "equipment_tool_trait_ids": [26, 1]
@@ -4162,7 +4162,7 @@
   {
     "id": 718,
     "name": "ヨロイガニ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0546_S.webp",
     "battle_tool_trait_ids": [18, 50]
@@ -4170,7 +4170,7 @@
   {
     "id": 719,
     "name": "人縛草",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0547_S.webp",
     "equipment_tool_trait_ids": [60, 12]
@@ -4178,7 +4178,7 @@
   {
     "id": 720,
     "name": "クレールコキール",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0548_S.webp",
     "equipment_tool_trait_ids": [63, 22]
@@ -4186,7 +4186,7 @@
   {
     "id": 721,
     "name": "ブラックスポーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0549_S.webp",
     "equipment_tool_trait_ids": [62, 25]
@@ -4194,7 +4194,7 @@
   {
     "id": 728,
     "name": "ほたる草",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0550_S.webp",
     "equipment_tool_trait_ids": [55, 62]
@@ -4202,7 +4202,7 @@
   {
     "id": 729,
     "name": "しょっぱい水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0551_S.webp",
     "equipment_tool_trait_ids": [30, 52]
@@ -4210,7 +4210,7 @@
   {
     "id": 730,
     "name": "セディメント",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0552_S.webp",
     "battle_tool_trait_ids": [43, 12]
@@ -4218,7 +4218,7 @@
   {
     "id": 731,
     "name": "ポアソンドレ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0553_S.webp",
     "battle_tool_trait_ids": [23, 13]
@@ -4226,7 +4226,7 @@
   {
     "id": 732,
     "name": "ドレスマッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0554_S.webp",
     "equipment_tool_trait_ids": [2, 4]
@@ -4234,7 +4234,7 @@
   {
     "id": 733,
     "name": "断崖のひげ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0555_S.webp",
     "equipment_tool_trait_ids": [27, 25]
@@ -4242,7 +4242,7 @@
   {
     "id": 741,
     "name": "燃える土",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0556_S.webp",
     "equipment_tool_trait_ids": [47, 21]
@@ -4250,7 +4250,7 @@
   {
     "id": 742,
     "name": "生きてるシッポ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0557_S.webp",
     "equipment_tool_trait_ids": [41, 46]
@@ -4258,7 +4258,7 @@
   {
     "id": 743,
     "name": "出来損ないの欠片",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0558_S.webp",
     "battle_tool_trait_ids": [51, 17]
@@ -4266,7 +4266,7 @@
   {
     "id": 744,
     "name": "病魔退散の薬葉",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0559_S.webp",
     "battle_tool_trait_ids": [48, 13]
@@ -4274,7 +4274,7 @@
   {
     "id": 745,
     "name": "檻の妖花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0560_S.webp",
     "equipment_tool_trait_ids": [14, 48]
@@ -4282,7 +4282,7 @@
   {
     "id": 746,
     "name": "ナラインハ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0561_S.webp",
     "equipment_tool_trait_ids": [2, 29]
@@ -4290,7 +4290,7 @@
   {
     "id": 750,
     "name": "虹魚",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0562_S.webp",
     "equipment_tool_trait_ids": [13, 36]
@@ -4298,7 +4298,7 @@
   {
     "id": 751,
     "name": "ハーブフレグランス",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0563_S.webp",
     "equipment_tool_trait_ids": [47, 19]
@@ -4306,7 +4306,7 @@
   {
     "id": 752,
     "name": "純粋なパウダー",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0564_S.webp",
     "battle_tool_trait_ids": [17, 47]
@@ -4314,7 +4314,7 @@
   {
     "id": 753,
     "name": "オムニアオリウンツル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0565_S.webp",
     "equipment_tool_trait_ids": [2, 27]
@@ -4322,7 +4322,7 @@
   {
     "id": 754,
     "name": "きらめく原砂",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0566_S.webp",
     "battle_tool_trait_ids": [3, 50]
@@ -4330,7 +4330,7 @@
   {
     "id": 755,
     "name": "琥珀油",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0567_S.webp",
     "equipment_tool_trait_ids": [26, 36]
@@ -4338,7 +4338,7 @@
   {
     "id": 765,
     "name": "ねむり花",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0568_S.webp",
     "equipment_tool_trait_ids": [5, 38]
@@ -4346,7 +4346,7 @@
   {
     "id": 766,
     "name": "カラナシマイマイ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0569_S.webp",
     "equipment_tool_trait_ids": [12, 26]
@@ -4354,7 +4354,7 @@
   {
     "id": 767,
     "name": "アルラウネの根",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0570_S.webp",
     "battle_tool_trait_ids": [14, 44]
@@ -4362,7 +4362,7 @@
   {
     "id": 768,
     "name": "ヤミヨタケ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0571_S.webp",
     "battle_tool_trait_ids": [51, 13]
@@ -4370,7 +4370,7 @@
   {
     "id": 769,
     "name": "オドリダケ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0572_S.webp",
     "equipment_tool_trait_ids": [2, 60]
@@ -4378,7 +4378,7 @@
   {
     "id": 770,
     "name": "エルトナイト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0573_S.webp",
     "equipment_tool_trait_ids": [45, 41]
@@ -4386,7 +4386,7 @@
   {
     "id": 778,
     "name": "フレッシュミント",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0574_S.webp",
     "equipment_tool_trait_ids": [48, 5]
@@ -4394,7 +4394,7 @@
   {
     "id": 779,
     "name": "漆黒樹の原木",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0575_S.webp",
     "equipment_tool_trait_ids": [70, 13]
@@ -4402,7 +4402,7 @@
   {
     "id": 780,
     "name": "ムカシヤシの実",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0576_S.webp",
     "battle_tool_trait_ids": [44, 16]
@@ -4410,7 +4410,7 @@
   {
     "id": 788,
     "name": "ラーメル麦",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0577_S.webp",
     "battle_tool_trait_ids": [4, 11]
@@ -4418,7 +4418,7 @@
   {
     "id": 789,
     "name": "蒸留石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0578_S.webp",
     "equipment_tool_trait_ids": [27, 46]
@@ -4426,7 +4426,7 @@
   {
     "id": 790,
     "name": "リュウグウオウムガイ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0579_S.webp",
     "equipment_tool_trait_ids": [26, 62]
@@ -4434,7 +4434,7 @@
   {
     "id": 794,
     "name": "大きな原石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0580_S.webp",
     "equipment_tool_trait_ids": [47, 24]
@@ -4442,7 +4442,7 @@
   {
     "id": 795,
     "name": "オオカブト",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0581_S.webp",
     "battle_tool_trait_ids": [9, 49]
@@ -4450,7 +4450,7 @@
   {
     "id": 796,
     "name": "ニトロ水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0582_S.webp",
     "equipment_tool_trait_ids": [49, 40]
@@ -4458,7 +4458,7 @@
   {
     "id": 797,
     "name": "臭い石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0583_S.webp",
     "equipment_tool_trait_ids": [29, 9]
@@ -4466,7 +4466,7 @@
   {
     "id": 798,
     "name": "古代樹の欠片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0584_S.webp",
     "battle_tool_trait_ids": [10, 44]
@@ -4474,7 +4474,7 @@
   {
     "id": 799,
     "name": "イラストリアスウッド",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0585_S.webp",
     "equipment_tool_trait_ids": [65, 41]
@@ -4482,7 +4482,7 @@
   {
     "id": 801,
     "name": "水結晶",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0586_S.webp",
     "equipment_tool_trait_ids": [44, 57]
@@ -4490,7 +4490,7 @@
   {
     "id": 802,
     "name": "フローズンジンビオーズ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0587_S.webp",
     "equipment_tool_trait_ids": [8, 23]
@@ -4498,7 +4498,7 @@
   {
     "id": 803,
     "name": "氷塊トカゲ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0588_S.webp",
     "equipment_tool_trait_ids": [45, 60]
@@ -4506,7 +4506,7 @@
   {
     "id": 804,
     "name": "ウィスプストーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0589_S.webp",
     "battle_tool_trait_ids": [20, 50]
@@ -4514,7 +4514,7 @@
   {
     "id": 807,
     "name": "ケモノ肉",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0595_S.webp",
     "battle_tool_trait_ids": [50, 10]
@@ -4522,7 +4522,7 @@
   {
     "id": 808,
     "name": "新鮮な肉",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0596_S.webp",
     "equipment_tool_trait_ids": [48, 65]
@@ -4530,7 +4530,7 @@
   {
     "id": 809,
     "name": "霜降りの肉",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0597_S.webp",
     "equipment_tool_trait_ids": [60, 45]
@@ -4538,7 +4538,7 @@
   {
     "id": 816,
     "name": "星夜のレイム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0590_S.webp",
     "equipment_tool_trait_ids": [44, 41]
@@ -4546,7 +4546,7 @@
   {
     "id": 817,
     "name": "星夜のガーネル",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0591_S.webp",
     "battle_tool_trait_ids": [51, 21]
@@ -4554,7 +4554,7 @@
   {
     "id": 818,
     "name": "星夜のフラジルローズ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0592_S.webp",
     "equipment_tool_trait_ids": [29, 47]
@@ -4562,7 +4562,7 @@
   {
     "id": 823,
     "name": "白霊岩",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0593_S.webp",
     "battle_tool_trait_ids": [9, 21]
@@ -4570,7 +4570,7 @@
   {
     "id": 824,
     "name": "陽晶石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0594_S.webp",
     "equipment_tool_trait_ids": [68, 9]
@@ -4578,7 +4578,7 @@
   {
     "id": 828,
     "name": "黄金うに",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0598_S.webp",
     "equipment_tool_trait_ids": [7, 22]
@@ -4586,7 +4586,7 @@
   {
     "id": 829,
     "name": "おいわいの黒豆",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0599_S.webp",
     "battle_tool_trait_ids": [17, 46]
@@ -4594,7 +4594,7 @@
   {
     "id": 830,
     "name": "おいわいの魚卵",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0600_S.webp",
     "equipment_tool_trait_ids": [66, 60]
@@ -4602,7 +4602,7 @@
   {
     "id": 848,
     "name": "キノコヤドシ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0601_S.webp",
     "equipment_tool_trait_ids": [26, 48]
@@ -4610,7 +4610,7 @@
   {
     "id": 849,
     "name": "トキシーモス",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0603_S.webp",
     "equipment_tool_trait_ids": [11, 45]
@@ -4618,7 +4618,7 @@
   {
     "id": 850,
     "name": "大自然の湧水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0602_S.webp",
     "battle_tool_trait_ids": [10, 5]
@@ -4626,7 +4626,7 @@
   {
     "id": 851,
     "name": "ブランシュソンブル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0604_S.webp",
     "equipment_tool_trait_ids": [67, 7]
@@ -4634,7 +4634,7 @@
   {
     "id": 852,
     "name": "森の恵み",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0605_S.webp",
     "equipment_tool_trait_ids": [49, 21]
@@ -4642,7 +4642,7 @@
   {
     "id": 853,
     "name": "石ギンチャク",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0606_S.webp",
     "battle_tool_trait_ids": [51, 1]
@@ -4650,7 +4650,7 @@
   {
     "id": 855,
     "name": "うにゅう",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0607_S.webp",
     "equipment_tool_trait_ids": [1, 40]
@@ -4658,7 +4658,7 @@
   {
     "id": 856,
     "name": "ファーデンライト",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0608_S.webp",
     "battle_tool_trait_ids": [8, 17]
@@ -4666,7 +4666,7 @@
   {
     "id": 857,
     "name": "黄金いも",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0609_S.webp",
     "equipment_tool_trait_ids": [27, 29]
@@ -4674,7 +4674,7 @@
   {
     "id": 863,
     "name": "ニュイラーハ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0610_S.webp",
     "equipment_tool_trait_ids": [8, 50]
@@ -4682,7 +4682,7 @@
   {
     "id": 864,
     "name": "藪イチゴ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0611_S.webp",
     "battle_tool_trait_ids": [10, 17]
@@ -4690,7 +4690,7 @@
   {
     "id": 865,
     "name": "アインクォーツ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0612_S.webp",
     "equipment_tool_trait_ids": [45, 41]
@@ -4698,7 +4698,7 @@
   {
     "id": 871,
     "name": "ビターミルク",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0613_S.webp",
     "battle_tool_trait_ids": [19, 48]
@@ -4706,7 +4706,7 @@
   {
     "id": 872,
     "name": "ビターリーフ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0614_S.webp",
     "equipment_tool_trait_ids": [42, 7]
@@ -4714,7 +4714,7 @@
   {
     "id": 873,
     "name": "ビターフラワー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0615_S.webp",
     "equipment_tool_trait_ids": [29, 62]
@@ -4722,7 +4722,7 @@
   {
     "id": 880,
     "name": "ビターピース",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0616_S.webp",
     "battle_tool_trait_ids": [51, 46]
@@ -4730,7 +4730,7 @@
   {
     "id": 881,
     "name": "ビターマッシュ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0617_S.webp",
     "equipment_tool_trait_ids": [5, 25]
@@ -4738,7 +4738,7 @@
   {
     "id": 882,
     "name": "ビターフルーツ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0618_S.webp",
     "equipment_tool_trait_ids": [48, 62]
@@ -4746,7 +4746,7 @@
   {
     "id": 893,
     "name": "ヒカリマイマイ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0619_S.webp",
     "battle_tool_trait_ids": [4, 12]
@@ -4754,7 +4754,7 @@
   {
     "id": 894,
     "name": "青い実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0620_S.webp",
     "equipment_tool_trait_ids": [58, 18]
@@ -4762,7 +4762,7 @@
   {
     "id": 895,
     "name": "ヒカリサンゴ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0622_S.webp",
     "equipment_tool_trait_ids": [63, 5]
@@ -4770,7 +4770,7 @@
   {
     "id": 906,
     "name": "大貝の黒玉",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0621_S.webp",
     "battle_tool_trait_ids": [51, 10]
@@ -4778,7 +4778,7 @@
   {
     "id": 907,
     "name": "コーラルリーフバグ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0623_S.webp",
     "equipment_tool_trait_ids": [27, 38]
@@ -4786,7 +4786,7 @@
   {
     "id": 908,
     "name": "ミズうに",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0624_S.webp",
     "battle_tool_trait_ids": [50, 47]
@@ -4794,7 +4794,7 @@
   {
     "id": 909,
     "name": "岩喰み",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0625_S.webp",
     "battle_tool_trait_ids": [4, 23]
@@ -4802,7 +4802,7 @@
   {
     "id": 910,
     "name": "古代の石柱",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0626_S.webp",
     "equipment_tool_trait_ids": [4, 18]
@@ -4810,7 +4810,7 @@
   {
     "id": 911,
     "name": "ナッツクラブ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0627_S.webp",
     "equipment_tool_trait_ids": [3, 53]
@@ -4818,7 +4818,7 @@
   {
     "id": 912,
     "name": "レベンスフォリアム",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0628_S.webp",
     "equipment_tool_trait_ids": [39, 25]
@@ -4826,7 +4826,7 @@
   {
     "id": 913,
     "name": "オーロラストーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0629_S.webp",
     "equipment_tool_trait_ids": [12, 13]
@@ -4834,7 +4834,7 @@
   {
     "id": 914,
     "name": "インドラソム",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0630_S.webp",
     "battle_tool_trait_ids": [9, 28]
@@ -4842,7 +4842,7 @@
   {
     "id": 931,
     "name": "ゼムナイト",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0634_S.webp",
     "battle_tool_trait_ids": [13, 22]
@@ -4850,7 +4850,7 @@
   {
     "id": 932,
     "name": "水晶の原鉱石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0635_S.webp",
     "equipment_tool_trait_ids": [10, 41]
@@ -4858,7 +4858,7 @@
   {
     "id": 933,
     "name": "クリスタルブルーム",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0636_S.webp",
     "equipment_tool_trait_ids": [12, 25]
@@ -4866,7 +4866,7 @@
   {
     "id": 934,
     "name": "グンカンエビ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0631_S.webp",
     "battle_tool_trait_ids": [51, 48]
@@ -4874,7 +4874,7 @@
   {
     "id": 935,
     "name": "ルナフィオーレ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0632_S.webp",
     "equipment_tool_trait_ids": [49, 78]
@@ -4882,7 +4882,7 @@
   {
     "id": 936,
     "name": "キングカリバンカブト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0633_S.webp",
     "equipment_tool_trait_ids": [25, 62]
@@ -4890,7 +4890,7 @@
   {
     "id": 946,
     "name": "ローゼシュタム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0637_S.webp",
     "battle_tool_trait_ids": [49, 16]
@@ -4898,7 +4898,7 @@
   {
     "id": 947,
     "name": "ドラゴヌム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0638_S.webp",
     "equipment_tool_trait_ids": [74, 25]
@@ -4906,7 +4906,7 @@
   {
     "id": 948,
     "name": "化石樹",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0639_S.webp",
     "equipment_tool_trait_ids": [19, 62]
@@ -4914,7 +4914,7 @@
   {
     "id": 952,
     "name": "ウインドミューレ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0640_S.webp",
     "equipment_tool_trait_ids": [21, 1]
@@ -4922,7 +4922,7 @@
   {
     "id": 953,
     "name": "森の気分屋",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0641_S.webp",
     "battle_tool_trait_ids": [5, 44]
@@ -4930,7 +4930,7 @@
   {
     "id": 954,
     "name": "ブリーズストーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0642_S.webp",
     "equipment_tool_trait_ids": [6, 26]
@@ -4938,7 +4938,7 @@
   {
     "id": 955,
     "name": "パンクラッカ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0643_S.webp",
     "battle_tool_trait_ids": [10, 13]
@@ -4946,7 +4946,7 @@
   {
     "id": 956,
     "name": "金糸雀のさえずり",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0644_S.webp",
     "equipment_tool_trait_ids": [13, 40]
@@ -4954,7 +4954,7 @@
   {
     "id": 957,
     "name": "ロックフィッシュ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0645_S.webp",
     "equipment_tool_trait_ids": [68, 19]
@@ -4962,7 +4962,7 @@
   {
     "id": 958,
     "name": "ぷにフォッシル",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0646_S.webp",
     "equipment_tool_trait_ids": [29, 56]
@@ -4970,7 +4970,7 @@
   {
     "id": 959,
     "name": "イグニストン",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0647_S.webp",
     "battle_tool_trait_ids": [3, 46]
@@ -4978,7 +4978,7 @@
   {
     "id": 960,
     "name": "磁気を放つ倒木",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0648_S.webp",
     "equipment_tool_trait_ids": [2, 25]
@@ -4986,7 +4986,7 @@
   {
     "id": 970,
     "name": "山麓の岩清水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0649_S.webp",
     "equipment_tool_trait_ids": [29, 40]
@@ -4994,7 +4994,7 @@
   {
     "id": 971,
     "name": "ナンジャコレ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0650_S.webp",
     "battle_tool_trait_ids": [50, 17]
@@ -5002,7 +5002,7 @@
   {
     "id": 972,
     "name": "結晶うに",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0651_S.webp",
     "equipment_tool_trait_ids": [67, 48]
@@ -5010,7 +5010,7 @@
   {
     "id": 978,
     "name": "クジビキ鉱石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0652_S.webp",
     "equipment_tool_trait_ids": [34, 41]
@@ -5018,7 +5018,7 @@
   {
     "id": 979,
     "name": "カットラス",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0653_S.webp",
     "battle_tool_trait_ids": [42, 1]
@@ -5026,7 +5026,7 @@
   {
     "id": 980,
     "name": "狩人の鉤爪",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0654_S.webp",
     "equipment_tool_trait_ids": [44, 27]
@@ -5034,7 +5034,7 @@
   {
     "id": 984,
     "name": "粘菌糸",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0655_S.webp",
     "equipment_tool_trait_ids": [11, 38]
@@ -5042,7 +5042,7 @@
   {
     "id": 985,
     "name": "カサダケ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0656_S.webp",
     "battle_tool_trait_ids": [45, 25]
@@ -5050,7 +5050,7 @@
   {
     "id": 986,
     "name": "ゼリーキューブ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0657_S.webp",
     "equipment_tool_trait_ids": [63, 45]
@@ -5058,7 +5058,7 @@
   {
     "id": 989,
     "name": "小悪魔の落とし物",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0658_S.webp",
     "equipment_tool_trait_ids": [3, 48]
@@ -5066,7 +5066,7 @@
   {
     "id": 990,
     "name": "学園バチの巣",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0659_S.webp",
     "battle_tool_trait_ids": [5, 20]
@@ -5074,7 +5074,7 @@
   {
     "id": 991,
     "name": "学園サンゴ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0660_S.webp",
     "equipment_tool_trait_ids": [8, 46]
@@ -5082,7 +5082,7 @@
   {
     "id": 1000,
     "name": "ゴルゴンバウム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0661_S.webp",
     "battle_tool_trait_ids": [4, 47]
@@ -5090,7 +5090,7 @@
   {
     "id": 1001,
     "name": "学園イチゴ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0662_S.webp",
     "equipment_tool_trait_ids": [28, 41]
@@ -5098,7 +5098,7 @@
   {
     "id": 1002,
     "name": "学園カボチャ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0663_S.webp",
     "equipment_tool_trait_ids": [2, 45]
@@ -5106,7 +5106,7 @@
   {
     "id": 1005,
     "name": "シャリオミルク",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0664_S.webp",
     "equipment_tool_trait_ids": [13, 80]
@@ -5114,7 +5114,7 @@
   {
     "id": 1006,
     "name": "旧校舎のレンガ壁",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0665_S.webp",
     "equipment_tool_trait_ids": [67, 25]
@@ -5122,7 +5122,7 @@
   {
     "id": 1007,
     "name": "学園のコシカケ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0666_S.webp",
     "battle_tool_trait_ids": [44, 12]
@@ -5130,7 +5130,7 @@
   {
     "id": 1011,
     "name": "ゴールドミート",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0667_S.webp",
     "battle_tool_trait_ids": [1, 15]
@@ -5138,7 +5138,7 @@
   {
     "id": 1012,
     "name": "学園イモ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0668_S.webp",
     "equipment_tool_trait_ids": [39, 80]
@@ -5146,7 +5146,7 @@
   {
     "id": 1013,
     "name": "学園カブト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0669_S.webp",
     "equipment_tool_trait_ids": [76, 25]
@@ -5154,7 +5154,7 @@
   {
     "id": 1016,
     "name": "光珪藻",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0670_S.webp",
     "battle_tool_trait_ids": [4, 10]
@@ -5162,7 +5162,7 @@
   {
     "id": 1017,
     "name": "学園セイタカ油",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0671_S.webp",
     "equipment_tool_trait_ids": [28, 36]
@@ -5170,7 +5170,7 @@
   {
     "id": 1018,
     "name": "中庭の池に住むヌシ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0672_S.webp",
     "equipment_tool_trait_ids": [25, 70]
@@ -5178,7 +5178,7 @@
   {
     "id": 1027,
     "name": "薪の束",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0673_S.webp",
     "battle_tool_trait_ids": [8, 45]
@@ -5186,7 +5186,7 @@
   {
     "id": 1028,
     "name": "クインカリバーリッキー",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0675_S.webp",
     "equipment_tool_trait_ids": [60, 80]
@@ -5194,7 +5194,7 @@
   {
     "id": 1032,
     "name": "黒泥",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0676_S.webp",
     "battle_tool_trait_ids": [17, 26]
@@ -5202,7 +5202,7 @@
   {
     "id": 1033,
     "name": "ダスクカメレオン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0678_S.webp",
     "equipment_tool_trait_ids": [7, 41]
@@ -5210,7 +5210,7 @@
   {
     "id": 1040,
     "name": "ヤクトルフロッグ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0679_S.webp",
     "battle_tool_trait_ids": [47, 19]
@@ -5218,7 +5218,7 @@
   {
     "id": 1041,
     "name": "妖光を放つ泉水",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0681_S.webp",
     "equipment_tool_trait_ids": [42, 41]
@@ -5226,7 +5226,7 @@
   {
     "id": 1042,
     "name": "ホシゾラナメクジ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0685_S.webp",
     "battle_tool_trait_ids": [51, 17]
@@ -5234,7 +5234,7 @@
   {
     "id": 1043,
     "name": "アダマント",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0687_S.webp",
     "equipment_tool_trait_ids": [15, 48]
@@ -5242,7 +5242,7 @@
   {
     "id": 1053,
     "name": "ムーンセリクム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0682_S.webp",
     "battle_tool_trait_ids": [46, 10]
@@ -5250,7 +5250,7 @@
   {
     "id": 1054,
     "name": "皇魚",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0684_S.webp",
     "equipment_tool_trait_ids": [45, 58]
@@ -5258,7 +5258,7 @@
   {
     "id": 1060,
     "name": "コバルトベリー",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0688_S.webp",
     "battle_tool_trait_ids": [44, 5]
@@ -5266,7 +5266,7 @@
   {
     "id": 1061,
     "name": "世界樹の枝",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0689_S.webp",
     "equipment_tool_trait_ids": [26, 41]
@@ -5274,7 +5274,7 @@
   {
     "id": 1068,
     "name": "ウニヒトデ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0690_S.webp",
     "battle_tool_trait_ids": [49, 16]
@@ -5282,7 +5282,7 @@
   {
     "id": 1069,
     "name": "サマータイムメデュース",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0691_S.webp",
     "equipment_tool_trait_ids": [74, 45]
@@ -5290,7 +5290,7 @@
   {
     "id": 1071,
     "name": "砂竹",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0692_S.webp",
     "battle_tool_trait_ids": [33, 13]
@@ -5298,7 +5298,7 @@
   {
     "id": 1072,
     "name": "サマータイムデビル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0693_S.webp",
     "equipment_tool_trait_ids": [49, 41]
@@ -5306,7 +5306,7 @@
   {
     "id": 1091,
     "name": "クラゲのもと",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0694_S.webp",
     "battle_tool_trait_ids": [7, 55]
@@ -5314,7 +5314,7 @@
   {
     "id": 1092,
     "name": "サマータイムフロッグ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0695_S.webp",
     "equipment_tool_trait_ids": [94, 78]
@@ -5322,7 +5322,7 @@
   {
     "id": 1096,
     "name": "オニカブト",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0696_S.webp",
     "battle_tool_trait_ids": [2, 38]
@@ -5330,7 +5330,7 @@
   {
     "id": 1097,
     "name": "サマータイムクラブ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0697_S.webp",
     "equipment_tool_trait_ids": [67, 58]
@@ -5338,7 +5338,7 @@
   {
     "id": 1101,
     "name": "鬼いがうに",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0698_S.webp",
     "battle_tool_trait_ids": [17, 45]
@@ -5346,7 +5346,7 @@
   {
     "id": 1102,
     "name": "マイゾウキンニンジン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0699_S.webp",
     "equipment_tool_trait_ids": [27, 48]
@@ -5354,7 +5354,7 @@
   {
     "id": 1113,
     "name": "青竹",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0700_S.webp",
     "battle_tool_trait_ids": [17, 51]
@@ -5362,7 +5362,7 @@
   {
     "id": 1114,
     "name": "アカオニバチ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0701_S.webp",
     "equipment_tool_trait_ids": [25, 39]
@@ -5370,7 +5370,7 @@
   {
     "id": 1124,
     "name": "仙人の実",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0702_S.webp",
     "battle_tool_trait_ids": [9, 10]
@@ -5378,7 +5378,7 @@
   {
     "id": 1125,
     "name": "神霊鉄鋼岩",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0703_S.webp",
     "equipment_tool_trait_ids": [71, 35]
@@ -5386,7 +5386,7 @@
   {
     "id": 1129,
     "name": "白波魚",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0704_S.webp",
     "battle_tool_trait_ids": [49, 31]
@@ -5394,7 +5394,7 @@
   {
     "id": 1130,
     "name": "アオオニバチ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0705_S.webp",
     "equipment_tool_trait_ids": [44, 34]
@@ -5402,7 +5402,7 @@
   {
     "id": 1141,
     "name": "イチゴ虫",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0706_S.webp",
     "equipment_tool_trait_ids": [2, 69]
@@ -5410,7 +5410,7 @@
   {
     "id": 1142,
     "name": "長老にんにく",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0707_S.webp",
     "equipment_tool_trait_ids": [75, 48]
@@ -5418,7 +5418,7 @@
   {
     "id": 1150,
     "name": "釣鐘草",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0708_S.webp",
     "battle_tool_trait_ids": [10, 46]
@@ -5426,7 +5426,7 @@
   {
     "id": 1151,
     "name": "古代生物の化石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0709_S.webp",
     "equipment_tool_trait_ids": [49, 40]
@@ -5434,7 +5434,7 @@
   {
     "id": 1160,
     "name": "カットスイカ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0710_S.webp",
     "battle_tool_trait_ids": [51, 13]
@@ -5442,7 +5442,7 @@
   {
     "id": 1161,
     "name": "差し入れフルーツ盛り",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0711_S.webp",
     "equipment_tool_trait_ids": [61, 34]
@@ -5450,7 +5450,7 @@
   {
     "id": 1171,
     "name": "大きいパイナップル",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0712_S.webp",
     "battle_tool_trait_ids": [49, 3]
@@ -5458,7 +5458,7 @@
   {
     "id": 1172,
     "name": "永遠のきらめく天然石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0713_S.webp",
     "equipment_tool_trait_ids": [10, 41]
@@ -5466,7 +5466,7 @@
   {
     "id": 1177,
     "name": "差し入れバナナ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0716_S.webp",
     "battle_tool_trait_ids": [45, 44]
@@ -5474,7 +5474,7 @@
   {
     "id": 1178,
     "name": "みずみずしいもも",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0717_S.webp",
     "equipment_tool_trait_ids": [79, 67]
@@ -5482,7 +5482,7 @@
   {
     "id": 1183,
     "name": "真っ赤なりんご",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0714_S.webp",
     "battle_tool_trait_ids": [50, 15]
@@ -5490,7 +5490,7 @@
   {
     "id": 1184,
     "name": "高級メロン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0715_S.webp",
     "equipment_tool_trait_ids": [48, 29]
@@ -5498,7 +5498,7 @@
   {
     "id": 1188,
     "name": "ボーンジェム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0720_S.webp",
     "battle_tool_trait_ids": [10, 4]
@@ -5506,7 +5506,7 @@
   {
     "id": 1189,
     "name": "フォンテーヌデレーブ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0721_S.webp",
     "equipment_tool_trait_ids": [45, 5]
@@ -5514,7 +5514,7 @@
   {
     "id": 1193,
     "name": "鍾乳石の欠片",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0722_S.webp",
     "battle_tool_trait_ids": [16, 44]
@@ -5522,7 +5522,7 @@
   {
     "id": 1194,
     "name": "メローネブラット",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0723_S.webp",
     "equipment_tool_trait_ids": [45, 41]
@@ -5530,7 +5530,7 @@
   {
     "id": 1197,
     "name": "モズクドジョウ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0724_S.webp",
     "battle_tool_trait_ids": [4, 12]
@@ -5538,7 +5538,7 @@
   {
     "id": 1198,
     "name": "ロイヤルクラウン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0725_S.webp",
     "equipment_tool_trait_ids": [60, 5]
@@ -5546,7 +5546,7 @@
   {
     "id": 1199,
     "name": "アビスフィッシュ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0726_S.webp",
     "battle_tool_trait_ids": [1, 24]
@@ -5554,7 +5554,7 @@
   {
     "id": 1200,
     "name": "穢銀石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0727_S.webp",
     "equipment_tool_trait_ids": [67, 10]
@@ -5562,7 +5562,7 @@
   {
     "id": 1211,
     "name": "融けない氷",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0728_S.webp",
     "battle_tool_trait_ids": [18, 47]
@@ -5570,7 +5570,7 @@
   {
     "id": 1212,
     "name": "白銀の毛皮",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0729_S.webp",
     "equipment_tool_trait_ids": [17, 69]
@@ -5578,7 +5578,7 @@
   {
     "id": 1218,
     "name": "白き月の霜柱",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0730_S.webp",
     "battle_tool_trait_ids": [6, 17]
@@ -5586,7 +5586,7 @@
   {
     "id": 1219,
     "name": "北風の果実",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0731_S.webp",
     "equipment_tool_trait_ids": [97, 40]
@@ -5594,7 +5594,7 @@
   {
     "id": 1223,
     "name": "ツヴァイナッツ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0732_S.webp",
     "battle_tool_trait_ids": [8, 47]
@@ -5602,7 +5602,7 @@
   {
     "id": 1224,
     "name": "聖樹の葉",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0733_S.webp",
     "equipment_tool_trait_ids": [61, 23]
@@ -5610,7 +5610,7 @@
   {
     "id": 1225,
     "name": "ぷにぷに玉・餅",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0734_S.webp",
     "battle_tool_trait_ids": [20, 48]
@@ -5618,7 +5618,7 @@
   {
     "id": 1226,
     "name": "新春の結び",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0735_S.webp",
     "equipment_tool_trait_ids": [73, 28]
@@ -5626,7 +5626,7 @@
   {
     "id": 1243,
     "name": "エムロード水",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0736_S.webp",
     "battle_tool_trait_ids": [51, 17]
@@ -5634,7 +5634,7 @@
   {
     "id": 1244,
     "name": "マナフォーリア",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0737_S.webp",
     "equipment_tool_trait_ids": [73, 60]
@@ -5642,7 +5642,7 @@
   {
     "id": 1245,
     "name": "ブレン鉱石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0738_S.webp",
     "battle_tool_trait_ids": [49, 12]
@@ -5650,7 +5650,7 @@
   {
     "id": 1246,
     "name": "レジェハルトの実",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0739_S.webp",
     "equipment_tool_trait_ids": [48, 67]
@@ -5658,7 +5658,7 @@
   {
     "id": 1260,
     "name": "パルファンブーケ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0740_S.webp",
     "battle_tool_trait_ids": [1, 44]
@@ -5666,7 +5666,7 @@
   {
     "id": 1261,
     "name": "くろぷにナッツ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0741_S.webp",
     "equipment_tool_trait_ids": [76, 41]
@@ -5674,7 +5674,7 @@
   {
     "id": 1273,
     "name": "ビターグレープ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0742_S.webp",
     "battle_tool_trait_ids": [26, 48]
@@ -5682,7 +5682,7 @@
   {
     "id": 1274,
     "name": "フォンデュショコラ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0743_S.webp",
     "equipment_tool_trait_ids": [72, 27]
@@ -5690,7 +5690,7 @@
   {
     "id": 1277,
     "name": "ハニーハニービー",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0746_S.webp",
     "battle_tool_trait_ids": [4, 13]
@@ -5698,7 +5698,7 @@
   {
     "id": 1278,
     "name": "ベスティラ香草",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0747_S.webp",
     "equipment_tool_trait_ids": [45, 39]
@@ -5706,7 +5706,7 @@
   {
     "id": 1282,
     "name": "ライデン鉱",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0748_S.webp",
     "battle_tool_trait_ids": [47, 13]
@@ -5714,7 +5714,7 @@
   {
     "id": 1283,
     "name": "石化鳥の灰羽",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0749_S.webp",
     "equipment_tool_trait_ids": [68, 48]
@@ -5722,7 +5722,7 @@
   {
     "id": 1286,
     "name": "ルーメンウッド",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0758_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5730,7 +5730,7 @@
   {
     "id": 1287,
     "name": "スターシルト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0759_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5738,7 +5738,7 @@
   {
     "id": 1288,
     "name": "天外の石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0760_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5746,7 +5746,7 @@
   {
     "id": 1289,
     "name": "シデリウム鋼",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0761_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5754,7 +5754,7 @@
   {
     "id": 1308,
     "name": "ローゼンリーフ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0744_S.webp",
     "battle_tool_trait_ids": [10, 17]
@@ -5762,7 +5762,7 @@
   {
     "id": 1309,
     "name": "スピーナローザ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0745_S.webp",
     "equipment_tool_trait_ids": [67, 45]
@@ -5770,7 +5770,7 @@
   {
     "id": 1316,
     "name": "森の雫",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0750_S.webp",
     "battle_tool_trait_ids": [48, 16]
@@ -5778,7 +5778,7 @@
   {
     "id": 1317,
     "name": "時守りの花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0751_S.webp",
     "equipment_tool_trait_ids": [44, 62]
@@ -5786,7 +5786,7 @@
   {
     "id": 1318,
     "name": "ウイングプラント",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0752_S.webp",
     "battle_tool_trait_ids": [51, 24]
@@ -5794,7 +5794,7 @@
   {
     "id": 1319,
     "name": "流れ星の欠片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0753_S.webp",
     "equipment_tool_trait_ids": [76, 60]
@@ -5802,7 +5802,7 @@
   {
     "id": 1320,
     "name": "エボニーオア",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0762_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5810,7 +5810,7 @@
   {
     "id": 1321,
     "name": "蒼々岩",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0763_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5818,7 +5818,7 @@
   {
     "id": 1322,
     "name": "ポムグラネイト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0764_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5826,7 +5826,7 @@
   {
     "id": 1323,
     "name": "サルファストーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0765_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5834,7 +5834,7 @@
   {
     "id": 1324,
     "name": "焔硝鋼",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0766_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5842,7 +5842,7 @@
   {
     "id": 1325,
     "name": "紫晶鋼",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0767_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5850,7 +5850,7 @@
   {
     "id": 1326,
     "name": "スートサンド",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0768_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5858,7 +5858,7 @@
   {
     "id": 1327,
     "name": "青錬砂",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0769_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5866,7 +5866,7 @@
   {
     "id": 1328,
     "name": "スカーレットラスト",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0770_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5874,7 +5874,7 @@
   {
     "id": 1329,
     "name": "鉄粗砂",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0771_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5882,7 +5882,7 @@
   {
     "id": 1330,
     "name": "ゴールドグリット",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0772_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5890,7 +5890,7 @@
   {
     "id": 1331,
     "name": "アメジストサンド",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0773_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5898,7 +5898,7 @@
   {
     "id": 1332,
     "name": "ノワルマテリアル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0774_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5906,7 +5906,7 @@
   {
     "id": 1333,
     "name": "アズールエッセンス",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0775_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5914,7 +5914,7 @@
   {
     "id": 1334,
     "name": "クリムゾンベース",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0776_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5922,7 +5922,7 @@
   {
     "id": 1335,
     "name": "アイアンクリスタル",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0777_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5930,7 +5930,7 @@
   {
     "id": 1336,
     "name": "フラッシュリソース",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0778_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5938,7 +5938,7 @@
   {
     "id": 1337,
     "name": "ヴァイオレットサプライ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0779_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -5946,7 +5946,7 @@
   {
     "id": 1348,
     "name": "学園桜",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0754_S.webp",
     "battle_tool_trait_ids": [9, 46]
@@ -5954,7 +5954,7 @@
   {
     "id": 1349,
     "name": "学園くり",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0755_S.webp",
     "equipment_tool_trait_ids": [71, 29]
@@ -5962,7 +5962,7 @@
   {
     "id": 1359,
     "name": "学園マッシュルーム",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0756_S.webp",
     "battle_tool_trait_ids": [28, 21]
@@ -5970,7 +5970,7 @@
   {
     "id": 1360,
     "name": "学園トウモロコシ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0757_S.webp",
     "equipment_tool_trait_ids": [45, 9]
@@ -5978,7 +5978,7 @@
   {
     "id": 1364,
     "name": "学園チョウ",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0780_S.webp",
     "battle_tool_trait_ids": [1, 49]
@@ -5986,7 +5986,7 @@
   {
     "id": 1365,
     "name": "学園の古鍵",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0781_S.webp",
     "equipment_tool_trait_ids": [67, 12]
@@ -5994,7 +5994,7 @@
   {
     "id": 1370,
     "name": "輝く砂",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0782_S.webp",
     "battle_tool_trait_ids": [10, 3]
@@ -6002,7 +6002,7 @@
   {
     "id": 1371,
     "name": "宵星のかけら",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0783_S.webp",
     "equipment_tool_trait_ids": [75, 60]
@@ -6010,7 +6010,7 @@
   {
     "id": 1372,
     "name": "夜の貴婦人",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0784_S.webp",
     "battle_tool_trait_ids": [49, 13]
@@ -6018,7 +6018,7 @@
   {
     "id": 1373,
     "name": "常夜の花",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0785_S.webp",
     "equipment_tool_trait_ids": [79, 48]
@@ -6026,7 +6026,7 @@
   {
     "id": 1383,
     "name": "金の水晶片",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0786_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -6034,7 +6034,7 @@
   {
     "id": 1384,
     "name": "祝福結晶",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0787_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -6042,7 +6042,7 @@
   {
     "id": 1385,
     "name": "金輝石",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0788_S.webp",
     "equipment_tool_trait_ids": [55, 57]
@@ -6050,7 +6050,7 @@
   {
     "id": 1389,
     "name": "プリズマ結晶石",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0789_S.webp",
     "battle_tool_trait_ids": [50, 51]
@@ -6058,7 +6058,7 @@
   {
     "id": 1390,
     "name": "ノーヴェンバーストーン",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0790_S.webp",
     "equipment_tool_trait_ids": [45, 68]
@@ -6066,7 +6066,7 @@
   {
     "id": 1392,
     "name": "サビついた剣",
-    "rarity": 2,
+    "rarity": "SR",
     "trait_color_id": 1,
     "image": "images/ingredient/Ingredient_0791_S.webp",
     "battle_tool_trait_ids": [52, 31]
@@ -6074,7 +6074,7 @@
   {
     "id": 1393,
     "name": "ぬしのツメ",
-    "rarity": 3,
+    "rarity": "SSR",
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0792_S.webp",
     "equipment_tool_trait_ids": [100, 73]
