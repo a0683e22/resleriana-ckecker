@@ -912,6 +912,49 @@
         }
       }
 
+
+      /* ==========================================
+         特性篩選
+         ========================================== */
+/* 核心修正：具備相同特性的其他素材篩選器 */
+function showTraitUsage(traitId, type) {
+    // 1. 取得特性名稱 (用以顯示在彈窗標題)
+    const k = getLangKey(currentLang);
+    const traitName = type === 'battle' 
+        ? (traitMasterData.battle_tool_traits?.[traitId]?.[k] ?? `Trait ${traitId}`)
+        : (traitMasterData.equipment_tool_traits?.[traitId]?.[k] ?? `Trait ${traitId}`);
+
+    // 2. 篩選所有具備此特性的素材
+    // 檢查 itemData 中的 battle_tool_trait_ids 或 equipment_tool_trait_ids
+    const matchedItems = itemData.filter(item => {
+        const traits = (type === 'battle') ? item.battle_tool_trait_ids : item.equipment_tool_trait_ids;
+        if (!traits) return false;
+        // 處理特性 ID 為物件的情況 ({id: 123})
+        return traits.some(t => (typeof t === "object" ? t.id : t) === traitId);
+    });
+
+    // 3. 渲染彈窗列表
+    let htmlContent = "";
+    matchedItems.forEach(item => {
+        const matBgPath = getMaterialBgPath(item);
+        htmlContent += `
+            <div class="usage-item" onclick="closeTraitModal()">
+                <img src="${item.image?.trim()}" onerror="this.src='images/ui/r.webp'">
+                <div class="usage-item-name">${item.name}</div>
+            </div>`;
+    });
+
+    // 4. 設定標題、內容並顯示彈窗
+    document.getElementById("trait-modal-title").innerText = `具備特性「${traitName}」的素材`;
+    document.getElementById("trait-modal-desc").innerText = `共找到 ${matchedItems.length} 個素材`;
+    document.getElementById("trait-usage-list").innerHTML = htmlContent || "<div>無相關素材</div>";
+    document.getElementById("trait-modal").classList.add("show");
+}
+
+/* 關閉彈窗函式 */
+function closeTraitModal() {
+    document.getElementById("trait-modal").classList.remove("show");
+}
       /* ==========================================
          頁面點擊功能互動邏輯
          ========================================== */
