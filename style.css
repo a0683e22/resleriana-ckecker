@@ -1986,3 +1986,28 @@ button.tab-btn.active {
 
 	opacity: 0.4 !important;
 }
+
+.tool-link-btn {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background: #69758f;
+
+    transition: .2s;
+}
+
+.tool-link-btn:hover {
+    background: #8291b2;
+}
+
+.tool-link-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
