@@ -27,7 +27,7 @@ import { createFilterButton } from './filters/filterButton.js';
 import { createToolbarLayout } from './layout/toolbarLayout.js';
 import { createSelect } from './select.js';
 import { createThemeButton } from './themeButton.js';
-import { createLanguageSelect } from './createlanguageSelect.js';
+import { createLanguageSelect } from './createLanguageSelect.js';
 
 
 
