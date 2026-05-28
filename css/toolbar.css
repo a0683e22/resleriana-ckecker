@@ -1,0 +1,56 @@
+#toolbar{position:sticky;top:60px;z-index:40;padding:20px 24px;background:#111827}
+
+.theme-soft #toolbar {background: #475569;}
+
+.toolbar-group {display: flex; gap: 12px;}
+
+.search-input {width: 260px; height: 40px; padding: 0 14px; border: none; border-radius: 10px; background: #1f2937; color: white; font-size: 15px;}
+
+.filter-button {height: 40px; padding: 0 16px; border: none; border-radius: 10px; background:transparent; color: white; cursor: pointer; font-size: 14px; min-width: 52px;}
+.filter-button:hover {background:transparent;}
+.filter-button.active {background: #3b82f6;}
+
+.toolbar-top, .toolbar-bottom { display: flex; justify-content: space-between; align-items: center; width: 100%;}
+
+.toolbar-left, .toolbar-right { display: flex; align-items: center; gap: 12px;}
+
+.toolbar-bottom .toolbar-left { gap: 12px; }
+
+.toolbar-bottom {margin-top: 18px;}
+
+.filter-icon {width: 24px; height: 24px; object-fit: contain;}
+
+.icon-button {background: transparent; padding: 0; width: 48px; height: 48px;}
+
+.filter-button.float {background: transparent; border: none; box-shadow: none; opacity: 0.7;}
+.filter-button.float:hover {opacity: 1;}
+
+.filter-button.float.active {background: rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08); backdrop-filter:blur(6px); box-shadow:0 4px 12px rgba(0,0,0,0.25); opacity: 1;}
+
+.tool-button {width: 42px; height: 42px; border: none; border-radius: 50%; background: rgba(255,255,255,0.04); color: white; cursor: pointer; transition: 0.2s;}
+
+.tool-button:hover {transform: scale(1.05); background: rgba(255,255,255,0.08);}
+
+.language-dropdown {position: relative;}
+
+.language-menu {position: absolute; top: 52px; right: 0; display: none; flex-direction: column; gap: 6px; padding: 10px; border-radius: 12px; background: #1f2937; box-shadow: 0 8px 24px rgba(0,0,0,0.35); min-width: 110px; z-index: 20;}
+
+.language-menu.show {display: flex;}
+
+.language-option {
+    width: 100%;
+    border: none;
+    border-radius: 999px;
+    background: transparent;
+    color: #e5e7eb;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: 0.15s;
+    font-size: 15px;
+    font-weight: 600;
+}
+.large-icon {width: 36px; height: 36px;}
+
+.view-button {display: flex; align-items: center; justify-content: center; gap: 2px; min-width: 120px; height: 52px; padding: 0 14px; font-size: 16px;}
+
+.view-button .filter-icon { width: 24px; height: 24px;}

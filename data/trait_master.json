@@ -1,0 +1,1744 @@
+{
+  "battle_tool_traits": {
+    "1": {
+      "category_id": 1,
+      "jp": "剛力の祝福",
+      "zh": "剛力的祝福",
+      "en": "Mighty Blessing",
+      "description": {
+        "jp": "物理攻撃のダメージ3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "物理攻擊傷害增加3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts Physical damage by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "2": {
+      "category_id": 1,
+      "jp": "斬の祝福",
+      "zh": "斬的祝福",
+      "en": "Slash Blessing",
+      "description": {
+        "jp": "斬属性の威力10 / 20 / 30 / 60 / 100%アップ",
+        "zh": "斬屬性威力增加10 / 20 / 30 / 60 / 100%",
+        "en": "Boosts Slash damage by 10 / 20 / 30 / 60 / 100%"
+      }
+    },
+    "3": {
+      "category_id": 1,
+      "jp": "打の祝福",
+      "zh": "打的祝福",
+      "en": "Strike Blessing",
+      "description": {
+        "jp": "打属性の威力10 / 20 / 30 / 60 / 100%アップ",
+        "zh": "打屬性威力增加10 / 20 / 30 / 60 / 100%",
+        "en": "Boosts Strike damage by 10 / 20 / 30 / 60 / 100%"
+      }
+    },
+    "4": {
+      "category_id": 1,
+      "jp": "突の祝福",
+      "zh": "突的祝福",
+      "en": "Stab Blessing",
+      "description": {
+        "jp": "突属性の威力10 / 20 / 30 / 60 / 100%アップ",
+        "zh": "突屬性威力增加10 / 20 / 30 / 60 / 100%",
+        "en": "Boosts Stab damage by 10 / 20 / 30 / 60 / 100%"
+      }
+    },
+    "5": {
+      "category_id": 1,
+      "jp": "魔力の祝福",
+      "zh": "魔力的祝福",
+      "en": "Magic Blessing",
+      "description": {
+        "jp": "魔法攻撃のダメージ3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "魔法攻擊傷害增加3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts Magic damage by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "6": {
+      "category_id": 1,
+      "jp": "火の祝福",
+      "zh": "火的祝福",
+      "en": "Fire Blessing",
+      "description": {
+        "jp": "火属性の威力10 / 20 / 30 / 60 / 100%アップ",
+        "zh": "火屬性威力增加10 / 20 / 30 / 60 / 100%",
+        "en": "Boosts Fire damage by 10 / 20 / 30 / 60 / 100%"
+      }
+    },
+    "7": {
+      "category_id": 1,
+      "jp": "氷の祝福",
+      "zh": "冰的祝福",
+      "en": "Ice Blessing",
+      "description": {
+        "jp": "氷属性の威力10 / 20 / 30 / 60 / 100%アップ",
+        "zh": "冰屬性威力增加10 / 20 / 30 / 60 / 100%",
+        "en": "Boosts Ice damage by 10 / 20 / 30 / 60 / 100%"
+      }
+    },
+    "8": {
+      "category_id": 1,
+      "jp": "風の祝福",
+      "zh": "風的祝福",
+      "en": "Wind Blessing",
+      "description": {
+        "jp": "風属性の威力10 / 20 / 30 / 60 / 100%アップ",
+        "zh": "風屬性威力增加10 / 20 / 30 / 60 / 100%",
+        "en": "Boosts Wind damage by 10 / 20 / 30 / 60 / 100%"
+      }
+    },
+    "9": {
+      "category_id": 1,
+      "jp": "雷の祝福",
+      "zh": "雷的祝福",
+      "en": "Bolt Blessing",
+      "description": {
+        "jp": "雷属性の威力10 / 20 / 30 / 60 / 100%アップ",
+        "zh": "雷屬性威力增加10 / 20 / 30 / 60 / 100%",
+        "en": "Boosts Bolt damage by 10 / 20 / 30 / 60 / 100%"
+      }
+    },
+    "10": {
+      "category_id": 2,
+      "jp": "守護の祝福",
+      "zh": "守護的祝福",
+      "en": "Guardian's Blessing",
+      "description": {
+        "jp": "「物防1 / 2 / 3 / 4 / 5%アップ」を1回攻撃されるまで付与<br>「魔防1 / 2 / 3 / 4 / 5%アップ」を1回攻撃されるまで付与",
+        "zh": "「提升物防與魔防1 / 2 / 3 / 4 / 5%」直到受1次攻擊為止",
+        "en": "Boosts P. DEF by 1 / 2 / 3 / 4 / 5% and M. DEF by 1 / 2 / 3 / 4 / 5% for 1 attack"
+      }
+    },
+    "11": {
+      "category_id": 2,
+      "jp": "魔防の祝福",
+      "zh": "魔防的祝福",
+      "en": "M. DEF Blessing",
+      "description": {
+        "jp": "「魔防1 / 2 / 3 / 5 / 8%アップ」を1回攻撃されるまで付与",
+        "zh": "「提升魔防1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts M. DEF by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "12": {
+      "category_id": 2,
+      "jp": "物防の祝福",
+      "zh": "物防的祝福",
+      "en": "P.DEF Blessing",
+      "description": {
+        "jp": "「物防1 / 2 / 3 / 5 / 8%アップ」を1回攻撃されるまで付与",
+        "zh": "「提升物理防1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts P. DEF by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "13": {
+      "category_id": 3,
+      "jp": "剛力の呪詛",
+      "zh": "剛力的詛咒 ",
+      "en": "Mighty Curse",
+      "description": {
+        "jp": "対象に「受ける物理攻撃のダメージ1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到物理攻擊的傷害提升1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts physical damage target receives by 1 / 2 / 3 / 5 / 8%  for 1 attack"
+      }
+    },
+    "14": {
+      "category_id": 3,
+      "jp": "斬の呪詛",
+      "zh": "斬的祝福",
+      "en": "Slash Curse",
+      "description": {
+        "jp": "対象に「斬属性耐性1 / 2 / 3 / 6 / 10%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「斬屬性耐性下降1 / 2 / 3 / 6 / 10%」直到受1次攻擊為止",
+        "en": "Reduces target's Slash RES by 1 / 2 / 3 / 6 / 10% for 1 attack"
+      }
+    },
+    "15": {
+      "category_id": 3,
+      "jp": "打の呪詛",
+      "zh": "打的祝福",
+      "en": "Strike Curse",
+      "description": {
+        "jp": "対象に「打属性耐性1 / 2 / 3 / 6 / 10%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「打屬性耐性下降1 / 2 / 3 / 6 / 10%」直到受1次攻擊為止",
+        "en": "Reduces target's Strike RES by 1 / 2 / 3 / 6 / 10% for 1 attack"
+      }
+    },
+    "16": {
+      "category_id": 3,
+      "jp": "突の呪詛",
+      "zh": "突的詛咒",
+      "en": "Stab Curse",
+      "description": {
+        "jp": "対象に「突属性耐性1 / 2 / 3 / 6 / 10%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「突屬性耐性下降1 / 2 / 3 / 6 / 10%」直到受1次攻擊為止",
+        "en": "Reduces target's Stab RES by 1 / 2 / 3 / 6 / 10% for 1 attack"
+      }
+    },
+    "17": {
+      "category_id": 3,
+      "jp": "魔力の呪詛",
+      "zh": "魔力的詛咒",
+      "en": "Magic Curse",
+      "description": {
+        "jp": "対象に「受ける魔法攻撃のダメージ1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "対象に「受ける魔法攻撃のダメージ1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "en": "Boosts maigc damage target receives by 1 / 2 / 3 / 5 / 8%  for 1 attack"
+      }
+    },
+    "18": {
+      "category_id": 3,
+      "jp": "火の呪詛",
+      "zh": "火的詛咒",
+      "en": "Fire Curse",
+      "description": {
+        "jp": "対象に「火属性耐性1 / 2 / 3 / 6 / 10%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「火屬性耐性下降1 / 2 / 3 / 6 / 10%」直到受1次攻擊為止",
+        "en": "Reduces target's Fire RES by 1 / 2 / 3 / 6 / 10% for 1 attack"
+      }
+    },
+    "19": {
+      "category_id": 3,
+      "jp": "氷の呪詛",
+      "zh": "冰的詛咒",
+      "en": "Ice Curse",
+      "description": {
+        "jp": "対象に「氷属性耐性1 / 2 / 3 / 6 / 10%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「冰屬性耐性下降1 / 2 / 3 / 6 / 10%」直到受1次攻擊為止",
+        "en": "Reduces target's Ice RES by 1 / 2 / 3 / 6 / 10% for 1 attack"
+      }
+    },
+    "20": {
+      "category_id": 3,
+      "jp": "風の呪詛",
+      "zh": "風的詛咒",
+      "en": "Wind Curse",
+      "description": {
+        "jp": "対象に「風属性耐性1 / 2 / 3 / 6 / 10%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「風屬性耐性下降1 / 2 / 3 / 6 / 10%」直到受1次攻擊為止",
+        "en": "Reduces target's Wind RES by 1 / 2 / 3 / 6 / 10% for 1 attack"
+      }
+    },
+    "21": {
+      "category_id": 3,
+      "jp": "雷の呪詛",
+      "zh": "雷的詛咒",
+      "en": "Bolt Curse",
+      "description": {
+        "jp": "対象に「雷属性耐性1 / 2 / 3 / 6 / 10%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「雷屬性耐性下降1 / 2 / 3 / 6 / 10%」直到受1次攻擊為止",
+        "en": "Reduces target's Bolt RES by 1 / 2 / 3 / 6 / 10% for 1 attack"
+      }
+    },
+    "22": {
+      "category_id": 2,
+      "jp": "斬の盾",
+      "zh": "斬之盾",
+      "en": "Slash Shield",
+      "description": {
+        "jp": "対象に「斬属性耐性1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「斬屬性耐性提升1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts Slash RES by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "23": {
+      "category_id": 2,
+      "jp": "打の盾",
+      "zh": "打之盾",
+      "en": "Strike Shield",
+      "description": {
+        "jp": "対象に「打属性耐性1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「打屬性耐性提升1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts Strike RES by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "24": {
+      "category_id": 2,
+      "jp": "突の盾",
+      "zh": "突之盾",
+      "en": "Stab Shield",
+      "description": {
+        "jp": "対象に「突属性耐性1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「突屬性耐性提升1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts Stab RES by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "25": {
+      "category_id": 2,
+      "jp": "火の盾",
+      "zh": "火之盾",
+      "en": "Fire Shield",
+      "description": {
+        "jp": "対象に「火属性耐性1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「火屬性耐性提升1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts Fire RES by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "26": {
+      "category_id": 2,
+      "jp": "氷の盾",
+      "zh": "冰之盾",
+      "en": "Ice Shield",
+      "description": {
+        "jp": "対象に「氷属性耐性1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「冰屬性耐性提升1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts Ice RES by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "27": {
+      "category_id": 2,
+      "jp": "風の盾",
+      "zh": "風之盾",
+      "en": "Wind Shield",
+      "description": {
+        "jp": "対象に「風属性耐性1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「風屬性耐性提升1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts Wind RES by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "28": {
+      "category_id": 2,
+      "jp": "雷の盾",
+      "zh": "雷之盾",
+      "en": "Bolt Shield",
+      "description": {
+        "jp": "対象に「雷属性耐性1 / 2 / 3 / 5 / 8%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「雷屬性耐性提升1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Boosts Bolt RES by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "29": {
+      "category_id": 1,
+      "jp": "ぷに特攻",
+      "zh": "噗尼特攻",
+      "en": "Puni Slayer",
+      "description": {
+        "jp": "ぷに種族に与えるダメージ6 / 12 / 18 / 36 / 60%アップ",
+        "zh": "對噗尼種族造成的傷害提升6 / 12 / 18 / 36 / 60%",
+        "en": "Boosts damage to Puni enemies by 6 / 12 / 18 / 36 / 60%"
+      }
+    },
+    "30": {
+      "category_id": 1,
+      "jp": "精霊特攻",
+      "zh": "精靈特攻",
+      "en": "Spirit Slayer",
+      "description": {
+        "jp": "精霊種族に与えるダメージ6 / 12 / 18 / 36 / 60%アップ",
+        "zh": "對精靈種族造成的傷害提升6 / 12 / 18 / 36 / 60%",
+        "en": "Boosts damage to Spirit enemies by 6 / 12 / 18 / 36 / 60%"
+      }
+    },
+    "31": {
+      "category_id": 1,
+      "jp": "獣特攻",
+      "zh": "野獸特攻",
+      "en": "Beast Slayer",
+      "description": {
+        "jp": "獣種族に与えるダメージ6 / 12 / 18 / 36 / 60%アップ",
+        "zh": "對野獸種族造成的傷害提升6 / 12 / 18 / 36 / 60%",
+        "en": "Boosts damage to Beast enemies by 6 / 12 / 18 / 36 / 60%"
+      }
+    },
+    "32": {
+      "category_id": 1,
+      "jp": "鳥特攻",
+      "zh": "鳥類特攻",
+      "en": "Bird Slayer",
+      "description": {
+        "jp": "鳥種族に与えるダメージ6 / 12 / 18 / 36 / 60%アップ",
+        "zh": "對鳥類種族造成的傷害提升6 / 12 / 18 / 36 / 60%",
+        "en": "Boosts damage to Bird enemies by 6 / 12 / 18 / 36 / 60%"
+      }
+    },
+    "33": {
+      "category_id": 1,
+      "jp": "水棲特攻",
+      "zh": "水棲特攻",
+      "en": "Aquatic Slayer",
+      "description": {
+        "jp": "水棲種族に与えるダメージ6 / 12 / 18 / 36 / 60%アップ",
+        "zh": "對水棲種族造成的傷害提升6 / 12 / 18 / 36 / 60%",
+        "en": "Boosts damage to Aquatic enemies by 6 / 12 / 18 / 36 / 60%"
+      }
+    },
+    "34": {
+      "category_id": 2,
+      "jp": "ぷに特防",
+      "zh": "噗尼特防",
+      "en": "RES vs. Puni",
+      "description": {
+        "jp": "対象に「ぷに種族から受けるダメージ1 / 2 / 3 / 5 / 8%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到噗尼種族的傷害下降1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Reduces damage received by target from Puni enemies  by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "35": {
+      "category_id": 2,
+      "jp": "精霊特防",
+      "zh": "精靈特防",
+      "en": "RES vs. Spirit",
+      "description": {
+        "jp": "対象に「精霊種族から受けるダメージ1 / 2 / 3 / 5 / 8%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到精靈種族的傷害下降1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Reduces damage received by target from Spirit enemies  by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "36": {
+      "category_id": 2,
+      "jp": "獣特防",
+      "zh": "野獸特防",
+      "en": "RES vs. Beast",
+      "description": {
+        "jp": "対象に「獣種族から受けるダメージ1 / 2 / 3 / 5 / 8%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到野獸種族的傷害下降1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Reduces damage received by target from Beast enemies  by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "37": {
+      "category_id": 2,
+      "jp": "鳥特防",
+      "zh": "鳥類特防",
+      "en": "RES vs. Bird",
+      "description": {
+        "jp": "対象に「鳥種族から受けるダメージ1 / 2 / 3 / 5 / 8%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到鳥類種族的傷害下降1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Reduces damage received by target from Bird enemies  by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "38": {
+      "category_id": 2,
+      "jp": "水棲特防",
+      "zh": "水棲特防",
+      "en": "RES vs. Aquatic",
+      "description": {
+        "jp": "対象に「水棲種族から受けるダメージ1 / 2 / 3 / 5 / 8%ダウン」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到水棲種族的傷害下降1 / 2 / 3 / 5 / 8%」直到受1次攻擊為止",
+        "en": "Reduces damage received by target from Aquatic enemies  by 1 / 2 / 3 / 5 / 8% for 1 attack"
+      }
+    },
+    "39": {
+      "category_id": 3,
+      "jp": "ぷに弱点サーチ",
+      "zh": "尋找噗尼弱點",
+      "en": "Puni Weakness Scan",
+      "description": {
+        "jp": "対象に「ぷに種族が受けるダメージ2 / 4 / 6 / 11 / 18%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到噗尼種族的傷害提升2 / 4 / 6 / 11 / 18%」直到受1次攻擊為止",
+        "en": "Boosts damage to Puni enemies by 2 / 4 / 6 / 11 / 18% for 1 attack."
+      }
+    },
+    "40": {
+      "category_id": 3,
+      "jp": "精霊弱点サーチ",
+      "zh": "尋找精靈弱點",
+      "en": "Spirit Weakness Scan",
+      "description": {
+        "jp": "対象に「精霊種族が受けるダメージ2 / 4 / 6 / 11 / 18%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到精靈種族的傷害提升2 / 4 / 6 / 11 / 18%」直到受1次攻擊為止",
+        "en": "Boosts damage to Spirit enemies by 2 / 4 / 6 / 11 / 18% for 1 attack."
+      }
+    },
+    "41": {
+      "category_id": 3,
+      "jp": "獣弱点サーチ",
+      "zh": "尋找野獸弱點",
+      "en": "Beast Weakness Scan",
+      "description": {
+        "jp": "対象に「獣種族が受けるダメージ2 / 4 / 6 / 11 / 18%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到野獸種族的傷害提升2 / 4 / 6 / 11 / 18%」直到受1次攻擊為止",
+        "en": "Boosts damage to Puni enemies by 2 / 4 / 6 / 11 / 18% for 1 attack."
+      }
+    },
+    "42": {
+      "category_id": 3,
+      "jp": "鳥弱点サーチ",
+      "zh": "尋找鳥類弱點",
+      "en": "Bird Weakness Scan",
+      "description": {
+        "jp": "対象に「鳥種族が受けるダメージ2 / 4 / 6 / 11 / 18%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到鳥類種族的傷害提升2 / 4 / 6 / 11 / 18%」直到受1次攻擊為止",
+        "en": "Boosts damage to Bird enemies by 2 / 4 / 6 / 11 / 18% for 1 attack."
+      }
+    },
+    "43": {
+      "category_id": 3,
+      "jp": "水棲弱点サーチ",
+      "zh": "尋找水棲弱點",
+      "en": "Aquatic Weakness Scan",
+      "description": {
+        "jp": "対象に「水棲種族が受けるダメージ2 / 4 / 6 / 11 / 18%アップ」を1回攻撃を受けるまで付与",
+        "zh": "賦予對象「受到水棲種族的傷害提升2 / 4 / 6 / 11 / 18%」直到受1次攻擊為止",
+        "en": "Boosts damage to Aquatic enemies by 2 / 4 / 6 / 11 / 18% for 1 attack."
+      }
+    },
+    "44": {
+      "category_id": 4,
+      "jp": "大きな回復量",
+      "zh": "強大的回復量",
+      "en": "Ample Healing",
+      "description": {
+        "jp": "与えるHP回復量1 / 2 / 3 / 5 / 8%アップ",
+        "zh": "給予的HP回復量提升1 / 2 / 3 / 5 / 8%",
+        "en": "Boosts HP Recovery given by 1 / 2 / 3 / 5 / 8%"
+      }
+    },
+    "45": {
+      "category_id": 4,
+      "jp": "単体回復ボーナス",
+      "zh": "單體回復獎勵",
+      "en": "Single Recovery Bonus",
+      "description": {
+        "jp": "単体回復が与えるHP回復量2 / 3 / 5 / 9 / 15%アップ",
+        "zh": "單體回復給予的HP回復量提升2 / 3 / 5 / 9 / 15%",
+        "en": "Boosts HP recovery given to a single ally by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "46": {
+      "category_id": 4,
+      "jp": "全体回復ボーナス",
+      "zh": "全體回復獎勵",
+      "en": "All Recovery Bonus",
+      "description": {
+        "jp": "全体回復が与えるHP回復量1 / 2 / 3 / 6 / 10%アップ",
+        "zh": "全體回復給予的HP回復量提升1 / 2 / 3 / 6 / 10%",
+        "en": "Boosts HP recovery given to all allies by 1 / 2 / 3 / 6 / 10%"
+      }
+    },
+    "47": {
+      "category_id": 4,
+      "jp": "使い切り回復強化",
+      "zh": "一次性回復強化",
+      "en": "Enhanced Last Recovery",
+      "description": {
+        "jp": "使用回数が1回の時、HP回復量2 / 4 / 6 / 11 / 18%アップ",
+        "zh": "使用次數為1次時，HP回復量提升 2 / 4 / 6 / 11 / 18%",
+        "en": "Boosts HP recovery by 2 / 4 / 6 / 11 / 18% on final use"
+      }
+    },
+    "48": {
+      "category_id": 1,
+      "jp": "使い切り攻撃強化",
+      "zh": "一次性攻擊強化",
+      "en": "Enhanced Last Attack",
+      "description": {
+        "jp": "使用回数が1回の時、ダメージ5 / 9 / 14 / 27 / 45%アップ",
+        "zh": "使用次數為1次時，傷害提升5 / 9 / 14 / 27 / 45%",
+        "en": "Boosts damage by 5 / 9 / 14 / 27 / 45% on final use"
+      }
+    },
+    "49": {
+      "category_id": 1,
+      "jp": "追い打ち強化",
+      "zh": "追擊強化",
+      "en": "Chaser Charge",
+      "description": {
+        "jp": "ブレイク中の敵へのダメージ6 / 11 / 17 / 33 / 54%アップ",
+        "zh": "對破防中的敵人傷害提升6 / 11 / 17 / 33 / 54%",
+        "en": "Boosts damage to broken enemies by 6 / 11 / 17 / 33 / 54%"
+      }
+    },
+    "50": {
+      "category_id": 2,
+      "jp": "会心の出来",
+      "zh": "暴擊成果",
+      "en": "Critical Quality",
+      "description": {
+        "jp": "「クリティカル確率1 / 2 / 3 / 5 / 8%アップ」を1回行動終了するまで付与",
+        "zh": "「暴擊率提升1 / 2 / 3 / 5 / 8%」直到1次行動結束為止",
+        "en": "Boosts Critical Rate by 1~8% for 1 turn"
+      }
+    },
+    "51": {
+      "category_id": 1,
+      "jp": "破壊力上昇",
+      "zh": "破壞力上升",
+      "en": "Destructive Power Boost",
+      "description": {
+        "jp": "戦闘アイテムが与えるダメージ6 / 11 / 17 / 33 / 54%アップ",
+        "zh": "戰鬥道具給予傷害提升6 / 11 / 17 / 33 / 54%",
+        "en": "Boosts damage of battle items by 6 / 11 / 17 / 33 / 54%"
+      }
+    },
+    "52": {
+      "category_id": 4,
+      "jp": "アイテムリチャージ",
+      "zh": "道具條填充",
+      "en": "Item Recharge",
+      "description": {
+        "jp": "アイテムを使用した後、アイテムゲージを1 / 2 / 3 / 4 / 5%回復",
+        "zh": "使用道具後，道具條回復 1 / 2 / 3 / 4 / 5%",
+        "en": "アイテムを使用した後、アイテムゲージを1 / 2 / 3 / 4 / 5%回復"
+      }
+    },
+    "53": {
+      "category_id": 3,
+      "jp": "攻撃ダウン",
+      "zh": "攻擊下降",
+      "en": "Attack Down",
+      "description": {
+        "jp": "対象に攻撃1 / 2 / 3 / 6 / 10％ダウンを1回行動終了するまで付与",
+        "zh": "對象攻擊下降1 / 2 / 3 / 6 / 10％ 直到1次行動結束為止",
+        "en": "Reduces target's damage by 1 / 2 / 3 / 6 / 10％ for 1 turn"
+      }
+    },
+    "54": {
+      "category_id": 1,
+      "jp": "アイテム会心確率上昇",
+      "zh": "道具暴擊率上升",
+      "en": "Item Crit Rate Up",
+      "description": {
+        "jp": "クリティカル確率10 / 20 / 30 / 60 / 100％アップ",
+        "zh": "暴擊率提升10 / 20 / 30 / 60 / 100％",
+        "en": "Boosts damage of battle items critical rate by 10 / 20 / 30 / 60 / 100％"
+      }
+    },
+    "55": {
+      "category_id": 1,
+      "jp": "アイテム会心ダメージ上昇",
+      "zh": "道具暴擊傷害上升",
+      "en": "Item Crit DMG Up",
+      "description": {
+        "jp": "アイテムのクリティカルダメージアップ +10 / 20 / 30 / 60 / 100%",
+        "zh": "道具的暴擊傷害提升10 / 20 / 30 / 60 / 100%",
+        "en": "Boosts critical damage of battle items by 10 / 20 / 30 / 60 / 100%"
+      }
+    }
+  },
+  "equipment_tool_traits": {
+    "1": {
+      "category_id": 1,
+      "jp": "与ダメージ上昇",
+      "zh": "給予傷害上升",
+      "en": "Dealt Damage Boost",
+      "description": {
+        "jp": "スキルダメージ2 / 3 / 5 / 9 / 15%アップ",
+        "zh": "技能傷害提升2 / 3 / 5 / 9 / 15%",
+        "en": "Boosts skill damage by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "2": {
+      "category_id": 1,
+      "jp": "スキル威力上昇",
+      "zh": "技能威力上升",
+      "en": "Skill Power Up",
+      "description": {
+        "jp": "スキル威力3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "技能威力提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Skill Power by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "3": {
+      "category_id": 1,
+      "jp": "斬ダメージ上昇",
+      "zh": "斬傷害上升",
+      "en": "Slash DMG Up",
+      "description": {
+        "jp": "斬属性のスキルダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "斬屬性的技能傷害提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Slash skill damage by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "4": {
+      "category_id": 1,
+      "jp": "打ダメージ上昇",
+      "zh": "打傷害上升",
+      "en": "Strike DMG Up",
+      "description": {
+        "jp": "打属性のスキルダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "打屬性的技能傷害提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Strike skill damage by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "5": {
+      "category_id": 1,
+      "jp": "突ダメージ上昇",
+      "zh": "突傷害上升",
+      "en": "Stab DMG Up",
+      "description": {
+        "jp": "突属性のスキルダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "突屬性的技能傷害提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Stab skill damage by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "6": {
+      "category_id": 1,
+      "jp": "火ダメージ上昇",
+      "zh": "火傷害上升",
+      "en": "Fire DMG Up",
+      "description": {
+        "jp": "火属性のスキルダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "火屬性的技能傷害提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Fire skill damage by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "7": {
+      "category_id": 1,
+      "jp": "氷ダメージ上昇",
+      "zh": "冰傷害上升",
+      "en": "Ice DMG Up",
+      "description": {
+        "jp": "氷属性のスキルダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "冰屬性的技能傷害提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Ice skill damage by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "8": {
+      "category_id": 1,
+      "jp": "風ダメージ上昇",
+      "zh": "風傷害上升",
+      "en": "Wind DMG Up",
+      "description": {
+        "jp": "風属性のスキルダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "風屬性的技能傷害提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Wind skill damage by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "9": {
+      "category_id": 1,
+      "jp": "雷ダメージ上昇",
+      "zh": "雷傷害上升",
+      "en": "Bolt DMG Up",
+      "description": {
+        "jp": "雷属性のスキルダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "雷屬性的技能傷害提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Bolt skill damage by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "10": {
+      "category_id": 1,
+      "jp": "物理ダメージ上昇",
+      "zh": "物理傷害上升",
+      "en": "P. DMG Up",
+      "description": {
+        "jp": "物理攻撃のスキルダメージ2 / 4 / 6 / 12 / 20%アップ",
+        "zh": "物理攻擊的技能傷害提升2 / 4 / 6 / 12 / 20%",
+        "en": "Boosts physical skill damage by 2 / 4 / 6 / 12 / 20%"
+      }
+    },
+    "11": {
+      "category_id": 1,
+      "jp": "魔法ダメージ上昇",
+      "zh": "魔法傷害上升",
+      "en": "M. DMG Up",
+      "description": {
+        "jp": "魔法攻撃のスキルダメージ2 / 4 / 6 / 12 / 20%アップ",
+        "zh": "魔法攻擊的技能傷害提升2 / 4 / 6 / 12 / 20%",
+        "en": "Boosts magic skill damage by 2 / 4 / 6 / 12 / 20%"
+      }
+    },
+    "12": {
+      "category_id": 1,
+      "jp": "ブレイク中ダメージ上昇",
+      "zh": "破防中傷害上升",
+      "en": "Stunned Damage Up",
+      "description": {
+        "jp": "ブレイク中の敵へのダメージ3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "對破防中的敵人傷害提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts damage to broken enemies by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "13": {
+      "category_id": 1,
+      "jp": "ブレイクダメージ上昇",
+      "zh": "破防傷害上升",
+      "en": "Break DMG Up",
+      "description": {
+        "jp": "ブレイクダメージ2 / 3 / 5 / 9 / 15%アップ",
+        "zh": "破防傷害提升2 / 3 / 5 / 9 / 15%",
+        "en": "Boosts Break Damage by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "14": {
+      "category_id": 1,
+      "jp": "物理ブレイクダメージ上昇",
+      "zh": "物理破防傷害上升",
+      "en": "P. Break DMG Up",
+      "description": {
+        "jp": "物理攻撃のブレイクダメージ2 / 4 / 6 / 12 / 20%アップ",
+        "zh": "物理攻擊的破防傷害提升2 / 4 / 6 / 12 / 20%",
+        "en": "Boosts physical Break Damage by 2 / 4 / 6 / 12 / 20%"
+      }
+    },
+    "15": {
+      "category_id": 1,
+      "jp": "魔法ブレイクダメージ上昇",
+      "zh": "魔法破防傷害上升",
+      "en": "M. Break DMG Up",
+      "description": {
+        "jp": "魔法攻撃のブレイクダメージ2 / 4 / 6 / 12 / 20%アップ",
+        "zh": "魔法攻擊的破防傷害提升2 / 4 / 6 / 12 / 20%",
+        "en": "Boosts magic Break Damage by 2 / 4 / 6 / 12 / 20%"
+      }
+    },
+    "16": {
+      "category_id": 1,
+      "jp": "ブレイクダメージ上昇【背水】",
+      "zh": "破防傷害上升【背水】",
+      "en": "Break DMG Up [Resolve]",
+      "description": {
+        "jp": "HPが50%以下の時、ブレイクダメージ2 / 4 / 6 / 12 / 20%アップ",
+        "zh": "HP50%以下時，破防傷害提升2 / 4 / 6 / 12 / 20%",
+        "en": "Boosts Break Damage by 2 / 4 / 6 / 12 / 20% when own HP is 50% or lower"
+      }
+    },
+    "17": {
+      "category_id": 1,
+      "jp": "ブレイクダメージ上昇【渾身】",
+      "zh": "破防傷害上升【滿血】",
+      "en": "Break DMG Up [Full]",
+      "description": {
+        "jp": "HP満タン時、ブレイクダメージ2 / 4 / 6 / 12 / 20%アップ",
+        "zh": "HP全滿時，破防傷害提升2 / 4 / 6 / 12 / 20%",
+        "en": "Boosts Break Damage by 2 / 4 / 6 / 12 / 20% when at full HP"
+      }
+    },
+    "18": {
+      "category_id": 2,
+      "jp": "斬耐性上昇",
+      "zh": "斬耐性上升",
+      "en": "Slash RES Up",
+      "description": {
+        "jp": "斬属性耐性1 / 2 / 3 / 6 / 10%アップ",
+        "zh": "斬屬性耐性提升1 / 2 / 3 / 6 / 10%",
+        "en": "Boosts Slash RES by 1 / 2 / 3 / 6 / 10%"
+      }
+    },
+    "19": {
+      "category_id": 2,
+      "jp": "打耐性上昇",
+      "zh": "打耐性上升",
+      "en": "Strike RES Up",
+      "description": {
+        "jp": "打属性耐性1 / 2 / 3 / 6 / 10%アップ",
+        "zh": "打屬性耐性提升1 / 2 / 3 / 6 / 10%",
+        "en": "Boosts Strike RES by 1 / 2 / 3 / 6 / 10%"
+      }
+    },
+    "20": {
+      "category_id": 2,
+      "jp": "突耐性上昇",
+      "zh": "突耐性上升",
+      "en": "Stab RES Up",
+      "description": {
+        "jp": "突属性耐性1 / 2 / 3 / 6 / 10%アップ",
+        "zh": "突屬性耐性提升1 / 2 / 3 / 6 / 10%",
+        "en": "Boosts Stab RES by 1 / 2 / 3 / 6 / 10%"
+      }
+    },
+    "21": {
+      "category_id": 2,
+      "jp": "火耐性上昇",
+      "zh": "火耐性上升",
+      "en": "Fire RES Up",
+      "description": {
+        "jp": "火属性耐性1 / 2 / 3 / 6 / 10%アップ",
+        "zh": "火屬性耐性提升1 / 2 / 3 / 6 / 10%",
+        "en": "Boosts Fire RES by 1 / 2 / 3 / 6 / 10%"
+      }
+    },
+    "22": {
+      "category_id": 2,
+      "jp": "氷耐性上昇",
+      "zh": "冰耐性上升",
+      "en": "Ice RES Up",
+      "description": {
+        "jp": "氷属性耐性1 / 2 / 3 / 6 / 10%アップ",
+        "zh": "冰屬性耐性提升1 / 2 / 3 / 6 / 10%",
+        "en": "Boosts Ice RES by 1 / 2 / 3 / 6 / 10%"
+      }
+    },
+    "23": {
+      "category_id": 2,
+      "jp": "風耐性上昇",
+      "zh": "風耐性上升",
+      "en": "Wind RES Up",
+      "description": {
+        "jp": "風属性耐性1 / 2 / 3 / 6 / 10%アップ",
+        "zh": "風屬性耐性提升1 / 2 / 3 / 6 / 10%",
+        "en": "Boosts Wind RES by 1 / 2 / 3 / 6 / 10%"
+      }
+    },
+    "24": {
+      "category_id": 2,
+      "jp": "雷耐性上昇",
+      "zh": "雷耐性上升",
+      "en": "Bolt RES Up",
+      "description": {
+        "jp": "雷属性耐性1 / 2 / 3 / 6 / 10%アップ",
+        "zh": "雷屬性耐性提升1 / 2 / 3 / 6 / 10%",
+        "en": "Boosts Bolt RES by 1 / 2 / 3 / 6 / 10%"
+      }
+    },
+    "25": {
+      "category_id": 2,
+      "jp": "物理耐性上昇",
+      "zh": "物理耐性上升",
+      "en": "P. RES Up",
+      "description": {
+        "jp": "物理攻撃から受けるダメージ1 / 2 / 3 / 4 / 5%ダウン",
+        "zh": "受到的物理攻擊傷害降低1 / 2 / 3 / 4 / 5%",
+        "en": "Reduces physical damage received by 1 / 2 / 3 / 4 / 5%"
+      }
+    },
+    "26": {
+      "category_id": 2,
+      "jp": "魔法耐性上昇",
+      "zh": "魔法耐性上升",
+      "en": "M. RES Up",
+      "description": {
+        "jp": "魔法攻撃から受けるダメージ1 / 2 / 3 / 4 / 5%ダウン",
+        "zh": "受到的魔法攻擊傷害降低1 / 2 / 3 / 4 / 5%",
+        "en": "Reduces magic damage received by 1 / 2 / 3 / 4 / 5%"
+      }
+    },
+    "27": {
+      "category_id": 1,
+      "jp": "単体攻撃威力上昇",
+      "zh": "單體攻擊威力上升",
+      "en": "Single-Target ATK Power UP",
+      "description": {
+        "jp": "単体攻撃のスキル威力3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "單體攻擊的技能威力提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts skill power by 3 / 5 / 8 / 15 / 25% on single-target attacks"
+      }
+    },
+    "28": {
+      "category_id": 1,
+      "jp": "全体攻撃威力上昇",
+      "zh": "全體攻擊威力上升",
+      "en": "AoE ATK Power Up",
+      "description": {
+        "jp": "全体攻撃のスキル威力3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "全體攻擊的技能威力提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts skill power by 3 / 5 / 8 / 15 / 25% on attacks that hit all enemies"
+      }
+    },
+    "29": {
+      "category_id": 2,
+      "jp": "全体攻撃耐性上昇",
+      "zh": "全體攻擊耐性上升",
+      "en": "AoE ATK RES Up",
+      "description": {
+        "jp": "全体攻撃から受けるダメージ3 / 5 / 8 / 15 / 25%ダウン",
+        "zh": "受到全體攻擊的傷害下降3 / 5 / 8 / 15 / 25%",
+        "en": "Reduces damage received from attacks that hit all allies by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "30": {
+      "category_id": 1,
+      "jp": "物理ダメージ上昇【背水】",
+      "zh": "物理傷害上升【背水】",
+      "en": "P. DMG Up [Resolve]",
+      "description": {
+        "jp": "HPが50%以下の時、物理攻撃のダメージ4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "HP50%以下時，物理攻擊的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts physical damage by 4 / 7 / 11 / 21 / 35% when HP is 50% or lower"
+      }
+    },
+    "31": {
+      "category_id": 1,
+      "jp": "物理ダメージ上昇【渾身】",
+      "zh": "物理傷害上升【滿血】",
+      "en": "P. DMG Up [Full]",
+      "description": {
+        "jp": "HP満タン時、物理攻撃のダメージ3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "HP全滿時，物理攻擊的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts physical damage by 4 / 7 / 11 / 21 / 35% when at full HP"
+      }
+    },
+    "32": {
+      "category_id": 1,
+      "jp": "魔法ダメージ上昇【背水】",
+      "zh": "魔法傷害上升【背水】",
+      "en": "M. DMG Up [Resolve]",
+      "description": {
+        "jp": "HPが50%以下の時、魔法攻撃のダメージ4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "HP50%以下時，物理攻擊的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts magic damage by 4 / 7 / 11 / 21 / 35% when HP is 50% or lower"
+      }
+    },
+    "33": {
+      "category_id": 1,
+      "jp": "魔法ダメージ上昇【渾身】",
+      "zh": "魔法傷害上升【滿血】",
+      "en": "M. DMG Up [Full]",
+      "description": {
+        "jp": "HP満タン時、魔法攻撃のダメージ3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "HP全滿時，物理攻擊的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts magic damage by 4 / 7 / 11 / 21 / 35% when at full HP"
+      }
+    },
+    "34": {
+      "category_id": 2,
+      "jp": "全耐性上昇【背水】",
+      "zh": "全耐性上升【背水】",
+      "en": "All RES Up [Resolve]",
+      "description": {
+        "jp": "HPが50%以下の時、受けるダメージ1 / 2 / 3 / 6 / 10%ダウン",
+        "zh": "HP50%以下時，受到的傷害降低1 / 2 / 3 / 6 / 10%",
+        "en": "Reduces Damage Taken by 1 / 2 / 3 / 6 / 10% when HP is 50% or lower"
+      }
+    },
+    "35": {
+      "category_id": 2,
+      "jp": "魔法耐性上昇【渾身】",
+      "zh": "魔法耐性上升【滿血】",
+      "en": "M. RES Up [Full]",
+      "description": {
+        "jp": "HP満タン時、受ける魔法攻撃のダメージ2 / 3 / 5 / 9 / 15%ダウン",
+        "zh": "HP全滿時，受到的魔法攻擊傷害下降2 / 3 / 5 / 9 / 15%",
+        "en": "Reduces magic damage received by 2 / 3 / 5 / 9 / 15% when at full HP"
+      }
+    },
+    "36": {
+      "category_id": 2,
+      "jp": "物理耐性上昇【渾身】",
+      "zh": "物理耐性上升【滿血】",
+      "en": "P. RES Up [Full]",
+      "description": {
+        "jp": "HP満タン時、受ける物理攻撃のダメージ2 / 3 / 5 / 9 / 15%ダウン",
+        "zh": "HP全滿時，受到的物理攻擊傷害下降2 / 3 / 5 / 9 / 15%",
+        "en": "Reduces physical damage received by 2 / 3 / 5 / 9 / 15% when at full HP"
+      }
+    },
+    "37": {
+      "category_id": 4,
+      "jp": "回復量上昇【渾身】",
+      "zh": "回復量上升【滿血】",
+      "en": "Recovery Boost [Full]",
+      "description": {
+        "jp": "HP満タン時、与える回復量4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "HP全滿時，給予的HP回復量提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts HP Recovery given by 4 / 7 / 11 / 21 / 35% when at full HP"
+      }
+    },
+    "38": {
+      "category_id": 4,
+      "jp": "回復量上昇【背水】",
+      "zh": "回復量上升【背水】",
+      "en": "Recovery Boost [Resolve]",
+      "description": {
+        "jp": "HPが50%以下の時、与える回復量4 / 8 / 12 / 24 / 40%アップ",
+        "zh": "HP50%以下時、給予的HP回復量提升4 / 8 / 12 / 24 / 40%",
+        "en": "Boosts HP Recovery given by 4 / 8 / 12 / 24 / 40% when own HP is 50% or lower"
+      }
+    },
+    "39": {
+      "category_id": 4,
+      "jp": "回復量上昇",
+      "zh": "回復量上升",
+      "en": "Recovery Boost",
+      "description": {
+        "jp": "与えるHP回復量2 / 3 / 5 / 9 / 15%アップ",
+        "zh": "与給予的HP回復量提升2 / 3 / 5 / 9 / 15%",
+        "en": "Boosts HP Recovery given by  2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "40": {
+      "category_id": 4,
+      "jp": "単体回復量上昇",
+      "zh": "單體回復量上升",
+      "en": "Single Recovery Boost",
+      "description": {
+        "jp": "味方単体回復が与えるHP回復量3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "我方單體回復給予的HP回復量提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts HP Recovery given to a single ally by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "41": {
+      "category_id": 4,
+      "jp": "全体回復量上昇",
+      "zh": "全體回復量上升",
+      "en": "Aoe Recovery Boost",
+      "description": {
+        "jp": "味方全員回復が与えるHP回復量3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "我方全體回復給予的HP回復量提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts HP Recovery given to all allies by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "42": {
+      "category_id": 2,
+      "jp": "魔法耐性上昇【D】",
+      "zh": "魔法耐性上升【D】",
+      "en": "M. RES Up [D]",
+      "description": {
+        "jp": "ディフェンダーへの魔法攻撃のダメージ1 / 2 / 3 / 4 / 5%ダウン",
+        "zh": "對防禦者的魔法攻擊傷害下降1 / 2 / 3 / 4 / 5%",
+        "en": "Reduces magic damage to Defender by 1 / 2 / 3 / 4 / 5%"
+      }
+    },
+    "43": {
+      "category_id": 2,
+      "jp": "物理耐性上昇【D】",
+      "zh": "物理耐性上升【D】",
+      "en": "P. RES Up [D]",
+      "description": {
+        "jp": "ディフェンダーへの物理攻撃のダメージ1 / 2 / 3 / 4 / 5%ダウン",
+        "zh": "對防禦者的物理攻擊傷害下降1 / 2 / 3 / 4 / 5%",
+        "en": "Reduces physical damage to Defender by 1 / 2 / 3 / 4 / 5%"
+      }
+    },
+    "44": {
+      "category_id": 2,
+      "jp": "物理/魔法耐性アップ強化【D】",
+      "zh": "物理/魔法耐性提升強化【D】",
+      "en": "Enhanced P./M. RES Up [D]",
+      "description": {
+        "jp": "対象がディフェンダーへ与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量5 / 10 / 15 / 30 / 50%アップ",
+        "zh": "防禦者給予的「物理被傷害下降」與「魔法被傷害下降」的効果量提升5 / 10 / 15 / 30 / 50%",
+        "en": "Boosts potency of [Received Physical Damage Down] & [Received Magic Damage Down] buffs given to Defenders by 5 / 10 / 15 / 30 / 50%"
+      }
+    },
+    "45": {
+      "category_id": 2,
+      "jp": "ダメージバフ強化【A】",
+      "zh": "傷害增益強化【A】",
+      "en": "Enhanced Damage Buff [A]",
+      "description": {
+        "jp": "アタッカーへ与えるダメージ強化の効果量5 / 10 / 15 / 30 / 50%アップ",
+        "zh": "給予攻擊者的傷害強化效果量提升5 / 10 / 15 / 30 / 50%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Attackers by 5 / 10 / 15 / 30 / 50%"
+      }
+    },
+    "46": {
+      "category_id": 2,
+      "jp": "ダメージバフ強化【B】",
+      "zh": "傷害增益強化【B】",
+      "en": "Enhanced Damage Buff [B]",
+      "description": {
+        "jp": "ブレイカーへ与えるダメージ強化の効果量5 / 10 / 15 / 30 / 50%アップ",
+        "zh": "給予破防者的傷害強化效果量提升5 / 10 / 15 / 30 / 50%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Breakers by 5 / 10 / 15 / 30 / 50%"
+      }
+    },
+    "47": {
+      "category_id": 4,
+      "jp": "回復量上昇【D】",
+      "zh": "回復量上升【D】",
+      "en": "Recovery Boost [D]",
+      "description": {
+        "jp": "ディフェンダーへ与える回復量4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "防禦者給予的回復量提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts HP Recovery given to Defender by 4 / 7 / 11 / 21 / 35%"
+      }
+    },
+    "48": {
+      "category_id": 3,
+      "jp": "物理/魔法耐性ダウン強化",
+      "zh": "物理/魔法耐性下降強化",
+      "en": "Enhanced P./M. RES Down",
+      "description": {
+        "jp": "対象が与える「物理被ダメージアップ」と「魔法被ダメージアップ」の効果量4 / 8 / 12 / 24 / 40%アップ",
+        "zh": "賦予的「受到物理傷害提升」與「受到魔法傷害提升」效果量提升4 / 8 / 12 / 24 / 40%",
+        "en": "Boosts potency of [Received Physical Damage Up] and [Received Magic Damage Up] effects applied by 4 / 8 / 12 / 24 / 40%"
+      }
+    },
+    "49": {
+      "category_id": 2,
+      "jp": "物理/魔法耐性アップ強化",
+      "zh": "物理/魔法耐性提升強化",
+      "en": "Enhanced P./M. RES Up",
+      "description": {
+        "jp": "対象が与える「物理被ダメージダウン」と「魔法被ダメージダウン」の効果量4 / 8 / 12 / 24 / 40%アップ",
+        "zh": "賦予的「受到物理傷害下降」與「受到魔法傷害下降」效果量提升4 / 8 / 12 / 24 / 40%",
+        "en": "Boosts potency of [Received Physical Damage Down] and [Received Magic Damage Down] effects applied by 4 / 8 / 12 / 24 / 40%"
+      }
+    },
+    "50": {
+      "category_id": 2,
+      "jp": "ぷにダメージ軽減",
+      "zh": "噗尼傷害減輕",
+      "en": "Reduced Puni DMG",
+      "description": {
+        "jp": "ぷに種族から受けるダメージ2 / 3 / 5 / 9 / 15%ダウン",
+        "zh": "受到噗尼種族的傷害下降 2 / 3 / 5 / 9 / 15%",
+        "en": "Reduces damage received by target from Puni enemies  by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "51": {
+      "category_id": 2,
+      "jp": "獣ダメージ軽減",
+      "zh": "野獸傷害減輕",
+      "en": "Reduced Beast DMG",
+      "description": {
+        "jp": "獣種族から受けるダメージ2 / 3 / 5 / 9 / 15%ダウン",
+        "zh": "受到野獸種族的傷害下降 2 / 3 / 5 / 9 / 15%",
+        "en": "Reduces damage received by target from Beast enemies  by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "52": {
+      "category_id": 2,
+      "jp": "精霊ダメージ軽減",
+      "zh": "精靈傷害減輕",
+      "en": "Reduced Spirit DMG",
+      "description": {
+        "jp": "精霊種族から受けるダメージ2 / 3 / 5 / 9 / 15%ダウン",
+        "zh": "受到精靈種族的傷害下降 2 / 3 / 5 / 9 / 15%",
+        "en": "Reduces damage received by target from Spirit enemies  by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "53": {
+      "category_id": 2,
+      "jp": "水棲ダメージ軽減",
+      "zh": "水棲傷害減輕",
+      "en": "Reduced Aquatic DMG",
+      "description": {
+        "jp": "水棲種族から受けるダメージ2 / 3 / 5 / 9 / 15%ダウン",
+        "zh": "受到水棲種族的傷害下降 2 / 3 / 5 / 9 / 15%",
+        "en": "Reduces damage received by target from Aquatic enemies  by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "54": {
+      "category_id": 2,
+      "jp": "鳥ダメージ軽減",
+      "zh": "鳥類傷害減輕",
+      "en": "Reduced Bird DMG",
+      "description": {
+        "jp": "鳥種族から受けるダメージ2 / 3 / 5 / 9 / 15%ダウン",
+        "zh": "受到鳥類種族的傷害下降 2 / 3 / 5 / 9 / 15%",
+        "en": "Reduces damage received by target from Bird enemies  by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "55": {
+      "category_id": 1,
+      "jp": "ぷにダメージ上昇",
+      "zh": "噗尼傷害上升",
+      "en": "Puni DMG Up",
+      "description": {
+        "jp": "ぷに種族に与えるダメージ4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "給予噗尼種族的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts damage to Puni enemies by 4 / 7 / 11 / 21 / 35%"
+      }
+    },
+    "56": {
+      "category_id": 1,
+      "jp": "獣ダメージ上昇",
+      "zh": "野獸傷害上升",
+      "en": "Beast DMG Up",
+      "description": {
+        "jp": "獣種族に与えるダメージ4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "給予野獸種族的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts damage to Beast enemies by 4 / 7 / 11 / 21 / 35%"
+      }
+    },
+    "57": {
+      "category_id": 1,
+      "jp": "精霊ダメージ上昇",
+      "zh": "精靈傷害上升",
+      "en": "Spirit DMG Up",
+      "description": {
+        "jp": "精霊種族に与えるダメージ4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "給予精靈種族的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts damage to Spirit enemies by 4 / 7 / 11 / 21 / 35%"
+      }
+    },
+    "58": {
+      "category_id": 1,
+      "jp": "水棲ダメージ上昇",
+      "zh": "水棲傷害上升",
+      "en": "Aquatic DMG Up",
+      "description": {
+        "jp": "水棲種族に与えるダメージ4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "給予水棲種族的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts damage to Aquatic enemies by 4 / 7 / 11 / 21 / 35%"
+      }
+    },
+    "59": {
+      "category_id": 1,
+      "jp": "鳥ダメージ上昇",
+      "zh": "鳥類傷害上升",
+      "en": "Bird DMG Up",
+      "description": {
+        "jp": "鳥種族に与えるダメージ4 / 7 / 11 / 21 / 35%アップ",
+        "zh": "給予精靈種族的傷害提升4 / 7 / 11 / 21 / 35%",
+        "en": "Boosts damage to Bird enemies by 4 / 7 / 11 / 21 / 35%"
+      }
+    },
+    "60": {
+      "category_id": 1,
+      "jp": "クリティカルダメージ上昇",
+      "zh": "暴擊傷害上升",
+      "en": "Crit DMG Up",
+      "description": {
+        "jp": "クリティカルダメージ6 / 12 / 18 / 36 / 60%アップ",
+        "zh": "暴擊傷害提升6 / 12 / 18 / 36 / 60%",
+        "en": "Boosts critical damage by 6 / 12 / 18 / 36 / 60%"
+      }
+    },
+    "61": {
+      "category_id": 1,
+      "jp": "バーストスキル威力上昇",
+      "zh": "爆發技能威力上升",
+      "en": "Burst Skill Power Up",
+      "description": {
+        "jp": "バーストスキルのスキル威力3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "爆發技能的技能威力提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts burst skill power by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "62": {
+      "category_id": 4,
+      "jp": "被回復量上昇",
+      "zh": "被回復量上升",
+      "en": "Received Recovery Up",
+      "description": {
+        "jp": "受けるHP回復量2 / 3 / 5 / 9 / 15%アップ",
+        "zh": "受到的HP回復量提升2 / 3 / 5 / 9 / 15%",
+        "en": "Boosts HP Recovery received by 2 / 3 / 5 / 9 / 15%"
+      }
+    },
+    "63": {
+      "category_id": 1,
+      "jp": "スキル2威力上昇",
+      "zh": "技能2威力上升",
+      "en": "Skill2 Power Up",
+      "description": {
+        "jp": "スキル2のスキル威力3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "技能2の技能威力提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts Skill 2 skill power by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "64": {
+      "category_id": 1,
+      "jp": "鳥ブレイクダメージ上昇",
+      "zh": "鳥類破防傷害上升",
+      "en": "Avian Break DMG Up",
+      "description": {
+        "jp": "鳥種族に与えるブレイクダメージ4 / 7 / 10 / 20 / 30%アップ",
+        "zh": "對鳥類種族的破防傷害提升4 / 7 / 10 / 20 / 30%",
+        "en": "Boosts Break Damage to Avian enemies by 4 / 7 / 10 / 20 / 30%"
+      }
+    },
+    "65": {
+      "category_id": 3,
+      "jp": "属性耐性ダウン強化【雷】",
+      "zh": "屬性耐性下降強化【雷】",
+      "en": "Enhanced RES Down [Bolt]",
+      "description": {
+        "jp": "対象が与える「雷属性耐性ダウン」の効果量3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "賦予「雷屬性耐性下降」的效果量提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts potency of Bolt RES down effects applied by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "66": {
+      "category_id": 3,
+      "jp": "属性耐性ダウン強化【氷】",
+      "zh": "屬性耐性下降強化【冰】",
+      "en": "Enhanced RES Down [Ice]",
+      "description": {
+        "jp": "対象が与える「氷属性耐性ダウン」の効果量3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "賦予「冰屬性耐性下降」的效果量提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts potency of Ice RES down effects applied by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "67": {
+      "category_id": 1,
+      "jp": "WEAK時ブレイクダメージ上昇",
+      "zh": "WEAK時破防傷害上升",
+      "en": "Break DMG Up on WEAK",
+      "description": {
+        "jp": "WEAK攻撃時、ブレイクダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "WEAK攻擊時，破防傷害提升3 / 5 / 8 / 15 / 25%",
+        "en": "Boosts Break Damage by 3~25% when attacking Weakness"
+      }
+    },
+    "68": {
+      "category_id": 1,
+      "jp": "スキル2ブレイクダメージ上昇",
+      "zh": "技能2破防傷害上升",
+      "en": "Skill2 Break DMG Up",
+      "description": {
+        "jp": "スキル2のブレイクダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "zh": "スキル2のブレイクダメージ3 / 5 / 8 / 15 / 25%アップ",
+        "en": "Boosts Skill 2 Break Damage by 3 / 5 / 8 / 15 / 25%"
+      }
+    },
+    "69": {
+      "category_id": 3,
+      "jp": "属性耐性ダウン強化【火】",
+      "zh": "屬性耐性下降強化【火】",
+      "en": "Enhanced RES Down [Fire]",
+      "description": {
+        "jp": "対象が与える「火属性耐性ダウン」の効果量3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "賦予「火屬性耐性下降」的效果量提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts potency of Fire RES down effects applied by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "70": {
+      "category_id": 3,
+      "jp": "属性耐性ダウン強化【突】",
+      "zh": "屬性耐性下降強化【突】",
+      "en": "Enhanced RES Down [Stab]",
+      "description": {
+        "jp": "対象が与える「突属性耐性ダウン」の効果量3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "賦予「突屬性耐性下降」的效果量提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts potency of Stab RES down effects applied by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "71": {
+      "category_id": 1,
+      "jp": "雷スキル威力上昇",
+      "zh": "雷技能威力上升",
+      "en": "Bolt Skill Power Up",
+      "description": {
+        "jp": "雷属性のスキル威力4 / 8 / 12 / 22 / 35%アップ",
+        "zh": "雷屬性的技能威力提升4 / 8 / 12 / 22 / 35%",
+        "en": "Boosts Bolt Skill Power by 4 / 8 / 12 / 22 / 35%"
+      }
+    },
+    "72": {
+      "category_id": 1,
+      "jp": "氷スキル威力上昇",
+      "zh": "冰技能威力上升",
+      "en": "Ice Skill Power Up",
+      "description": {
+        "jp": "氷属性のスキル威力4 / 8 / 12 / 22 / 35%アップ",
+        "zh": "冰屬性的技能威力提升4 / 8 / 12 / 22 / 35%",
+        "en": "Boosts Ice Skill Power by 4 / 8 / 12 / 22 / 35%"
+      }
+    },
+    "73": {
+      "category_id": 1,
+      "jp": "風スキル威力上昇",
+      "zh": "風技能威力上升",
+      "en": "Wind Skill Power Up",
+      "description": {
+        "jp": "風属性のスキル威力4 / 8 / 12 / 22 / 35%アップ",
+        "zh": "風屬性的技能威力提升4 / 8 / 12 / 22 / 35%",
+        "en": "Boosts Wind Skill Power by 4 / 8 / 12 / 22 / 35%"
+      }
+    },
+    "74": {
+      "category_id": 1,
+      "jp": "斬スキル威力上昇",
+      "zh": "斬技能威力上升",
+      "en": "Slash Skill Power Up",
+      "description": {
+        "jp": "斬属性のスキル威力4 / 8 / 12 / 22 / 35%アップ",
+        "zh": "斬屬性的技能威力提升4 / 8 / 12 / 22 / 35%",
+        "en": "Boosts Slash Skill Power by 4 / 8 / 12 / 22 / 35%"
+      }
+    },
+    "75": {
+      "category_id": 1,
+      "jp": "打スキル威力上昇",
+      "zh": "打技能威力上升",
+      "en": "Strike Skill Power Up",
+      "description": {
+        "jp": "打属性のスキル威力4 / 8 / 12 / 22 / 35%アップ",
+        "zh": "打屬性的技能威力提升4 / 8 / 12 / 22 / 35%",
+        "en": "Boosts Strike Skill Power by 4 / 8 / 12 / 22 / 35%"
+      }
+    },
+    "76": {
+      "category_id": 1,
+      "jp": "突スキル威力上昇",
+      "zh": "突技能威力上升",
+      "en": "Stab Skill Power Up",
+      "description": {
+        "jp": "突属性のスキル威力4 / 8 / 12 / 22 / 35%アップ",
+        "zh": "突屬性的技能威力提升4 / 8 / 12 / 22 / 35%",
+        "en": "Boosts Stab Skill Power by 4 / 8 / 12 / 22 / 35%"
+      }
+    },
+    "77": {
+      "category_id": 1,
+      "jp": "火スキル威力上昇",
+      "zh": "火技能威力上升",
+      "en": "Fire Skill Power Up",
+      "description": {
+        "jp": "火属性のスキル威力4 / 8 / 12 / 22 / 35%アップ",
+        "zh": "火屬性的技能威力提升4 / 8 / 12 / 22 / 35%",
+        "en": "Boosts Fire Skill Power by 4 / 8 / 12 / 22 / 35%"
+      }
+    },
+    "78": {
+      "category_id": 3,
+      "jp": "属性耐性ダウン強化【斬】",
+      "zh": "屬性耐性下降強化【斬】",
+      "en": "Enhanced RES Down [Slash]",
+      "description": {
+        "jp": "対象が与える「斬属性耐性ダウン」の効果量3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "賦予「斬屬性耐性下降」的效果量提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts potency of Slash RES down effects applied by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "79": {
+      "category_id": 3,
+      "jp": "属性耐性ダウン強化【打】",
+      "zh": "屬性耐性下降強化【打】",
+      "en": "Enhanced RES Down [Strike]",
+      "description": {
+        "jp": "対象が与える「打属性耐性ダウン」の効果量3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "賦予「打屬性耐性下降」的效果量提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts potency of Strike RES down effects applied by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "80": {
+      "category_id": 3,
+      "jp": "属性耐性ダウン強化【風】",
+      "zh": "屬性耐性下降強化【風】",
+      "en": "Enhanced RES Down [Wind]",
+      "description": {
+        "jp": "対象が与える「風属性耐性ダウン」の効果量3 / 6 / 9 / 18 / 30%アップ",
+        "zh": "賦予「風屬性耐性下降」的效果量提升3 / 6 / 9 / 18 / 30%",
+        "en": "Boosts potency of Wind RES down effects applied by 3 / 6 / 9 / 18 / 30%"
+      }
+    },
+    "81": {
+      "category_id": 1,
+      "jp": "先行物攻アップ",
+      "zh": "先行物攻提升",
+      "en": "Preemptive P. ATK Up",
+      "description": {
+        "jp": "バトル開始時に「物攻+8 / 16 / 24 / 48 / 80％」を1回行動終了するまで付与",
+        "zh": "回合開始時賦予「物攻+8 / 16 / 24 / 48 / 80％」直到1次行動結束為止",
+        "en": "At the start of the battle, boosts P. ATK by 8 / 16 / 24 / 48 / 80％ for 1 turn"
+      }
+    },
+    "82": {
+      "category_id": 1,
+      "jp": "先行魔攻アップ",
+      "zh": "先行魔攻提升",
+      "en": "Preemptive M. ATK Up",
+      "description": {
+        "jp": "バトル開始時に「魔攻+8 / 16 / 24 / 48 / 80％」を1回行動終了するまで付与",
+        "zh": "回合開始時賦予「魔攻+8 / 16 / 24 / 48 / 80％」直到1次行動結束為止",
+        "en": "At the start of the battle, boosts M. ATK by 8 / 16 / 24 / 48 / 80％ for 1 turn"
+      }
+    },
+    "83": {
+      "category_id": 1,
+      "jp": "晩成物攻アップ",
+      "zh": "晚成物攻提升",
+      "en": "Ramping P. ATK Up",
+      "description": {
+        "jp": "スキル使用時に「物攻＋2 / 3 / 5 / 9 / 15％」を付与（この特性共通で上限150%）",
+        "zh": "技能使用時賦予「物攻＋2 / 3 / 5 / 9 / 15％」（特性共通上限150%）",
+        "en": "Grants P. ATK +2 / 3 / 5 / 9 / 15% when using a skill (Trait MAX 150%)"
+      }
+    },
+    "84": {
+      "category_id": 1,
+      "jp": "晩成魔攻アップ",
+      "zh": "晚成魔攻提升",
+      "en": "Ramping M. ATK Up",
+      "description": {
+        "jp": "スキル使用時に「魔攻＋2 / 3 / 5 / 9 / 15％」を付与（この特性共通で上限150%）",
+        "zh": "技能使用時賦予「魔攻＋2 / 3 / 5 / 9 / 15％」（特性共通上限150%）",
+        "en": "Grants M. ATK +2 / 3 / 5 / 9 / 15% when using a skill (Trait MAX 150%)"
+      }
+    },
+    "91": {
+      "category_id": 2,
+      "jp": "雷クリティカル確率上昇",
+      "zh": "雷暴擊率上升",
+      "en": "Bolt Crit Rate Up",
+      "description": {
+        "jp": "雷属性の時、クリティカル確率5 / 10 / 15 / 30 / 50％アップ",
+        "zh": "雷屬性時，提升暴擊率5 / 10 / 15 / 30 / 50％",
+        "en": "Boosts critical rate by 5 / 10 / 15 / 30 / 50% when Bolt-element"
+      }
+    },
+    "92": {
+      "category_id": 2,
+      "jp": "氷クリティカル確率上昇",
+      "zh": "冰暴擊率上升",
+      "en": "Ice Crit Rate Up",
+      "description": {
+        "jp": "氷属性の時、クリティカル確率5 / 10 / 15 / 30 / 50％アップ",
+        "zh": "冰屬性時，提升暴擊率5 / 10 / 15 / 30 / 50％",
+        "en": "Boosts critical rate by 5 / 10 / 15 / 30 / 50% when Ice-element"
+      }
+    },
+    "93": {
+      "category_id": 2,
+      "jp": "風クリティカル確率上昇",
+      "zh": "風暴擊率上升",
+      "en": "Wind Crit Rate Up",
+      "description": {
+        "jp": "風属性の時、クリティカル確率5 / 10 / 15 / 30 / 50％アップ",
+        "zh": "風屬性時，提升暴擊率5 / 10 / 15 / 30 / 50％",
+        "en": "Boosts critical rate by 5 / 10 / 15 / 30 / 50% when Wind-element"
+      }
+    },
+    "94": {
+      "category_id": 2,
+      "jp": "斬クリティカル確率上昇",
+      "zh": "斬暴擊率上升",
+      "en": "Slash Crit Rate Up",
+      "description": {
+        "jp": "斬属性の時、クリティカル確率5 / 10 / 15 / 30 / 50％アップ",
+        "zh": "斬屬性時，提升暴擊率5 / 10 / 15 / 30 / 50％",
+        "en": "Boosts critical rate by 5 / 10 / 15 / 30 / 50% when Slash-element"
+      }
+    },
+    "95": {
+      "category_id": 2,
+      "jp": "打クリティカル確率上昇",
+      "zh": "打暴擊率上升",
+      "en": "Strike Crit Rate Up",
+      "description": {
+        "jp": "打属性の時、クリティカル確率5 / 10 / 15 / 30 / 50％アップ",
+        "zh": "打屬性時，提升暴擊率5 / 10 / 15 / 30 / 50％",
+        "en": "Boosts critical rate by 5 / 10 / 15 / 30 / 50% when Strike-element"
+      }
+    },
+    "96": {
+      "category_id": 2,
+      "jp": "突クリティカル確率上昇",
+      "zh": "突暴擊率上升",
+      "en": "Stab Crit Rate Up",
+      "description": {
+        "jp": "突属性の時、クリティカル確率5 / 10 / 15 / 30 / 50％アップ",
+        "zh": "突屬性時，提升暴擊率5 / 10 / 15 / 30 / 50％",
+        "en": "Boosts critical rate by 5 / 10 / 15 / 30 / 50% when Stab-element"
+      }
+    },
+    "97": {
+      "category_id": 2,
+      "jp": "火クリティカル確率上昇",
+      "zh": "火暴擊率上升",
+      "en": "Fire Crit Raite Up",
+      "description": {
+        "jp": "火属性の時、クリティカル確率5 / 10 / 15 / 30 / 50％アップ",
+        "zh": "火屬性時，提升暴擊率5 / 10 / 15 / 30 / 50％",
+        "en": "Boosts critical rate by 5 / 10 / 15 / 30 / 50% when Fire-element"
+      }
+    },
+    "98": {
+      "category_id": 1,
+      "jp": "雷クリティカルダメージ上昇",
+      "zh": "雷暴擊傷害上升",
+      "en": "Bolt Crit DMG Up",
+      "description": {
+        "jp": "雷属性の時、クリティカルダメージ8 / 16 / 24 / 48 / 80％アップ",
+        "zh": "雷屬性時，暴擊傷害提升8 / 16 / 24 / 48 / 80％",
+        "en": "Boosts Critical Damage by 8 / 16 / 24 / 48 / 80％ when Bolt-element"
+      }
+    },
+    "99": {
+      "category_id": 1,
+      "jp": "氷クリティカルダメージ上昇",
+      "zh": "冰暴擊傷害上升",
+      "en": "Ice Crit DMG Up",
+      "description": {
+        "jp": "氷属性の時、クリティカルダメージ8 / 16 / 24 / 48 / 80％アップ",
+        "zh": "冰屬性時，暴擊傷害提升8 / 16 / 24 / 48 / 80％",
+        "en": "Boosts Critical Damage by 8 / 16 / 24 / 48 / 80％ when Ice-element"
+      }
+    },
+    "100": {
+      "category_id": 1,
+      "jp": "風クリティカルダメージ上昇",
+      "zh": "風暴擊傷害上升",
+      "en": "Wind Crit DMG Up",
+      "description": {
+        "jp": "風属性の時、クリティカルダメージ8 / 16 / 24 / 48 / 80％アップ",
+        "zh": "風屬性時，暴擊傷害提升8 / 16 / 24 / 48 / 80％",
+        "en": "Boosts Critical Damage by 8 / 16 / 24 / 48 / 80％ when Wind-element"
+      }
+    },
+    "101": {
+      "category_id": 1,
+      "jp": "斬クリティカルダメージ上昇",
+      "zh": "斬暴擊傷害上升",
+      "en": "Slash Crit DMG Up",
+      "description": {
+        "jp": "斬属性の時、クリティカルダメージ8 / 16 / 24 / 48 / 80％アップ",
+        "zh": "斬屬性時，暴擊傷害提升8 / 16 / 24 / 48 / 80％",
+        "en": "Boosts Critical Damage by 8 / 16 / 24 / 48 / 80％ when Slash-element"
+      }
+    },
+    "102": {
+      "category_id": 1,
+      "jp": "打クリティカルダメージ上昇",
+      "zh": "打暴擊傷害上升",
+      "en": "Strike Crit DMG Up",
+      "description": {
+        "jp": "打属性の時、クリティカルダメージ8 / 16 / 24 / 48 / 80％アップ",
+        "zh": "打屬性時，暴擊傷害提升8 / 16 / 24 / 48 / 80％",
+        "en": "Boosts Critical Damage by 8 / 16 / 24 / 48 / 80％ when Strike-element"
+      }
+    },
+    "103": {
+      "category_id": 1,
+      "jp": "突クリティカルダメージ上昇",
+      "zh": "突暴擊傷害上升",
+      "en": "Stab Crit DMG Up",
+      "description": {
+        "jp": "突属性の時、クリティカルダメージ8 / 16 / 24 / 48 / 80％アップ",
+        "zh": "突屬性時，暴擊傷害提升8 / 16 / 24 / 48 / 80％",
+        "en": "Boosts Critical Damage by 8 / 16 / 24 / 48 / 80％ when Stab-element"
+      }
+    },
+    "104": {
+      "category_id": 1,
+      "jp": "火クリティカルダメージ上昇",
+      "zh": "火暴擊傷害上升",
+      "en": "Fire Crit DMG Up",
+      "description": {
+        "jp": "火属性の時、クリティカルダメージ8 / 16 / 24 / 48 / 80％アップ",
+        "zh": "火屬性時，暴擊傷害提升8 / 16 / 24 / 48 / 80％",
+        "en": "Boosts Critical Damage by 8 / 16 / 24 / 48 / 80％ when Fire-element"
+      }
+    },
+    "105": {
+      "category_id": 2,
+      "jp": "戦闘アイテムダメージバフ強化",
+      "zh": "戰鬥道具傷害增益強化",
+      "en": "Enhanced Battle Item DMG Buff",
+      "description": {
+        "jp": "与える戦闘アイテムダメージ強化の効果量5 / 10 / 15 / 30 / 50%アップ",
+        "zh": "戰鬥道具賦予的傷害強化效果量提升5 / 10 / 15 / 30 / 50%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given by items by 5 / 10 / 15 / 30 / 50%"
+      }
+    },
+    "106": {
+      "category_id": 2,
+      "jp": "アトリエ砲ダメージバフ強化",
+      "zh": "工房砲傷害增益強化",
+      "en": "Enhanced Atelier Cannon DMG Buff",
+      "description": {
+        "jp": "与えるアトリエ砲ダメージ強化の効果量5 / 10 / 15 / 30 / 50%アップ",
+        "zh": "工房砲賦予的傷害強化效果量提升5 / 10 / 15 / 30 / 50%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs granted by Atelier Cannon by 5 / 10 / 15 / 30 / 50%"
+      }
+    },
+    "107": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【A】",
+      "zh": "物攻/魔攻增益強化【A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [A]",
+      "description": {
+        "jp": "アタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量5 / 10 / 15 / 30 / 50%アップ",
+        "zh": "賦予攻擊者「物攻提升」與「魔攻提升」的效果量提升5 / 10 / 15 / 30 / 50%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Attackers by 5 / 10 / 15 / 30 / 50%"
+      }
+    },
+    "118": {
+      "category_id": 2,
+      "jp": "ダメージバフ強化【風A】",
+      "zh": "傷害增益強化【風A】",
+      "en": "Enhanced DMG Buff [Wind A]",
+      "description": {
+        "jp": "得意属性が風属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予風屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Wind Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "120": {
+      "category_id": 2,
+      "jp": "ダメージバフ強化【打A】",
+      "zh": "傷害增益強化【打A】",
+      "en": "Enhanced DMG Buff [Strike A]",
+      "description": {
+        "jp": "得意属性が打属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予打屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Strike Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    }
+  }
+}

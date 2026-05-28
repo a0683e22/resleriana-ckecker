@@ -1,0 +1,462 @@
+/* ==========================================================================
+   主控按鈕
+   ========================================================================== */
+.data-reset-btn {
+	background: rgba(180,60,60,.18);
+	border: 1px solid rgba(255,90,90,.25);
+	color: rgba(255,180,180,.92)
+}
+
+.data-reset-btn:hover {
+	background: rgba(220,70,70,.24);
+	border: 1px solid rgba(255,120,120,.38)
+}
+
+.reset-btn {
+    background: transparent;
+    border: 1px solid rgba(239,68,68,0.35);
+    color: #ef4444;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.reset-btn:hover {
+    background: rgba(239,68,68,0.12);
+    border-color: #ef4444;
+    color: #ff6b6b;
+    transform: rotate(-90deg)
+}
+
+#reset-memoria-btn{transition:color .2s ease,border-color .2s ease,box-shadow .2s ease}
+#reset-memoria-btn:hover {
+	color: #ff4d4d;
+	border-color: rgba(255,77,77,.5);
+	box-shadow: 0 0 10px rgba(255,77,77,.35)
+}
+
+.memoria-share {
+    color: #c084fc;
+    border-color: rgba(192,132,252,.4);
+    box-shadow: 0 0 10px rgba(192,132,252,.25);
+}
+
+.char-item:not(.active) img {
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+/* 確保 .active 狀態下的圖片是彩色的 */
+.char-item.active img {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.char-card[data-id="0"], 
+.char-card[data-id="23"] {
+    opacity: 1 !important;
+    border-color: #60a5fa !important; /* 給個特殊的邊框顏色提示 */
+}
+/* =========================
+   Character Grid Container
+========================= */
+
+.character-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+    position: relative;
+    grid-template-columns: repeat(auto-fill, 88px);
+    gap: 6px 10px;
+    justify-content: start;
+    padding: 8px;
+    z-index: 10;
+}
+
+/* =========================
+   Card Layout
+========================= */
+.char-card {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #7c6748;
+    border-radius: 8px;
+    background: #0f172a;
+    cursor: pointer;
+    z-index: 100;
+    transition: transform 0.2s;
+    overflow: visible !important;
+}
+
+.char-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.diamond-frame {
+    width: 60px;
+    height: 60px;
+    background: #111827;
+    border: 2px solid #6f5f45;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.char-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotate(-45deg) scale(1.28);
+    user-select: none;
+    pointer-events: none;
+}
+
+/* =========================
+   Hover Effects
+========================= */
+.char-card:hover .diamond-frame {
+    transform: rotate(45deg) scale(1.08);
+    border-color: #bfa67a;
+}
+
+.char-card:hover .char-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* =========================
+   Icons & Tooltip
+========================= */
+.char-icon{
+    position:absolute;
+    width:16px;
+    height:16px;
+    object-fit:contain;
+    z-index: 20;
+}
+
+.icon-left { left:4px; bottom:4px; }
+
+.icon-right { right:4px; bottom:4px; }
+
+.char-tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    padding: 4px 8px;
+    background: #111827;
+    border: 1px solid #374151;
+    border-radius: 6px;
+    font-size: 13px;
+    color: white;
+    z-index: 120;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s;
+}
+
+.char-card:nth-last-child(-n + 5) .char-tooltip {
+    left: auto;
+    right: 0;
+}
+
+.tooltip-name {display:block; font-size: 12px; font-weight: 700;     white-space:nowrap;}
+.tooltip-date {display:block; margin-top: 4px; font-size: 11px; text-align: center; color: #9ca3af }
+
+
+
+/* =========================
+   Responsive: Mobile
+========================= */
+@media (max-width: 768px) {
+    .character-container {
+        grid-template-columns: repeat(auto-fill, 64px);
+        gap: 10px 8px;
+    }
+
+    .char-card {
+        width: 64px;
+        height: 64px;
+    }
+
+    .diamond-frame {
+        width: 56px;
+        height: 56px;
+    }
+}
+
+/* ==========================================================================
+   TABLE MODE - 角色表格系統整合版
+   ========================================================================== */
+
+#content { width: 100%; overflow-x: auto;}
+
+/* --- Table Root --- */
+.character-table {
+  display: grid;
+  grid-template-columns: 72px repeat(7, 250px);
+  gap: 4px;
+  width: max-content;
+  margin: 0 auto;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* --- Shared Blocks --- */
+.table-corner,
+.table-header,
+.table-cell {
+  background: #1f2937;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+/* --- Header & Corner --- */
+.table-corner,
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72px;
+  cursor:pointer;
+}
+
+.table-header { padding: 6px; }
+
+.table-header img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+/* --- Table Cell --- */
+.table-cell {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-auto-rows:50px;
+  gap: 4px;
+  padding: 10px;
+  justify-content: start;
+  align-content: start;
+  min-height: 160px;
+}
+
+/* --- Character Card --- */
+.table-character-card {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.table-character-card:hover {
+  transform: scale(1.08);
+  z-index: 5;
+}
+
+/* --- Character Image --- */
+.table-char-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  transition: filter 0.25s ease, opacity 0.25s ease;
+}
+
+/* ==========================================================================
+   INFOCARD 模式專用樣式
+   ========================================================================== */
+.info-card-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3,600px);
+	gap: 16px;
+	padding: 16px;
+	justify-content: center;
+}
+
+.info-card {
+	display: grid;
+	grid-template-columns: 420px 180px;
+	gap: 14px;
+	align-items: flex-start;
+	min-height: 100px;
+	padding: 18px;
+	background: #1f2937;
+	border-radius: 16px;
+	justify-content: space-between;
+	background: transparent; 
+	border: 1px solid transparent; 
+	transition: background 0.3s ease, border 0.3s ease;
+}
+
+.info-card.active {
+	background: #1f2937; /* 原本的深色背景[cite: 3] */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* 加上微光邊框，更符合預設的質感 */
+}
+
+
+.info-main { width: 500px; }
+
+.passive-row, .trait-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.passive-tag, .trait-tag {
+    padding: 5px 10px;
+    border-radius: 999px;
+    background: #374151;
+    color: white;
+    font-size: 13px;
+}
+
+.info-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.char-image {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.char-image:hover { transform: scale(1.05); }
+
+.release-date {
+    font-size: 12px;
+    color: #9ca3af;
+}
+
+.attr-icon, .role-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.info-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.char-name {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.info-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* 讓 flex 撐滿 grid 高度 */
+}
+
+.skill-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-top: 10px
+}
+
+.leader-btn {
+	font-size: 20px;
+	cursor: pointer;
+	transition: .2s
+}
+
+.leader-btn:hover {
+	transform: scale(1.1)
+}
+
+.passive-chip {
+	padding:0 14px;
+	border-radius: 999px;
+	color: #bbb;
+	background: rgba(255,255,255,.06);
+	border: 1px solid rgba(255,255,255,.08)
+	font-size:14px;
+	font-weight: 700;
+	cursor: pointer;
+	transition: .2s
+}
+
+.passive-chip:hover {
+	background: rgba(255,255,255,.16)
+}
+
+.trait-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-top: 18px;
+}
+
+.trait-tag {
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: rgba(255,255,255,.04);
+	color: #d2aee8;
+	font-size: 12px;
+	line-height: 1
+}
+
+.trait-tag {
+	height: 26px;
+	padding: 0 12px;
+	display: flex;
+	align-items: center
+}
+
+.leader-btn{ margin-top:-12px; }
+
+.equip-trait{ border:1px solid rgba(255, 255, 0,.18); }
+
+/*** 彈窗相關 ***/
+#info-popup {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    min-width: 250px;
+    max-width: 480px;
+    width: fit-content;
+    height: auto;
+    padding: 12px 16px;
+    border-radius: 14px;
+    background: #2c3446;
+    border: 1px solid rgba(255,255,255,.08);
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    transform: none !important;
+    transition: none !important;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#info-popup.show {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
