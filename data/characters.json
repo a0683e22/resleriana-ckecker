@@ -1,5 +1,21 @@
 [
   {
+    "id": 193,
+    "base_character_id": 33404,
+    "attr": "風",
+    "name": { "zh": "蘇菲【Memory of Dreams】", "jp": "ソフィー【Memory of Dreams】", "en": "Sophie【Memory of Dreams】"},
+    "date": "2026-05-22",
+    "職種": "防禦者",
+    "skill1": 13101,
+    "skill2": 13201,
+    "burst": 13401,
+    "passive_ids": [18101, 18201],
+    "tag_ids": [4, 6, 9, 25],
+    "equip": 121,
+    "tool": [11, 44],
+    "leader_skill": { "name": "おばあちゃんから学んだこと", "description": "「約束と協力」は「物攻・魔攻・物防・魔防+30%」"}
+  },
+  {
     "id": 192,
     "base_character_id": 46202,
     "attr": "風",

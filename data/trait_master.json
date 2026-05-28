@@ -1739,6 +1739,17 @@
         "zh": "賦予打屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
         "en": "Boosts potency of [Damage Dealt Up] buffs given to Strike Attackers by 8 / 15 / 23 / 45 / 75%"
       }
+    },
+    "121": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【風A】",
+      "zh": "物攻/魔攻增益強化【風A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [ Wind A]",
+      "description": {
+        "jp": "得意属性が風属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予風屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Wind Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
     }
   }
 }

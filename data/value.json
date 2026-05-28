@@ -1,4 +1,55 @@
 ﻿{
+  "13101": {
+    "attr": 8,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000911,
+        "value": 1000
+      }
+    ]
+  },
+  "13201": {
+    "attr": 8,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000911,
+        "value": 1000
+      }
+    ]
+  },
+  "13401": {
+    "attr": 8,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000911,
+        "value": 1000
+      }
+    ]
+  },
   "11000275": {
     "attr": 5,
     "target_type": 3,
