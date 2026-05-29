@@ -32,6 +32,11 @@ export function renderSkillCard(skill, options = {}) {
         ? `<span><img src="${icon}" class="stat-icon"> ${value}</span>` 
         : '';
 
+const rangeIcon =
+    [4, 5].includes(v?.target_type)
+        ? 'images/ui/all.webp'
+        : 'images/ui/single.webp';
+
     // 3. 回傳 HTML
     return `
         <div class="skill-card ${compact ? 'compact' : ''}">
@@ -40,6 +45,7 @@ export function renderSkillCard(skill, options = {}) {
                 ${showStats ? `
                     <div class="skill-stats">
                         ${attrInfo.icon ? `<img src="${attrInfo.icon}" class="stat-icon">` : ''}
+                        <img src="${rangeIcon}" class="stat-icon range-icon">
                         ${renderStatItem('images/ui/power2.png', stats.power)}
                         ${renderStatItem('images/ui/bpower2.png', stats.breakPower)}
                         ${renderStatItem('images/ui/heal2.png', stats.heal)}
