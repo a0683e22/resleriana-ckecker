@@ -9424,9 +9424,9 @@
       }
     ],
     "description": {
-      "jp": "得意属性が魔法属性かつサポーターの時、味方全員のスキル威力+50%<br>※現在は最大突破時の数値のみ掲載しています",
-      "zh": "得意屬性為魔法屬性且職業為支援者時，我方全員技能威力+50.00%<br>※目前僅顯示最大突破效果",
-      "en": "While equipped to a magic Supporter, boosts all allies' skill power by 50.00%<br>※Currently only maximum limit break values are available"
+      "jp": "得意属性が魔法属性かつサポーターの時、味方全員のスキル威力+6.00 / 17.00 / 28.00 / 39.00 / 50.00%",
+      "zh": "得意屬性為魔法屬性支援者時，我方全員技能威力+6.00 / 17.00 / 28.00 / 39.00 / 50.00%",
+      "en": "While equipped to a magic Supporter, boosts all allies' physical skill power by 6.00 / 17.00 / 28.00 / 39.00 / 50.00%"
     },
     "roles": [4],
     "attr": [5, 6, 7, 8]
@@ -9460,9 +9460,9 @@
       }
     ],
     "description": {
-      "jp": "得意属性が物理属性かつサポーターの時、味方全員のスキル威力+50.00%<br>※現在は最大突破時の数値のみ掲載しています",
-      "zh": "得意屬性為物理屬性且職業為支援者時，我方全員技能威力+50.00%<br>※目前僅顯示最大突破效果",
-      "en": "While equipped to a physical Supporter, boosts all allies' physical skill power by 50.00%<br>※Currently only maximum limit break values are available"
+      "jp": "得意属性が物理属性かつサポーターの時、味方全員のスキル威力+6.00 / 17.00 / 28.00 / 39.00 / 50.00%",
+      "zh": "得意屬性為物理屬性支援者時，我方全員技能威力+6.00 / 17.00 / 28.00 / 39.00 / 50.00%",
+      "en": "While equipped to a physical Supporter, boosts all allies' physical skill power by 6.00 / 17.00 / 28.00 / 39.00 / 50.00%"
     },
     "roles": [4],
     "attr": [1, 2, 3]
