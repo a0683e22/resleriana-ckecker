@@ -66,7 +66,7 @@ function getRelatedTagCharactersHTML(description) {
 
                     return `<img src="${charImg}" alt="${charName}" title="${charName}" 
                                  onerror="this.onerror=null; this.src='${fallbackImg}';"
-                                 style="width: 28px; height: 28px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); object-fit: cover; ${filterStyle}">`;
+                                 style="width: 28px; height: 28px; clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); object-fit: cover; ${filterStyle}">`;
                 }).join('');
 
                 extraHTML += `
