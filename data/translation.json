@@ -143,7 +143,7 @@
       "skill_id": 12003750,
       "name": "クーゲルウルタイル",
       "jp": "攻撃前、対象に「打属性耐性-{0}%」を1回攻撃を受けるまで付与<br>攻撃後、自身に「物攻+{1}%」と「スキルダメージ+{2}%」を3回行動終了するまで付与し、<br>対象の次のパネルが空パネルの時、弱体パネルを生成<br>「クーゲルウルタイル」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が3個の時、<br>攻撃前、自身に「物攻+{4}%」を付与(上限100%)<br>攻撃後、次のパネルをバーストパネルに変換(空パネルの時は生成)し、<br>スキルランプを全て消灯する",
-      "zh": "攻擊前，賦予對象「打屬性耐性-{0}%」直到受1次攻擊為止<br>攻擊後，賦予自身「物攻+{1}%」與「技能傷害+{2}%」直到3次行動結束為止<br>當對象下一個面板為空面板時，生成弱化面板<br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊前，賦予自身「物攻+{4}%」（上限100%）<br>攻擊後，將下一個面板轉換為爆發面板（空面板時則生成）<br>並熄滅所有技能燈",
+      "zh": "攻擊前，賦予對象「打屬性耐性-{0}%」直到受1次攻擊為止<br>攻擊後，賦予自身「物攻+{1}%」與「技能傷害+{2}%」直到3次行動結束為止<br>當對象下一個面板為空面板時，生成弱化面板<br><br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊前，賦予自身「物攻+{4}%」（上限100%）<br>攻擊後，將下一個面板轉換為爆發面板（空面板時則生成）<br>並熄滅所有技能燈",
       "en": "Before attacking, grants target \"Strike Resistance -{0}%\" for 1 attack.<br>After attacking, grants self \"P.ATK +{1}%\" and \"Skill Damage +{2}%\" until 3 actions end.<br>If the target's next panel is empty, creates a Weaken panel.<br>This skill have Skill Lamps, and the effect changes when 3 lamps are lit.<br>Up to 3 Skill Lamps can be lit.<br><br>When fewer than 3 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 3 Skill Lamps are lit:<br>Before attacking, grants self \"P.ATK +{4}%\" (MAX 100%).<br>After attacking, converts the next panel into a Burst panel (creates a Burst panel if empty).<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -845,7 +845,7 @@
       "skill_id": 12003478,
       "name": "シュテルケミッシェン",
       "jp": "この攻撃のクリティカルダメージ+{0}%<br>対象が状態異常時、ダメージ+{1}%<br>攻撃後、自身に「魔攻+{2}%」と「クリティカルダメージ+{3}%」を2回行動終了するまで付与<br>「シュテルケミッシェン」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>攻撃前、対象に「状態異常耐性-{4}%」を2回行動終了するまで付与<br>攻撃後、対象に「スタン」を1回行動開始するまで超高確率で付与<br>自身に「スキルダメージ+{5}%」を2回行動終了するまで付与し、<br>「クリティカル確率+{6}%」を付与(上限100%)し、<br>スキルランプを全て消灯する",
-      "zh": "此攻擊的暴擊傷害+{0}%<br>對象處於異常狀態時，傷害+{1}%<br>攻擊後，賦予自身「魔攻+{2}%」與「暴擊傷害+{3}%」直到2次行動結束為止<br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊前，賦予對象「異常狀態耐性-{4}%」直到2次行動結束為止<br>攻擊後，以超高機率賦予對象「昏眩」直到1次行動開始為止<br>賦予自身「技能傷害+{5}%」直到2次行動結束為止<br>賦予「暴擊機率+{6}%」（上限100%）<br>並熄滅所有技能燈",
+      "zh": "此攻擊的暴擊傷害+{0}%<br>對象處於異常狀態時，傷害+{1}%<br>攻擊後，賦予自身「魔攻+{2}%」與「暴擊傷害+{3}%」直到2次行動結束為止<br><br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊前，賦予對象「異常狀態耐性-{4}%」直到2次行動結束為止<br>攻擊後，以超高機率賦予對象「昏眩」直到1次行動開始為止<br>賦予自身「技能傷害+{5}%」直到2次行動結束為止<br>賦予「暴擊機率+{6}%」（上限100%）<br>並熄滅所有技能燈",
       "en": "This attack's Critical Damage increases by {0}%.<br>When target has a status ailment, increases damage by {1}%.<br>After attacking, grants self \"M.ATK +{2}%\" and \"Critical Damage +{3}%\" until 2 actions end.<br>This skill have Skill Lamps, and the effect changes when 2 lamps are lit.<br>Up to 2 Skill Lamps can be lit.<br><br>When fewer than 2 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 2 Skill Lamps are lit:<br>Before attacking, grants target \"Status Ailment Resistance -{4}%\" until 2 actions end.<br>After attacking, has a very high chance to inflict \"Stun\" on target until 1 action starts.<br>Grants self \"Skill Damage +{5}%\" until 2 actions end.<br>Grants \"Critical Rate +{6}%\" (MAX 100%).<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -977,7 +977,7 @@
       "skill_id": 12003408,
       "name": "ウェルテックスソード",
       "jp": "攻撃後、自身に「スキルダメージ+{0}%」を2回行動終了するまで付与し、<br>味方全員に「物防・魔防＋{1}%」を3回攻撃を受けるまで付与(上限2個)<br>敵全体に「ダメージ-{2}%」を2回行動終了するまで付与<br>「ウェルテックスソード」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が3個の時、<br>攻撃後、自身のバーストゲージを{3}%増加<br>さらに敵全体に「ダメージ-{4}%」を2回行動終了するまで付与し、<br>このスキル使用前に魔攻が最も高い味方1人の次のパネルをバーストパネルに変換(空パネルの時は生成)し、<br>スキルランプを全て消灯する",
-      "zh": "攻擊後，賦予自身「技能傷害+{0}%」直到2次行動結束為止<br>賦予我方全體「物防・魔防+{1}%」直到受3次攻擊為止（上限2層）<br>賦予敵方全體「傷害-{2}%」直到2次行動結束為止<br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊後，自身爆發量表+{3}%<br>另外賦予敵方全體「傷害-{4}%」直到2次行動結束為止<br>於此技能使用前，將魔攻最高的我方1人下一個面板轉換為爆發面板（空面板時則生成）<br>並熄滅所有技能燈",
+      "zh": "攻擊後，賦予自身「技能傷害+{0}%」直到2次行動結束為止<br>賦予我方全體「物防・魔防+{1}%」直到受3次攻擊為止（上限2層）<br>賦予敵方全體「傷害-{2}%」直到2次行動結束為止<br><br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊後，自身爆發量表+{3}%<br>另外賦予敵方全體「傷害-{4}%」直到2次行動結束為止<br>於此技能使用前，將魔攻最高的我方1人下一個面板轉換為爆發面板（空面板時則生成）<br>並熄滅所有技能燈",
       "en": "After attacking, grants self \"Skill Damage +{0}%\" until 2 actions end.<br>Grants all allies \"P.DEF/M.DEF +{1}%\" for 3 attacks (MAX 2 stacks).<br>Grants all enemies \"Damage Dealt -{2}%\" until 2 actions end.<br>This skill have Skill Lamps, and the effect changes when 3 lamps are lit.<br>Up to 3 Skill Lamps can be lit.<br><br>When fewer than 3 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 3 Skill Lamps are lit:<br>After attacking, increases own Burst Gauge by {3}%.<br>Additionally, grants all enemies \"Damage Dealt -{4}%\" until 2 actions end.<br>Before using this skill, converts the next panel of the ally with the highest M.ATK into a Burst panel (creates a Burst panel if empty).<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -1387,7 +1387,7 @@
       "skill_id": 12003244,
       "name": "クレアティオフロース",
       "jp": "回復後、対象に「スキルダメージ+{0}%」と「ブレイクダメージ+{1}%」を3回行動終了するまで付与<br>得意属性が突属性の味方全員に「物攻+{2}%」を付与(上限50%)し、<br>「受けるダメージ-{3}%」を1回攻撃を受けるまで付与<br>「クレアティオフロース」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、<br>回復後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が3個の時、<br>回復後、得意属性が突属性の味方全員に「受けるダメージ-{4}%(固定)」を1回攻撃を受けるまで付与し、<br>このスキル使用前に物攻が最も高い味方1人に「物攻+{5}%」を3回行動終了するまで付与し、<br>スキルランプをすべて消灯する",
-      "zh": "回復後，賦予對象「技能傷害+{0}%」與「破防傷害+{1}%」直到3次行動結束為止<br>賦予突屬性的我方全體「物攻+{2}%」（上限50%）<br>賦予「受到的傷害-{3}%」直到受1次攻擊為止<br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>回復後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>回復後，賦予突屬性的我方全體「受到的傷害-{4}%（固定）」直到受1次攻擊為止<br>於此技能使用前，賦予物攻最高的我方1人「物攻+{5}%」直到3次行動結束為止<br>並熄滅所有技能燈",
+      "zh": "回復後，賦予對象「技能傷害+{0}%」與「破防傷害+{1}%」直到3次行動結束為止<br>賦予突屬性的我方全體「物攻+{2}%」（上限50%）<br>賦予「受到的傷害-{3}%」直到受1次攻擊為止<br><br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>回復後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>回復後，賦予突屬性的我方全體「受到的傷害-{4}%（固定）」直到受1次攻擊為止<br>於此技能使用前，賦予物攻最高的我方1人「物攻+{5}%」直到3次行動結束為止<br>並熄滅所有技能燈",
       "en": "After healing, grants target \"Skill Damage +{0}%\" and \"Break Damage +{1}%\" until 3 actions end.<br>Grants all Piercing-element allies \"P.ATK +{2}%\" (MAX 50%).<br>Grants \"Damage Taken -{3}%\" for 1 attack.<br>This skill have Skill Lamps, and the effect changes when 3 lamps are lit.<br>Up to 3 Skill Lamps can be lit.<br><br>When fewer than 3 Skill Lamps are lit:<br>After healing, lights 1 Skill Lamp.<br><br>When 3 Skill Lamps are lit:<br>After healing, grants all Piercing-element allies \"Damage Taken -{4}% (fixed)\" for 1 attack.<br>Before using this skill, grants the ally with the highest P.ATK \"P.ATK +{5}%\" until 3 actions end.<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -2441,7 +2441,7 @@
       "skill_id": 12002785,
       "name": "ドライシュネルシュトース",
       "jp": "攻撃後、対象に「突属性耐性-{0}%」を2回攻撃を受けるまで付与し、<br>得意属性が突属性または「レスレリ学園」の味方全員に「物攻+{1}%」を2回行動終了するまで付与し、<br>「物防・魔防+{2}%」を2回攻撃を受けるまで付与(上限3個)<br>「ドライシュネルシュトース」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が3個の時、<br>攻撃後、このスキル使用前に物攻が最も高い味方1人に「バーストスキルダメージ+{3}%」を1回行動終了するまで付与し、<br>次のパネルをバーストパネルに変換(空パネルの時は生成)し、<br>スキルランプを全て消灯する",
-      "zh": "攻擊後，賦予對象「突屬性耐性-{0}%」直到受2次攻擊為止<br>賦予突屬性或持有「レスレリ学園」標籤的我方全體「物攻+{1}%」直到2次行動結束為止<br>賦予「物防・魔防+{2}%」直到受2次攻擊為止（上限3層）<br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊後，於此技能使用前，賦予物攻最高的我方1人「爆發技能傷害+{3}%」直到1次行動結束為止<br>將下一個面板轉換為爆發面板（空面板時則生成）<br>並熄滅所有技能燈",
+      "zh": "攻擊後，賦予對象「突屬性耐性-{0}%」直到受2次攻擊為止<br>賦予突屬性或持有「レスレリ学園」標籤的我方全體「物攻+{1}%」直到2次行動結束為止<br>賦予「物防・魔防+{2}%」直到受2次攻擊為止（上限3層）<br><br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊後，於此技能使用前，賦予物攻最高的我方1人「爆發技能傷害+{3}%」直到1次行動結束為止<br>將下一個面板轉換為爆發面板（空面板時則生成）<br>並熄滅所有技能燈",
       "en": "After attacking, grants target \"Piercing Resistance -{0}%\" for 2 attacks.<br>Grants all Piercing-element allies or allies with the \"レスレリ学園\" tag \"P.ATK +{1}%\" until 2 actions end.<br>Grants \"P.DEF/M.DEF +{2}%\" for 2 attacks (MAX 3 stacks).<br>This skill have Skill Lamps, and the effect changes when 3 lamps are lit.<br>Up to 3 Skill Lamps can be lit.<br><br>When fewer than 3 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 3 Skill Lamps are lit:<br>After attacking, before using this skill, grants the ally with the highest P.ATK \"Burst Skill Damage +{3}%\" until 1 action ends.<br>Converts the next panel into a Burst panel (creates one if empty).<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -3051,7 +3051,7 @@
       "skill_id": 12002335,
       "name": "ヘツエンドレーエン",
       "jp": "攻撃後、自身に「WEAK攻撃ダメージ+{0}%」と「物攻+{1}%」を2回行動終了するまで付与<br>「ヘツエンドレーエン」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、攻撃後、スキルランプを{2}個点灯する<br><br>スキルランプの点灯数が3個の時、<br>この攻撃の貫通力+{3}<br>WEAK攻撃時、ダメージ+{4}%<br>攻撃後、自身に「物攻+{5}%」を2回行動終了するまで付与<br>自身の次のパネルをバーストパネルに変換(空パネルの時は生成)し、<br>スキルランプを全て消灯する",
-      "zh": "攻擊後，賦予自身「WEAK攻擊傷害+{0}%」與「物攻+{1}%」直到2次行動結束為止<br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時，攻擊後，點亮{2}個技能燈<br><br>當技能燈點燈數為3個時：<br>此攻擊的貫通力+{3}<br>WEAK攻擊時，傷害+{4}%<br>攻擊後，賦予自身「物攻+{5}%」直到2次行動結束為止<br>將自身下一個面板轉換為爆發面板（空面板時則生成）<br>並熄滅所有技能燈",
+      "zh": "攻擊後，賦予自身「WEAK攻擊傷害+{0}%」與「物攻+{1}%」直到2次行動結束為止<br><br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時，攻擊後，點亮{2}個技能燈<br><br>當技能燈點燈數為3個時：<br>此攻擊的貫通力+{3}<br>WEAK攻擊時，傷害+{4}%<br>攻擊後，賦予自身「物攻+{5}%」直到2次行動結束為止<br>將自身下一個面板轉換為爆發面板（空面板時則生成）<br>並熄滅所有技能燈",
       "en": "After attacking, grants self \"WEAK Attack Damage +{0}%\" and \"P.ATK +{1}%\" until 2 actions end.<br>This skill have Skill Lamps, and the effect changes when 3 lamps are lit.<br>Up to 3 Skill Lamps can be lit.<br><br>When fewer than 3 Skill Lamps are lit, after attacking, lights {2} Skill Lamps.<br><br>When 3 Skill Lamps are lit:<br>This attack's Penetration increases by {3}.<br>Increases damage by {4}% during WEAK attacks.<br>After attacking, grants self \"P.ATK +{5}%\" until 2 actions end.<br>Converts own next panel into a Burst panel (creates one if empty).<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -3725,7 +3725,7 @@
       "skill_id": 12002098,
       "name": "エレクトリカルワルツ",
       "jp": "攻撃後、自身のHPを{0}%回復<br>「エレクトリカルワルツ」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が3個の時、<br>攻撃後、味方全員に「回避(確率{1}%固定)」を1回攻撃されるまで付与し、<br>味方全員に「スキルダメージ+{2}%」と「雷属性ダメージ+{3}%」を2回行動終了するまで付与<br>スキルランプを全て消灯する",
-      "zh": "攻擊後，回復自身{0}% HP<br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊後，賦予我方全體「迴避（機率固定{1}%）」直到受1次攻擊為止<br>賦予我方全體「技能傷害+{2}%」與「雷屬性傷害+{3}%」直到2次行動結束為止<br>並熄滅所有技能燈",
+      "zh": "攻擊後，回復自身{0}% HP<br><br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊後，賦予我方全體「迴避（機率固定{1}%）」直到受1次攻擊為止<br>賦予我方全體「技能傷害+{2}%」與「雷屬性傷害+{3}%」直到2次行動結束為止<br>並熄滅所有技能燈",
       "en": "After attacking, restores {0}% HP to self.<br>This skill have Skill Lamps, and the effect changes when 3 lamps are lit.<br>Up to 3 Skill Lamps can be lit.<br><br>When fewer than 3 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 3 Skill Lamps are lit:<br>After attacking, grants all allies \"Evasion (fixed {1}% chance)\" for 1 attack.<br>Grants all allies \"Skill Damage +{2}%\" and \"Thunder Damage +{3}%\" until 2 actions end.<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -4077,7 +4077,7 @@
       "skill_id": 12001943,
       "name": "ファレインピタス",
       "jp": "敵の数に応じ、ダメージ+10〜30%(1〜4体で少ないほど増加)<br>「ファレインピタス」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>攻撃後、自身に「魔攻+{0}%」を2回行動終了するまで付与し、<br>スキルランプを全て消灯する",
-      "zh": "依據敵人數量，傷害+10~30%（1~4體間數量越少效果越高）<br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊後，賦予自身「魔攻+{0}%」直到2次行動結束為止<br>並熄滅所有技能燈",
+      "zh": "依據敵人數量，傷害+10~30%（1~4體間數量越少效果越高）<br><br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊後，賦予自身「魔攻+{0}%」直到2次行動結束為止<br>並熄滅所有技能燈",
       "en": "Increases damage by 10~30% based on the number of enemies (higher with fewer enemies between 1~4).<br>This skill have Skill Lamps, and the effect changes when 2 lamps are lit.<br>Up to 2 Skill Lamps can be lit.<br><br>When fewer than 2 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 2 Skill Lamps are lit:<br>After attacking, grants self \"M.ATK +{0}%\" until 2 actions end.<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -4348,7 +4348,7 @@
       "skill_id": 12001763,
       "name": "メッサーベント",
       "jp": "攻撃前、対象に「火属性耐性-{0}%」を2回攻撃を受けるまで付与<br>WEAK攻撃時、ブレイクダメージ+{1}%<br>「メッサーベント」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時<br>攻撃前に変身する",
-      "zh": "攻擊前，賦予對象「火屬性耐性-{0}%」直到受2次攻擊為止<br>WEAK攻擊時，破防傷害+{1}%<br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊前變身",
+      "zh": "攻擊前，賦予對象「火屬性耐性-{0}%」直到受2次攻擊為止<br>WEAK攻擊時，破防傷害+{1}%<br><br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊前變身",
       "en": "Before attacking, grants target \"Fire Resistance -{0}%\" for 2 attacks.<br>Increases Break Damage by {1}% during WEAK attacks.<br>This skill have Skill Lamps, and the effect changes when 2 lamps are lit.<br>Up to 2 Skill Lamps can be lit.<br><br>When fewer than 2 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 2 Skill Lamps are lit:<br>Transforms before attacking."
     },
     "burst": {
@@ -4457,7 +4457,7 @@
       "skill_id": 12001718,
       "name": "ステラクラフト",
       "jp": "攻撃前に、対象に「火属性耐性-{0}%」を3回攻撃を受けるまで付与<br>「ステラクラフト」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時<br>攻撃前に変身する",
-      "zh": "攻擊前，賦予對象「火屬性耐性-{0}%」直到受3次攻擊為止<br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊前變身",
+      "zh": "攻擊前，賦予對象「火屬性耐性-{0}%」直到受3次攻擊為止<br><br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊前變身",
       "en": "Before attacking, grants target \"Fire Resistance -{0}%\" for 3 attacks.<br>This skill have Skill Lamps, and the effect changes when 2 lamps are lit.<br>Up to 2 Skill Lamps can be lit.<br><br>When fewer than 2 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 2 Skill Lamps are lit:<br>Transforms before attacking."
     },
     "burst": {
@@ -4522,7 +4522,7 @@
       "skill_id": 12001733,
       "name": "束縛の繭籠",
       "jp": "対象が状態異常時、ダメージ+{0}%し、<br>攻撃後、自身に「物攻+{1}%」を2回行動終了するまで付与<br>「束縛の繭籠」はスキルランプを持ち、点灯数が1個の時、効果内容が変化する<br>スキルランプは最大1個点灯できる<br><br>スキルランプの点灯数が1個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が1個の時、<br>攻撃後、対象のターンを{2}ターン遅らせ、<br>スキルランプを全て消灯する",
-      "zh": "對象處於異常狀態時，傷害+{0}%<br>攻擊後，賦予自身「物攻+{1}%」直到2次行動結束為止<br>此技能持有技能燈，當點燈數為1個時，效果內容將發生變化<br>技能燈最多可點亮1個<br><br>當技能燈點燈數未滿1個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為1個時：<br>攻擊後，將對象的行動延後{2}回合<br>並熄滅所有技能燈",
+      "zh": "對象處於異常狀態時，傷害+{0}%<br>攻擊後，賦予自身「物攻+{1}%」直到2次行動結束為止<br><br>此技能持有技能燈，當點燈數為1個時，效果內容將發生變化<br>技能燈最多可點亮1個<br><br>當技能燈點燈數未滿1個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為1個時：<br>攻擊後，將對象的行動延後{2}回合<br>並熄滅所有技能燈",
       "en": "Deals +{0}% damage when the target is affected by a status ailment.<br>After attacking, grants self \"P.ATK +{1}%\" until 2 actions end.<br>This skill have Skill Lamps, and the effect changes when 1 lamp is lit.<br>Up to 1 Skill Lamp can be lit.<br><br>When fewer than 1 Skill Lamp is lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 1 Skill Lamp is lit:<br>After attacking, delays target's turn by {2} turns.<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -4698,7 +4698,7 @@
       "skill_id": 12001643,
       "name": "幻鏡の斬",
       "jp": "攻撃後、対象に「受ける物理攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与<br>「幻鏡の斬」はスキルランプを持ち、点灯数が3個の時、効果内容が変化する<br>スキルランプは最大3個点灯できる<br><br>スキルランプの点灯数が3個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が3個の時、<br>攻撃後、自身に「回避(確率{1}%)」を1回攻撃されるまで付与し、<br>自身に「物攻・素早さ+{2}%」を2回行動終了するまで付与し、<br>スキルランプを全て消灯する",
-      "zh": "攻擊後，賦予對象「受到的物理攻擊傷害+{0}%」直到受2次攻擊為止<br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊後，賦予自身「迴避（機率{1}%）」直到受1次攻擊為止<br>賦予自身「物攻・速度+{2}%」直到2次行動結束為止<br>並熄滅所有技能燈",
+      "zh": "攻擊後，賦予對象「受到的物理攻擊傷害+{0}%」直到受2次攻擊為止<br><br>此技能持有技能燈，當點燈數為3個時，效果內容將發生變化<br>技能燈最多可點亮3個<br><br>當技能燈點燈數未滿3個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為3個時：<br>攻擊後，賦予自身「迴避（機率{1}%）」直到受1次攻擊為止<br>賦予自身「物攻・速度+{2}%」直到2次行動結束為止<br>並熄滅所有技能燈",
       "en": "After attacking, grants target \"Physical Damage Taken +{0}%\" for 2 attacks.<br>This skill have Skill Lamps, and the effect changes when 3 lamps are lit.<br>Up to 3 Skill Lamps can be lit.<br><br>When fewer than 3 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 3 Skill Lamps are lit:<br>After attacking, grants self \"Evasion ({1}% chance)\" for 1 attack.<br>Grants self \"P.ATK/SPD +{2}%\" until 2 actions end.<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -4830,7 +4830,7 @@
       "skill_id": 12001613,
       "name": "フレイシュグラセ",
       "jp": "攻撃後、対象に「受ける魔法攻撃ダメージ+{0}%」を2回攻撃を受けるまで付与<br>「フレイシュグラセ」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>攻撃後、魔攻が最も高い味方1人に「魔攻+{1}%」を付与(上限60%)し、<br>スキルランプを全て消灯する",
-      "zh": "攻擊後，賦予對象「受到的魔法攻擊傷害+{0}%」直到受2次攻擊為止<br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊後，賦予魔攻最高的我方1人「魔攻+{1}%」（上限60%）<br>並熄滅所有技能燈",
+      "zh": "攻擊後，賦予對象「受到的魔法攻擊傷害+{0}%」直到受2次攻擊為止<br><br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>攻擊後，賦予魔攻最高的我方1人「魔攻+{1}%」（上限60%）<br>並熄滅所有技能燈",
       "en": "After attacking, grants target \"Magic Damage Taken +{0}%\" for 2 attacks.<br>This skill have Skill Lamps, and the effect changes when 2 lamps are lit.<br>Up to 2 Skill Lamps can be lit.<br><br>When fewer than 2 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 2 Skill Lamps are lit:<br>After attacking, grants the ally with the highest M.ATK \"M.ATK +{1}%\" (MAX 60%).<br>Then extinguishes all Skill Lamps."
     },
     "burst": {
@@ -4918,7 +4918,7 @@
       "skill_id": 12001543,
       "name": "トリプルスピア",
       "jp": "攻撃前、対象に「氷属性耐性-{0}%」を2回攻撃を受けるまで付与<br>「トリプルスピア」はスキルランプを持ち、点灯数が2個の時、効果内容が変化する<br>スキルランプは最大2個点灯できる<br><br>スキルランプの点灯数が2個未満の時、<br>攻撃後、スキルランプを1個点灯する<br><br>スキルランプの点灯数が2個の時、<br>この攻撃の貫通力+{1}し、<br>攻撃後、スキルランプを全て消灯する",
-      "zh": "攻擊前，賦予對象「冰屬性耐性-{0}%」直到受2次攻擊為止<br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>此攻擊的貫通力+{1}<br>攻擊後，熄滅所有技能燈",
+      "zh": "攻擊前，賦予對象「冰屬性耐性-{0}%」直到受2次攻擊為止<br><br>此技能持有技能燈，當點燈數為2個時，效果內容將發生變化<br>技能燈最多可點亮2個<br><br>當技能燈點燈數未滿2個時：<br>攻擊後，點亮1個技能燈<br><br>當技能燈點燈數為2個時：<br>此攻擊的貫通力+{1}<br>攻擊後，熄滅所有技能燈",
       "en": "Before attacking, grants target \"Ice Resistance -{0}%\" for 2 attacks.<br>This skill have Skill Lamps, and the effect changes when 2 lamps are lit.<br>Up to 2 Skill Lamps can be lit.<br><br>When fewer than 2 Skill Lamps are lit:<br>After attacking, lights 1 Skill Lamp.<br><br>When 2 Skill Lamps are lit:<br>This attack's Penetration increases by {1}.<br>After attacking, extinguishes all Skill Lamps."
     },
     "burst": {
