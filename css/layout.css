@@ -57,7 +57,7 @@
     border-color: #60a5fa !important; /* 給個特殊的邊框顏色提示 */
 }
 
-.page-title { visibility: hidden; height: 28px; }
+.page-title { visibility: hidden; height: 20px; }
 /* =========================
    Character Grid Container
 ========================= */
