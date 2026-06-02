@@ -18,8 +18,8 @@ const noEffect =
     state.ui.currentLang === 'zh'
         ? '無效果'
         : state.ui.currentLang === 'jp'
-        ? '効果なし'
-        : 'No Effect';
+            ? '効果なし'
+            : 'No Effect';
 
 
 export function createEquipmentCard(equipment, recipe, itemMap, characterMap) {
@@ -32,26 +32,26 @@ export function createEquipmentCard(equipment, recipe, itemMap, characterMap) {
 
 
     const SOURCE_TAGS = {
-    event: `<span class="source-tag event">${t.event_equip}</span>`,
-    shop: `<span class="source-tag shop">${t.shop_equip}</span>`
-};
-    
+        event: `<span class="source-tag event">${t.event_equip}</span>`,
+        shop: `<span class="source-tag shop">${t.shop_equip}</span>`
+    };
+
     function getSourceHtml(equipment, recipe, colorMap) {
-    // 檢查特殊裝備類型
-    if (SPECIAL_EQUIP.event.includes(equipment.id)) return SOURCE_TAGS.event;
-    if (SPECIAL_EQUIP.shop.includes(equipment.id)) return SOURCE_TAGS.shop;
+        // 檢查特殊裝備類型
+        if (SPECIAL_EQUIP.event.includes(equipment.id)) return SOURCE_TAGS.event;
+        if (SPECIAL_EQUIP.shop.includes(equipment.id)) return SOURCE_TAGS.shop;
 
-    // 若非特殊裝備，則處理顏色圖示
-    return (recipe?.gift_colors || [])
-        .map(id => {
-            const color = colorMap.get(id);
-            return color?.icon ? `<img src="${color.icon}">` : '';
-        })
-        .join('');
-}
+        // 若非特殊裝備，則處理顏色圖示
+        return (recipe?.gift_colors || [])
+            .map(id => {
+                const color = colorMap.get(id);
+                return color?.icon ? `<img src="${color.icon}">` : '';
+            })
+            .join('');
+    }
 
-// 實際使用
-let colorsHtml = getSourceHtml(equipment, recipe, colorMap);
+    // 實際使用
+    let colorsHtml = getSourceHtml(equipment, recipe, colorMap);
     const materialsHtml = (recipe?.materials?.length) ? recipe.materials.map(mat => {
         let name = '', img = '', frame = '';
         if (mat.type === 8) {
@@ -75,7 +75,7 @@ let colorsHtml = getSourceHtml(equipment, recipe, colorMap);
                 </div>
                 <div class="name">${name}</div>
             </div>`;
-    }).join(''): `<div class="no-recipe">${{ zh:'無調合配方', jp:'調合レシピなし', en:'No Recipe' }[state.ui.currentLang] || 'No Recipe'}</div>`;
+    }).join('') : `<div class="no-recipe">${{ zh: '無調合配方', jp: '調合レシピなし', en: 'No Recipe' }[state.ui.currentLang] || 'No Recipe'}</div>`;
     return `
         <div class="equipment-card">
             <div class="left-col">

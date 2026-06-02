@@ -6,12 +6,12 @@ export function createSelect({ id = '', options = [], value = '' }) {
   return `
     <select id="${id}" class="toolbar-select">
       ${options
-        .map(option => `
+      .map(option => `
           <option value="${option.value}" ${option.value === value ? 'selected' : ''}>
             ${t[option.labelKey]}
           </option>
         `)
-        .join('')}
+      .join('')}
     </select>
   `;
 }

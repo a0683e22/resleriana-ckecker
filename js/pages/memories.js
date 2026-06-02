@@ -9,7 +9,7 @@ const getRarity = (id) => {
     const num = Number(id);
     const thresholds = [30000, 20000];
     const index = thresholds.findIndex(
-        t => num >= t );
+        t => num >= t);
     return index === -1 ? 1 : 3 - index;
 };
 
@@ -34,7 +34,7 @@ const MEMORIA_CYCLE_TYPE = {
 
 
 
-function getMemoriaStat(memoria, type, data ) {
+function getMemoriaStat(memoria, type, data) {
     const stat = memoria.stats?.find(s => s.type === type);
     if (!stat) return 0;
 
@@ -64,18 +64,18 @@ function createCard(id, mem, growthData) {
         </div>
         <div class="memoria-name">${mem.name}</div>
     `;
-    rerenderMemoriaCard(card,id);
+    rerenderMemoriaCard(card, id);
     // 點卡片 = 持有切換
     card.addEventListener('click', () => {
-    updateMemoLimit(id, 1, cycleType);
-    rerenderMemoriaCard(card, id);
-});
+        updateMemoLimit(id, 1, cycleType);
+        rerenderMemoriaCard(card, id);
+    });
 
     card.addEventListener('contextmenu', (e) => {
-    e.preventDefault();
-    updateMemoLimit(id, -1, cycleType);
-    rerenderMemoriaCard(card, id);
-});
+        e.preventDefault();
+        updateMemoLimit(id, -1, cycleType);
+        rerenderMemoriaCard(card, id);
+    });
 
 
     // 點名字 = 開 modal
@@ -101,49 +101,49 @@ export async function renderMemories() {
     const memoriaList = Object.entries(data.meta.memoria);
     const sortOrder = state.sorting.memories || 'newest';
 
-const SORT_TO_STAT = { hp: 'HP', speed: 'SPD', patk: 'PATK', matk: 'MATK', pdef: 'PDEF', mdef: 'MDEF', };
+    const SORT_TO_STAT = { hp: 'HP', speed: 'SPD', patk: 'PATK', matk: 'MATK', pdef: 'PDEF', mdef: 'MDEF', };
 
-memoriaList.sort(([idA, memoriaA], [idB, memoriaB]) => {
-    // 處理 ID 基礎排序
-    if (sortOrder === 'newest') return Number(idB) - Number(idA);
-    if (sortOrder === 'oldest') return Number(idA) - Number(idB);
+    memoriaList.sort(([idA, memoriaA], [idB, memoriaB]) => {
+        // 處理 ID 基礎排序
+        if (sortOrder === 'newest') return Number(idB) - Number(idA);
+        if (sortOrder === 'oldest') return Number(idA) - Number(idB);
 
-    // 處理素質排序：將 case 對應到 stat 的 key
-    const statKeyMap = { hp: 'HP', speed: 'SPD', patk: 'PATK', matk: 'MATK', pdef: 'PDEF', mdef: 'MDEF' };
+        // 處理素質排序：將 case 對應到 stat 的 key
+        const statKeyMap = { hp: 'HP', speed: 'SPD', patk: 'PATK', matk: 'MATK', pdef: 'PDEF', mdef: 'MDEF' };
 
-    const targetStat = statKeyMap[sortOrder];
-    
-    if (targetStat) {
-        return getMemoriaStat(memoriaB, targetStat, data) - getMemoriaStat(memoriaA, targetStat, data);
-    }
+        const targetStat = statKeyMap[sortOrder];
 
-    return 0;
-});
-    
+        if (targetStat) {
+            return getMemoriaStat(memoriaB, targetStat, data) - getMemoriaStat(memoriaA, targetStat, data);
+        }
+
+        return 0;
+    });
+
     const growthData = data.meta.memoria_buff_growth;
 
     const { memories: filters } = state.filters;
-const searchVal = (state.search.memories || "").toLowerCase();
+    const searchVal = (state.search.memories || "").toLowerCase();
 
-// 1. 建立篩選邏輯判斷函數
-const isMatch = ([id, memory]) => {
-    const matchSearch = memory.name.toLowerCase().includes(searchVal);
-    
-    const selectedAttrs = filters.element.map(v => MAPS.ELEMENT[v]);
-    const matchElement = filters.element.length === 0 || memory.attr.length === 0 || memory.attr.some(a => selectedAttrs.includes(a) );
+    // 1. 建立篩選邏輯判斷函數
+    const isMatch = ([id, memory]) => {
+        const matchSearch = memory.name.toLowerCase().includes(searchVal);
 
-    const selectedRoles = filters.role.map(v => MAPS.ROLE[v]);
-    const matchRole = filters.role.length === 0 || memory.roles.length === 0 || memory.roles.some(r => selectedRoles.includes(r) );
+        const selectedAttrs = filters.element.map(v => MAPS.ELEMENT[v]);
+        const matchElement = filters.element.length === 0 || memory.attr.length === 0 || memory.attr.some(a => selectedAttrs.includes(a));
 
-    const matchRarity = filters.rarity.length === 0 || filters.rarity.includes( getRarity(id) );
+        const selectedRoles = filters.role.map(v => MAPS.ROLE[v]);
+        const matchRole = filters.role.length === 0 || memory.roles.length === 0 || memory.roles.some(r => selectedRoles.includes(r));
 
-    const extraFilters = filters.extra || [];
-    const matchOwned = !extraFilters.includes('owned') || state.memoria.owned[id];
-    return matchSearch && matchElement && matchRole && matchRarity && matchOwned;
-};
+        const matchRarity = filters.rarity.length === 0 || filters.rarity.includes(getRarity(id));
 
-// 2. 執行篩選
-const filteredList = memoriaList.filter(isMatch);
+        const extraFilters = filters.extra || [];
+        const matchOwned = !extraFilters.includes('owned') || state.memoria.owned[id];
+        return matchSearch && matchElement && matchRole && matchRarity && matchOwned;
+    };
+
+    // 2. 執行篩選
+    const filteredList = memoriaList.filter(isMatch);
 
     content.innerHTML = `
         <div class="page-title"></div>
@@ -160,7 +160,7 @@ const filteredList = memoriaList.filter(isMatch);
 
 function updateMemoLimit(id, delta, cycleType) {
     const current = state.memoria.owned[id] || 0;
-    
+
     let sequence;
     if (cycleType === 0) {
         sequence = [0, 1, 2, 3, 4, 5]; // 一般抽卡
@@ -183,7 +183,7 @@ function updateMemoLimit(id, delta, cycleType) {
     } else {
         state.memoria.owned[id] = next;
     }
-    localStorage.setItem('ownedMemoria',JSON.stringify(state.memoria.owned));
+    localStorage.setItem('ownedMemoria', JSON.stringify(state.memoria.owned));
 }
 
 function rerenderMemoriaCard(card, id) {
@@ -209,17 +209,17 @@ function rerenderMemoriaCard(card, id) {
 
 export function renderMemoriaList(data) {
     const mainContent = document.getElementById('content');
-    
+
     if (!mainContent) {
         console.error("找不到 <main id='content'> 元素！");
         return;
     }
 
-    mainContent.innerHTML = ''; 
+    mainContent.innerHTML = '';
 
     const container = document.createElement('div');
     container.className = 'memoria-grid-container';
-    container.id = 'memories-container'; 
+    container.id = 'memories-container';
 
     const items = Object.entries(data);
 

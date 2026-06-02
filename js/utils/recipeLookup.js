@@ -21,12 +21,12 @@ export function getMaterialRecipes(materialId, recipeMaster, equipments, battleT
     const equipmentNameMap = new Map(equipments.map(e => [e.name, e]));
     const battleToolNameMap = new Map(battleTools.map(b => [b.name, b]));
     const isCannonMaterial = ATELIER_CANNON_MATERIAL_IDS.includes(materialId);
-    
+
     return recipeMaster
         .filter(recipe => recipe.materials?.some(mat => mat.id === materialId))
         .map(recipe => {
             const equip = equipmentNameMap.get(recipe.name);
-    if (isCannonMaterial) { return { type: 'cannon', recipeId: recipe.recipe_id, name: recipe.name, image: CANNON_IMAGE_MAP[recipe.recipe_id], traitFilterId:'bomb' , rarity: 'SSR' }};
+            if (isCannonMaterial) { return { type: 'cannon', recipeId: recipe.recipe_id, name: recipe.name, image: CANNON_IMAGE_MAP[recipe.recipe_id], traitFilterId: 'bomb', rarity: 'SSR' } };
             if (equip) {
                 return {
                     type: 'equipment',
@@ -48,6 +48,7 @@ export function getMaterialRecipes(materialId, recipeMaster, equipments, battleT
                     rarity: tool.rarity
                 };
             }
-            return null;}) 
+            return null;
+        })
         .filter(Boolean);
 }

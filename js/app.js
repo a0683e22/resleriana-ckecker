@@ -9,44 +9,43 @@ import { loadFilterState, initFilterUI, updateUI } from './utils/sandf.js';
 import { decompressIds, decompressMemoria } from './utils/compress.js';
 
 async function init() {
-  try {
-    // 🎯 0. 讀取並設定語言 (取代原本在外面的 DOMContentLoaded)
-    const savedLang = localStorage.getItem('site_lang') || 'zh';
-    state.ui.currentLang = savedLang;
+    try {
+        // 🎯 0. 讀取並設定語言 (取代原本在外面的 DOMContentLoaded)
+        const savedLang = localStorage.getItem('site_lang') || 'zh';
+        state.ui.currentLang = savedLang;
 
-    // 1. 初始化 DOM 互動事件
-    initCharacterImageInteraction();
-    initPopup();
-    initInteractions(); // 如果這是被動技能的互動，保留無妨
+        // 1. 初始化 DOM 互動事件
+        initCharacterImageInteraction();
+        initPopup();
+        initInteractions(); // 如果這是被動技能的互動，保留無妨
 
-const savedPage = localStorage.getItem('currentPage');
-if (savedPage) { state.ui.currentPage = savedPage; }
+        const savedPage = localStorage.getItem('currentPage');
+        if (savedPage) { state.ui.currentPage = savedPage; }
 
-    // 2.1 先讀取 LocalStorage 中的篩選狀態
-    if (typeof loadFilterState === 'function') loadFilterState(); 
+        // 2.1 先讀取 LocalStorage 中的篩選狀態
+        if (typeof loadFilterState === 'function') loadFilterState();
 
-    // 2.2 讀取並解析 URL 中的配置資料 (優先權最高)
-    await initFromUrl();
+        // 2.2 讀取並解析 URL 中的配置資料 (優先權最高)
+        await initFromUrl();
 
-    // 3. 載入並快取所有角色與道具核心資料
-    state.data = await fetchFullCharacterData();
+        // 3. 載入並快取所有角色與道具核心資料
+        state.data = await fetchFullCharacterData();
 
-    // 4. 建構技能快速查詢表與被動索引 (確保在畫面渲染前，資料字典已備妥)
-    buildPassiveIndex();
-    buildSkillLookupTable();
+        // 4. 建構技能快速查詢表與被動索引 (確保在畫面渲染前，資料字典已備妥)
+        buildPassiveIndex();
+        buildSkillLookupTable();
 
-    // 5. 首次全局渲染 App (取代原本 DOMContentLoaded 裡的 renderApp)
-    renderApp();
+        // 5. 首次全局渲染 App (取代原本 DOMContentLoaded 裡的 renderApp)
+        renderApp();
 
-    // 6. 初始化表格標頭互動與綁定篩選 UI 狀態
-    initTableHeaderInteraction();
-    bindFilterButtons();
-    if (typeof initFilterUI === 'function')
-{initFilterUI();}
+        // 6. 初始化表格標頭互動與綁定篩選 UI 狀態
+        initTableHeaderInteraction();
+        bindFilterButtons();
+        if (typeof initFilterUI === 'function') { initFilterUI(); }
 
-  } catch (error) {
-    console.error('資料載入失敗:', error);
-  }
+    } catch (error) {
+        console.error('資料載入失敗:', error);
+    }
 }
 
 // ==========================================
@@ -56,28 +55,28 @@ export async function initFromUrl() {
     const params = new URLSearchParams(window.location.search);
     const chardata = params.get('data');
     const memo = params.get('memo');
-    
+
     if (memo) {
-    	
-    try {
-    	state.filters.memories.extra = ['owned'];
-        state.ui.currentPage = 'memories';
-        const fullData = await fetchFullCharacterData();
-        const decoded = decompressMemoria(memo, fullData.meta.memoria);
-        state.memoria.owned = decoded;
-        setTimeout(() => { renderApp(); }, 0);
-    } catch (e) {
-        console.error('回憶網址解析失敗:', e);
+
+        try {
+            state.filters.memories.extra = ['owned'];
+            state.ui.currentPage = 'memories';
+            const fullData = await fetchFullCharacterData();
+            const decoded = decompressMemoria(memo, fullData.meta.memoria);
+            state.memoria.owned = decoded;
+            setTimeout(() => { renderApp(); }, 0);
+        } catch (e) {
+            console.error('回憶網址解析失敗:', e);
+        }
     }
-}
     if (chardata) {
         try {
             // 🌟 直接使用解壓縮函數還原成陣列
             const decodedIds = decompressIds(chardata);
-            
+
             // 存入 localStorage
             localStorage.setItem('activeCharacters', JSON.stringify(decodedIds));
-            
+
             // 更新狀態管理器
             if (OwnershipManager) {
                 OwnershipManager.setOwned(decodedIds);
@@ -99,9 +98,9 @@ window.passiveSkillMap = {};
 function buildPassiveIndex() {
     for (const id in window.abilitiesDatabase) {
         const ability = window.abilitiesDatabase[id];
-        const desc = ability.description.zh; 
+        const desc = ability.description.zh;
         const regex = /\[passive:(\d+)\]/g;
-        
+
         let match;
         while ((match = regex.exec(desc)) !== null) {
             const passiveId = match[1];
@@ -119,7 +118,7 @@ function buildSkillLookupTable() {
 
     for (const charId in window.translationData) {
         const char = window.translationData[charId];
-        
+
         targetKeys.forEach(key => {
             const skill = char[key];
             if (skill && skill.skill_id) {
@@ -154,7 +153,7 @@ function onPageChange(pageName) {
 }
 
 
-window.handleFilterClick = function(type, value) {
+window.handleFilterClick = function (type, value) {
     const page = window.state.ui.currentPage; // 獲取當前頁面 ('characters' 或 'memories')
     const targetValue = window.state.filters[page][type]
     // 1. 強制初始化整個頁面的篩選器物件 (如果遺失)
@@ -169,7 +168,7 @@ window.handleFilterClick = function(type, value) {
 
     // 3. 現在路徑絕對存在，執行篩選切換
     const target = state.filters[page][type];
-    
+
     if (target.includes(value)) {
         state.filters[page][type] = target.filter(v => v !== value);
     } else {
@@ -178,6 +177,6 @@ window.handleFilterClick = function(type, value) {
 
     // 4. 重新渲染
     if (typeof updateUI === 'function') {
-        updateUI(); 
+        updateUI();
     }
 };

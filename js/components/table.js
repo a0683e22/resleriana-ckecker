@@ -50,24 +50,20 @@ export function createCharacterTable(data) {
 
             <!-- 頂部元素標題 -->
             ${ELEMENT_FILTERS.map(e => `
-                <div class="table-header element-header" data-element="${e.value}">
-    <img src="${e.icon}">
-</div>
+                <div class="table-header element-header" data-element="${e.value}"><img src="${e.icon}"></div>
             `).join('')}
 
             <!-- 各角色類別內容 -->
             ${ROLE_FILTERS.map(role => `
-                <div class="table-header role-header" data-role="${role.value}">
-    <img src="${role.icon}">
-</div>
+                <div class="table-header role-header" data-role="${role.value}"><img src="${role.icon}"></div>
                 ${ELEMENT_FILTERS.map(element => {
-                    const chars = grid[role.value]?.[element.value] || [];
-                    return `
+        const chars = grid[role.value]?.[element.value] || [];
+        return `
                         <div class="table-cell" data-role="${role.value}" data-element="${element.value}">
                             ${chars.map(c => renderCharacterIcon(c)).join('')}
                         </div>
                     `;
-                }).join('')}
+    }).join('')}
             `).join('')}
         </div>
     `;
@@ -78,15 +74,15 @@ export function createCharacterTable(data) {
  */
 function renderCharacterIcon(character) {
     const charId = character.image.split('/').pop().replace('.png', '');
-    
+
     // 取得持有清單與判斷
-    const ownedIds = OwnershipManager.getOwned(); 
-    const isOwned = ownedIds.includes(Number(character.id)); 
-    
+    const ownedIds = OwnershipManager.getOwned();
+    const isOwned = ownedIds.includes(Number(character.id));
+
     // 🎯 核心修改 2：設定外層與圖片的 Class
     const activeClass = isOwned ? 'active' : '';
     const imgClass = isOwned ? 'owned-img' : 'not-owned-img';
-    
+
     return `
         <div class="character-slot">
             <!-- 🎯 把 activeClass 綁定在這裡 -->
@@ -107,13 +103,13 @@ export function setupTableFilters(data) {
 
     document.querySelector('.character-table').addEventListener('change', (e) => {
         const target = e.target;
-        const type = target.classList.contains('element-check') ? 'element' : 
-                     target.classList.contains('role-check') ? 'role' : null;
+        const type = target.classList.contains('element-check') ? 'element' :
+            target.classList.contains('role-check') ? 'role' : null;
 
         if (!type) return;
 
-        target.checked ? activeStates[type].add(target.dataset[type]) 
-                       : activeStates[type].delete(target.dataset[type]);
+        target.checked ? activeStates[type].add(target.dataset[type])
+            : activeStates[type].delete(target.dataset[type]);
 
         applyTableFilter(data, activeStates);
     });
@@ -123,7 +119,7 @@ function applyTableFilter(data, activeStates) {
     const filtered = data.filter(c => {
         const matchElement = activeStates.element.has(attrMap[c.element]);
         const matchRole = activeStates.role.has(roleMap[c.role]);
-        
+
         return matchElement && matchRole;
     });
 
@@ -148,7 +144,7 @@ export function setupTableToggleLogic() {
 
         // 3. 判斷目標狀態：檢查這組角色是否「全亮」
         const currentOwned = OwnershipManager.getOwned();
-        const areAllActive = [...targets].every(item => 
+        const areAllActive = [...targets].every(item =>
             item.dataset.id && currentOwned.includes(Number(item.dataset.id))
         );
         const targetState = !areAllActive;

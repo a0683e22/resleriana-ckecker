@@ -20,7 +20,7 @@ export const PAGE_CONFIG = {
     toolbar: 'equipments',
     render: renderEquipments,
   },
-    battleitems: {
+  battleitems: {
     titleKey: 'battleitems',
     toolbar: 'battleitems',
     render: renderbattleitems,

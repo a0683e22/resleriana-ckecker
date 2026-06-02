@@ -1,5 +1,5 @@
-export const LANG = {ZH: 'zh', EN: 'en', JP: 'jp',};
-export const PAGE = { CHARACTERS: 'characters', MEMORIES: 'memories',};
+export const LANG = { ZH: 'zh', EN: 'en', JP: 'jp', };
+export const PAGE = { CHARACTERS: 'characters', MEMORIES: 'memories', };
 export const CHAR_RARITY_FILTERS = [
   { text: '3★', value: 3 },
   { text: '2★', value: 2 },
@@ -62,9 +62,9 @@ export const EQUIP_RARITY_FILTERS = [
 ];
 
 export const EQUIP_FILTERS = [
-  { text: 'Weapon', value: 'weapon', icon: 'images/ui/weapon.webp'},
-  { text: 'Armor', value: 'armor', icon: 'images/ui/armor.webp'},
-  { text: 'Accessory', value: 'accessory', icon: 'images/ui/accessory.webp'},
+  { text: 'Weapon', value: 'weapon', icon: 'images/ui/weapon.webp' },
+  { text: 'Armor', value: 'armor', icon: 'images/ui/armor.webp' },
+  { text: 'Accessory', value: 'accessory', icon: 'images/ui/accessory.webp' },
 ];
 
 export const EQUIP_ICON = {
@@ -74,10 +74,10 @@ export const EQUIP_ICON = {
 };
 
 export const BATTLEITEM_FILTERS = [
-  { text: 'Attack', value: 1, icon: 'images/ui/attack.webp'},
-  { text: 'Buff', value: 2, icon: 'images/ui/buff.webp'},
-  { text: 'Debuff', value: 3, icon: 'images/ui/debuff.webp'},
-  { text: 'Heal', value: 4, icon: 'images/ui/heal.webp'}
+  { text: 'Attack', value: 1, icon: 'images/ui/attack.webp' },
+  { text: 'Buff', value: 2, icon: 'images/ui/buff.webp' },
+  { text: 'Debuff', value: 3, icon: 'images/ui/debuff.webp' },
+  { text: 'Heal', value: 4, icon: 'images/ui/heal.webp' }
 ];
 
 export const BATTLEITEM_ICON = {
@@ -89,26 +89,26 @@ export const BATTLEITEM_ICON = {
 };
 
 export const COLOR_FILTERS = [
-  { text: 'blue', value: 1, icon: 'images/ui/blue.png'},
-  { text: 'purple', value: 2, icon: 'images/ui/purple.png'},
-  { text: 'yellow', value: 3, icon: 'images/ui/yellow.png'},
-  { text: 'red', value: 4, icon: 'images/ui/red.png'},
-  { text: 'green', value: 5, icon: 'images/ui/green.png'},
+  { text: 'blue', value: 1, icon: 'images/ui/blue.png' },
+  { text: 'purple', value: 2, icon: 'images/ui/purple.png' },
+  { text: 'yellow', value: 3, icon: 'images/ui/yellow.png' },
+  { text: 'red', value: 4, icon: 'images/ui/red.png' },
+  { text: 'green', value: 5, icon: 'images/ui/green.png' },
 ]
 
 export const COLOR_PRIORITY = {
-  blueFirst:[1, 2, 3, 4, 5],
-  purpleFirst:[2, 3, 4, 5, 1],
-  yellowFirst:[3, 4, 5, 1, 2],
-  redFirst:[4, 5, 1, 2, 3],
-  greenFirst:[5, 1, 2, 3, 4],
+  blueFirst: [1, 2, 3, 4, 5],
+  purpleFirst: [2, 3, 4, 5, 1],
+  yellowFirst: [3, 4, 5, 1, 2],
+  redFirst: [4, 5, 1, 2, 3],
+  greenFirst: [5, 1, 2, 3, 4],
 };
 
 export const TOOL_PRIORITY = {
-  aFirst:[1, 2, 3, 4],
-  bFirst:[2, 3, 4, 1],
-  dFirst:[3, 4, 1, 2],
-  hFirst:[4, 1, 2, 3],
+  aFirst: [1, 2, 3, 4],
+  bFirst: [2, 3, 4, 1],
+  dFirst: [3, 4, 1, 2],
+  hFirst: [4, 1, 2, 3],
 };
 
 export const COLOR_ICON = {
@@ -120,22 +120,22 @@ export const COLOR_ICON = {
 };
 
 export const MATERIAL_TYPE = [
-  { labelKey: 'normalMaterial', type: 'normal'},
-  { labelKey: 'cannonMaterial', type: 'cannon'}
+  { labelKey: 'normalMaterial', type: 'normal' },
+  { labelKey: 'cannonMaterial', type: 'cannon' }
 ];
 
 export const MATERIAL_SORT_OPTIONS = [
-  {labelKey: 'newest', value: 'newest'},
-  {labelKey: 'oldest', value: 'oldest'},
-  {labelKey: 'bluefirst', value: 'blueFirst'},
-  {labelKey: 'purplefirst', value: 'purpleFirst'},
-  {labelKey: 'yellowfirst', value: 'yellowFirst'},
-  {labelKey: 'redfirst', value: 'redFirst'},
-  {labelKey: 'greenfirst',value: 'greenFirst',},
+  { labelKey: 'newest', value: 'newest' },
+  { labelKey: 'oldest', value: 'oldest' },
+  { labelKey: 'bluefirst', value: 'blueFirst' },
+  { labelKey: 'purplefirst', value: 'purpleFirst' },
+  { labelKey: 'yellowfirst', value: 'yellowFirst' },
+  { labelKey: 'redfirst', value: 'redFirst' },
+  { labelKey: 'greenfirst', value: 'greenFirst', },
 ];
 
 export const VIEW_MODES = [
-  {labelKey: 'iconView', value: 'icon', icon: 'images/ui/icon.png'},
-  {labelKey: 'tableView', value: 'table',icon: 'images/ui/table.png'},
-  {labelKey: 'listView', value: 'list', icon: 'images/ui/list.png'},
+  { labelKey: 'iconView', value: 'icon', icon: 'images/ui/icon.png' },
+  { labelKey: 'tableView', value: 'table', icon: 'images/ui/table.png' },
+  { labelKey: 'listView', value: 'list', icon: 'images/ui/list.png' },
 ];

@@ -1,10 +1,10 @@
 export const ATTR_ICON_MAP = {
   "火": "f.1dbf47.png",
   "冰": "i.b647e3.png",
-  "雷": "l.119818.png", 
+  "雷": "l.119818.png",
   "風": "w.d06628.png",
   "斬": "s.42817b.png",
-  "打": "k.3148cc.png", 
+  "打": "k.3148cc.png",
   "突": "t.ac73b3.png"
 };
 

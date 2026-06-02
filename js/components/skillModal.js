@@ -8,7 +8,7 @@ import { UI_TEXT } from '../i18n.js';
  * 渲染彈出視窗的結構外殼（HTML 字串）
  */
 export function renderModalShell({ charName, charImage, hasTransform, currentStar, isTransformed, skillListHtml, has6Star }) {
-	const t = UI_TEXT[ state.ui.currentLang || 'zh'];
+    const t = UI_TEXT[state.ui.currentLang || 'zh'];
     return `
         <div class="modal-header">
             <div class="char-info">
@@ -160,16 +160,16 @@ export function openSkillPreview(skillId, event) {
     document.querySelectorAll('.link-pop').forEach(el => el.remove());
 
     const skill = {
-    skill_id: skillId,
-    name: data.name,
-    zh: data.descriptions?.zh || '',
-    jp: data.descriptions?.jp || '',
-    en: data.descriptions?.en || ''
-};
+        skill_id: skillId,
+        name: data.name,
+        zh: data.descriptions?.zh || '',
+        jp: data.descriptions?.jp || '',
+        en: data.descriptions?.en || ''
+    };
 
     // 🎯 特殊判定：若 ID 為 1990499，視為特殊合成物品，需渲染側邊欄
     const isItemMix = Number(skillId) === 14003468;
-    
+
     // 建立預覽視窗 DOM
     const pop = document.createElement('div');
     pop.className = 'link-pop';
@@ -179,9 +179,9 @@ export function openSkillPreview(skillId, event) {
     <div class="${isItemMix ? 'popup-layout' : ''}">
         <div class="popup-main">
             ${renderSkillCard(skill, {
-                compact: true,
-                showStats: true
-            })}
+        compact: true,
+        showStats: true
+    })}
         </div>
         ${isItemMix ? `
             <div class="popup-side">
@@ -191,35 +191,35 @@ export function openSkillPreview(skillId, event) {
     </div>
 `;
 
-document.body.appendChild(pop);
+    document.body.appendChild(pop);
 
-// 設定固定定位，確保滾動時不會脫離視窗視角
-pop.style.position = 'fixed';
+    // 設定固定定位，確保滾動時不會脫離視窗視角
+    pop.style.position = 'fixed';
 
-// 設定初始位置（滑鼠右下方偏移 12px）
-let left = event.clientX + 12;
-let top = event.clientY + 12;
+    // 設定初始位置（滑鼠右下方偏移 12px）
+    let left = event.clientX + 12;
+    let top = event.clientY + 12;
 
-// 暫時套用位置，以便瀏覽器渲染並計算元素的實際尺寸
-pop.style.left = `${left}px`;
-pop.style.top = `${top}px`;
+    // 暫時套用位置，以便瀏覽器渲染並計算元素的實際尺寸
+    pop.style.left = `${left}px`;
+    pop.style.top = `${top}px`;
 
-// 獲取渲染後的實際邊界尺寸
-const rect = pop.getBoundingClientRect();
+    // 獲取渲染後的實際邊界尺寸
+    const rect = pop.getBoundingClientRect();
 
-// 邊界檢查：若超出右邊，則翻轉至滑鼠左側顯示
-if (left + rect.width > window.innerWidth) {
-    left = Math.max(12, event.clientX - rect.width - 12);
-}
+    // 邊界檢查：若超出右邊，則翻轉至滑鼠左側顯示
+    if (left + rect.width > window.innerWidth) {
+        left = Math.max(12, event.clientX - rect.width - 12);
+    }
 
-// 邊界檢查：若超出下方，則向上對齊視窗底部邊緣 (螢幕總高度 - 視窗高度 - 12px 的間距)
-if (top + rect.height > window.innerHeight) {
-    top = Math.max(12, window.innerHeight - rect.height - 12);
-}
+    // 邊界檢查：若超出下方，則向上對齊視窗底部邊緣 (螢幕總高度 - 視窗高度 - 12px 的間距)
+    if (top + rect.height > window.innerHeight) {
+        top = Math.max(12, window.innerHeight - rect.height - 12);
+    }
 
-// 套用最終修正後的座標
-pop.style.left = `${left}px`;
-pop.style.top = `${top}px`;
+    // 套用最終修正後的座標
+    pop.style.left = `${left}px`;
+    pop.style.top = `${top}px`;
 
     // 點擊視窗外部自動關閉
     requestAnimationFrame(() => {
@@ -242,27 +242,27 @@ function renderItemMixTable() {
                 <th>${ITEM_MIX_UI.headers.effect[lang]}</th>
             </tr>
             ${ITEM_MIX_UI.effects.map(item => {
-                let comboHtml = '';
+        let comboHtml = '';
 
-                // 處理不同組合類型的顯示邏輯
-                if (item.combo === 'same') {
-                    // 同屬上位
-                    comboHtml = ITEM_MIX_UI.headers.same[lang];
-                } else if (item.combo === 'others') {
-                    // 其他
-                    comboHtml = ITEM_MIX_UI.headers.others[lang];
-                } else {
-                    // 具體屬性組合 (如 fire, ice)
-                    comboHtml = mixIcons(item.combo[0], item.combo[1]);
-                }
+        // 處理不同組合類型的顯示邏輯
+        if (item.combo === 'same') {
+            // 同屬上位
+            comboHtml = ITEM_MIX_UI.headers.same[lang];
+        } else if (item.combo === 'others') {
+            // 其他
+            comboHtml = ITEM_MIX_UI.headers.others[lang];
+        } else {
+            // 具體屬性組合 (如 fire, ice)
+            comboHtml = mixIcons(item.combo[0], item.combo[1]);
+        }
 
-                return `
+        return `
                     <tr>
                         <td>${comboHtml}</td>
                         <td>${item.effect[lang] || item.effect.zh}</td>
                     </tr>
                 `;
-            }).join('')}
+    }).join('')}
         </table>
     `;
 }

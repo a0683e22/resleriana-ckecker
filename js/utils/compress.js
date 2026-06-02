@@ -1,7 +1,7 @@
 // 🛠️ 壓縮：將數字陣列轉換為極短的 Base64 字串
 export function compressIds(ids) {
     if (!ids || ids.length === 0) return "";
-    
+
     const maxId = Math.max(...ids);
     const numBytes = Math.ceil((maxId + 1) / 8);
     const bytes = new Uint8Array(numBytes);
@@ -14,14 +14,14 @@ export function compressIds(ids) {
     for (let i = 0; i < bytes.length; i++) {
         binaryStr += String.fromCharCode(bytes[i]);
     }
-    
+
     return btoa(binaryStr).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
 // 🛠️ 解壓縮：將 Base64 字串還原為數字陣列
 export function decompressIds(base64Str) {
     if (!base64Str) return [];
-    
+
     let str = base64Str.replace(/-/g, '+').replace(/_/g, '/');
     while (str.length % 4 !== 0) str += '=';
 

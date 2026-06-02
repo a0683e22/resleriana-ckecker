@@ -15,7 +15,7 @@ export function createCharacterCard(character) {
     const roleFile =
         ROLE_ICON_MAP[character.role] || 'default.png';
 
-const isOwned =
+    const isOwned =
         OwnershipManager
             .getOwned()
             .includes(Number(character.id));

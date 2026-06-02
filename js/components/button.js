@@ -1,6 +1,6 @@
 import { getUIText } from '../i18n.js'
 
-		/* 篩選重置按鈕 */
+/* 篩選重置按鈕 */
 export function createResetButton(type) {
     return `
         <button id="clear-filters-btn" class="reset-btn filter-button" title="清除所有篩選">↺</button>

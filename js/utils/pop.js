@@ -18,9 +18,9 @@ export function initPopup() {
         // 【防護機制】：如果有點到主技能視窗，直接跳過，不要殺視窗
         const isInsideModal = event.target.closest('.modal-overlay');
         const isClickOnLink = event.target.closest('.skill-link');
-        
+
         if (isInsideModal || isClickOnLink) {
-            return; 
+            return;
         }
 
         // 只有在確實點到外部時才關閉
@@ -37,16 +37,16 @@ export function showPopup(html, x, y) {
     popup.innerHTML = html;
     popup.style.display = 'block';
     popup.classList.add('show');
-    
+
     // 💡 把視窗相對座標(y)轉換成網頁絕對座標
     const absoluteX = x + window.scrollX;
     const absoluteY = y + window.scrollY;
 
     popup.style.top = '0px';
     popup.style.left = '0px';
-    
+
     const rect = popup.getBoundingClientRect();
-    
+
     // 判斷是否超出螢幕（這裡用絕對位置判斷）
     let finalY = absoluteY;
     // 如果「點擊位置 - 捲動距離 + Popup高度」大於視窗高度，就往上彈
@@ -96,8 +96,8 @@ export function openLinkPassive(skillId, event) {
     if (!data) return;
     // 2. 🎯 現場抓取最新的數值 (從 valueDatabase)
     const skillValueData = window.valueDatabase?.[skillId];
-    const params = skillValueData && skillValueData.effects 
-        ? skillValueData.effects.map(e => e.value / 100) 
+    const params = skillValueData && skillValueData.effects
+        ? skillValueData.effects.map(e => e.value / 100)
         : []; // 如果找不到數值，給個空陣列，避免程式崩潰
     // 3. 🎯 現場進行「文字」+「數值」的組裝
     // 這是最關鍵的一步：把 params 丟進去！
@@ -109,7 +109,7 @@ export function openLinkPassive(skillId, event) {
 function findSkillInChar(obj, targetId) {
     if (!obj || typeof obj !== 'object') return null;
     if (obj.skill_id == targetId) return obj; // 找到了
-    
+
     for (const key in obj) {
         const result = findSkillInChar(obj[key], targetId);
         if (result) return result;

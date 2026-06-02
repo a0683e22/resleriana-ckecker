@@ -8,11 +8,11 @@ import { renderSkillModal, openSkillPreview } from '../components/skillModal.js'
 
 export function initCharacterImageInteraction() {
     const activeIds = OwnershipManager.getOwned();
-    
+
     document.querySelectorAll('.char-item').forEach(item => {
         const id = item.dataset.id;
         if (!id) return;
-        
+
         const charId = Number(id);
         const isOwned = (charId === 0 || charId === 23) || activeIds.includes(charId);
         const img = item.querySelector('img');
@@ -68,12 +68,12 @@ export function bindGlobalClickEvents() {
             const charId = charImage.getAttribute('data-char-id');
             const imgSrc = charImage.src;
             const hasTransform = charImage.getAttribute('data-has-transform') === 'true';
-            const cardContainer = charImage.closest('.info-card'); 
+            const cardContainer = charImage.closest('.info-card');
             const nameElement = cardContainer ? cardContainer.querySelector('.char-name') : null;
             const charName = nameElement ? nameElement.textContent.trim() : '未知角色';
-            
+
             if (charId && typeof renderSkillModal === 'function') {
-                renderSkillModal(charId, charName, imgSrc, hasTransform); 
+                renderSkillModal(charId, charName, imgSrc, hasTransform);
             }
             return; // 開啟視窗後直接結束，不再往下執行取消持有的邏輯
         }
@@ -95,9 +95,9 @@ export function bindGlobalClickEvents() {
         // ==========================================
         const toggleAll = e.target.closest('#toggle-all');
         if (toggleAll) {
-            const isChecked = toggleAll.checked; 
+            const isChecked = toggleAll.checked;
             const allItems = document.querySelectorAll('.char-item');
-            
+
             allItems.forEach(item => {
                 const charIdStr = item.dataset.id;
                 if (charIdStr === undefined || charIdStr === '') return;
@@ -122,10 +122,10 @@ export function bindGlobalClickEvents() {
             const type = tableHeader.classList.contains('element-header') ? 'element' : 'role';
             const value = tableHeader.dataset[type];
             const targets = document.querySelectorAll(`.table-cell[data-${type}="${value}"] .char-item`);
-            
+
             if (targets.length > 0) {
                 const currentOwned = OwnershipManager.getOwned();
-                const areAllActive = [...targets].every(item => 
+                const areAllActive = [...targets].every(item =>
                     item.dataset.id && currentOwned.includes(Number(item.dataset.id))
                 );
                 const targetState = !areAllActive;
@@ -204,7 +204,7 @@ export const resetData = () => {
 
 export function resetFilter() {
     if (PAGE_CONFIG.characters && typeof PAGE_CONFIG.characters.render === 'function') {
-        PAGE_CONFIG.characters.render(); 
+        PAGE_CONFIG.characters.render();
     }
 }
 
@@ -214,7 +214,7 @@ export function initTableHeaderInteraction() {
     if (isTableHeaderBound) return;
     isTableHeaderBound = true;
 
-    document.addEventListener('click', function(e) {
+    document.addEventListener('click', function (e) {
         const tableHeader = e.target.closest('.table-header');
         if (!tableHeader) return;
 
@@ -230,7 +230,7 @@ export function initTableHeaderInteraction() {
         } else {
             return;
         }
-        
+
         const targetItems = document.querySelectorAll(`.table-cell[data-${filterType}="${filterValue}"] .char-item`);
         if (targetItems.length === 0) return;
 
@@ -238,7 +238,7 @@ export function initTableHeaderInteraction() {
 
         targetItems.forEach(item => {
             const charIdStr = item.dataset.id;
-            if (charIdStr === undefined || charIdStr === '') return; 
+            if (charIdStr === undefined || charIdStr === '') return;
             const charId = Number(charIdStr);
 
             if (charId === 0 || charId === 23) return;
@@ -253,7 +253,7 @@ export function initTableHeaderInteraction() {
 
             const isNowOwned = OwnershipManager.getOwned().includes(charId);
             const allElements = document.querySelectorAll(`.char-item[data-id="${charId}"]`);
-            
+
             allElements.forEach(el => {
                 el.classList.toggle('active', isNowOwned);
                 const img = el.querySelector('img');

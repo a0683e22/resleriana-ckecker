@@ -4,8 +4,8 @@ import { BATTLEITEM_ICON, EQUIP_RARITY_FILTERS } from '../constants.js';
 import { getMaterialRecipes } from '../utils/recipeLookup.js';
 import { showToast } from './toolbar.js';
 
-    const rarityMap = new Map(EQUIP_RARITY_FILTERS.map(r => [r.text, r]));
-    
+const rarityMap = new Map(EQUIP_RARITY_FILTERS.map(r => [r.text, r]));
+
 export function showRecipePopup(materialId) {
 
     document.querySelector('.recipe-popup-overlay')?.remove();
@@ -17,19 +17,21 @@ export function showRecipePopup(materialId) {
     const results = getMaterialRecipes(materialId, meta.recipeMaster, meta.equipments, meta.battleTools);
     if (results.length === 0) { showToast(t.norecipeusage); return; }
     const cardsHtml = results.map(item => {
-    	if (item.type === 'equipment') {
+        if (item.type === 'equipment') {
             const statusHtml = item.status.map(s => `<span class="recipe-stat">${t[s.type] || s.type}+${s.value}</span>`).join('');
             return `
                 <div class="recipe-card"><div class="recipe-img-box"> <img src="${rarityMap.get(item.rarity)?.frame || ''}" class="recipe-frame"> <img src="${item.image}" class="recipe-icon"> </div>
-                    <div class="recipe-info"><div class="recipe-name">${item.name}</div><div class="recipe-extra">${statusHtml}</div></div></div>`;}
+                    <div class="recipe-info"><div class="recipe-name">${item.name}</div><div class="recipe-extra">${statusHtml}</div></div></div>`;
+        }
 
-	const icon = BATTLEITEM_ICON[item.traitFilterId];
-	
+        const icon = BATTLEITEM_ICON[item.traitFilterId];
+
         return `
             <div class="recipe-card"><div class="recipe-img-box"> <img src="${rarityMap.get(item.rarity)?.frame || ''}" class="recipe-frame"> <img src="${item.image}" class="recipe-icon"> </div>
                 <div class="recipe-info"><div class="recipe-name">${item.name}</div>
             <div class="recipe-extra"><img src="${icon || ''}" class="battle-type-icon"></div>
-                </div></div>`; }).join('');
+                </div></div>`;
+    }).join('');
 
     const overlay = document.createElement('div');
 

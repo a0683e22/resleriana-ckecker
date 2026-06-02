@@ -8,7 +8,7 @@ import { showToast } from '../components/toolbar.js';
 const getStatusValue = (eq, type) => eq.status?.find(s => s.type === type)?.value || 0;
 
 export function renderEquipments() {
-	console.log('renderEquipments');
+    console.log('renderEquipments');
     const { meta } = state.data;
     const content = document.getElementById('content');
     const { rarity, type, color } = state.filters.equipments;
@@ -35,12 +35,12 @@ export function renderEquipments() {
     const sortKeys = {
         newest: (a, b) => b.id - a.id,
         oldest: (a, b) => a.id - b.id,
-        hp:     (a, b) => getStatusValue(b, 'hp') - getStatusValue(a, 'hp'),
-        speed:  (a, b) => getStatusValue(b, 'speed') - getStatusValue(a, 'speed'),
-        patk:   (a, b) => getStatusValue(b, 'patk') - getStatusValue(a, 'patk'),
-        matk:   (a, b) => getStatusValue(b, 'matk') - getStatusValue(a, 'matk'),
-        pdef:   (a, b) => getStatusValue(b, 'pdef') - getStatusValue(a, 'pdef'),
-        mdef:   (a, b) => getStatusValue(b, 'mdef') - getStatusValue(a, 'mdef')
+        hp: (a, b) => getStatusValue(b, 'hp') - getStatusValue(a, 'hp'),
+        speed: (a, b) => getStatusValue(b, 'speed') - getStatusValue(a, 'speed'),
+        patk: (a, b) => getStatusValue(b, 'patk') - getStatusValue(a, 'patk'),
+        matk: (a, b) => getStatusValue(b, 'matk') - getStatusValue(a, 'matk'),
+        pdef: (a, b) => getStatusValue(b, 'pdef') - getStatusValue(a, 'pdef'),
+        mdef: (a, b) => getStatusValue(b, 'mdef') - getStatusValue(a, 'mdef')
     };
 
     equipments.sort(sortKeys[state.sorting.equipments] || sortKeys.newest);
@@ -60,9 +60,9 @@ document.addEventListener('click', async (e) => {
     try {
         await navigator.clipboard.writeText(name);
 
-        const copiedText = { zh: `已複製 ${name}`, en: `${name} copied`,  jp: `${name}をコピーしました` };
+        const copiedText = { zh: `已複製 ${name}`, en: `${name} copied`, jp: `${name}をコピーしました` };
 
-        showToast( copiedText[state.ui.currentLang] || `${name} copied` );
+        showToast(copiedText[state.ui.currentLang] || `${name} copied`);
 
     } catch {
         showToast(

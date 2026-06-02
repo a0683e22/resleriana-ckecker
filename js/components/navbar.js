@@ -1,17 +1,10 @@
-import { state }
-from '../state.js';
-
-import { switchPage }
-from '../router.js';
-
-import { PAGE_CONFIG }
-from '../config/pages.js';
-
-import { UI_TEXT }
-from '../i18n.js';
+import { state } from '../state.js';
+import { switchPage } from '../router.js';
+import { PAGE_CONFIG } from '../config/pages.js';
+import { UI_TEXT } from '../i18n.js';
 
 export function renderNavbar(currentPage, switchPage) {
-  const t = UI_TEXT[ state.ui.currentLang ];
+  const t = UI_TEXT[state.ui.currentLang];
   const navbar = document.getElementById('navbar');
   const is = (page) => state.ui.currentPage === page ? 'active' : '';
 

@@ -1,20 +1,20 @@
 import { state } from '../state.js';
 import { renderApp } from '../router.js';
-import { 
-  CHAR_RARITY_FILTERS, 
-  ELEMENT_FILTERS, 
-  ROLE_FILTERS, 
-  CHAR_SORT_OPTIONS,
-  SORT_OPTIONS, 
-  RARITY_FILTERS,
-  EQUIP_RARITY_FILTERS,
-  EQUIP_FILTERS,
-  BATTLEITEM_FILTERS,
-  BATTLEITEM_SORT_OPTIONS,
-  COLOR_FILTERS,
-  MATERIAL_TYPE,
-  MATERIAL_SORT_OPTIONS,
-  VIEW_MODES,
+import {
+    CHAR_RARITY_FILTERS,
+    ELEMENT_FILTERS,
+    ROLE_FILTERS,
+    CHAR_SORT_OPTIONS,
+    SORT_OPTIONS,
+    RARITY_FILTERS,
+    EQUIP_RARITY_FILTERS,
+    EQUIP_FILTERS,
+    BATTLEITEM_FILTERS,
+    BATTLEITEM_SORT_OPTIONS,
+    COLOR_FILTERS,
+    MATERIAL_TYPE,
+    MATERIAL_SORT_OPTIONS,
+    VIEW_MODES,
 } from '../constants.js';
 
 import { fetchFullCharacterData } from '../utils/dataManager.js'
@@ -35,7 +35,7 @@ const currentPage = state.ui.currentPage;
 const currentFilters = state.filters[currentPage];
 
 function createCopyLinkButton() {
-  return `<button id="copy-link-btn" class="filter-button float" title="複製持有狀態連結">🔗</button>`;
+    return `<button id="copy-link-btn" class="filter-button float" title="複製持有狀態連結">🔗</button>`;
 }
 
 function createCopyMemoriaButton() {
@@ -49,82 +49,87 @@ function createCopyMemoriaButton() {
     `;
 }
 export function renderToolbar(toolbarType) {
-  const t = UI_TEXT[state.ui.currentLang];
-  const toolbar = document.getElementById('toolbar');
-  const page = toolbarType;
-  const currentFilters = state.filters[page] || { rarity: [], role: [], element: [], extra: [] };
-  
-  
-  if (toolbarType === 'characters') {
-    toolbar.innerHTML = createToolbarLayout({
-      topLeft: `${createSearchInput(t.searchCharacters)}${createSelect({ id: 'sort-select', options: CHAR_SORT_OPTIONS, value:state.sorting[state.ui.currentPage] })}`,
-      topRight: `${createCopyLinkButton()}${createFilterButton('6★', 'awaken6', currentFilters.extra.includes('awaken6'), 'extra', '','float')}${createFilterButton(t.owned,'owned', currentFilters.extra.includes('owned'), 'extra', '', 'float')}${createDataResetButton()}${createLanguageSelect()}${createThemeButton()}`,
-      bottomLeft: [...CHAR_RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(Number(f.value)), 'rarity')),
-                   ...ELEMENT_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'element', f.icon)),
-                   ...ROLE_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.role.includes(f.value), 'role', f.icon)),createResetButton()].join(''),
-      bottomRight:VIEW_MODES.map(v => createFilterButton(v.labelKey, v.value, state.currentView === v.value, 'view', v.icon, 'float')).join(''),})
-  } else if (toolbarType === 'memories') {
-    toolbar.innerHTML = createToolbarLayout({
-      topLeft: `${createSearchInput(t.searchMemories)}${createSelect({ id: 'sort-select', options: SORT_OPTIONS, value:state.sorting[state.ui.currentPage] })}`,
-      topRight: `${createCopyMemoriaButton()}${createMemoriaResetButton()}${createLanguageSelect()}${createThemeButton()}`,
-      bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
-                   ...ELEMENT_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'element', f.icon)),
-                   ...ROLE_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.role.includes(f.value), 'role', f.icon))].join(''),
-      bottomRight: `${createFilterButton( t.owned, 'owned', (currentFilters.extra || []).includes('owned'), 'extra', '', 'float' )}`,});
-  } else if (toolbarType === 'equipments') {
-    toolbar.innerHTML = createToolbarLayout({
-    	 topLeft: `${createSearchInput(t.searchEquipments)}${createSelect({ id: 'sort-select', options: SORT_OPTIONS, value:state.sorting[state.ui.currentPage] })}`,
-    	 topRight: `${createLanguageSelect()}${createThemeButton()}`,
-    	 bottomLeft: [...EQUIP_RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
-                   ...EQUIP_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.type.includes(f.value), 'type', f.icon)),
-                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join('')});
-} else if (toolbarType === 'battleitems') {
-    toolbar.innerHTML = createToolbarLayout({
-    	 topLeft: `${createSearchInput(t.searchbattleitems)}${createSelect({ id: 'sort-select', options: BATTLEITEM_SORT_OPTIONS, value:state.sorting[state.ui.currentPage] })}`,
-    	 topRight: `${createLanguageSelect()}${createThemeButton()}`,
-    	 bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
-                   ...BATTLEITEM_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.type.includes(String(f.value)), 'type', f.icon)),
-                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join(''),});
-}
-else if (toolbarType === 'materials') {
-    toolbar.innerHTML = createToolbarLayout({
-    	 topLeft: `${MATERIAL_TYPE.map(f =>createFilterButton(t[f.labelKey],f.type,currentFilters.type.includes(f.type), 'type' )).join('')}${createSelect({id: 'sort-select', options:MATERIAL_SORT_OPTIONS, value:state.sorting[state.ui.currentPage]})}`,
-    	 topRight: `${createLanguageSelect()}${createThemeButton()}`,
-    	  bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
-                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join(''),});
-}
+    const t = UI_TEXT[state.ui.currentLang];
+    const toolbar = document.getElementById('toolbar');
+    const page = toolbarType;
+    const currentFilters = state.filters[page] || { rarity: [], role: [], element: [], extra: [] };
 
-  bindFilterButtons();
-  setupSearchInput();
+
+    if (toolbarType === 'characters') {
+        toolbar.innerHTML = createToolbarLayout({
+            topLeft: `${createSearchInput(t.searchCharacters)}${createSelect({ id: 'sort-select', options: CHAR_SORT_OPTIONS, value: state.sorting[state.ui.currentPage] })}`,
+            topRight: `${createCopyLinkButton()}${createFilterButton('6★', 'awaken6', currentFilters.extra.includes('awaken6'), 'extra', '', 'float')}${createFilterButton(t.owned, 'owned', currentFilters.extra.includes('owned'), 'extra', '', 'float')}${createDataResetButton()}${createLanguageSelect()}${createThemeButton()}`,
+            bottomLeft: [...CHAR_RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(Number(f.value)), 'rarity')),
+            ...ELEMENT_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'element', f.icon)),
+            ...ROLE_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.role.includes(f.value), 'role', f.icon)), createResetButton()].join(''),
+            bottomRight: VIEW_MODES.map(v => createFilterButton(v.labelKey, v.value, state.currentView === v.value, 'view', v.icon, 'float')).join(''),
+        })
+    } else if (toolbarType === 'memories') {
+        toolbar.innerHTML = createToolbarLayout({
+            topLeft: `${createSearchInput(t.searchMemories)}${createSelect({ id: 'sort-select', options: SORT_OPTIONS, value: state.sorting[state.ui.currentPage] })}`,
+            topRight: `${createCopyMemoriaButton()}${createMemoriaResetButton()}${createLanguageSelect()}${createThemeButton()}`,
+            bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
+            ...ELEMENT_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'element', f.icon)),
+            ...ROLE_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.role.includes(f.value), 'role', f.icon))].join(''),
+            bottomRight: `${createFilterButton(t.owned, 'owned', (currentFilters.extra || []).includes('owned'), 'extra', '', 'float')}`,
+        });
+    } else if (toolbarType === 'equipments') {
+        toolbar.innerHTML = createToolbarLayout({
+            topLeft: `${createSearchInput(t.searchEquipments)}${createSelect({ id: 'sort-select', options: SORT_OPTIONS, value: state.sorting[state.ui.currentPage] })}`,
+            topRight: `${createLanguageSelect()}${createThemeButton()}`,
+            bottomLeft: [...EQUIP_RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
+            ...EQUIP_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.type.includes(f.value), 'type', f.icon)),
+            ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join('')
+        });
+    } else if (toolbarType === 'battleitems') {
+        toolbar.innerHTML = createToolbarLayout({
+            topLeft: `${createSearchInput(t.searchbattleitems)}${createSelect({ id: 'sort-select', options: BATTLEITEM_SORT_OPTIONS, value: state.sorting[state.ui.currentPage] })}`,
+            topRight: `${createLanguageSelect()}${createThemeButton()}`,
+            bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
+            ...BATTLEITEM_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.type.includes(String(f.value)), 'type', f.icon)),
+            ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join(''),
+        });
+    }
+    else if (toolbarType === 'materials') {
+        toolbar.innerHTML = createToolbarLayout({
+            topLeft: `${MATERIAL_TYPE.map(f => createFilterButton(t[f.labelKey], f.type, currentFilters.type.includes(f.type), 'type')).join('')}${createSelect({ id: 'sort-select', options: MATERIAL_SORT_OPTIONS, value: state.sorting[state.ui.currentPage] })}`,
+            topRight: `${createLanguageSelect()}${createThemeButton()}`,
+            bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
+            ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join(''),
+        });
+    }
+
+    bindFilterButtons();
+    setupSearchInput();
 }
 
 // 搜尋輸入處理（獨立出來，避免重複宣告）
 function setupSearchInput() {
-  const input = document.getElementById('search-input');
-  const sortSelect = document.getElementById('sort-select');
+    const input = document.getElementById('search-input');
+    const sortSelect = document.getElementById('sort-select');
 
-  if (sortSelect) { 
-    sortSelect.onchange = (event) => { 
-      state.sorting[ state.ui.currentPage ] = event.target.value;
-      renderApp();
-    }; 
-  }
+    if (sortSelect) {
+        sortSelect.onchange = (event) => {
+            state.sorting[state.ui.currentPage] = event.target.value;
+            renderApp();
+        };
+    }
 
-  if (!input) return;
+    if (!input) return;
 
-  input.oninput = (e) => {
-    state.search[state.ui.currentPage] = e.target.value;
-    
-    // 移除 input 內部的 renderApp() 與 focus() 強制重設
-    // 使用防抖動機制
-    clearTimeout(window.searchTimer);
-    window.searchTimer = setTimeout(() => {
-      renderApp();
-      // 渲染後重新聚焦（確保選擇正確）
-      const el = document.getElementById('search-input');
-      el?.focus();
-    }, 600);
-  };
+    input.oninput = (e) => {
+        state.search[state.ui.currentPage] = e.target.value;
+
+        // 移除 input 內部的 renderApp() 與 focus() 強制重設
+        // 使用防抖動機制
+        clearTimeout(window.searchTimer);
+        window.searchTimer = setTimeout(() => {
+            renderApp();
+            // 渲染後重新聚焦（確保選擇正確）
+            const el = document.getElementById('search-input');
+            el?.focus();
+        }, 600);
+    };
 }
 
 export function bindFilterButtons() {
@@ -144,14 +149,14 @@ export function bindFilterButtons() {
 
         // 2. 清除篩選
         if (e.target.closest('#clear-filters-btn')) {
-        	const page = state.ui.currentPage;
+            const page = state.ui.currentPage;
             state.filters[page] = {
                 attr: [],
                 rarity: [],
                 role: [],
                 element: [],
                 extra: []
-                };
+            };
 
             document.querySelectorAll('.filter-button').forEach(btn => {
                 btn.classList.remove('active');
@@ -231,7 +236,7 @@ async function handleCopyMemoriaLink() {
     try {
         const { meta } = await fetchFullCharacterData();
         const encodedData = compressMemoria(state.memoria.owned, meta.memoria);
-        
+
         const shareUrl = new URL(window.location.href);
         shareUrl.searchParams.set('memo', encodedData);
 
@@ -243,40 +248,40 @@ async function handleCopyMemoriaLink() {
 }
 
 export function showToast(message, duration = 2000) {
-  const toast = document.createElement('div');
-  toast.textContent = message;
+    const toast = document.createElement('div');
+    toast.textContent = message;
 
-  // 統一管理樣式設定
-  Object.assign(toast.style, {
-    position: 'fixed',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
-    background: 'rgba(20,20,20,0.92)',
-    color: '#fff',
-    padding: '16px 28px',
-    borderRadius: '14px',
-    fontSize: '18px',
-    fontWeight: '600',
-    backdropFilter: 'blur(10px)',
-    boxShadow: '0 8px 32px rgba(0,0,0,0.35)',
-    zIndex: '9999',
-    opacity: '0',
-    transition: 'opacity 0.2s ease',
-    pointerEvents: 'none' // 避免 Toast 阻擋滑鼠點擊
-  });
+    // 統一管理樣式設定
+    Object.assign(toast.style, {
+        position: 'fixed',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        background: 'rgba(20,20,20,0.92)',
+        color: '#fff',
+        padding: '16px 28px',
+        borderRadius: '14px',
+        fontSize: '18px',
+        fontWeight: '600',
+        backdropFilter: 'blur(10px)',
+        boxShadow: '0 8px 32px rgba(0,0,0,0.35)',
+        zIndex: '9999',
+        opacity: '0',
+        transition: 'opacity 0.2s ease',
+        pointerEvents: 'none' // 避免 Toast 阻擋滑鼠點擊
+    });
 
-  document.body.appendChild(toast);
+    document.body.appendChild(toast);
 
-  // 觸發淡入
-  requestAnimationFrame(() => {
-    toast.style.opacity = '1';
-  });
+    // 觸發淡入
+    requestAnimationFrame(() => {
+        toast.style.opacity = '1';
+    });
 
-  // 處理淡出與移除
-  const fadeOutTime = 200;
-  setTimeout(() => {
-    toast.style.opacity = '0';
-    setTimeout(() => toast.remove(), fadeOutTime);
-  }, duration);
+    // 處理淡出與移除
+    const fadeOutTime = 200;
+    setTimeout(() => {
+        toast.style.opacity = '0';
+        setTimeout(() => toast.remove(), fadeOutTime);
+    }, duration);
 }

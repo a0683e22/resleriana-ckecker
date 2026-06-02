@@ -24,12 +24,12 @@ export function createBattletoolCard(tool, recipe, itemMap) {
             healValue = tool.power;
         }
     }
-    const displayValue = tool.power != null ? `${tool.power}${tool.show_percent?.[0] ? '%' : ''}`  : '-';
-        if (tool.power_types?.includes(1)) {
-            powerValue = displayValue;
-            } else if (tool.power_types?.includes(3)) {
-            healValue = displayValue;
-	    }
+    const displayValue = tool.power != null ? `${tool.power}${tool.show_percent?.[0] ? '%' : ''}` : '-';
+    if (tool.power_types?.includes(1)) {
+        powerValue = displayValue;
+    } else if (tool.power_types?.includes(3)) {
+        healValue = displayValue;
+    }
     const colorsHtml = (recipe?.gift_colors || [])
         .map(id => {
             const color = colorMap.get(id);
@@ -52,12 +52,11 @@ export function createBattletoolCard(tool, recipe, itemMap) {
                 </div>
             `;
         }).join('')
-        : `<div class="no-recipe">${
-            {
-                zh: '無調合配方',
-                jp: '調合レシピなし',
-                en: 'No Recipe'
-            }[state.ui.currentLang]
+        : `<div class="no-recipe">${{
+            zh: '無調合配方',
+            jp: '調合レシピなし',
+            en: 'No Recipe'
+        }[state.ui.currentLang]
         }</div>`;
 
     return `

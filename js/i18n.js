@@ -2,8 +2,8 @@ import { state } from './state.js';
 
 export function getCurrentLangText(data, fallback = '') {
 
-    const lang = state.ui.currentLang || 'zh';
-    return ( data?.[lang] || data?.zh || fallback );
+  const lang = state.ui.currentLang || 'zh';
+  return (data?.[lang] || data?.zh || fallback);
 }
 
 export const UI_TEXT = {
@@ -136,7 +136,7 @@ export const UI_TEXT = {
     relatedTraitCharacters: '【{0}】を持つキャラ',
     passive: 'パッシブ',
     resetConfirm: 'すべてのデータをリセットしますか？',
-    resetMemoria:'メモリア所持状態をリセット',
+    resetMemoria: 'メモリア所持状態をリセット',
     event_equip: 'イベント報酬',
     shop_equip: 'ショップ販売',
     noEffect: '効果なし',
@@ -148,18 +148,18 @@ export const UI_TEXT = {
 };
 
 export function getUIText(key, ...params) {
-    // 獲取當前語言，預設為 'zh'
-    const lang = state.ui.currentLang || 'zh';
+  // 獲取當前語言，預設為 'zh'
+  const lang = state.ui.currentLang || 'zh';
 
-    // 優先從當前語言獲取，若無則降級為 'zh'，最後若都沒找到則回傳 key 本身
-    let text = UI_TEXT?.[lang]?.[key] 
-               || UI_TEXT?.zh?.[key] 
-               || key;
+  // 優先從當前語言獲取，若無則降級為 'zh'，最後若都沒找到則回傳 key 本身
+  let text = UI_TEXT?.[lang]?.[key]
+    || UI_TEXT?.zh?.[key]
+    || key;
 
-    // 依序替換文字中的 {0}, {1}... 佔位符
-    params.forEach((value, index) => {
-        text = text.replace(`{${index}}`, value);
-    });
+  // 依序替換文字中的 {0}, {1}... 佔位符
+  params.forEach((value, index) => {
+    text = text.replace(`{${index}}`, value);
+  });
 
-    return text;
+  return text;
 }

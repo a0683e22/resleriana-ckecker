@@ -26,10 +26,10 @@ export const state = {
     // ---------------------------------
     filters: {
         characters: { attr: [], rarity: [], role: [], element: [], extra: [] },
-        memories:   { attr: [], rarity: [], role: [], element: [], extra:[] },
+        memories: { attr: [], rarity: [], role: [], element: [], extra: [] },
         equipments: { rarity: [], type: [], color: [] },
         battleitems: { rarity: [], type: [], color: [] },
-        materials: { rarity: [], color: [], type:[] }
+        materials: { rarity: [], color: [], type: [] }
     },
 
     // ---------------------------------
@@ -54,7 +54,7 @@ export const state = {
 
 // 在初始化 app 時呼叫這個函數
 export async function loadData() {
-	state.data = await fetchFullCharacterData ();
+    state.data = await fetchFullCharacterData();
 }
 
 const LOCKED_CHARACTERS = [0, 23];
@@ -69,7 +69,7 @@ export const OwnershipManager = {
     toggle: (id) => {
         // 如果是 0 或 23，直接擋掉
         if (LOCKED_CHARACTERS.includes(id)) return;
-        
+
         // 🌟 這是上次被註解掉的核心切換邏輯，現在補回來了！
         const current = OwnershipManager.getOwned();
         const index = current.indexOf(id);

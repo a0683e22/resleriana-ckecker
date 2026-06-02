@@ -28,7 +28,7 @@ function renderPopup(materials, trait, type, traitId, meta) {
     const lang = state.ui.currentLang;
     const traitLink = `<span class="popup-trait-title" data-type="${type}" data-id="${traitId}">${trait[lang]}<span class="popup-trait-description">${trait.description[lang]}</span></span>`;
     const titles = { zh: `具備特性「${traitLink}」的素材`, jp: `特性「${traitLink}」を持つ素材`, en: `Materials with "${traitLink}"` };
-    
+
     let popup = document.getElementById('material-trait-popup') || document.createElement('div');
     if (!popup.id) { popup.id = 'material-trait-popup'; document.body.appendChild(popup); }
 
@@ -45,14 +45,14 @@ function renderPopup(materials, trait, type, traitId, meta) {
                 <div class="material-popup-grid">${materials.map(i => createMaterialCard(i, meta)).join('')}</div>
             </div>
         </div>`;
-            popup.querySelectorAll('.mat-box').forEach(el => { el.classList.add('popup-material'); });
-            popup.querySelectorAll('.copy-name').forEach(el =>{el.classList.add('popup-name'); });
-            
-	const mask = popup.querySelector('.material-popup-mask');
-	const windowEl = popup.querySelector('.material-popup-window');
+    popup.querySelectorAll('.mat-box').forEach(el => { el.classList.add('popup-material'); });
+    popup.querySelectorAll('.copy-name').forEach(el => { el.classList.add('popup-name'); });
 
-	mask.addEventListener('click', () => { traitHistory = []; historyIndex = -1; popup.remove(); });
-	windowEl.addEventListener('click', e => { e.stopPropagation(); });
+    const mask = popup.querySelector('.material-popup-mask');
+    const windowEl = popup.querySelector('.material-popup-window');
+
+    mask.addEventListener('click', () => { traitHistory = []; historyIndex = -1; popup.remove(); });
+    windowEl.addEventListener('click', e => { e.stopPropagation(); });
     bindEvents();
 }
 
@@ -61,7 +61,7 @@ function bindEvents() {
     document.getElementById('trait-next')?.addEventListener('click', goForward);
     document.querySelectorAll('#material-trait-popup .clickable-trait').forEach(el => { el.addEventListener('click', () => showTraitPopup(el.dataset.type, Number(el.dataset.id))); });
     const title = document.querySelector('#material-trait-popup .popup-trait-title');
-    title?.addEventListener('click', e => { e.stopPropagation(); title.querySelector('.popup-trait-description') ?.classList.toggle('show'); });
+    title?.addEventListener('click', e => { e.stopPropagation(); title.querySelector('.popup-trait-description')?.classList.toggle('show'); });
 }
 
 function goBack() { if (historyIndex > 0) { historyIndex--; navigate(); } }

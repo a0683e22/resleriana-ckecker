@@ -8,12 +8,12 @@ export function initGlobalClickEvent() {
         // A. 處理技能連結與 Popup 觸發
         const skillLink = e.target.closest('.skill-link');
         if (skillLink) {
-    const id = skillLink.getAttribute('data-id');
-    const type = skillLink.getAttribute('data-type');
-    if (type === 'passive') { openLinkPassive(id, e); }
-    else { openSkillPreview(id, e); }
-    return;
-}
+            const id = skillLink.getAttribute('data-id');
+            const type = skillLink.getAttribute('data-type');
+            if (type === 'passive') { openLinkPassive(id, e); }
+            else { openSkillPreview(id, e); }
+            return;
+        }
 
         // B. 處理篩選按鈕
         if (e.target.closest('.filter-button')) { renderApp(); return; }
@@ -28,11 +28,11 @@ export function initGlobalClickEvent() {
     // 2. 統一 Change/Input 監聽
     document.addEventListener('change', (e) => {
 
-	const currentPage = state.ui.currentPage;
+        const currentPage = state.ui.currentPage;
 
-	if (e.target?.id === 'sort-select') {
-	    state.sorting[currentPage] = e.target.value;
-	}
+        if (e.target?.id === 'sort-select') {
+            state.sorting[currentPage] = e.target.value;
+        }
 
         switch (state.ui.currentPage) {
             case 'characters':
@@ -69,7 +69,7 @@ document.addEventListener('input', (e) => {
 // 輔助函式：將你貼給我的邏輯分類放進來
 function handleOwnershipAndActions(e) {
     // 這裡放入你第二段關於 #toggle-all, table-header, data-action 的處理邏輯
-    return true; 
+    return true;
 }
 
 function handleCardAndPopup(e) {

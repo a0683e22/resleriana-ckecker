@@ -1,5 +1,5 @@
-import { ELEMENT_FILTERS, ROLE_FILTERS} from '../constants.js';
-import { fetchFullCharacterData, getPassive, getTrait} from '../utils/dataManager.js';
+import { ELEMENT_FILTERS, ROLE_FILTERS } from '../constants.js';
+import { fetchFullCharacterData, getPassive, getTrait } from '../utils/dataManager.js';
 import { showPopup, hidePopup } from '../utils/pop.js';
 import { state, OwnershipManager } from '../state.js';
 import { UI_TEXT } from '../i18n.js';
@@ -7,10 +7,10 @@ import { UI_TEXT } from '../i18n.js';
 
 /** * 單張資訊卡 */
 function createInfoCard(character) {
-      const t = UI_TEXT[ state.ui.currentLang || 'zh'];
-      const lang = state.ui.currentLang || 'zh';
-      const elementData =
-      ELEMENT_FILTERS.find(
+    const t = UI_TEXT[state.ui.currentLang || 'zh'];
+    const lang = state.ui.currentLang || 'zh';
+    const elementData =
+        ELEMENT_FILTERS.find(
             e => e.zh === character.element
         );
 
@@ -19,8 +19,8 @@ function createInfoCard(character) {
             r => r.zh === character.role
         );
 
-const leaderSkillStr = character.leader_skill ? JSON.stringify(character.leader_skill) : '';
-const isOwned = OwnershipManager.getOwned().includes(Number(character.id));
+    const leaderSkillStr = character.leader_skill ? JSON.stringify(character.leader_skill) : '';
+    const isOwned = OwnershipManager.getOwned().includes(Number(character.id));
     const activeClass = isOwned ? 'active' : '';
     const imgClass = isOwned ? 'owned-img' : 'not-owned-img';
     return `
@@ -56,16 +56,16 @@ const isOwned = OwnershipManager.getOwned().includes(Number(character.id));
 <div class="skill-row">
 
     ${character.leader_skill
-        ? `
+            ? `
         <div class="leader-btn" data-leader='${JSON.stringify(character.leader_skill).replace(/'/g, "&#39;")}'>
     👑
 </div>
         `
-        : ''
-    }
+            : ''
+        }
 
     ${(character.passive_ids || [])
-        .map((id, index) => `
+            .map((id, index) => `
             <div
                 class="passive-chip"
                 data-passive="${id}"
@@ -76,8 +76,8 @@ const isOwned = OwnershipManager.getOwned().includes(Number(character.id));
                 }
             </div>
         `)
-        .join('')
-    }
+            .join('')
+        }
 
 </div>
 
@@ -90,28 +90,28 @@ const isOwned = OwnershipManager.getOwned().includes(Number(character.id));
 <div class="trait-row">
 
     ${(character.toolTraits || [])
-        .map(trait => {
-            // 🎯 關鍵修復：將 JSON 轉字串，並把裡面的單引號替換掉，確保 HTML 不會破圖
-            const safeTraitStr = JSON.stringify(trait).replace(/'/g, "&#39;");
-            
-            return `
+            .map(trait => {
+                // 🎯 關鍵修復：將 JSON 轉字串，並把裡面的單引號替換掉，確保 HTML 不會破圖
+                const safeTraitStr = JSON.stringify(trait).replace(/'/g, "&#39;");
+
+                return `
             <div class="trait-tag tool-trait" data-trait='${safeTraitStr}'>
                 🧪 ${trait[lang] || trait.zh || trait.jp}
             </div>
             `;
-        })
-        .join('')
-    }
+            })
+            .join('')
+        }
 
     ${character.equipTrait
-        ? `
+            ? `
         <!-- 🎯 裝備特性也一樣加上 .replace(/'/g, "&#39;") -->
         <div class="trait-tag equip-trait" data-trait='${JSON.stringify(character.equipTrait).replace(/'/g, "&#39;")}'>
             ⚔️ ${character.equipTrait[lang] || character.equipTrait.zh || character.equipTrait.jp}
         </div>
         `
-        : ''
-    }
+            : ''
+        }
 
 </div>
     </div>

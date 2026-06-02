@@ -31,7 +31,7 @@ export async function fetchFullCharacterData() {
         fetch('data/value.json').then(r => r.json()),
         fetch('data/memoria_buff_growth.json').then(r => r.json())
     ]);
-    
+
     // 2. 更新全域變數，讓 getPassive/getTrait 函式能正確運作
     abilityData = abilities;
     traitData = traitMaster;
@@ -47,7 +47,7 @@ export async function fetchFullCharacterData() {
         abilityObjs: (char.passive_ids || [])
             .map(id => abilityMap[id])
             .filter(Boolean),
-        
+
         equipTrait: char.equip ? equipTraitMap[char.equip] : null,
         toolTraits: (char.tool || [])
             .map(id => toolTraitMap[id])
@@ -56,7 +56,7 @@ export async function fetchFullCharacterData() {
 
     // 5. 綁定 meta 資料
     cachedData.meta = { abilities, battleTools, equipments, items, memoria, recipeMaster, traitMaster, translation, value, memoria_buff_growth };
-    
+
     window.translationData = translation;
     window.valueDatabase = value;
     return cachedData;
@@ -88,7 +88,7 @@ export async function getCharacterSkills(imagePath) {
 
     // 3. 使用該 ID 存取 translation.json
     const skills = translationData[character.id];
-    
+
     return skills;
 }
 

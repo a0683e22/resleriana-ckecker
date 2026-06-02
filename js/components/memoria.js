@@ -19,13 +19,13 @@ export function openMemoriaModal(memoria, growthData) {
 
     const overlay = document.createElement('div');
     overlay.className = 'memoria-overlay';
-    
+
     const modal = document.createElement('div');
     modal.className = 'memoria-modal';
 
     // 3. 設定 UI 內容
     const description = memoria.description?.zh || memoria.description?.en || memoria.description?.jp || '';
-    
+
 
     modal.innerHTML = `
     <div class="memoria-modal-top">
@@ -62,14 +62,14 @@ export function openMemoriaModal(memoria, growthData) {
     slider.addEventListener('input', e => {
         const level = Number(e.target.value);
         levelText.textContent = level;
-        updateMemoriaStats(memoria, level, modal, growthMap, currentLang );
+        updateMemoriaStats(memoria, level, modal, growthMap, currentLang);
     });
 
     overlay.appendChild(modal);
     document.body.appendChild(overlay);
 
     // 5. 初始化
-    updateMemoriaStats(memoria, 1, modal, growthMap, currentLang );
+    updateMemoriaStats(memoria, 1, modal, growthMap, currentLang);
 }
 
 const STAT_ORDER = { HP: 0, PATK: 1, PDEF: 2, SPD: 3, MATK: 4, MDEF: 5 };
@@ -77,10 +77,10 @@ const STAT_ORDER = { HP: 0, PATK: 1, PDEF: 2, SPD: 3, MATK: 4, MDEF: 5 };
 function updateMemoriaStats(memoria, level, modal, growthMap, lang = 'zh') {
     const statsContainer = modal.querySelector('#memoria-stats');
     if (!statsContainer) return;
-    
+
     const effect = modal.querySelector('#memoria-effect');
     if (effect) { effect.innerHTML = memoria.description?.[lang] || memoria.description?.zh || memoria.description?.en || memoria.description?.jp || ''; }
-    
+
     const index = Math.max(0, level - 1);
     const ORDER = ['HP', 'PATK', 'PDEF', 'SPD', 'MATK', 'MDEF'];
     const ORDER_MAP = { HP: 0, PATK: 1, PDEF: 2, SPD: 3, MATK: 4, MDEF: 5 };
@@ -117,22 +117,22 @@ function renderMemoriaRadar(memoria, growthMap, modal) {
     if (!radar) return;
 
     const MAX_LEVEL_IDX = 29; // 對應 30 等
-    const ORDER = [ 'HP', 'PATK', 'MATK', 'SPD', 'MDEF', 'PDEF' ];
+    const ORDER = ['HP', 'PATK', 'MATK', 'SPD', 'MDEF', 'PDEF'];
 
     // 1. 計算數值比例 (歸一化)
     const rawValues = ORDER.map(type => {
-    const stat = memoria.stats.find(s => s.type === type);
-    if (!stat) return 0;
+        const stat = memoria.stats.find(s => s.type === type);
+        if (!stat) return 0;
 
-    const growth = growthMap[stat.growth_id] || [];
-    return growth[MAX_LEVEL_IDX] || 0;
-});
+        const growth = growthMap[stat.growth_id] || [];
+        return growth[MAX_LEVEL_IDX] || 0;
+    });
 
-// 2. 計算當前卡片素質中的最大值 (防止除以 0，預設至少為 1)
-const maxValue = Math.max(...rawValues, 1);
+    // 2. 計算當前卡片素質中的最大值 (防止除以 0，預設至少為 1)
+    const maxValue = Math.max(...rawValues, 1);
 
-// 3. 計算比例 (將數值映射到 0~1 之間)
-const values = rawValues.map(v => v / maxValue);
+    // 3. 計算比例 (將數值映射到 0~1 之間)
+    const values = rawValues.map(v => v / maxValue);
 
     // 2. 轉換為 SVG 多邊形座標點
     const points = values.map((v, i) => {

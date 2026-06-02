@@ -1,8 +1,5 @@
-import { state }
-from '../../state.js';
-
-import { UI_TEXT }
-from '../../i18n.js';
+import { state } from '../../state.js';
+import { UI_TEXT } from '../../i18n.js';
 
 export function createFilterButton(text, value, active = false, filterType = 'element', icon = '', variant = 'default') {
   const t = UI_TEXT[state.ui.currentLang];
@@ -12,12 +9,12 @@ export function createFilterButton(text, value, active = false, filterType = 'el
 
   // 2. 處理內部內容的邏輯分離
   const getButtonContent = () => {
-     if (!icon) return text;
-     const isLargeIcon = ['equip', 'battleitem'].includes(filterType);
+    if (!icon) return text;
+    const isLargeIcon = ['equip', 'battleitem'].includes(filterType);
     const iconHtml = `<img src="${icon}" class="filter-icon ${isLargeIcon ? 'large-icon' : ''}">`;
-    
-    return filterType === 'view' 
-      ? `${iconHtml}<span>${t[text]}</span>` 
+
+    return filterType === 'view'
+      ? `${iconHtml}<span>${t[text]}</span>`
       : iconHtml;
   };
 

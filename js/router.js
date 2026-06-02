@@ -14,14 +14,14 @@ export function switchPage(page) {
 }
 
 export async function renderApp() {
-	
+
   const config = PAGE_CONFIG[state.ui.currentPage];
   renderNavbar(state.ui.currentPage, switchPage);
   renderToolbar(config.toolbar);
 
   // 渲染
   await config.render();
-  
+
   // 強制同步
   initCharacterImageInteraction();
 }

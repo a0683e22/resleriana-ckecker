@@ -1,7 +1,7 @@
 import { showPopup, hidePopup, openLinkPassive } from '../utils/pop.js';
-import { state } from '../state.js'; 
+import { state } from '../state.js';
 import { formatSkillDescription } from '../utils/renderer.js';
-import { getUIText} from '../i18n.js';
+import { getUIText } from '../i18n.js';
 
 
 // ==========================================
@@ -41,24 +41,24 @@ function getRelatedTagCharactersHTML(description) {
     if (!description || !state.data || !Array.isArray(state.data)) return '';
     const ownedIds = getOwnedCharacterIds();
     let extraHTML = '';
-    
+
     for (const [tagName, tagId] of Object.entries(TAG_ID_MAP)) {
         if (description.includes(tagName)) {
             // 💡 修正 1：確保 char.tag_ids 是陣列，才使用 .includes，避免當機
-            const matchedChars = state.data.filter(char => 
+            const matchedChars = state.data.filter(char =>
                 char && Array.isArray(char.tag_ids) && char.tag_ids.includes(tagId)
             );
-            
+
             if (matchedChars.length > 0) {
                 const charImages = matchedChars.map(c => {
                     const isOwned = ownedIds.includes(Number(c.id));
                     const filterStyle = isOwned ? '' : 'filter: grayscale(100%) brightness(0.5); opacity: 0.6;';
-                    
+
                     const charName = typeof c.name === 'string' ? c.name : (c?.name?.zh || c?.name?.jp || '未知');
-                    
+
                     // 🎯 核心修改：直接拿 base_character_id 來組裝圖片網址 (記得網頁路徑要用正斜線 /)
                     // 加上 || '' 防呆，萬一沒有 base_character_id 也不會報錯
-                    const charId = c.base_character_id || 'unknown'; 
+                    const charId = c.base_character_id || 'unknown';
                     const charImg = `images/chara/${charId}.png`;
 
                     // 備用防破圖 SVG (灰色問號方塊)
@@ -87,7 +87,7 @@ function getRelatedTagCharactersHTML(description) {
 function getRelatedTraitCharactersHTML(traitData, isEquip) {
     if (!traitData || !state.data || !Array.isArray(state.data)) return '';
     const ownedIds = getOwnedCharacterIds();
-    
+
     const matchedChars = state.data.filter(char => {
         if (!char) return false;
         if (isEquip) {
@@ -101,23 +101,23 @@ function getRelatedTraitCharactersHTML(traitData, isEquip) {
     if (matchedChars.length === 0) return '';
 
     const charImages = matchedChars.map(c => {
-                    const isOwned = ownedIds.includes(Number(c.id));
-                    const filterStyle = isOwned ? '' : 'filter: grayscale(100%) brightness(0.5); opacity: 0.6;';
-                    
-                    const charName = typeof c.name === 'string' ? c.name : (c?.name?.zh || c?.name?.jp || '未知');
-                    
-                    // 🎯 核心修改：直接拿 base_character_id 來組裝圖片網址 (記得網頁路徑要用正斜線 /)
-                    // 加上 || '' 防呆，萬一沒有 base_character_id 也不會報錯
-                    const charId = c.base_character_id || 'unknown'; 
-                    const charImg = `images/chara/${charId}.png`;
+        const isOwned = ownedIds.includes(Number(c.id));
+        const filterStyle = isOwned ? '' : 'filter: grayscale(100%) brightness(0.5); opacity: 0.6;';
 
-                    // 備用防破圖 SVG (灰色問號方塊)
-                    const fallbackImg = "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%3E%3Crect%20width%3D%2228%22%20height%3D%2228%22%20fill%3D%22%232d3748%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22white%22%20font-size%3D%2212%22%20font-family%3D%22sans-serif%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%3E%3F%3C%2Ftext%3E%3C%2Fsvg%3E";
+        const charName = typeof c.name === 'string' ? c.name : (c?.name?.zh || c?.name?.jp || '未知');
 
-                    return `<img src="${charImg}" alt="${charName}" title="${charName}" 
+        // 🎯 核心修改：直接拿 base_character_id 來組裝圖片網址 (記得網頁路徑要用正斜線 /)
+        // 加上 || '' 防呆，萬一沒有 base_character_id 也不會報錯
+        const charId = c.base_character_id || 'unknown';
+        const charImg = `images/chara/${charId}.png`;
+
+        // 備用防破圖 SVG (灰色問號方塊)
+        const fallbackImg = "data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%3E%3Crect%20width%3D%2228%22%20height%3D%2228%22%20fill%3D%22%232d3748%22%2F%3E%3Ctext%20x%3D%2250%25%22%20y%3D%2250%25%22%20fill%3D%22white%22%20font-size%3D%2212%22%20font-family%3D%22sans-serif%22%20text-anchor%3D%22middle%22%20dominant-baseline%3D%22central%22%3E%3F%3C%2Ftext%3E%3C%2Fsvg%3E";
+
+        return `<img src="${charImg}" alt="${charName}" title="${charName}" 
                                  onerror="this.onerror=null; this.src='${fallbackImg}';"
                                  style="width: 48px; height: 48px; clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); border-radius: 4px; border: 1px solid rgba(255,255,255,0.2); object-fit: cover; ${filterStyle}">`;
-                }).join('');
+    }).join('');
 
     const lang = state.ui.currentLang || 'zh';
     const traitName = traitData[lang] || traitData['jp'];
@@ -135,9 +135,9 @@ function getRelatedTraitCharactersHTML(traitData, isEquip) {
 // ==========================================
 function ensureSkillTable() {
     if (window.skillLookupTable) return; // 有了就不用管
-    
+
     // 如果沒有，現場生一個空的，防止崩潰
-    window.skillLookupTable = {}; 
+    window.skillLookupTable = {};
     console.warn("偵測到字典遺失，已自動補建一個空的。請檢查初始化邏輯！");
 }
 function findParamsInTranslation(targetId) {
@@ -149,7 +149,7 @@ function findParamsInTranslation(targetId) {
             const skill = char[key];
             // 如果 ID 對得上，且裡面有參數陣列 (假設欄位叫 params 或 values)
             if (skill && skill.skill_id == targetId && skill.params) {
-                return skill.params; 
+                return skill.params;
             }
         }
     }
@@ -163,28 +163,28 @@ export function initInteractions() {
 
         // ======== A. 判斷是否點擊到【被動技能】 ========
         const passiveChip = e.target.closest('.passive-chip');
-if (passiveChip) {
-    const abilityId = passiveChip.dataset.passive;
-    const skillValueData = window.valueDatabase?.[abilityId];
-    const abilityData = state.data?.meta?.abilities?.[abilityId];
-    if (abilityData) {
-        const chipRect = passiveChip.getBoundingClientRect();
-        const lang = state.ui.currentLang || 'zh'; 
-        const title = abilityData.name;
-        
-        // 🎯 關鍵修改處：取得原始文字並經過加工
-        const rawDescription = abilityData.description?.[lang] || abilityData.description?.['zh'] || '';
-        const skillParams = findParamsInTranslation(abilityId);
-        const skillValueData = window.valueDatabase?.[abilityId];
-	const params = skillValueData && skillValueData.effects 
-        ? skillValueData.effects.map(e => e.value / 100) 
-        : [];
-        // 【加工流水線】：把 [passive:ID] 轉成 HTML 的 <span class="skill-link">
-        const processedDescription = formatSkillDescription(rawDescription, params);
-        
-        const relatedCharsHTML = getRelatedTagCharactersHTML(rawDescription);
+        if (passiveChip) {
+            const abilityId = passiveChip.dataset.passive;
+            const skillValueData = window.valueDatabase?.[abilityId];
+            const abilityData = state.data?.meta?.abilities?.[abilityId];
+            if (abilityData) {
+                const chipRect = passiveChip.getBoundingClientRect();
+                const lang = state.ui.currentLang || 'zh';
+                const title = abilityData.name;
 
-        const popupHTML = `
+                // 🎯 關鍵修改處：取得原始文字並經過加工
+                const rawDescription = abilityData.description?.[lang] || abilityData.description?.['zh'] || '';
+                const skillParams = findParamsInTranslation(abilityId);
+                const skillValueData = window.valueDatabase?.[abilityId];
+                const params = skillValueData && skillValueData.effects
+                    ? skillValueData.effects.map(e => e.value / 100)
+                    : [];
+                // 【加工流水線】：把 [passive:ID] 轉成 HTML 的 <span class="skill-link">
+                const processedDescription = formatSkillDescription(rawDescription, params);
+
+                const relatedCharsHTML = getRelatedTagCharactersHTML(rawDescription);
+
+                const popupHTML = `
             <div style="font-weight: bold; font-size: 15px; margin-bottom: 8px; color: #f9d976; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 6px;">
                 ${title}
             </div>
@@ -192,11 +192,11 @@ if (passiveChip) {
                 ${processedDescription}  </div>
             ${relatedCharsHTML}
         `;
-        showPopup(popupHTML, chipRect.left, chipRect.bottom + 8);
-        e.stopImmediatePropagation();
-    }
-    return; 
-}
+                showPopup(popupHTML, chipRect.left, chipRect.bottom + 8);
+                e.stopImmediatePropagation();
+            }
+            return;
+        }
 
         // ======== B. 判斷是否點擊到【隊長技能皇冠】 ========
         const leaderBtn = e.target.closest('.leader-btn');
@@ -204,13 +204,13 @@ if (passiveChip) {
             try {
                 const leaderDataStr = leaderBtn.dataset.leader;
                 if (!leaderDataStr) return;
-                
+
                 const leaderData = JSON.parse(leaderDataStr);
                 const btnRect = leaderBtn.getBoundingClientRect();
-                
+
                 // 🎯 呼叫標籤輔助函式 (修正名稱)
                 const relatedCharsHTML = getRelatedTagCharactersHTML(leaderData.description);
-                
+
                 const popupHTML = `
                     <div style="font-weight: bold; font-size: 15px; margin-bottom: 8px; color: #ff9800; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 6px;">
                         👑 ${leaderData.name}
@@ -237,8 +237,8 @@ if (passiveChip) {
 
                 const traitData = JSON.parse(traitDataStr);
                 const tagRect = traitTag.getBoundingClientRect();
-                const lang = state.ui.currentLang || 'zh'; 
-                
+                const lang = state.ui.currentLang || 'zh';
+
                 const title = traitData[lang] || traitData['jp'];
                 const description = traitData.description?.[lang] || traitData.description?.['jp'] || '';
 
