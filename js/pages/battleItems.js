@@ -13,7 +13,7 @@ export function renderbattleitems() {
     let battleTools = [...meta.battleTools];
     
     const keyword = state.search.battleitems?.trim().toLowerCase();
-//
+
 if (keyword) {
     battleTools = battleTools.filter(tool =>
         tool.name.toLowerCase().includes(keyword)
