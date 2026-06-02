@@ -9388,9 +9388,9 @@
       }
     ],
     "description": {
-      "jp": "得意属性が風属性かつディフェンダーであり、攻撃を受けた時、味方全員に「クリティカルダメージ+25%」を1回行動終了するまで付与(上限2個)<br>「キルヘン・ベル」の時、バトル開始時、最大HP+20%し、HPを100%回復<br>※現在は最大突破時の数値のみ掲載しています",
-      "zh": "得意屬性為風屬性且職業為防禦者時，受到攻擊後，賦予我方全員「暴擊傷害+25.00%」直到1次行動結束為止(上限2個)<br>「基爾亨・貝爾」在戰鬥開始時最大HP+20%、HP回復100%<br>※目前僅顯示最大突破效果",
-      "en": "While equipped to a Defender with Wind affinity, when attacked, boosts all allies' critical damage by 25.00% for 1 turn (Max 2 stacks)<br>While equipped to a Kirchen Bell character, at the start of battle, increases Max HP by 20% and restores 100% HP to self<br>※Currently only maximum limit break values are available"
+      "jp": "得意属性が風属性かつディフェンダーであり、攻撃を受けた時、味方全員に「クリティカルダメージ+3.00 / 9.00 / 14.00 / 20.00 / 25.00％」を1回行動終了するまで付与(上限2個)<br>「キルヘン・ベル」の時、バトル開始時、最大HP+4.00 / 8.00 / 12.00 / 16.00 / 20.00％し、HPを100％回復",
+      "zh": "得意屬性為風屬性防禦者時，受到攻擊後，賦予我方全員「暴擊傷害+3.00 / 9.00 / 14.00 / 20.00 / 25.00%」直到1次行動結束為止(上限2個)<br>「基爾亨・貝爾」在戰鬥開始時最大HP+4.00 / 8.00 / 12.00 / 16.00 / 20.00%、HP回復100%",
+      "en": "While equipped to a Defender with Wind affinity, when attacked, boosts all allies' critical damage by 3.00 / 9.00 / 14.00 / 20.00 / 25.00% for 1 turn (Max 2 stacks)<br>While equipped to a Kirchen Bell character, at the start of battle, increases Max HP by 4.00 / 8.00 / 12.00 / 16.00 / 20.00% and restores 100% HP to self"
     },
     "roles": [3],
     "attr": [8]

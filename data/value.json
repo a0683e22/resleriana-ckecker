@@ -1,52 +1,92 @@
 ﻿{
-  "13101": {
+  "11003802": {
     "attr": 8,
-    "target_type": 3,
-    "power_type": 2,
+    "target_type": 4,
+    "power_type": 1,
     "power": 0,
     "break_power": 0,
-    "break_type": 2,
+    "break_type": 1,
     "wait": -100,
     "limit_count": null,
     "require_command": false,
     "effects": [
       {
-        "id": 91000911,
+        "id": 91000925,
+        "value": 1000
+      },
+      {
+        "id": 91002268,
+        "value": 1000
+      },
+      {
+        "id": 91002269,
         "value": 1000
       }
     ]
   },
-  "13201": {
+  "12003807": {
     "attr": 8,
-    "target_type": 3,
-    "power_type": 2,
+    "target_type": 2,
+    "power_type": 1,
     "power": 0,
     "break_power": 0,
-    "break_type": 2,
+    "break_type": 1,
     "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
       {
-        "id": 91000911,
-        "value": 1000
+        "id": 91001163,
+        "value": 1500
+      },
+      {
+        "id": 91002329,
+        "value": 3000
+      },
+      {
+        "id": 91002270,
+        "value": 5000
+      },
+      {
+        "id": 91002271,
+        "value": 5000
       }
     ]
   },
-  "13401": {
+  "14003812": {
     "attr": 8,
-    "target_type": 3,
-    "power_type": 2,
+    "target_type": 4,
+    "power_type": 1,
     "power": 0,
     "break_power": 0,
-    "break_type": 2,
+    "break_type": 1,
     "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
       {
-        "id": 91000911,
+        "id": 91001069,
+        "value": 10000
+      },
+      {
+        "id": 91002276,
+        "value": 2500
+      },
+      {
+        "id": 91000925,
+        "value": 2500
+      },
+      {
+        "id": 91002312,
         "value": 1000
+      },
+      {
+        "id": 91001967,
+        "value": 10000
+      },
+      {
+        "id": 91001372,
+        "value": 10000
       }
     ]
   },

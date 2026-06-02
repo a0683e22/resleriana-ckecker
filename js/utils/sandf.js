@@ -13,7 +13,7 @@ export function loadFilterState() {
     characters: '',
     memories: '',
     equipments: '',
-    battleItems: '',
+    battleitems: '',
     materials: ''
 };
             state.sorting = parsed.sorting || state.sorting;
@@ -94,20 +94,6 @@ export function initFilterUI() {
         saveFilterState();
         renderApp();
     });
-
-    // 事件監聽：搜尋輸入 (包含防抖動)
-    let searchTimer = null;
-    document.addEventListener('input', (e) => {
-        if (e.target?.id === 'search-input') {
-            state.search[state.ui.currentPage] = e.target.value;
-            saveFilterState();
-
-            clearTimeout(searchTimer);
-            searchTimer = setTimeout(() => {
-                renderCharacters();
-            }, 300);
-        }
-    });
 }
 
 
@@ -178,3 +164,4 @@ function getMemoriaRarity(id) {
 
     return 3; // SSR
 }
+

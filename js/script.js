@@ -1,3 +1,7 @@
+import { state } from './state.js';
+import { UI_TEXT } from './i18n.js';
+import { showRecipePopup } from './components/recipePopup.js';
+import { showToast } from './components/toolbar.js';
 
 
 const langData = {
@@ -5,6 +9,8 @@ const langData = {
     'en': { hp: 'HP', spd: 'SPD', patk: 'P. ATK', pdef: 'P. DEF', matk: 'M. ATK', mdef: 'M. DEF' },
     'jp': { hp: 'HP', spd: '素早さ', patk: '物攻', pdef: '物防', matk: '魔攻', mdef: '魔防' }
 };
+
+const t = UI_TEXT[state.ui.currentLang];
 
 document.addEventListener('DOMContentLoaded', function() {
     const tableHeaders = document.querySelectorAll('.table-header');
@@ -66,3 +72,34 @@ tableHeaders.forEach(header => {
 });
 });
 
+document.addEventListener('click', e => {
+    const matBox = e.target.closest('.mat-box');
+    if (!matBox) return;
+    if (matBox.classList.contains('popup-material')) {
+        return;
+    }
+    const materialId = Number(matBox.dataset.materialId);
+
+    showRecipePopup(materialId);
+});
+
+
+document.addEventListener('click', async (e) => {
+    const nameBox = e.target.closest('.copy-name');
+    if (!nameBox) return;
+
+    const name = nameBox.dataset.name;
+
+    try {
+        await navigator.clipboard.writeText(name);
+
+        const copiedText = { zh: `已複製 ${name}`, en: `${name} copied`,  jp: `${name}をコピーしました` };
+
+        showToast( copiedText[state.ui.currentLang] || `${name} copied` );
+
+    } catch {
+        showToast(
+            UI_TEXT[state.ui.currentLang]?.copyFail || 'Failed'
+        );
+    }
+});

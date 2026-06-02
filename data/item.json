@@ -6078,5 +6078,61 @@
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0792_S.webp",
     "equipment_tool_trait_ids": [100, 73]
+  },
+  {
+    "id": 1402,
+    "name": "アシェンプ炭",
+    "rarity": "SR",
+    "trait_color_id": 5,
+    "image": "images/ingredient/Ingredient_0793_S.webp",
+    "battle_tool_trait_ids": [50, 10]
+  },
+  {
+    "id": 1403,
+    "name": "マントルパウダー",
+    "rarity": "SSR",
+    "trait_color_id": 2,
+    "image": "images/ingredient/Ingredient_0794_S.webp",
+    "equipment_tool_trait_ids": [41, 44]
+  },
+  {
+    "id": 1404,
+    "name": "ウーロイエロ",
+    "rarity": "SR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0795_S.webp",
+    "battle_tool_trait_ids": [46, 53]
+  },
+  {
+    "id": 1405,
+    "name": "アードラのツメ",
+    "rarity": "SSR",
+    "trait_color_id": 1,
+    "image": "images/ingredient/Ingredient_0796_S.webp",
+    "equipment_tool_trait_ids": [49, 47]
+  },
+  {
+    "id": 1406,
+    "name": "魔獣の毒袋",
+    "rarity": "SSR",
+    "trait_color_id": 4,
+    "image": "images/ingredient/Ingredient_0797_S.webp",
+    "equipment_tool_trait_ids": [56, 58]
+  },
+  {
+    "id": 1407,
+    "name": "腐木の毒霧",
+    "rarity": "SSR",
+    "trait_color_id": 4,
+    "image": "images/ingredient/Ingredient_0798_S.webp",
+    "equipment_tool_trait_ids": [56, 58]
+  },
+  {
+    "id": 1408,
+    "name": "邪悪な骨",
+    "rarity": "SSR",
+    "trait_color_id": 4,
+    "image": "images/ingredient/Ingredient_0799_S.webp",
+    "equipment_tool_trait_ids": [56, 58]
   }
 ]

@@ -13,7 +13,6 @@ export async function fetchFullCharacterData() {
         equipments,
         items,
         memoria,
-        patchNotes,
         recipeMaster,
         traitMaster,
         translation,
@@ -26,7 +25,6 @@ export async function fetchFullCharacterData() {
         fetch('data/equipment.json').then(r => r.json()),
         fetch('data/item.json').then(r => r.json()),
         fetch('data/memoria_master.json').then(r => r.json()),
-        fetch('data/patch_notes.json').then(r => r.json()),
         fetch('data/recipe_master.json').then(r => r.json()),
         fetch('data/trait_master.json').then(r => r.json()),
         fetch('data/translation.json').then(r => r.json()),
@@ -57,7 +55,7 @@ export async function fetchFullCharacterData() {
     }));
 
     // 5. 綁定 meta 資料
-    cachedData.meta = { abilities, battleTools, equipments, items, memoria, patchNotes, recipeMaster, translation, value, memoria_buff_growth };
+    cachedData.meta = { abilities, battleTools, equipments, items, memoria, recipeMaster, traitMaster, translation, value, memoria_buff_growth };
     
     window.translationData = translation;
     window.valueDatabase = value;

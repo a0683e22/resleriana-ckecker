@@ -7,7 +7,7 @@
     "image": "images/equip/equipment_tool_0001_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       }
     ],
@@ -21,7 +21,7 @@
     "image": "images/equip/equipment_tool_0002_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       }
     ],
@@ -35,7 +35,7 @@
     "image": "images/equip/equipment_tool_0003_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       }
     ],
@@ -49,7 +49,7 @@
     "image": "images/equip/equipment_tool_0004_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -63,7 +63,7 @@
     "image": "images/equip/equipment_tool_0005_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -77,7 +77,7 @@
     "image": "images/equip/equipment_tool_0006_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -91,11 +91,11 @@
     "image": "images/equip/equipment_tool_0007_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 10
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 10
       }
     ],
@@ -109,11 +109,11 @@
     "image": "images/equip/equipment_tool_0008_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 10
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 10
       }
     ],
@@ -127,11 +127,11 @@
     "image": "images/equip/equipment_tool_0009_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -145,7 +145,7 @@
     "image": "images/equip/equipment_tool_0010_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       }
     ],
@@ -159,7 +159,7 @@
     "image": "images/equip/equipment_tool_0011_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       }
     ],
@@ -173,7 +173,7 @@
     "image": "images/equip/equipment_tool_0012_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       }
     ],
@@ -187,7 +187,7 @@
     "image": "images/equip/equipment_tool_0013_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -201,7 +201,7 @@
     "image": "images/equip/equipment_tool_0014_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -215,7 +215,7 @@
     "image": "images/equip/equipment_tool_0015_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -229,11 +229,11 @@
     "image": "images/equip/equipment_tool_0016_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 25
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -247,11 +247,11 @@
     "image": "images/equip/equipment_tool_0017_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 25
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -265,11 +265,11 @@
     "image": "images/equip/equipment_tool_0018_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 75
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -283,11 +283,11 @@
     "image": "images/equip/equipment_tool_0019_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 25
       }
     ],
@@ -301,11 +301,11 @@
     "image": "images/equip/equipment_tool_0020_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 25
       },
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       }
     ],
@@ -319,11 +319,11 @@
     "image": "images/equip/equipment_tool_0021_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 6
       }
     ],
@@ -337,7 +337,7 @@
     "image": "images/equip/equipment_tool_0024_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -351,7 +351,7 @@
     "image": "images/equip/equipment_tool_0022_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -365,7 +365,7 @@
     "image": "images/equip/equipment_tool_0023_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -379,7 +379,7 @@
     "image": "images/equip/equipment_tool_0027_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -393,7 +393,7 @@
     "image": "images/equip/equipment_tool_0025_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -407,7 +407,7 @@
     "image": "images/equip/equipment_tool_0026_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -421,11 +421,11 @@
     "image": "images/equip/equipment_tool_0030_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -439,7 +439,7 @@
     "image": "images/equip/equipment_tool_0028_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -453,11 +453,11 @@
     "image": "images/equip/equipment_tool_0029_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -471,11 +471,11 @@
     "image": "images/equip/equipment_tool_0033_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -489,11 +489,11 @@
     "image": "images/equip/equipment_tool_0031_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -507,11 +507,11 @@
     "image": "images/equip/equipment_tool_0032_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -525,11 +525,11 @@
     "image": "images/equip/equipment_tool_0036_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -543,11 +543,11 @@
     "image": "images/equip/equipment_tool_0034_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -561,11 +561,11 @@
     "image": "images/equip/equipment_tool_0035_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -579,11 +579,11 @@
     "image": "images/equip/equipment_tool_0039_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -597,11 +597,11 @@
     "image": "images/equip/equipment_tool_0037_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -615,11 +615,11 @@
     "image": "images/equip/equipment_tool_0038_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -633,11 +633,11 @@
     "image": "images/equip/equipment_tool_0042_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -651,11 +651,11 @@
     "image": "images/equip/equipment_tool_0040_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -669,7 +669,7 @@
     "image": "images/equip/equipment_tool_0041_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -683,11 +683,11 @@
     "image": "images/equip/equipment_tool_0049_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -701,11 +701,11 @@
     "image": "images/equip/equipment_tool_0050_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -719,11 +719,11 @@
     "image": "images/equip/equipment_tool_0051_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -737,11 +737,11 @@
     "image": "images/equip/equipment_tool_0052_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -755,11 +755,11 @@
     "image": "images/equip/equipment_tool_0053_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -773,11 +773,11 @@
     "image": "images/equip/equipment_tool_0054_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -791,11 +791,11 @@
     "image": "images/equip/equipment_tool_0055_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -809,11 +809,11 @@
     "image": "images/equip/equipment_tool_0043_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -827,11 +827,11 @@
     "image": "images/equip/equipment_tool_0044_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -845,7 +845,7 @@
     "image": "images/equip/equipment_tool_0045_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -859,11 +859,11 @@
     "image": "images/equip/equipment_tool_0046_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -877,11 +877,11 @@
     "image": "images/equip/equipment_tool_0047_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -895,7 +895,7 @@
     "image": "images/equip/equipment_tool_0048_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -909,11 +909,11 @@
     "image": "images/equip/equipment_tool_0056_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -927,11 +927,11 @@
     "image": "images/equip/equipment_tool_0057_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -945,11 +945,11 @@
     "image": "images/equip/equipment_tool_0058_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -963,11 +963,11 @@
     "image": "images/equip/equipment_tool_0059_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -981,11 +981,11 @@
     "image": "images/equip/equipment_tool_0060_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -999,7 +999,7 @@
     "image": "images/equip/equipment_tool_0062_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -1013,7 +1013,7 @@
     "image": "images/equip/equipment_tool_0063_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -1027,7 +1027,7 @@
     "image": "images/equip/equipment_tool_0064_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -1041,7 +1041,7 @@
     "image": "images/equip/equipment_tool_0065_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -1055,7 +1055,7 @@
     "image": "images/equip/equipment_tool_0066_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -1069,7 +1069,7 @@
     "image": "images/equip/equipment_tool_0067_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -1083,11 +1083,11 @@
     "image": "images/equip/equipment_tool_0068_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -1101,11 +1101,11 @@
     "image": "images/equip/equipment_tool_0069_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -1119,11 +1119,11 @@
     "image": "images/equip/equipment_tool_0070_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -1137,11 +1137,11 @@
     "image": "images/equip/equipment_tool_0071_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1155,11 +1155,11 @@
     "image": "images/equip/equipment_tool_0072_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1173,11 +1173,11 @@
     "image": "images/equip/equipment_tool_0073_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1191,11 +1191,11 @@
     "image": "images/equip/equipment_tool_0074_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1209,7 +1209,7 @@
     "image": "images/equip/equipment_tool_0075_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -1223,7 +1223,7 @@
     "image": "images/equip/equipment_tool_0076_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -1237,11 +1237,11 @@
     "image": "images/equip/equipment_tool_0077_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1255,11 +1255,11 @@
     "image": "images/equip/equipment_tool_0078_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1273,11 +1273,11 @@
     "image": "images/equip/equipment_tool_0079_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1291,11 +1291,11 @@
     "image": "images/equip/equipment_tool_0080_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1309,7 +1309,7 @@
     "image": "images/equip/equipment_tool_0081_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -1323,7 +1323,7 @@
     "image": "images/equip/equipment_tool_0084_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -1337,7 +1337,7 @@
     "image": "images/equip/equipment_tool_0092_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -1351,11 +1351,11 @@
     "image": "images/equip/equipment_tool_0093_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -1369,11 +1369,11 @@
     "image": "images/equip/equipment_tool_0089_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1387,11 +1387,11 @@
     "image": "images/equip/equipment_tool_0088_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1405,7 +1405,7 @@
     "image": "images/equip/equipment_tool_0086_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -1419,7 +1419,7 @@
     "image": "images/equip/equipment_tool_0090_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -1433,11 +1433,11 @@
     "image": "images/equip/equipment_tool_0082_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -1451,11 +1451,11 @@
     "image": "images/equip/equipment_tool_0083_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -1469,11 +1469,11 @@
     "image": "images/equip/equipment_tool_0085_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1487,11 +1487,11 @@
     "image": "images/equip/equipment_tool_0087_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1505,11 +1505,11 @@
     "image": "images/equip/equipment_tool_0091_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1523,11 +1523,11 @@
     "image": "images/equip/equipment_tool_0094_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -1541,11 +1541,11 @@
     "image": "images/equip/equipment_tool_0095_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -1559,11 +1559,11 @@
     "image": "images/equip/equipment_tool_0101_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -1577,11 +1577,11 @@
     "image": "images/equip/equipment_tool_0098_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -1595,11 +1595,11 @@
     "image": "images/equip/equipment_tool_0100_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1613,11 +1613,11 @@
     "image": "images/equip/equipment_tool_0097_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1631,11 +1631,11 @@
     "image": "images/equip/equipment_tool_0099_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -1649,11 +1649,11 @@
     "image": "images/equip/equipment_tool_0096_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -1667,11 +1667,11 @@
     "image": "images/equip/equipment_tool_0104_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -1685,7 +1685,7 @@
     "image": "images/equip/equipment_tool_0107_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -1699,11 +1699,11 @@
     "image": "images/equip/equipment_tool_0103_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1717,11 +1717,11 @@
     "image": "images/equip/equipment_tool_0106_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1735,11 +1735,11 @@
     "image": "images/equip/equipment_tool_0102_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -1753,11 +1753,11 @@
     "image": "images/equip/equipment_tool_0105_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -1771,11 +1771,11 @@
     "image": "images/equip/equipment_tool_0110_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -1789,11 +1789,11 @@
     "image": "images/equip/equipment_tool_0113_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -1807,11 +1807,11 @@
     "image": "images/equip/equipment_tool_0109_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1825,11 +1825,11 @@
     "image": "images/equip/equipment_tool_0112_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1843,11 +1843,11 @@
     "image": "images/equip/equipment_tool_0108_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -1861,11 +1861,11 @@
     "image": "images/equip/equipment_tool_0111_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -1879,11 +1879,11 @@
     "image": "images/equip/equipment_tool_0114_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -1897,7 +1897,7 @@
     "image": "images/equip/equipment_tool_0115_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -1911,7 +1911,7 @@
     "image": "images/equip/equipment_tool_0116_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -1925,7 +1925,7 @@
     "image": "images/equip/equipment_tool_0117_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -1939,11 +1939,11 @@
     "image": "images/equip/equipment_tool_0118_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -1957,11 +1957,11 @@
     "image": "images/equip/equipment_tool_0119_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -1975,7 +1975,7 @@
     "image": "images/equip/equipment_tool_0120_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -1989,7 +1989,7 @@
     "image": "images/equip/equipment_tool_0121_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -2003,7 +2003,7 @@
     "image": "images/equip/equipment_tool_0122_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -2017,11 +2017,11 @@
     "image": "images/equip/equipment_tool_0123_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -2035,7 +2035,7 @@
     "image": "images/equip/equipment_tool_0124_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -2049,7 +2049,7 @@
     "image": "images/equip/equipment_tool_0125_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -2063,11 +2063,11 @@
     "image": "images/equip/equipment_tool_0126_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -2081,11 +2081,11 @@
     "image": "images/equip/equipment_tool_0127_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -2099,7 +2099,7 @@
     "image": "images/equip/equipment_tool_0128_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -2113,11 +2113,11 @@
     "image": "images/equip/equipment_tool_0129_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -2131,11 +2131,11 @@
     "image": "images/equip/equipment_tool_0130_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -2149,11 +2149,11 @@
     "image": "images/equip/equipment_tool_0131_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -2167,11 +2167,11 @@
     "image": "images/equip/equipment_tool_0132_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -2185,11 +2185,11 @@
     "image": "images/equip/equipment_tool_0133_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -2203,11 +2203,11 @@
     "image": "images/equip/equipment_tool_0134_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -2221,7 +2221,7 @@
     "image": "images/equip/equipment_tool_0150_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -2235,11 +2235,11 @@
     "image": "images/equip/equipment_tool_0153_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -2253,11 +2253,11 @@
     "image": "images/equip/equipment_tool_0151_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -2271,11 +2271,11 @@
     "image": "images/equip/equipment_tool_0152_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -2289,11 +2289,11 @@
     "image": "images/equip/equipment_tool_0154_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -2307,11 +2307,11 @@
     "image": "images/equip/equipment_tool_0155_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -2325,11 +2325,11 @@
     "image": "images/equip/equipment_tool_0164_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 25
       }
     ],
@@ -2343,7 +2343,7 @@
     "image": "images/equip/equipment_tool_0168_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -2357,11 +2357,11 @@
     "image": "images/equip/equipment_tool_0165_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -2375,7 +2375,7 @@
     "image": "images/equip/equipment_tool_0135_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -2389,11 +2389,11 @@
     "image": "images/equip/equipment_tool_0136_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -2407,11 +2407,11 @@
     "image": "images/equip/equipment_tool_0137_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -2425,11 +2425,11 @@
     "image": "images/equip/equipment_tool_0138_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -2443,7 +2443,7 @@
     "image": "images/equip/equipment_tool_0139_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -2457,7 +2457,7 @@
     "image": "images/equip/equipment_tool_0140_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -2471,7 +2471,7 @@
     "image": "images/equip/equipment_tool_0141_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -2485,11 +2485,11 @@
     "image": "images/equip/equipment_tool_0142_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -2503,11 +2503,11 @@
     "image": "images/equip/equipment_tool_0143_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -2521,11 +2521,11 @@
     "image": "images/equip/equipment_tool_0144_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -2539,7 +2539,7 @@
     "image": "images/equip/equipment_tool_0145_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -2553,11 +2553,11 @@
     "image": "images/equip/equipment_tool_0146_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -2571,11 +2571,11 @@
     "image": "images/equip/equipment_tool_0147_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -2589,11 +2589,11 @@
     "image": "images/equip/equipment_tool_0148_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -2607,7 +2607,7 @@
     "image": "images/equip/equipment_tool_0149_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -2621,11 +2621,11 @@
     "image": "images/equip/equipment_tool_0166_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 25
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -2639,11 +2639,11 @@
     "image": "images/equip/equipment_tool_0163_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -2657,7 +2657,7 @@
     "image": "images/equip/equipment_tool_0169_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -2671,7 +2671,7 @@
     "image": "images/equip/equipment_tool_0177_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -2685,7 +2685,7 @@
     "image": "images/equip/equipment_tool_0178_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -2699,7 +2699,7 @@
     "image": "images/equip/equipment_tool_0179_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -2713,7 +2713,7 @@
     "image": "images/equip/equipment_tool_0180_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -2727,7 +2727,7 @@
     "image": "images/equip/equipment_tool_0181_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -2741,7 +2741,7 @@
     "image": "images/equip/equipment_tool_0182_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -2755,7 +2755,7 @@
     "image": "images/equip/equipment_tool_0183_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -2769,7 +2769,7 @@
     "image": "images/equip/equipment_tool_0184_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -2783,7 +2783,7 @@
     "image": "images/equip/equipment_tool_0185_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -2797,7 +2797,7 @@
     "image": "images/equip/equipment_tool_0186_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -2811,7 +2811,7 @@
     "image": "images/equip/equipment_tool_0187_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -2825,7 +2825,7 @@
     "image": "images/equip/equipment_tool_0188_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -2839,7 +2839,7 @@
     "image": "images/equip/equipment_tool_0189_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -2853,7 +2853,7 @@
     "image": "images/equip/equipment_tool_0190_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -2867,7 +2867,7 @@
     "image": "images/equip/equipment_tool_0191_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -2881,7 +2881,7 @@
     "image": "images/equip/equipment_tool_0197_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -2895,7 +2895,7 @@
     "image": "images/equip/equipment_tool_0193_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -2909,7 +2909,7 @@
     "image": "images/equip/equipment_tool_0194_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -2923,7 +2923,7 @@
     "image": "images/equip/equipment_tool_0195_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -2937,7 +2937,7 @@
     "image": "images/equip/equipment_tool_0196_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -2951,7 +2951,7 @@
     "image": "images/equip/equipment_tool_0192_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -2965,11 +2965,11 @@
     "image": "images/equip/equipment_tool_0198_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -2983,11 +2983,11 @@
     "image": "images/equip/equipment_tool_0199_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3001,11 +3001,11 @@
     "image": "images/equip/equipment_tool_0200_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3019,11 +3019,11 @@
     "image": "images/equip/equipment_tool_0201_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3037,11 +3037,11 @@
     "image": "images/equip/equipment_tool_0202_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3055,11 +3055,11 @@
     "image": "images/equip/equipment_tool_0203_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3073,11 +3073,11 @@
     "image": "images/equip/equipment_tool_0204_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3091,7 +3091,7 @@
     "image": "images/equip/equipment_tool_0205_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -3105,7 +3105,7 @@
     "image": "images/equip/equipment_tool_0206_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -3119,7 +3119,7 @@
     "image": "images/equip/equipment_tool_0207_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -3133,7 +3133,7 @@
     "image": "images/equip/equipment_tool_0208_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -3147,7 +3147,7 @@
     "image": "images/equip/equipment_tool_0209_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -3161,7 +3161,7 @@
     "image": "images/equip/equipment_tool_0210_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -3175,7 +3175,7 @@
     "image": "images/equip/equipment_tool_0211_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -3189,7 +3189,7 @@
     "image": "images/equip/equipment_tool_0212_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -3203,7 +3203,7 @@
     "image": "images/equip/equipment_tool_0213_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -3217,7 +3217,7 @@
     "image": "images/equip/equipment_tool_0214_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -3231,7 +3231,7 @@
     "image": "images/equip/equipment_tool_0215_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -3245,7 +3245,7 @@
     "image": "images/equip/equipment_tool_0216_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -3259,7 +3259,7 @@
     "image": "images/equip/equipment_tool_0217_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -3273,7 +3273,7 @@
     "image": "images/equip/equipment_tool_0218_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -3287,7 +3287,7 @@
     "image": "images/equip/equipment_tool_0156_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -3301,11 +3301,11 @@
     "image": "images/equip/equipment_tool_0157_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -3319,11 +3319,11 @@
     "image": "images/equip/equipment_tool_0158_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -3337,11 +3337,11 @@
     "image": "images/equip/equipment_tool_0159_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -3355,11 +3355,11 @@
     "image": "images/equip/equipment_tool_0160_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -3373,11 +3373,11 @@
     "image": "images/equip/equipment_tool_0161_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -3391,7 +3391,7 @@
     "image": "images/equip/equipment_tool_0162_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -3405,7 +3405,7 @@
     "image": "images/equip/equipment_tool_0170_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -3419,7 +3419,7 @@
     "image": "images/equip/equipment_tool_0167_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -3433,7 +3433,7 @@
     "image": "images/equip/equipment_tool_0171_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -3447,7 +3447,7 @@
     "image": "images/equip/equipment_tool_0172_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -3461,7 +3461,7 @@
     "image": "images/equip/equipment_tool_0173_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -3475,11 +3475,11 @@
     "image": "images/equip/equipment_tool_0174_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -3493,11 +3493,11 @@
     "image": "images/equip/equipment_tool_0175_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -3511,11 +3511,11 @@
     "image": "images/equip/equipment_tool_0176_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3529,7 +3529,7 @@
     "image": "images/equip/equipment_tool_0219_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -3543,7 +3543,7 @@
     "image": "images/equip/equipment_tool_0220_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -3557,11 +3557,11 @@
     "image": "images/equip/equipment_tool_0221_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3575,11 +3575,11 @@
     "image": "images/equip/equipment_tool_0222_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -3593,11 +3593,11 @@
     "image": "images/equip/equipment_tool_0223_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -3611,7 +3611,7 @@
     "image": "images/equip/equipment_tool_0224_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -3625,7 +3625,7 @@
     "image": "images/equip/equipment_tool_0225_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -3639,11 +3639,11 @@
     "image": "images/equip/equipment_tool_0226_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -3657,11 +3657,11 @@
     "image": "images/equip/equipment_tool_0227_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -3675,11 +3675,11 @@
     "image": "images/equip/equipment_tool_0228_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -3693,7 +3693,7 @@
     "image": "images/equip/equipment_tool_0229_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -3707,7 +3707,7 @@
     "image": "images/equip/equipment_tool_0230_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -3721,7 +3721,7 @@
     "image": "images/equip/equipment_tool_0231_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -3735,11 +3735,11 @@
     "image": "images/equip/equipment_tool_0232_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -3753,11 +3753,11 @@
     "image": "images/equip/equipment_tool_0233_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3771,7 +3771,7 @@
     "image": "images/equip/equipment_tool_0234_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -3785,11 +3785,11 @@
     "image": "images/equip/equipment_tool_0235_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -3803,7 +3803,7 @@
     "image": "images/equip/equipment_tool_0236_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -3817,7 +3817,7 @@
     "image": "images/equip/equipment_tool_0237_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -3831,11 +3831,11 @@
     "image": "images/equip/equipment_tool_0238_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -3849,11 +3849,11 @@
     "image": "images/equip/equipment_tool_0239_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3867,7 +3867,7 @@
     "image": "images/equip/equipment_tool_0246_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -3881,7 +3881,7 @@
     "image": "images/equip/equipment_tool_0247_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -3895,11 +3895,11 @@
     "image": "images/equip/equipment_tool_0248_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -3913,11 +3913,11 @@
     "image": "images/equip/equipment_tool_0249_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -3931,7 +3931,7 @@
     "image": "images/equip/equipment_tool_0250_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -3945,11 +3945,11 @@
     "image": "images/equip/equipment_tool_0251_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -3963,7 +3963,7 @@
     "image": "images/equip/equipment_tool_0252_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -3977,11 +3977,11 @@
     "image": "images/equip/equipment_tool_0253_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -3995,7 +3995,7 @@
     "image": "images/equip/equipment_tool_0254_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -4009,11 +4009,11 @@
     "image": "images/equip/equipment_tool_0255_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -4027,11 +4027,11 @@
     "image": "images/equip/equipment_tool_0256_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -4045,7 +4045,7 @@
     "image": "images/equip/equipment_tool_0257_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       }
     ],
@@ -4059,11 +4059,11 @@
     "image": "images/equip/equipment_tool_0258_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -4077,11 +4077,11 @@
     "image": "images/equip/equipment_tool_0259_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4095,11 +4095,11 @@
     "image": "images/equip/equipment_tool_0260_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -4113,7 +4113,7 @@
     "image": "images/equip/equipment_tool_0240_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       }
     ],
@@ -4127,11 +4127,11 @@
     "image": "images/equip/equipment_tool_0241_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4145,7 +4145,7 @@
     "image": "images/equip/equipment_tool_0242_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -4159,11 +4159,11 @@
     "image": "images/equip/equipment_tool_0243_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 20
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -4177,11 +4177,11 @@
     "image": "images/equip/equipment_tool_0244_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -4195,11 +4195,11 @@
     "image": "images/equip/equipment_tool_0245_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -4213,11 +4213,11 @@
     "image": "images/equip/equipment_tool_0261_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 20
       }
     ],
@@ -4231,11 +4231,11 @@
     "image": "images/equip/equipment_tool_0262_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 20
       }
     ],
@@ -4249,11 +4249,11 @@
     "image": "images/equip/equipment_tool_0263_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -4267,7 +4267,7 @@
     "image": "images/equip/equipment_tool_0264_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -4281,11 +4281,11 @@
     "image": "images/equip/equipment_tool_0265_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 20
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4299,7 +4299,7 @@
     "image": "images/equip/equipment_tool_0266_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -4313,7 +4313,7 @@
     "image": "images/equip/equipment_tool_0267_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -4327,11 +4327,11 @@
     "image": "images/equip/equipment_tool_0268_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4345,7 +4345,7 @@
     "image": "images/equip/equipment_tool_0269_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -4359,11 +4359,11 @@
     "image": "images/equip/equipment_tool_0282_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -4377,11 +4377,11 @@
     "image": "images/equip/equipment_tool_0283_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4395,7 +4395,7 @@
     "image": "images/equip/equipment_tool_0284_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -4409,7 +4409,7 @@
     "image": "images/equip/equipment_tool_0273_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -4423,7 +4423,7 @@
     "image": "images/equip/equipment_tool_0274_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -4437,11 +4437,11 @@
     "image": "images/equip/equipment_tool_0275_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -4455,7 +4455,7 @@
     "image": "images/equip/equipment_tool_0276_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -4469,7 +4469,7 @@
     "image": "images/equip/equipment_tool_0277_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -4483,11 +4483,11 @@
     "image": "images/equip/equipment_tool_0278_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4501,7 +4501,7 @@
     "image": "images/equip/equipment_tool_0279_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -4515,7 +4515,7 @@
     "image": "images/equip/equipment_tool_0280_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -4529,11 +4529,11 @@
     "image": "images/equip/equipment_tool_0281_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -4547,11 +4547,11 @@
     "image": "images/equip/equipment_tool_0270_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -4565,11 +4565,11 @@
     "image": "images/equip/equipment_tool_0271_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4583,7 +4583,7 @@
     "image": "images/equip/equipment_tool_0272_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -4597,7 +4597,7 @@
     "image": "images/equip/equipment_tool_0285_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -4611,11 +4611,11 @@
     "image": "images/equip/equipment_tool_0286_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -4629,11 +4629,11 @@
     "image": "images/equip/equipment_tool_0287_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -4647,11 +4647,11 @@
     "image": "images/equip/equipment_tool_0288_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -4665,11 +4665,11 @@
     "image": "images/equip/equipment_tool_0289_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -4683,11 +4683,11 @@
     "image": "images/equip/equipment_tool_0290_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -4701,7 +4701,7 @@
     "image": "images/equip/equipment_tool_0291_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -4715,7 +4715,7 @@
     "image": "images/equip/equipment_tool_0292_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -4729,7 +4729,7 @@
     "image": "images/equip/equipment_tool_0293_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -4743,11 +4743,11 @@
     "image": "images/equip/equipment_tool_0294_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -4761,11 +4761,11 @@
     "image": "images/equip/equipment_tool_0295_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4779,11 +4779,11 @@
     "image": "images/equip/equipment_tool_0296_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -4797,11 +4797,11 @@
     "image": "images/equip/equipment_tool_0297_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -4815,11 +4815,11 @@
     "image": "images/equip/equipment_tool_0298_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4833,11 +4833,11 @@
     "image": "images/equip/equipment_tool_0299_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -4851,11 +4851,11 @@
     "image": "images/equip/equipment_tool_0300_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -4869,11 +4869,11 @@
     "image": "images/equip/equipment_tool_0301_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -4887,11 +4887,11 @@
     "image": "images/equip/equipment_tool_0302_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -4905,11 +4905,11 @@
     "image": "images/equip/equipment_tool_0303_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -4923,11 +4923,11 @@
     "image": "images/equip/equipment_tool_0312_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -4941,11 +4941,11 @@
     "image": "images/equip/equipment_tool_0321_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -4959,7 +4959,7 @@
     "image": "images/equip/equipment_tool_0306_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -4973,7 +4973,7 @@
     "image": "images/equip/equipment_tool_0307_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -4987,7 +4987,7 @@
     "image": "images/equip/equipment_tool_0308_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -5001,7 +5001,7 @@
     "image": "images/equip/equipment_tool_0309_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -5015,7 +5015,7 @@
     "image": "images/equip/equipment_tool_0310_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -5029,7 +5029,7 @@
     "image": "images/equip/equipment_tool_0311_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5043,11 +5043,11 @@
     "image": "images/equip/equipment_tool_0304_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -5061,11 +5061,11 @@
     "image": "images/equip/equipment_tool_0313_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -5079,11 +5079,11 @@
     "image": "images/equip/equipment_tool_0322_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -5097,11 +5097,11 @@
     "image": "images/equip/equipment_tool_0315_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -5115,11 +5115,11 @@
     "image": "images/equip/equipment_tool_0316_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -5133,7 +5133,7 @@
     "image": "images/equip/equipment_tool_0317_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5147,7 +5147,7 @@
     "image": "images/equip/equipment_tool_0318_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -5161,11 +5161,11 @@
     "image": "images/equip/equipment_tool_0319_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -5179,11 +5179,11 @@
     "image": "images/equip/equipment_tool_0320_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -5197,11 +5197,11 @@
     "image": "images/equip/equipment_tool_0305_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -5215,11 +5215,11 @@
     "image": "images/equip/equipment_tool_0314_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -5233,11 +5233,11 @@
     "image": "images/equip/equipment_tool_0323_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -5251,11 +5251,11 @@
     "image": "images/equip/equipment_tool_0324_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -5269,11 +5269,11 @@
     "image": "images/equip/equipment_tool_0325_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -5287,11 +5287,11 @@
     "image": "images/equip/equipment_tool_0326_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -5305,11 +5305,11 @@
     "image": "images/equip/equipment_tool_0327_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -5323,11 +5323,11 @@
     "image": "images/equip/equipment_tool_0328_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -5341,11 +5341,11 @@
     "image": "images/equip/equipment_tool_0329_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -5359,7 +5359,7 @@
     "image": "images/equip/equipment_tool_0330_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -5373,7 +5373,7 @@
     "image": "images/equip/equipment_tool_0331_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -5387,7 +5387,7 @@
     "image": "images/equip/equipment_tool_0332_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5401,7 +5401,7 @@
     "image": "images/equip/equipment_tool_0333_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -5415,7 +5415,7 @@
     "image": "images/equip/equipment_tool_0334_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -5429,7 +5429,7 @@
     "image": "images/equip/equipment_tool_0335_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5443,7 +5443,7 @@
     "image": "images/equip/equipment_tool_0336_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -5457,7 +5457,7 @@
     "image": "images/equip/equipment_tool_0337_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -5471,7 +5471,7 @@
     "image": "images/equip/equipment_tool_0338_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5485,7 +5485,7 @@
     "image": "images/equip/equipment_tool_0339_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -5499,7 +5499,7 @@
     "image": "images/equip/equipment_tool_0340_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -5513,7 +5513,7 @@
     "image": "images/equip/equipment_tool_0341_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5527,7 +5527,7 @@
     "image": "images/equip/equipment_tool_0342_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -5541,7 +5541,7 @@
     "image": "images/equip/equipment_tool_0343_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -5555,7 +5555,7 @@
     "image": "images/equip/equipment_tool_0344_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5569,7 +5569,7 @@
     "image": "images/equip/equipment_tool_0345_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -5583,7 +5583,7 @@
     "image": "images/equip/equipment_tool_0346_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -5597,7 +5597,7 @@
     "image": "images/equip/equipment_tool_0347_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5611,7 +5611,7 @@
     "image": "images/equip/equipment_tool_0348_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -5625,7 +5625,7 @@
     "image": "images/equip/equipment_tool_0349_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -5639,7 +5639,7 @@
     "image": "images/equip/equipment_tool_0350_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5653,7 +5653,7 @@
     "image": "images/equip/equipment_tool_0351_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -5667,11 +5667,11 @@
     "image": "images/equip/equipment_tool_0352_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -5685,7 +5685,7 @@
     "image": "images/equip/equipment_tool_0353_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -5699,7 +5699,7 @@
     "image": "images/equip/equipment_tool_0354_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -5713,11 +5713,11 @@
     "image": "images/equip/equipment_tool_0355_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -5731,11 +5731,11 @@
     "image": "images/equip/equipment_tool_0356_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -5749,11 +5749,11 @@
     "image": "images/equip/equipment_tool_0357_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -5767,11 +5767,11 @@
     "image": "images/equip/equipment_tool_0358_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -5785,7 +5785,7 @@
     "image": "images/equip/equipment_tool_0359_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 5
       }
     ],
@@ -5799,7 +5799,7 @@
     "image": "images/equip/equipment_tool_0360_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -5813,7 +5813,7 @@
     "image": "images/equip/equipment_tool_0361_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -5827,7 +5827,7 @@
     "image": "images/equip/equipment_tool_0362_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -5841,7 +5841,7 @@
     "image": "images/equip/equipment_tool_0363_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -5855,11 +5855,11 @@
     "image": "images/equip/equipment_tool_0364_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -5873,11 +5873,11 @@
     "image": "images/equip/equipment_tool_0365_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -5891,7 +5891,7 @@
     "image": "images/equip/equipment_tool_0366_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -5905,11 +5905,11 @@
     "image": "images/equip/equipment_tool_0367_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -5923,11 +5923,11 @@
     "image": "images/equip/equipment_tool_0368_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -5941,11 +5941,11 @@
     "image": "images/equip/equipment_tool_0369_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -5959,11 +5959,11 @@
     "image": "images/equip/equipment_tool_0370_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -5977,11 +5977,11 @@
     "image": "images/equip/equipment_tool_0371_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -5995,11 +5995,11 @@
     "image": "images/equip/equipment_tool_0372_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -6013,11 +6013,11 @@
     "image": "images/equip/equipment_tool_0373_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6031,7 +6031,7 @@
     "image": "images/equip/equipment_tool_0374_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -6045,7 +6045,7 @@
     "image": "images/equip/equipment_tool_0375_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -6059,11 +6059,11 @@
     "image": "images/equip/equipment_tool_0376_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -6077,11 +6077,11 @@
     "image": "images/equip/equipment_tool_0377_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -6095,11 +6095,11 @@
     "image": "images/equip/equipment_tool_0378_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -6113,11 +6113,11 @@
     "image": "images/equip/equipment_tool_0379_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6131,11 +6131,11 @@
     "image": "images/equip/equipment_tool_0380_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -6149,7 +6149,7 @@
     "image": "images/equip/equipment_tool_0381_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6163,11 +6163,11 @@
     "image": "images/equip/equipment_tool_0382_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -6181,11 +6181,11 @@
     "image": "images/equip/equipment_tool_0383_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -6199,11 +6199,11 @@
     "image": "images/equip/equipment_tool_0384_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -6217,11 +6217,11 @@
     "image": "images/equip/equipment_tool_0385_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6235,7 +6235,7 @@
     "image": "images/equip/equipment_tool_0386_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -6249,7 +6249,7 @@
     "image": "images/equip/equipment_tool_0387_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6263,7 +6263,7 @@
     "image": "images/equip/equipment_tool_0388_S.webp",
     "status": [
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 95
       }
     ],
@@ -6277,7 +6277,7 @@
     "image": "images/equip/equipment_tool_0389_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -6291,11 +6291,11 @@
     "image": "images/equip/equipment_tool_0390_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -6309,11 +6309,11 @@
     "image": "images/equip/equipment_tool_0391_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6327,11 +6327,11 @@
     "image": "images/equip/equipment_tool_0392_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -6345,7 +6345,7 @@
     "image": "images/equip/equipment_tool_0393_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6359,11 +6359,11 @@
     "image": "images/equip/equipment_tool_0394_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -6377,11 +6377,11 @@
     "image": "images/equip/equipment_tool_0395_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -6395,7 +6395,7 @@
     "image": "images/equip/equipment_tool_0396_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6409,7 +6409,7 @@
     "image": "images/equip/equipment_tool_0397_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6423,7 +6423,7 @@
     "image": "images/equip/equipment_tool_0398_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6437,11 +6437,11 @@
     "image": "images/equip/equipment_tool_0399_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -6455,11 +6455,11 @@
     "image": "images/equip/equipment_tool_0400_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -6473,7 +6473,7 @@
     "image": "images/equip/equipment_tool_0401_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6487,11 +6487,11 @@
     "image": "images/equip/equipment_tool_0402_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6505,11 +6505,11 @@
     "image": "images/equip/equipment_tool_0403_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -6523,7 +6523,7 @@
     "image": "images/equip/equipment_tool_0404_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6537,7 +6537,7 @@
     "image": "images/equip/equipment_tool_0405_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6551,11 +6551,11 @@
     "image": "images/equip/equipment_tool_0406_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -6569,11 +6569,11 @@
     "image": "images/equip/equipment_tool_0407_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -6587,11 +6587,11 @@
     "image": "images/equip/equipment_tool_0408_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -6605,11 +6605,11 @@
     "image": "images/equip/equipment_tool_0409_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6623,7 +6623,7 @@
     "image": "images/equip/equipment_tool_0410_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -6637,7 +6637,7 @@
     "image": "images/equip/equipment_tool_0411_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6651,7 +6651,7 @@
     "image": "images/equip/equipment_tool_0412_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6665,11 +6665,11 @@
     "image": "images/equip/equipment_tool_0413_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6683,11 +6683,11 @@
     "image": "images/equip/equipment_tool_0414_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -6701,7 +6701,7 @@
     "image": "images/equip/equipment_tool_0415_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -6715,11 +6715,11 @@
     "image": "images/equip/equipment_tool_0416_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -6733,7 +6733,7 @@
     "image": "images/equip/equipment_tool_0417_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -6747,7 +6747,7 @@
     "image": "images/equip/equipment_tool_0418_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6761,11 +6761,11 @@
     "image": "images/equip/equipment_tool_0419_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6779,11 +6779,11 @@
     "image": "images/equip/equipment_tool_0420_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -6797,11 +6797,11 @@
     "image": "images/equip/equipment_tool_0421_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -6815,7 +6815,7 @@
     "image": "images/equip/equipment_tool_0422_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6829,11 +6829,11 @@
     "image": "images/equip/equipment_tool_0423_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -6847,11 +6847,11 @@
     "image": "images/equip/equipment_tool_0424_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -6865,11 +6865,11 @@
     "image": "images/equip/equipment_tool_0425_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -6883,7 +6883,7 @@
     "image": "images/equip/equipment_tool_0426_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6897,7 +6897,7 @@
     "image": "images/equip/equipment_tool_0427_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 95
       }
     ],
@@ -6911,7 +6911,7 @@
     "image": "images/equip/equipment_tool_0428_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -6925,7 +6925,7 @@
     "image": "images/equip/equipment_tool_0432_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -6939,11 +6939,11 @@
     "image": "images/equip/equipment_tool_0433_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -6957,11 +6957,11 @@
     "image": "images/equip/equipment_tool_0434_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -6975,11 +6975,11 @@
     "image": "images/equip/equipment_tool_0435_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -6993,11 +6993,11 @@
     "image": "images/equip/equipment_tool_0436_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7011,11 +7011,11 @@
     "image": "images/equip/equipment_tool_0437_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7029,11 +7029,11 @@
     "image": "images/equip/equipment_tool_0429_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 25
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 25
       }
     ],
@@ -7047,11 +7047,11 @@
     "image": "images/equip/equipment_tool_0430_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 25
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 25
       }
     ],
@@ -7065,11 +7065,11 @@
     "image": "images/equip/equipment_tool_0431_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 60
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 4
       }
     ],
@@ -7083,7 +7083,7 @@
     "image": "images/equip/equipment_tool_0438_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7097,11 +7097,11 @@
     "image": "images/equip/equipment_tool_0439_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7115,11 +7115,11 @@
     "image": "images/equip/equipment_tool_0440_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7133,7 +7133,7 @@
     "image": "images/equip/equipment_tool_0441_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -7147,11 +7147,11 @@
     "image": "images/equip/equipment_tool_0442_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7165,11 +7165,11 @@
     "image": "images/equip/equipment_tool_0443_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -7183,7 +7183,7 @@
     "image": "images/equip/equipment_tool_0444_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7197,7 +7197,7 @@
     "image": "images/equip/equipment_tool_0445_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7211,7 +7211,7 @@
     "image": "images/equip/equipment_tool_0446_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7225,11 +7225,11 @@
     "image": "images/equip/equipment_tool_0447_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7243,11 +7243,11 @@
     "image": "images/equip/equipment_tool_0448_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -7261,11 +7261,11 @@
     "image": "images/equip/equipment_tool_0449_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -7279,11 +7279,11 @@
     "image": "images/equip/equipment_tool_0450_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7297,11 +7297,11 @@
     "image": "images/equip/equipment_tool_0451_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7315,7 +7315,7 @@
     "image": "images/equip/equipment_tool_0452_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -7329,11 +7329,11 @@
     "image": "images/equip/equipment_tool_0453_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7347,11 +7347,11 @@
     "image": "images/equip/equipment_tool_0454_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7365,11 +7365,11 @@
     "image": "images/equip/equipment_tool_0455_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -7383,11 +7383,11 @@
     "image": "images/equip/equipment_tool_0456_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7401,11 +7401,11 @@
     "image": "images/equip/equipment_tool_0457_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -7419,7 +7419,7 @@
     "image": "images/equip/equipment_tool_0458_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -7433,7 +7433,7 @@
     "image": "images/equip/equipment_tool_0459_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7447,7 +7447,7 @@
     "image": "images/equip/equipment_tool_0460_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -7461,11 +7461,11 @@
     "image": "images/equip/equipment_tool_0461_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7479,11 +7479,11 @@
     "image": "images/equip/equipment_tool_0462_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7497,7 +7497,7 @@
     "image": "images/equip/equipment_tool_0463_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7511,11 +7511,11 @@
     "image": "images/equip/equipment_tool_0464_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7529,11 +7529,11 @@
     "image": "images/equip/equipment_tool_0465_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -7547,7 +7547,7 @@
     "image": "images/equip/equipment_tool_0466_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7561,11 +7561,11 @@
     "image": "images/equip/equipment_tool_0467_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7579,11 +7579,11 @@
     "image": "images/equip/equipment_tool_0468_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7597,7 +7597,7 @@
     "image": "images/equip/equipment_tool_0469_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -7611,11 +7611,11 @@
     "image": "images/equip/equipment_tool_0470_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7629,7 +7629,7 @@
     "image": "images/equip/equipment_tool_0471_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -7643,7 +7643,7 @@
     "image": "images/equip/equipment_tool_0472_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -7657,11 +7657,11 @@
     "image": "images/equip/equipment_tool_0473_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7675,11 +7675,11 @@
     "image": "images/equip/equipment_tool_0474_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7693,11 +7693,11 @@
     "image": "images/equip/equipment_tool_0475_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -7711,11 +7711,11 @@
     "image": "images/equip/equipment_tool_0476_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7729,11 +7729,11 @@
     "image": "images/equip/equipment_tool_0477_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -7747,7 +7747,7 @@
     "image": "images/equip/equipment_tool_0480_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -7761,11 +7761,11 @@
     "image": "images/equip/equipment_tool_0481_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7779,11 +7779,11 @@
     "image": "images/equip/equipment_tool_0482_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7797,7 +7797,7 @@
     "image": "images/equip/equipment_tool_0483_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -7811,11 +7811,11 @@
     "image": "images/equip/equipment_tool_0484_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7829,11 +7829,11 @@
     "image": "images/equip/equipment_tool_0485_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -7847,7 +7847,7 @@
     "image": "images/equip/equipment_tool_0486_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7861,11 +7861,11 @@
     "image": "images/equip/equipment_tool_0487_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7879,11 +7879,11 @@
     "image": "images/equip/equipment_tool_0488_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -7897,7 +7897,7 @@
     "image": "images/equip/equipment_tool_0489_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -7911,11 +7911,11 @@
     "image": "images/equip/equipment_tool_0490_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -7929,11 +7929,11 @@
     "image": "images/equip/equipment_tool_0491_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -7947,11 +7947,11 @@
     "image": "images/equip/equipment_tool_0492_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -7965,11 +7965,11 @@
     "image": "images/equip/equipment_tool_0493_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -7983,11 +7983,11 @@
     "image": "images/equip/equipment_tool_0494_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -8001,11 +8001,11 @@
     "image": "images/equip/equipment_tool_0495_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -8019,11 +8019,11 @@
     "image": "images/equip/equipment_tool_0496_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -8037,11 +8037,11 @@
     "image": "images/equip/equipment_tool_0497_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8055,11 +8055,11 @@
     "image": "images/equip/equipment_tool_0498_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -8073,7 +8073,7 @@
     "image": "images/equip/equipment_tool_0499_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -8087,11 +8087,11 @@
     "image": "images/equip/equipment_tool_0500_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -8105,11 +8105,11 @@
     "image": "images/equip/equipment_tool_0501_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -8123,7 +8123,7 @@
     "image": "images/equip/equipment_tool_0502_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -8137,11 +8137,11 @@
     "image": "images/equip/equipment_tool_0503_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8155,11 +8155,11 @@
     "image": "images/equip/equipment_tool_0504_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -8173,7 +8173,7 @@
     "image": "images/equip/equipment_tool_0505_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -8187,11 +8187,11 @@
     "image": "images/equip/equipment_tool_0506_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -8205,11 +8205,11 @@
     "image": "images/equip/equipment_tool_0507_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -8223,7 +8223,7 @@
     "image": "images/equip/equipment_tool_0508_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -8237,11 +8237,11 @@
     "image": "images/equip/equipment_tool_0509_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8255,11 +8255,11 @@
     "image": "images/equip/equipment_tool_0510_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -8273,11 +8273,11 @@
     "image": "images/equip/equipment_tool_0511_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -8291,7 +8291,7 @@
     "image": "images/equip/equipment_tool_0515_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 95
       }
     ],
@@ -8305,11 +8305,11 @@
     "image": "images/equip/equipment_tool_0516_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8323,11 +8323,11 @@
     "image": "images/equip/equipment_tool_0517_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -8341,11 +8341,11 @@
     "image": "images/equip/equipment_tool_0512_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -8359,11 +8359,11 @@
     "image": "images/equip/equipment_tool_0513_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8377,7 +8377,7 @@
     "image": "images/equip/equipment_tool_0514_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -8391,11 +8391,11 @@
     "image": "images/equip/equipment_tool_0518_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 45
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -8409,11 +8409,11 @@
     "image": "images/equip/equipment_tool_0519_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8427,7 +8427,7 @@
     "image": "images/equip/equipment_tool_0520_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 285
       }
     ],
@@ -8441,11 +8441,11 @@
     "image": "images/equip/equipment_tool_0521_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 50
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 45
       }
     ],
@@ -8459,11 +8459,11 @@
     "image": "images/equip/equipment_tool_0522_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -8477,7 +8477,7 @@
     "image": "images/equip/equipment_tool_0523_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -8491,7 +8491,7 @@
     "image": "images/equip/equipment_tool_0527_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 95
       }
     ],
@@ -8505,11 +8505,11 @@
     "image": "images/equip/equipment_tool_0528_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -8523,11 +8523,11 @@
     "image": "images/equip/equipment_tool_0529_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -8541,11 +8541,11 @@
     "image": "images/equip/equipment_tool_0539_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 65
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 55
       }
     ],
@@ -8559,11 +8559,11 @@
     "image": "images/equip/equipment_tool_0533_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 65
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 55
       }
     ],
@@ -8577,11 +8577,11 @@
     "image": "images/equip/equipment_tool_0534_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8595,7 +8595,7 @@
     "image": "images/equip/equipment_tool_0535_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -8609,11 +8609,11 @@
     "image": "images/equip/equipment_tool_0549_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 70
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 65
       }
     ],
@@ -8627,7 +8627,7 @@
     "image": "images/equip/equipment_tool_0524_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 110
       }
     ],
@@ -8641,11 +8641,11 @@
     "image": "images/equip/equipment_tool_0525_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8659,7 +8659,7 @@
     "image": "images/equip/equipment_tool_0526_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 325
       }
     ],
@@ -8673,7 +8673,7 @@
     "image": "images/equip/equipment_tool_0550_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -8687,7 +8687,7 @@
     "image": "images/equip/equipment_tool_0531_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 14
       }
     ],
@@ -8701,7 +8701,7 @@
     "image": "images/equip/equipment_tool_0530_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 14
       }
     ],
@@ -8715,11 +8715,11 @@
     "image": "images/equip/equipment_tool_0532_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 6
       }
     ],
@@ -8733,11 +8733,11 @@
     "image": "images/equip/equipment_tool_0536_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 60
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -8751,11 +8751,11 @@
     "image": "images/equip/equipment_tool_0537_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8769,11 +8769,11 @@
     "image": "images/equip/equipment_tool_0538_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 180
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 6
       }
     ],
@@ -8787,11 +8787,11 @@
     "image": "images/equip/equipment_tool_0551_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 70
       },
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 65
       }
     ],
@@ -8805,7 +8805,7 @@
     "image": "images/equip/equipment_tool_0540_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 90
       }
     ],
@@ -8819,11 +8819,11 @@
     "image": "images/equip/equipment_tool_0541_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -8837,11 +8837,11 @@
     "image": "images/equip/equipment_tool_0542_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -8855,7 +8855,7 @@
     "image": "images/equip/equipment_tool_0552_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 100
       }
     ],
@@ -8869,7 +8869,7 @@
     "image": "images/equip/equipment_tool_0543_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 110
       }
     ],
@@ -8883,11 +8883,11 @@
     "image": "images/equip/equipment_tool_0544_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 65
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -8901,11 +8901,11 @@
     "image": "images/equip/equipment_tool_0545_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 225
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 6
       }
     ],
@@ -8919,7 +8919,7 @@
     "image": "images/equip/equipment_tool_0553_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -8933,7 +8933,7 @@
     "image": "images/equip/equipment_tool_0554_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -8947,11 +8947,11 @@
     "image": "images/equip/equipment_tool_0555_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 65
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -8965,11 +8965,11 @@
     "image": "images/equip/equipment_tool_0556_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -8983,7 +8983,7 @@
     "image": "images/equip/equipment_tool_0557_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -8997,11 +8997,11 @@
     "image": "images/equip/equipment_tool_0558_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 65
       }
     ],
@@ -9015,11 +9015,11 @@
     "image": "images/equip/equipment_tool_0559_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 135
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9033,7 +9033,7 @@
     "image": "images/equip/equipment_tool_0560_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -9047,11 +9047,11 @@
     "image": "images/equip/equipment_tool_0561_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 65
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 45
       }
     ],
@@ -9065,11 +9065,11 @@
     "image": "images/equip/equipment_tool_0562_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9083,7 +9083,7 @@
     "image": "images/equip/equipment_tool_0563_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9097,11 +9097,11 @@
     "image": "images/equip/equipment_tool_0564_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 45
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 65
       }
     ],
@@ -9115,11 +9115,11 @@
     "image": "images/equip/equipment_tool_0565_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9133,7 +9133,7 @@
     "image": "images/equip/equipment_tool_0566_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -9147,11 +9147,11 @@
     "image": "images/equip/equipment_tool_0567_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -9165,7 +9165,7 @@
     "image": "images/equip/equipment_tool_0568_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 325
       }
     ],
@@ -9179,7 +9179,7 @@
     "image": "images/equip/equipment_tool_0569_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9193,11 +9193,11 @@
     "image": "images/equip/equipment_tool_0570_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -9211,11 +9211,11 @@
     "image": "images/equip/equipment_tool_0571_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 110
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -9229,7 +9229,7 @@
     "image": "images/equip/equipment_tool_0572_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9243,11 +9243,11 @@
     "image": "images/equip/equipment_tool_0573_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 60
       }
     ],
@@ -9261,11 +9261,11 @@
     "image": "images/equip/equipment_tool_0574_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 110
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -9279,7 +9279,7 @@
     "image": "images/equip/equipment_tool_0575_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 14
       }
     ],
@@ -9293,7 +9293,7 @@
     "image": "images/equip/equipment_tool_0576_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -9307,11 +9307,11 @@
     "image": "images/equip/equipment_tool_0577_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 60
       }
     ],
@@ -9325,11 +9325,11 @@
     "image": "images/equip/equipment_tool_0578_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9343,7 +9343,7 @@
     "image": "images/equip/equipment_tool_0579_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9357,11 +9357,11 @@
     "image": "images/equip/equipment_tool_0580_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -9375,11 +9375,11 @@
     "image": "images/equip/equipment_tool_0581_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 110
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -9393,7 +9393,7 @@
     "image": "images/equip/equipment_tool_0582_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9407,11 +9407,11 @@
     "image": "images/equip/equipment_tool_0583_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 60
       }
     ],
@@ -9425,11 +9425,11 @@
     "image": "images/equip/equipment_tool_0584_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 110
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -9443,7 +9443,7 @@
     "image": "images/equip/equipment_tool_0585_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -9457,11 +9457,11 @@
     "image": "images/equip/equipment_tool_0586_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -9475,11 +9475,11 @@
     "image": "images/equip/equipment_tool_0587_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9493,7 +9493,7 @@
     "image": "images/equip/equipment_tool_0588_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 14
       }
     ],
@@ -9507,7 +9507,7 @@
     "image": "images/equip/equipment_tool_0589_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 7
       }
     ],
@@ -9521,7 +9521,7 @@
     "image": "images/equip/equipment_tool_0590_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9535,11 +9535,11 @@
     "image": "images/equip/equipment_tool_0591_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -9553,11 +9553,11 @@
     "image": "images/equip/equipment_tool_0592_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9571,7 +9571,7 @@
     "image": "images/equip/equipment_tool_0593_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9585,11 +9585,11 @@
     "image": "images/equip/equipment_tool_0594_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 60
       }
     ],
@@ -9603,11 +9603,11 @@
     "image": "images/equip/equipment_tool_0595_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9621,7 +9621,7 @@
     "image": "images/equip/equipment_tool_0596_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9635,11 +9635,11 @@
     "image": "images/equip/equipment_tool_0597_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 60
       }
     ],
@@ -9653,11 +9653,11 @@
     "image": "images/equip/equipment_tool_0598_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9671,7 +9671,7 @@
     "image": "images/equip/equipment_tool_0599_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9685,11 +9685,11 @@
     "image": "images/equip/equipment_tool_0600_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -9703,11 +9703,11 @@
     "image": "images/equip/equipment_tool_0601_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 110
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -9721,11 +9721,11 @@
     "image": "images/equip/equipment_tool_0602_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 6
       }
     ],
@@ -9739,7 +9739,7 @@
     "image": "images/equip/equipment_tool_0603_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9753,11 +9753,11 @@
     "image": "images/equip/equipment_tool_0604_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 60
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 50
       }
     ],
@@ -9771,11 +9771,11 @@
     "image": "images/equip/equipment_tool_0605_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 110
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -9789,7 +9789,7 @@
     "image": "images/equip/equipment_tool_0606_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -9803,11 +9803,11 @@
     "image": "images/equip/equipment_tool_0607_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 50
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 60
       }
     ],
@@ -9821,11 +9821,11 @@
     "image": "images/equip/equipment_tool_0608_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 200
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -9839,7 +9839,7 @@
     "image": "images/equip/equipment_tool_0609_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 50
       }
     ],
@@ -9853,7 +9853,7 @@
     "image": "images/equip/equipment_tool_0610_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -9867,7 +9867,7 @@
     "image": "images/equip/equipment_tool_0619_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 16
       }
     ],
@@ -9881,11 +9881,11 @@
     "image": "images/equip/equipment_tool_0620_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -9899,7 +9899,7 @@
     "image": "images/equip/equipment_tool_0621_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -9913,7 +9913,7 @@
     "image": "images/equip/equipment_tool_0625_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -9927,11 +9927,11 @@
     "image": "images/equip/equipment_tool_0611_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -9945,11 +9945,11 @@
     "image": "images/equip/equipment_tool_0612_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -9963,11 +9963,11 @@
     "image": "images/equip/equipment_tool_0613_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -9981,11 +9981,11 @@
     "image": "images/equip/equipment_tool_0614_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -9999,11 +9999,11 @@
     "image": "images/equip/equipment_tool_0615_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 250
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -10017,11 +10017,11 @@
     "image": "images/equip/equipment_tool_0616_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10035,11 +10035,11 @@
     "image": "images/equip/equipment_tool_0617_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 250
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -10053,11 +10053,11 @@
     "image": "images/equip/equipment_tool_0618_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10071,7 +10071,7 @@
     "image": "images/equip/equipment_tool_0622_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10085,11 +10085,11 @@
     "image": "images/equip/equipment_tool_0623_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -10103,11 +10103,11 @@
     "image": "images/equip/equipment_tool_0624_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10121,7 +10121,7 @@
     "image": "images/equip/equipment_tool_0626_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -10135,7 +10135,7 @@
     "image": "images/equip/equipment_tool_0627_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -10149,7 +10149,7 @@
     "image": "images/equip/equipment_tool_0629_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -10163,11 +10163,11 @@
     "image": "images/equip/equipment_tool_0630_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 6
       }
     ],
@@ -10181,11 +10181,11 @@
     "image": "images/equip/equipment_tool_0631_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -10199,7 +10199,7 @@
     "image": "images/equip/equipment_tool_0632_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10213,11 +10213,11 @@
     "image": "images/equip/equipment_tool_0633_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -10231,11 +10231,11 @@
     "image": "images/equip/equipment_tool_0634_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       },
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -10249,7 +10249,7 @@
     "image": "images/equip/equipment_tool_0635_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -10263,7 +10263,7 @@
     "image": "images/equip/equipment_tool_0638_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10277,7 +10277,7 @@
     "image": "images/equip/equipment_tool_0636_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -10291,7 +10291,7 @@
     "image": "images/equip/equipment_tool_0637_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10305,7 +10305,7 @@
     "image": "images/equip/equipment_tool_0639_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10319,11 +10319,11 @@
     "image": "images/equip/equipment_tool_0640_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -10337,11 +10337,11 @@
     "image": "images/equip/equipment_tool_0641_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       },
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -10355,11 +10355,11 @@
     "image": "images/equip/equipment_tool_0645_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 3
       },
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       }
     ],
@@ -10373,11 +10373,11 @@
     "image": "images/equip/equipment_tool_0646_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       },
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       }
     ],
@@ -10391,7 +10391,7 @@
     "image": "images/equip/equipment_tool_0642_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10405,7 +10405,7 @@
     "image": "images/equip/equipment_tool_0643_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10419,7 +10419,7 @@
     "image": "images/equip/equipment_tool_0644_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10433,11 +10433,11 @@
     "image": "images/equip/equipment_tool_0647_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 3
       }
     ],
@@ -10451,11 +10451,11 @@
     "image": "images/equip/equipment_tool_0651_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10469,11 +10469,11 @@
     "image": "images/equip/equipment_tool_0648_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 3
       }
     ],
@@ -10487,11 +10487,11 @@
     "image": "images/equip/equipment_tool_0652_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10505,11 +10505,11 @@
     "image": "images/equip/equipment_tool_0649_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 3
       }
     ],
@@ -10523,11 +10523,11 @@
     "image": "images/equip/equipment_tool_0653_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10541,11 +10541,11 @@
     "image": "images/equip/equipment_tool_0650_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 3
       }
     ],
@@ -10559,11 +10559,11 @@
     "image": "images/equip/equipment_tool_0654_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10577,11 +10577,11 @@
     "image": "images/equip/equipment_tool_0656_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -10595,11 +10595,11 @@
     "image": "images/equip/equipment_tool_0657_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 250
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -10613,7 +10613,7 @@
     "image": "images/equip/equipment_tool_0655_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10627,7 +10627,7 @@
     "image": "images/equip/equipment_tool_0658_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10641,7 +10641,7 @@
     "image": "images/equip/equipment_tool_0659_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10655,11 +10655,11 @@
     "image": "images/equip/equipment_tool_0660_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -10673,7 +10673,7 @@
     "image": "images/equip/equipment_tool_0661_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 145
       }
     ],
@@ -10687,11 +10687,11 @@
     "image": "images/equip/equipment_tool_0662_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -10705,11 +10705,11 @@
     "image": "images/equip/equipment_tool_0663_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 150
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 15
       }
     ],
@@ -10723,7 +10723,7 @@
     "image": "images/equip/equipment_tool_0664_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -10737,11 +10737,11 @@
     "image": "images/equip/equipment_tool_0667_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 6
       }
     ],
@@ -10755,7 +10755,7 @@
     "image": "images/equip/equipment_tool_0665_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -10769,7 +10769,7 @@
     "image": "images/equip/equipment_tool_0666_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 145
       }
     ],
@@ -10783,7 +10783,7 @@
     "image": "images/equip/equipment_tool_0668_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -10797,7 +10797,7 @@
     "image": "images/equip/equipment_tool_0669_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -10811,7 +10811,7 @@
     "image": "images/equip/equipment_tool_0670_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -10825,11 +10825,11 @@
     "image": "images/equip/equipment_tool_0671_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 6
       }
     ],
@@ -10843,11 +10843,11 @@
     "image": "images/equip/equipment_tool_0672_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 30
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -10861,11 +10861,11 @@
     "image": "images/equip/equipment_tool_0673_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -10879,11 +10879,11 @@
     "image": "images/equip/equipment_tool_0686_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -10897,7 +10897,7 @@
     "image": "images/equip/equipment_tool_0675_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -10911,7 +10911,7 @@
     "image": "images/equip/equipment_tool_0677_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 150
       }
     ],
@@ -10925,7 +10925,7 @@
     "image": "images/equip/equipment_tool_0676_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 150
       }
     ],
@@ -10939,11 +10939,11 @@
     "image": "images/equip/equipment_tool_0680_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -10957,11 +10957,11 @@
     "image": "images/equip/equipment_tool_0681_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -10975,7 +10975,7 @@
     "image": "images/equip/equipment_tool_0678_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -10989,7 +10989,7 @@
     "image": "images/equip/equipment_tool_0679_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -11003,7 +11003,7 @@
     "image": "images/equip/equipment_tool_0682_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -11017,7 +11017,7 @@
     "image": "images/equip/equipment_tool_0683_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 150
       }
     ],
@@ -11031,11 +11031,11 @@
     "image": "images/equip/equipment_tool_0693_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -11049,7 +11049,7 @@
     "image": "images/equip/equipment_tool_0684_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 150
       }
     ],
@@ -11063,11 +11063,11 @@
     "image": "images/equip/equipment_tool_0674_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -11081,11 +11081,11 @@
     "image": "images/equip/equipment_tool_0685_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -11099,7 +11099,7 @@
     "image": "images/equip/equipment_tool_0687_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 150
       }
     ],
@@ -11113,7 +11113,7 @@
     "image": "images/equip/equipment_tool_0688_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 150
       }
     ],
@@ -11127,11 +11127,11 @@
     "image": "images/equip/equipment_tool_0689_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -11145,11 +11145,11 @@
     "image": "images/equip/equipment_tool_0690_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -11163,7 +11163,7 @@
     "image": "images/equip/equipment_tool_0691_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -11177,11 +11177,11 @@
     "image": "images/equip/equipment_tool_0700_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 30
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 12
       }
     ],
@@ -11195,7 +11195,7 @@
     "image": "images/equip/equipment_tool_0705_S.webp",
     "status": [
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 9
       }
     ],
@@ -11209,7 +11209,7 @@
     "image": "images/equip/equipment_tool_0692_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -11223,7 +11223,7 @@
     "image": "images/equip/equipment_tool_0694_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
@@ -11237,11 +11237,11 @@
     "image": "images/equip/equipment_tool_0699_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 40
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 8
       }
     ],
@@ -11255,7 +11255,7 @@
     "image": "images/equip/equipment_tool_0695_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 150
       }
     ],
@@ -11269,11 +11269,11 @@
     "image": "images/equip/equipment_tool_0697_S.webp",
     "status": [
       {
-        "type": "Physical Defense",
+        "type": "pdef",
         "value": 75
       },
       {
-        "type": "Magic Defense",
+        "type": "mdef",
         "value": 75
       }
     ],
@@ -11287,11 +11287,11 @@
     "image": "images/equip/equipment_tool_0698_S.webp",
     "status": [
       {
-        "type": "HP",
+        "type": "hp",
         "value": 300
       },
       {
-        "type": "Speed",
+        "type": "speed",
         "value": 10
       }
     ],
@@ -11305,7 +11305,7 @@
     "image": "images/equip/equipment_tool_0696_S.webp",
     "status": [
       {
-        "type": "Physical Attack",
+        "type": "patk",
         "value": 150
       }
     ],
@@ -11319,10 +11319,70 @@
     "image": "images/equip/equipment_tool_0701_S.webp",
     "status": [
       {
-        "type": "Magic Attack",
+        "type": "matk",
         "value": 150
       }
     ],
     "ability": "自身がシトリン【九偉人 No.4】の時、味方全員はスキル発動前に状態異常が付与されている敵へ与えるスキル威力+25%"
+  },
+  {
+    "id": 1263,
+    "name": "魔彩ナル傾国ノ瞳・凶華",
+    "rarity": "SSR",
+    "slot_type": "Weapon",
+    "image": "images/equip/equipment_tool_0701_S.webp",
+    "status": [
+      {
+        "type": "matk",
+        "value": 150
+      }
+    ],
+    "ability": "自身がシトリン【九偉人 No.4】の時、味方全員はスキル発動前に状態異常が付与されている敵へ与えるスキル威力+25%"
+  },
+  {
+    "id": 1264,
+    "name": "星導きの杖",
+    "rarity": "SSR",
+    "slot_type": "Weapon",
+    "image": "images/equip/equipment_tool_0702_S.webp",
+    "status": [
+      {
+        "type": "matk",
+        "value": 150
+      }
+    ],
+    "ability": "自身がソフィー【Memory of Dreams】でありHPが85%以上の状態で攻撃を受けた時、得意属性が風属性の味方全員のバーストゲージを10%増加"
+  },
+  {
+    "id": 1265,
+    "name": "ヴェールキュイール",
+    "rarity": "SSR",
+    "slot_type": "Armor",
+    "image": "images/equip/equipment_tool_0703_S.webp",
+    "status": [
+      {
+        "type": "pdef",
+        "value": 75
+      },
+      {
+        "type": "mdef",
+        "value": 75
+      }
+    ],
+    "ability": "味方全員のクリティカルダメージ+18%"
+  },
+  {
+    "id": 1267,
+    "name": "堅甲の護符",
+    "rarity": "SSR",
+    "slot_type": "Accessory",
+    "image": "images/equip/equipment_tool_0704_S.webp",
+    "status": [
+      {
+        "type": "hp",
+        "value": 400
+      }
+    ],
+    "ability": "味方全員の全体攻撃から受けるダメージ-13%(固定)"
   }
 ]

@@ -1,0 +1,132 @@
+.equipment-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); gap: 15px; padding: 20px; }
+.equipment-card { width: 600px; height: 400px; background: #222; color: #fff; display: flex; padding: 15px; border: 1px solid #444; box-sizing: border-box; }
+
+/* 左側：精準控制圖片層次與名稱顯示 */
+.left-col { width: 240px; display: flex; flex-direction: column; align-items: center; }
+.img-box { position: relative; width: 220px; height: 320px; }
+.img-box .bg { object-fit: cover; }
+.img-box .main { object-fit: contain; }
+.img-box .bg, .img-box .main { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.img-box .slot { position: absolute; top: 0; right: 0; width: 40px; height: 40px; }
+
+.name-box { 
+    font-size: 14px; font-weight: bold; text-align: center; width: 100%; 
+    padding: 8px 0; white-space: nowrap; overflow: visible; 
+}
+.name-box.copy-name { cursor: pointer; }
+.name-box.copy-name:hover { opacity: 0.85; }
+
+.colors-box { display: flex; gap: 4px; justify-content: center; }
+.colors-box img { width: 22px; height: 22px; justify-content: center; }
+.source-tag { display: inline-block; font-weight: 700; }
+.source-text { font-size: 14px; font-weight: 700; }
+.source-tag.event { color: #f0a030; }
+.source-tag.shop { color: #4da3ff; }
+
+/* 右側：能力描述與素材 */
+.right-col { flex: 1; padding-left: 20px; display: flex; flex-direction: column; gap: 10px; overflow: hidden; }
+.header-box { display: flex; justify-content: space-between; font-weight: bold; font-size: 13px; align-items: center; }
+.ability-box {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	line-height: 1.6
+}
+.materials-box { display: flex; gap: 10px; height: 80px; align-items: center; }
+.status-list {
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    gap: 6px 16px;
+}
+.stat-tag { padding: 2px 8px; border-radius: 4px; }
+
+/* 素材呈現 */
+.mat-box { display: flex; flex-direction: column; align-items: center; width: 160px; }
+.img-wrap { position: relative; width: 64px; height: 64px; }
+.img-wrap .frame { position: absolute; inset: 0; width: 100%; height: 100%; }
+.img-wrap .icon { position: absolute; width: 50%; height: 50%; top:25% ; left: 25%; object-fit: contain; }
+.img-wrap .qty { position: absolute; bottom: 0; right: 0; background: transparent; text-shadow: 2px 2px 2px black; padding: 1px 4px; font-size: 11px; }
+.mat-box .name { font-size: 10px; text-align: center; margin-top: 4px; white-space: nowrap; overflow: visible; }
+.no-recipe { flex: 1; display: flex; justify-content: center; align-items: center; color: #c98cff; padding: 12px 0; }
+
+
+.recipe-popup-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.recipe-popup {
+    width: min(450px, 90vw);
+    max-height: 80vh;
+    overflow-y: auto;
+
+    background: #3f4962;
+    border-radius: 16px;
+
+    padding: 24px;
+}
+
+.recipe-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #8080c0
+}
+
+.recipe-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.recipe-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: rgba(255,255,255,.05);
+    border-radius: 12px;
+
+    padding: 12px;
+}
+
+.recipe-frame, .recipe-icon {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.recipe-icon { object-fit: contain; }
+
+.recipe-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.recipe-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #dbffff
+}
+
+.recipe-extra {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #ffe3ff
+}
+
+.recipe-img-box {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.battle-type-icon { width: 40%; height: 40%; }

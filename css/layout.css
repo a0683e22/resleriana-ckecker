@@ -459,4 +459,7 @@
     visibility: visible;
     pointer-events: auto;
 }
-
+.range-icon {
+    width: 22px;
+    height: 22px;
+}

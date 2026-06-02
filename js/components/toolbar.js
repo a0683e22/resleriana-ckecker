@@ -76,22 +76,22 @@ export function renderToolbar(toolbarType) {
     	 topLeft: `${createSearchInput(t.searchEquipments)}${createSelect({ id: 'sort-select', options: SORT_OPTIONS, value:state.sorting[state.ui.currentPage] })}`,
     	 topRight: `${createLanguageSelect()}${createThemeButton()}`,
     	 bottomLeft: [...EQUIP_RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
-                   ...EQUIP_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'equip', f.icon)),
-                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'color', f.icon))].join('')});
-} else if (toolbarType === 'battleItems') {
+                   ...EQUIP_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.type.includes(f.value), 'type', f.icon)),
+                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join('')});
+} else if (toolbarType === 'battleitems') {
     toolbar.innerHTML = createToolbarLayout({
-    	 topLeft: `${createSearchInput(t.searchBattleItems)}${createSelect({ id: 'sort-select', options: BATTLEITEM_SORT_OPTIONS, value:state.sorting[state.ui.currentPage] })}`,
+    	 topLeft: `${createSearchInput(t.searchbattleitems)}${createSelect({ id: 'sort-select', options: BATTLEITEM_SORT_OPTIONS, value:state.sorting[state.ui.currentPage] })}`,
     	 topRight: `${createLanguageSelect()}${createThemeButton()}`,
     	 bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
-                   ...BATTLEITEM_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'battleItem', f.icon)),
-                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'color', f.icon))].join(''),});
+                   ...BATTLEITEM_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.type.includes(String(f.value)), 'type', f.icon)),
+                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join(''),});
 }
 else if (toolbarType === 'materials') {
     toolbar.innerHTML = createToolbarLayout({
-    	 topLeft: `${MATERIAL_TYPE.map(f =>createFilterButton(f.text,f.type,currentFilters.rarity.includes(f.type), 'type' )).join('')}${createSelect({id: 'sort-select', options:MATERIAL_SORT_OPTIONS, value:state.sorting[state.ui.currentPage]})}`,
+    	 topLeft: `${MATERIAL_TYPE.map(f =>createFilterButton(f.text,f.type,currentFilters.type.includes(f.type), 'type' )).join('')}${createSelect({id: 'sort-select', options:MATERIAL_SORT_OPTIONS, value:state.sorting[state.ui.currentPage]})}`,
     	 topRight: `${createLanguageSelect()}${createThemeButton()}`,
     	  bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
-                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.element.includes(f.value), 'color', f.icon))].join(''),});
+                   ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join(''),});
 }
 
   bindFilterButtons();
@@ -183,7 +183,7 @@ export function bindFilterButtons() {
                 state.filters[page].extra = arr.includes(val) ? arr.filter(v => v !== val) : [...arr, val];
                 filterBtn.classList.toggle('active', state.filters[page].extra.includes(val));
             } else {
-                const value = filterType === 'rarity' ? Number(val) : val;
+                const value = ['rarity', 'color'].includes(filterType) ? Number(val) : val;
                 const page = state.ui.currentPage;
                 const arr = state.filters[page][filterType] || [];
                 state.filters[page][filterType] = arr.includes(value) ? arr.filter(v => v !== value) : [...arr, value];

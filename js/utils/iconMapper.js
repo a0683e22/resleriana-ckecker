@@ -14,3 +14,10 @@ export const ROLE_ICON_MAP = {
   "防禦者": "d.ab8d93.png",
   "支援者": "s.0c211b.png"
 };
+
+
+export const EQUIP_ICON_MAP = {
+  "Weapon": "images/ui/weapon.webp",
+  "Armor": "images/ui/armor.webp",
+  "Accessory": "images/ui/accessory.webp"
+};

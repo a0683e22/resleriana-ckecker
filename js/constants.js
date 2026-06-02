@@ -55,10 +55,10 @@ export const BATTLEITEM_SORT_OPTIONS = [
 ];
 
 export const EQUIP_RARITY_FILTERS = [
-  { text: 'UR', value: 4 },
-  { text: 'SSR', value: 3 },
-  { text: 'SR', value: 2 },
-  { text: 'R', value: 1 },
+  { text: 'UR', value: 4, frame: 'images/ui/ur.webp' },
+  { text: 'SSR', value: 3, frame: 'images/ui/ssr.webp' },
+  { text: 'SR', value: 2, frame: 'images/ui/sr.webp' },
+  { text: 'R', value: 1, frame: 'images/ui/r.webp' },
 ];
 
 export const EQUIP_FILTERS = [
@@ -77,14 +77,15 @@ export const BATTLEITEM_FILTERS = [
   { text: 'Attack', value: 1, icon: 'images/ui/attack.webp'},
   { text: 'Buff', value: 2, icon: 'images/ui/buff.webp'},
   { text: 'Debuff', value: 3, icon: 'images/ui/debuff.webp'},
-  { text: 'Heal', value: 4, icon: 'images/ui/heal.webp'},
+  { text: 'Heal', value: 4, icon: 'images/ui/heal.webp'}
 ];
 
 export const BATTLEITEM_ICON = {
-  attack: 'images/ui/attack.webp',
-  buff: 'images/ui/buff.webp',
-  debuff: 'images/ui/debuff.webp',
-  heal: 'images/ui/heal.webp',
+  1: 'images/ui/attack.webp',
+  2: 'images/ui/buff.webp',
+  3: 'images/ui/debuff.webp',
+  4: 'images/ui/heal.webp',
+  bomb: 'images/ui/bomb.webp'
 };
 
 export const COLOR_FILTERS = [
@@ -101,6 +102,13 @@ export const COLOR_PRIORITY = {
   yellowFirst:[3, 4, 5, 1, 2],
   redFirst:[4, 5, 1, 2, 3],
   greenFirst:[5, 1, 2, 3, 4],
+};
+
+export const TOOL_PRIORITY = {
+  aFirst:[1, 2, 3, 4],
+  bFirst:[2, 3, 4, 1],
+  dFirst:[3, 4, 1, 2],
+  hFirst:[4, 1, 2, 3],
 };
 
 export const COLOR_ICON = {

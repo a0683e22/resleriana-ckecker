@@ -18,8 +18,7 @@ export const state = {
         characters: '',
         memories: '',
         equipments: '',
-        battleitems: '',
-        materials: ''
+        battleitems: ''
     },
 
     // ---------------------------------
@@ -27,10 +26,10 @@ export const state = {
     // ---------------------------------
     filters: {
         characters: { attr: [], rarity: [], role: [], element: [], extra: [] },
-        memories:   { attr: [], rarity: [], role: [], element: [], },
-        equipments: { attr: [], rarity: [], role: [], element: [], extra: [] },
-        battleitems:{ attr: [], rarity: [], role: [], element: [], extra: [] },
-        materials:  { attr: [], rarity: [], role: [], element: [], extra: [] },
+        memories:   { attr: [], rarity: [], role: [], element: [], extra:[] },
+        equipments: { rarity: [], type: [], color: [] },
+        battleitems: { rarity: [], type: [], color: [] },
+        materials: { rarity: [], color: [], type:[] }
     },
 
     // ---------------------------------

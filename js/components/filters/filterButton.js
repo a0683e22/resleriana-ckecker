@@ -13,7 +13,7 @@ export function createFilterButton(text, value, active = false, filterType = 'el
   // 2. 處理內部內容的邏輯分離
   const getButtonContent = () => {
      if (!icon) return text;
-     const isLargeIcon = ['equip', 'battleItem'].includes(filterType);
+     const isLargeIcon = ['equip', 'battleitem'].includes(filterType);
     const iconHtml = `<img src="${icon}" class="filter-icon ${isLargeIcon ? 'large-icon' : ''}">`;
     
     return filterType === 'view' 

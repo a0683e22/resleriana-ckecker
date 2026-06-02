@@ -3,7 +3,11 @@
     "recipe_id": 1,
     "name": "フラム",
     "target_id": 2,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 70,
@@ -17,7 +21,11 @@
     "recipe_id": 2,
     "name": "ヒーリングサルヴ",
     "target_id": 1,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 68,
@@ -31,7 +39,11 @@
     "recipe_id": 3,
     "name": "エナジーペンダント",
     "target_id": 3,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 3,
@@ -55,7 +67,11 @@
     "recipe_id": 4,
     "name": "フランベルジュ",
     "target_id": 1,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 67,
@@ -69,7 +85,11 @@
     "recipe_id": 5,
     "name": "旅人のベスト",
     "target_id": 2,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 68,
@@ -83,7 +103,11 @@
     "recipe_id": 6,
     "name": "うに袋",
     "target_id": 3,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 67,
@@ -97,7 +121,11 @@
     "recipe_id": 7,
     "name": "ドライビスク",
     "target_id": 4,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 2,
@@ -116,7 +144,11 @@
     "recipe_id": 8,
     "name": "ウサギのシッポ",
     "target_id": 6,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 72,
@@ -135,7 +167,11 @@
     "recipe_id": 9,
     "name": "お手製の杖",
     "target_id": 4,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 69,
@@ -154,7 +190,11 @@
     "recipe_id": 10,
     "name": "混合毛のシャツ",
     "target_id": 5,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 71,
@@ -168,7 +208,11 @@
     "recipe_id": 11,
     "name": "うに型チャーム",
     "target_id": 9,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 67,
@@ -187,7 +231,11 @@
     "recipe_id": 12,
     "name": "蒼穹の弓",
     "target_id": 7,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 12,
@@ -201,7 +249,11 @@
     "recipe_id": 13,
     "name": "ノーブルチュニック",
     "target_id": 8,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 72,
@@ -215,7 +267,11 @@
     "recipe_id": 14,
     "name": "魔女の秘薬",
     "target_id": 5,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 23,
@@ -234,7 +290,11 @@
     "recipe_id": 15,
     "name": "ナントカの秘薬",
     "target_id": 6,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 73,
@@ -253,7 +313,11 @@
     "recipe_id": 16,
     "name": "ヒーリングベル",
     "target_id": 9,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 74,
@@ -277,7 +341,11 @@
     "recipe_id": 17,
     "name": "モノクログラス",
     "target_id": 12,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 57,
@@ -291,7 +359,11 @@
     "recipe_id": 18,
     "name": "軽い鉄の杖",
     "target_id": 13,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 49,
@@ -305,7 +377,11 @@
     "recipe_id": 19,
     "name": "レザープロテクター",
     "target_id": 11,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 14,
@@ -324,7 +400,11 @@
     "recipe_id": 20,
     "name": "ドナーストーン",
     "target_id": 8,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 80,
@@ -338,7 +418,11 @@
     "recipe_id": 21,
     "name": "暗黒水",
     "target_id": 11,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 6,
@@ -362,7 +446,11 @@
     "recipe_id": 22,
     "name": "素朴な焼き菓子",
     "target_id": 13,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 81,
@@ -376,7 +464,11 @@
     "recipe_id": 23,
     "name": "精霊の首飾り",
     "target_id": 18,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 82,
@@ -395,7 +487,11 @@
     "recipe_id": 24,
     "name": "鉄鉤",
     "target_id": 16,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 80,
@@ -414,7 +510,11 @@
     "recipe_id": 25,
     "name": "風来人のシャツ",
     "target_id": 20,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 81,
@@ -433,7 +533,11 @@
     "recipe_id": 26,
     "name": "クラフト",
     "target_id": 7,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 83,
@@ -447,7 +551,11 @@
     "recipe_id": 27,
     "name": "ルーンストーン",
     "target_id": 15,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 56,
@@ -466,7 +574,11 @@
     "recipe_id": 28,
     "name": "バトルアクス",
     "target_id": 10,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 4,
@@ -485,7 +597,11 @@
     "recipe_id": 29,
     "name": "ハードコート",
     "target_id": 14,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 14,
@@ -504,7 +620,11 @@
     "recipe_id": 30,
     "name": "神秘の羽衣",
     "target_id": 14,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 82,
@@ -523,7 +643,11 @@
     "recipe_id": 31,
     "name": "クォーツネックレス",
     "target_id": 21,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 82,
@@ -542,7 +666,11 @@
     "recipe_id": 32,
     "name": "癒しの杖",
     "target_id": 19,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 83,
@@ -561,7 +689,11 @@
     "recipe_id": 33,
     "name": "ボルダースケイル",
     "target_id": 17,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 80,
@@ -580,7 +712,11 @@
     "recipe_id": 34,
     "name": "ウォーパウダー",
     "target_id": 15,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 7,
@@ -604,7 +740,11 @@
     "recipe_id": 35,
     "name": "たたかう魔剣",
     "target_id": 17,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 90,
@@ -623,7 +763,11 @@
     "recipe_id": 36,
     "name": "白銀の双剣",
     "target_id": 24,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 90,
@@ -642,7 +786,11 @@
     "recipe_id": 37,
     "name": "ナイトシェイド",
     "target_id": 32,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 90,
@@ -661,7 +809,11 @@
     "recipe_id": 38,
     "name": "グナーデリング・物",
     "target_id": 52,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 18,
@@ -680,7 +832,11 @@
     "recipe_id": 39,
     "name": "闘志のマフラー",
     "target_id": 22,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 90,
@@ -699,7 +855,11 @@
     "recipe_id": 40,
     "name": "グナーデリング・魔",
     "target_id": 58,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 52,
@@ -718,7 +878,11 @@
     "recipe_id": 41,
     "name": "スモークミート",
     "target_id": 31,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 91,
@@ -737,7 +901,11 @@
     "recipe_id": 42,
     "name": "不幸の瓶詰め",
     "target_id": 23,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 91,
@@ -756,7 +924,11 @@
     "recipe_id": 43,
     "name": "クレアエンパシー",
     "target_id": 36,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 59,
@@ -775,7 +947,11 @@
     "recipe_id": 44,
     "name": "極彩色のローブ",
     "target_id": 44,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 61,
@@ -794,7 +970,11 @@
     "recipe_id": 45,
     "name": "シュペーヴァイス",
     "target_id": 30,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 91,
@@ -813,7 +993,11 @@
     "recipe_id": 46,
     "name": "コンバットシャツ",
     "target_id": 50,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 46,
@@ -832,7 +1016,11 @@
     "recipe_id": 47,
     "name": "ローゼフラム",
     "target_id": 19,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 92,
@@ -851,7 +1039,11 @@
     "recipe_id": 48,
     "name": "妙薬ドラッヘン",
     "target_id": 27,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 92,
@@ -870,7 +1062,11 @@
     "recipe_id": 49,
     "name": "エネルジアニカ",
     "target_id": 21,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 85,
@@ -889,7 +1085,11 @@
     "recipe_id": 50,
     "name": "精霊の杖・火",
     "target_id": 42,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 92,
@@ -908,7 +1108,11 @@
     "recipe_id": 51,
     "name": "精霊の杖・氷",
     "target_id": 48,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 92,
@@ -927,7 +1131,11 @@
     "recipe_id": 52,
     "name": "精霊の杖・風",
     "target_id": 54,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 92,
@@ -946,7 +1154,11 @@
     "recipe_id": 53,
     "name": "精霊の杖・雷",
     "target_id": 60,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 92,
@@ -965,7 +1177,11 @@
     "recipe_id": 54,
     "name": "燃える水",
     "target_id": 25,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 26,
@@ -984,7 +1200,11 @@
     "recipe_id": 55,
     "name": "錬金キャンディ",
     "target_id": 33,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 36,
@@ -1003,7 +1223,11 @@
     "recipe_id": 56,
     "name": "熱血はちまき",
     "target_id": 34,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 93,
@@ -1022,7 +1246,11 @@
     "recipe_id": 57,
     "name": "無重力シャツ",
     "target_id": 62,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 27,
@@ -1041,7 +1269,11 @@
     "recipe_id": 58,
     "name": "エンゼルチャーム",
     "target_id": 40,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 93,
@@ -1060,7 +1292,11 @@
     "recipe_id": 59,
     "name": "冒険者の服",
     "target_id": 56,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 38,
@@ -1079,7 +1315,11 @@
     "recipe_id": 60,
     "name": "ハッスルベルト",
     "target_id": 28,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 45,
@@ -1098,7 +1338,11 @@
     "recipe_id": 61,
     "name": "鋲打ちの皮鎧",
     "target_id": 38,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 45,
@@ -1117,7 +1361,11 @@
     "recipe_id": 62,
     "name": "魔獣の革鎧",
     "target_id": 26,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 29,
@@ -1136,7 +1384,11 @@
     "recipe_id": 63,
     "name": "エンゼルリボン",
     "target_id": 46,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 38,
@@ -1155,7 +1407,11 @@
     "recipe_id": 64,
     "name": "黄金エキススープ",
     "target_id": 29,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 93,
@@ -1174,7 +1430,11 @@
     "recipe_id": 65,
     "name": "エリキシル剤",
     "target_id": 71,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 10,
@@ -1198,7 +1458,11 @@
     "recipe_id": 66,
     "name": "創世の槌",
     "target_id": 35,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 37,
@@ -1222,7 +1486,11 @@
     "recipe_id": 67,
     "name": "リュミエールランス",
     "target_id": 37,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 46,
@@ -1241,7 +1509,11 @@
     "recipe_id": 68,
     "name": "レーツェルフト",
     "target_id": 39,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 60,
@@ -1265,7 +1537,11 @@
     "recipe_id": 69,
     "name": "クライトレヘルン",
     "target_id": 41,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 37,
@@ -1289,7 +1565,11 @@
     "recipe_id": 70,
     "name": "シュトラプラジグ",
     "target_id": 43,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 46,
@@ -1313,7 +1593,11 @@
     "recipe_id": 71,
     "name": "クロニクルマーク・斬",
     "target_id": 64,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 18,
@@ -1332,7 +1616,11 @@
     "recipe_id": 72,
     "name": "クロニクルマーク・打",
     "target_id": 68,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 61,
@@ -1351,7 +1639,11 @@
     "recipe_id": 73,
     "name": "クロニクルマーク・突",
     "target_id": 66,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 52,
@@ -1370,7 +1662,11 @@
     "recipe_id": 74,
     "name": "火霊のリング",
     "target_id": 70,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 52,
@@ -1389,7 +1685,11 @@
     "recipe_id": 75,
     "name": "暴風のリング",
     "target_id": 72,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 18,
@@ -1408,7 +1708,11 @@
     "recipe_id": 76,
     "name": "氷幻のリング",
     "target_id": 74,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 52,
@@ -1427,7 +1731,11 @@
     "recipe_id": 77,
     "name": "雷帝のリング",
     "target_id": 76,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 61,
@@ -1446,7 +1754,11 @@
     "recipe_id": 78,
     "name": "守護者の大剣",
     "target_id": 78,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 27,
@@ -1470,7 +1782,11 @@
     "recipe_id": 79,
     "name": "おしゃれなほうき",
     "target_id": 80,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 38,
@@ -1489,7 +1805,11 @@
     "recipe_id": 80,
     "name": "肉体活性の粉末",
     "target_id": 55,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 40,
@@ -1508,7 +1828,11 @@
     "recipe_id": 81,
     "name": "剛力の塗り薬",
     "target_id": 57,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 50,
@@ -1527,7 +1851,11 @@
     "recipe_id": 82,
     "name": "トリトンのほら貝",
     "target_id": 59,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 63,
@@ -1546,7 +1874,11 @@
     "recipe_id": 83,
     "name": "スカラーコート",
     "target_id": 84,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 62,
@@ -1565,7 +1897,11 @@
     "recipe_id": 84,
     "name": "レディアントプレート",
     "target_id": 86,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 19,
@@ -1584,7 +1920,11 @@
     "recipe_id": 85,
     "name": "風繰り車",
     "target_id": 61,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 8,
@@ -1603,7 +1943,11 @@
     "recipe_id": 86,
     "name": "シュネーシュトルム",
     "target_id": 63,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 19,
@@ -1622,7 +1966,11 @@
     "recipe_id": 87,
     "name": "薬草のシャツ",
     "target_id": 82,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 62,
@@ -1641,7 +1989,11 @@
     "recipe_id": 88,
     "name": "雷の呼び鈴",
     "target_id": 65,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 63,
@@ -1660,7 +2012,11 @@
     "recipe_id": 89,
     "name": "レッドウォーパウダー",
     "target_id": 67,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 30,
@@ -1679,7 +2035,11 @@
     "recipe_id": 90,
     "name": "リストレア薬瓶",
     "target_id": 69,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 55,
@@ -1703,7 +2063,11 @@
     "recipe_id": 91,
     "name": "プレートベスト",
     "target_id": 88,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 74,
@@ -1722,7 +2086,11 @@
     "recipe_id": 92,
     "name": "クリングメーネ",
     "target_id": 90,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 77,
@@ -1741,7 +2109,11 @@
     "recipe_id": 93,
     "name": "ヤマネコの槍",
     "target_id": 92,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 77,
@@ -1760,7 +2132,11 @@
     "recipe_id": 94,
     "name": "かぼちゃドール",
     "target_id": 47,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 9,
@@ -1779,7 +2155,11 @@
     "recipe_id": 95,
     "name": "フォーチュンライト",
     "target_id": 112,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 87,
@@ -1798,7 +2178,11 @@
     "recipe_id": 96,
     "name": "陽だまりの杖",
     "target_id": 114,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 89,
@@ -1817,7 +2201,11 @@
     "recipe_id": 97,
     "name": "修練の道標",
     "target_id": 116,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 96,
@@ -1836,7 +2224,11 @@
     "recipe_id": 98,
     "name": "エレメントブレス・火",
     "target_id": 94,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 97,
@@ -1855,7 +2247,11 @@
     "recipe_id": 99,
     "name": "エレメントブレス・氷",
     "target_id": 96,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 75,
@@ -1874,7 +2270,11 @@
     "recipe_id": 100,
     "name": "エレメントブレス・雷",
     "target_id": 98,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 76,
@@ -1893,7 +2293,11 @@
     "recipe_id": 101,
     "name": "コロッサルエッジ",
     "target_id": 100,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 77,
@@ -1912,7 +2316,11 @@
     "recipe_id": 102,
     "name": "白翼の槍",
     "target_id": 102,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 78,
@@ -1931,7 +2339,11 @@
     "recipe_id": 103,
     "name": "イバラの抱擁",
     "target_id": 49,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 10,
@@ -1955,7 +2367,11 @@
     "recipe_id": 104,
     "name": "ワンダーミステル・火",
     "target_id": 104,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 88,
@@ -1974,7 +2390,11 @@
     "recipe_id": 105,
     "name": "ワンダーミステル・風",
     "target_id": 106,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 87,
@@ -1993,7 +2413,11 @@
     "recipe_id": 106,
     "name": "氷びし",
     "target_id": 51,
-    "gift_colors": [1, 3, 2],
+    "gift_colors": [
+      1,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 11,
@@ -2017,7 +2441,11 @@
     "recipe_id": 107,
     "name": "ワンダーミステル・氷",
     "target_id": 108,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 96,
@@ -2036,7 +2464,11 @@
     "recipe_id": 108,
     "name": "ワンダーミステル・雷",
     "target_id": 110,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 97,
@@ -2055,7 +2487,11 @@
     "recipe_id": 109,
     "name": "ブリッツコア",
     "target_id": 53,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 33,
@@ -2079,7 +2515,11 @@
     "recipe_id": 110,
     "name": "生きてるゴミ箱",
     "target_id": 45,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 77,
@@ -2098,7 +2538,11 @@
     "recipe_id": 111,
     "name": "銀糸の鎧",
     "target_id": 126,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 78,
@@ -2117,7 +2561,11 @@
     "recipe_id": 112,
     "name": "ファーデンコート",
     "target_id": 118,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 79,
@@ -2136,7 +2584,11 @@
     "recipe_id": 113,
     "name": "ゴールドジャケット",
     "target_id": 120,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 79,
@@ -2155,7 +2607,11 @@
     "recipe_id": 114,
     "name": "金刺繍のコート",
     "target_id": 122,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 87,
@@ -2174,7 +2630,11 @@
     "recipe_id": 115,
     "name": "シャレードルマント",
     "target_id": 124,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 89,
@@ -2193,7 +2653,11 @@
     "recipe_id": 116,
     "name": "ヒロイックガイスト",
     "target_id": 75,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 66,
@@ -2212,7 +2676,11 @@
     "recipe_id": 117,
     "name": "万物の写本",
     "target_id": 73,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 54,
@@ -2231,7 +2699,11 @@
     "recipe_id": 118,
     "name": "精霊のローブ",
     "target_id": 128,
-    "gift_colors": [4, 3, 1],
+    "gift_colors": [
+      4,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 74,
@@ -2255,7 +2727,11 @@
     "recipe_id": 119,
     "name": "旅の羽衣",
     "target_id": 130,
-    "gift_colors": [2, 1, 5],
+    "gift_colors": [
+      2,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 95,
@@ -2274,7 +2750,11 @@
     "recipe_id": 120,
     "name": "妖精の羽衣・火",
     "target_id": 132,
-    "gift_colors": [1, 5, 3],
+    "gift_colors": [
+      1,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 88,
@@ -2293,7 +2773,11 @@
     "recipe_id": 121,
     "name": "妖精の羽衣・風",
     "target_id": 134,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 9,
@@ -2312,7 +2796,11 @@
     "recipe_id": 122,
     "name": "妖精の羽衣・氷",
     "target_id": 136,
-    "gift_colors": [1, 5, 2],
+    "gift_colors": [
+      1,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 42,
@@ -2331,7 +2819,11 @@
     "recipe_id": 123,
     "name": "妖薬エボニアル",
     "target_id": 77,
-    "gift_colors": [1, 5, 3],
+    "gift_colors": [
+      1,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 165,
@@ -2350,7 +2842,11 @@
     "recipe_id": 124,
     "name": "廻る魔剣",
     "target_id": 79,
-    "gift_colors": [4, 5, 2],
+    "gift_colors": [
+      4,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 143,
@@ -2369,7 +2865,11 @@
     "recipe_id": 125,
     "name": "トランヒールサルヴ",
     "target_id": 81,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 150,
@@ -2393,7 +2893,11 @@
     "recipe_id": 126,
     "name": "ドナークリスタル",
     "target_id": 83,
-    "gift_colors": [4, 3, 5],
+    "gift_colors": [
+      4,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 169,
@@ -2417,7 +2921,11 @@
     "recipe_id": 127,
     "name": "破壊の秘薬",
     "target_id": 85,
-    "gift_colors": [2, 1, 3],
+    "gift_colors": [
+      2,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 170,
@@ -2441,7 +2949,11 @@
     "recipe_id": 128,
     "name": "波打つ刺剣",
     "target_id": 138,
-    "gift_colors": [4, 1, 2],
+    "gift_colors": [
+      4,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 165,
@@ -2460,7 +2972,11 @@
     "recipe_id": 129,
     "name": "クレプスクルン",
     "target_id": 140,
-    "gift_colors": [2, 5, 3],
+    "gift_colors": [
+      2,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 166,
@@ -2479,7 +2995,11 @@
     "recipe_id": 130,
     "name": "神速のブーツ",
     "target_id": 142,
-    "gift_colors": [4, 1, 5],
+    "gift_colors": [
+      4,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 143,
@@ -2498,7 +3018,11 @@
     "recipe_id": 131,
     "name": "ミシカルリング",
     "target_id": 144,
-    "gift_colors": [2, 1, 3],
+    "gift_colors": [
+      2,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 145,
@@ -2517,7 +3041,11 @@
     "recipe_id": 132,
     "name": "ベルベットレイヤード・斬",
     "target_id": 146,
-    "gift_colors": [4, 1, 3],
+    "gift_colors": [
+      4,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 167,
@@ -2536,7 +3064,11 @@
     "recipe_id": 133,
     "name": "雷鳴の鎧",
     "target_id": 148,
-    "gift_colors": [5, 1, 2],
+    "gift_colors": [
+      5,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 144,
@@ -2555,7 +3087,11 @@
     "recipe_id": 134,
     "name": "氷霧の鎧",
     "target_id": 150,
-    "gift_colors": [2, 4, 3],
+    "gift_colors": [
+      2,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 168,
@@ -2574,7 +3110,11 @@
     "recipe_id": 135,
     "name": "ベルベットレイヤード・打",
     "target_id": 152,
-    "gift_colors": [3, 5, 4],
+    "gift_colors": [
+      3,
+      5,
+      4
+    ],
     "materials": [
       {
         "id": 168,
@@ -2593,7 +3133,11 @@
     "recipe_id": 136,
     "name": "鋼鉄弓",
     "target_id": 154,
-    "gift_colors": [5, 4, 2],
+    "gift_colors": [
+      5,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 148,
@@ -2612,7 +3156,11 @@
     "recipe_id": 137,
     "name": "フローリッシュハート",
     "target_id": 156,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 152,
@@ -2636,7 +3184,11 @@
     "recipe_id": 138,
     "name": "炎熱の鎧",
     "target_id": 158,
-    "gift_colors": [4, 5, 1],
+    "gift_colors": [
+      4,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 154,
@@ -2660,7 +3212,11 @@
     "recipe_id": 139,
     "name": "風凪の鎧",
     "target_id": 160,
-    "gift_colors": [4, 1, 2],
+    "gift_colors": [
+      4,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 156,
@@ -2684,7 +3240,11 @@
     "recipe_id": 140,
     "name": "ベルベットレイヤード・突",
     "target_id": 162,
-    "gift_colors": [5, 3, 4],
+    "gift_colors": [
+      5,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 155,
@@ -2708,7 +3268,11 @@
     "recipe_id": 141,
     "name": "白熱はちまき",
     "target_id": 164,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 171,
@@ -2727,7 +3291,11 @@
     "recipe_id": 142,
     "name": "グローリーベルト",
     "target_id": 166,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 164,
@@ -2751,7 +3319,11 @@
     "recipe_id": 143,
     "name": "鋼の杖",
     "target_id": 168,
-    "gift_colors": [5, 2, 3],
+    "gift_colors": [
+      5,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 175,
@@ -2765,7 +3337,11 @@
     "recipe_id": 144,
     "name": "ミーミルの杖",
     "target_id": 170,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 175,
@@ -2779,7 +3355,11 @@
     "recipe_id": 145,
     "name": "鋼の鎧",
     "target_id": 172,
-    "gift_colors": [5, 4, 3],
+    "gift_colors": [
+      5,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 176,
@@ -2793,7 +3373,11 @@
     "recipe_id": 146,
     "name": "輝く絹の服",
     "target_id": 174,
-    "gift_colors": [1, 3, 2],
+    "gift_colors": [
+      1,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 176,
@@ -2807,7 +3391,11 @@
     "recipe_id": 147,
     "name": "パルフューム",
     "target_id": 176,
-    "gift_colors": [5, 4, 1],
+    "gift_colors": [
+      5,
+      4,
+      1
+    ],
     "materials": [
       {
         "id": 177,
@@ -2821,7 +3409,11 @@
     "recipe_id": 148,
     "name": "安らぎのマフラー",
     "target_id": 178,
-    "gift_colors": [4, 1, 2],
+    "gift_colors": [
+      4,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 177,
@@ -2835,7 +3427,11 @@
     "recipe_id": 149,
     "name": "プリンセスステッキ",
     "target_id": 180,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 182,
@@ -2849,7 +3445,11 @@
     "recipe_id": 150,
     "name": "勇者の剣",
     "target_id": 182,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 182,
@@ -2863,7 +3463,11 @@
     "recipe_id": 151,
     "name": "プリンセスドレス",
     "target_id": 184,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 183,
@@ -2877,7 +3481,11 @@
     "recipe_id": 152,
     "name": "勇者の鎧",
     "target_id": 186,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 183,
@@ -2891,7 +3499,11 @@
     "recipe_id": 153,
     "name": "プリンセスティアラ",
     "target_id": 188,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 182,
@@ -2910,7 +3522,11 @@
     "recipe_id": 154,
     "name": "勇者のお守り",
     "target_id": 190,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 182,
@@ -2929,7 +3545,11 @@
     "recipe_id": 155,
     "name": "魔女の剣",
     "target_id": 192,
-    "gift_colors": [1, 5, 4],
+    "gift_colors": [
+      1,
+      5,
+      4
+    ],
     "materials": [
       {
         "id": 189,
@@ -2943,7 +3563,11 @@
     "recipe_id": 156,
     "name": "吸血鬼の杖",
     "target_id": 194,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 189,
@@ -2957,7 +3581,11 @@
     "recipe_id": 157,
     "name": "魔女の服",
     "target_id": 196,
-    "gift_colors": [3, 4, 2],
+    "gift_colors": [
+      3,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 189,
@@ -2971,7 +3599,11 @@
     "recipe_id": 158,
     "name": "吸血鬼のマント",
     "target_id": 198,
-    "gift_colors": [5, 1, 4],
+    "gift_colors": [
+      5,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 189,
@@ -2985,7 +3617,11 @@
     "recipe_id": 159,
     "name": "魔女のお面",
     "target_id": 200,
-    "gift_colors": [4, 2, 1],
+    "gift_colors": [
+      4,
+      2,
+      1
+    ],
     "materials": [
       {
         "id": 189,
@@ -2999,7 +3635,11 @@
     "recipe_id": 160,
     "name": "吸血鬼のブローチ",
     "target_id": 202,
-    "gift_colors": [3, 5, 1],
+    "gift_colors": [
+      3,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 189,
@@ -3013,7 +3653,11 @@
     "recipe_id": 161,
     "name": "プロテクトパウダー",
     "target_id": 87,
-    "gift_colors": [4, 3, 5],
+    "gift_colors": [
+      4,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 221,
@@ -3032,7 +3676,11 @@
     "recipe_id": 162,
     "name": "まじないほうき",
     "target_id": 204,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 221,
@@ -3051,7 +3699,11 @@
     "recipe_id": 163,
     "name": "メタルターナー",
     "target_id": 206,
-    "gift_colors": [3, 1, 4],
+    "gift_colors": [
+      3,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 222,
@@ -3070,7 +3722,11 @@
     "recipe_id": 164,
     "name": "羽根飾り",
     "target_id": 208,
-    "gift_colors": [4, 5, 2],
+    "gift_colors": [
+      4,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 207,
@@ -3089,7 +3745,11 @@
     "recipe_id": 165,
     "name": "神秘のタリスマン",
     "target_id": 210,
-    "gift_colors": [2, 4, 1],
+    "gift_colors": [
+      2,
+      4,
+      1
+    ],
     "materials": [
       {
         "id": 199,
@@ -3108,7 +3768,11 @@
     "recipe_id": 166,
     "name": "シュタルレヘルン",
     "target_id": 93,
-    "gift_colors": [5, 3, 2],
+    "gift_colors": [
+      5,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 207,
@@ -3127,7 +3791,11 @@
     "recipe_id": 167,
     "name": "さすらい人の服",
     "target_id": 212,
-    "gift_colors": [3, 4, 2],
+    "gift_colors": [
+      3,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 223,
@@ -3146,7 +3814,11 @@
     "recipe_id": 168,
     "name": "薬草のポンチョ",
     "target_id": 214,
-    "gift_colors": [5, 1, 3],
+    "gift_colors": [
+      5,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 217,
@@ -3165,7 +3837,11 @@
     "recipe_id": 169,
     "name": "オーレスケイル",
     "target_id": 216,
-    "gift_colors": [5, 3, 2],
+    "gift_colors": [
+      5,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 224,
@@ -3184,7 +3860,11 @@
     "recipe_id": 170,
     "name": "デイフーガ",
     "target_id": 218,
-    "gift_colors": [2, 1, 5],
+    "gift_colors": [
+      2,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 224,
@@ -3208,7 +3888,11 @@
     "recipe_id": 171,
     "name": "カクテルレープ",
     "target_id": 91,
-    "gift_colors": [3, 1, 4],
+    "gift_colors": [
+      3,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 218,
@@ -3227,7 +3911,11 @@
     "recipe_id": 172,
     "name": "ラーヴァキューブ",
     "target_id": 89,
-    "gift_colors": [4, 3, 5],
+    "gift_colors": [
+      4,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 225,
@@ -3251,7 +3939,11 @@
     "recipe_id": 173,
     "name": "コールドハンマー",
     "target_id": 220,
-    "gift_colors": [5, 3, 2],
+    "gift_colors": [
+      5,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 200,
@@ -3270,7 +3962,11 @@
     "recipe_id": 174,
     "name": "ラギーソード",
     "target_id": 222,
-    "gift_colors": [4, 5, 3],
+    "gift_colors": [
+      4,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 218,
@@ -3294,7 +3990,11 @@
     "recipe_id": 175,
     "name": "詰め合わせキャンディ",
     "target_id": 95,
-    "gift_colors": [4, 1, 5],
+    "gift_colors": [
+      4,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 226,
@@ -3318,7 +4018,11 @@
     "recipe_id": 176,
     "name": "スケイルアーマー",
     "target_id": 224,
-    "gift_colors": [5, 1, 4],
+    "gift_colors": [
+      5,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 206,
@@ -3342,7 +4046,11 @@
     "recipe_id": 177,
     "name": "ナチュラルコート",
     "target_id": 226,
-    "gift_colors": [4, 1, 3],
+    "gift_colors": [
+      4,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 202,
@@ -3361,7 +4069,11 @@
     "recipe_id": 178,
     "name": "ダークレザー",
     "target_id": 228,
-    "gift_colors": [1, 5, 3],
+    "gift_colors": [
+      1,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 210,
@@ -3385,7 +4097,11 @@
     "recipe_id": 179,
     "name": "オルフィックリング・氷",
     "target_id": 230,
-    "gift_colors": [5, 3, 2],
+    "gift_colors": [
+      5,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 227,
@@ -3404,7 +4120,11 @@
     "recipe_id": 180,
     "name": "オルフィックリング・雷",
     "target_id": 232,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 213,
@@ -3428,7 +4148,11 @@
     "recipe_id": 181,
     "name": "ビギナースタッフ",
     "target_id": 234,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 231,
@@ -3442,7 +4166,11 @@
     "recipe_id": 182,
     "name": "ブラッディクロー",
     "target_id": 236,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 231,
@@ -3456,7 +4184,11 @@
     "recipe_id": 183,
     "name": "幻月の服",
     "target_id": 238,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 232,
@@ -3470,7 +4202,11 @@
     "recipe_id": 184,
     "name": "ハードローブ",
     "target_id": 240,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 232,
@@ -3484,7 +4220,11 @@
     "recipe_id": 185,
     "name": "ナックルガード",
     "target_id": 242,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 231,
@@ -3503,7 +4243,11 @@
     "recipe_id": 186,
     "name": "アンジュパリュール",
     "target_id": 244,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 231,
@@ -3522,7 +4266,11 @@
     "recipe_id": 187,
     "name": "さすらう地球儀",
     "target_id": 97,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 233,
@@ -3536,7 +4284,11 @@
     "recipe_id": 188,
     "name": "ヘリオプロクス",
     "target_id": 246,
-    "gift_colors": [3, 1, 5],
+    "gift_colors": [
+      3,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 246,
@@ -3550,7 +4302,11 @@
     "recipe_id": 189,
     "name": "森番鐘",
     "target_id": 248,
-    "gift_colors": [4, 5, 2],
+    "gift_colors": [
+      4,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 246,
@@ -3564,7 +4320,11 @@
     "recipe_id": 190,
     "name": "ソルジャーキュイラス",
     "target_id": 250,
-    "gift_colors": [5, 3, 1],
+    "gift_colors": [
+      5,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 247,
@@ -3578,7 +4338,11 @@
     "recipe_id": 191,
     "name": "ゴールデンメイル",
     "target_id": 252,
-    "gift_colors": [4, 2, 3],
+    "gift_colors": [
+      4,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 247,
@@ -3592,7 +4356,11 @@
     "recipe_id": 192,
     "name": "魔石のチェイン",
     "target_id": 254,
-    "gift_colors": [1, 4, 3],
+    "gift_colors": [
+      1,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 248,
@@ -3606,7 +4374,11 @@
     "recipe_id": 193,
     "name": "バロンズクラウン",
     "target_id": 256,
-    "gift_colors": [2, 5, 1],
+    "gift_colors": [
+      2,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 248,
@@ -3620,7 +4392,11 @@
     "recipe_id": 194,
     "name": "頼れる錬金術士の杖",
     "target_id": 258,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 68,
@@ -3639,7 +4415,11 @@
     "recipe_id": 195,
     "name": "グラスビーンズ",
     "target_id": 99,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 23,
@@ -3658,7 +4438,11 @@
     "recipe_id": 196,
     "name": "クーケンスウェット",
     "target_id": 261,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 76,
@@ -3677,7 +4461,11 @@
     "recipe_id": 197,
     "name": "退魔のブローチ",
     "target_id": 259,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 85,
@@ -3696,7 +4484,11 @@
     "recipe_id": 198,
     "name": "栄養剤",
     "target_id": 104,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 275,
@@ -3715,7 +4507,11 @@
     "recipe_id": 199,
     "name": "トネルアッシュ",
     "target_id": 263,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 275,
@@ -3734,7 +4530,11 @@
     "recipe_id": 200,
     "name": "グランドプレート",
     "target_id": 265,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 276,
@@ -3753,7 +4553,11 @@
     "recipe_id": 201,
     "name": "バイタルペンダント",
     "target_id": 267,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 276,
@@ -3772,7 +4576,11 @@
     "recipe_id": 202,
     "name": "禁じられた秘薬",
     "target_id": 106,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 253,
@@ -3791,7 +4599,11 @@
     "recipe_id": 203,
     "name": "クリーガーズタロン",
     "target_id": 269,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 277,
@@ -3810,7 +4622,11 @@
     "recipe_id": 204,
     "name": "ライトベスト",
     "target_id": 271,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 260,
@@ -3829,7 +4645,11 @@
     "recipe_id": 205,
     "name": "ヒートアップバングル",
     "target_id": 273,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 278,
@@ -3848,7 +4668,11 @@
     "recipe_id": 206,
     "name": "神剃丸",
     "target_id": 275,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 277,
@@ -3872,7 +4696,11 @@
     "recipe_id": 207,
     "name": "アーツサマリー",
     "target_id": 277,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 278,
@@ -3896,7 +4724,11 @@
     "recipe_id": 208,
     "name": "リフュールボトル",
     "target_id": 108,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 257,
@@ -3915,7 +4747,11 @@
     "recipe_id": 209,
     "name": "放電管",
     "target_id": 110,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 279,
@@ -3939,7 +4775,11 @@
     "recipe_id": 210,
     "name": "真紅の皮鎧",
     "target_id": 279,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 268,
@@ -3958,7 +4798,11 @@
     "recipe_id": 211,
     "name": "疾走シャツ",
     "target_id": 281,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 257,
@@ -3982,7 +4826,11 @@
     "recipe_id": 212,
     "name": "守護女神の盾",
     "target_id": 112,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 280,
@@ -4006,7 +4854,11 @@
     "recipe_id": 213,
     "name": "エレメントガード",
     "target_id": 283,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 270,
@@ -4030,7 +4882,11 @@
     "recipe_id": 214,
     "name": "ファンシーリング",
     "target_id": 285,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 263,
@@ -4054,7 +4910,11 @@
     "recipe_id": 215,
     "name": "ビビットマフラー",
     "target_id": 287,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 256,
@@ -4078,7 +4938,11 @@
     "recipe_id": 216,
     "name": "オルフィックリング・火",
     "target_id": 289,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 281,
@@ -4097,7 +4961,11 @@
     "recipe_id": 217,
     "name": "オルフィックリング・風",
     "target_id": 291,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 259,
@@ -4121,7 +4989,11 @@
     "recipe_id": 218,
     "name": "解の魔導書・火",
     "target_id": 298,
-    "gift_colors": [4, 1, 5],
+    "gift_colors": [
+      4,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 9,
@@ -4145,7 +5017,11 @@
     "recipe_id": 219,
     "name": "解の魔導書・氷",
     "target_id": 300,
-    "gift_colors": [3, 2, 1],
+    "gift_colors": [
+      3,
+      2,
+      1
+    ],
     "materials": [
       {
         "id": 31,
@@ -4169,7 +5045,11 @@
     "recipe_id": 220,
     "name": "解の魔導書・雷",
     "target_id": 304,
-    "gift_colors": [5, 4, 2],
+    "gift_colors": [
+      5,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 42,
@@ -4193,7 +5073,11 @@
     "recipe_id": 221,
     "name": "解の魔導書・風",
     "target_id": 302,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 10,
@@ -4217,7 +5101,11 @@
     "recipe_id": 222,
     "name": "アブシュナイデン",
     "target_id": 306,
-    "gift_colors": [5, 2, 4],
+    "gift_colors": [
+      5,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 20,
@@ -4241,7 +5129,11 @@
     "recipe_id": 223,
     "name": "ザシュテーレン",
     "target_id": 308,
-    "gift_colors": [3, 5, 2],
+    "gift_colors": [
+      3,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 278,
@@ -4265,7 +5157,11 @@
     "recipe_id": 224,
     "name": "ドヒドリンゲン",
     "target_id": 310,
-    "gift_colors": [4, 3, 1],
+    "gift_colors": [
+      4,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 10,
@@ -4289,7 +5185,11 @@
     "recipe_id": 225,
     "name": "ロイヤルティローブ",
     "target_id": 354,
-    "gift_colors": [1, 3, 2],
+    "gift_colors": [
+      1,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 21,
@@ -4313,7 +5213,11 @@
     "recipe_id": 226,
     "name": "チャスティティローブ",
     "target_id": 356,
-    "gift_colors": [4, 5, 3],
+    "gift_colors": [
+      4,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 55,
@@ -4337,7 +5241,11 @@
     "recipe_id": 227,
     "name": "トレランスローブ",
     "target_id": 358,
-    "gift_colors": [3, 4, 2],
+    "gift_colors": [
+      3,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 64,
@@ -4361,7 +5269,11 @@
     "recipe_id": 228,
     "name": "デリジェンスローブ",
     "target_id": 360,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 11,
@@ -4385,7 +5297,11 @@
     "recipe_id": 229,
     "name": "センシブルローブ",
     "target_id": 362,
-    "gift_colors": [5, 1, 4],
+    "gift_colors": [
+      5,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 22,
@@ -4409,7 +5325,11 @@
     "recipe_id": 230,
     "name": "テンペランスローブ",
     "target_id": 364,
-    "gift_colors": [2, 3, 1],
+    "gift_colors": [
+      2,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 65,
@@ -4433,7 +5353,11 @@
     "recipe_id": 231,
     "name": "メルシーローブ",
     "target_id": 366,
-    "gift_colors": [4, 5, 2],
+    "gift_colors": [
+      4,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 11,
@@ -4457,7 +5381,11 @@
     "recipe_id": 232,
     "name": "伝承のエリキシル剤",
     "target_id": 114,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 9,
@@ -4481,7 +5409,11 @@
     "recipe_id": 233,
     "name": "伝承の教典",
     "target_id": 116,
-    "gift_colors": [5, 4, 2],
+    "gift_colors": [
+      5,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 42,
@@ -4505,7 +5437,11 @@
     "recipe_id": 234,
     "name": "伝承の呪術書",
     "target_id": 118,
-    "gift_colors": [3, 1, 4],
+    "gift_colors": [
+      3,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 20,
@@ -4529,7 +5465,11 @@
     "recipe_id": 235,
     "name": "プライドリング",
     "target_id": 326,
-    "gift_colors": [3, 5, 4],
+    "gift_colors": [
+      3,
+      5,
+      4
+    ],
     "materials": [
       {
         "id": 43,
@@ -4553,7 +5493,11 @@
     "recipe_id": 236,
     "name": "エンヴィーリング",
     "target_id": 328,
-    "gift_colors": [1, 3, 2],
+    "gift_colors": [
+      1,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 53,
@@ -4577,7 +5521,11 @@
     "recipe_id": 237,
     "name": "スロースリング",
     "target_id": 332,
-    "gift_colors": [4, 5, 1],
+    "gift_colors": [
+      4,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 66,
@@ -4601,7 +5549,11 @@
     "recipe_id": 238,
     "name": "ウォラスリング",
     "target_id": 330,
-    "gift_colors": [3, 1, 2],
+    "gift_colors": [
+      3,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 33,
@@ -4625,7 +5577,11 @@
     "recipe_id": 239,
     "name": "グリードリング",
     "target_id": 334,
-    "gift_colors": [2, 4, 3],
+    "gift_colors": [
+      2,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 44,
@@ -4649,7 +5605,11 @@
     "recipe_id": 240,
     "name": "グラトニーリング",
     "target_id": 336,
-    "gift_colors": [1, 5, 2],
+    "gift_colors": [
+      1,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 54,
@@ -4673,7 +5633,11 @@
     "recipe_id": 241,
     "name": "ラストリング",
     "target_id": 338,
-    "gift_colors": [3, 2, 4],
+    "gift_colors": [
+      3,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 33,
@@ -4697,7 +5661,11 @@
     "recipe_id": 242,
     "name": "天恵の杖",
     "target_id": 312,
-    "gift_colors": [5, 4, 3],
+    "gift_colors": [
+      5,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 160,
@@ -4721,7 +5689,11 @@
     "recipe_id": 243,
     "name": "冥護の杖",
     "target_id": 314,
-    "gift_colors": [2, 1, 3],
+    "gift_colors": [
+      2,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 159,
@@ -4745,7 +5717,11 @@
     "recipe_id": 244,
     "name": "神助の杖",
     "target_id": 318,
-    "gift_colors": [4, 5, 2],
+    "gift_colors": [
+      4,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 161,
@@ -4769,7 +5745,11 @@
     "recipe_id": 245,
     "name": "聖寵の杖",
     "target_id": 316,
-    "gift_colors": [5, 3, 1],
+    "gift_colors": [
+      5,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 164,
@@ -4793,7 +5773,11 @@
     "recipe_id": 246,
     "name": "エルドへヴァイス",
     "target_id": 320,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 163,
@@ -4817,7 +5801,11 @@
     "recipe_id": 247,
     "name": "シュターカヴィレ",
     "target_id": 322,
-    "gift_colors": [1, 3, 2],
+    "gift_colors": [
+      1,
+      3,
+      2
+    ],
     "materials": [
       {
         "id": 162,
@@ -4841,7 +5829,11 @@
     "recipe_id": 248,
     "name": "エーヴィヒエーレ",
     "target_id": 324,
-    "gift_colors": [1, 5, 4],
+    "gift_colors": [
+      1,
+      5,
+      4
+    ],
     "materials": [
       {
         "id": 164,
@@ -4865,7 +5857,11 @@
     "recipe_id": 249,
     "name": "幻重鎧グランツ",
     "target_id": 368,
-    "gift_colors": [2, 5, 3],
+    "gift_colors": [
+      2,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 206,
@@ -4889,7 +5885,11 @@
     "recipe_id": 250,
     "name": "幻重鎧ラヴィーネ",
     "target_id": 370,
-    "gift_colors": [4, 1, 2],
+    "gift_colors": [
+      4,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 210,
@@ -4913,7 +5913,11 @@
     "recipe_id": 251,
     "name": "幻重鎧シュバルツ",
     "target_id": 374,
-    "gift_colors": [3, 2, 5],
+    "gift_colors": [
+      3,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 202,
@@ -4937,7 +5941,11 @@
     "recipe_id": 252,
     "name": "幻重鎧エルフォルク",
     "target_id": 372,
-    "gift_colors": [5, 4, 1],
+    "gift_colors": [
+      5,
+      4,
+      1
+    ],
     "materials": [
       {
         "id": 220,
@@ -4961,7 +5969,11 @@
     "recipe_id": 253,
     "name": "幻重鎧フライハイト",
     "target_id": 376,
-    "gift_colors": [2, 3, 1],
+    "gift_colors": [
+      2,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 216,
@@ -4985,7 +5997,11 @@
     "recipe_id": 254,
     "name": "幻重鎧フリーデン",
     "target_id": 378,
-    "gift_colors": [5, 3, 4],
+    "gift_colors": [
+      5,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 213,
@@ -5009,7 +6025,11 @@
     "recipe_id": 255,
     "name": "幻重鎧トロイメライ",
     "target_id": 380,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 220,
@@ -5033,7 +6053,11 @@
     "recipe_id": 256,
     "name": "オリジンネックレス・火",
     "target_id": 340,
-    "gift_colors": [4, 1, 3],
+    "gift_colors": [
+      4,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 256,
@@ -5057,7 +6081,11 @@
     "recipe_id": 257,
     "name": "オリジンネックレス・氷",
     "target_id": 342,
-    "gift_colors": [3, 1, 5],
+    "gift_colors": [
+      3,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 270,
@@ -5081,7 +6109,11 @@
     "recipe_id": 258,
     "name": "オリジンネックレス・雷",
     "target_id": 346,
-    "gift_colors": [5, 4, 2],
+    "gift_colors": [
+      5,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 263,
@@ -5105,7 +6137,11 @@
     "recipe_id": 259,
     "name": "オリジンネックレス・風",
     "target_id": 344,
-    "gift_colors": [3, 2, 1],
+    "gift_colors": [
+      3,
+      2,
+      1
+    ],
     "materials": [
       {
         "id": 259,
@@ -5129,7 +6165,11 @@
     "recipe_id": 260,
     "name": "オリジンネックレス・斬",
     "target_id": 348,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 266,
@@ -5153,7 +6193,11 @@
     "recipe_id": 261,
     "name": "オリジンネックレス・打",
     "target_id": 350,
-    "gift_colors": [4, 3, 5],
+    "gift_colors": [
+      4,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 274,
@@ -5177,7 +6221,11 @@
     "recipe_id": 262,
     "name": "オリジンネックレス・突",
     "target_id": 352,
-    "gift_colors": [4, 5, 2],
+    "gift_colors": [
+      4,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 259,
@@ -5201,7 +6249,11 @@
     "recipe_id": 263,
     "name": "フレアノヴァフラム",
     "target_id": 120,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 256,
@@ -5225,7 +6277,11 @@
     "recipe_id": 264,
     "name": "ブリザードレヘルン",
     "target_id": 122,
-    "gift_colors": [2, 4, 3],
+    "gift_colors": [
+      2,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 270,
@@ -5249,7 +6305,11 @@
     "recipe_id": 265,
     "name": "トルネードルフト",
     "target_id": 126,
-    "gift_colors": [5, 3, 1],
+    "gift_colors": [
+      5,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 263,
@@ -5273,7 +6333,11 @@
     "recipe_id": 266,
     "name": "グングニルプラジグ",
     "target_id": 124,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 259,
@@ -5297,7 +6361,11 @@
     "recipe_id": 267,
     "name": "シュレッドディザスター",
     "target_id": 128,
-    "gift_colors": [2, 5, 1],
+    "gift_colors": [
+      2,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 266,
@@ -5321,7 +6389,11 @@
     "recipe_id": 268,
     "name": "ディスペアカノン",
     "target_id": 130,
-    "gift_colors": [4, 2, 3],
+    "gift_colors": [
+      4,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 274,
@@ -5345,7 +6417,11 @@
     "recipe_id": 269,
     "name": "カタストクラフト",
     "target_id": 132,
-    "gift_colors": [3, 1, 5],
+    "gift_colors": [
+      3,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 164,
@@ -5369,7 +6445,11 @@
     "recipe_id": 270,
     "name": "爆粉うに",
     "target_id": 100,
-    "gift_colors": [4, 1, 3],
+    "gift_colors": [
+      4,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 67,
@@ -5388,7 +6468,11 @@
     "recipe_id": 271,
     "name": "旅人のコート",
     "target_id": 293,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 69,
@@ -5407,7 +6491,11 @@
     "recipe_id": 272,
     "name": "ヘヴィブルワーク",
     "target_id": 294,
-    "gift_colors": [5, 4, 1],
+    "gift_colors": [
+      5,
+      4,
+      1
+    ],
     "materials": [
       {
         "id": 95,
@@ -5426,7 +6514,11 @@
     "recipe_id": 273,
     "name": "メモリアブレスレット",
     "target_id": 296,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 170,
@@ -5445,7 +6537,11 @@
     "recipe_id": 274,
     "name": "クラフトリオ",
     "target_id": 101,
-    "gift_colors": [1, 4, 2],
+    "gift_colors": [
+      1,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 279,
@@ -5464,7 +6560,11 @@
     "recipe_id": 275,
     "name": "聖鎚・雨坤波更",
     "target_id": 394,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 225,
@@ -5483,7 +6583,11 @@
     "recipe_id": 276,
     "name": "かく乱の鈴",
     "target_id": 396,
-    "gift_colors": [4, 1, 3],
+    "gift_colors": [
+      4,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 97,
@@ -5502,7 +6606,11 @@
     "recipe_id": 277,
     "name": "異国の甲冑",
     "target_id": 398,
-    "gift_colors": [1, 5, 2],
+    "gift_colors": [
+      1,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 172,
@@ -5521,7 +6629,11 @@
     "recipe_id": 278,
     "name": "ゆらぎの毒煙",
     "target_id": 102,
-    "gift_colors": [4, 1, 2],
+    "gift_colors": [
+      4,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 228,
@@ -5540,7 +6652,11 @@
     "recipe_id": 279,
     "name": "アスラドーナツ",
     "target_id": 103,
-    "gift_colors": [4, 3, 5],
+    "gift_colors": [
+      4,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 280,
@@ -5559,7 +6675,11 @@
     "recipe_id": 280,
     "name": "情熱の使者ステッキ",
     "target_id": 382,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 291,
@@ -5573,7 +6693,11 @@
     "recipe_id": 281,
     "name": "静穏の使者ブレード",
     "target_id": 388,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 291,
@@ -5587,7 +6711,11 @@
     "recipe_id": 282,
     "name": "情熱の使者コート",
     "target_id": 384,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 292,
@@ -5601,7 +6729,11 @@
     "recipe_id": 283,
     "name": "静穏の使者コート",
     "target_id": 390,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 292,
@@ -5615,7 +6747,11 @@
     "recipe_id": 284,
     "name": "情熱の使者ブーツ",
     "target_id": 386,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 293,
@@ -5629,7 +6765,11 @@
     "recipe_id": 285,
     "name": "静穏の使者ブーツ",
     "target_id": 392,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 293,
@@ -5643,7 +6783,11 @@
     "recipe_id": 286,
     "name": "福の杖",
     "target_id": 400,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 299,
@@ -5657,7 +6801,11 @@
     "recipe_id": 287,
     "name": "寿の杵",
     "target_id": 406,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 299,
@@ -5671,7 +6819,11 @@
     "recipe_id": 288,
     "name": "福の振袖",
     "target_id": 402,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 300,
@@ -5685,7 +6837,11 @@
     "recipe_id": 289,
     "name": "寿の羽織",
     "target_id": 408,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 300,
@@ -5699,7 +6855,11 @@
     "recipe_id": 290,
     "name": "福のしめ縄",
     "target_id": 404,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 301,
@@ -5713,7 +6873,11 @@
     "recipe_id": 291,
     "name": "寿のぽち袋",
     "target_id": 410,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 301,
@@ -5727,7 +6891,11 @@
     "recipe_id": 292,
     "name": "小悪魔のいたずら",
     "target_id": 137,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 335,
@@ -5746,7 +6914,11 @@
     "recipe_id": 293,
     "name": "トゥルビヨン",
     "target_id": 412,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 335,
@@ -5765,7 +6937,11 @@
     "recipe_id": 294,
     "name": "無彩色のローブ",
     "target_id": 414,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 336,
@@ -5789,7 +6965,11 @@
     "recipe_id": 295,
     "name": "青ぷに型チャーム",
     "target_id": 416,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 327,
@@ -5808,7 +6988,11 @@
     "recipe_id": 296,
     "name": "オーカンルフェン",
     "target_id": 139,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 320,
@@ -5832,7 +7016,11 @@
     "recipe_id": 297,
     "name": "薫り高き杖",
     "target_id": 418,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 320,
@@ -5851,7 +7039,11 @@
     "recipe_id": 298,
     "name": "魔法のプレート",
     "target_id": 420,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 337,
@@ -5870,7 +7062,11 @@
     "recipe_id": 299,
     "name": "薬石の耳飾り",
     "target_id": 422,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 331,
@@ -5889,7 +7085,11 @@
     "recipe_id": 300,
     "name": "氷棘箒",
     "target_id": 424,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 338,
@@ -5908,7 +7108,11 @@
     "recipe_id": 301,
     "name": "氷面鏡の弓",
     "target_id": 426,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 338,
@@ -5932,7 +7136,11 @@
     "recipe_id": 302,
     "name": "吸魂ひょうたん",
     "target_id": 141,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 322,
@@ -5956,7 +7164,11 @@
     "recipe_id": 303,
     "name": "ガラスのバラ",
     "target_id": 143,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 339,
@@ -5980,7 +7192,11 @@
     "recipe_id": 304,
     "name": "疾風の小太刀",
     "target_id": 428,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 314,
@@ -5999,7 +7215,11 @@
     "recipe_id": 305,
     "name": "金糸の鎧",
     "target_id": 430,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 315,
@@ -6023,7 +7243,11 @@
     "recipe_id": 306,
     "name": "ストラパール",
     "target_id": 145,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 340,
@@ -6047,7 +7271,11 @@
     "recipe_id": 307,
     "name": "エルドリッチリング・突",
     "target_id": 436,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 318,
@@ -6071,7 +7299,11 @@
     "recipe_id": 308,
     "name": "エルドリッチリング・斬",
     "target_id": 438,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 330,
@@ -6095,7 +7327,11 @@
     "recipe_id": 309,
     "name": "エルドリッチリング・打",
     "target_id": 440,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 325,
@@ -6119,7 +7355,11 @@
     "recipe_id": 310,
     "name": "スタビルスト",
     "target_id": 432,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 341,
@@ -6138,7 +7378,11 @@
     "recipe_id": 311,
     "name": "ストライフシャツ",
     "target_id": 434,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 319,
@@ -6162,7 +7406,11 @@
     "recipe_id": 312,
     "name": "レゾナンスチャイム",
     "target_id": 442,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 346,
@@ -6176,7 +7424,11 @@
     "recipe_id": 313,
     "name": "風よけの外套",
     "target_id": 444,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 346,
@@ -6190,7 +7442,11 @@
     "recipe_id": 314,
     "name": "ガラスのティアラ",
     "target_id": 446,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 347,
@@ -6204,7 +7460,11 @@
     "recipe_id": 315,
     "name": "便利ほうき",
     "target_id": 448,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 347,
@@ -6218,7 +7478,11 @@
     "recipe_id": 316,
     "name": "隕鉄の鎧",
     "target_id": 450,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 348,
@@ -6232,7 +7496,11 @@
     "recipe_id": 317,
     "name": "メタルブーツ",
     "target_id": 452,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 348,
@@ -6246,7 +7514,11 @@
     "recipe_id": 318,
     "name": "テネブルランス",
     "target_id": 149,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 374,
@@ -6265,7 +7537,11 @@
     "recipe_id": 319,
     "name": "トモストリアイナ",
     "target_id": 456,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 374,
@@ -6284,7 +7560,11 @@
     "recipe_id": 320,
     "name": "穢れずの鎧",
     "target_id": 458,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 352,
@@ -6303,7 +7583,11 @@
     "recipe_id": 321,
     "name": "ブレイブマスク",
     "target_id": 460,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 366,
@@ -6322,7 +7606,11 @@
     "recipe_id": 322,
     "name": "スノーブーツ",
     "target_id": 454,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 352,
@@ -6346,7 +7634,11 @@
     "recipe_id": 323,
     "name": "夢幻の羽衣",
     "target_id": 151,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 375,
@@ -6370,7 +7662,11 @@
     "recipe_id": 324,
     "name": "酸の霧雲",
     "target_id": 153,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 370,
@@ -6389,7 +7685,11 @@
     "recipe_id": 325,
     "name": "アービデルトネ",
     "target_id": 462,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 376,
@@ -6408,7 +7708,11 @@
     "recipe_id": 326,
     "name": "アネンドトス",
     "target_id": 464,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 377,
@@ -6427,7 +7731,11 @@
     "recipe_id": 327,
     "name": "招雷の冠",
     "target_id": 466,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 361,
@@ -6451,7 +7759,11 @@
     "recipe_id": 328,
     "name": "みなぎるドリンク",
     "target_id": 147,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 377,
@@ -6475,7 +7787,11 @@
     "recipe_id": 329,
     "name": "烽火の弓",
     "target_id": 468,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 378,
@@ -6499,7 +7815,11 @@
     "recipe_id": 330,
     "name": "サピエンスコート",
     "target_id": 470,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 379,
@@ -6523,7 +7843,11 @@
     "recipe_id": 331,
     "name": "幸運の金貨",
     "target_id": 472,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 354,
@@ -6547,7 +7871,11 @@
     "recipe_id": 332,
     "name": "ピュアアロマ",
     "target_id": 155,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 371,
@@ -6566,7 +7894,11 @@
     "recipe_id": 333,
     "name": "フォルスマハトパワー",
     "target_id": 474,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 357,
@@ -6590,7 +7922,11 @@
     "recipe_id": 334,
     "name": "ボーンプレート",
     "target_id": 476,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 369,
@@ -6609,7 +7945,11 @@
     "recipe_id": 335,
     "name": "ガントレット",
     "target_id": 478,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 364,
@@ -6633,7 +7973,11 @@
     "recipe_id": 336,
     "name": "ハイカラなシャツ",
     "target_id": 480,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 380,
@@ -6652,7 +7996,11 @@
     "recipe_id": 337,
     "name": "緑ぷに型チャーム",
     "target_id": 482,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 358,
@@ -6676,7 +8024,11 @@
     "recipe_id": 338,
     "name": "ハートフルロッド",
     "target_id": 484,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 392,
@@ -6690,7 +8042,11 @@
     "recipe_id": 339,
     "name": "ハートフルコスチューム",
     "target_id": 486,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 392,
@@ -6704,7 +8060,11 @@
     "recipe_id": 340,
     "name": "ハートフルイヤーマフ",
     "target_id": 488,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 393,
@@ -6718,7 +8078,11 @@
     "recipe_id": 341,
     "name": "親愛の剣",
     "target_id": 490,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 393,
@@ -6732,7 +8096,11 @@
     "recipe_id": 342,
     "name": "親愛の鎧",
     "target_id": 492,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 394,
@@ -6746,7 +8114,11 @@
     "recipe_id": 343,
     "name": "親愛のタリスマン",
     "target_id": 494,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 394,
@@ -6760,7 +8132,11 @@
     "recipe_id": 344,
     "name": "まごころチョコレート",
     "target_id": 157,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 392,
@@ -6784,7 +8160,11 @@
     "recipe_id": 345,
     "name": "天使の杖",
     "target_id": 496,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 403,
@@ -6798,7 +8178,11 @@
     "recipe_id": 346,
     "name": "シルキィチェイン",
     "target_id": 498,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 403,
@@ -6812,7 +8196,11 @@
     "recipe_id": 347,
     "name": "勝負師のお守り",
     "target_id": 500,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 404,
@@ -6826,7 +8214,11 @@
     "recipe_id": 348,
     "name": "魔女の杖",
     "target_id": 502,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 404,
@@ -6840,7 +8232,11 @@
     "recipe_id": 349,
     "name": "天使のローブ",
     "target_id": 504,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 405,
@@ -6854,7 +8250,11 @@
     "recipe_id": 350,
     "name": "実影の腕輪",
     "target_id": 506,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 405,
@@ -6868,7 +8268,11 @@
     "recipe_id": 351,
     "name": "高火力錬金大砲",
     "target_id": 159,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 408,
@@ -6887,7 +8291,11 @@
     "recipe_id": 352,
     "name": "凍結破壊爆弾",
     "target_id": 161,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 416,
@@ -6911,7 +8319,11 @@
     "recipe_id": 353,
     "name": "力のトーテム",
     "target_id": 163,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 410,
@@ -6935,7 +8347,11 @@
     "recipe_id": 354,
     "name": "凶兆水",
     "target_id": 165,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 419,
@@ -6954,7 +8370,11 @@
     "recipe_id": 355,
     "name": "ハルベルト",
     "target_id": 508,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 408,
@@ -6973,7 +8393,11 @@
     "recipe_id": 356,
     "name": "クリアレザー",
     "target_id": 510,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 416,
@@ -6997,7 +8421,11 @@
     "recipe_id": 357,
     "name": "音無しの靴",
     "target_id": 512,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 417,
@@ -7021,7 +8449,11 @@
     "recipe_id": 358,
     "name": "オラクルブレイド",
     "target_id": 514,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 411,
@@ -7045,7 +8477,11 @@
     "recipe_id": 359,
     "name": "ファントムレザーメイル",
     "target_id": 516,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 411,
@@ -7064,7 +8500,11 @@
     "recipe_id": 360,
     "name": "戦いの護符",
     "target_id": 518,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 422,
@@ -7088,7 +8528,11 @@
     "recipe_id": 361,
     "name": "ピロソティー",
     "target_id": 167,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 424,
@@ -7107,7 +8551,11 @@
     "recipe_id": 362,
     "name": "アブメイン",
     "target_id": 520,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 412,
@@ -7126,7 +8574,11 @@
     "recipe_id": 363,
     "name": "狂風箒",
     "target_id": 522,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 413,
@@ -7150,7 +8602,11 @@
     "recipe_id": 364,
     "name": "ウィルムソウル",
     "target_id": 524,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 424,
@@ -7174,7 +8630,11 @@
     "recipe_id": 365,
     "name": "コマンダープレート",
     "target_id": 526,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 433,
@@ -7198,7 +8658,11 @@
     "recipe_id": 366,
     "name": "ブリーズドレス",
     "target_id": 528,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 432,
@@ -7222,7 +8686,11 @@
     "recipe_id": 367,
     "name": "シルバージャケット",
     "target_id": 530,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 434,
@@ -7246,7 +8714,11 @@
     "recipe_id": 368,
     "name": "物霊のイヤリング",
     "target_id": 532,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 414,
@@ -7265,7 +8737,11 @@
     "recipe_id": 369,
     "name": "強靱はちまき",
     "target_id": 534,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 433,
@@ -7289,7 +8765,11 @@
     "recipe_id": 370,
     "name": "赤ぷに型チャーム",
     "target_id": 536,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 436,
@@ -7313,7 +8793,11 @@
     "recipe_id": 371,
     "name": "ビギンスリング",
     "target_id": 544,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 412,
@@ -7337,7 +8821,11 @@
     "recipe_id": 372,
     "name": "レゾヌマント",
     "target_id": 546,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 445,
@@ -7356,7 +8844,11 @@
     "recipe_id": 373,
     "name": "霊獣のシッポ",
     "target_id": 548,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 447,
@@ -7380,7 +8872,11 @@
     "recipe_id": 374,
     "name": "ウィズダムハート",
     "target_id": 538,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 413,
@@ -7404,7 +8900,11 @@
     "recipe_id": 375,
     "name": "フリッシュコート",
     "target_id": 540,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 445,
@@ -7423,7 +8923,11 @@
     "recipe_id": 376,
     "name": "フリーズチャーム",
     "target_id": 542,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 447,
@@ -7447,7 +8951,11 @@
     "recipe_id": 377,
     "name": "つけもの石",
     "target_id": 169,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 448,
@@ -7471,7 +8979,11 @@
     "recipe_id": 378,
     "name": "原初の力肉",
     "target_id": 171,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 447,
@@ -7495,7 +9007,11 @@
     "recipe_id": 379,
     "name": "魔法の鎖",
     "target_id": 173,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 458,
@@ -7519,7 +9035,11 @@
     "recipe_id": 380,
     "name": "ファウンダーブーメラン",
     "target_id": 550,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 447,
@@ -7543,7 +9063,11 @@
     "recipe_id": 381,
     "name": "ソフトローブ",
     "target_id": 552,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 462,
@@ -7567,7 +9091,11 @@
     "recipe_id": 382,
     "name": "花ぷに型チャーム",
     "target_id": 554,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 463,
@@ -7586,7 +9114,11 @@
     "recipe_id": 383,
     "name": "鷹の目の弓",
     "target_id": 556,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 447,
@@ -7610,7 +9142,11 @@
     "recipe_id": 384,
     "name": "ゴッデスメイル",
     "target_id": 558,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 461,
@@ -7634,7 +9170,11 @@
     "recipe_id": 385,
     "name": "深緑の羽飾り",
     "target_id": 560,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 463,
@@ -7653,7 +9193,11 @@
     "recipe_id": 386,
     "name": "シェルペルホルン",
     "target_id": 175,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 461,
@@ -7677,7 +9221,11 @@
     "recipe_id": 387,
     "name": "アジルチャクラム",
     "target_id": 177,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 448,
@@ -7701,7 +9249,11 @@
     "recipe_id": 388,
     "name": "勇士の杖",
     "target_id": 562,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 464,
@@ -7725,7 +9277,11 @@
     "recipe_id": 389,
     "name": "勇士の衣",
     "target_id": 564,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 464,
@@ -7749,7 +9305,11 @@
     "recipe_id": 390,
     "name": "勇士の証",
     "target_id": 566,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 464,
@@ -7773,7 +9333,11 @@
     "recipe_id": 391,
     "name": "不屈新入生の杖",
     "target_id": 568,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 480,
@@ -7787,7 +9351,11 @@
     "recipe_id": 392,
     "name": "不屈新入生の制服",
     "target_id": 570,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 480,
@@ -7801,7 +9369,11 @@
     "recipe_id": 393,
     "name": "不屈新入生のシュシュ",
     "target_id": 572,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 481,
@@ -7815,7 +9387,11 @@
     "recipe_id": 394,
     "name": "番長のメリケンサック",
     "target_id": 574,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 481,
@@ -7829,7 +9405,11 @@
     "recipe_id": 395,
     "name": "番長の制服",
     "target_id": 576,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 482,
@@ -7843,7 +9423,11 @@
     "recipe_id": 396,
     "name": "番長のマスク",
     "target_id": 578,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 482,
@@ -7857,7 +9441,11 @@
     "recipe_id": 397,
     "name": "奮励努力の竹刀",
     "target_id": 580,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 480,
@@ -7876,7 +9464,11 @@
     "recipe_id": 398,
     "name": "奮励努力の防具",
     "target_id": 582,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 480,
@@ -7895,7 +9487,11 @@
     "recipe_id": 399,
     "name": "奮励努力のスパイク",
     "target_id": 584,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 481,
@@ -7914,7 +9510,11 @@
     "recipe_id": 400,
     "name": "令嬢の槍",
     "target_id": 586,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 490,
@@ -7928,7 +9528,11 @@
     "recipe_id": 401,
     "name": "令嬢の制服",
     "target_id": 588,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 490,
@@ -7942,7 +9546,11 @@
     "recipe_id": 402,
     "name": "令嬢のソックス",
     "target_id": 590,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 491,
@@ -7956,7 +9564,11 @@
     "recipe_id": 403,
     "name": "試作品うに袋",
     "target_id": 179,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 490,
@@ -7980,7 +9592,11 @@
     "recipe_id": 404,
     "name": "学生応援レッドゼリー",
     "target_id": 181,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 490,
@@ -8004,7 +9620,11 @@
     "recipe_id": 405,
     "name": "ギャルの杖",
     "target_id": 592,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 491,
@@ -8018,7 +9638,11 @@
     "recipe_id": 406,
     "name": "ギャルの制服",
     "target_id": 594,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 492,
@@ -8032,7 +9656,11 @@
     "recipe_id": 407,
     "name": "ギャルのバングル",
     "target_id": 596,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 492,
@@ -8046,7 +9674,11 @@
     "recipe_id": 408,
     "name": "学生応援大盛定食",
     "target_id": 183,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 490,
@@ -8070,7 +9702,11 @@
     "recipe_id": 409,
     "name": "魔物除けスプレー",
     "target_id": 185,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 490,
@@ -8094,7 +9730,11 @@
     "recipe_id": 410,
     "name": "一意専心の巨大鉛筆",
     "target_id": 598,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 490,
@@ -8113,7 +9753,11 @@
     "recipe_id": 411,
     "name": "一意専心の学ラン",
     "target_id": 600,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 490,
@@ -8132,7 +9776,11 @@
     "recipe_id": 412,
     "name": "一意専心の消しゴム",
     "target_id": 602,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 491,
@@ -8151,7 +9799,11 @@
     "recipe_id": 413,
     "name": "委員長の杖",
     "target_id": 604,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 499,
@@ -8165,7 +9817,11 @@
     "recipe_id": 414,
     "name": "試作品ルフト",
     "target_id": 187,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 499,
@@ -8189,7 +9845,11 @@
     "recipe_id": 415,
     "name": "委員長の制服",
     "target_id": 606,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 499,
@@ -8203,7 +9863,11 @@
     "recipe_id": 416,
     "name": "学生応援ブルーゼリー",
     "target_id": 189,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 499,
@@ -8227,7 +9891,11 @@
     "recipe_id": 417,
     "name": "委員長のリボン",
     "target_id": 608,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 500,
@@ -8241,7 +9909,11 @@
     "recipe_id": 418,
     "name": "高嶺の剣",
     "target_id": 610,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 501,
@@ -8255,7 +9927,11 @@
     "recipe_id": 419,
     "name": "高嶺の制服",
     "target_id": 612,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 501,
@@ -8269,7 +9945,11 @@
     "recipe_id": 420,
     "name": "高嶺の手鏡",
     "target_id": 614,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 500,
@@ -8283,7 +9963,11 @@
     "recipe_id": 421,
     "name": "学生応援健康定食",
     "target_id": 191,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 499,
@@ -8307,7 +9991,11 @@
     "recipe_id": 422,
     "name": "魔物集めトラップ",
     "target_id": 193,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 499,
@@ -8331,7 +10019,11 @@
     "recipe_id": 423,
     "name": "清廉潔白の箒",
     "target_id": 616,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 499,
@@ -8350,7 +10042,11 @@
     "recipe_id": 424,
     "name": "清廉潔白のワイシャツ",
     "target_id": 618,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 499,
@@ -8369,7 +10065,11 @@
     "recipe_id": 425,
     "name": "清廉潔白の雑巾",
     "target_id": 620,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 500,
@@ -8388,7 +10088,11 @@
     "recipe_id": 426,
     "name": "温もりの笛",
     "target_id": 622,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 508,
@@ -8402,7 +10106,11 @@
     "recipe_id": 427,
     "name": "温もりの浴衣",
     "target_id": 624,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 508,
@@ -8416,7 +10124,11 @@
     "recipe_id": 428,
     "name": "温もりの下駄",
     "target_id": 626,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 509,
@@ -8430,7 +10142,11 @@
     "recipe_id": 429,
     "name": "寛ぎのうちわ",
     "target_id": 628,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 509,
@@ -8444,7 +10160,11 @@
     "recipe_id": 430,
     "name": "寛ぎの浴衣",
     "target_id": 630,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 510,
@@ -8458,7 +10178,11 @@
     "recipe_id": 431,
     "name": "寛ぎのハンドタオル",
     "target_id": 632,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 510,
@@ -8472,7 +10196,11 @@
     "recipe_id": 432,
     "name": "ブレードナックル",
     "target_id": 676,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 518,
@@ -8491,7 +10219,11 @@
     "recipe_id": 433,
     "name": "ブロンズメイル",
     "target_id": 678,
-    "gift_colors": [2, 5, 3],
+    "gift_colors": [
+      2,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 519,
@@ -8510,7 +10242,11 @@
     "recipe_id": 434,
     "name": "フェーダクナイ",
     "target_id": 197,
-    "gift_colors": [5, 4, 2],
+    "gift_colors": [
+      5,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 528,
@@ -8534,7 +10270,11 @@
     "recipe_id": 435,
     "name": "ヘルスシャツ",
     "target_id": 684,
-    "gift_colors": [3, 1, 2],
+    "gift_colors": [
+      3,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 529,
@@ -8558,7 +10298,11 @@
     "recipe_id": 436,
     "name": "鋭い鉄の杖",
     "target_id": 682,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 521,
@@ -8577,7 +10321,11 @@
     "recipe_id": 437,
     "name": "一つ角のマスケラ",
     "target_id": 680,
-    "gift_colors": [2, 4, 1],
+    "gift_colors": [
+      2,
+      4,
+      1
+    ],
     "materials": [
       {
         "id": 532,
@@ -8601,7 +10349,11 @@
     "recipe_id": 438,
     "name": "生命のバングル",
     "target_id": 686,
-    "gift_colors": [3, 5, 1],
+    "gift_colors": [
+      3,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 531,
@@ -8625,7 +10377,11 @@
     "recipe_id": 439,
     "name": "因果の鎖",
     "target_id": 201,
-    "gift_colors": [5, 2, 3],
+    "gift_colors": [
+      5,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 520,
@@ -8649,7 +10405,11 @@
     "recipe_id": 440,
     "name": "テンペストギア",
     "target_id": 688,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 535,
@@ -8673,7 +10433,11 @@
     "recipe_id": 441,
     "name": "盗賊のバンダナ",
     "target_id": 692,
-    "gift_colors": [3, 1, 2],
+    "gift_colors": [
+      3,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 522,
@@ -8697,7 +10461,11 @@
     "recipe_id": 442,
     "name": "リアクトコート",
     "target_id": 690,
-    "gift_colors": [4, 5, 1],
+    "gift_colors": [
+      4,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 540,
@@ -8721,7 +10489,11 @@
     "recipe_id": 443,
     "name": "魔除けの霧吹き",
     "target_id": 199,
-    "gift_colors": [4, 2, 3],
+    "gift_colors": [
+      4,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 523,
@@ -8745,7 +10517,11 @@
     "recipe_id": 444,
     "name": "蛮勇の角笛",
     "target_id": 195,
-    "gift_colors": [3, 5, 4],
+    "gift_colors": [
+      3,
+      5,
+      4
+    ],
     "materials": [
       {
         "id": 524,
@@ -8769,7 +10545,11 @@
     "recipe_id": 445,
     "name": "木の杖",
     "target_id": 694,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 545,
@@ -8783,7 +10563,11 @@
     "recipe_id": 446,
     "name": "冒険用の服",
     "target_id": 696,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 545,
@@ -8797,7 +10581,11 @@
     "recipe_id": 447,
     "name": "天空の護符",
     "target_id": 698,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 546,
@@ -8811,7 +10599,11 @@
     "recipe_id": 448,
     "name": "鋼の剣",
     "target_id": 700,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 546,
@@ -8825,7 +10617,11 @@
     "recipe_id": 449,
     "name": "白銀の鎧",
     "target_id": 702,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 547,
@@ -8839,7 +10635,11 @@
     "recipe_id": 450,
     "name": "太陽の首飾り",
     "target_id": 704,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 547,
@@ -8853,7 +10653,11 @@
     "recipe_id": 451,
     "name": "不退転の斧",
     "target_id": 706,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 553,
@@ -8872,7 +10676,11 @@
     "recipe_id": 452,
     "name": "ナイトキュイラス",
     "target_id": 708,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 554,
@@ -8891,7 +10699,11 @@
     "recipe_id": 453,
     "name": "ラウズバングル",
     "target_id": 710,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 571,
@@ -8915,7 +10727,11 @@
     "recipe_id": 454,
     "name": "光焔の大剣",
     "target_id": 712,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 574,
@@ -8934,7 +10750,11 @@
     "recipe_id": 455,
     "name": "ラジュリアベスト",
     "target_id": 714,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 562,
@@ -8958,7 +10778,11 @@
     "recipe_id": 456,
     "name": "成就の指輪",
     "target_id": 716,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 572,
@@ -8977,7 +10801,11 @@
     "recipe_id": 457,
     "name": "命札フリューエル",
     "target_id": 718,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 557,
@@ -8996,7 +10824,11 @@
     "recipe_id": 458,
     "name": "大自然の服",
     "target_id": 720,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 573,
@@ -9020,7 +10852,11 @@
     "recipe_id": 459,
     "name": "ファントムスカーフ",
     "target_id": 722,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 565,
@@ -9044,7 +10880,11 @@
     "recipe_id": 460,
     "name": "エクサボム",
     "target_id": 203,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 556,
@@ -9068,7 +10908,11 @@
     "recipe_id": 461,
     "name": "猛火の塗り薬",
     "target_id": 205,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 554,
@@ -9087,7 +10931,11 @@
     "recipe_id": 462,
     "name": "メディアの秘毒",
     "target_id": 207,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 558,
@@ -9111,7 +10959,11 @@
     "recipe_id": 463,
     "name": "しびれ毒液",
     "target_id": 209,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 559,
@@ -9135,7 +10987,11 @@
     "recipe_id": 464,
     "name": "誓いの木槌",
     "target_id": 724,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 580,
@@ -9149,7 +11005,11 @@
     "recipe_id": 465,
     "name": "誓いの白無垢",
     "target_id": 726,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 581,
@@ -9163,7 +11023,11 @@
     "recipe_id": 466,
     "name": "誓いの置物",
     "target_id": 728,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 582,
@@ -9177,7 +11041,11 @@
     "recipe_id": 467,
     "name": "幸せのスリング",
     "target_id": 730,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 580,
@@ -9191,7 +11059,11 @@
     "recipe_id": 468,
     "name": "幸せのドレス",
     "target_id": 732,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 581,
@@ -9205,7 +11077,11 @@
     "recipe_id": 469,
     "name": "幸せのリング",
     "target_id": 734,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 582,
@@ -9219,7 +11095,11 @@
     "recipe_id": 470,
     "name": "黒檀の杖",
     "target_id": 736,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 589,
@@ -9233,7 +11113,11 @@
     "recipe_id": 471,
     "name": "黒檀のプレート",
     "target_id": 738,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 589,
@@ -9247,7 +11131,11 @@
     "recipe_id": 472,
     "name": "魂縛のチェイン",
     "target_id": 740,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 590,
@@ -9261,7 +11149,11 @@
     "recipe_id": 473,
     "name": "幻獣の太刀",
     "target_id": 742,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 590,
@@ -9275,7 +11167,11 @@
     "recipe_id": 474,
     "name": "七糸のシャツ",
     "target_id": 744,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 591,
@@ -9289,7 +11185,11 @@
     "recipe_id": 475,
     "name": "不死鳥の腕輪",
     "target_id": 746,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 591,
@@ -9303,7 +11203,11 @@
     "recipe_id": 476,
     "name": "グラスィエ",
     "target_id": 748,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 597,
@@ -9322,7 +11226,11 @@
     "recipe_id": 477,
     "name": "渡り者の服",
     "target_id": 750,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 597,
@@ -9346,7 +11254,11 @@
     "recipe_id": 478,
     "name": "クリアバングル",
     "target_id": 752,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 605,
@@ -9370,7 +11282,11 @@
     "recipe_id": 479,
     "name": "スパークダガー",
     "target_id": 754,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 610,
@@ -9394,7 +11310,11 @@
     "recipe_id": 480,
     "name": "レザーシャツ",
     "target_id": 756,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 613,
@@ -9418,7 +11338,11 @@
     "recipe_id": 481,
     "name": "精霊の力帯",
     "target_id": 758,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 611,
@@ -9442,7 +11366,11 @@
     "recipe_id": 482,
     "name": "鳳凰の杖",
     "target_id": 760,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 603,
@@ -9461,7 +11389,11 @@
     "recipe_id": 483,
     "name": "メタリカレザーメイル",
     "target_id": 762,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 609,
@@ -9480,7 +11412,11 @@
     "recipe_id": 484,
     "name": "マイスターミトン",
     "target_id": 764,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 612,
@@ -9504,7 +11440,11 @@
     "recipe_id": 485,
     "name": "氷結の塗り薬",
     "target_id": 211,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 597,
@@ -9528,7 +11468,11 @@
     "recipe_id": 486,
     "name": "帯電の塗り薬",
     "target_id": 213,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 600,
@@ -9552,7 +11496,11 @@
     "recipe_id": 487,
     "name": "ドナーシュテルン",
     "target_id": 215,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 602,
@@ -9571,7 +11519,11 @@
     "recipe_id": 488,
     "name": "エーテルインキ",
     "target_id": 217,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 603,
@@ -9595,7 +11547,11 @@
     "recipe_id": 489,
     "name": "カフトスクーパ",
     "target_id": 634,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 318,
@@ -9619,7 +11575,11 @@
     "recipe_id": 490,
     "name": "クリオスクーパ",
     "target_id": 640,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 325,
@@ -9643,7 +11603,11 @@
     "recipe_id": 491,
     "name": "シエラスクーバ",
     "target_id": 646,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 326,
@@ -9667,7 +11631,11 @@
     "recipe_id": 492,
     "name": "アストゥラスクーバ",
     "target_id": 652,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 357,
@@ -9691,7 +11659,11 @@
     "recipe_id": 493,
     "name": "番いの剣",
     "target_id": 658,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 334,
@@ -9715,7 +11687,11 @@
     "recipe_id": 494,
     "name": "潰滅の戦棍",
     "target_id": 664,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 369,
@@ -9739,7 +11715,11 @@
     "recipe_id": 495,
     "name": "根絶の薙刀",
     "target_id": 670,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 373,
@@ -9763,7 +11743,11 @@
     "recipe_id": 496,
     "name": "フローガスモキン",
     "target_id": 636,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 460,
@@ -9787,7 +11771,11 @@
     "recipe_id": 497,
     "name": "パゴニャスモキン",
     "target_id": 642,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 472,
@@ -9811,7 +11799,11 @@
     "recipe_id": 498,
     "name": "キクロスモキン",
     "target_id": 648,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 533,
@@ -9835,7 +11827,11 @@
     "recipe_id": 499,
     "name": "ケラヴスモキン",
     "target_id": 654,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 432,
@@ -9859,7 +11855,11 @@
     "recipe_id": 500,
     "name": "ヒメルマンテ",
     "target_id": 660,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 541,
@@ -9883,7 +11883,11 @@
     "recipe_id": 501,
     "name": "エーデマンテ",
     "target_id": 666,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 434,
@@ -9907,7 +11911,11 @@
     "recipe_id": 502,
     "name": "ウンヴェルマンテ",
     "target_id": 672,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 436,
@@ -9931,7 +11939,11 @@
     "recipe_id": 503,
     "name": "サンティテロン",
     "target_id": 638,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 563,
@@ -9955,7 +11967,11 @@
     "recipe_id": 504,
     "name": "グラソテロン",
     "target_id": 644,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 565,
@@ -9979,7 +11995,11 @@
     "recipe_id": 505,
     "name": "シエルテロン",
     "target_id": 650,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 609,
@@ -10003,7 +12023,11 @@
     "recipe_id": 506,
     "name": "フードルテロン",
     "target_id": 656,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 570,
@@ -10027,7 +12051,11 @@
     "recipe_id": 507,
     "name": "テレールテロン",
     "target_id": 662,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 607,
@@ -10051,7 +12079,11 @@
     "recipe_id": 508,
     "name": "ディアンテロン",
     "target_id": 668,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 617,
@@ -10075,7 +12107,11 @@
     "recipe_id": 509,
     "name": "アミレテロン",
     "target_id": 674,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 620,
@@ -10099,7 +12135,11 @@
     "recipe_id": 510,
     "name": "潮騒のパラソル",
     "target_id": 768,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 624,
@@ -10113,7 +12153,11 @@
     "recipe_id": 511,
     "name": "潮騒の水着",
     "target_id": 770,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 625,
@@ -10127,7 +12171,11 @@
     "recipe_id": 512,
     "name": "潮騒の帽子",
     "target_id": 772,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 626,
@@ -10141,7 +12189,11 @@
     "recipe_id": 513,
     "name": "陽光の釣竿",
     "target_id": 774,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 624,
@@ -10155,7 +12207,11 @@
     "recipe_id": 514,
     "name": "陽光の水着",
     "target_id": 776,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 625,
@@ -10169,7 +12225,11 @@
     "recipe_id": 515,
     "name": "陽光のサンダル",
     "target_id": 778,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 626,
@@ -10183,7 +12243,11 @@
     "recipe_id": 516,
     "name": "盛夏のフィッシュソード",
     "target_id": 781,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 638,
@@ -10197,7 +12261,11 @@
     "recipe_id": 517,
     "name": "盛夏の水着",
     "target_id": 783,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 639,
@@ -10211,7 +12279,11 @@
     "recipe_id": 518,
     "name": "盛夏のシュノーケル",
     "target_id": 785,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 640,
@@ -10225,7 +12297,11 @@
     "recipe_id": 519,
     "name": "羽伸ばしのこん棒",
     "target_id": 787,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 638,
@@ -10239,7 +12315,11 @@
     "recipe_id": 520,
     "name": "羽伸ばしの水着",
     "target_id": 789,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 639,
@@ -10253,7 +12333,11 @@
     "recipe_id": 521,
     "name": "羽伸ばしのゴーグル",
     "target_id": 791,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 640,
@@ -10267,7 +12351,11 @@
     "recipe_id": 522,
     "name": "波打ち際のフルート",
     "target_id": 794,
-    "gift_colors": [1, 5, 3],
+    "gift_colors": [
+      1,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 645,
@@ -10281,7 +12369,11 @@
     "recipe_id": 523,
     "name": "波打ち際の水着",
     "target_id": 796,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 645,
@@ -10295,7 +12387,11 @@
     "recipe_id": 524,
     "name": "波打ち際のサングラス",
     "target_id": 798,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 646,
@@ -10309,7 +12405,11 @@
     "recipe_id": 525,
     "name": "海の家特製かき氷",
     "target_id": 219,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 646,
@@ -10323,7 +12423,11 @@
     "recipe_id": 526,
     "name": "海の家特製オイル",
     "target_id": 221,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 647,
@@ -10337,7 +12441,11 @@
     "recipe_id": 527,
     "name": "海の家特製焼きそば",
     "target_id": 223,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 647,
@@ -10351,7 +12459,11 @@
     "recipe_id": 528,
     "name": "海の家特製トラップ",
     "target_id": 225,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 645,
@@ -10375,7 +12487,11 @@
     "recipe_id": 529,
     "name": "月夜の双星",
     "target_id": 800,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 657,
@@ -10389,7 +12505,11 @@
     "recipe_id": 530,
     "name": "ファントムスーツ",
     "target_id": 802,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 657,
@@ -10403,7 +12523,11 @@
     "recipe_id": 531,
     "name": "韋駄天のブーツ",
     "target_id": 804,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 658,
@@ -10417,7 +12541,11 @@
     "recipe_id": 532,
     "name": "氷柱扇",
     "target_id": 806,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 658,
@@ -10431,7 +12559,11 @@
     "recipe_id": 533,
     "name": "淡紫の鎧",
     "target_id": 808,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 659,
@@ -10445,7 +12577,11 @@
     "recipe_id": 534,
     "name": "心眼のモノクル",
     "target_id": 810,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 659,
@@ -10459,7 +12595,11 @@
     "recipe_id": 535,
     "name": "業火箒",
     "target_id": 814,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 668,
@@ -10473,7 +12613,11 @@
     "recipe_id": 536,
     "name": "ヴァルキリーメイル",
     "target_id": 816,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 668,
@@ -10487,7 +12631,11 @@
     "recipe_id": 537,
     "name": "浄火の腕輪",
     "target_id": 818,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 669,
@@ -10501,7 +12649,11 @@
     "recipe_id": 538,
     "name": "護りのロッド",
     "target_id": 820,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 669,
@@ -10515,7 +12667,11 @@
     "recipe_id": 539,
     "name": "淡氷の鎧",
     "target_id": 822,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 670,
@@ -10529,7 +12685,11 @@
     "recipe_id": 540,
     "name": "共鳴の鈴",
     "target_id": 824,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 670,
@@ -10543,7 +12703,11 @@
     "recipe_id": 541,
     "name": "焔の禁書",
     "target_id": 826,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 681,
@@ -10557,7 +12721,11 @@
     "recipe_id": 542,
     "name": "ブレイズドレス",
     "target_id": 828,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 682,
@@ -10571,7 +12739,11 @@
     "recipe_id": 543,
     "name": "炎の髪留め",
     "target_id": 830,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 683,
@@ -10585,7 +12757,11 @@
     "recipe_id": 544,
     "name": "イバラの嘆息",
     "target_id": 832,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 681,
@@ -10599,7 +12775,11 @@
     "recipe_id": 545,
     "name": "エレガンハート",
     "target_id": 834,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 682,
@@ -10613,7 +12793,11 @@
     "recipe_id": 546,
     "name": "ラディアントコロネット",
     "target_id": 836,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 683,
@@ -10627,7 +12811,11 @@
     "recipe_id": 547,
     "name": "フワットケーキ",
     "target_id": 227,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 682,
@@ -10641,7 +12829,11 @@
     "recipe_id": 548,
     "name": "クイーンズクレイブ",
     "target_id": 229,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 683,
@@ -10655,7 +12847,11 @@
     "recipe_id": 552,
     "name": "エテルノ・フローガ",
     "target_id": 841,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 700,
@@ -10669,7 +12865,11 @@
     "recipe_id": 553,
     "name": "リヒトシュッツメイル",
     "target_id": 843,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 701,
@@ -10683,7 +12883,11 @@
     "recipe_id": 554,
     "name": "リンクシンボル",
     "target_id": 845,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 702,
@@ -10697,7 +12901,11 @@
     "recipe_id": 555,
     "name": "テネブルエナジー",
     "target_id": 847,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 700,
@@ -10711,7 +12919,11 @@
     "recipe_id": 556,
     "name": "ムギトゥスプレート",
     "target_id": 849,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 701,
@@ -10725,7 +12937,11 @@
     "recipe_id": 557,
     "name": "シャドウウォーカー",
     "target_id": 851,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 702,
@@ -10739,7 +12955,11 @@
     "recipe_id": 558,
     "name": "パステートドリーム",
     "target_id": 855,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 716,
@@ -10753,7 +12973,11 @@
     "recipe_id": 559,
     "name": "ミエルローブ",
     "target_id": 857,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 716,
@@ -10767,7 +12991,11 @@
     "recipe_id": 560,
     "name": "星へのツバサ",
     "target_id": 859,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 717,
@@ -10781,7 +13009,11 @@
     "recipe_id": 561,
     "name": "クリスタルロッド",
     "target_id": 861,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 717,
@@ -10795,7 +13027,11 @@
     "recipe_id": 562,
     "name": "アイシークストディア",
     "target_id": 863,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 718,
@@ -10809,7 +13045,11 @@
     "recipe_id": 563,
     "name": "アンブロシアの花冠",
     "target_id": 865,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 718,
@@ -10823,7 +13063,11 @@
     "recipe_id": 564,
     "name": "古伝の大槌",
     "target_id": 867,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 728,
@@ -10837,7 +13081,11 @@
     "recipe_id": 565,
     "name": "身軽な甲冑",
     "target_id": 869,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 729,
@@ -10851,7 +13099,11 @@
     "recipe_id": 566,
     "name": "キュートな肩当て",
     "target_id": 871,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 730,
@@ -10865,7 +13117,11 @@
     "recipe_id": 567,
     "name": "ブキュリエ・ド・ロア",
     "target_id": 873,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 728,
@@ -10879,7 +13135,11 @@
     "recipe_id": 568,
     "name": "アミュール・ルミエ",
     "target_id": 875,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 729,
@@ -10893,7 +13153,11 @@
     "recipe_id": 569,
     "name": "クロンヌ・ヴィクトリア",
     "target_id": 877,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 730,
@@ -10907,7 +13171,11 @@
     "recipe_id": 570,
     "name": "号令のホイッスル",
     "target_id": 231,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 729,
@@ -10921,7 +13189,11 @@
     "recipe_id": 571,
     "name": "ブランクシチュー",
     "target_id": 233,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 730,
@@ -10935,7 +13207,11 @@
     "recipe_id": 572,
     "name": "審判の鉄槌",
     "target_id": 881,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 741,
@@ -10949,7 +13225,11 @@
     "recipe_id": 573,
     "name": "クルーガークローク",
     "target_id": 883,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 742,
@@ -10963,7 +13243,11 @@
     "recipe_id": 574,
     "name": "アルケミストベルト",
     "target_id": 885,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 743,
@@ -10977,7 +13261,11 @@
     "recipe_id": 575,
     "name": "フルエンスフラマ",
     "target_id": 887,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 741,
@@ -10991,7 +13279,11 @@
     "recipe_id": 576,
     "name": "フラマエチュテラ",
     "target_id": 889,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 742,
@@ -11005,7 +13297,11 @@
     "recipe_id": 577,
     "name": "ヴィンクラティス",
     "target_id": 891,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 743,
@@ -11019,7 +13315,11 @@
     "recipe_id": 578,
     "name": "竜巻のとどめ",
     "target_id": 893,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 750,
@@ -11033,7 +13333,11 @@
     "recipe_id": 579,
     "name": "ウィンドシェイド",
     "target_id": 895,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 751,
@@ -11047,7 +13351,11 @@
     "recipe_id": 580,
     "name": "リンクプロテクター",
     "target_id": 897,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 752,
@@ -11061,7 +13369,11 @@
     "recipe_id": 581,
     "name": "ヴィス・ナトゥラエ",
     "target_id": 899,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 750,
@@ -11075,7 +13387,11 @@
     "recipe_id": 582,
     "name": "プエラヴィヴァクス",
     "target_id": 901,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 751,
@@ -11089,7 +13405,11 @@
     "recipe_id": 583,
     "name": "ヴィヴァクスの願い",
     "target_id": 903,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 752,
@@ -11103,7 +13423,11 @@
     "recipe_id": 584,
     "name": "クラーレン",
     "target_id": 905,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 765,
@@ -11117,7 +13441,11 @@
     "recipe_id": 585,
     "name": "ナチュナリシュツ",
     "target_id": 907,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 766,
@@ -11131,7 +13459,11 @@
     "recipe_id": 586,
     "name": "獣の護符",
     "target_id": 909,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 767,
@@ -11145,7 +13477,11 @@
     "recipe_id": 587,
     "name": "叫びのハサミ",
     "target_id": 911,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 765,
@@ -11159,7 +13495,11 @@
     "recipe_id": 588,
     "name": "サイレンススタイル",
     "target_id": 913,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 766,
@@ -11173,7 +13513,11 @@
     "recipe_id": 589,
     "name": "紫宝石の首飾り",
     "target_id": 915,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 767,
@@ -11187,7 +13531,11 @@
     "recipe_id": 590,
     "name": "禁断の袋",
     "target_id": 237,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 765,
@@ -11211,7 +13559,11 @@
     "recipe_id": 591,
     "name": "プレーンワッフル",
     "target_id": 235,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 765,
@@ -11235,7 +13587,11 @@
     "recipe_id": 592,
     "name": "石割りアックス",
     "target_id": 917,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 778,
@@ -11249,7 +13605,11 @@
     "recipe_id": 593,
     "name": "鱗のプレート",
     "target_id": 919,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 778,
@@ -11263,7 +13623,11 @@
     "recipe_id": 594,
     "name": "メルクリウスの瞳",
     "target_id": 921,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 778,
@@ -11277,7 +13641,11 @@
     "recipe_id": 595,
     "name": "ノブレスランス",
     "target_id": 923,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 788,
@@ -11291,7 +13659,11 @@
     "recipe_id": 596,
     "name": "エミナンスコート",
     "target_id": 925,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 788,
@@ -11305,7 +13677,11 @@
     "recipe_id": 597,
     "name": "フィエールガント",
     "target_id": 927,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 788,
@@ -11319,7 +13695,11 @@
     "recipe_id": 598,
     "name": "冥闇の杖",
     "target_id": 929,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 794,
@@ -11333,7 +13713,11 @@
     "recipe_id": 599,
     "name": "寧静の服",
     "target_id": 931,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 795,
@@ -11347,7 +13731,11 @@
     "recipe_id": 600,
     "name": "花占いの札",
     "target_id": 933,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 796,
@@ -11361,7 +13749,11 @@
     "recipe_id": 601,
     "name": "インクイジターソード",
     "target_id": 935,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 794,
@@ -11375,7 +13767,11 @@
     "recipe_id": 602,
     "name": "イージスジャケット",
     "target_id": 937,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 795,
@@ -11389,7 +13785,11 @@
     "recipe_id": 603,
     "name": "オミノスバングル",
     "target_id": 939,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 796,
@@ -11403,7 +13803,11 @@
     "recipe_id": 604,
     "name": "スペシャルミート",
     "target_id": 241,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 807,
@@ -11417,7 +13821,11 @@
     "recipe_id": 605,
     "name": "シュメルツシュヴェールト",
     "target_id": 941,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 801,
@@ -11431,7 +13839,11 @@
     "recipe_id": 606,
     "name": "旅のプレート",
     "target_id": 943,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 802,
@@ -11445,7 +13857,11 @@
     "recipe_id": 607,
     "name": "献身のロケット",
     "target_id": 945,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 801,
@@ -11464,7 +13880,11 @@
     "recipe_id": 608,
     "name": "嘆きの毒煙瓶",
     "target_id": 239,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 794,
@@ -11488,7 +13908,11 @@
     "recipe_id": 609,
     "name": "寒凪のハルバード",
     "target_id": 948,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 816,
@@ -11502,7 +13926,11 @@
     "recipe_id": 610,
     "name": "寒凪のドレス",
     "target_id": 950,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 817,
@@ -11516,7 +13944,11 @@
     "recipe_id": 611,
     "name": "寒凪のネックレス",
     "target_id": 952,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 816,
@@ -11530,7 +13962,11 @@
     "recipe_id": 612,
     "name": "シュレクリヒソード",
     "target_id": 954,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 824,
@@ -11544,7 +13980,11 @@
     "recipe_id": 613,
     "name": "才華のコート",
     "target_id": 956,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 824,
@@ -11563,7 +14003,11 @@
     "recipe_id": 614,
     "name": "ソヴァールリング",
     "target_id": 958,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 824,
@@ -11582,7 +14026,11 @@
     "recipe_id": 615,
     "name": "フェアニヒターメテオール",
     "target_id": 243,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 823,
@@ -11596,7 +14044,11 @@
     "recipe_id": 616,
     "name": "福徳招来の扇",
     "target_id": 960,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 828,
@@ -11610,7 +14062,11 @@
     "recipe_id": 617,
     "name": "福徳招来の晴れ着",
     "target_id": 962,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 828,
@@ -11624,7 +14080,11 @@
     "recipe_id": 618,
     "name": "福徳招来のかんざし",
     "target_id": 964,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 828,
@@ -11638,7 +14098,11 @@
     "recipe_id": 619,
     "name": "薔薇の曲剣",
     "target_id": 966,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 850,
@@ -11652,7 +14116,11 @@
     "recipe_id": 620,
     "name": "治者の衣",
     "target_id": 968,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 848,
@@ -11666,7 +14134,11 @@
     "recipe_id": 621,
     "name": "ロイヤルハット",
     "target_id": 970,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 849,
@@ -11680,7 +14152,11 @@
     "recipe_id": 622,
     "name": "ツァイトシュターブ",
     "target_id": 972,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 848,
@@ -11694,7 +14170,11 @@
     "recipe_id": 623,
     "name": "リュクストワール",
     "target_id": 974,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 849,
@@ -11708,7 +14188,11 @@
     "recipe_id": 624,
     "name": "ブレイブシール",
     "target_id": 976,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 849,
@@ -11722,7 +14206,11 @@
     "recipe_id": 625,
     "name": "大巨人の鉄槌",
     "target_id": 245,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 848,
@@ -11736,7 +14224,11 @@
     "recipe_id": 626,
     "name": "安らぎの灯火",
     "target_id": 247,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 850,
@@ -11750,7 +14242,11 @@
     "recipe_id": 627,
     "name": "鳥と陽の杖",
     "target_id": 979,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 856,
@@ -11764,7 +14260,11 @@
     "recipe_id": 628,
     "name": "錬金外套",
     "target_id": 981,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 856,
@@ -11778,7 +14278,11 @@
     "recipe_id": 629,
     "name": "獣のアロマ",
     "target_id": 983,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 855,
@@ -11792,7 +14296,11 @@
     "recipe_id": 630,
     "name": "アジュアケージ",
     "target_id": 985,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 863,
@@ -11806,7 +14314,11 @@
     "recipe_id": 631,
     "name": "旅人の服",
     "target_id": 987,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 864,
@@ -11820,7 +14332,11 @@
     "recipe_id": 632,
     "name": "ハートイヤリング",
     "target_id": 989,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 864,
@@ -11834,7 +14350,11 @@
     "recipe_id": 637,
     "name": "カンタムフラム",
     "target_id": 251,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 660,
@@ -11858,7 +14378,11 @@
     "recipe_id": 638,
     "name": "アイスエイジレヘルン",
     "target_id": 253,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 686,
@@ -11882,7 +14406,11 @@
     "recipe_id": 639,
     "name": "ケラウノスプラジグ",
     "target_id": 255,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 705,
@@ -11906,7 +14434,11 @@
     "recipe_id": 640,
     "name": "ゲリラストームルフト",
     "target_id": 257,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 733,
@@ -11930,7 +14462,11 @@
     "recipe_id": 641,
     "name": "自走する鎖鎌",
     "target_id": 259,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 755,
@@ -11954,7 +14490,11 @@
     "recipe_id": 642,
     "name": "自立駆動型メテオール",
     "target_id": 261,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 799,
@@ -11978,7 +14518,11 @@
     "recipe_id": 643,
     "name": "絡繰：針千本",
     "target_id": 263,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 824,
@@ -12002,7 +14546,11 @@
     "recipe_id": 644,
     "name": "クリアハートハンド",
     "target_id": 991,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 871,
@@ -12016,7 +14564,11 @@
     "recipe_id": 645,
     "name": "クリアハートクローク",
     "target_id": 993,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 872,
@@ -12030,7 +14582,11 @@
     "recipe_id": 646,
     "name": "クリアハートシンボル",
     "target_id": 995,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 872,
@@ -12044,7 +14600,11 @@
     "recipe_id": 647,
     "name": "きずなチョコレート",
     "target_id": 249,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 871,
@@ -12058,7 +14618,11 @@
     "recipe_id": 650,
     "name": "傾慕の弓",
     "target_id": 997,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 880,
@@ -12072,7 +14636,11 @@
     "recipe_id": 651,
     "name": "傾慕のドレス",
     "target_id": 999,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 880,
@@ -12086,7 +14654,11 @@
     "recipe_id": 652,
     "name": "傾慕の腕飾り",
     "target_id": 1001,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 881,
@@ -12100,7 +14672,11 @@
     "recipe_id": 655,
     "name": "ミストラルケーン",
     "target_id": 1003,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 893,
@@ -12114,7 +14690,11 @@
     "recipe_id": 656,
     "name": "神秘のコート",
     "target_id": 1005,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 893,
@@ -12128,7 +14708,11 @@
     "recipe_id": 657,
     "name": "素焼きのおまもり",
     "target_id": 1007,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 894,
@@ -12142,7 +14726,11 @@
     "recipe_id": 658,
     "name": "沈黙の丸薬",
     "target_id": 265,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 894,
@@ -12156,7 +14744,11 @@
     "recipe_id": 659,
     "name": "花紺青の刀",
     "target_id": 1018,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 906,
@@ -12170,7 +14762,11 @@
     "recipe_id": 660,
     "name": "エンシェントコート",
     "target_id": 1020,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 906,
@@ -12184,7 +14780,11 @@
     "recipe_id": 661,
     "name": "ギューテシュライアー",
     "target_id": 1022,
-    "gift_colors": [3, 2, 4],
+    "gift_colors": [
+      3,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 906,
@@ -12198,7 +14798,11 @@
     "recipe_id": 662,
     "name": "変革の杖",
     "target_id": 1011,
-    "gift_colors": [5, 2, 3],
+    "gift_colors": [
+      5,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 910,
@@ -12212,7 +14816,11 @@
     "recipe_id": 663,
     "name": "エスポワールベスト",
     "target_id": 1013,
-    "gift_colors": [5, 3, 1],
+    "gift_colors": [
+      5,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 911,
@@ -12226,7 +14834,11 @@
     "recipe_id": 664,
     "name": "鍛錬のお守り",
     "target_id": 1015,
-    "gift_colors": [5, 2, 4],
+    "gift_colors": [
+      5,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 909,
@@ -12240,7 +14852,11 @@
     "recipe_id": 665,
     "name": "うに袋ハイパー",
     "target_id": 267,
-    "gift_colors": [4, 2, 1],
+    "gift_colors": [
+      4,
+      2,
+      1
+    ],
     "materials": [
       {
         "id": 911,
@@ -12254,7 +14870,11 @@
     "recipe_id": 666,
     "name": "蠱惑の香炉",
     "target_id": 269,
-    "gift_colors": [3, 4, 1],
+    "gift_colors": [
+      3,
+      4,
+      1
+    ],
     "materials": [
       {
         "id": 909,
@@ -12268,7 +14888,11 @@
     "recipe_id": 667,
     "name": "ボンバーズジュエリー",
     "target_id": 1025,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 25,
@@ -12287,7 +14911,11 @@
     "recipe_id": 668,
     "name": "イノセントブルームスター",
     "target_id": 1026,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 13,
@@ -12306,7 +14934,11 @@
     "recipe_id": 669,
     "name": "リバティサマーハット",
     "target_id": 1027,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 3,
@@ -12325,7 +14957,11 @@
     "recipe_id": 670,
     "name": "エストレージャ",
     "target_id": 1017,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 45201,
@@ -12349,7 +14985,11 @@
     "recipe_id": 671,
     "name": "月花蝶",
     "target_id": 1024,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 45101,
@@ -12373,7 +15013,11 @@
     "recipe_id": 672,
     "name": "チェルカトーレ",
     "target_id": 1035,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 931,
@@ -12387,7 +15031,11 @@
     "recipe_id": 673,
     "name": "探究者のマント",
     "target_id": 1037,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 932,
@@ -12401,7 +15049,11 @@
     "recipe_id": 674,
     "name": "賢人のレンズ",
     "target_id": 1039,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 931,
@@ -12415,7 +15067,11 @@
     "recipe_id": 675,
     "name": "シュヴァルツラスター",
     "target_id": 1028,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 934,
@@ -12429,7 +15085,11 @@
     "recipe_id": 676,
     "name": "フェザーワンピース",
     "target_id": 1030,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 935,
@@ -12443,7 +15103,11 @@
     "recipe_id": 677,
     "name": "ホワイトウエストポーチ",
     "target_id": 1032,
-    "gift_colors": [2, 1, 4],
+    "gift_colors": [
+      2,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 935,
@@ -12457,7 +15121,11 @@
     "recipe_id": 678,
     "name": "プレシディオアパタラス",
     "target_id": 1034,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 45301,
@@ -12481,7 +15149,11 @@
     "recipe_id": 679,
     "name": "インクレミントプレーブ",
     "target_id": 1041,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 43108,
@@ -12505,7 +15177,11 @@
     "recipe_id": 680,
     "name": "ポルクス＝カストール",
     "target_id": 1042,
-    "gift_colors": [4, 5, 3],
+    "gift_colors": [
+      4,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 946,
@@ -12519,7 +15195,11 @@
     "recipe_id": 681,
     "name": "リゾルブジャケット",
     "target_id": 1044,
-    "gift_colors": [1, 5, 3],
+    "gift_colors": [
+      1,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 947,
@@ -12533,7 +15213,11 @@
     "recipe_id": 682,
     "name": "メトルブーツ",
     "target_id": 1046,
-    "gift_colors": [2, 5, 3],
+    "gift_colors": [
+      2,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 946,
@@ -12547,7 +15231,11 @@
     "recipe_id": 683,
     "name": "シックザールヴェーク",
     "target_id": 1048,
-    "gift_colors": [4, 1, 3],
+    "gift_colors": [
+      4,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 43208,
@@ -12571,7 +15259,11 @@
     "recipe_id": 684,
     "name": "エフェメラルレコード",
     "target_id": 1049,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 50101,
@@ -12595,7 +15287,11 @@
     "recipe_id": 685,
     "name": "流浪の服",
     "target_id": 1050,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 952,
@@ -12609,7 +15305,11 @@
     "recipe_id": 686,
     "name": "サペンシアアニュラス",
     "target_id": 1052,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 953,
@@ -12623,7 +15323,11 @@
     "recipe_id": 687,
     "name": "インペリアルドライブ",
     "target_id": 1059,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 50201,
@@ -12647,7 +15351,11 @@
     "recipe_id": 688,
     "name": "コランダムアーマー",
     "target_id": 1060,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 955,
@@ -12661,7 +15369,11 @@
     "recipe_id": 689,
     "name": "カーススポイラー",
     "target_id": 1062,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 956,
@@ -12675,7 +15387,11 @@
     "recipe_id": 690,
     "name": "樹林の治療薬",
     "target_id": 274,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 956,
@@ -12689,7 +15405,11 @@
     "recipe_id": 691,
     "name": "黄泉之蟷螂",
     "target_id": 1054,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 50301,
@@ -12713,7 +15433,11 @@
     "recipe_id": 692,
     "name": "ハンターウェア",
     "target_id": 1055,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 958,
@@ -12727,7 +15451,11 @@
     "recipe_id": 693,
     "name": "グレイスリボン",
     "target_id": 1057,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 959,
@@ -12741,7 +15469,11 @@
     "recipe_id": 694,
     "name": "秘槍トリアイナ",
     "target_id": 1064,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 50401,
@@ -12765,7 +15497,11 @@
     "recipe_id": 695,
     "name": "ピクシーローブ",
     "target_id": 1065,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 970,
@@ -12779,7 +15515,11 @@
     "recipe_id": 696,
     "name": "スカーレットスカーフ",
     "target_id": 1067,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 971,
@@ -12793,7 +15533,11 @@
     "recipe_id": 697,
     "name": "エンハンスフルート",
     "target_id": 276,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 971,
@@ -12807,7 +15551,11 @@
     "recipe_id": 698,
     "name": "ディアボリックサイズ",
     "target_id": 1069,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 50501,
@@ -12831,7 +15579,11 @@
     "recipe_id": 699,
     "name": "武人の装束",
     "target_id": 1070,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 978,
@@ -12845,7 +15597,11 @@
     "recipe_id": 700,
     "name": "道化師の仮面",
     "target_id": 1072,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 979,
@@ -12859,7 +15615,11 @@
     "recipe_id": 703,
     "name": "オルクスアポステル",
     "target_id": 1074,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 50601,
@@ -12883,7 +15643,11 @@
     "recipe_id": 704,
     "name": "キャバリエプレート",
     "target_id": 1075,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 984,
@@ -12897,7 +15661,11 @@
     "recipe_id": 705,
     "name": "エターナルフラワー",
     "target_id": 1077,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 985,
@@ -12911,7 +15679,11 @@
     "recipe_id": 706,
     "name": "ハピレスシャトル",
     "target_id": 278,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 985,
@@ -12925,7 +15697,11 @@
     "recipe_id": 707,
     "name": "アルテミスコンパウンド",
     "target_id": 1080,
-    "gift_colors": [3, 1, 4],
+    "gift_colors": [
+      3,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 40005,
@@ -12949,7 +15725,11 @@
     "recipe_id": 708,
     "name": "箱入り娘のセーラー服",
     "target_id": 1081,
-    "gift_colors": [3, 2, 5],
+    "gift_colors": [
+      3,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 989,
@@ -12963,7 +15743,11 @@
     "recipe_id": 709,
     "name": "箱入り娘のローファー",
     "target_id": 1083,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 990,
@@ -12977,7 +15761,11 @@
     "recipe_id": 710,
     "name": "試作型旋風爆弾",
     "target_id": 280,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 990,
@@ -12991,7 +15779,11 @@
     "recipe_id": 711,
     "name": "ウィングトルーパー・甲式",
     "target_id": 1086,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 33504,
@@ -13015,7 +15807,11 @@
     "recipe_id": 712,
     "name": "異国少女のセーラー服",
     "target_id": 1087,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1000,
@@ -13029,7 +15825,11 @@
     "recipe_id": 713,
     "name": "異国少女の時計",
     "target_id": 1089,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1001,
@@ -13043,7 +15843,11 @@
     "recipe_id": 714,
     "name": "ブルーミングクローバー",
     "target_id": 1085,
-    "gift_colors": [5, 1, 4],
+    "gift_colors": [
+      5,
+      1,
+      4
+    ],
     "materials": [
       {
         "id": 20,
@@ -13062,7 +15866,11 @@
     "recipe_id": 715,
     "name": "天才的解決方法",
     "target_id": 1091,
-    "gift_colors": [5, 3, 4],
+    "gift_colors": [
+      5,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 43504,
@@ -13086,7 +15894,11 @@
     "recipe_id": 716,
     "name": "メカニックの白衣",
     "target_id": 1092,
-    "gift_colors": [5, 1, 3],
+    "gift_colors": [
+      5,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 1005,
@@ -13100,7 +15912,11 @@
     "recipe_id": 717,
     "name": "メカニックのゴーグル",
     "target_id": 1094,
-    "gift_colors": [5, 2, 4],
+    "gift_colors": [
+      5,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 1006,
@@ -13114,7 +15930,11 @@
     "recipe_id": 718,
     "name": "コズミック・エナジー",
     "target_id": 282,
-    "gift_colors": [5, 1, 2],
+    "gift_colors": [
+      5,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 1005,
@@ -13128,7 +15948,11 @@
     "recipe_id": 719,
     "name": "サイバネティクスケース",
     "target_id": 1096,
-    "gift_colors": [4, 3, 5],
+    "gift_colors": [
+      4,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 43603,
@@ -13152,7 +15976,11 @@
     "recipe_id": 720,
     "name": "サイエンティストの白衣",
     "target_id": 1097,
-    "gift_colors": [4, 1, 3],
+    "gift_colors": [
+      4,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 1011,
@@ -13166,7 +15994,11 @@
     "recipe_id": 721,
     "name": "サイエンティストの靴",
     "target_id": 1099,
-    "gift_colors": [4, 2, 5],
+    "gift_colors": [
+      4,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1012,
@@ -13180,7 +16012,11 @@
     "recipe_id": 722,
     "name": "正義と誇りの象徴",
     "target_id": 1101,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 43404,
@@ -13199,7 +16035,11 @@
     "recipe_id": 723,
     "name": "模範者の制服",
     "target_id": 1102,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1017,
@@ -13213,7 +16053,11 @@
     "recipe_id": 724,
     "name": "模範者のネクタイ",
     "target_id": 1104,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1017,
@@ -13227,7 +16071,11 @@
     "recipe_id": 725,
     "name": "投票券",
     "target_id": 1107,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1016,
@@ -13241,7 +16089,11 @@
     "recipe_id": 726,
     "name": "マイティチェーン",
     "target_id": 1106,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 96,
@@ -13260,7 +16112,11 @@
     "recipe_id": 727,
     "name": "ケットシーブゥアル",
     "target_id": 1108,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 43804,
@@ -13279,7 +16135,11 @@
     "recipe_id": 728,
     "name": "フェアリードレス",
     "target_id": 1109,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 1027,
@@ -13293,7 +16153,11 @@
     "recipe_id": 729,
     "name": "闘士のバングル",
     "target_id": 1111,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 1027,
@@ -13307,7 +16171,11 @@
     "recipe_id": 730,
     "name": "リンゴのタルト",
     "target_id": 284,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1027,
@@ -13321,7 +16189,11 @@
     "recipe_id": 731,
     "name": "フギ＝ムニ",
     "target_id": 1113,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 44002,
@@ -13340,7 +16212,11 @@
     "recipe_id": 732,
     "name": "シャドウトゥシャドウ",
     "target_id": 1114,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1032,
@@ -13354,7 +16230,11 @@
     "recipe_id": 733,
     "name": "宵闇のスカーフ",
     "target_id": 1116,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 1032,
@@ -13368,7 +16248,11 @@
     "recipe_id": 735,
     "name": "悪霊祓いの楔爪",
     "target_id": 1118,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 40102,
@@ -13387,7 +16271,11 @@
     "recipe_id": 736,
     "name": "花筏の浴衣",
     "target_id": 1119,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1040,
@@ -13401,7 +16289,11 @@
     "recipe_id": 737,
     "name": "久遠のショール",
     "target_id": 1121,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 1040,
@@ -13415,7 +16307,11 @@
     "recipe_id": 738,
     "name": "家宝の鉾",
     "target_id": 1123,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 27002,
@@ -13434,7 +16330,11 @@
     "recipe_id": 739,
     "name": "パグムンドサルタトール",
     "target_id": 1124,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1042,
@@ -13448,7 +16348,11 @@
     "recipe_id": 740,
     "name": "厄除けおまもり",
     "target_id": 1126,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1042,
@@ -13462,7 +16366,11 @@
     "recipe_id": 741,
     "name": "頭脳明晰の煎薬",
     "target_id": 286,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 1042,
@@ -13476,7 +16384,11 @@
     "recipe_id": 742,
     "name": "漁村の錬金術士の杖",
     "target_id": 1129,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 26904,
@@ -13495,7 +16407,11 @@
     "recipe_id": 743,
     "name": "クレージュチョッキ",
     "target_id": 1130,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1053,
@@ -13509,7 +16425,11 @@
     "recipe_id": 744,
     "name": "シュランクメートヒェン",
     "target_id": 1132,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1053,
@@ -13523,7 +16443,11 @@
     "recipe_id": 745,
     "name": "無敵のロッド",
     "target_id": 1134,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 25505,
@@ -13542,7 +16466,11 @@
     "recipe_id": 746,
     "name": "ランシュ=ブラネージュ",
     "target_id": 1135,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1060,
@@ -13556,7 +16484,11 @@
     "recipe_id": 747,
     "name": "ゲベートアンク",
     "target_id": 1137,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1060,
@@ -13570,7 +16502,11 @@
     "recipe_id": 748,
     "name": "ダムゼル・クラウン",
     "target_id": 1128,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 182,
@@ -13589,7 +16525,11 @@
     "recipe_id": 749,
     "name": "カースオブプリンセス",
     "target_id": 288,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1060,
@@ -13603,7 +16543,11 @@
     "recipe_id": 750,
     "name": "ベアーズシューター",
     "target_id": 1140,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 44802,
@@ -13622,7 +16566,11 @@
     "recipe_id": 751,
     "name": "ブルーナイトぷにカクテル",
     "target_id": 290,
-    "gift_colors": [2, 5, 4],
+    "gift_colors": [
+      2,
+      5,
+      4
+    ],
     "materials": [
       {
         "id": 1068,
@@ -13636,7 +16584,11 @@
     "recipe_id": 752,
     "name": "熱き錬金術士の服",
     "target_id": 1146,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 2,
@@ -13650,7 +16602,11 @@
     "recipe_id": 753,
     "name": "自由なる錬金術士の服",
     "target_id": 1148,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 3,
@@ -13664,7 +16620,11 @@
     "recipe_id": 754,
     "name": "不動たる錬金術士の服",
     "target_id": 1150,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 25,
@@ -13678,7 +16638,11 @@
     "recipe_id": 755,
     "name": "静かなる錬金術士の服",
     "target_id": 1152,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 74,
@@ -13692,7 +16656,11 @@
     "recipe_id": 756,
     "name": "峡谷のお守り",
     "target_id": 1154,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 76,
@@ -13706,7 +16674,11 @@
     "recipe_id": 757,
     "name": "砂塵のお守り",
     "target_id": 1156,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 13,
@@ -13720,7 +16692,11 @@
     "recipe_id": 758,
     "name": "激浪のお守り",
     "target_id": 1158,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 24,
@@ -13734,7 +16710,11 @@
     "recipe_id": 759,
     "name": "静天のお守り",
     "target_id": 1160,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 75,
@@ -13748,7 +16728,11 @@
     "recipe_id": 760,
     "name": "優雅なる王の潮騒",
     "target_id": 1143,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 44203,
@@ -13767,7 +16751,11 @@
     "recipe_id": 761,
     "name": "レディアントハイビス",
     "target_id": 1139,
-    "gift_colors": [1, 5, 4],
+    "gift_colors": [
+      1,
+      5,
+      4
+    ],
     "materials": [
       {
         "id": 227,
@@ -13786,7 +16774,11 @@
     "recipe_id": 762,
     "name": "メイデンズ・ホープ",
     "target_id": 1141,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 346,
@@ -13805,7 +16797,11 @@
     "recipe_id": 763,
     "name": "アンビシャス・トムボーイ",
     "target_id": 1142,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 347,
@@ -13824,7 +16820,11 @@
     "recipe_id": 764,
     "name": "リベルテ・パピヨン",
     "target_id": 1162,
-    "gift_colors": [2, 4, 3],
+    "gift_colors": [
+      2,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 45002,
@@ -13843,7 +16843,11 @@
     "recipe_id": 765,
     "name": "昔懐かし水爆弾",
     "target_id": 292,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1091,
@@ -13857,7 +16861,11 @@
     "recipe_id": 766,
     "name": "アルバディキティア",
     "target_id": 1163,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 5,
@@ -13871,7 +16879,11 @@
     "recipe_id": 767,
     "name": "クレプスコ・ストラ",
     "target_id": 1165,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 16,
@@ -13885,7 +16897,11 @@
     "recipe_id": 768,
     "name": "ジーニアスショット",
     "target_id": 1145,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 44003,
@@ -13904,7 +16920,11 @@
     "recipe_id": 769,
     "name": "影切刀",
     "target_id": 1168,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 45601,
@@ -13923,7 +16943,11 @@
     "recipe_id": 770,
     "name": "月欠けの闇霧",
     "target_id": 294,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1101,
@@ -13937,7 +16961,11 @@
     "recipe_id": 771,
     "name": "折型の護符",
     "target_id": 1169,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 45701,
@@ -13956,7 +16984,11 @@
     "recipe_id": 772,
     "name": "性命双修の香",
     "target_id": 297,
-    "gift_colors": [3, 4, 2],
+    "gift_colors": [
+      3,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 1124,
@@ -13970,7 +17002,11 @@
     "recipe_id": 773,
     "name": "トニトルスミレーヌ",
     "target_id": 299,
-    "gift_colors": [1, 5, 2],
+    "gift_colors": [
+      1,
+      5,
+      2
+    ],
     "materials": [
       {
         "id": 1124,
@@ -13984,7 +17020,11 @@
     "recipe_id": 774,
     "name": "星天輝刃",
     "target_id": 1170,
-    "gift_colors": [5, 3, 1],
+    "gift_colors": [
+      5,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 45801,
@@ -14003,7 +17043,11 @@
     "recipe_id": 775,
     "name": "ナイーバティ・ナイト",
     "target_id": 1171,
-    "gift_colors": [5, 2, 3],
+    "gift_colors": [
+      5,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 25,
@@ -14022,7 +17066,11 @@
     "recipe_id": 776,
     "name": "トラブルテンペスト",
     "target_id": 1172,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 13,
@@ -14041,7 +17089,11 @@
     "recipe_id": 777,
     "name": "スウィート・フレッシュ",
     "target_id": 1173,
-    "gift_colors": [5, 4, 1],
+    "gift_colors": [
+      5,
+      4,
+      1
+    ],
     "materials": [
       {
         "id": 3,
@@ -14060,7 +17112,11 @@
     "recipe_id": 778,
     "name": "荒ぶる鬼神の鎧",
     "target_id": 1174,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 38,
@@ -14074,7 +17130,11 @@
     "recipe_id": 779,
     "name": "精霊のバックラー",
     "target_id": 1176,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 27,
@@ -14088,7 +17148,11 @@
     "recipe_id": 780,
     "name": "純信の御幣",
     "target_id": 1178,
-    "gift_colors": [3, 2, 5],
+    "gift_colors": [
+      3,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 45901,
@@ -14107,7 +17171,11 @@
     "recipe_id": 781,
     "name": "穢レ貫ク聖ナル蹄",
     "target_id": 1179,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 45401,
@@ -14126,7 +17194,11 @@
     "recipe_id": 782,
     "name": "聖ナル蹄",
     "target_id": 1180,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 45402,
@@ -14145,7 +17217,11 @@
     "recipe_id": 783,
     "name": "英雄降ろしの丸薬",
     "target_id": 301,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1141,
@@ -14159,7 +17235,11 @@
     "recipe_id": 784,
     "name": "天ヲ断チ切ル刀刃",
     "target_id": 1181,
-    "gift_colors": [3, 2, 4],
+    "gift_colors": [
+      3,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 46001,
@@ -14178,7 +17258,11 @@
     "recipe_id": 785,
     "name": "ブルーム・ローゼス",
     "target_id": 1182,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 70101,
@@ -14197,7 +17281,11 @@
     "recipe_id": 786,
     "name": "守護者の石鎧",
     "target_id": 1183,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 80,
@@ -14211,7 +17299,11 @@
     "recipe_id": 787,
     "name": "アモスナーガ",
     "target_id": 1185,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 82,
@@ -14225,7 +17317,11 @@
     "recipe_id": 788,
     "name": "アマ競技用スイカ",
     "target_id": 303,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 1160,
@@ -14239,7 +17335,11 @@
     "recipe_id": 789,
     "name": "ガッツ注入ドリンク",
     "target_id": 305,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1160,
@@ -14253,7 +17353,11 @@
     "recipe_id": 790,
     "name": "ルミナスラグーン",
     "target_id": 1191,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 43109,
@@ -14272,7 +17376,11 @@
     "recipe_id": 791,
     "name": "ぴょんぴょんルーレット",
     "target_id": 1187,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1171,
@@ -14286,7 +17394,11 @@
     "recipe_id": 792,
     "name": "どんけつ挑戦券",
     "target_id": 1189,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1171,
@@ -14300,7 +17412,11 @@
     "recipe_id": 793,
     "name": "シークレット・リップル",
     "target_id": 1192,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 70201,
@@ -14319,7 +17435,11 @@
     "recipe_id": 794,
     "name": "泡沫のガーター",
     "target_id": 1193,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 45202,
@@ -14338,7 +17458,11 @@
     "recipe_id": 795,
     "name": "歴戦のローブ",
     "target_id": 1202,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 211,
@@ -14352,7 +17476,11 @@
     "recipe_id": 796,
     "name": "アトラスバングル",
     "target_id": 1204,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 218,
@@ -14366,7 +17494,11 @@
     "recipe_id": 797,
     "name": "月光",
     "target_id": 1206,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 44004,
@@ -14385,7 +17517,11 @@
     "recipe_id": 798,
     "name": "万物ヲ穿ツ鋼心ノ弓",
     "target_id": 1207,
-    "gift_colors": [3, 4, 2],
+    "gift_colors": [
+      3,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 46101,
@@ -14404,7 +17540,11 @@
     "recipe_id": 799,
     "name": "スウィートバイト",
     "target_id": 1209,
-    "gift_colors": [5, 2, 4],
+    "gift_colors": [
+      5,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 65,
@@ -14423,7 +17563,11 @@
     "recipe_id": 800,
     "name": "モガ・トケール",
     "target_id": 307,
-    "gift_colors": [4, 3, 1],
+    "gift_colors": [
+      4,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 1193,
@@ -14437,7 +17581,11 @@
     "recipe_id": 801,
     "name": "魔彩ナル傾国ノ瞳",
     "target_id": 1208,
-    "gift_colors": [3, 4, 2],
+    "gift_colors": [
+      3,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 46201,
@@ -14456,7 +17604,11 @@
     "recipe_id": 802,
     "name": "マテリアルコレクター",
     "target_id": 309,
-    "gift_colors": [5, 2, 1],
+    "gift_colors": [
+      5,
+      2,
+      1
+    ],
     "materials": [
       {
         "id": 1197,
@@ -14470,7 +17622,11 @@
     "recipe_id": 803,
     "name": "天ヲ断チ切ル刀刃・義烈",
     "target_id": 1210,
-    "gift_colors": [5, 2, 3],
+    "gift_colors": [
+      5,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 46002,
@@ -14489,7 +17645,11 @@
     "recipe_id": 804,
     "name": "ナイトプレート",
     "target_id": 1211,
-    "gift_colors": [4, 1, 5],
+    "gift_colors": [
+      4,
+      1,
+      5
+    ],
     "materials": [
       {
         "id": 272,
@@ -14503,7 +17663,11 @@
     "recipe_id": 805,
     "name": "慈愛の輪",
     "target_id": 1213,
-    "gift_colors": [3, 4, 2],
+    "gift_colors": [
+      3,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 257,
@@ -14517,7 +17681,11 @@
     "recipe_id": 806,
     "name": "せいなるおくりもの",
     "target_id": 311,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 1211,
@@ -14531,7 +17699,11 @@
     "recipe_id": 807,
     "name": "はじけるおくりもの",
     "target_id": 313,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 1211,
@@ -14545,7 +17717,11 @@
     "recipe_id": 808,
     "name": "ノワールラパン",
     "target_id": 1215,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 45003,
@@ -14564,7 +17740,11 @@
     "recipe_id": 809,
     "name": "スターリーチェーン",
     "target_id": 1216,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 291,
@@ -14583,7 +17763,11 @@
     "recipe_id": 810,
     "name": "シローナステッキ",
     "target_id": 1217,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 44803,
@@ -14602,7 +17786,11 @@
     "recipe_id": 811,
     "name": "ルクス・トランペット",
     "target_id": 1218,
-    "gift_colors": [2, 1, 3],
+    "gift_colors": [
+      2,
+      1,
+      3
+    ],
     "materials": [
       {
         "id": 43805,
@@ -14621,7 +17809,11 @@
     "recipe_id": 812,
     "name": "新春来福の羽子板",
     "target_id": 1219,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 43110,
@@ -14640,7 +17832,11 @@
     "recipe_id": 813,
     "name": "新春の黒箱",
     "target_id": 315,
-    "gift_colors": [3, 5, 1],
+    "gift_colors": [
+      3,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 1225,
@@ -14654,7 +17850,11 @@
     "recipe_id": 814,
     "name": "グラシアシュターフ",
     "target_id": 1220,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 60101,
@@ -14673,7 +17873,11 @@
     "recipe_id": 815,
     "name": "ウィッチクラフト",
     "target_id": 1222,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 67,
@@ -14692,7 +17896,11 @@
     "recipe_id": 816,
     "name": "執事の襟締",
     "target_id": 1223,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 24,
@@ -14711,7 +17919,11 @@
     "recipe_id": 817,
     "name": "ペルシェルツヴァイ",
     "target_id": 1221,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 60201,
@@ -14730,7 +17942,11 @@
     "recipe_id": 818,
     "name": "奔放なる衣",
     "target_id": 1224,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 339,
@@ -14744,7 +17960,11 @@
     "recipe_id": 819,
     "name": "黒曜の腕輪",
     "target_id": 1226,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 328,
@@ -14758,7 +17978,11 @@
     "recipe_id": 820,
     "name": "デコ魔導書",
     "target_id": 1004,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1243,
@@ -14772,7 +17996,11 @@
     "recipe_id": 821,
     "name": "サンダーフィート",
     "target_id": 1006,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1243,
@@ -14786,7 +18014,11 @@
     "recipe_id": 822,
     "name": "イルグレイブ",
     "target_id": 1228,
-    "gift_colors": [3, 2, 4],
+    "gift_colors": [
+      3,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 44902,
@@ -14805,7 +18037,11 @@
     "recipe_id": 823,
     "name": "ビヨンド・ザ・カース",
     "target_id": 1229,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 46401,
@@ -14824,7 +18060,11 @@
     "recipe_id": 824,
     "name": "ハデスファング",
     "target_id": 1230,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 44102,
@@ -14843,7 +18083,11 @@
     "recipe_id": 825,
     "name": "フライハイトシュリフト",
     "target_id": 1235,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 45004,
@@ -14862,7 +18106,11 @@
     "recipe_id": 826,
     "name": "へクスシュタープ",
     "target_id": 1236,
-    "gift_colors": [1, 5, 3],
+    "gift_colors": [
+      1,
+      5,
+      3
+    ],
     "materials": [
       {
         "id": 44804,
@@ -14881,7 +18129,11 @@
     "recipe_id": 827,
     "name": "ノワルジャケット",
     "target_id": 1231,
-    "gift_colors": [2, 4, 1],
+    "gift_colors": [
+      2,
+      4,
+      1
+    ],
     "materials": [
       {
         "id": 361,
@@ -14895,7 +18147,11 @@
     "recipe_id": 828,
     "name": "ライトヘルム",
     "target_id": 1233,
-    "gift_colors": [2, 4, 3],
+    "gift_colors": [
+      2,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 354,
@@ -14909,7 +18165,11 @@
     "recipe_id": 829,
     "name": "ローゼ・ショコラフラム",
     "target_id": 1008,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 1273,
@@ -14923,7 +18183,11 @@
     "recipe_id": 830,
     "name": "まごころビスケ",
     "target_id": 1010,
-    "gift_colors": [4, 3, 1],
+    "gift_colors": [
+      4,
+      3,
+      1
+    ],
     "materials": [
       {
         "id": 1273,
@@ -14937,7 +18201,11 @@
     "recipe_id": 831,
     "name": "新米監察官の警棒",
     "target_id": 1238,
-    "gift_colors": [1, 4, 2],
+    "gift_colors": [
+      1,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 46501,
@@ -14956,7 +18224,11 @@
     "recipe_id": 832,
     "name": "シュトゥルムローゼ",
     "target_id": 1239,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 424,
@@ -14975,7 +18247,11 @@
     "recipe_id": 833,
     "name": "ラニャテーラ",
     "target_id": 1240,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 46601,
@@ -14994,7 +18270,11 @@
     "recipe_id": 834,
     "name": "あやしいアイス",
     "target_id": 1012,
-    "gift_colors": [2, 3, 4],
+    "gift_colors": [
+      2,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 1282,
@@ -15008,7 +18288,11 @@
     "recipe_id": 835,
     "name": "フィッシュレーション",
     "target_id": 1014,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1282,
@@ -15022,7 +18306,11 @@
     "recipe_id": 836,
     "name": "守衛の鎧",
     "target_id": 1241,
-    "gift_colors": [1, 4, 2],
+    "gift_colors": [
+      1,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 412,
@@ -15036,7 +18324,11 @@
     "recipe_id": 837,
     "name": "避雷のペンダント",
     "target_id": 1243,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 425,
@@ -15050,7 +18342,11 @@
     "recipe_id": 838,
     "name": "ドルンレーシェン",
     "target_id": 1237,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 44204,
@@ -15069,7 +18365,11 @@
     "recipe_id": 839,
     "name": "万物ヲ穿ツ鋼心ノ弓・断罪",
     "target_id": 1245,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 46102,
@@ -15088,7 +18388,11 @@
     "recipe_id": 840,
     "name": "ブラオールP60",
     "target_id": 1246,
-    "gift_colors": [1, 2, 5],
+    "gift_colors": [
+      1,
+      2,
+      5
+    ],
     "materials": [
       {
         "id": 46701,
@@ -15107,7 +18411,11 @@
     "recipe_id": 841,
     "name": "オトオリキツネ",
     "target_id": 1251,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 45602,
@@ -15126,7 +18434,11 @@
     "recipe_id": 842,
     "name": "ホットチリミスト",
     "target_id": 1016,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1348,
@@ -15140,7 +18452,11 @@
     "recipe_id": 843,
     "name": "地球儀",
     "target_id": 1018,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1348,
@@ -15154,7 +18470,11 @@
     "recipe_id": 844,
     "name": "Ｃｕｔｉｅ☆ＡｎｉｍａＬ投票券",
     "target_id": 1253,
-    "gift_colors": [3, 4, 5],
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 1348,
@@ -15168,7 +18488,11 @@
     "recipe_id": 845,
     "name": "渦骸の鎧",
     "target_id": 1247,
-    "gift_colors": [1, 2, 4],
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
     "materials": [
       {
         "id": 454,
@@ -15182,7 +18506,11 @@
     "recipe_id": 846,
     "name": "うずのおまもり",
     "target_id": 1249,
-    "gift_colors": [1, 3, 4],
+    "gift_colors": [
+      1,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 452,
@@ -15196,7 +18524,11 @@
     "recipe_id": 847,
     "name": "委員長のポーチ",
     "target_id": 1252,
-    "gift_colors": [1, 2, 3],
+    "gift_colors": [
+      1,
+      2,
+      3
+    ],
     "materials": [
       {
         "id": 499,
@@ -15210,7 +18542,11 @@
     "recipe_id": 848,
     "name": "ジーニアスコード",
     "target_id": 1254,
-    "gift_colors": [1, 4, 5],
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 44005,
@@ -15229,7 +18565,11 @@
     "recipe_id": 849,
     "name": "ドリームリード",
     "target_id": 1255,
-    "gift_colors": [2, 4, 5],
+    "gift_colors": [
+      2,
+      4,
+      5
+    ],
     "materials": [
       {
         "id": 43806,
@@ -15248,7 +18588,11 @@
     "recipe_id": 850,
     "name": "不屈新入生の調合ベルト",
     "target_id": 1256,
-    "gift_colors": [1, 3, 5],
+    "gift_colors": [
+      1,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 480,
@@ -15262,7 +18606,11 @@
     "recipe_id": 851,
     "name": "ヴェスペンネスト",
     "target_id": 1257,
-    "gift_colors": [1, 4, 2],
+    "gift_colors": [
+      1,
+      4,
+      2
+    ],
     "materials": [
       {
         "id": 46801,
@@ -15281,7 +18629,11 @@
     "recipe_id": 852,
     "name": "ユンゲルス",
     "target_id": 1262,
-    "gift_colors": [4, 1, 2],
+    "gift_colors": [
+      4,
+      1,
+      2
+    ],
     "materials": [
       {
         "id": 43505,
@@ -15300,7 +18652,11 @@
     "recipe_id": 853,
     "name": "フラワーコート",
     "target_id": 1258,
-    "gift_colors": [3, 5, 1],
+    "gift_colors": [
+      3,
+      5,
+      1
+    ],
     "materials": [
       {
         "id": 468,
@@ -15314,7 +18670,11 @@
     "recipe_id": 854,
     "name": "花の耳飾り",
     "target_id": 1260,
-    "gift_colors": [5, 3, 4],
+    "gift_colors": [
+      5,
+      3,
+      4
+    ],
     "materials": [
       {
         "id": 466,
@@ -15328,7 +18688,11 @@
     "recipe_id": 855,
     "name": "プリズムコア",
     "target_id": 1020,
-    "gift_colors": [2, 3, 5],
+    "gift_colors": [
+      2,
+      3,
+      5
+    ],
     "materials": [
       {
         "id": 1370,
@@ -15342,7 +18706,11 @@
     "recipe_id": 856,
     "name": "神秘のアンク",
     "target_id": 1022,
-    "gift_colors": [1, 5, 4],
+    "gift_colors": [
+      1,
+      5,
+      4
+    ],
     "materials": [
       {
         "id": 1370,
@@ -15356,7 +18724,11 @@
     "recipe_id": 857,
     "name": "魔彩ナル傾国ノ瞳・凶華",
     "target_id": 1263,
-    "gift_colors": [1, 4, 3],
+    "gift_colors": [
+      1,
+      4,
+      3
+    ],
     "materials": [
       {
         "id": 46202,
@@ -15370,6 +18742,101 @@
       }
     ],
     "start_at": "2026-05-08"
+  },
+  {
+    "recipe_id": 858,
+    "name": "ヴェールキュイール",
+    "target_id": null,
+    "gift_colors": [
+      1,
+      2,
+      4
+    ],
+    "materials": [
+      {
+        "id": 522,
+        "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-05-22"
+  },
+  {
+    "recipe_id": 859,
+    "name": "堅甲の護符",
+    "target_id": null,
+    "gift_colors": [
+      1,
+      4,
+      5
+    ],
+    "materials": [
+      {
+        "id": 524,
+        "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-05-22"
+  },
+  {
+    "recipe_id": 860,
+    "name": "そよ風のアロマ",
+    "target_id": null,
+    "gift_colors": [
+      3,
+      2,
+      1
+    ],
+    "materials": [
+      {
+        "id": 1402,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-05-22"
+  },
+  {
+    "recipe_id": 861,
+    "name": "星導きの杖",
+    "target_id": null,
+    "gift_colors": [
+      2,
+      5,
+      3
+    ],
+    "materials": [
+      {
+        "id": 33404,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1402,
+        "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-05-22"
+  },
+  {
+    "recipe_id": 862,
+    "name": "レーベシュトラル",
+    "target_id": null,
+    "gift_colors": [
+      2,
+      1,
+      5
+    ],
+    "materials": [
+      {
+        "id": 1404,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-05-29"
   },
   {
     "recipe_id": 10037,
@@ -15468,5 +18935,19 @@
       }
     ],
     "start_at": "2026-04-24"
+  },
+  {
+    "recipe_id": 10044,
+    "name": "どくどくドクロ",
+    "target_id": 8,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1406,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-05-22"
   }
 ]

@@ -20,10 +20,11 @@ export function renderNavbar(currentPage, switchPage) {
       <button id="nav-characters" class="nav-button ${is('characters')}">${t.characters}</button>
       <button id="nav-memories" class="nav-button ${is('memories')}">${t.memories}</button>
     </div>
+      
     <div class="nav-center">${t[PAGE_CONFIG[state.ui.currentPage].titleKey]}</div>
     <div class="nav-right">
       <button id="nav-equipments" class="nav-button ${is('equipments')}">${t.equipments}</button>
-      <button id="nav-battleItems" class="nav-button ${is('battleItems')}">${t.battleItems}</button>
+      <button id="nav-battleitems" class="nav-button ${is('battleitems')}">${t.battleitems}</button>
       <button id="nav-materials" class="nav-button ${is('materials')}">${t.materials}</button>
     </div>
   `;
@@ -31,6 +32,6 @@ export function renderNavbar(currentPage, switchPage) {
   document.getElementById('nav-characters').onclick = () => switchPage('characters');
   document.getElementById('nav-memories').onclick = () => switchPage('memories');
   document.getElementById('nav-equipments').onclick = () => switchPage('equipments');
-  document.getElementById('nav-battleItems').onclick = () => switchPage('battleItems');
+  document.getElementById('nav-battleitems').onclick = () => switchPage('battleitems');
   document.getElementById('nav-materials').onclick = () => switchPage('materials');
 }

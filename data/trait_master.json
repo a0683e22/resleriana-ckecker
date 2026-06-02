@@ -1718,6 +1718,116 @@
         "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Attackers by 5 / 10 / 15 / 30 / 50%"
       }
     },
+    "108": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【火A】",
+      "zh": "物攻/魔攻增益強化【火A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [Fire A]",
+      "description": {
+        "jp": "得意属性が火属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予火屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Fire Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "109": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【氷A】",
+      "zh": "物攻/魔攻增益強化【冰A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [Ice A]",
+      "description": {
+        "jp": "得意属性が氷属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予冰屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Ice Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "110": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【雷A】",
+      "zh": "物攻/魔攻增益強化【雷A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [Bolt A]",
+      "description": {
+        "jp": "得意属性が雷属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予雷屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Bolt Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "111": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【風A】",
+      "zh": "物攻/魔攻增益強化【風A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [Wind A]",
+      "description": {
+        "jp": "得意属性が風属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予風屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Wind Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "112": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【斬A】",
+      "zh": "物攻/魔攻增益強化【斬A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [Slash A]",
+      "description": {
+        "jp": "得意属性が斬属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予斬屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Slash Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "113": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【打A】",
+      "zh": "物攻/魔攻增益強化【打A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [Strike A]",
+      "description": {
+        "jp": "得意属性が打属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予打屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Strike Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "114": {
+      "category_id": 2,
+      "jp": "物攻/魔攻バフ強化【突A】",
+      "zh": "物攻/魔攻增益強化【突A】",
+      "en": "Enhanced P. ATK/M. ATK Buff [Stab A]",
+      "description": {
+        "jp": "得意属性が突属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予突屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Stab Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "115": {
+      "category_id": 2,
+      "jp": "ダメージバフ強化【火A】",
+      "zh": "傷害增益強化【火A】",
+      "en": "Enhanced Damage Buff [Fire A]",
+      "description": {
+        "jp": "得意属性が火属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予火屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Fire Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "116": {
+      "category_id": 2,
+      "jp": "ダメージバフ強化【氷A】",
+      "zh": "傷害增益強化【冰A】",
+      "en": "Enhanced Damage Buff [Ice A]",
+      "description": {
+        "jp": "得意属性が氷属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予冰屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Ice Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "117": {
+      "category_id": 2,
+      "jp": "ダメージバフ強化【雷A】",
+      "zh": "傷害增益強化【雷A】",
+      "en": "Enhanced Damage Buff [Bolt A]",
+      "description": {
+        "jp": "得意属性が雷属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予雷屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Bolt Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
     "118": {
       "category_id": 2,
       "jp": "ダメージバフ強化【風A】",
@@ -1727,6 +1837,17 @@
         "jp": "得意属性が風属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
         "zh": "賦予風屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
         "en": "Boosts potency of [Damage Dealt Up] buffs given to Wind Attackers by 8 / 15 / 23 / 45 / 75%"
+      }
+    },
+    "119": {
+      "category_id": 2,
+      "jp": "ダメージバフ強化【斬A】",
+      "zh": "傷害增益強化【斬A】",
+      "en": "Enhanced Damage Buff [Slash A]",
+      "description": {
+        "jp": "得意属性が斬属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予斬屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Slash Attackers by 8 / 15 / 23 / 45 / 75%"
       }
     },
     "120": {
@@ -1742,13 +1863,13 @@
     },
     "121": {
       "category_id": 2,
-      "jp": "物攻/魔攻バフ強化【風A】",
-      "zh": "物攻/魔攻增益強化【風A】",
-      "en": "Enhanced P. ATK/M. ATK Buff [ Wind A]",
+      "jp": "ダメージバフ強化【突A】",
+      "zh": "傷害增益強化【突A】",
+      "en": "Enhanced Damage Buff [Stab A]",
       "description": {
-        "jp": "得意属性が風属性かつアタッカーへ与える「物攻アップ」と「魔攻アップ」の効果量8 / 15 / 23 / 45 / 75%アップ",
-        "zh": "賦予風屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
-        "en": "Boosts potency of [P. ATK Up] and [M. ATK Up] buffs given to Wind Attackers by 8 / 15 / 23 / 45 / 75%"
+        "jp": "得意属性が突属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
+        "zh": "賦予突屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
+        "en": "Boosts potency of [Damage Dealt Up] buffs given to Strike Attackers by 8 / 15 / 23 / 45 / 75%"
       }
     }
   }

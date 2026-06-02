@@ -44,8 +44,8 @@ export function initGlobalClickEvent() {
             case 'equipments':
                 renderEquipments();
                 break;
-            case 'battleItems':
-                renderBattleItems();
+            case 'battleitems':
+                renderbattleitems();
                 break;
             case 'materials':
                 renderMaterials();
@@ -54,14 +54,17 @@ export function initGlobalClickEvent() {
     }
 });
 
-    document.addEventListener('input', (e) => {
-        if (e.target.id === 'search-input') {
-            state.search[state.ui.currentPage] = e.target.value;
-            clearTimeout(window.searchTimer);
-            window.searchTimer = setTimeout(() => renderCharacters(), 600);
-        }
-    });
-}
+document.addEventListener('input', (e) => {
+    if (e.target.id === 'search-input') {
+        state.search[state.ui.currentPage] = e.target.value;
+
+        clearTimeout(window.searchTimer);
+
+        window.searchTimer = setTimeout(() => {
+            renderApp();
+        }, 600);
+    }
+});
 
 // 輔助函式：將你貼給我的邏輯分類放進來
 function handleOwnershipAndActions(e) {

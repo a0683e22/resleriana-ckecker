@@ -1,7 +1,7 @@
 import { renderCharacters } from '../pages/characters.js';
 import { renderMemories } from '../pages/memories.js';
 import { renderEquipments } from '../pages/equipments.js';
-import { renderBattleItems } from '../pages/battleItems.js';
+import { renderbattleitems } from '../pages/battleitems.js';
 import { renderMaterials } from '../pages/materials.js';
 
 export const PAGE_CONFIG = {
@@ -20,10 +20,10 @@ export const PAGE_CONFIG = {
     toolbar: 'equipments',
     render: renderEquipments,
   },
-  battleItems: {
-    titleKey: 'battleItems',
-    toolbar: 'battleItems',
-    render: renderBattleItems,
+    battleitems: {
+    titleKey: 'battleitems',
+    toolbar: 'battleitems',
+    render: renderbattleitems,
   },
   materials: {
     titleKey: 'materials',

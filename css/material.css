@@ -1,0 +1,116 @@
+.material-card {
+    display: flex;
+    top: 6px
+    align-items: center;
+    gap: 16px;
+    background-color: #262c37;
+}
+.material-image {
+    position: relative;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+
+.material-rarity-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.material-icon {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.material-color-icon {
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+.material-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(330px,1fr));
+    gap: 8px;
+}
+
+.material-name { cursor: pointer; font: 16px; font-weight: bold; color: #8080ff;}
+.material-trait { cursor: pointer; font: 14px; color: #d3ba87;}
+.material-content { display: flex; flex-direction: column; justify-content: center; height: 100%; }
+.popup-material { cursor: default }
+.popup-name { cursor: default  }
+/* 遮罩與視窗 */
+.material-popup-mask {
+    position: fixed; inset: 0; z-index: 800;
+    display: flex; justify-content: center; align-items: center;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.material-popup-window {
+    width: min(1250px, 95vw); max-height: 90vh;
+    overflow-y: auto; background: #3f475d;
+    border-radius: 12px; padding: 20px; box-sizing: border-box;
+}
+
+/* Header */
+.material-popup-header {
+    display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;
+}
+.material-popup-header h2 { margin: 0; color: #c0c0c0; }
+
+/* 導航 */
+.material-popup-nav { display: flex; gap: 8px; }
+.material-popup-nav button {
+    width: 36px; height: 36px; border: none; border-radius: 6px; cursor: pointer;
+}
+.material-popup-nav button:disabled { opacity: 0.4; cursor: default; }
+
+/* 素材列表 */
+.material-popup-grid {
+    display: grid; justify-content: center; gap: 12px;
+    grid-template-columns: repeat(3, 400px);
+}
+
+.popup-trait-title {
+    cursor: pointer;
+    border-bottom: 1px dashed currentColor;
+    position: relative;
+}
+
+.popup-trait-description {
+	position: absolute;
+	top: calc(100% + 12px);
+	left: 70%;
+	transform: translateX(-50%);
+	width: max-content;
+	max-width: 80vw;
+	padding: 10px 14px;
+	background: #20283b;
+	border-radius: 8px;
+	z-index: 910;
+	display: none
+}
+
+
+.popup-trait-description.show {
+    display: block;
+    font: 16px important;
+    color: #a4ffff;
+}
+
+/* 響應式調整 */
+@media (max-width: 1280px) {
+    .material-popup-grid { grid-template-columns: repeat(2, 400px); }
+}
+
+@media (max-width: 767px) {
+    .material-popup-window { width: 95vw; padding: 12px; }
+    .material-popup-grid { grid-template-columns: 1fr; }
+}
