@@ -49,7 +49,9 @@ export const UI_TEXT = {
     shop_equip: '商城購買',
     noEffect: '無效果',
     recipetitle: '使用此素材的配方',
-    norecipeusage: '無配方需求'
+    norecipeusage: '無配方需求',
+    normalMaterial: '一般素材',
+    cannonMaterial: '工房砲素材'
   },
   en: {
     characters: 'Characters',
@@ -93,7 +95,9 @@ export const UI_TEXT = {
     shop_equip: 'Shop Purchased',
     noEffect: 'No Effect',
     recipetitle: 'Recipes Using This Material',
-    norecipeusage: 'No Recipe Usage'
+    norecipeusage: 'No Recipe Usage',
+    normalMaterial: 'Normal Materials',
+    cannonMaterial: 'Cannon Materials'
   },
   jp: {
     characters: 'キャラ',
@@ -137,7 +141,9 @@ export const UI_TEXT = {
     shop_equip: 'ショップ販売',
     noEffect: '効果なし',
     recipetitle: 'この素材を使用するレシピ',
-    norecipeusage: '配方需要なし'
+    norecipeusage: '配方需要なし',
+    normalMaterial: '一般素材',
+    cannonMaterial: 'アトリエ砲素材'
   },
 };
 

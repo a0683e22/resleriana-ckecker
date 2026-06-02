@@ -120,8 +120,8 @@ export const COLOR_ICON = {
 };
 
 export const MATERIAL_TYPE = [
-  { text: '一般素材', type: 'normal'},
-  { text: '工房砲素材', type: 'cannon'}
+  { labelKey: 'normalMaterial', type: 'normal'},
+  { labelKey: 'cannonMaterial', type: 'cannon'}
 ];
 
 export const MATERIAL_SORT_OPTIONS = [

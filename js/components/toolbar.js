@@ -88,7 +88,7 @@ export function renderToolbar(toolbarType) {
 }
 else if (toolbarType === 'materials') {
     toolbar.innerHTML = createToolbarLayout({
-    	 topLeft: `${MATERIAL_TYPE.map(f =>createFilterButton(f.text,f.type,currentFilters.type.includes(f.type), 'type' )).join('')}${createSelect({id: 'sort-select', options:MATERIAL_SORT_OPTIONS, value:state.sorting[state.ui.currentPage]})}`,
+    	 topLeft: `${MATERIAL_TYPE.map(f =>createFilterButton(t[f.labelKey],f.type,currentFilters.type.includes(f.type), 'type' )).join('')}${createSelect({id: 'sort-select', options:MATERIAL_SORT_OPTIONS, value:state.sorting[state.ui.currentPage]})}`,
     	 topRight: `${createLanguageSelect()}${createThemeButton()}`,
     	  bottomLeft: [...RARITY_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.rarity.includes(f.value), 'rarity')),
                    ...COLOR_FILTERS.map(f => createFilterButton(f.text, f.value, currentFilters.color.includes(f.value), 'color', f.icon))].join(''),});
