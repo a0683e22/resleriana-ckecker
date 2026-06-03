@@ -8,7 +8,6 @@ import { showToast } from '../components/toolbar.js';
 const getStatusValue = (eq, type) => eq.status?.find(s => s.type === type)?.value || 0;
 
 export function renderEquipments() {
-    console.log('renderEquipments');
     const { meta } = state.data;
     const content = document.getElementById('content');
     const { rarity, type, color } = state.filters.equipments;
