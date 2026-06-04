@@ -42,7 +42,8 @@ export function renderCharacters() {
     const matchRole = state.filters.characters.role.length === 0 || activeRoles.includes(char.role);
     const matchRarity = state.filters.characters.rarity.length === 0 || state.filters.characters.rarity.map(Number).includes(Number(char.rarity));
 
-    const has6StarSkills = !!(char.ev_skill1 && char.ev_skill2 && char.ev_burst);
+    const skillData = window.translationData?.[char.id];
+    const has6StarSkills = skillData?.ev_skill1?.skill_id != null && skillData?.ev_skill2?.skill_id != null && skillData?.ev_burst?.skill_id != null;
     const match6Star = !extraFilters.includes('awaken6') || has6StarSkills;
 
     const matchOwned = !extraFilters.includes('owned') || ownedIds.includes(Number(char.id));
