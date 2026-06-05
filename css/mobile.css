@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+
+    .toolbar-bottom .toolbar-left {
+        overflow-x: auto;
+        overflow-y: hidden;
+        flex-wrap: nowrap;
+        scrollbar-width: none;
+    }
+
+}

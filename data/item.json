@@ -6134,5 +6134,21 @@
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0799_S.webp",
     "equipment_tool_trait_ids": [56, 58]
+  },
+  {
+    "id": 1417,
+    "name": "夜光草",
+    "rarity": "SR",
+    "trait_color_id": 1,
+    "image": "images/ingredient/Ingredient_0800_S.webp",
+    "battle_tool_trait_ids": [11, 49]
+  },
+  {
+    "id": 1418,
+    "name": "ブルーサンド",
+    "rarity": "SSR",
+    "trait_color_id": 5,
+    "image": "images/ingredient/Ingredient_0801_S.webp",
+    "equipment_tool_trait_ids": [99, 2]
   }
 ]

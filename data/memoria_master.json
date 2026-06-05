@@ -9467,6 +9467,42 @@
     "roles": [4],
     "attr": [1, 2, 3]
   },
+  "30234": {
+    "name": "憩いのひととき",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31088
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31020
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31068
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31068
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31108
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31108
+      }
+    ],
+    "description": {
+      "jp": "得意属性が氷属性かつサポーターの時、味方全員のクリティカルダメージ+4.00 / 12.00 / 20.00 / 28.00 / 36.00%<br>「マイペース」の時、味方全員の物防・魔防+4.00 / 8.00 / 12.00 / 16.00 / 20.00%",
+      "zh": "得意屬性為冰屬性支援者時，我方全員暴擊傷害+4.00 / 12.00 / 20.00 / 28.00 / 36.00%<br>「我行我素」時，我方全員的物防・魔防+4.00 / 8.00 / 12.00 / 16.00 / 20.00%",
+      "en": "While equipped to a Supporter with Ice affinity, boosts all allies' Critical Damage by 4.00 / 12.00 / 20.00 / 28.00 / 36.00%<br>While equipped to Laid-back character, boosts all allies' P. DEF & M. DEF by 4.00 / 8.00 / 12.00 / 16.00 / 20.00％"
+    },
+    "roles": [4],
+    "attr": [6]
+  },
   "99999": {
     "name": "創世の光石",
     "stats": [

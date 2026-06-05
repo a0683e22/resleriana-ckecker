@@ -3251,7 +3251,7 @@
     "name": "ぐるこん超特級",
     "description": {
       "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>得意属性が風属性の味方全員のバーストスキルをゲージ化<br>※バーストゲージは2周分ストック可能<br><br>攻撃を受けた時、自身のバーストゲージを10%増加<br>パーティの誰かがアイテム使用時、得意属性が風属性の味方全員のバーストゲージを15%増加<br>※アイテムを複数同時に使用しても発動は1回",
-      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>賦予風屬性的我方全體爆發技能量條化<br>※爆發量條可儲存2圈<br><br>受到攻擊時，自身的爆發量條增加10%<br>隊伍中有人使用道具時，賦予風屬性的我方全體爆發量條增加15%<br>※同時使用複數道具時只會發動1次",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>得意屬性風屬性的我方全體爆發技能量條化<br>※爆發量條可儲存2圈<br><br>受到攻擊時，自身的爆發量條增加10%<br>隊伍中有人使用道具時，賦予風屬性的我方全體爆發量條增加15%<br>※同時使用複數道具時只會發動1次",
       "en": "Self Burst Skill becomes gauge-based<br>※Burst Gauge can store up to 3 rounds<br><br>All Wind-element allies' Burst Skills become gauge-based<br>※Burst Gauge can store up to 2 rounds<br><br>When attacked, increases self's Burst Gauge by 10%<br>When an item is used by anyone in the party, increases all Wind-element allies' Burst Gauge by 15%<br>*Only triggers once even if multiple items are used at the same time"
     }
   },
@@ -3261,6 +3261,22 @@
       "jp": "敵にとても狙われやすくなる<br>得意属性が風属性の味方全員の最大HP+40%<br>バトル開始時、味方全員のHPを100%回復し<br>得意属性が風属性の味方全員に以下の追加効果を付与<br>追加効果：「自身のHPが90%以上の時、スキル発動後、自身のバーストゲージを100%増加(発動上限2回)」<br><br>自身のHPが90%以上の時、スキル発動後、得意属性が風属性の味方全員に「基礎物防・基礎魔防+150」を付与(上限2個)",
       "zh": "更容易成為攻擊目標<br>賦予風屬性的我方全體最大HP+40%<br>戰鬥開始時，賦予我方全體HP100%回復<br>賦予風屬性的我方全體以下額外效果<br>額外效果：「自身HP在90%以上時，技能發動後，自身爆發量條增加100%（發動上限2次）」<br><br>自身HP在90%以上時，技能發動後，賦予風屬性的我方全體「基礎物防・基礎魔防+150」（上限2個）",
       "en": "More likely to be targeted.<br>All Wind-element allies' MAX HP +40%.<br>At battle start, restores all allies' HP to 100%.<br>Grants all Wind-element allies the following additional effect:<br>Additional Effect: \"When self's HP is above 90%, after using a skill, increases self's Burst Gauge by 100% (MAX 2 times).\"<br><br>When self's HP is above 90%, after using a skill, grants all Wind-element allies \"Base P.DEF/M.DEF +150\" (MAX 2 times)."
+    }
+  },
+  "1990555": {
+    "name": "凍てつく闘志",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化  ※バーストゲージは3周分ストック可能<br>得得意属性が氷属性の味方全員のバーストスキルをゲージ化  ※バーストゲージは2周分ストック可能<brパーティの誰かがクリティカル攻撃後、自身のバーストゲージを10%増加し<br>得意属性が氷属性の味方全員のバーストゲージを10%増加",
+      "zh": "自身爆發技能量條化 ※爆發量條可儲存3圈<br>得意屬性冰屬性的我方全員爆發技能量條化 ※爆發量條可儲存2圈<br><br>隊伍中有人造成暴擊攻擊後，自身爆發量條增加10%<br>得意屬性冰屬性的我方全員爆發量條+10%",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br>All Ice-element allies' Burst Skills become gauge-based  ※Burst Gauge can store up to 2 rounds<br><br>After a party member lands a Critical Attack, increases self Burst Gauge by 10% and all Ice-element allies' Burst Gauge by 10%"
+    }
+  },
+  "1990556": {
+    "name": "さっさと終わらせて",
+    "description": {
+      "jp": "パーティに「冒険」がいる時、与える強化効果量＋50%<br><br>パーティの誰かがバーストスキル発動後<br>得意属性が氷属性の味方全員に「クリティカルダメージ＋30%」と「魔攻＋50%」を付与(全て上限150%)",
+      "zh": "隊伍中有「冒険」隊員時，賦予的強化效果量+50%<br><br>隊伍中任一角色發動爆發技能後<br>賦予得意屬性冰屬性的我方全員「暴擊傷害+30%」與「魔攻+50%」(全部上限150%)",
+      "en": "When there is another \"冒険\" in the party, buff effect amount granted by 50%<br><br>Grants all Ice-element allies' \"Crit DMG+30%\" and  \"M.ATK +50%\"  ( all up to 150%)"
     }
   }
 }

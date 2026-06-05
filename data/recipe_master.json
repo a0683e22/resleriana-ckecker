@@ -18839,6 +18839,28 @@
     "start_at": "2026-05-29"
   },
   {
+    "recipe_id": 863,
+    "name": "クロニクルバンカー",
+    "gift_colors": [
+      1,
+      5,
+      4
+    ],
+    "materials": [
+      {
+        "id": 32401,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1417,
+        "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-06-05"
+  },
+  {
     "recipe_id": 10037,
     "name": "カノンボール",
     "target_id": 2,
