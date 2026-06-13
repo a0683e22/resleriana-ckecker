@@ -6150,5 +6150,21 @@
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0801_S.webp",
     "equipment_tool_trait_ids": [99, 2]
+  },
+  {
+    "id": 1425,
+    "name": "ホリニカ鉱石",
+    "rarity": "SR",
+    "trait_color_id": 5,
+    "image": "images/ingredient/Ingredient_0802_S.webp",
+    "battle_tool_trait_ids": [50, 19]
+  },
+  {
+    "id": 1426,
+    "name": "鈍色鉄の歯車",
+    "rarity": "SSR",
+    "trait_color_id": 4,
+    "image": "images/ingredient/Ingredient_0803_S.webp",
+    "equipment_tool_trait_ids": [72, 67]
   }
 ]

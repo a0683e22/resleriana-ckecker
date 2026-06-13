@@ -1,11 +1,62 @@
 ﻿{
+  "195": {
+    "skill1": {
+      "skill_id": 11003865,
+      "name": "見えない一撃",
+      "jp": "攻撃前、自身のマイナス効果を解除し、<br>攻撃後、自身に「スキルダメージ+{0}％」と「魔攻+{1}％」を付与(全て上限30％)",
+      "zh": "攻擊前，自身負面效果解除<br>攻擊後，賦予自身「技能傷害+{0}％」與「魔攻+{1}％」(全部上限30％)",
+      "en": "Before attacking, removes negative effects from self.<br>After attacking, grants self \"Skill Damage+{0}%\" and  \"Ｍ.ATK +{0}%\" (all up to 30%)"
+    },
+    "skill2": {
+      "skill_id": 12003870,
+      "name": "ブレスハンター",
+      "jp": "この攻撃の貫通力+{0}<br>攻撃後、自身に「スキルダメージ+{1}％」と「魔攻+{2}％」を3回行動終了するまで付与",
+      "zh": "此攻擊的貫通力+{0}%<br>攻擊後，賦予自身「技能傷害+{1}%」與「魔攻+{2}%」直到3次行動結束為止",
+      "en": "This attack's Penetration increases by {0}.<br>After attacking, grants self \"Skill Damage+{0}%\" and  \"Ｍ.ATK +{0}%\" until 3 actions end"
+    },
+    "burst": {
+      "skill_id": 14003875,
+      "name": "フェイタルブロー",
+      "jp": "この攻撃の貫通力+{0}<br>攻撃後、自身に「スキルダメージ+{1}％」と「魔攻+{2}％」を3回行動終了するまで付与し、<br>エクストラターン(エクストラスキル：[ex:14003876]見えない追撃[/ex])を{3}ターン後ろに生成",
+      "zh": "此攻擊的貫通力+{0}%<br>攻擊後，賦予自身「技能傷害+{1}%」與「魔攻+{2}%」直到3次行動結束為止<br>於{3}回合後生成額外回合（額外技能：[ex:14003876]見えない追撃[/ex]）",
+      "en": "This attack's Penetration increases by {0}.<br>After attacking, grants self \"Skill Damage+{0}%\" and  \"Ｍ.ATK +{0}%\" until 3 actions end<br>Generates an Extra Turn after 3 turns (Extra Skill: [ex:14003876]見えない追撃[/ex])"
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ex_skill": {
+      "skill_id": 14003876,
+      "name": "見えない追撃",
+      "jp": "この攻撃のクリティカル確率+100％と貫通力+{0}<br>攻撃後、自身に「スキルダメージ+{1}％」と「魔攻+{2}％」を3回行動終了するまで付与し、<br>自身に「貫通力+{3}」を付与(上限200)",
+      "zh": "此次攻擊的暴擊率+100%與貫通力+{0}<br>攻擊後，賦予自身「技能傷害+{1}%」與「魔攻+{2}%」直到3次行動結束為止<br>賦予自身「貫通力+{3}」(上限200)",
+      "en": "This attack's Critical Rate increases by 100% and \"Penetration +{0}\"<br>After attacking, grants self \"Skill Damage+{0}%\" and  \"Ｍ.ATK +{0}%\" until 3 actions end<br>Grants self  \"Penetration +{0}\" (Max 200)"
+    }
+  },
   "194": {
     "skill1": {
       "skill_id": 11003850,
       "name": "フロストショット",
       "jp": "得意属性が氷属性の味方全員に「クリティカルダメージ＋{0}%」と「魔攻＋{1}%」を付与(全て上限30%)",
       "zh": "賦予得意屬性冰屬性的我方全員「暴擊傷害＋{0}%」與「魔攻＋{1}%」(全部上限30%)",
-      "en": "Grants all Ice-element allies  \"Crit DMG +{0}%\" and \"M.ATK +{1}%\" ( all up to 30%)"
+      "en": "Grants all Ice-element allies  \"Crit DMG +{0}%\" and \"M.ATK +{1}%\" (all up to 30%)"
     },
     "skill2": {
       "skill_id": 12003855,

@@ -18861,6 +18861,28 @@
     "start_at": "2026-06-05"
   },
   {
+    "recipe_id": 864,
+    "name": "水晶の双剣",
+    "gift_colors": [
+      5,
+      1,
+      2
+    ],
+    "materials": [
+      {
+        "id": 32501,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1425,
+        "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-06-12"
+  },
+  {
     "recipe_id": 10037,
     "name": "カノンボール",
     "target_id": 2,

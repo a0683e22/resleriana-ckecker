@@ -9503,6 +9503,42 @@
     "roles": [4],
     "attr": [6]
   },
+  "30235": {
+    "name": "まだ見ぬ場所へ",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31078
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31030
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31078
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31148
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31058
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31058
+      }
+    ],
+    "description": {
+      "jp": "得意属性が氷属性かつアタッカーの時、攻撃後、自身に「スキルダメージ+3.00 / 10.00 / 17.00 / 23.00 / 30.00%」を4回行動終了するまで付与<br>「料理」の時、魔攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00%",
+      "zh": "得意屬性為冰屬性攻擊者時，攻擊後，賦予自身「技能傷害+3.00 / 10.00 / 17.00 / 23.00 / 30.00%」<br>「料理」時，魔攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00%",
+      "en": "While equipped to an Attacker with Ice affinity, after attacking, boosts self Skill Damage by 3.00 / 10.00 / 17.00 / 23.00 / 30.00% for 4 turns<br>While equipped to Chef character, boosts M. ATK by 5.00 / 16.00 / 28.00 / 39.00 / 50.00%"
+    },
+    "roles": [1],
+    "attr": [6]
+  },
   "99999": {
     "name": "創世の光石",
     "stats": [

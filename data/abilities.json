@@ -3278,5 +3278,21 @@
       "zh": "隊伍中有「冒険」隊員時，賦予的強化效果量+50%<br><br>隊伍中任一角色發動爆發技能後<br>賦予得意屬性冰屬性的我方全員「暴擊傷害+30%」與「魔攻+50%」(全部上限150%)",
       "en": "When there is another \"冒険\" in the party, buff effect amount granted by 50%<br><br>Grants all Ice-element allies' \"Crit DMG+30%\" and  \"M.ATK +50%\"  ( all up to 150%)"
     }
+  },
+  "1990557": {
+    "name": "熟練冒険家の技",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>クリティカル攻撃後、自身のバーストゲージを30％増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>暴擊攻擊後，自身爆發量條增加30%",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br>After a Crit attack, increases self's Burst Gauge by 30%"
+    }
+  },
+  "1990558": {
+    "name": "期待に応えてみせるわ",
+    "description": {
+      "jp": "パーティに自身以外の「寡黙」がいる時、基礎魔攻+400<br><br>味方から単体スキルを受けた後、自身に「スキルダメージ+100％」を付与(上限2個)",
+      "zh": "伍中存在自身以外的「沉默寡言」隊員時，基礎魔攻+400<br><br>受到我方單體技能後<br>賦予自身「技能傷害+100%」(上限2個)",
+      "en": "When there is another \"Quiet\" in the party, Base M.ATK +400<br><br>After being hit by a single-target skill from an ally, grants self \"Skill Damage+100%\" (Max 2 times)"
+    }
   }
 }
