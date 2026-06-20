@@ -1,4 +1,48 @@
 ﻿{
+  "196": {
+    "skill1": {
+      "skill_id": 11003881,
+      "name": "ウルヌス",
+      "jp": "攻撃後、自身に「クリティカルダメージ+{0}％」と「魔攻+{1}％」を付与(全て上限30％)",
+      "zh": "攻擊後，賦予自身「暴擊傷害＋{0}%」與「魔攻＋{1}%」(全部上限30%)",
+      "en": "After attacking, grants self \"Crit DMG +{0}%\" and \"M.ATK +{1}%\" (all up to 30%)"
+    },
+    "skill2": {
+      "skill_id": 12003886,
+      "name": "ウォリト・ケレリタス",
+      "jp": "この攻撃の貫通力+{0}<br>攻撃後、自身に「クリティカルダメージ+{1}％」と「魔攻+{2}％」を1回行動終了するまで付与",
+      "zh": "此攻擊的貫通力+{0}<br>攻擊後，賦予自身「暴擊傷害＋{1}%」與「魔攻＋{2}%」直到1次行動結束為止",
+      "en": "This attack's Penetration increases by {0}<br>After attacking, grants self \"Crit DMG +{1}%\" and \"M.ATK +{2}%\" until 1 action end"
+    },
+    "burst": {
+      "skill_id": 14003891,
+      "name": "ラビドゥス・ペルクティオ",
+      "jp": "この攻撃の貫通力+{0}<br>攻撃後、自身に「クリティカルダメージ+{1}％」と「魔攻+{2}％」を1回行動終了するまで付与<br><br>バーストゲージが200％以上の時、バーストゲージをさらに{3}％消費し、この攻撃のスキル威力+{4}％",
+      "zh": "此攻擊的貫通力+{0}<br>攻擊後，賦予自身「暴擊傷害＋{1}%」與「魔攻＋{2}%」直到1次行動結束為止<br><br>爆發量條200%以上時，消耗{3}%爆發量條，此攻擊的技能威力+{4}%",
+      "en": "This attack's Penetration increases by {0}<br>After attacking, grants self \"Crit DMG +{1}%\" and \"M.ATK +{2}%\" until 1 action end<br><br>When Burst Gauge is 200% or higher, additionally consumes {3}% Burst Gauge, this attack's Skill Power +{4}%"
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    }
+  },
   "195": {
     "skill1": {
       "skill_id": 11003865,
@@ -11,14 +55,14 @@
       "skill_id": 12003870,
       "name": "ブレスハンター",
       "jp": "この攻撃の貫通力+{0}<br>攻撃後、自身に「スキルダメージ+{1}％」と「魔攻+{2}％」を3回行動終了するまで付与",
-      "zh": "此攻擊的貫通力+{0}%<br>攻擊後，賦予自身「技能傷害+{1}%」與「魔攻+{2}%」直到3次行動結束為止",
+      "zh": "此攻擊的貫通力+{0}<br>攻擊後，賦予自身「技能傷害+{1}%」與「魔攻+{2}%」直到3次行動結束為止",
       "en": "This attack's Penetration increases by {0}.<br>After attacking, grants self \"Skill Damage+{0}%\" and  \"Ｍ.ATK +{0}%\" until 3 actions end"
     },
     "burst": {
       "skill_id": 14003875,
       "name": "フェイタルブロー",
       "jp": "この攻撃の貫通力+{0}<br>攻撃後、自身に「スキルダメージ+{1}％」と「魔攻+{2}％」を3回行動終了するまで付与し、<br>エクストラターン(エクストラスキル：[ex:14003876]見えない追撃[/ex])を{3}ターン後ろに生成",
-      "zh": "此攻擊的貫通力+{0}%<br>攻擊後，賦予自身「技能傷害+{1}%」與「魔攻+{2}%」直到3次行動結束為止<br>於{3}回合後生成額外回合（額外技能：[ex:14003876]見えない追撃[/ex]）",
+      "zh": "此攻擊的貫通力+{0}<br>攻擊後，賦予自身「技能傷害+{1}%」與「魔攻+{2}%」直到3次行動結束為止<br>於{3}回合後生成額外回合（額外技能：[ex:14003876]見えない追撃[/ex]）",
       "en": "This attack's Penetration increases by {0}.<br>After attacking, grants self \"Skill Damage+{0}%\" and  \"Ｍ.ATK +{0}%\" until 3 actions end<br>Generates an Extra Turn after 3 turns (Extra Skill: [ex:14003876]見えない追撃[/ex])"
     },
     "ev_skill1": {

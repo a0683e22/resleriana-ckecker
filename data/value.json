@@ -1,4 +1,83 @@
 ﻿{
+  "11003881": {
+    "attr": 5,
+    "target_type": 3,
+    "power_type": 2,
+    "power": 120,
+    "break_power": 2,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002333,
+        "value": 1500
+      },
+      {
+        "id": 91002334,
+        "value": 1500
+      }
+    ]
+  },
+  "12003886": {
+    "attr": 5,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 247,
+    "break_power": 16,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 20000
+      },
+      {
+        "id": 91001305,
+        "value": 7000
+      },
+      {
+        "id": 91001020,
+        "value": 7000
+      }
+    ]
+  },
+  "14003891": {
+    "attr": 5,
+    "target_type": 5,
+    "power_type": 2,
+    "power": 398,
+    "break_power": 56,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 40000
+      },
+      {
+        "id": 91001305,
+        "value": 10000
+      },
+      {
+        "id": 91001020,
+        "value": 10000
+      },
+      {
+        "id": 72001684,
+        "value": 10000
+      },
+      {
+        "id": 91002335,
+        "value": 25000
+      }
+    ]
+  },
   "11003865": {
     "attr": 6,
     "target_type": 3,

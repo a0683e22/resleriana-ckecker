@@ -6166,5 +6166,21 @@
     "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0803_S.webp",
     "equipment_tool_trait_ids": [72, 67]
+  },
+  {
+    "id": 1428,
+    "name": "黒鉄原石",
+    "rarity": "SR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0804_S.webp",
+    "battle_tool_trait_ids": [26, 49]
+  },
+  {
+    "id": 1429,
+    "name": "サボテンヤシ",
+    "rarity": "SSR",
+    "trait_color_id": 5,
+    "image": "images/ingredient/Ingredient_0805_S.webp",
+    "equipment_tool_trait_ids": [66, 68]
   }
 ]

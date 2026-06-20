@@ -32,7 +32,9 @@
       "zh": "WEAK攻擊時，技能傷害+2.00 / 5.00 / 7.00 / 10.00 / 12.00%",
       "en": "Boosts skill damage by 2.00 / 5.00 / 7.00 / 10.00 / 12.00% when attacking a weakness"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "10002": {
@@ -68,7 +70,9 @@
       "zh": "全體攻擊的技能傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "Boosts skill damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00% on attacks that hit all enemies"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "10003": {
@@ -104,7 +108,9 @@
       "zh": "技能擊破時，賦予自身「技能傷害+1.00 / 3.00 / 5.00 / 7.00 / 9.00%」(上限4 / 12 / 20 / 28 / 36%)",
       "en": "Boosts own skill damage by 1.00 / 3.00 / 5.00 / 7.00 / 9.00% upon defeating an enemy with a skill.(MAX 4 / 12 / 20 / 28 / 36%)"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "10004": {
@@ -140,7 +146,9 @@
       "zh": "暴擊傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "Boosts critical damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "10005": {
@@ -176,7 +184,9 @@
       "zh": "自身為攻擊者時，技能傷害+2.00 / 4.00 / 6.00 / 8.00 / 10.00%",
       "en": "While equipped to an Attacker, boosts skill damage by 2.00 / 4.00 / 6.00 / 8.00 / 10.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "10006": {
@@ -212,7 +222,9 @@
       "zh": "技能傷害+1.00 / 3.00 / 5.00 / 7.00 / 9.00%",
       "en": "Boosts skill damage by 1.00 / 3.00 / 5.00 / 7.00 / 9.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "10007": {
@@ -248,7 +260,9 @@
       "zh": "自身為破防者時，破防傷害+2.00 / 4.00 / 6.00 / 8.00 / 10.00%",
       "en": "While equipped to a Breaker, boosts stun damage by 2.00 / 4.00 / 6.00 / 8.00 / 10.00%"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "10008": {
@@ -284,8 +298,15 @@
       "zh": "魔法破防傷害+2.00 / 4.00 / 6.00 / 8.00 / 10.00%",
       "en": "Boosts magic stun damage by 2.00 / 4.00 / 6.00 / 8.00 / 10.00%"
     },
-    "roles": [2],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      2
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "10009": {
     "name": "ぷにぷにあーげる",
@@ -320,7 +341,9 @@
       "zh": "全體攻擊的破防傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "Boosts stun damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00% on attacks that hit all enemies"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "10010": {
@@ -356,7 +379,9 @@
       "zh": "攻擊頭目時，破防傷害+2.00 / 5.00 / 7.00 / 10.00 / 12.00%",
       "en": "Boosts stun damage by 2.00 / 5.00 / 7.00 / 10.00 / 12.00% when attacking a boss"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "10011": {
@@ -392,7 +417,9 @@
       "zh": "自身為防禦者時，技能傷害+2.00 / 4.00 / 6.00 / 8.00 / 10.00%",
       "en": "While equipped to a Defender, boosts skill damage by 2.00 / 4.00 / 6.00 / 8.00 / 10.00%"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "10012": {
@@ -428,7 +455,9 @@
       "zh": "WEAK攻擊後，賦予目標「受到的傷害+1.00 / 2.00 / 4.00 / 5.00 / 6.00%」直到受2次攻擊為止",
       "en": "Boosts enemy's damage received by 1.00 / 2.00 / 4.00 / 5.00 / 6.00% for 2 attacks when attacking a weakness"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "10013": {
@@ -464,7 +493,9 @@
       "zh": "攻擊頭目時，技能傷害+2.00 / 5.00 / 7.00 / 10.00 / 12.00%",
       "en": "Boosts skill damage by 2.00 / 5.00 / 7.00 / 10.00 / 12.00% when attacking a boss"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "10014": {
@@ -500,7 +531,9 @@
       "zh": "爆發技能傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "Boosts burst skill damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "10015": {
@@ -536,7 +569,9 @@
       "zh": "當敵人只剩1隻時，破防傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "Boosts stun damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00% when there is a single enemy"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "10016": {
@@ -572,7 +607,9 @@
       "zh": "賦予的HP回復量+1.00 / 3.00 / 6.00 / 8.00 / 10.00%",
       "en": "Boosts HP recovery given by 1.00 / 3.00 / 6.00 / 8.00 / 10.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "10017": {
@@ -644,7 +681,9 @@
       "zh": "自身為支援者時，技能發動後，回復HP 1.00 / 2.00 / 3.00 / 4.00 / 5.00%",
       "en": "While equipped to a Supporter, after attacking, restores 1.00 / 2.00 / 3.00 / 4.00 / 5.00% of own HP"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "10019": {
@@ -680,7 +719,9 @@
       "zh": "自身HP在70%以上時，賦予的HP回復量+2.00 / 5.00 / 8.00 / 10.00 / 13.00%",
       "en": "Boosts HP recovery given by 2.00 / 5.00 / 8.00 / 10.00 / 13.00% when own HP is at 70% or higher"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "10020": {
@@ -716,7 +757,9 @@
       "zh": "自身為支援者時，攻擊後，賦予目標「受到的傷害+1.00 / 2.00 / 3.00 / 4.00 / 5.00%」直到受2次攻擊為止",
       "en": "While equipped to a Supporter, boosts enemy's damage received by 1.00 / 2.00 / 3.00 / 4.00 / 5.00% for 2 attacks"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "20001": {
@@ -752,7 +795,9 @@
       "zh": "當敵人只剩1隻時，技能傷害+4.00 / 9.00 / 14.00 / 19.00 / 24.00%",
       "en": "Boosts skill damage by 4.00 / 9.00 / 14.00 / 19.00 / 24.00% when there is only 1 enemy"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "20002": {
@@ -788,8 +833,14 @@
       "zh": "物理技能傷害+3.00 / 6.00 / 9.00 / 12.00 / 15.00%",
       "en": "Boosts physical skill damage by 3.00 / 6.00 / 9.00 / 12.00 / 15.00%"
     },
-    "roles": [1],
-    "attr": [1, 2, 3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "20003": {
     "name": "学園の仲間たち",
@@ -824,7 +875,9 @@
       "zh": "自身HP在50%以下時，技能傷害+4.00 / 9.00 / 14.00 / 19.00 / 24.00%",
       "en": "Boosts skill damage by 4.00 / 9.00 / 14.00 / 19.00 / 24.00% when own HP is 50% or lower"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "20004": {
@@ -860,7 +913,9 @@
       "zh": "WEAK攻撃時、技能傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "Boosts skill damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00% when attacking a weakness"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "20005": {
@@ -896,8 +951,15 @@
       "zh": "魔法技能傷害+3.00 / 6.00 / 9.00 / 12.00 / 15.00%",
       "en": "Boosts magic skill damage by 3.00 / 6.00 / 9.00 / 12.00 / 15.00%"
     },
-    "roles": [1],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "20006": {
     "name": "世界を変える力",
@@ -932,8 +994,12 @@
       "zh": "得意屬性風屬性時，賦予目標「受到的傷害+2.00 / 4.00 / 6.00 / 8.00 / 10.00%」直到受2次攻擊為止",
       "en": "While equipped to character with Wind affinity, boosts enemy's damage received by 2.00 / 4.00 / 6.00 / 8.00 / 10.00% for 2 attacks"
     },
-    "roles": [4],
-    "attr": [8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      8
+    ]
   },
   "20007": {
     "name": "わたしの目指すもの",
@@ -968,8 +1034,12 @@
       "zh": "得意屬性斬屬性時，技能傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "While equipped to character with Slash affinity, boosts skill damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00%"
     },
-    "roles": [1],
-    "attr": [1]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1
+    ]
   },
   "20008": {
     "name": "黄昏の大地を歩んで",
@@ -1004,8 +1074,12 @@
       "zh": "得意屬性雷屬性時，技能傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "While equipped to character with Bolt affinity, boosts skill damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00%"
     },
-    "roles": [1],
-    "attr": [7]
+    "roles": [
+      1
+    ],
+    "attr": [
+      7
+    ]
   },
   "20009": {
     "name": "黄昏の空を見上げて",
@@ -1040,8 +1114,13 @@
       "zh": "WEAK攻擊後，賦予目標「風屬性耐性-1.00 / 2.00 / 4.00 / 5.00 / 6.00%」與「斬屬性耐性-1.00 / 2.00 / 4.00 / 5.00 / 6.00%」直到受2次攻擊為止",
       "en": "Reduces enemy's Wind & Slash resistances by 1.00 / 2.00 / 4.00 / 5.00 / 6.00% for 2 attacks when attacking target's weakness"
     },
-    "roles": [2],
-    "attr": [8, 1]
+    "roles": [
+      2
+    ],
+    "attr": [
+      8,
+      1
+    ]
   },
   "20010": {
     "name": "黄昏の海に抱かれて",
@@ -1076,8 +1155,14 @@
       "zh": "物理破防傷害+2.00 / 5.00 / 9.00 / 12.00 / 15.00%",
       "en": "Boosts physical stun damage by 2.00 / 5.00 / 9.00 / 12.00 / 15.00%"
     },
-    "roles": [2],
-    "attr": [1, 2, 3]
+    "roles": [
+      2
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "20011": {
     "name": "私たちが紡ぐ物語",
@@ -1112,8 +1197,12 @@
       "zh": "打屬性且WEAK攻擊後、賦予目標「打屬性耐性-2.00 / 4.00 / 6.00 / 7.00 / 9.00%」直到受2次攻擊為止",
       "en": "Reduces enemy's Strike resistance by 2.00 / 4.00 / 6.00 / 7.00 / 9.00% for 2 attacks when attacking target's Strike weakness"
     },
-    "roles": [2],
-    "attr": [2]
+    "roles": [
+      2
+    ],
+    "attr": [
+      2
+    ]
   },
   "20012": {
     "name": "どこまでも続く世界",
@@ -1148,8 +1237,13 @@
       "zh": "得意屬性打屬性時，賦予的HP回復量+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "While equipped to character with Strike affinity, boosts HP recovery given by 3.00 / 7.00 / 10.00 / 14.00 / 17.00%"
     },
-    "roles": [3, 4],
-    "attr": [2]
+    "roles": [
+      3,
+      4
+    ],
+    "attr": [
+      2
+    ]
   },
   "20013": {
     "name": "双子が描く夢",
@@ -1184,7 +1278,9 @@
       "zh": "受到魔法攻擊時，賦予自身「技能傷害+2.00 / 4.00 / 6.00 / 7.00 / 9.00%」直到2次行動結束後為止",
       "en": "When hit by a magic attack, boosts own skill damage by 2.00 / 4.00 / 6.00 / 7.00 / 9.00% for 2 turns"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "20014": {
@@ -1220,8 +1316,12 @@
       "zh": "得意屬性突屬性時，破防傷害+3.00 / 7.00 / 10.00 / 14.00 / 17.00%",
       "en": "While equipped to character with Stab affinity, boosts stun damage by 3.00 / 7.00 / 10.00 / 14.00 / 17.00%"
     },
-    "roles": [2],
-    "attr": [3]
+    "roles": [
+      2
+    ],
+    "attr": [
+      3
+    ]
   },
   "20015": {
     "name": "新しい冒険の予感",
@@ -1256,7 +1356,9 @@
       "zh": "自身為支援者時，我方全員的破防傷害+1.00 / 2.00 / 4.00 / 5.00 / 6.00%",
       "en": "While equipped to a Supporter, boosts all allies' stun damage by 1.00 / 2.00 / 4.00 / 5.00 / 6.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30001": {
@@ -1292,8 +1394,12 @@
       "zh": "得意屬性火屬性時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Fire affinity, boosts skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [5]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5
+    ]
   },
   "30002": {
     "name": "お勉強の時間だよ！",
@@ -1328,7 +1434,9 @@
       "zh": "自身為支援者時，我方全員技能傷害+2.00 / 5.00 / 9.00 / 12.00 / 15.00%",
       "en": "While equipped to a Supporter, boosts all allies' skill damage by 2.00 / 5.00 / 9.00 / 12.00 / 15.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30003": {
@@ -1364,8 +1472,12 @@
       "zh": "得意屬性火屬性時，破防傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Fire affinity, boosts stun damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [2],
-    "attr": [5]
+    "roles": [
+      2
+    ],
+    "attr": [
+      5
+    ]
   },
   "30004": {
     "name": "歴史を紡ぐもの",
@@ -1400,8 +1512,12 @@
       "zh": "得意屬性火屬性時，受到的HP回復量+4.00 / 12.00 / 19.00 / 27.00 / 34.00%",
       "en": "While equipped to a character with Fire affinity, boosts HP recovery received by 4.00 / 12.00 / 19.00 / 27.00 / 34.00%"
     },
-    "roles": [3],
-    "attr": [5]
+    "roles": [
+      3
+    ],
+    "attr": [
+      5
+    ]
   },
   "30005": {
     "name": "寄り添う花たち",
@@ -1436,8 +1552,12 @@
       "zh": "得意屬性冰屬性時，腹語的HP回復量+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Ice affinity, boosts HP recovery given by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [4],
-    "attr": [6]
+    "roles": [
+      4
+    ],
+    "attr": [
+      6
+    ]
   },
   "30006": {
     "name": "相棒",
@@ -1472,8 +1592,12 @@
       "zh": "得意屬性斬屬性時，破防傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Slash affinity, boosts stun damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [2],
-    "attr": [1]
+    "roles": [
+      2
+    ],
+    "attr": [
+      1
+    ]
   },
   "30007": {
     "name": "お宝大発見！",
@@ -1508,8 +1632,12 @@
       "zh": "得意屬性突屬性時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Stab affinity, boosts skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      3
+    ]
   },
   "30008": {
     "name": "天使の慈愛",
@@ -1544,8 +1672,12 @@
       "zh": "技能目標處於燒傷時，賦予「受到的傷害+4.00 / 12.00 / 19.00 / 27.00 / 34.00%」直到受2次攻擊為止",
       "en": "When the target is inflicted with Burns, boosts enemy's damage received by 4.00 / 12.00 / 19.00 / 27.00 / 34.00% for 2 attacks"
     },
-    "roles": [4],
-    "attr": [5]
+    "roles": [
+      4
+    ],
+    "attr": [
+      5
+    ]
   },
   "30009": {
     "name": "二人だけの時間",
@@ -1580,7 +1712,9 @@
       "zh": "自身HP70%以上時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "Boosts skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00% when HP is at 70% or higher"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30010": {
@@ -1616,8 +1750,12 @@
       "zh": "得意屬性風屬性時，賦予的HP回復量+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Wind affinity, boosts HP recovery given by 52%6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [4],
-    "attr": [8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      8
+    ]
   },
   "30011": {
     "name": "高度を上げて",
@@ -1652,8 +1790,12 @@
       "zh": "得意屬性斬屬性時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Slash affinity, boosts skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [1]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1
+    ]
   },
   "30012": {
     "name": "人形の見る夢",
@@ -1688,7 +1830,9 @@
       "zh": "受到打屬性攻擊時迴避(機率+6.00 / 8.00 / 10.00 / 12.00 / 14.00%)",
       "en": "Evades when receiving a Strike attack. (Rate: 6.00 / 8.00 / 10.00 / 12.00 / 14.00%)"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30013": {
@@ -1724,8 +1868,12 @@
       "zh": "得意屬性風屬性時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Wind affinity, boosts skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      8
+    ]
   },
   "30014": {
     "name": "「向こう」への予感",
@@ -1760,7 +1908,9 @@
       "zh": "受到物理攻擊時，賦予自身「技能傷害+4.00 / 9.00 / 13.00 / 18.00 / 22.00%」直到2次行動結束為止",
       "en": "When hit by a physical attack, boosts own skill damage by 4.00 / 9.00 / 13.00 / 18.00 / 22.00% for 2 turns"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30015": {
@@ -1796,7 +1946,9 @@
       "zh": "WEAK攻擊時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "Boosts skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00% when attacking a weakness"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30016": {
@@ -1832,7 +1984,9 @@
       "zh": "WEAK攻擊時，破防傷害+3.00 / 10.00 / 16.00 / 23.00 / 29.00%",
       "en": "Boosts stun damage by 3.00 / 10.00 / 16.00 / 23.00 / 29.00% when attacking a weakness"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30017": {
@@ -1868,7 +2022,9 @@
       "zh": "技能傷害+4.00 / 8.00 / 12.00 / 15.00 / 19.00%",
       "en": "Boosts skill damage by 4.00 / 8.00 / 12.00 / 15.00 / 19.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30018": {
@@ -1904,7 +2060,9 @@
       "zh": "自身為支援者且回合開始時，HP回復+9.00%",
       "en": "While equipped to a Supporter, restores 9.00% HP on turn start"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30019": {
@@ -1940,7 +2098,9 @@
       "zh": "受到的HP回復量+2.00 / 5.00 / 8.00 / 11.00 / 14.00%",
       "en": "Boosts HP recovery received by 2.00 / 5.00 / 8.00 / 11.00 / 14.00%"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30020": {
@@ -1976,8 +2136,12 @@
       "zh": "得意屬性雷屬性且受到攻擊時，賦予我方全員「技能傷害+1.00 / 3.00 / 5.00 / 6.00 / 8.00%」直到1次行動結束為止",
       "en": "While equipped to a character with Bolt affinity, when hit by an attack, boosts all allies' skill damage by 1.00 / 3.00 / 5.00 / 6.00 / 8.00% for 1 turn"
     },
-    "roles": [3],
-    "attr": [7]
+    "roles": [
+      3
+    ],
+    "attr": [
+      7
+    ]
   },
   "30021": {
     "name": "刹那の交錯",
@@ -2012,8 +2176,13 @@
       "zh": "進行斬屬性或突屬性攻擊時，賦予自身「技能傷害+2.00 / 7.00 / 12.00 / 16.00 / 21.00%」直到2次行動結束為止",
       "en": "After Attacking with Slash or Stab attribute, boosts own skill damage by 2.00 / 7.00 / 12.00 / 16.00 / 21.00% for 2 turns"
     },
-    "roles": [1],
-    "attr": [1, 3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1,
+      3
+    ]
   },
   "30022": {
     "name": "只今お仕事中！",
@@ -2048,7 +2217,9 @@
       "zh": "全體攻擊的破防傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "Boosts stun damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00% on attacks that hit all enemies"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30023": {
@@ -2084,8 +2255,13 @@
       "zh": "得意屬性冰屬性時，我方全員技能傷害+3.00 / 8.00 / 13.00 / 18.00 / 23.00%",
       "en": "While equipped to a character with Ice affinity, boosts all allies' skill damage by 3.00 / 8.00 / 13.00 / 18.00 / 23.00%"
     },
-    "roles": [1, 4],
-    "attr": [6]
+    "roles": [
+      1,
+      4
+    ],
+    "attr": [
+      6
+    ]
   },
   "30024": {
     "name": "花火を見上げて",
@@ -2120,7 +2296,9 @@
       "zh": "WAVE開始時，賦予自身「破防傷害+11.00 / 28.00 / 46.00 / 63.00 / 80.00%」直到2次行動結束為止",
       "en": "At the start of the wave, boosts own stun damage by 11.00 / 28.00 / 46.00 / 63.00 / 80.00% for 2 turns"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30025": {
@@ -2156,7 +2334,9 @@
       "zh": "賦予的強化效果量+5.00 / 15.00 / 25.00 / 35.00 / 45.00%",
       "en": "Boosts potency of buff effects given by 5.00 / 15.00 / 25.00 / 35.00 / 45.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30026": {
@@ -2192,7 +2372,9 @@
       "zh": "自身為支援者且受到突屬性攻擊時迴避(機率8.00 / 11.00 / 13.00 / 16.00 / 18.00%)",
       "en": "While equipped to a Supporter, evades when receiving a Stab attack (Rate: 8.00 / 11.00 / 13.00 / 16.00 / 18.00%)"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30027": {
@@ -2228,7 +2410,9 @@
       "zh": "自身為攻擊者時，全體攻擊的技能傷害+7.00 / 20.00 / 33.00 / 45.00 / 58.00%",
       "en": "While equipped to an Attacker, boosts area attack skill damage by 7.00 / 20.00 / 33.00 / 45.00 / 58.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30028": {
@@ -2264,7 +2448,9 @@
       "zh": "我方全員攻擊者與支援者的技能傷害+4.00 / 10.00 / 16.00 / 22.00 / 28.00%",
       "en": "Boosts all Attacker & Supporter allies' skill damage by 4.00 / 10.00 / 16.00 / 22.00 / 28.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30029": {
@@ -2300,8 +2486,12 @@
       "zh": "物理攻擊後，賦予目標「斬屬性耐性-2.00 / 5.00 / 9.00 / 12.00 / 15.00%」直到受2次攻擊為止",
       "en": "When using a physical attack, reduces target's Slash resistance by 2.00 / 5.00 / 9.00 / 12.00 / 15.00% for 2 attacks"
     },
-    "roles": [2],
-    "attr": [1]
+    "roles": [
+      2
+    ],
+    "attr": [
+      1
+    ]
   },
   "30030": {
     "name": "新発見は止まらない",
@@ -2336,8 +2526,15 @@
       "zh": "自身為攻擊者時，魔法技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to an Attacker, boosts magic skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30031": {
     "name": "星誕祭の夜に",
@@ -2372,8 +2569,12 @@
       "zh": "得意屬性冰屬性時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to an Attacker, boosts magic skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [6]
+    "roles": [
+      1
+    ],
+    "attr": [
+      6
+    ]
   },
   "30032": {
     "name": "星の導きで運命を辿る者",
@@ -2408,7 +2609,9 @@
       "zh": "自身攻擊者時，我方全員技能傷害+1.00 / 3.00 / 4.00 / 6.00 / 7.00%",
       "en": "While equipped to an Attacker, boosts all allies' skill damage by 1.00 / 3.00 / 4.00 / 6.00 / 7.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30033": {
@@ -2444,7 +2647,9 @@
       "zh": "自身為破防者時，我方全員破防傷害+1.00 / 3.00 / 4.00 / 6.00 / 7.00%",
       "en": "While equipped to a Breaker, boosts stun damage for all allies by 1.00 / 3.00 / 4.00 / 6.00 / 7.00%"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30034": {
@@ -2480,7 +2685,9 @@
       "zh": "自身為支援者時，我方全員物攻+2.00 / 4.00 / 6.00 / 7.00 / 9.00%",
       "en": "While equipped to a Supporter, boosts all allies' P.ATK by 2.00 / 4.00 / 6.00 / 7.00 / 9.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30035": {
@@ -2516,8 +2723,12 @@
       "zh": "得意屬性冰屬性時，暴擊傷害+10.00 / 29.00 / 48.00 / 66.00 / 85.00%",
       "en": "While equipped to a character with Ice affinity, boosts critical damage by 10.00 / 29.00 / 48.00 / 66.00 / 85.00%"
     },
-    "roles": [1],
-    "attr": [6]
+    "roles": [
+      1
+    ],
+    "attr": [
+      6
+    ]
   },
   "30036": {
     "name": "初売りですよ！",
@@ -2552,7 +2763,9 @@
       "zh": "暴擊攻擊後，賦予自身「技能傷害+4.00 / 12.00 / 19.00 / 27.00 / 34.00%」直到2次行動結束為止",
       "en": "After making a critical attack, boosts own skill damage by 4.00 / 12.00 / 19.00 / 27.00 / 34.00% for 2 turns"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30037": {
@@ -2588,7 +2801,9 @@
       "zh": "自身為攻擊者時，攻擊後，賦予2次HP回復 1.00 / 3.00 / 5.00 / 6.00 / 8.00%",
       "en": "While equipped to an Attacker, after attacking, restores HP by 1.00 / 3.00 / 5.00 / 6.00 / 8.00% 2 times"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30039": {
@@ -2660,8 +2875,12 @@
       "zh": "得意屬性火屬性時，賦予的HP回復量+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Fire affinity, boosts HP recovery given by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [4],
-    "attr": [5]
+    "roles": [
+      4
+    ],
+    "attr": [
+      5
+    ]
   },
   "30041": {
     "name": "白銀の世界に興じて",
@@ -2696,7 +2915,9 @@
       "zh": "攻擊對象處於破防狀態時，單體攻擊的技能傷害+8.00 / 23.00 / 39.00 / 54.00 / 69.00%",
       "en": "When attack target is stunned, boosts single-target attack skill damage by 8.00 / 23.00 / 39.00 / 54.00 / 69.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30042": {
@@ -2732,8 +2953,12 @@
       "zh": "得意屬性突屬性時，破防傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Stab affinity, boosts stun damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [2],
-    "attr": [3]
+    "roles": [
+      2
+    ],
+    "attr": [
+      3
+    ]
   },
   "30043": {
     "name": "空から魔法を振りまいて",
@@ -2768,8 +2993,14 @@
       "zh": "物理攻擊後，賦予目標「斬打突屬性耐性-1.00 / 3.00 / 4.00 / 6.00 / 7.00%」直到受2次攻擊為止",
       "en": "When using a physical attack, reduces target's Slash, Strike, and Stab resistance by 1.00 / 3.00 / 4.00 / 6.00 / 7.00% for 2 attacks"
     },
-    "roles": [2],
-    "attr": [1, 2, 3]
+    "roles": [
+      2
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30044": {
     "name": "師匠と連れ添う雪景色",
@@ -2804,8 +3035,12 @@
       "zh": "得意屬性風屬性且受到攻擊時，賦予我方全員「技能傷害+1.00 / 3.00 / 5.00 / 6.00 / 8.00%」直到1次行動結束為止",
       "en": "While equipped to a character with Wind affinity, when hit by an attack, boosts all allies' skill damage by 1.00 / 3.00 / 5.00 / 6.00 / 8.00% for 1 turn"
     },
-    "roles": [3],
-    "attr": [8]
+    "roles": [
+      3
+    ],
+    "attr": [
+      8
+    ]
   },
   "30045": {
     "name": "頂獣に抗え！",
@@ -2840,8 +3075,12 @@
       "zh": "得意屬性打屬性時，暴擊傷害+10.00 / 29.00 / 48.00 / 66.00 / 85.00%",
       "en": "While equipped to a character with Strike affinity, boosts critical damage by 10.00 / 29.00 / 48.00 / 66.00 / 85.00%"
     },
-    "roles": [1],
-    "attr": [2]
+    "roles": [
+      1
+    ],
+    "attr": [
+      2
+    ]
   },
   "30046": {
     "name": "絶望を踏み越えて",
@@ -2876,8 +3115,12 @@
       "zh": "得意屬性打屬性時，破防傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Strike affinity, boosts stun damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [2],
-    "attr": [2]
+    "roles": [
+      2
+    ],
+    "attr": [
+      2
+    ]
   },
   "30047": {
     "name": "目指すべきもの",
@@ -2912,7 +3155,9 @@
       "zh": "自身為支援者時，我方全員暴擊傷害+4.00 / 10.00 / 16.00 / 22.00 / 28.00%",
       "en": "While equipped to a Supporter, boosts all allies' critical damage by 4.00 / 10.00 / 16.00 / 22.00 / 28.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30048": {
@@ -2984,7 +3229,9 @@
       "zh": "技能傷害+4.00 / 8.00 / 12.00 / 15.00 / 19.00%",
       "en": "Boosts skill damage by 4.00 / 8.00 / 12.00 / 15.00 / 19.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30050": {
@@ -3020,8 +3267,12 @@
       "zh": "得意屬性風屬性時，暴擊傷害+10.00 / 29.00 / 48.00 / 66.00 / 85.00%",
       "en": "While equipped to a character with Wind affinity, boosts critical damage by 10.00 / 29.00 / 48.00 / 66.00 / 85.00%"
     },
-    "roles": [1],
-    "attr": [8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      8
+    ]
   },
   "30051": {
     "name": "いざ、夢の学び舎へ！",
@@ -3056,7 +3307,9 @@
       "zh": "我方全員的爆發技能傷害+2.00 / 4.00 / 6.00 / 8.00 / 10.00%",
       "en": "Boosts all allies' burst skill damage by 2.00 / 4.00 / 6.00 / 8.00 / 10.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30052": {
@@ -3092,7 +3345,9 @@
       "zh": "攻擊目標為噗尼種族時，技能傷害+4.00 / 11.00 / 18.00 / 25.00 / 32.00%",
       "en": "Boosts skill damage when target is a Puni by 4.00 / 11.00 / 18.00 / 25.00 / 32.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30053": {
@@ -3128,8 +3383,12 @@
       "zh": "得意屬性風屬性時，破防傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Wind affinity, boosts stun damage by 52%6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [2],
-    "attr": [8]
+    "roles": [
+      2
+    ],
+    "attr": [
+      8
+    ]
   },
   "30054": {
     "name": "見えない真意",
@@ -3164,7 +3423,9 @@
       "zh": "自身為支援者時，我方全員的爆發技能傷害+3.00 / 9.00 / 15.00 / 20.00 / 26.00%",
       "en": "While equipped to a supporter, boosts all allies' burst skill damage by 3.00 / 9.00 / 15.00 / 20.00 / 26.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30055": {
@@ -3200,7 +3461,9 @@
       "zh": "自身為支援者時，我方全員受到強化面板的效果量+5.00 / 14.00 / 23.00 / 31.00 / 40.00%",
       "en": "While equipped to a Supporter, boosts all allies' potency of buffs received from panels by 5.00 / 14.00 / 23.00 / 31.00 / 40.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30056": {
@@ -3236,8 +3499,15 @@
       "zh": "魔法攻擊後，賦予目標「火冰風雷屬性耐性-1.00 / 3.00 / 4.00 / 6.00 / 7.00%」直到受2次攻擊為止",
       "en": "When using a magic attack, reduces target's Fire, Ice, Bolt, and Air resistance by 1.00 / 3.00 / 4.00 / 6.00 / 7.00% for 2 attacks"
     },
-    "roles": [2],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      2
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30057": {
     "name": "ふなべぇ号、出航！",
@@ -3272,8 +3542,14 @@
       "zh": "自身為攻擊者時，物理技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to an Attacker, boosts physical attack skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [1, 2, 3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30058": {
     "name": "まだ名もなき蕾の少女",
@@ -3308,7 +3584,9 @@
       "zh": "自身為防禦者時，我方全員技能傷害+3.00 / 8.00 / 13.00 / 18.00 / 23.00%",
       "en": "While equipped to a Defender, boosts all allies' skill damage by 3.00 / 8.00 / 13.00 / 18.00 / 23.00%"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30059": {
@@ -3344,8 +3622,12 @@
       "zh": "自身為攻擊者時，受到強化面板的效果量+12.00 / 33.00 / 54.00 / 75.00 / 96.00%",
       "en": "While equipped to an Attacker, boost the potency of effects received from boost-type panels by 12.00 / 33.00 / 54.00 / 75.00 / 96.00%"
     },
-    "roles": [1],
-    "attr": [7]
+    "roles": [
+      1
+    ],
+    "attr": [
+      7
+    ]
   },
   "30060": {
     "name": "身支度は入念に",
@@ -3380,8 +3662,12 @@
       "zh": "得意屬性雷屬性時，暴擊傷害+10.00 / 29.00 / 48.00 / 66.00 / 85.00%",
       "en": "While equipped to a character with Bolt affinity, boosts critical damage by 10.00 / 29.00 / 48.00 / 66.00 / 85.00%"
     },
-    "roles": [1],
-    "attr": [7]
+    "roles": [
+      1
+    ],
+    "attr": [
+      7
+    ]
   },
   "30061": {
     "name": "交わる武の道",
@@ -3416,7 +3702,9 @@
       "zh": "受到攻擊時，賦予自身「技能傷害+2.00 / 6.00 / 10.00 / 14.00 / 18.00%」(上限8 / 24 / 40 / 56 / 90%)",
       "en": "When hit by an attack, boosts own skill damage by 2.00 / 6.00 / 10.00 / 14.00 / 18.00% (Max 8 / 24 / 40 / 56 / 90%)"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30062": {
@@ -3452,7 +3740,9 @@
       "zh": "暴擊時，破防傷害+8.00 / 22.00 / 37.00 / 51.00 / 65.00%",
       "en": "On critical attack, boosts stun damage by 8.00 / 22.00 / 37.00 / 51.00 / 65.00%"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30064": {
@@ -3488,7 +3778,9 @@
       "zh": "攻擊頭目時，技能傷害與破防傷害+3.00 / 6.00 / 9.00 / 11.00 / 14.00%",
       "en": "Boosts skill damage and stun damage by 3.00 / 6.00 / 9.00 / 11.00 / 14.00% when attacking a boss"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30065": {
@@ -3524,8 +3816,12 @@
       "zh": "得意屬性火屬性時，暴擊傷害+10.00 / 29.00 / 48.00 / 66.00 / 85.00%",
       "en": "While equipped to a character with Fire affinity, boosts critical damage by 10.00 / 29.00 / 48.00 / 66.00 / 85.00%"
     },
-    "roles": [1],
-    "attr": [5]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5
+    ]
   },
   "30066": {
     "name": "闇を往く影",
@@ -3560,8 +3856,12 @@
       "zh": "得意屬性冰屬性時，破防傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Ice affinity, boosts stun damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [2],
-    "attr": [6]
+    "roles": [
+      2
+    ],
+    "attr": [
+      6
+    ]
   },
   "30067": {
     "name": "海と熱",
@@ -3596,8 +3896,12 @@
       "zh": "得意屬性雷屬性時，破防傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Bolt affinity, boosts stun damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [2],
-    "attr": [7]
+    "roles": [
+      2
+    ],
+    "attr": [
+      7
+    ]
   },
   "30068": {
     "name": "太陽にも負けない笑顔",
@@ -3632,8 +3936,12 @@
       "zh": "得意屬性冰屬性且WEAK攻擊時，技能傷害+8.00 / 22.00 / 37.00 / 51.00 / 65.00%",
       "en": "Boosts skill damage by 8.00 / 22.00 / 37.00 / 51.00 / 65.00% when attacking a target's Ice weakness"
     },
-    "roles": [1],
-    "attr": [6]
+    "roles": [
+      1
+    ],
+    "attr": [
+      6
+    ]
   },
   "30069": {
     "name": "腹が減っては",
@@ -3668,7 +3976,9 @@
       "zh": "「庫肯島」的我方全員技能傷害+14.00%",
       "en": "Boosts Kurken Island allies' skill damage by 14.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30070": {
@@ -3704,7 +4014,10 @@
       "zh": "攻擊目標為水棲種族時，技能傷害+2.00 / 4.00 / 7.00 / 9.00 / 11.00%<br>受到水棲種族的傷害-2.00 / 4.00 / 7.00 / 9.00 / 11.00%",
       "en": "When attack target is Aquatic, boosts skill damage by 2.00 / 4.00 / 7.00 / 9.00 / 11.00%.<br>Reduces damage received from Aquatic enemies by 2.00 / 4.00 / 7.00 / 9.00 / 11.00%"
     },
-    "roles": [1, 3],
+    "roles": [
+      1,
+      3
+    ],
     "attr": []
   },
   "30071": {
@@ -3740,8 +4053,12 @@
       "zh": "得意屬性雷屬性時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Bolt affinity, boosts skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [7]
+    "roles": [
+      1
+    ],
+    "attr": [
+      7
+    ]
   },
   "30072": {
     "name": "いざ、素潜り勝負！",
@@ -3776,8 +4093,12 @@
       "zh": "得意屬性冰屬性且WEAK攻擊時，破防傷害+8.00 / 22.00 / 37.00 / 51.00 / 65.00%",
       "en": "Boosts stun damage by 8.00 / 22.00 / 37.00 / 51.00 / 65.00% when attacking a target's Ice weakness"
     },
-    "roles": [2],
-    "attr": [6]
+    "roles": [
+      2
+    ],
+    "attr": [
+      6
+    ]
   },
   "30073": {
     "name": "「また」の約束",
@@ -3812,8 +4133,15 @@
       "zh": "自身為攻擊者時，暴擊傷害+10.00 / 33.00 / 55.00 / 78.00 / 100.00%",
       "en": "While equipped to an Attacker, boosts critical damage by 10.00 / 33.00 / 55.00 / 78.00 / 100.00%"
     },
-    "roles": [1],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30074": {
     "name": "友達の好きなもの",
@@ -3848,8 +4176,12 @@
       "zh": "得意屬性斬屬性時，爆發技能傷害+10.00 / 29.00 / 48.00 / 66.00 / 85.00%",
       "en": "While equipped to a character with Slash affinity, boosts burst skill damage by 10.00 / 29.00 / 48.00 / 66.00 / 85.00%"
     },
-    "roles": [1],
-    "attr": [1]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1
+    ]
   },
   "30075": {
     "name": "癒しの願い",
@@ -3884,8 +4216,12 @@
       "zh": "得意屬性火屬性時，賦予的強化效果量+6.00 / 20.00 / 33.00 / 47.00 / 60.00%",
       "en": "While equipped to a character with Fire affinity, boosts potency of buff effects given by 6.00 / 20.00 / 33.00 / 47.00 / 60.00%"
     },
-    "roles": [4],
-    "attr": [5]
+    "roles": [
+      4
+    ],
+    "attr": [
+      5
+    ]
   },
   "30076": {
     "name": "ハッピーバースデー！",
@@ -3920,8 +4256,12 @@
       "zh": "得意屬性火屬性且WEAK攻擊時，技能傷害+8.00 / 22.00 / 37.00 / 51.00 / 65.00%",
       "en": "Boosts skill damage by 8.00 / 22.00 / 37.00 / 51.00 / 65.00% when attacking target's Fire weakness"
     },
-    "roles": [1],
-    "attr": [5]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5
+    ]
   },
   "30077": {
     "name": "手のひらで踊る",
@@ -3956,8 +4296,13 @@
       "zh": "斬屬性且WEAK攻擊後，賦予目標「斬屬性耐性-5.00 / 11.00 / 18.00 / 24.00 / 30.00%」直到受2次攻擊為止",
       "en": "Reduces target's Slash Resistance by 5.00 / 11.00 / 18.00 / 24.00 / 30.00% for 2 attacks when attacking target's Slash weakness"
     },
-    "roles": [1, 2],
-    "attr": [1]
+    "roles": [
+      1,
+      2
+    ],
+    "attr": [
+      1
+    ]
   },
   "30078": {
     "name": "決戦の時",
@@ -3992,7 +4337,9 @@
       "zh": "自身為支援者時，我方全員破防傷害+1.00 / 3.00 / 4.00 / 6.00 / 7.00%",
       "en": "While equipped to a Supporter, boosts all allies' stun damage by 1.00 / 3.00 / 4.00 / 6.00 / 7.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30079": {
@@ -4028,8 +4375,12 @@
       "zh": "得意屬性火屬性且WEAK攻擊時，破防傷害+8.00 / 22.00 / 37.00 / 51.00 / 65.00%",
       "en": "Boosts stun damage by 8.00 / 22.00 / 37.00 / 51.00 / 65.00% when attacking target's Fire weakness"
     },
-    "roles": [2],
-    "attr": [5]
+    "roles": [
+      2
+    ],
+    "attr": [
+      5
+    ]
   },
   "30080": {
     "name": "剣で躍る",
@@ -4064,8 +4415,14 @@
       "zh": "自身為防禦者時，物理技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a Defender, boosts physical attack skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [3],
-    "attr": [1, 2, 3]
+    "roles": [
+      3
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30081": {
     "name": "追憶の彼方、幻創の地",
@@ -4100,7 +4457,9 @@
       "zh": "自身HP50%以下時，暴擊傷害+20.00%",
       "en": "Boosts own critical damage by 20% when own HP is 50% or lower"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30082": {
@@ -4136,8 +4495,12 @@
       "zh": "得意屬性火屬性且受到攻擊時，賦予我方全員「技能傷害+1.00 / 3.00 / 5.00 / 6.00 / 8.00%」直到1次行動結束為止",
       "en": "While equipped to a character with Fire affinity, when hit by an attack, boosts all allies' skill damage by 1.00 / 3.00 / 5.00 / 6.00 / 8.00% for 1 turn"
     },
-    "roles": [3],
-    "attr": [5]
+    "roles": [
+      3
+    ],
+    "attr": [
+      5
+    ]
   },
   "30083": {
     "name": "戦う理由",
@@ -4172,8 +4535,12 @@
       "zh": "得意屬性打屬性時，技能傷害+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Strike affinity, boosts skill damage by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [1],
-    "attr": [2]
+    "roles": [
+      1
+    ],
+    "attr": [
+      2
+    ]
   },
   "30084": {
     "name": "二人は前向き！",
@@ -4208,7 +4575,9 @@
       "zh": "自身為破防者時，全體攻擊的破防傷害+7.00 / 20.00 / 33.00 / 45.00 / 58.00%",
       "en": "While equipped to a Breaker, boosts stun damage of attacks that target all enemies by 7.00 / 20.00 / 33.00 / 45.00 / 58.00%"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30085": {
@@ -4244,8 +4613,15 @@
       "zh": "物理攻擊後，賦予目標「斬打突屬性耐性-3.00 / 7.00 / 12.00 / 16.00 / 20.00%」直到受2次攻擊為止",
       "en": "When using a physical attack, reduces target's Slash, Strike, and Stab resistance by 3.00 / 7.00 / 12.00 / 16.00 / 20.00% for 2 attacks"
     },
-    "roles": [1, 2],
-    "attr": [1, 2, 3]
+    "roles": [
+      1,
+      2
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30086": {
     "name": "広がるお菓子の輪！",
@@ -4280,7 +4656,9 @@
       "zh": "自身為支援者時，我方全員魔攻+2.00 / 4.00 / 6.00 / 7.00 / 9.00%",
       "en": "While equipped to a Supporter, boosts all allies' M.ATK by 2.00 / 4.00 / 6.00 / 7.00 / 9.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30088": {
@@ -4316,7 +4694,9 @@
       "zh": "自身為防禦者時，我方全員暴擊傷害+7.00 / 12.00 / 18.00 / 23.00 / 28.00%",
       "en": "While equipped to a Defender, boosts all allies' critical damage by 7.00 / 12.00 / 18.00 / 23.00 / 28.00%"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30089": {
@@ -4352,8 +4732,13 @@
       "zh": "得意屬性斬屬性時，我方全員技能傷害+3.00 / 8.00 / 13.00 / 18.00 / 23.00%",
       "en": "While equipped to a character with Slash affinity, boosts all allies' skill damage by 3.00 / 8.00 / 13.00 / 18.00 / 23.00%"
     },
-    "roles": [1, 4],
-    "attr": [1]
+    "roles": [
+      1,
+      4
+    ],
+    "attr": [
+      1
+    ]
   },
   "30090": {
     "name": "紅と白の物語",
@@ -4388,7 +4773,9 @@
       "zh": "自身HP50%以上時，暴擊傷害+20.00%",
       "en": "Boosts own critical damage by 20% when own HP is 50% or higher"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30091": {
@@ -4424,7 +4811,9 @@
       "zh": "自身為攻擊者時，單體攻擊的技能傷害+7.00 / 20.00 / 33.00 / 45.00 / 58.00%",
       "en": "While equipped to an Attacker, boosts single-target attack skill damage by 7.00 / 20.00 / 33.00 / 45.00 / 58.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30092": {
@@ -4460,8 +4849,12 @@
       "zh": "得意屬性突屬性且WEAK攻擊後，賦予目標「受到的傷害+2.00 / 8.00 / 15.00 / 21.00 / 27.00%」直到受2次攻擊為止",
       "en": "得Boosts target's damage received by 2.00 / 8.00 / 15.00 / 21.00 / 27.00% for 2 attacks when attacking a target's Stab weakness"
     },
-    "roles": [2],
-    "attr": [3]
+    "roles": [
+      2
+    ],
+    "attr": [
+      3
+    ]
   },
   "30093": {
     "name": "公正な眼差し",
@@ -4496,7 +4889,9 @@
       "zh": "自身為支援者時，賦予的負面效果量+5.00 / 15.00 / 25.00 / 35.00 / 45.00%",
       "en": "While equipped to a Supporter, boosts potency of negative effects inflicted by 5.00 / 15.00 / 25.00 / 35.00 / 45.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30094": {
@@ -4532,7 +4927,9 @@
       "zh": "我方全員攻擊者的技能傷害+4.00 / 12.00 / 19.00 / 27.00 / 34.00%",
       "en": "Boosts all Attacker allies' skill damage by 4.00 / 12.00 / 19.00 / 27.00 / 34.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30095": {
@@ -4568,8 +4965,12 @@
       "zh": "技能發動前，攻擊目標被賦予負面效果達5個或以上時，技能傷害+8.00 / 22.00 / 37.00 / 51.00 / 65.00%",
       "en": "Before using a skill, boosts skill damage by 8.00 / 22.00 / 37.00 / 51.00 / 65.00% when attack target has 5 or more debuffs"
     },
-    "roles": [1],
-    "attr": [7]
+    "roles": [
+      1
+    ],
+    "attr": [
+      7
+    ]
   },
   "30096": {
     "name": "闇に打ち克つ力",
@@ -4604,8 +5005,12 @@
       "zh": "得意屬性風屬性攻擊後，賦予目標「受到的暴擊傷害+6.00 / 14.00 / 21.00 / 29.00 / 36.00%」直到受1次攻擊為止",
       "en": "While equipped to a character with Wind affinity, after attacking, boosts target's critical damage received by 6.00 / 14.00 / 21.00 / 29.00 / 36.00% for 1 attack"
     },
-    "roles": [4],
-    "attr": [8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      8
+    ]
   },
   "30097": {
     "name": "真っ赤な騎士",
@@ -4640,8 +5045,12 @@
       "zh": "得意屬性雷屬性時，賦予的強化效果量+6.00 / 20.00 / 33.00 / 47.00 / 60.00%",
       "en": "While equipped to a character with Bolt affinity, boosts potency of buff effects given by 6.00 / 20.00 / 33.00 / 47.00 / 60.00%"
     },
-    "roles": [3],
-    "attr": [7]
+    "roles": [
+      3
+    ],
+    "attr": [
+      7
+    ]
   },
   "30098": {
     "name": "解放への渇望",
@@ -4676,8 +5085,12 @@
       "zh": "得意屬性雷屬性且WEAK攻擊時，破防傷害+8.00 / 22.00 / 37.00 / 51.00 / 65.00%",
       "en": "Boosts stun damage by 8.00 / 22.00 / 37.00 / 51.00 / 65.00% when attacking a target's Bolt weakness "
     },
-    "roles": [2],
-    "attr": [7]
+    "roles": [
+      2
+    ],
+    "attr": [
+      7
+    ]
   },
   "30099": {
     "name": "錬金術の光",
@@ -4712,7 +5125,9 @@
       "zh": "自身為支援者時，我方全員技能威力+3.00 / 10.00 / 17.00 / 23.00 / 30.00%",
       "en": "While equipped to a Supporter, boosts all allies' skill power by 3.00 / 10.00 / 17.00 / 23.00 / 30.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30100": {
@@ -4748,7 +5163,9 @@
       "zh": "自身為支援者且敵人剩1體時，我方全員技能傷害+4.00 / 16.00 / 27.00 / 39.00 / 50.00%",
       "en": "While equipped to a Supporter, when there is only one enemy, boosts all allies skill damage by 4.00 / 16.00 / 27.00 / 39.00 / 50.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30101": {
@@ -4784,7 +5201,9 @@
       "zh": "自身為防禦者且受到攻擊時，賦予敵方全體「受到的傷害+10.00 / 20.00 / 30.00 / 40.00 / 50.00%」直到受1次攻擊為止(上限4個)",
       "en": "While equipped to a Defender, when hit by an attack, boosts all enemies damage received by 10.00 / 20.00 / 30.00 / 40.00 / 50.00% for 1 attack (MAX 4 times)"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30102": {
@@ -4820,8 +5239,12 @@
       "zh": "得意屬性冰屬性且WEAK攻擊後，賦予自身「暴擊傷害+4.00 / 18.00 / 32.00 / 46.00 / 60.00%」直到2次行動結束為止",
       "en": "While equipped to a character with Ice affinity, after attacking target's Ice weakness, boosts critical damage by 4.00 / 18.00 / 32.00 / 46.00 / 60.00% for 2 turns"
     },
-    "roles": [1],
-    "attr": [6]
+    "roles": [
+      1
+    ],
+    "attr": [
+      6
+    ]
   },
   "30103": {
     "name": "終わらない寄り道",
@@ -4856,8 +5279,15 @@
       "zh": "攻擊後，賦予目標「受到的魔法攻擊傷害+6.00 / 13.00 / 19.00 / 26.00 / 32.00%」直到受2次攻擊為止(上限4個)",
       "en": "After attacking, boost target's magic damage received by 6.00 / 13.00 / 19.00 / 26.00 / 32.00% for 2 attacks (MAX 4 times)"
     },
-    "roles": [4],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30104": {
     "name": "変わらない友情",
@@ -4892,8 +5322,12 @@
       "zh": "得意屬性雷屬性時，賦予的HP回復量+6.00 / 18.00 / 29.00 / 41.00 / 52.00%",
       "en": "While equipped to a character with Bolt affinity, boosts HP recovery given by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
-    "roles": [4],
-    "attr": [7]
+    "roles": [
+      4
+    ],
+    "attr": [
+      7
+    ]
   },
   "30105": {
     "name": "陛下、会議の時間です",
@@ -4929,7 +5363,9 @@
       "en": "While equipped to a character with Ice affinity, boosts potency of negative effects inflicted by 6.00 / 18.00 / 29.00 / 41.00 / 52.00%"
     },
     "roles": [],
-    "attr": [6]
+    "attr": [
+      6
+    ]
   },
   "30106": {
     "name": "私も私も～！",
@@ -4964,7 +5400,9 @@
       "zh": "自身為攻擊者且WEAK後，賦予自身「技能傷害+5.00 / 16.00 / 27.00 / 37.00 / 48.00%」直到2次行動結束為止",
       "en": "While equipped to an Attacker, boosts own skill damage by 5.00 / 16.00 / 27.00 / 37.00 / 48.00% for 2 turns after attacking a target's weakness"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30107": {
@@ -5000,8 +5438,12 @@
       "zh": "得意屬性風屬性時，賦予的強化效果量+6.00 / 20.00 / 33.00 / 47.00 / 60.00%",
       "en": "While equipped to a character with Wind affinity, boosts potency of buff effects given by 6.00 / 20.00 / 33.00 / 47.00 / 60.00%"
     },
-    "roles": [4],
-    "attr": [8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      8
+    ]
   },
   "30108": {
     "name": "彼女がいた場所",
@@ -5036,8 +5478,12 @@
       "zh": "得意屬性火屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>自身HP50%以上時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%",
       "en": "While equipped to an Attacker with Fire affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>Boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00 when HP is 50% or above"
     },
-    "roles": [1],
-    "attr": [5]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5
+    ]
   },
   "30109": {
     "name": "魔法のレシピ",
@@ -5072,8 +5518,12 @@
       "zh": "得意屬性冰屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>自身HP50%以上時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%",
       "en": "While equipped to an Attacker with Ice affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>Boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00 when HP is 50% or above"
     },
-    "roles": [1],
-    "attr": [6]
+    "roles": [
+      1
+    ],
+    "attr": [
+      6
+    ]
   },
   "30110": {
     "name": "彩られた世界",
@@ -5108,8 +5558,12 @@
       "zh": "得意屬性雷屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>自身HP50%以上時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%",
       "en": "While equipped to an Attacker with Bolt affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>Boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00 when HP is 50% or above"
     },
-    "roles": [1],
-    "attr": [7]
+    "roles": [
+      1
+    ],
+    "attr": [
+      7
+    ]
   },
   "30111": {
     "name": "地平の彼方まで",
@@ -5144,8 +5598,12 @@
       "zh": "得意屬性風屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>自身HP50%以上時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%",
       "en": "While equipped to an Attacker with Wind affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>Boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00 when HP is 50% or above"
     },
-    "roles": [1],
-    "attr": [8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      8
+    ]
   },
   "30112": {
     "name": "夢の未来へ",
@@ -5180,8 +5638,12 @@
       "zh": "得意屬性斬屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>自身HP50%以上時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%",
       "en": "While equipped to an Attacker with Slash affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>Boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00 when HP is 50% or above"
     },
-    "roles": [1],
-    "attr": [1]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1
+    ]
   },
   "30113": {
     "name": "いつでも、どこでも。",
@@ -5216,8 +5678,12 @@
       "zh": "得意屬性打屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>自身HP50%以上時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%",
       "en": "While equipped to an Attacker with Strike affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>Boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00 when HP is 50% or above"
     },
-    "roles": [1],
-    "attr": [2]
+    "roles": [
+      1
+    ],
+    "attr": [
+      2
+    ]
   },
   "30114": {
     "name": "知識の集まる場所で",
@@ -5252,8 +5718,12 @@
       "zh": "得意屬性突屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>自身HP50%以上時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%",
       "en": "While equipped to an Attacker with Stab affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>Boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00 when HP is 50% or above"
     },
-    "roles": [1],
-    "attr": [3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      3
+    ]
   },
   "30115": {
     "name": "甘いぬくもりの中で",
@@ -5288,7 +5758,9 @@
       "zh": "自身為防禦者且技能發動後，賦予我方全員「受到傷害-4.00 / 8.00 / 12.00 / 16.00 / 20.00%(固定)」直到受1次攻擊為止(不可重複)",
       "en": "While equipped to a Defender, after using a skill, reduces all allies' damage received by 4.00 / 8.00 / 12.00 / 16.00 / 20.00% for 1 attack (Fixed, Cannot be stacked)"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30116": {
@@ -5325,7 +5797,9 @@
       "en": "While equipped to a character with Stab affinity, boosts all allies' critical damage by 5.00 / 13.00 / 20.00 / 28.00 / 35.00%"
     },
     "roles": [],
-    "attr": [3]
+    "attr": [
+      3
+    ]
   },
   "30117": {
     "name": "新たな旅立ち",
@@ -5360,8 +5834,12 @@
       "zh": "得意屬性突屬性且WEAK攻擊後，賦予自身「暴擊傷害+4.00 / 18.00 / 32.00 / 46.00 / 60.00%」直到2次行動結束為止",
       "en": "Boosts critical damage by 4.00 / 18.00 / 32.00 / 46.00 / 60.00% for 2 turns when attacking target's Stab weakness"
     },
-    "roles": [1],
-    "attr": [3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      3
+    ]
   },
   "30118": {
     "name": "夢見るトクベツ",
@@ -5396,8 +5874,12 @@
       "zh": "得意屬性冰屬性防禦者時，我方全員暴擊傷害+2.00 / 5.00 / 8.00 / 10.00 / 13.00%",
       "en": "While equipped to a Defender with Ice affinity, boosts all allies' critical damage by 2.00 / 5.00 / 8.00 / 10.00 / 13.00%"
     },
-    "roles": [3],
-    "attr": [6]
+    "roles": [
+      3
+    ],
+    "attr": [
+      6
+    ]
   },
   "30119": {
     "name": "ひとつまみの愛情",
@@ -5432,7 +5914,9 @@
       "zh": "「認真」時，受到的HP回復量+3.00 / 6.00 / 9.00 / 12.00 / 15.00%",
       "en": "While equipped to a Diligent character, boosts HP recovery received by 3.00 / 6.00 / 9.00 / 12.00 / 15.00%"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30120": {
@@ -5468,8 +5952,12 @@
       "zh": "得意屬性突屬性支援者時，我方全員單體攻擊技能傷害+3.00 / 6.00 / 9.00 / 12.00 / 15.00%",
       "en": "While equipped to a Supporter with Stab affinity, boosts all allies' skill damage by 3.00 / 6.00 / 9.00 / 12.00 / 15.00% on single-target attacks"
     },
-    "roles": [4],
-    "attr": [3]
+    "roles": [
+      4
+    ],
+    "attr": [
+      3
+    ]
   },
   "30121": {
     "name": "仕事の後のひととき",
@@ -5540,8 +6028,12 @@
       "zh": "得意屬性斬屬性時，賦予的強化效果量+6.00 / 20.00 / 33.00 / 47.00 / 60.00%",
       "en": "While equipped to a character with Slash affinity, boosts potency of buff effects given by 6.00 / 20.00 / 33.00 / 47.00 / 60.00%"
     },
-    "roles": [4],
-    "attr": [1]
+    "roles": [
+      4
+    ],
+    "attr": [
+      1
+    ]
   },
   "30123": {
     "name": "弔いの刃",
@@ -5576,8 +6068,12 @@
       "zh": "得意屬性斬屬性時，單體攻擊的暴擊傷害+12.00 / 39.00 / 66.00 / 93.00 / 120.00%",
       "en": "While equipped to a character with Slash affinity, boosts critical damage by 12.00 / 39.00 / 66.00 / 93.00 / 120.00% on single-target attacks"
     },
-    "roles": [1],
-    "attr": [1]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1
+    ]
   },
   "30124": {
     "name": "聖戦士の休息",
@@ -5612,8 +6108,12 @@
       "zh": "得意屬性斬屬性且受到攻擊時，賦予我方全員「暴擊傷害+3.00 / 9.00 / 14.00 / 20.00 / 25.00%」直到1次行動結束為止(上限2個)",
       "en": "While equipped to a character with Slash affinity, when hit by an attack, boosts all allies' critical damage by 3.00 / 9.00 / 14.00 / 20.00 / 25.00% for 1 turn (MAX 2)"
     },
-    "roles": [3],
-    "attr": [1]
+    "roles": [
+      3
+    ],
+    "attr": [
+      1
+    ]
   },
   "30125": {
     "name": "一意専心",
@@ -5648,8 +6148,12 @@
       "zh": "得意屬性斬屬性且WEAK攻擊時，破防傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%",
       "en": "Boosts stun damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00% when attacking target's Slash weakness"
     },
-    "roles": [2],
-    "attr": [1]
+    "roles": [
+      2
+    ],
+    "attr": [
+      1
+    ]
   },
   "30126": {
     "name": "己が手で",
@@ -5684,8 +6188,12 @@
       "zh": "得意屬性斬屬性且WEAK攻擊時，技能傷害+10.00 / 33.00 / 55.00 / 78.00 / 100.00%",
       "en": "Boosts skill damage by 10.00 / 33.00 / 55.00 / 78.00 / 100.00% when attacking target's Slash weakness"
     },
-    "roles": [1],
-    "attr": [1]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1
+    ]
   },
   "30127": {
     "name": "海の向こうに待つもの",
@@ -5720,7 +6228,9 @@
       "zh": "自身為攻擊者時，暴擊傷害+10.00 / 33.00 / 55.00 / 78.00 / 100.00% 且暴擊率+10.00%",
       "en": "While equipped to an Attacker, boosts critical damage by 10.00 / 33.00 / 55.00 / 78.00 / 100.00% and critical rate by 10%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30128": {
@@ -5756,8 +6266,12 @@
       "zh": "得意屬性火屬性且WEAK攻擊後，賦予自身「暴擊傷害+8.00 / 24.00 / 39.00 / 55.00 / 70.00%」直到2次行動結束為止",
       "en": "Boosts critical damage by 8.00 / 24.00 / 39.00 / 55.00 / 70.00% for 2 turns when attacking target's Fire weakness"
     },
-    "roles": [1],
-    "attr": [5]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5
+    ]
   },
   "30129": {
     "name": "正義のために",
@@ -5792,7 +6306,9 @@
       "zh": "「騎士」時，破防傷害+6.00 / 12.00 / 18.00 / 24.00 / 30.00%",
       "en": "While equipped to a Knight character, boosts stun damage by 6.00 / 12.00 / 18.00 / 24.00 / 30.00%"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30130": {
@@ -5828,7 +6344,9 @@
       "zh": "獲得面板時，賦予自身「技能傷害+5.00 / 16.00 / 27.00 / 37.00 / 48.00%」直到2次行動結束為止",
       "en": "When using panels, boosts own skill damage by 5.00 / 16.00 / 27.00 / 37.00 / 48.00% for 2 turns"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30131": {
@@ -5864,8 +6382,13 @@
       "zh": "火屬性且WEAK攻擊後，賦予目標「火屬性耐性-5.00 / 11.00 / 18.00 / 24.00 / 30.00%」直到受2次攻擊為止",
       "en": "Reduces target's Fire resistance by 5.00 / 11.00 / 18.00 / 24.00 / 30.00% for 2 attacks when attacking target's Fire weakness"
     },
-    "roles": [1, 2],
-    "attr": [5]
+    "roles": [
+      1,
+      2
+    ],
+    "attr": [
+      5
+    ]
   },
   "30132": {
     "name": "特別っすよ！",
@@ -5900,7 +6423,9 @@
       "zh": "「阿拉迪斯調查團」時，技能傷害+5.00 / 10.00 / 15.00 / 20.00 / 25.00%",
       "en": "While equipped to an Aladiss Research Team character, boosts skill damage by 5.00 / 10.00 / 15.00 / 20.00 / 25.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30133": {
@@ -5937,7 +6462,11 @@
       "en": "After attacking, boosts target's physical damage received by 6.00 / 13.00 / 19.00 / 26.00 / 32.00% for 2 attacks (MAX 4 times)"
     },
     "roles": [],
-    "attr": [1, 2, 3]
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30134": {
     "name": "確かな実力と……",
@@ -5972,8 +6501,15 @@
       "zh": "自身為支援者時，我方全員魔法技能傷害+6.00 / 13.00 / 19.00 / 26.00 / 32.00%",
       "en": "While equipped to a Supporter, boosts all allies' magic attack skill damage by 6.00 / 13.00 / 19.00 / 26.00 / 32.00%"
     },
-    "roles": [4],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30135": {
     "name": "盛り上がってるーっ？",
@@ -6008,8 +6544,12 @@
       "zh": "得意屬性風屬性且WEAK攻擊時，技能傷害+10.00 / 33.00 / 55.00 / 78.00 / 100.00%",
       "en": "Boosts skill damage by 10.00 / 33.00 / 55.00 / 78.00 / 100.00% when attacking target's Air weakness"
     },
-    "roles": [1],
-    "attr": [8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      8
+    ]
   },
   "30136": {
     "name": "熱いレースの始まりだ！",
@@ -6044,7 +6584,9 @@
       "zh": "「蕾斯萊莉婭娜學園」時，技能傷害+5.00 / 10.00 / 15.00 / 20.00 / 25.00%",
       "en": "While equipped to a Resleriana Academy character, boosts skill damage by 5.00 / 10.00 / 15.00 / 20.00 / 25.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30137": {
@@ -6080,7 +6622,9 @@
       "zh": "自身為攻擊者且攻擊對象處於異常狀態時，攻擊後，賦予自身「技能傷害+7.00 / 24.00 / 41.00 / 58.00 / 75.00%」直到2次行動結束為止",
       "en": "While equipped to an Attacker, after attacking target with status effects, boosts skill damage by 7.00 / 24.00 / 41.00 / 58.00 / 75.00% for 2 turns"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30138": {
@@ -6116,8 +6660,12 @@
       "zh": "得意屬性風屬性破防者時，賦予的負面效果量+6.00 / 20.00 / 35.00 / 49.00 / 63.00%",
       "en": "While equipped to a Breaker with Wind affinity, boosts potency of negative effects inflicted by 6.00 / 20.00 / 35.00 / 49.00 / 63.00%"
     },
-    "roles": [2],
-    "attr": [8]
+    "roles": [
+      2
+    ],
+    "attr": [
+      8
+    ]
   },
   "30139": {
     "name": "アフター・ザ・レイン",
@@ -6152,7 +6700,9 @@
       "zh": "自身為支援者且給予全體攻擊傷害時，賦予我方全員「技能傷害+5.00 / 15.00 / 25.00 / 35.00 / 45.00%」直到1次行動結束為止",
       "en": "While equipped to a Supporter, after using an attack that targets all enemies, boosts all allies' skill damage by 5.00 / 15.00 / 25.00 / 35.00 / 45.00% for 1 turn"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30140": {
@@ -6188,8 +6738,12 @@
       "zh": "得意屬性突屬性時，賦予的強化效果量+6.00 / 20.00 / 33.00 / 47.00 / 60.00%",
       "en": "While equipped to a character with Stab affinity, boosts potency of buff effects granted by 6.00 / 20.00 / 33.00 / 47.00 / 60.00%"
     },
-    "roles": [4],
-    "attr": [3]
+    "roles": [
+      4
+    ],
+    "attr": [
+      3
+    ]
   },
   "30141": {
     "name": "騎士として",
@@ -6224,8 +6778,12 @@
       "zh": "得意屬性風屬性攻擊者時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>「騎士」時，魔攻+5.00 / 17.00 / 28.00 / 39.00 / 50.00%",
       "en": "While equipped to an Attacker with Wind affinity, boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>While equipped to a Knight, boosts M. ATK by 5.00 / 17.00 / 28.00 / 39.00 / 50.00%"
     },
-    "roles": [1],
-    "attr": [8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      8
+    ]
   },
   "30142": {
     "name": "飴と体温",
@@ -6368,7 +6926,9 @@
       "zh": "戰鬥開始時，賦予自身「暴擊率+4.00 / 8.00 / 12.00 / 16.00 / 20.00%」直到1次行動結束為止",
       "en": "At the start of battle, boosts own critical rate by 4.00 / 8.00 / 12.00 / 16.00 / 20.00% for 1 turn"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30146": {
@@ -6404,7 +6964,9 @@
       "zh": "戰鬥開始時，賦予自身「WEAK攻擊時，技能傷害+5.00 / 10.00 / 15.00 / 20.00 / 25.00%」直到1次行動結束為止",
       "en": "At the start of battle, boosts own weakness damage by 5.00 / 10.00 / 15.00 / 20.00 / 25.00% for 1 turn"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30147": {
@@ -6440,7 +7002,9 @@
       "zh": "戰鬥開始時，賦予自身「受到的傷害-2.00 / 4.00 / 5.00 / 7.00 / 8.00%」直到受1次攻擊為止",
       "en": "At the start of battle, reduces own damage received by 2.00 / 4.00 / 5.00 / 7.00 / 8.00% for 1 attack"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30148": {
@@ -6476,7 +7040,9 @@
       "zh": "戰鬥開始時，賦予自身「受到的物理傷害-3.00 / 6.00 / 8.00 / 11.00 / 13.00%」直到受1次攻擊為止",
       "en": "At the start of battle, reduces own physical attack damage received by 3.00 / 6.00 / 8.00 / 11.00 / 13.00% for 1 attack"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30149": {
@@ -6512,7 +7078,9 @@
       "zh": "戰鬥開始時，賦予自身「技能傷害+3.00 / 6.00 / 9.00 / 12.00 / 15.00%」直到1次行動結束為止",
       "en": "At the start of battle, boosts own skill damage by 3.00 / 6.00 / 9.00 / 12.00 / 15.00% for 1 turn"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30150": {
@@ -6548,7 +7116,9 @@
       "zh": "戰鬥開始時，賦予自身「賦予的HP回復量+3.00 / 6.00 / 9.00 / 12.00 / 15.00%」直到1次行動結束為止",
       "en": "At the start of battle, boosts own HP recovery given by 3.00 / 6.00 / 9.00 / 12.00 / 15.00% for 1 turn"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30151": {
@@ -6584,7 +7154,9 @@
       "zh": "戰鬥開始時，賦予自身「暴擊傷害+4.00 / 8.00 / 12.00 / 16.00 / 20.00%」直到1次行動結束為止",
       "en": "At the start of battle, boosts own critical damage by 4.00 / 8.00 / 12.00 / 16.00 / 20.00% for 1 turn"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30152": {
@@ -6620,8 +7192,12 @@
       "zh": "得意屬性冰屬性攻擊者時，技能發動後，賦予自身「技能傷害+4.00 / 10.00 / 16.00 / 22.00 / 28.00％」直到3次行動結束為止<br>「淘氣」時、技能發動後，賦予自身「暴擊傷害+5.00 / 11.00 / 18.00 / 24.00 / 32.00％」直到3次行動結束為止",
       "en": "While equipped to an Attacker with Ice affinity, after attacking, boosts skill damage by 4.00 / 10.00 / 16.00 / 22.00 / 28.00％ for 3 turns<br>While equipped to a Spirited character, after attacking, boosts critical damage by 5.00 / 11.00 / 18.00 / 24.00 / 32.00％ for 3 turns"
     },
-    "roles": [1],
-    "attr": [6]
+    "roles": [
+      1
+    ],
+    "attr": [
+      6
+    ]
   },
   "30153": {
     "name": "まだ見ぬ景色",
@@ -6656,8 +7232,12 @@
       "zh": "得意屬性風屬性防禦者時，技能發動後，賦予我方全員「受到的傷害-4.00 / 8.00 / 12.00 / 16.00 / 20.00%(固定)」直到受1次攻擊為止(不可重複)<br>「師父」且受到攻擊時、賦予我方全員「技能傷害+4.00 / 8.00 / 12.00 / 16.00 / 20.00%」直到1次行動結束為止(上限3個)",
       "en": "While equipped to a Defender with Wind affinity, when using a skill, reduces all allies' damage received by 4.00 / 8.00 / 12.00 / 16.00 / 20.00% for 1 attack (Fixed, Cannot be Stacked)<br>While equipped to Master character, boosts all allies' skill damage by 4.00 / 8.00 / 12.00 / 16.00 / 20.00% for 1 turn (MAX 3)"
     },
-    "roles": [3],
-    "attr": [8]
+    "roles": [
+      3
+    ],
+    "attr": [
+      8
+    ]
   },
   "30154": {
     "name": "あんたの色",
@@ -6692,8 +7272,12 @@
       "zh": "自身為冰屬性破防者且對象破防時，賦予我方全員「技能傷害+6.00 / 13.00 / 19.00 / 26.00 / 32.00%」直到1次行動結束為止<br>「冒險」時，破防傷害+7.00 / 19.00 / 31.00 / 42.00 / 54.00%",
       "en": "While equipped to a Breaker with Ice affinity, when target is stunned, boosts all allies' skill damage by 6.00 / 13.00 / 19.00 / 26.00 / 32.00% for 1 turn<br>While equipped to an Adventurer character, boosts stun damage by +7.00 / 19.00 / 31.00 / 42.00 / 54.00%"
     },
-    "roles": [2],
-    "attr": [6]
+    "roles": [
+      2
+    ],
+    "attr": [
+      6
+    ]
   },
   "30155": {
     "name": "ロロナのパイ",
@@ -6728,7 +7312,9 @@
       "zh": "「亞蘭德」時，賦予的強化效果量+10.00 / 25.00 / 40.00 / 45.00 / 50.00%且賦予的HP回復量+1.00 / 2.00 / 3.00 / 4.00 / 5.00%",
       "en": "While equipped to an Arland character, boosts potency of buff effects given by 10.00 / 25.00 / 40.00 / 45.00 / 50.00% and HP recovery given by 1.00 / 2.00 / 3.00 / 4.00 / 5.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30156": {
@@ -6800,8 +7386,12 @@
       "zh": "得意屬性冰屬性支援者時，技能發動後，賦予敵方全體「受到的魔法攻擊傷害+4.00 / 9.00 / 14.00 / 19.00 / 24.00%」直到受1次攻擊為止(上限4個)<br>「家人與友情」時我方全員攻擊者的技能傷害+5.00 / 11.00 / 16.00 / 22.00 / 27.00%",
       "en": "While equipped to a Supporter with Ice affinity, after using a skill, boosts all enemies' magic damage received by +4.00 / 9.00 / 14.00 / 19.00 / 24.00% for 1 attack (MAX 4)<br>While equipped to a Family & Friends character, boosts Attacker allies' skill damage by 5.00 / 11.00 / 16.00 / 22.00 / 27.00%"
     },
-    "roles": [4],
-    "attr": [6]
+    "roles": [
+      4
+    ],
+    "attr": [
+      6
+    ]
   },
   "30158": {
     "name": "姫と騎士",
@@ -6836,8 +7426,12 @@
       "zh": "得意屬性冰屬性防禦者時，技能發動後，賦予我方魔攻最高的1人「技能傷害+6.00 / 12.00 / 18.00 / 24.00 / 30.00%」直到1次行動結束為止(上限3個)<br>「天然」時，技能發動後「最大HP+2.00 / 4.00 / 6.00 / 8.00 / 10.00%」(固定)直到2次行動結束為止",
       "en": "While equipped to a Defender with Ice affinity, after using a skill, boosts skill damage of the ally with the highest M. ATK by 6.00 / 12.00 / 18.00 / 24.00 / 30.00% for 1 turn (MAX 3)<br>While equipped to a Whimsical character, after using a skill, boosts own Max HP by 2.00 / 4.00 / 6.00 / 8.00 / 10.00%」 (Fixed) for 2 turns"
     },
-    "roles": [3],
-    "attr": [6]
+    "roles": [
+      3
+    ],
+    "attr": [
+      6
+    ]
   },
   "30159": {
     "name": "開花する才能",
@@ -6872,7 +7466,9 @@
       "zh": "技能發動後，隨機賦予自身以下效果<br>・「技能傷害+10.00 / 20.00 / 30.00 / 40.00 / 50.00%」直到2次行動結束為止<br>・「暴擊傷害+10.00 / 20.00 / 30.00 / 40.00 / 50.00%」直到2次行動結束為止<br>・「技能威力+10.00 / 20.00 / 30.00 / 40.00 / 50.00%」直到2次行動結束為止<br>・「受到的傷害-10.00 / 20.00 / 30.00 / 40.00 / 50.00%」(固定)直到受2次攻擊為止",
       "en": "After using a skill, grant 1 of the following buff to self:<br>・Boosts skill damage by 10.00 / 20.00 / 30.00 / 40.00 / 50.00% for 2 turns<br>・・Boosts critical damage by 10.00 / 20.00 / 30.00 / 40.00 / 50.00% for 2 turns<br>・・Boosts skill power by 10.00 / 20.00 / 30.00 / 40.00 / 50.00% for 2 turns<br>・・Reduces damage received by 10.00 / 20.00 / 30.00 / 40.00 / 50.00% (Fixed) for 2 attacks"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30160": {
@@ -6908,7 +7504,9 @@
       "zh": "攻擊後，賦予目標「受到的攻擊貫通力+20 / 65 / 110 / 155 / 200」直到受1次攻擊為止",
       "en": "After attacking, boosts target's penetration received by 20 / 65 / 110 / 155 / 200 for 1 attack"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30161": {
@@ -6944,7 +7542,9 @@
       "zh": "「季節裝束」時，技能傷害+4.00 / 8.00 / 12.00 / 16.00 / 20.00%",
       "en": "While equipped to a Seasonal character, boosts skill damage by 4.00 / 8.00 / 12.00 / 16.00 / 20.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30162": {
@@ -6980,7 +7580,9 @@
       "zh": "「季節裝束」時，破防傷害+4.00 / 8.00 / 12.00 / 16.00 / 20.00%",
       "en": "While equipped to a Seasonal character, boosts stun damage by 4.00 / 8.00 / 12.00 / 16.00 / 20.00%"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30163": {
@@ -7016,7 +7618,9 @@
       "zh": "「季節裝束」時，暴擊傷害+4.00 / 8.00 / 12.00 / 16.00 / 20.00%",
       "en": "While equipped to a Seasonal character, boosts critical damage by 4.00 / 8.00 / 12.00 / 16.00 / 20.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30164": {
@@ -7052,7 +7656,9 @@
       "zh": "「季節裝束」時，賦予的HP回復量+4.00 / 8.00 / 12.00 / 16.00 / 20.00%",
       "en": "While equipped to a Seasonal character, boosts HP recovery given by 4.00 / 8.00 / 12.00 / 16.00 / 20.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30165": {
@@ -7088,8 +7694,12 @@
       "zh": "得意屬性斬屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>「讀書」時、物攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00%",
       "en": "While equipped to an attacker with Slash affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>While equipped to a Bookworm character, boosts P. ATK by 5.00 / 16.00 / 28.00 / 39.00 / 50.00%"
     },
-    "roles": [1],
-    "attr": [1]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1
+    ]
   },
   "30166": {
     "name": "全速力で！",
@@ -7160,8 +7770,14 @@
       "zh": "自身為支援者時，得意屬性物理屬性的我方全員技能威力+5.00 / 14.00 / 23.00 / 31.00 / 40.00%",
       "en": "While equipped to a Supporter, boosts all allies physical attack skill power by 5.00 / 14.00 / 23.00 / 31.00 / 40.00%"
     },
-    "roles": [4],
-    "attr": [1, 2, 3]
+    "roles": [
+      4
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30168": {
     "name": "おしゃれしていこっ！",
@@ -7196,7 +7812,9 @@
       "zh": "自身為破防者時，賦予的負面效果量+4.00 / 12.00 / 19.00 / 27.00 / 34.00%",
       "en": "While equipped to a Breaker, boosts potency of negative effects inflicted by 4.00 / 12.00 / 19.00 / 27.00 / 34.00%"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30169": {
@@ -7232,8 +7850,12 @@
       "zh": "得意屬性斬屬性防禦者時，技能發動後，賦予我方全員「WEAK攻擊時，技能傷害+5.00 / 10.00 / 15.00 / 20.00 / 25.00%」直到2次行動結束為止(上限3個)<br>「大小姐」時，受到的傷害-5.00 / 10.00 / 15.00 / 20.00 / 25.00%(固定)",
       "en": "While equipped to a Defender with Slash affinity, after using a skill, boosts all allies' weakness damage by 5.00 / 10.00 / 15.00 / 20.00 / 25.00% for 2 turns (MAX 3)<br>While equipped to a Prim character, reduces damage received by -5.00 / 10.00 / 15.00 / 20.00 / 25.00% (Fixed)"
     },
-    "roles": [3],
-    "attr": [1]
+    "roles": [
+      3
+    ],
+    "attr": [
+      1
+    ]
   },
   "30171": {
     "name": "太陽のせい",
@@ -7268,7 +7890,9 @@
       "zh": "自身為防禦者時，受到的HP回復量+3.00 / 5.00 / 8.00 / 10.00 / 12.00%",
       "en": "While equipped to a Defender, boosts HP recovery received by 3.00 / 5.00 / 8.00 / 10.00 / 12.00%"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30172": {
@@ -7304,7 +7928,9 @@
       "zh": "自身為攻擊者時，爆發技能傷害+5.00 / 11.00 / 18.00 / 24.00 / 30.00%",
       "en": "While equipped to an Attacker, boosts burst skill damage by 5.00 / 11.00 / 18.00 / 24.00 / 30.00%"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30173": {
@@ -7340,7 +7966,9 @@
       "zh": "自身為破防者時，單體攻擊的破防傷害+5.00 / 10.00 / 15.00 / 20.00 / 25.00%",
       "en": "While equipped to a Breaker, boosts stun damage by 5.00 / 10.00 / 15.00 / 20.00 / 25.00% on single-target attacks"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30174": {
@@ -7376,7 +8004,9 @@
       "zh": "自身為支援者時，我方全員受到強化面板的強化效果量+3.00 / 6.00 / 9.00 / 12.00 / 15.00%",
       "en": "While equipped to a Supporter, boosts all allies'  potency of effects received from boost-type panels by 3.00 / 6.00 / 9.00 / 12.00 / 15.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30175": {
@@ -7412,8 +8042,12 @@
       "zh": "得意屬性斬屬性支援者時，我方全員物理技能傷害+7.00 / 14.00 / 21.00 / 28.00 / 35.00%<br>「料理」時，我方全員物攻+5.00 / 10.00 / 15.00 / 20.00 / 25.00%",
       "en": "While equipped to a Supporter with Slash affinity, boosts all allies physical attack skill damage by 7.00 / 14.00 / 21.00 / 28.00 / 35.00%<br>While equipped to a Chef character, boosts all allies' P. ATK by 5.00 / 10.00 / 15.00 / 20.00 / 25.00%"
     },
-    "roles": [4],
-    "attr": [1]
+    "roles": [
+      4
+    ],
+    "attr": [
+      1
+    ]
   },
   "30176": {
     "name": "負けないんだから！",
@@ -7448,7 +8082,9 @@
       "zh": "「季節裝束」且WEAK攻擊時，技能傷害+8.00 / 37.00 / 58.00 / 68.00 / 85.00%",
       "en": "While equipped to a Seasonal character, boosts skill damage by 8.00 / 37.00 / 58.00 / 68.00 / 85.00% when attacking weakness"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30177": {
@@ -7484,8 +8120,12 @@
       "zh": "得意屬性斬屬性破防者時，單體攻擊的破防傷害+6.00 / 20.00 / 35.00 / 49.00 / 63.00%<br>「淘氣」時，攻擊後，賦予目標「斬屬性耐性-4.00 / 9.00 / 15.00 / 20.00 / 25.00%」直到受1次攻擊為止",
       "en": "While equipped to a Breaker with Slash affinity, boosts stun damage on single-target attacks by 6.00 / 20.00 / 35.00 / 49.00 / 63.00%<br>While equipped to a Spirited character, after attacking, reduces target's Slash resistance by 4.00 / 9.00 / 15.00 / 20.00 / 25.00% for 1 attack"
     },
-    "roles": [2],
-    "attr": [1]
+    "roles": [
+      2
+    ],
+    "attr": [
+      1
+    ]
   },
   "30178": {
     "name": "隠密行動中！",
@@ -7520,8 +8160,12 @@
       "zh": "得意屬性雷屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>「認真」時，攻擊前，賦予目標「雷屬性耐性-4.00 / 9.00 / 15.00 / 20.00 / 25.00%」直到受1次攻擊為止",
       "en": "While equipped to an Attacker with Bolt affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>While equipped to a Diligent character, before attacking, reduces target's Bolt resistance by 4.00 / 9.00 / 15.00 / 20.00 / 25.00% for 1 attack"
     },
-    "roles": [1],
-    "attr": [7]
+    "roles": [
+      1
+    ],
+    "attr": [
+      7
+    ]
   },
   "30179": {
     "name": "妖怪退治と参ろうか",
@@ -7556,8 +8200,12 @@
       "zh": "得意屬性雷屬性防禦者時，我方全員受到的戰鬥道具強化效果量+6.00 / 17.00 / 28.00 / 39.00 / 50.00%<br>「詼諧的人」時，賦予的強化效果量+5.00 / 14.00 / 23.00 / 31.00 / 40.00%",
       "en": "While equipped to a Defender with Bolt affinity, boosts all allies' potency of buff effects received from using items by 6.00 / 17.00 / 28.00 / 39.00 / 50.00%<br>While equipped to an Energetic character, boosts potency of buff effects given by 5.00 / 14.00 / 23.00 / 31.00 / 40.00%"
     },
-    "roles": [3],
-    "attr": [7]
+    "roles": [
+      3
+    ],
+    "attr": [
+      7
+    ]
   },
   "30180": {
     "name": "巫女の瞳が見つめるは",
@@ -7592,8 +8240,15 @@
       "zh": "自身為支援者時，我方全員技能威力+3.00 / 9.00 / 14.00 / 20.00 / 25.00%<br>得意屬性魔法屬性時，我方全員暴擊傷害+3.00 / 9.00 / 14.00 / 20.00 / 25.00%",
       "en": "While equipped to a Supporter, boosts all allies' skill power by 3.00 / 9.00 / 14.00 / 20.00 / 25.00%<br>While equipped to a character with Magic affinity, boosts all allies' critical damage by 3.00 / 9.00 / 14.00 / 20.00 / 25.00%"
     },
-    "roles": [4],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30181": {
     "name": "地上の輝き",
@@ -7628,8 +8283,12 @@
       "zh": "得意屬性雷屬性破防者時，我方全員對破防狀態敵人的魔法技能傷害+8.00 / 14.00 / 20.00 / 26.00 / 32.00%<br>「我行我素」時，破防傷害+7.00 / 19.00 / 31.00 / 42.00 / 54.00%",
       "en": "While equipped to a Breaker with Bolt affinity, when target is stunned, boosts all allies' skill damage by 8.00 / 14.00 / 20.00 / 26.00 / 32.00% for 1 turn<br>While equipped to a Laid-back character, boosts stun damage by 7.00 / 19.00 / 31.00 / 42.00 / 54.00%"
     },
-    "roles": [2],
-    "attr": [7]
+    "roles": [
+      2
+    ],
+    "attr": [
+      7
+    ]
   },
   "30182": {
     "name": "想いを受け取って",
@@ -7664,8 +8323,12 @@
       "zh": "得意屬性突屬性時，賦予的強化效果量+15.00%",
       "en": "While equipped to a character with Stab affinity, boosts potency of buffs given by 15.00%"
     },
-    "roles": [4],
-    "attr": [3]
+    "roles": [
+      4
+    ],
+    "attr": [
+      3
+    ]
   },
   "30183": {
     "name": "私たちの生徒会長",
@@ -7700,7 +8363,9 @@
       "zh": "自身為支援者時，我方全員暴擊傷害+10.00%",
       "en": "While equipped to a Supporter, boosts all allies' critical damage by 10.00%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30184": {
@@ -7736,8 +8401,12 @@
       "zh": "得意屬性雷屬性支援者時，我方全員魔法技能傷害+7.00 / 14.00 / 21.00 / 28.00 / 35.00%<br>「沉默寡言」時，我方全員受到強化面板的效果量+5.00 / 15.00 / 25.00 / 35.00 / 45.00%",
       "en": "While equipped to a Supporter with Bolt affinity, boosts all allies' magic attack skill damage by 7.00 / 14.00 / 21.00 / 28.00 / 35.00% <br>While equipped to a Quiet character, boosts all allies' potency of effects received from boost-type panels by 5.00 / 15.00 / 25.00 / 35.00 / 45.00%"
     },
-    "roles": [4],
-    "attr": [7]
+    "roles": [
+      4
+    ],
+    "attr": [
+      7
+    ]
   },
   "30185": {
     "name": "粋を嗜む",
@@ -7772,8 +8441,12 @@
       "zh": "得意屬性打屬性攻擊者時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>「樂於助人」時，全體攻擊的技能傷害+5.00 / 15.00 / 25.00 / 35.00 / 45.00%",
       "en": "While equipped to an Attacker with Strike affinity, boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>While equipped to a Nurturer character, boosts skill damage on area attacks by 5.00 / 15.00 / 25.00 / 35.00 / 45.00%"
     },
-    "roles": [1],
-    "attr": [2]
+    "roles": [
+      1
+    ],
+    "attr": [
+      2
+    ]
   },
   "30186": {
     "name": "兄の喜び",
@@ -7808,8 +8481,12 @@
       "zh": "得意屬性打屬性防禦者且受到攻擊時，賦予敵方全體「打屬性耐性-5.00 / 10.00 / 15.00 / 20.00 / 25.00%」直到受1次攻擊為止(上限2個)<br>「認真」時，受到的傷害-5.00 / 10.00 / 15.00 / 20.00 / 25.00%(固定)",
       "en": "While equipped to a Defender with Strike affinity, when hit by an attack, reduces all enemies' Strike resistance by 5.00 / 10.00 / 15.00 / 20.00 / 25.00% for 1 attack (MAX 2)<br>While equipped to a Diligent character, reduces damage received by 5.00 / 10.00 / 15.00 / 20.00 / 25.00% (Fixed)"
     },
-    "roles": [3],
-    "attr": [2]
+    "roles": [
+      3
+    ],
+    "attr": [
+      2
+    ]
   },
   "30187": {
     "name": "信ずるもののため",
@@ -7844,8 +8521,14 @@
       "zh": "得意屬性物理屬性攻擊者時，技能傷害+15.00 / 49.00 / 83.00 / 116.00 / 150.00%",
       "en": "While equipped to an Attacker with Physical affinity, boosts skill damage by 15.00 / 49.00 / 83.00 / 116.00 / 150.00%"
     },
-    "roles": [1],
-    "attr": [1, 2, 3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30188": {
     "name": "課せられた使命のため",
@@ -7880,8 +8563,15 @@
       "zh": "得意屬性魔法屬性攻擊者時，技能傷害+15.00 / 49.00 / 83.00 / 116.00 / 150.00%",
       "en": "While equipped to an Attacker with Magic affinity, boosts skill damage by 15.00 / 49.00 / 83.00 / 116.00 / 150.00%"
     },
-    "roles": [1],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30189": {
     "name": "大切なものを取り戻しに",
@@ -7916,7 +8606,9 @@
       "zh": "自身HP50%以下回合開始時，自身HP回復 1.00 / 2.00 / 3.00 / 4.00 / 5.00%",
       "en": "Restores own HP at the start of turn by 1.00 / 2.00 / 3.00 / 4.00 / 5.00% when HP is below 50%"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30190": {
@@ -7952,7 +8644,9 @@
       "zh": "自身為破防者時，破防傷害+50.00%",
       "en": "While equipped to a Breaker, boosts stun damage by 50.00%"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30191": {
@@ -7988,8 +8682,12 @@
       "zh": "得意屬性打屬性攻擊者時，技能傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%\n「點心」時，技能發動前，賦予目標「受到的暴擊傷害+5.00 / 16.00 / 28.00 / 39.00 / 50.00%」直到受1次攻擊為止",
       "en": "While equipped to an Attacker with Strike affinity, boosts skill damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>While equipped to a Sweets character, before attacking, boosts target's critical damage received by 5.00 / 16.00 / 28.00 / 39.00 / 50.00% for 1 attack"
     },
-    "roles": [1],
-    "attr": [2]
+    "roles": [
+      1
+    ],
+    "attr": [
+      2
+    ]
   },
   "30192": {
     "name": "レンズの奥の存在",
@@ -8024,8 +8722,12 @@
       "zh": "得意屬性打屬性支援者時，我方全員WEAK攻擊傷害+4.00 / 11.00 / 17.00 / 24.00 / 30.00%\n「認真」時，賦予的強化效果量+5.00 / 14.00 / 23.00 / 31.00 / 40.00%",
       "en": "While equipped to a Supporter with Strike affinity, boosts all allies' weakness damage by 4.00 / 11.00 / 17.00 / 24.00 / 30.00<br>While equipped to a Diligent character, boosts potency of buff effects given by 5.00 / 14.00 / 23.00 / 31.00 / 40.00%"
     },
-    "roles": [4],
-    "attr": [2]
+    "roles": [
+      4
+    ],
+    "attr": [
+      2
+    ]
   },
   "30193": {
     "name": "ほのかの秘密",
@@ -8060,8 +8762,12 @@
       "zh": "得意屬性打屬性破防者，攻擊目標破防時，賦予我方全員「技能傷害+8.00 / 16.00 / 24.00 / 32.00 / 40.00％」直到1次行動結束為止\n「學生」時，破防傷害+7.00 / 19.00 / 31.00 / 42.00 / 54.00%",
       "en": "While equipped to a Breaker with Strike affinity, when target is stunned, boosts all allies' skill damage by 8.00 / 16.00 / 24.00 / 32.00 / 40.00％ for 1 turn<br>While equipped to a Student, boosts stun damage by 7.00 / 19.00 / 31.00 / 42.00 / 54.00%"
     },
-    "roles": [2],
-    "attr": [2]
+    "roles": [
+      2
+    ],
+    "attr": [
+      2
+    ]
   },
   "30194": {
     "name": "優勝間違いなし！",
@@ -8096,8 +8802,12 @@
       "zh": "得意屬性打屬性支援者時，賦予的負面效果量+5.00 / 15.00 / 25.00 / 35.00 / 45.00％\n「淘氣」時，我方全員物攻+5.00 / 10.00 / 15.00 / 20.00 / 25.00%",
       "en": "While equipped to a Supporter with Strike affinity, boosts potency of negative effects inflicted by 5.00 / 15.00 / 25.00 / 35.00 / 45.00％<br>While equipped to a Spirited character, boosts all allies' P. ATK by 5.00 / 10.00 / 15.00 / 20.00 / 25.00%"
     },
-    "roles": [4],
-    "attr": [2]
+    "roles": [
+      4
+    ],
+    "attr": [
+      2
+    ]
   },
   "30195": {
     "name": "彼女が紡いだ光",
@@ -8168,8 +8878,12 @@
       "zh": "得意屬性突屬性支援者時，我方全員爆發技能傷害+5.00 / 15.00 / 25.00 / 35.00 / 45.00％<br>「眼鏡」時，賦予的HP回復量+4.00 / 13.00 / 22.00 / 31.00 / 40.00%",
       "en": "While equipped to a Supporter with Stab affinity, boosts all allies' burst skill damage by 5.00 / 15.00 / 25.00 / 35.00 / 45.00％<br>While equipped to a Glasses character, boosts HP recovery given by 4.00 / 13.00 / 22.00 / 31.00 / 40.00%"
     },
-    "roles": [4],
-    "attr": [3]
+    "roles": [
+      4
+    ],
+    "attr": [
+      3
+    ]
   },
   "30197": {
     "name": "僕が遊んであげるね",
@@ -8204,8 +8918,12 @@
       "zh": "得意屬性突屬性攻擊者時，暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00％<br>「我行我素」時，物攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00%",
       "en": "While equipped to an Attacker with Stab affinity, boosts critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00％<br>While equipped to a Laid-back character, boosts P. ATK by 5.00 / 16.00 / 28.00 / 39.00 / 50.00%"
     },
-    "roles": [1],
-    "attr": [3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      3
+    ]
   },
   "30198": {
     "name": "シュガースノーの心",
@@ -8240,8 +8958,12 @@
       "zh": "得意屬性火屬性破防者且對象破防時，賦予我方全員「技能傷害+8.00 / 16.00 / 24.00 / 32.00 / 40.00％」直到1次行動結束為止<br>「樂於助人」時，我方全員受到強化面板的強化效果量+5.00 / 15.00 / 25.00 / 35.00 / 45.00％",
       "en": "While equipped to a Breaker with Fire affinity, when target is stunned, boosts all allies' skill damage by 8.00 / 16.00 / 24.00 / 32.00 / 40.00％ for 1 turn. While equipped to a Nurturer, boosts potency of buff effects received from panels by 5.00 / 15.00 / 25.00 / 35.00 / 45.00％"
     },
-    "roles": [2],
-    "attr": [5]
+    "roles": [
+      2
+    ],
+    "attr": [
+      5
+    ]
   },
   "30199": {
     "name": "恥じらいバニーちゃん",
@@ -8276,8 +8998,12 @@
       "zh": "得意屬性火屬性支援者且獲得面板時，賦予我方全員「暴擊傷害+8.00 / 14.00 / 19.00 / 25.00 / 30.00％」直到1次行動結束為止(上限3個)<br>「讀書」時，賦予的強化效果量+5.00 / 14.00 / 23.00 / 31.00 / 40.00％",
       "en": "While equipped to a Supporter with Fire affinity, when using panels, boosts all allies' critical damage by 8.00 / 14.00 / 19.00 / 25.00 / 30.00％ for 1 turn (MAX 3)<br>While equipped to a Bookworm, boosts potency of buff effects given by 5.00 / 14.00 / 23.00 / 31.00 / 40.00％"
     },
-    "roles": [4],
-    "attr": [5]
+    "roles": [
+      4
+    ],
+    "attr": [
+      5
+    ]
   },
   "30200": {
     "name": "夏の終わり",
@@ -8312,7 +9038,9 @@
       "zh": "擊破敵人時，賦予自身「暴擊傷害+6.00 / 20.00 / 33.00 / 47.00 / 60.00%」(上限5個)",
       "en": "When defeating enemy, boosts own critical damage by 6.00 / 20.00 / 33.00 / 47.00 / 60.00% (MAX 5)"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30201": {
@@ -8348,7 +9076,9 @@
       "zh": "自身為攻擊者時，技能威力+8.00 / 26.00 / 44.00 / 62.00 / 80.00％",
       "en": "While equipped to an Attacker, boosts skill power by 8.00 / 26.00 / 44.00 / 62.00 / 80.00％"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30202": {
@@ -8384,7 +9114,9 @@
       "zh": "自身為防禦者時，攻擊後或受到攻擊時，賦予敵方全體「與自身得意屬性一致的屬性耐性-3.00 / 9.00 / 14.00 / 20.00 / 25.00%」直到受1次攻擊為止(上限4個)",
       "en": "While equipped to a Defender, after attacking or being hit by an attack, reduces target's resistance based on own affinity by 3.00 / 9.00 / 14.00 / 20.00 / 25.00% for 1 attack (MAX 4)"
     },
-    "roles": [3],
+    "roles": [
+      3
+    ],
     "attr": []
   },
   "30203": {
@@ -8420,8 +9152,12 @@
       "zh": "得意屬性風屬性破防者且WEAK攻擊時，破防傷害+6.00 / 20.00 / 33.00 / 47.00 / 60.00%<br>「騎士」時，當目標破防時，賦予我方全員「受到強化面板的效果量+6.00 / 20.00 / 33.00 / 47.00 / 60.00％」直到1次行動結束為止(不可重複)",
       "en": "While equipped to a Breaker with Wind affinity, boosts stun damage by 6.00 / 20.00 / 33.00 / 47.00 / 60.00% when attacking weakness<br>While equipped to a Knight, when target is stunned, boosts all allies' potency of buff effects received when using panels by 6.00 / 20.00 / 33.00 / 47.00 / 60.00％ for 1 turn (Cannot be Stacked)"
     },
-    "roles": [2],
-    "attr": [8]
+    "roles": [
+      2
+    ],
+    "attr": [
+      8
+    ]
   },
   "30204": {
     "name": "幸多からんことを",
@@ -8456,8 +9192,12 @@
       "zh": "得意屬性風屬性攻擊者時且WEAK攻擊時，自身攻擊貫通力+15 / 49 / 83 / 116 / 150<br>「認真」時，魔攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00％",
       "en": "While equipped to an Attacker with Wind affinity, boosts penetration by 15 / 49 / 83 / 116 / 150<br>While equipped to a Diligent character, boosts M. ATK by 5.00 / 16.00 / 28.00 / 39.00 / 50.00％"
     },
-    "roles": [1],
-    "attr": [8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      8
+    ]
   },
   "30205": {
     "name": "ドキドキ・おそろい",
@@ -8564,7 +9304,9 @@
       "zh": "自身為支援者時，賦予的HP回復量+4.00 / 11.00 / 17.00 / 24.00 / 30.00％<br>「家人與友情」時，技能發動後，賦予我方全員「暴擊傷害+3.00 / 9.00 / 14.00 / 20.00 / 25.00％」直到1次行動結束為止(上限3個)",
       "en": "While equipped to a Supporter, boosts HP recovery given by 4.00 / 11.00 / 17.00 / 24.00 / 30.00％<br>While equipped to a Family & Friends character, after using a skill, boosts all allies' critical damage by 3.00 / 9.00 / 14.00 / 20.00 / 25.00％ for 1 turn (MAX 3)"
     },
-    "roles": [4],
+    "roles": [
+      4
+    ],
     "attr": []
   },
   "30208": {
@@ -8600,8 +9342,12 @@
       "zh": "得意屬性風屬性攻擊者時，在自己回合中發動的戰鬥道具傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>「淘氣」時，在自己回合發動的戰鬥道具暴擊傷害+8.00 / 26.00 / 44.00 / 62.00 / 80.00％",
       "en": "While equipped to an Attacker with Wind affinity, boosts own item damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00%<br>While equipped to a Spirited character, boosts own item critical damage by 8.00 / 26.00 / 44.00 / 62.00 / 80.00％"
     },
-    "roles": [1],
-    "attr": [8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      8
+    ]
   },
   "30209": {
     "name": "二人一緒なら",
@@ -8636,8 +9382,12 @@
       "zh": "得意屬性雷屬性破防者時，當隊伍中某人使用戰鬥道具時、賦予對方全員「受到的暴擊傷害+6.00 / 17.00 / 30.00 / 42.00 / 60.00％」直到受1次攻擊為止(上限2個)<br>※同時使用多個道具，也只會觸發1次<br>「料理」時，破防傷害+5.00 / 17.00 / 30.00 / 42.00 / 54.00％",
       "en": "While equipped to a Breaker with Bolt affinity, when party member uses an item, boosts all enemies critical damage received by 6.00 / 17.00 / 30.00 / 42.00 / 60.00％ for 1 attack (MAX 2 times)<br>While equipped to a Chef, boosts stun damage by 5.00 / 17.00 / 30.00 / 42.00 / 54.00％"
     },
-    "roles": [2],
-    "attr": [7]
+    "roles": [
+      2
+    ],
+    "attr": [
+      7
+    ]
   },
   "30210": {
     "name": "研究室に響く声",
@@ -8672,8 +9422,12 @@
       "zh": "得意屬性雷屬性防禦者且攻擊造成傷害時、賦予敵方全員「受到的傷害+8.00 / 19.00 / 29.00 / 40.00 / 50.00％」直到受1次攻擊為止(上限4個)<br>「我行我素」時，物防・魔防+4.00 / 8.00 / 12.00 / 16.00 / 20.00％",
       "en": "While equipped to a Defender with Bolt affinity, when hit by an attack, boosts all enemies' received damage by 8.00 / 19.00 / 29.00 / 40.00 / 50.00％ for 1 attack (MAX 4)<br>While equipped to Laid-back character, boosts P. DEF & M. DEF by 4.00 / 8.00 / 12.00 / 16.00 / 20.00％"
     },
-    "roles": [3],
-    "attr": [7]
+    "roles": [
+      3
+    ],
+    "attr": [
+      7
+    ]
   },
   "30211": {
     "name": "永遠先生の恋愛指南！？",
@@ -8708,8 +9462,12 @@
       "zh": "得意屬性突屬性支援者且受到HP回復時，賦予我方全員「技能傷害+3.00 / 9.00 / 15.00 / 20.00 / 26.00％」直到1次行動結束為止(上限3個)<br>「點心」時，賦予的HP回復量+4.00 / 13.00 / 22.00 / 31.00 / 40.00％",
       "en": "While equipped to a Supporter with Stab affinity. when recovering HP, boosts all allies' skill damage by 3.00 / 9.00 / 15.00 / 20.00 / 26.00％ for 1 turn (MAX 3)<br>While equipped to a Sweets character, boosts HP recovery given by 4.00 / 13.00 / 22.00 / 31.00 / 40.00％"
     },
-    "roles": [4],
-    "attr": [3]
+    "roles": [
+      4
+    ],
+    "attr": [
+      3
+    ]
   },
   "30212": {
     "name": "甘い幸せに満たされて",
@@ -8744,8 +9502,12 @@
       "zh": "得意屬性斬屬性攻擊者時，爆發技能傷害+12.00 / 39.00 / 66.00 / 93.00 / 120.00％<br>「騎士」時，全體攻擊技能傷害+5.00 / 15.00 / 25.00 / 35.00 / 45.00％",
       "en": "While equipped to an Attacker with Slash affinity, boosts burst skill damage by 12.00 / 39.00 / 66.00 / 93.00 / 120.00％<br>While equipped to a Knight, boosts area attack skill damage by 5.00 / 15.00 / 25.00 / 35.00 / 45.00％"
     },
-    "roles": [1],
-    "attr": [1]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1
+    ]
   },
   "30213": {
     "name": "錬金術を取り戻すために",
@@ -8780,8 +9542,15 @@
       "zh": "得意屬性魔法屬性時，自身的魔攻+10.00 / 33.00 / 55.00 / 78.00 / 100.00％<br>自身為攻擊者時，技能傷害+10.00 / 33.00 / 55.00 / 78.00 / 100.00％<br>戰鬥開始時，自身爆發量條增加 10.00 / 20.00 / 30.00 / 40.00 / 50.00％",
       "en": "While equipped to a character with Magic affinity, boosts M. ATK by 10.00 / 33.00 / 55.00 / 78.00 / 100.00％<br>While equipped to an Attacker, boosts skill damage by 10.00 / 33.00 / 55.00 / 78.00 / 100.00％<br>At the start of battle, increases the burst gauge by 10.00 / 20.00 / 30.00 / 40.00 / 50.00％"
     },
-    "roles": [1],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      1
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30214": {
     "name": "大切なものを見つけに",
@@ -8816,8 +9585,14 @@
       "zh": "得意屬性物理屬性時，自身的物攻+10.00 / 33.00 / 55.00 / 78.00 / 100.00％<br>自身為攻擊者時，技能傷害+10.00 / 33.00 / 55.00 / 78.00 / 100.00％<br>戰鬥開始時，自身爆發量條增加 10.00 / 20.00 / 30.00 / 40.00 / 50.00％",
       "en": "While equipped to a character with Physical affinity, boosts P. ATK by 10.00 / 33.00 / 55.00 / 78.00 / 100.00％<br>While equipped to an Attacker, boosts skill damage by 10.00 / 33.00 / 55.00 / 78.00 / 100.00％<br>At the start of battle, increases the burst gauge by 10.00 / 20.00 / 30.00 / 40.00 / 50.00％"
     },
-    "roles": [1],
-    "attr": [1, 2, 3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30215": {
     "name": "忍術ＶＳ魔法！？",
@@ -8852,8 +9627,12 @@
       "zh": "得意屬性冰屬性攻擊者時，攻擊後，賦予自身「魔攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00％」直到2次行動結束為止<br>「樂於助人」時，在技能發動前，若攻擊已附加異常狀態的敵人時，暴擊傷害+6.00 / 21.00 / 36.00 / 50.00 / 65.00％",
       "en": "While equipped to an Attacker with Ice affinity, after attacking, boosts own M. ATK by 5.00 / 16.00 / 28.00 / 39.00 / 50.00％ for 2 turns<br>While equipped to a Nurturer, when attacking target with status effects, boosts critical damage by 6.00 / 21.00 / 36.00 / 50.00 / 65.00％"
     },
-    "roles": [1],
-    "attr": [6]
+    "roles": [
+      1
+    ],
+    "attr": [
+      6
+    ]
   },
   "30216": {
     "name": "姉妹の日常",
@@ -8888,8 +9667,12 @@
       "zh": "得意屬性冰屬性支援者時，在發動技能前，攻擊已附加狀態異常的敵人後，賦予自身「賦予的強化效果量+8.00 / 26.00 / 44.00 / 62.00 / 80.00％」直到1次行動結束為止<br>「沉默寡言」時，我方全員的技能傷害+3.00 / 8.00 / 14.00 / 19.00 / 24.00％",
       "en": "While equipped to a Supporter with Ice affinity, after attacking target with status effects, boosts own potency of buff effects given by 8.00 / 26.00 / 44.00 / 62.00 / 80.00％ for 1 turn<br>While equipped to a Quiet characters, boosts all allies' skill damage by 3.00 / 8.00 / 14.00 / 19.00 / 24.00％"
     },
-    "roles": [4],
-    "attr": [6]
+    "roles": [
+      4
+    ],
+    "attr": [
+      6
+    ]
   },
   "30218": {
     "name": "部下の思いやり",
@@ -8924,8 +9707,12 @@
       "zh": "得意屬性突屬性支援者時，攻擊後，賦予我方物攻或魔攻最高的1人「技能傷害+4.00 / 12.00 / 20.00 / 28.00 / 36.00%」直到1次行動結束為止(上限3個)<br>「少根筋」時，我方全員物攻+5.00 / 10.00 / 15.00 / 20.00 / 25.00％",
       "en": "While equipped to a Supporter with Stab affinity, after attacking, boosts skill damage of the allies with the highest P. ATK or M. ATK by 4.00 / 12.00 / 20.00 / 28.00 / 36.00% for 1 turn (MAX 3)<br>While equipped to a Whimsical character, boosts all allies' P. ATK by 5.00 / 10.00 / 15.00 / 20.00 / 25.00％"
     },
-    "roles": [4],
-    "attr": [3]
+    "roles": [
+      4
+    ],
+    "attr": [
+      3
+    ]
   },
   "30219": {
     "name": "気になる仮面",
@@ -8960,8 +9747,12 @@
       "zh": "得意屬性突屬性破防者且對象破防時，賦予我方全員攻擊者「技能傷害+8.00 / 19.00 / 29.00 / 40.00 / 50.00％」直到1次行動結束為止<br>「詼諧的人」時，賦予的負面效果量+5.00 / 16.00 / 28.00 / 39.00 / 50.00％",
       "en": "While equipped to a Breaker with Stab affinity, when target is stunned, boosts Attacker allies' skill damage by 8.00 / 19.00 / 29.00 / 40.00 / 50.00％ for 1 turn. While equipped to an Energetic character, boosts potency of negative effects inflicted by 5.00 / 16.00 / 28.00 / 39.00 / 50.00％"
     },
-    "roles": [2],
-    "attr": [3]
+    "roles": [
+      2
+    ],
+    "attr": [
+      3
+    ]
   },
   "30220": {
     "name": "感動を抱きしめて",
@@ -8996,8 +9787,12 @@
       "zh": "得意屬性冰屬性破防者且對象破防時，賦予目標「受到的攻擊貫通力+15 / 49 / 83 / 116 / 150」直到受1次攻擊為止<br>「創作者」時，暴擊攻擊後，賦予目標「受到的爆發技能傷害+4.00 / 12.00 / 20.00 / 28.00 / 36.00％」直到1次行動結束為止(上限2個)",
       "en": "While equipped to a Breaker with Ice affinity, when target is stunned, boosts target's penetration received by 15 / 49 / 83 / 116 / 150 for 1 attack<br>While equipped to a Creator, after making a critical attack, boosts target's burst damage received by 4.00 / 12.00 / 20.00 / 28.00 / 36.00％ for 1 turn (MAX 2)"
     },
-    "roles": [2],
-    "attr": [6]
+    "roles": [
+      2
+    ],
+    "attr": [
+      6
+    ]
   },
   "30221": {
     "name": "お味はいかがかしら？",
@@ -9032,8 +9827,12 @@
       "zh": "得意屬性突屬性防禦者時，攻擊後，賦予我方全員「最大HP+2.00 / 4.00 / 6.00 / 8.00 / 10.00％」(上限20％)<br>「認真」時，物防・魔防+4.00 / 8.00 / 12.00 / 16.00 / 20.00％",
       "en": "While equipped to a Defender with Stab affinity, after attacking, boosts all allies' Max HP by 2.00 / 4.00 / 6.00 / 8.00 / 10.00％ (MAX 20%). While equipped to a Diligent character, boosts P. DEF & M.DEF by 4.00 / 8.00 / 12.00 / 16.00 / 20.00％"
     },
-    "roles": [3],
-    "attr": [3]
+    "roles": [
+      3
+    ],
+    "attr": [
+      3
+    ]
   },
   "30222": {
     "name": "秩序を纏う",
@@ -9068,8 +9867,12 @@
       "zh": "得意屬性突屬性攻擊者時，爆發技能傷害+12.00 / 39.00 / 66.00 / 93.00 / 120.00％<br>「師父」時、物攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00％",
       "en": "While equipped to an Attacker with Stab affinity, boosts burst skill damage by 12.00 / 39.00 / 66.00 / 93.00 / 120.00％<br>While equipped to a Master character, boosts P. ATK by 5.00 / 16.00 / 28.00 / 39.00 / 50.00％"
     },
-    "roles": [1],
-    "attr": [3]
+    "roles": [
+      1
+    ],
+    "attr": [
+      3
+    ]
   },
   "30223": {
     "name": "秩序を守る者たち",
@@ -9104,7 +9907,9 @@
       "zh": "自身為攻擊者時，技能發動後，賦予自身「技能傷害+5.00 / 15.00 / 25.00 / 35.00 / 45.00％」(上限900％)",
       "en": "While equipped to an Attacker, after attacking, boosts skill damage by 5.00 / 15.00 / 25.00 / 35.00 / 45.00％ (MAX 900%)"
     },
-    "roles": [1],
+    "roles": [
+      1
+    ],
     "attr": []
   },
   "30224": {
@@ -9140,8 +9945,12 @@
       "zh": "得意屬性雷屬性攻擊者時，爆發技能傷害+12.00 / 39.00 / 66.00 / 93.00 / 120.00％<br>「認真」時，魔攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00％",
       "en": "While equipped to an Attacker with Bolt affinity, boosts burst skill damage by 12.00 / 39.00 / 66.00 / 93.00 / 120.00％<br>While equipped to a Diligent character, boosts M. ATK by 5.00 / 16.00 / 28.00 / 39.00 / 50.00％"
     },
-    "roles": [1],
-    "attr": [7]
+    "roles": [
+      1
+    ],
+    "attr": [
+      7
+    ]
   },
   "30225": {
     "name": "ヨハナのかわいいとこ♪",
@@ -9176,8 +9985,12 @@
       "zh": "得意屬性雷屬性支援者時，我方全員爆發技能傷害+5.00 / 15.00 / 25.00 / 35.00 / 45.00％<br>「淘氣」時，我方全員魔攻+5.00 / 10.00 / 15.00 / 20.00 / 25.00％",
       "en": "While equipped to a Supporter with Bolt affinity, boosts all allies' burst skill damage by 5.00 / 15.00 / 25.00 / 35.00 / 45.00％<br>While equipped to a Spirited character, boosts all allies' M. ATK by 5.00 / 10.00 / 15.00 / 20.00 / 25.00％"
     },
-    "roles": [4],
-    "attr": [7]
+    "roles": [
+      4
+    ],
+    "attr": [
+      7
+    ]
   },
   "30226": {
     "name": "イザナのギターテク！",
@@ -9212,8 +10025,12 @@
       "zh": "得意屬性雷屬性破防者且對象破防時，賦予我方全員「爆發暴擊傷害+8.00 / 21.00 / 34.00 / 47.00 / 60.00％」直到1次行動結束為止<br>「少根筋」時，賦予的負面效果量+5.00 / 16.00 / 28.00 / 39.00 / 50.00％",
       "en": "While equipped to a Breaker with Bolt affinity, when target is stunned, boosts all allies' burst critical damage by 8.00 / 21.00 / 34.00 / 47.00 / 60.00％ for 1 turn<br>While equipped to a Whimsical character, boosts potency of negative effects inflicted by 5.00 / 16.00 / 28.00 / 39.00 / 50.00％"
     },
-    "roles": [2],
-    "attr": [7]
+    "roles": [
+      2
+    ],
+    "attr": [
+      7
+    ]
   },
   "30227": {
     "name": "戦いとは対話なのです",
@@ -9248,8 +10065,12 @@
       "zh": "得意屬性打屬性攻擊者且獲得面板時，賦予自身「物攻+6.00 / 20.00 / 33.00 / 47.00 / 60.00％」直到1次行動結束為止<br>「樂於助人」時，爆發技能傷害+10.00 / 33.00 / 55.00 / 78.00 / 100.00％",
       "en": "While equipped to an Attacker with Strike affinity, when using panels, boosts own P. ATK by 6.00 / 20.00 / 33.00 / 47.00 / 60.00％ for 1 turn<br>While equipped to a Nurturer, boosts burst skill damage by 10.00 / 33.00 / 55.00 / 78.00 / 100.00％"
     },
-    "roles": [1],
-    "attr": [2]
+    "roles": [
+      1
+    ],
+    "attr": [
+      2
+    ]
   },
   "30228": {
     "name": "バニーの企み",
@@ -9284,7 +10105,9 @@
       "zh": "自身為破防者時，技能2或爆發技能攻擊前，賦予目標「全属性耐性-10.00 / 20.00 / 30.00 / 40.00 / 50.00％」直到受2次攻擊為止",
       "en": "While equipped to a Breaker, before using Skill 2 or burst skill, reduces all of target's resistances by 10.00 / 20.00 / 30.00 / 40.00 / 50.00％ for 2 attacks"
     },
-    "roles": [2],
+    "roles": [
+      2
+    ],
     "attr": []
   },
   "30229": {
@@ -9320,8 +10143,12 @@
       "zh": "得意屬性打屬性破防者且目標破防時，賦予目標「受到負面面板的負面效果量+5.00 / 16.00 / 28.00 / 39.00 / 50.00％」直到1次行動結束為止<br>「詼諧的人」時，爆發破防傷害+9.00 / 29.00 / 50.00 / 70.00 / 90.00％",
       "en": "While equipped to a Breaker with Strike affinity, when target is stunned, boosts target's potency of negative effects inflicted from panels by 5.00 / 16.00 / 28.00 / 39.00 / 50.00％ for 1 turn<br>While equipped to an Energetic character, boosts burst stun damage by 9.00 / 29.00 / 50.00 / 70.00 / 90.00％"
     },
-    "roles": [2],
-    "attr": [2]
+    "roles": [
+      2
+    ],
+    "attr": [
+      2
+    ]
   },
   "30230": {
     "name": "温泉でほっこり",
@@ -9356,8 +10183,12 @@
       "zh": "得意屬性風屬性支援者且迴避敵人攻擊時，賦予我方全員「技能傷害+3.00 / 11.00 / 20.00 / 28.00 / 36.00％」直到1次行動結束為止(上限3個)<br>「九偉人」時，賦予的強化效果量+5.00 / 14.00 / 23.00 / 31.00 / 40.00％",
       "en": "While equipped to a Supporter with Wind affinity, when evading an attack, boosts all allies' skill damage by 3.00 / 11.00 / 20.00 / 28.00 / 36.00％ for 1 turn<br>While equipped to a Miraculous Nine character, boosts potency of buff effects given by 5.00 / 14.00 / 23.00 / 31.00 / 40.00％"
     },
-    "roles": [4],
-    "attr": [8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      8
+    ]
   },
   "30231": {
     "name": "見上げた先の微笑み",
@@ -9392,8 +10223,12 @@
       "zh": "得意屬性為風屬性防禦者時，受到攻擊後，賦予我方全員「暴擊傷害+3.00 / 9.00 / 14.00 / 20.00 / 25.00%」直到1次行動結束為止(上限2個)<br>「基爾亨・貝爾」在戰鬥開始時最大HP+4.00 / 8.00 / 12.00 / 16.00 / 20.00%、HP回復100%",
       "en": "While equipped to a Defender with Wind affinity, when attacked, boosts all allies' critical damage by 3.00 / 9.00 / 14.00 / 20.00 / 25.00% for 1 turn (Max 2 stacks)<br>While equipped to a Kirchen Bell character, at the start of battle, increases Max HP by 4.00 / 8.00 / 12.00 / 16.00 / 20.00% and restores 100% HP to self"
     },
-    "roles": [3],
-    "attr": [8]
+    "roles": [
+      3
+    ],
+    "attr": [
+      8
+    ]
   },
   "30232": {
     "name": "流れ星に願いを込めて",
@@ -9428,8 +10263,15 @@
       "zh": "得意屬性為魔法屬性支援者時，我方全員技能威力+6.00 / 17.00 / 28.00 / 39.00 / 50.00%",
       "en": "While equipped to a magic Supporter, boosts all allies' physical skill power by 6.00 / 17.00 / 28.00 / 39.00 / 50.00%"
     },
-    "roles": [4],
-    "attr": [5, 6, 7, 8]
+    "roles": [
+      4
+    ],
+    "attr": [
+      5,
+      6,
+      7,
+      8
+    ]
   },
   "30233": {
     "name": "星降る空を見上げて",
@@ -9464,8 +10306,14 @@
       "zh": "得意屬性為物理屬性支援者時，我方全員技能威力+6.00 / 17.00 / 28.00 / 39.00 / 50.00%",
       "en": "While equipped to a physical Supporter, boosts all allies' physical skill power by 6.00 / 17.00 / 28.00 / 39.00 / 50.00%"
     },
-    "roles": [4],
-    "attr": [1, 2, 3]
+    "roles": [
+      4
+    ],
+    "attr": [
+      1,
+      2,
+      3
+    ]
   },
   "30234": {
     "name": "憩いのひととき",
@@ -9500,8 +10348,12 @@
       "zh": "得意屬性為冰屬性支援者時，我方全員暴擊傷害+4.00 / 12.00 / 20.00 / 28.00 / 36.00%<br>「我行我素」時，我方全員的物防・魔防+4.00 / 8.00 / 12.00 / 16.00 / 20.00%",
       "en": "While equipped to a Supporter with Ice affinity, boosts all allies' Critical Damage by 4.00 / 12.00 / 20.00 / 28.00 / 36.00%<br>While equipped to Laid-back character, boosts all allies' P. DEF & M. DEF by 4.00 / 8.00 / 12.00 / 16.00 / 20.00％"
     },
-    "roles": [4],
-    "attr": [6]
+    "roles": [
+      4
+    ],
+    "attr": [
+      6
+    ]
   },
   "30235": {
     "name": "まだ見ぬ場所へ",
@@ -9536,43 +10388,85 @@
       "zh": "得意屬性為冰屬性攻擊者時，攻擊後，賦予自身「技能傷害+3.00 / 10.00 / 17.00 / 23.00 / 30.00%」<br>「料理」時，魔攻+5.00 / 16.00 / 28.00 / 39.00 / 50.00%",
       "en": "While equipped to an Attacker with Ice affinity, after attacking, boosts self Skill Damage by 3.00 / 10.00 / 17.00 / 23.00 / 30.00% for 4 turns<br>While equipped to Chef character, boosts M. ATK by 5.00 / 16.00 / 28.00 / 39.00 / 50.00%"
     },
-    "roles": [1],
-    "attr": [6]
+    "roles": [
+      1
+    ],
+    "attr": [
+      6
+    ]
   },
-  "99999": {
-    "name": "創世の光石",
+  "30236": {
+    "name": "背中合わせのぬくもり",
     "stats": [
       {
         "type": "HP",
-        "growth_id": 31007
+        "growth_id": 31048
       },
       {
         "type": "SPD",
-        "growth_id": 31007
+        "growth_id": 31060
       },
       {
         "type": "PATK",
-        "growth_id": 31007
+        "growth_id": 31068
       },
       {
         "type": "MATK",
-        "growth_id": 31007
+        "growth_id": 31068
       },
       {
         "type": "PDEF",
-        "growth_id": 31007
+        "growth_id": 31108
       },
       {
         "type": "MDEF",
-        "growth_id": 31007
+        "growth_id": 31108
       }
     ],
     "description": {
-      "jp": "受けるダメージ-1.00%",
-      "zh": "受到的傷害-1.00%",
-      "en": "Reduces damage received by 1.00%"
+      "jp": "自身がサポーターの時、バトル開始時、自身のバーストゲージ+20.00 / 40.00 / 60.00 / 80.00 / 100.00%",
+      "zh": "自身為支援者時，戰鬥開始時，自身的爆發量條+20.00 / 40.00 / 60.00 / 80.00 / 100.00%",
+      "en": "While equipped to a Supporter, at the start of battle, increases the burst gauge by 20.00 / 40.00 / 60.00 / 80.00 / 100.00%"
     },
-    "roles": [],
+    "roles": [
+      4
+    ],
     "attr": []
-  }
+  },
+"99999": {
+  "name": "創世の光石",
+  "stats": [
+    {
+      "type": "HP",
+      "growth_id": 31007
+    },
+    {
+      "type": "SPD",
+      "growth_id": 31007
+    },
+    {
+      "type": "PATK",
+      "growth_id": 31007
+    },
+    {
+      "type": "MATK",
+      "growth_id": 31007
+    },
+    {
+      "type": "PDEF",
+      "growth_id": 31007
+    },
+    {
+      "type": "MDEF",
+      "growth_id": 31007
+    }
+  ],
+  "description": {
+    "jp": "受けるダメージ-1.00%",
+    "zh": "受到的傷害-1.00%",
+    "en": "Reduces damage received by 1.00%"
+  },
+  "roles": [],
+  "attr": []
+}
 }

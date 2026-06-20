@@ -3291,8 +3291,24 @@
     "name": "期待に応えてみせるわ",
     "description": {
       "jp": "パーティに自身以外の「寡黙」がいる時、基礎魔攻+400<br><br>味方から単体スキルを受けた後、自身に「スキルダメージ+100％」を付与(上限2個)",
-      "zh": "伍中存在自身以外的「沉默寡言」隊員時，基礎魔攻+400<br><br>受到我方單體技能後<br>賦予自身「技能傷害+100%」(上限2個)",
+      "zh": "隊伍中存在自身以外的「沉默寡言」隊員時，基礎魔攻+400<br><br>受到我方單體技能後<br>賦予自身「技能傷害+100%」(上限2個)",
       "en": "When there is another \"Quiet\" in the party, Base M.ATK +400<br><br>After being hit by a single-target skill from an ally, grants self \"Skill Damage+100%\" (Max 2 times)"
+    }
+  },
+  "1990559": {
+    "name": "九偉人の力-Ⅱ-",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パネル獲得時、自身のバーストゲージを25％増加し、自身に「クリティカルダメージ+60％」を1回行動終了するまで付与",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>獲得面板時，自身的爆發量條+25%，賦予自身「暴擊傷害+60%」直到1次行動結束為止",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br>When acquiring a panel, increases self's Burst Gauge by 25%,  grants self \"Critical Damage +60%\" until the end of 1 action"
+    }
+  },
+  "1990560": {
+    "name": "撃滅する冥暗",
+    "description": {
+      "jp": "攻撃対象がブレイク状態の時、クリティカル確率+100%<br>スキル発動前に状態異常が付与されている対象を攻撃時、スキルダメージ+100%<br><br>パーティに自身以外の「九偉人」がいる時、基礎魔攻+250<br><br>「冥き追憶」タグを持つキャラ数に応じ、スキル威力+20～100%(1～5人で多いほど増加)",
+      "zh": "攻擊對象破防狀態時，暴擊率+100%<br>技能發動前，攻擊已受到異常狀態的目標時，技能傷害+100%<br><br>隊伍中存在自身以外的「九偉人」隊員時，基礎魔攻+250<br><br>依據持有「冥き追憶」標籤的角色數量，技能威力+20～100%(1～5人時越多人增加越多)",
+      "en": "When attacking a target in Break state, Critical Rate+100%<br>After attacking a target inflicted with a status ailment before using a skill, Skill Damage +100%<br><br>When there is another \"九偉人\" in the party, Base M.ATK +250<br><br>Based on the number of characters with the \"冥き追憶\" tag, grants self \"Skill Power+20~100%\" (increases more with 1~5 characters)"
     }
   }
 }
