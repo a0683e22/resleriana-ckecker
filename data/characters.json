@@ -1,5 +1,18 @@
 [
   {
+    "id": 196,
+    "base_character_id": 46901,
+    "attr": "火",
+    "name": { "zh": "塞蘿【九偉人 No.2】", "jp": "ゼロ【九偉人 No.2】", "en": "Zero【九偉人 No.2】"},
+    "date": "2026-06-23",
+    "職種": "攻擊者",
+    "passive_ids": [1990559, 1990560],
+    "tag_ids": [37, 38, 22],
+    "equip": 108,
+    "tool": [6, 52],
+    "leader_skill": { "name": "自称「九偉人最強」", "description": "「九偉人」は「物攻・魔攻・物防・魔防+35%」"}
+  },
+  {
     "id": 195,
     "base_character_id": 32501,
     "attr": "冰",

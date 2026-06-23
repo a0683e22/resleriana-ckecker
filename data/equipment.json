@@ -11412,5 +11412,19 @@
       }
     ],
     "ability": "自身がユリエ【トレジャーハンター】であり、「見えない追撃」発動後、自身に「スキル威力+50%」を2回行動終了するまで付与"
+  },
+  {
+    "id": 1271,
+    "name": "暴威ヲ鎖ス零ノ戦鎚",
+    "rarity": "SSR",
+    "slot_type": "Weapon",
+    "image": "images/equip/equipment_tool_0711_S.webp",
+    "status": [
+      {
+        "type": "matk",
+        "value": 150
+      }
+    ],
+    "ability": "自身がゼロ【九偉人 No.2】の時、WAVE開始時、自身に「魔攻+80％」を2回行動終了するまで付与"
   }
 ]

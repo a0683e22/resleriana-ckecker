@@ -18883,6 +18883,28 @@
     "start_at": "2026-06-12"
   },
   {
+    "recipe_id": 865,
+    "name": "暴威ヲ鎖ス零ノ戦鎚",
+    "gift_colors": [
+      5,
+      3,
+      2
+    ],
+    "materials": [
+      {
+        "id": 46901,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1428,
+        "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-06-23"
+  },
+  {
     "recipe_id": 10037,
     "name": "カノンボール",
     "target_id": 2,
