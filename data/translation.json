@@ -1,4 +1,62 @@
 ﻿{
+  "197": {
+    "skill1": {
+      "skill_id": 11003817,
+      "name": "クリムゾンシャイン",
+      "jp": "攻撃後、味方全員に「クリティカルダメージ+{0}%」を3回行動終了するまで付与し、<br>「魔攻+{1}%」を付与(上限30%)",
+      "zh": "攻擊後，賦予我方全員「暴擊傷害+{0}％」直到3次行動結束為止<br>「魔攻+{1}％」(上限30％)",
+      "en": "After attacking, Boosts all allies' \"Critical Damage+{0}%\" for 3 turns<br> \"Ｍ.ATK +{1}%\" (Max 30%)"
+    },
+    "skill2": {
+      "skill_id": 12003822,
+      "name": "アルケミカルゾーン",
+      "jp": "対象に「マイナス効果無効」と「状態異常無効」を1回行動終了するまで付与し、<br>「クリティカルダメージ+{0}%」と「魔攻+{1}%」を3回行動終了するまで付与<br>得意属性が風属性の味方全員に「クリティカル確率+{2}%」を付与(上限150%)",
+      "zh": "賦予目標「負面效果無效」與「狀態異常無效」直到1次行動結束為止<br>賦予「暴擊傷害+{0}%」與「魔攻+{1}%」直到3次行動結束為止<br>賦予得意屬性風屬性的我方全員「暴擊率+{2}%」(上限150%)",
+      "en": "Grants target negative & status effect immunity for 1 turn <br>Boosts Critical Damage+{0}% and M. ATK by {1}% for 3 turns<br>Boosts Wind affinity characters' critical rate by {2}% (Max 150%)"
+    },
+    "burst": {
+      "skill_id": 14003827,
+      "name": "フェイタルブロー",
+      "jp": "対象のマイナス効果と状態異常を解除<br>自身に「特殊カウンター[ex:14003843]アセンダンス[/ex])」を1回特殊カウンターするまで付与(重複不可)<br>得意属性が風属性の味方全員に「クリティカルダメージ+{0}%」と「魔攻+{1}%」を3回行動終了するまで付与し、<br>「クリティカル確率+{2}%」を付与(上限200%)<br>アタッカーの味方全員に以下の追加効果を1回行動終了するまで付与<br>追加効果：「自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)」<br><br>※特殊カウンターは、パーティの誰かが敵のスキル対象になった時、そのスキルを無効化し、「特殊カウンター[ex:14003843]アセンダンス[/ex])」を発動",
+      "zh": "解除對象的負面效果與狀態異常<br>賦予自身「特殊反擊[ex:14003843]アセンダンス[/ex])」直至1次特殊反擊為止，此攻擊(重複不可)<br>得意屬性風屬性的我方全員「暴擊傷害+{0}%」與「魔攻+{1}%」直到3次行動結束為止，賦予「暴擊率+{2}%」(上限200%)<br>賦予我方全攻擊者以下追加效果直到1次行動結束為止<br>追加效果：「當自身暴擊機率超過100%時，攻擊時將超過100%的暴擊機率提升量轉換為暴擊傷害提升(變換上限300%)」<br><br>※當隊伍中的某位成員成為敵方技能的目標時，特殊反擊會使該技能失效，然後發動特殊反擊[ex:14003843]アセンダンス[/ex])",
+      "en": "Removes target's negative & status effects and gain 1 use of Special Counter [ex:14003843]アセンダンス[/ex]) (Cannot be Stacked)<br>Boosts Wind affinity characters' C0ritical Damage+{0}% and M. ATK By {2}% for 3 turns and critical rate by {2}% (Max 200%)<br>Grants Attacker allies' the following additional effect  for 1 turn<br>Additional effect :  When critical rate is above 100%, when attacking, boosts critical damage by amount exceeded. (MAX 300%)<br><br>※A special counter nullifies an enemy’s skill when a member of the party becomes the target of that skill, and trigger \"Special Counterattack [ex:14003843]アセンダンス[/ex])\""
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "active_skill1": {
+      "skill_id": 14003844,
+      "name": "アルビちゃんディスチャージ☆",
+      "jp": "以下の効果を持つフィールド効果を敵味方合計で10回行動終了するまで発動(発動上限2回)<br>効果：「味方：バーストスキルダメージ+200%、受けるバーストゲージ増加量+50%」",
+      "zh": "直到敵我雙方合計行動結束10次為止，持續發動具有以下效果的場域效果(發動上限2次)<br>效果：「我方：爆發技能傷害+200%、受到的爆發條回復量+50%」",
+      "en": "Enables the following field effect for any 10 turns (MAX 2)<br>Effect :  (Ally) Boosts burst skill damage by 200% and increases burst gauge gain by 50%"
+    },
+    "ex_skill": {
+      "skill_id": 14003843,
+      "name": "アセンダンス",
+      "jp": "こ対象に「受けるダメージ+{0}%」と「受けるブレイクダメージ+{1}%」を2回攻撃を受けるまで付与し、<br>自身のバーストゲージを{2}%増加",
+      "zh": "賦予對象「受到的傷害+{0}%」與「受到的破防傷害+{1}%」直到受2次攻擊為止<br>自身的爆發量條+{2}%",
+      "en": "Boosts target's damage received by {0}% and break damage received by {1}% for 2 attacks<br>Increases own burst gauge by {2}%"
+    }
+  },
   "196": {
     "skill1": {
       "skill_id": 11003881,

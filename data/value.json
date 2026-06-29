@@ -1,375 +1,7 @@
 ﻿{
-  "11003881": {
-    "attr": 5,
-    "target_type": 3,
-    "power_type": 2,
-    "power": 120,
-    "break_power": 2,
-    "break_type": 2,
-    "wait": -100,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91002333,
-        "value": 1500
-      },
-      {
-        "id": 91002334,
-        "value": 1500
-      }
-    ]
-  },
-  "12003886": {
-    "attr": 5,
-    "target_type": 5,
-    "power_type": 2,
-    "power": 247,
-    "break_power": 16,
-    "break_type": 2,
-    "wait": 0,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91001337,
-        "value": 20000
-      },
-      {
-        "id": 91001305,
-        "value": 7000
-      },
-      {
-        "id": 91001020,
-        "value": 7000
-      }
-    ]
-  },
-  "14003891": {
-    "attr": 5,
-    "target_type": 5,
-    "power_type": 2,
-    "power": 398,
-    "break_power": 56,
-    "break_type": 2,
-    "wait": 0,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91001337,
-        "value": 40000
-      },
-      {
-        "id": 91001305,
-        "value": 10000
-      },
-      {
-        "id": 91001020,
-        "value": 10000
-      },
-      {
-        "id": 72001684,
-        "value": 10000
-      },
-      {
-        "id": 91002335,
-        "value": 25000
-      }
-    ]
-  },
-  "11003865": {
-    "attr": 6,
-    "target_type": 3,
-    "power_type": 2,
-    "power": 137,
-    "break_power": 6,
-    "break_type": 2,
-    "wait": -100,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91002322,
-        "value": 1500
-      },
-      {
-        "id": 91002323,
-        "value": 1500
-      }
-    ]
-  },
-  "12003870": {
-    "attr": 6,
-    "target_type": 3,
-    "power_type": 2,
-    "power": 436,
-    "break_power": 32,
-    "break_type": 2,
-    "wait": 0,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91001337,
-        "value": 20000
-      },
-      {
-        "id": 91002328,
-        "value": 6000
-      },
-      {
-        "id": 91002036,
-        "value": 6000
-      }
-    ]
-  },
-  "14003875": {
-    "attr": 6,
-    "target_type": 3,
-    "power_type": 2,
-    "power": 662,
-    "break_power": 90,
-    "break_type": 2,
-    "wait": 0,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91001337,
-        "value": 40000
-      },
-      {
-        "id": 91002328,
-        "value": 10000
-      },
-      {
-        "id": 91002036,
-        "value": 10000
-      },
-      {
-        "id": 91001174,
-        "value": 200
-      }
-    ]
-  },
-  "14003876": {
-    "attr": 6,
-    "target_type": 3,
-    "power_type": 2,
-    "power": 540,
-    "break_power": 30,
-    "break_type": 2,
-    "wait": -200,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91001337,
-        "value": 30000
-      },
-      {
-        "id": 91002328,
-        "value": 8000
-      },
-      {
-        "id": 91002036,
-        "value": 8000
-      },
-      {
-        "id": 91002324,
-        "value": 10000
-      }
-    ]
-  },
-  "11003850": {
-    "attr": 6,
-    "target_type": 4,
-    "power_type": 1,
-    "power": 0,
-    "break_power": 0,
-    "break_type": 1,
-    "wait": -100,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91002313,
-        "value": 1500
-      },
-      {
-        "id": 91002314,
-        "value": 1500
-      }
-    ]
-  },
-  "12003855": {
-    "attr": 6,
-    "target_type": 2,
-    "power_type": 1,
-    "power": 0,
-    "break_power": 0,
-    "break_type": 1,
-    "wait": 0,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91002318,
-        "value": 5000
-      },
-      {
-        "id": 91002325,
-        "value": 8000
-      },
-      {
-        "id": 91002315,
-        "value": 10000
-      },
-      {
-        "id": 91002316,
-        "value": 3000
-      },
-      {
-        "id": 91002317,
-        "value": 3000
-      },
-      {
-        "id": 91002330,
-        "value": 10000
-      }
-    ]
-  },
-  "14003860": {
-    "attr": 6,
-    "target_type": 3,
-    "power_type": 2,
-    "power": 545,
-    "break_power": 97,
-    "break_type": 2,
-    "wait": 0,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91002321,
-        "value": 3000
-      },
-      {
-        "id": 91002319,
-        "value": 10000
-      },
-      {
-        "id": 91002320,
-        "value": 10000
-      },
-      {
-        "id": 91002326,
-        "value": 10000
-      },
-      {
-        "id": 91002327,
-        "value": 10000
-      },
-      {
-        "id": 91002331,
-        "value": 10000
-      }
-    ]
-  },
-  "11003802": {
-    "attr": 8,
-    "target_type": 4,
-    "power_type": 1,
-    "power": 0,
-    "break_power": 0,
-    "break_type": 1,
-    "wait": -100,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91000925,
-        "value": 1000
-      },
-      {
-        "id": 91002268,
-        "value": 1000
-      },
-      {
-        "id": 91002269,
-        "value": 1000
-      }
-    ]
-  },
-  "12003807": {
-    "attr": 8,
-    "target_type": 2,
-    "power_type": 1,
-    "power": 0,
-    "break_power": 0,
-    "break_type": 1,
-    "wait": 0,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91001163,
-        "value": 1500
-      },
-      {
-        "id": 91002329,
-        "value": 3000
-      },
-      {
-        "id": 91002270,
-        "value": 5000
-      },
-      {
-        "id": 91002271,
-        "value": 5000
-      }
-    ]
-  },
-  "14003812": {
-    "attr": 8,
-    "target_type": 4,
-    "power_type": 1,
-    "power": 0,
-    "break_power": 0,
-    "break_type": 1,
-    "wait": 0,
-    "limit_count": null,
-    "require_command": false,
-    "effects": [
-      {
-        "id": 91001069,
-        "value": 10000
-      },
-      {
-        "id": 91002276,
-        "value": 2500
-      },
-      {
-        "id": 91000925,
-        "value": 2500
-      },
-      {
-        "id": 91002312,
-        "value": 1000
-      },
-      {
-        "id": 91001967,
-        "value": 10000
-      },
-      {
-        "id": 91001372,
-        "value": 10000
-      }
-    ]
-  },
   "11000275": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 61,
@@ -387,6 +19,7 @@
   },
   "12000280": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 120,
@@ -404,6 +37,7 @@
   },
   "14000285": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -421,6 +55,7 @@
   },
   "11002435": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 64,
@@ -442,6 +77,7 @@
   },
   "12002440": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 155,
@@ -467,6 +103,7 @@
   },
   "14002441": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 420,
@@ -492,6 +129,7 @@
   },
   "11000820": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 112,
@@ -513,6 +151,7 @@
   },
   "12000825": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -534,6 +173,7 @@
   },
   "14000830": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -559,6 +199,7 @@
   },
   "11001333": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 82,
@@ -576,6 +217,7 @@
   },
   "12001338": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 290,
@@ -597,6 +239,7 @@
   },
   "14001343": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 240,
@@ -618,6 +261,7 @@
   },
   "11001803": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 102,
@@ -639,6 +283,7 @@
   },
   "12001808": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 200,
@@ -664,6 +309,7 @@
   },
   "14001813": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 360,
@@ -689,6 +335,7 @@
   },
   "11002203": {
     "attr": 7,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -710,6 +357,7 @@
   },
   "12002208": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 120,
@@ -731,6 +379,7 @@
   },
   "14002213": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -752,6 +401,7 @@
   },
   "11000290": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 87,
@@ -773,6 +423,7 @@
   },
   "12000295": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 177,
@@ -798,6 +449,7 @@
   },
   "14000300": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -819,6 +471,7 @@
   },
   "11000305": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 90,
@@ -836,6 +489,7 @@
   },
   "12000310": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 300,
@@ -861,6 +515,7 @@
   },
   "14000315": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -878,6 +533,7 @@
   },
   "11000545": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 96,
@@ -895,6 +551,7 @@
   },
   "12000550": {
     "attr": 8,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -920,6 +577,7 @@
   },
   "14000555": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -937,6 +595,7 @@
   },
   "11003136": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 104,
@@ -958,6 +617,7 @@
   },
   "12003141": {
     "attr": 8,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -995,6 +655,7 @@
   },
   "14003142": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 540,
@@ -1032,6 +693,7 @@
   },
   "11000560": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 65,
@@ -1049,6 +711,7 @@
   },
   "12000565": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 122,
@@ -1066,6 +729,7 @@
   },
   "14000570": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 240,
@@ -1083,6 +747,7 @@
   },
   "11000005": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 77,
@@ -1100,6 +765,7 @@
   },
   "12000010": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 151,
@@ -1117,6 +783,7 @@
   },
   "14000015": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -1134,6 +801,7 @@
   },
   "11003124": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 85,
@@ -1167,6 +835,7 @@
   },
   "12003129": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 180,
@@ -1196,6 +865,7 @@
   },
   "14003130": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 320,
@@ -1225,6 +895,7 @@
   },
   "11001923": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 90,
@@ -1242,6 +913,7 @@
   },
   "12001928": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 331,
@@ -1263,6 +935,7 @@
   },
   "14001933": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -1284,6 +957,7 @@
   },
   "11000320": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 90,
@@ -1301,6 +975,7 @@
   },
   "12000325": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 300,
@@ -1322,6 +997,7 @@
   },
   "14000330": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -1339,6 +1015,7 @@
   },
   "11000110": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 70,
@@ -1356,6 +1033,7 @@
   },
   "12000115": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 275,
@@ -1381,6 +1059,7 @@
   },
   "14000120": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -1402,6 +1081,7 @@
   },
   "11000020": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 85,
@@ -1419,6 +1099,7 @@
   },
   "12000025": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 230,
@@ -1440,6 +1121,7 @@
   },
   "14000030": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -1457,6 +1139,7 @@
   },
   "14003448": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 92,
@@ -1474,6 +1157,7 @@
   },
   "14003453": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 300,
@@ -1507,6 +1191,7 @@
   },
   "14003454": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -1532,6 +1217,7 @@
   },
   "11000125": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 113,
@@ -1553,6 +1239,7 @@
   },
   "12000130": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 327,
@@ -1570,6 +1257,7 @@
   },
   "14000135": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -1591,6 +1279,7 @@
   },
   "11000960": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 63,
@@ -1608,6 +1297,7 @@
   },
   "12000965": {
     "attr": 1,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -1629,6 +1319,7 @@
   },
   "14000970": {
     "attr": 1,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -1650,6 +1341,7 @@
   },
   "11001193": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 82,
@@ -1667,6 +1359,7 @@
   },
   "12001198": {
     "attr": 2,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -1688,6 +1381,7 @@
   },
   "14001203": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -1709,6 +1403,7 @@
   },
   "11003733": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 102,
@@ -1730,6 +1425,7 @@
   },
   "12003738": {
     "attr": 2,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -1763,6 +1459,7 @@
   },
   "14003739": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 400,
@@ -1792,6 +1489,7 @@
   },
   "11001788": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 42,
@@ -1813,6 +1511,7 @@
   },
   "12001793": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 246,
@@ -1834,6 +1533,7 @@
   },
   "14001798": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -1855,6 +1555,7 @@
   },
   "11002897": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 57,
@@ -1892,6 +1593,7 @@
   },
   "12002902": {
     "attr": 6,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -1917,6 +1619,7 @@
   },
   "14002907": {
     "attr": 6,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -1946,6 +1649,7 @@
   },
   "11003560": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 63,
@@ -1967,6 +1671,7 @@
   },
   "12003565": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 250,
@@ -1988,6 +1693,7 @@
   },
   "14003570": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 472,
@@ -2013,6 +1719,7 @@
   },
   "11000335": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 66,
@@ -2030,6 +1737,7 @@
   },
   "12000340": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 293,
@@ -2047,6 +1755,7 @@
   },
   "14000345": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -2064,6 +1773,7 @@
   },
   "11000350": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 75,
@@ -2081,6 +1791,7 @@
   },
   "12000355": {
     "attr": 5,
+    "roles": [],
     "target_type": 2,
     "power_type": 5,
     "power": 440,
@@ -2098,6 +1809,7 @@
   },
   "14000360": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -2119,6 +1831,7 @@
   },
   "11000975": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 87,
@@ -2131,6 +1844,7 @@
   },
   "12000980": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 227,
@@ -2152,6 +1866,7 @@
   },
   "14000985": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 360,
@@ -2169,6 +1884,7 @@
   },
   "11000365": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 48,
@@ -2186,6 +1902,7 @@
   },
   "12000370": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 250,
@@ -2203,6 +1920,7 @@
   },
   "14000375": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -2220,6 +1938,7 @@
   },
   "11000035": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 75,
@@ -2237,6 +1956,7 @@
   },
   "12000040": {
     "attr": 6,
+    "roles": [],
     "target_type": 2,
     "power_type": 5,
     "power": 330,
@@ -2258,6 +1978,7 @@
   },
   "14000045": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -2275,6 +1996,7 @@
   },
   "14003503": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 92,
@@ -2300,6 +2022,7 @@
   },
   "14003508": {
     "attr": 6,
+    "roles": [],
     "target_type": 2,
     "power_type": 5,
     "power": 420,
@@ -2337,6 +2060,7 @@
   },
   "14003509": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 360,
@@ -2370,6 +2094,7 @@
   },
   "11000945": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 73,
@@ -2387,6 +2112,7 @@
   },
   "12000950": {
     "attr": 8,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -2408,6 +2134,7 @@
   },
   "14000955": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -2429,6 +2156,7 @@
   },
   "11001318": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 46,
@@ -2446,6 +2174,7 @@
   },
   "12001323": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 182,
@@ -2467,6 +2196,7 @@
   },
   "14001328": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -2488,6 +2218,7 @@
   },
   "11002877": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 53,
@@ -2513,6 +2244,7 @@
   },
   "12002882": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 237,
@@ -2538,6 +2270,7 @@
   },
   "14002887": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -2575,6 +2308,7 @@
   },
   "14002908": {
     "attr": 6,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -2596,6 +2330,7 @@
   },
   "11001163": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 75,
@@ -2613,6 +2348,7 @@
   },
   "12001168": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 312,
@@ -2630,6 +2366,7 @@
   },
   "14001173": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -2659,6 +2396,7 @@
   },
   "11002862": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 88,
@@ -2684,6 +2422,7 @@
   },
   "12002867": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 302,
@@ -2721,6 +2460,7 @@
   },
   "14002872": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -2754,6 +2494,7 @@
   },
   "11000380": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 75,
@@ -2771,6 +2512,7 @@
   },
   "12000385": {
     "attr": 8,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 132,
@@ -2788,6 +2530,7 @@
   },
   "14000390": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -2805,6 +2548,7 @@
   },
   "11000680": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 88,
@@ -2822,6 +2566,7 @@
   },
   "12000685": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 267,
@@ -2839,6 +2584,7 @@
   },
   "14000685": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 368,
@@ -2860,6 +2606,7 @@
   },
   "11002944": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 92,
@@ -2885,6 +2632,7 @@
   },
   "12002949": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 380,
@@ -2910,6 +2658,7 @@
   },
   "14002950": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 570,
@@ -2939,6 +2688,7 @@
   },
   "11000140": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 75,
@@ -2956,6 +2706,7 @@
   },
   "12000145": {
     "attr": 8,
+    "roles": [],
     "target_type": 2,
     "power_type": 5,
     "power": 250,
@@ -2973,6 +2724,7 @@
   },
   "14000150": {
     "attr": 8,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 300,
@@ -2990,6 +2742,7 @@
   },
   "11000855": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 92,
@@ -3007,6 +2760,7 @@
   },
   "12000860": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -3028,6 +2782,7 @@
   },
   "14000865": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -3045,6 +2800,7 @@
   },
   "11001683": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 95,
@@ -3070,6 +2826,7 @@
   },
   "12001688": {
     "attr": 6,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -3095,6 +2852,7 @@
   },
   "14001693": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -3116,6 +2874,7 @@
   },
   "11000665": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 71,
@@ -3133,6 +2892,7 @@
   },
   "12000670": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 166,
@@ -3150,6 +2910,7 @@
   },
   "14000675": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -3171,6 +2932,7 @@
   },
   "14003460": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 110,
@@ -3196,6 +2958,7 @@
   },
   "14003465": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 280,
@@ -3225,6 +2988,7 @@
   },
   "14003466": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 400,
@@ -3256,20 +3020,9 @@
       }
     ]
   },
-  "14003468": {
-    "attr": [],
-    "target_type": [],
-    "power_type": null,
-    "power": null,
-    "break_power": 0,
-    "break_power_type": 1,
-    "wait": -200,
-    "limit_count": null,
-    "require_command": false,
-    "effects": []
-  },
   "11001493": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 60,
@@ -3287,6 +3040,7 @@
   },
   "12001498": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 93,
@@ -3304,6 +3058,7 @@
   },
   "14001503": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -3325,6 +3080,7 @@
   },
   "11000590": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 82,
@@ -3337,6 +3093,7 @@
   },
   "12000595": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 253,
@@ -3354,6 +3111,7 @@
   },
   "14000600": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 450,
@@ -3375,6 +3133,7 @@
   },
   "11000395": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 53,
@@ -3392,6 +3151,7 @@
   },
   "12000400": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 223,
@@ -3409,6 +3169,7 @@
   },
   "14000405": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -3430,6 +3191,7 @@
   },
   "11001383": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 53,
@@ -3451,6 +3213,7 @@
   },
   "12001388": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 192,
@@ -3472,6 +3235,7 @@
   },
   "14001393": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -3493,6 +3257,7 @@
   },
   "11000575": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 62,
@@ -3514,6 +3279,7 @@
   },
   "12000580": {
     "attr": 2,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -3531,6 +3297,7 @@
   },
   "14000585": {
     "attr": 2,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -3548,6 +3315,7 @@
   },
   "11000410": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 38,
@@ -3565,6 +3333,7 @@
   },
   "12000415": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 200,
@@ -3577,6 +3346,7 @@
   },
   "14000420": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -3598,6 +3368,7 @@
   },
   "11001448": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 56,
@@ -3619,6 +3390,7 @@
   },
   "12001453": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 227,
@@ -3640,6 +3412,7 @@
   },
   "14001458": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -3665,6 +3438,7 @@
   },
   "11000425": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 113,
@@ -3682,6 +3456,7 @@
   },
   "12000430": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 327,
@@ -3703,6 +3478,7 @@
   },
   "14000435": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -3720,6 +3496,7 @@
   },
   "11000440": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 83,
@@ -3741,6 +3518,7 @@
   },
   "12000445": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 227,
@@ -3762,6 +3540,7 @@
   },
   "14000450": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -3783,6 +3562,7 @@
   },
   "11000185": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 63,
@@ -3795,6 +3575,7 @@
   },
   "12000190": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 200,
@@ -3824,6 +3605,7 @@
   },
   "14000195": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -3845,6 +3627,7 @@
   },
   "11000690": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 51,
@@ -3862,6 +3645,7 @@
   },
   "12000695": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 188,
@@ -3883,6 +3667,7 @@
   },
   "14000700": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -3904,6 +3689,7 @@
   },
   "11001433": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 85,
@@ -3921,6 +3707,7 @@
   },
   "12001438": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 293,
@@ -3942,6 +3729,7 @@
   },
   "14001443": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -3963,6 +3751,7 @@
   },
   "11000050": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 92,
@@ -3980,6 +3769,7 @@
   },
   "12000055": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 302,
@@ -3997,6 +3787,7 @@
   },
   "14000060": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -4014,6 +3805,7 @@
   },
   "11000930": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 46,
@@ -4031,6 +3823,7 @@
   },
   "12000935": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 182,
@@ -4048,6 +3841,7 @@
   },
   "14000940": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 240,
@@ -4069,6 +3863,7 @@
   },
   "11000155": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 70,
@@ -4086,6 +3881,7 @@
   },
   "12000160": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 146,
@@ -4098,6 +3894,7 @@
   },
   "14000165": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -4115,6 +3912,7 @@
   },
   "11000870": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 71,
@@ -4132,6 +3930,7 @@
   },
   "12000875": {
     "attr": 5,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 93,
@@ -4149,6 +3948,7 @@
   },
   "14000880": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -4170,6 +3970,7 @@
   },
   "11003027": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 77,
@@ -4191,6 +3992,7 @@
   },
   "12003032": {
     "attr": 5,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 118,
@@ -4220,6 +4022,7 @@
   },
   "14003033": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 320,
@@ -4253,6 +4056,7 @@
   },
   "11003530": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 218,
@@ -4282,6 +4086,7 @@
   },
   "12003535": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 162,
@@ -4311,6 +4116,7 @@
   },
   "14003540": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 507,
@@ -4340,6 +4146,7 @@
   },
   "11000885": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 53,
@@ -4361,6 +4168,7 @@
   },
   "12000890": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 115,
@@ -4378,6 +4186,7 @@
   },
   "14000895": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 240,
@@ -4395,6 +4204,7 @@
   },
   "11003038": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 56,
@@ -4420,6 +4230,7 @@
   },
   "12003043": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 213,
@@ -4449,6 +4260,7 @@
   },
   "14003044": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 390,
@@ -4480,8 +4292,223 @@
       }
     ]
   },
+  "11003850": {
+    "attr": 6,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002313,
+        "value": 1500
+      },
+      {
+        "id": 91002314,
+        "value": 1500
+      }
+    ]
+  },
+  "12003855": {
+    "attr": 6,
+    "roles": [],
+    "target_type": 2,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002318,
+        "value": 5000
+      },
+      {
+        "id": 91002325,
+        "value": 8000
+      },
+      {
+        "id": 91002315,
+        "value": 10000
+      },
+      {
+        "id": 91002316,
+        "value": 3000
+      },
+      {
+        "id": 91002317,
+        "value": 3000
+      },
+      {
+        "id": 91002330,
+        "value": 10000
+      }
+    ]
+  },
+  "14003860": {
+    "attr": 6,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 545,
+    "break_power": 97,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002321,
+        "value": 3000
+      },
+      {
+        "id": 91002319,
+        "value": 10000
+      },
+      {
+        "id": 91002320,
+        "value": 10000
+      },
+      {
+        "id": 91002326,
+        "value": 10000
+      },
+      {
+        "id": 91002327,
+        "value": 10000
+      },
+      {
+        "id": 91002331,
+        "value": 10000
+      }
+    ]
+  },
+  "11003865": {
+    "attr": 6,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 137,
+    "break_power": 6,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002322,
+        "value": 1500
+      },
+      {
+        "id": 91002323,
+        "value": 1500
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "12003870": {
+    "attr": 6,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 436,
+    "break_power": 32,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 20000
+      },
+      {
+        "id": 91002328,
+        "value": 6000
+      },
+      {
+        "id": 91002036,
+        "value": 6000
+      }
+    ]
+  },
+  "14003875": {
+    "attr": 6,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 662,
+    "break_power": 90,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 40000
+      },
+      {
+        "id": 91002328,
+        "value": 10000
+      },
+      {
+        "id": 91002036,
+        "value": 10000
+      },
+      {
+        "id": 91001174,
+        "value": 200
+      }
+    ]
+  },
+  "14003876": {
+    "attr": 6,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 540,
+    "break_power": 30,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 30000
+      },
+      {
+        "id": 91002328,
+        "value": 8000
+      },
+      {
+        "id": 91002036,
+        "value": 8000
+      },
+      {
+        "id": 91002324,
+        "value": 10000
+      },
+      {
+        "id": 91002332,
+        "value": 5000
+      }
+    ]
+  },
   "11000900": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 115,
@@ -4499,6 +4526,7 @@
   },
   "12000905": {
     "attr": 2,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -4520,6 +4548,7 @@
   },
   "14000910": {
     "attr": 2,
+    "roles": [],
     "target_type": 2,
     "power_type": 5,
     "power": 450,
@@ -4541,6 +4570,7 @@
   },
   "11000170": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 56,
@@ -4558,6 +4588,7 @@
   },
   "12000175": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 227,
@@ -4575,6 +4606,7 @@
   },
   "14000180": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -4592,6 +4624,7 @@
   },
   "11001118": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 56,
@@ -4609,6 +4642,7 @@
   },
   "12001123": {
     "attr": 3,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 93,
@@ -4626,6 +4660,7 @@
   },
   "14001128": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 375,
@@ -4647,6 +4682,7 @@
   },
   "11002836": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 60,
@@ -4668,6 +4704,7 @@
   },
   "12002841": {
     "attr": 3,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 112,
@@ -4693,6 +4730,7 @@
   },
   "14002842": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 395,
@@ -4722,6 +4760,7 @@
   },
   "11001668": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 55,
@@ -4743,6 +4782,7 @@
   },
   "12001673": {
     "attr": 5,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -4768,6 +4808,7 @@
   },
   "14001678": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 437,
@@ -4787,8 +4828,103 @@
       }
     ]
   },
+  "11003802": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91000925,
+        "value": 1000
+      },
+      {
+        "id": 91002268,
+        "value": 1000
+      },
+      {
+        "id": 91002269,
+        "value": 1000
+      }
+    ]
+  },
+  "12003807": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 2,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001163,
+        "value": 1500
+      },
+      {
+        "id": 91002329,
+        "value": 3000
+      },
+      {
+        "id": 91002270,
+        "value": 5000
+      },
+      {
+        "id": 91002271,
+        "value": 5000
+      }
+    ]
+  },
+  "14003812": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001069,
+        "value": 10000
+      },
+      {
+        "id": 91002276,
+        "value": 2500
+      },
+      {
+        "id": 91000925,
+        "value": 2500
+      },
+      {
+        "id": 91002312,
+        "value": 1000
+      },
+      {
+        "id": 91001967,
+        "value": 10000
+      },
+      {
+        "id": 91001372,
+        "value": 10000
+      }
+    ]
+  },
   "11000605": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 50,
@@ -4801,6 +4937,7 @@
   },
   "12000610": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 112,
@@ -4818,6 +4955,7 @@
   },
   "14000615": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -4839,6 +4977,7 @@
   },
   "11000620": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 55,
@@ -4856,6 +4995,7 @@
   },
   "12000625": {
     "attr": 1,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -4873,6 +5013,7 @@
   },
   "14000630": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -4890,6 +5031,7 @@
   },
   "14003285": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 60,
@@ -4915,6 +5057,7 @@
   },
   "14003290": {
     "attr": 1,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -4936,6 +5079,7 @@
   },
   "14003291": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 540,
@@ -4957,6 +5101,7 @@
   },
   "11002188": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 63,
@@ -4986,6 +5131,7 @@
   },
   "12002193": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 250,
@@ -5015,6 +5161,7 @@
   },
   "14002198": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -5048,6 +5195,7 @@
   },
   "11002735": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 135,
@@ -5069,6 +5217,7 @@
   },
   "12002740": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 418,
@@ -5094,6 +5243,7 @@
   },
   "14002745": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 377,
@@ -5135,6 +5285,7 @@
   },
   "11000065": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 82,
@@ -5147,6 +5298,7 @@
   },
   "12000070": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 252,
@@ -5164,6 +5316,7 @@
   },
   "14000075": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -5181,6 +5334,7 @@
   },
   "11000455": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 40,
@@ -5198,6 +5352,7 @@
   },
   "12000460": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 175,
@@ -5219,6 +5374,7 @@
   },
   "14000465": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 240,
@@ -5236,6 +5392,7 @@
   },
   "11000470": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 98,
@@ -5253,6 +5410,7 @@
   },
   "12000475": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 277,
@@ -5270,6 +5428,7 @@
   },
   "14000480": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -5287,6 +5446,7 @@
   },
   "11000080": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 77,
@@ -5304,6 +5464,7 @@
   },
   "12000085": {
     "attr": 3,
+    "roles": [],
     "target_type": 2,
     "power_type": 5,
     "power": 330,
@@ -5321,6 +5482,7 @@
   },
   "14000090": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -5338,6 +5500,7 @@
   },
   "11000485": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 142,
@@ -5355,6 +5518,7 @@
   },
   "12000490": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 362,
@@ -5372,6 +5536,7 @@
   },
   "14000495": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -5389,6 +5554,7 @@
   },
   "11001021": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 68,
@@ -5406,6 +5572,7 @@
   },
   "12001026": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 145,
@@ -5423,6 +5590,7 @@
   },
   "14001031": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -5444,6 +5612,7 @@
   },
   "11001973": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 111,
@@ -5461,6 +5630,7 @@
   },
   "12001978": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 338,
@@ -5482,6 +5652,7 @@
   },
   "14001983": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -5503,6 +5674,7 @@
   },
   "11002168": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 71,
@@ -5524,6 +5696,7 @@
   },
   "12002173": {
     "attr": 8,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 104,
@@ -5561,6 +5734,7 @@
   },
   "14002178": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -5594,6 +5768,7 @@
   },
   "11000530": {
     "attr": 7,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -5615,6 +5790,7 @@
   },
   "12000535": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 106,
@@ -5632,6 +5808,7 @@
   },
   "14000540": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -5653,6 +5830,7 @@
   },
   "11001006": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 56,
@@ -5674,6 +5852,7 @@
   },
   "12001011": {
     "attr": 2,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -5695,6 +5874,7 @@
   },
   "14001016": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -5716,6 +5896,7 @@
   },
   "11000515": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 91,
@@ -5737,6 +5918,7 @@
   },
   "12000520": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 301,
@@ -5758,6 +5940,7 @@
   },
   "14000525": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -5775,6 +5958,7 @@
   },
   "11001071": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 98,
@@ -5796,6 +5980,7 @@
   },
   "12001076": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 375,
@@ -5813,6 +5998,7 @@
   },
   "14001081": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -5838,6 +6024,7 @@
   },
   "11000260": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 91,
@@ -5855,6 +6042,7 @@
   },
   "12000265": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 450,
@@ -5867,6 +6055,7 @@
   },
   "14000270": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -5884,6 +6073,7 @@
   },
   "11002446": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 95,
@@ -5905,6 +6095,7 @@
   },
   "12002451": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 600,
@@ -5926,6 +6117,7 @@
   },
   "14002452": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 700,
@@ -5947,6 +6139,7 @@
   },
   "11000720": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 42,
@@ -5964,6 +6157,7 @@
   },
   "12000725": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 106,
@@ -5985,6 +6179,7 @@
   },
   "14000730": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -6006,6 +6201,7 @@
   },
   "11001178": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 40,
@@ -6023,6 +6219,7 @@
   },
   "12001183": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 105,
@@ -6044,6 +6241,7 @@
   },
   "14001188": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -6065,6 +6263,7 @@
   },
   "11002795": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 44,
@@ -6090,6 +6289,7 @@
   },
   "12002800": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 145,
@@ -6115,6 +6315,7 @@
   },
   "14002801": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 420,
@@ -6144,6 +6345,7 @@
   },
   "11001538": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 86,
@@ -6165,6 +6367,7 @@
   },
   "12001543": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 176,
@@ -6194,6 +6397,7 @@
   },
   "14001548": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -6215,6 +6419,7 @@
   },
   "11001908": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 60,
@@ -6232,6 +6437,7 @@
   },
   "12001913": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 125,
@@ -6253,6 +6459,7 @@
   },
   "14001918": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 420,
@@ -6274,6 +6481,7 @@
   },
   "11002233": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 117,
@@ -6299,6 +6507,7 @@
   },
   "12002238": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 346,
@@ -6324,6 +6533,7 @@
   },
   "14002243": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -6353,6 +6563,7 @@
   },
   "11003575": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 102,
@@ -6382,6 +6593,7 @@
   },
   "12003580": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 293,
@@ -6411,6 +6623,7 @@
   },
   "14003585": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 472,
@@ -6436,6 +6649,7 @@
   },
   "11000650": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 75,
@@ -6453,6 +6667,7 @@
   },
   "12000655": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 250,
@@ -6474,6 +6689,7 @@
   },
   "14000660": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -6495,6 +6711,7 @@
   },
   "11001288": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 56,
@@ -6512,6 +6729,7 @@
   },
   "12001293": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 1,
     "power": 0,
@@ -6533,6 +6751,7 @@
   },
   "14001298": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -6550,6 +6769,7 @@
   },
   "11001608": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 57,
@@ -6571,6 +6791,7 @@
   },
   "12001613": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 103,
@@ -6600,6 +6821,7 @@
   },
   "14001618": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 182,
@@ -6621,6 +6843,7 @@
   },
   "11002218": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 58,
@@ -6642,6 +6865,7 @@
   },
   "12002223": {
     "attr": 3,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -6667,6 +6891,7 @@
   },
   "14002228": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -6696,6 +6921,7 @@
   },
   "11002627": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 121,
@@ -6717,6 +6943,7 @@
   },
   "12002632": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 241,
@@ -6746,6 +6973,7 @@
   },
   "14002637": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -6779,6 +7007,7 @@
   },
   "11000750": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 53,
@@ -6796,6 +7025,7 @@
   },
   "12000755": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 192,
@@ -6817,6 +7047,7 @@
   },
   "14000760": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -6838,6 +7069,7 @@
   },
   "11002847": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 60,
@@ -6867,6 +7099,7 @@
   },
   "12002852": {
     "attr": 8,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -6896,6 +7129,7 @@
   },
   "14002857": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -6925,6 +7159,7 @@
   },
   "11000200": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 78,
@@ -6942,6 +7177,7 @@
   },
   "12000205": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 253,
@@ -6959,6 +7195,7 @@
   },
   "14000210": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -6976,6 +7213,7 @@
   },
   "11000215": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 115,
@@ -6993,6 +7231,7 @@
   },
   "12000220": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 340,
@@ -7010,6 +7249,7 @@
   },
   "14000225": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -7027,6 +7267,7 @@
   },
   "11000735": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 70,
@@ -7044,6 +7285,7 @@
   },
   "12000740": {
     "attr": 2,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -7061,6 +7303,7 @@
   },
   "14000745": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -7082,6 +7325,7 @@
   },
   "11002153": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 80,
@@ -7103,6 +7347,7 @@
   },
   "12002158": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 267,
@@ -7132,6 +7377,7 @@
   },
   "14002163": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -7157,6 +7403,7 @@
   },
   "11000800": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 72,
@@ -7178,6 +7425,7 @@
   },
   "12000790": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 246,
@@ -7199,6 +7447,7 @@
   },
   "14000815": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -7220,6 +7469,7 @@
   },
   "14000816": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 58,
@@ -7241,6 +7491,7 @@
   },
   "14000817": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 61,
@@ -7262,6 +7513,7 @@
   },
   "14000818": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 65,
@@ -7283,6 +7535,7 @@
   },
   "14000819": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 68,
@@ -7304,6 +7557,7 @@
   },
   "14000820": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 72,
@@ -7325,6 +7579,7 @@
   },
   "11000245": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 85,
@@ -7342,6 +7597,7 @@
   },
   "12000250": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 338,
@@ -7354,6 +7610,7 @@
   },
   "14000255": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -7371,6 +7628,7 @@
   },
   "11000095": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 51,
@@ -7388,6 +7646,7 @@
   },
   "12000100": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 132,
@@ -7405,6 +7664,7 @@
   },
   "14000105": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -7422,6 +7682,7 @@
   },
   "11002457": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 56,
@@ -7447,6 +7708,7 @@
   },
   "12002462": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -7468,6 +7730,7 @@
   },
   "14002463": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 330,
@@ -7489,6 +7752,7 @@
   },
   "11000770": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 91,
@@ -7506,6 +7770,7 @@
   },
   "12000775": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 301,
@@ -7523,6 +7788,7 @@
   },
   "14000780": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -7540,6 +7806,7 @@
   },
   "14003330": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 110,
@@ -7561,6 +7828,7 @@
   },
   "14003335": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 450,
@@ -7590,6 +7858,7 @@
   },
   "14003336": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 400,
@@ -7623,6 +7892,7 @@
   },
   "11001103": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 83,
@@ -7640,6 +7910,7 @@
   },
   "12001108": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 175,
@@ -7661,6 +7932,7 @@
   },
   "14001113": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -7686,6 +7958,7 @@
   },
   "11003775": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 95,
@@ -7707,6 +7980,7 @@
   },
   "12003780": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 245,
@@ -7732,6 +8006,7 @@
   },
   "14003781": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 350,
@@ -7765,6 +8040,7 @@
   },
   "11001523": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 47,
@@ -7786,6 +8062,7 @@
   },
   "12001528": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 110,
@@ -7807,6 +8084,7 @@
   },
   "14001533": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 215,
@@ -7828,6 +8106,7 @@
   },
   "11001698": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 92,
@@ -7853,6 +8132,7 @@
   },
   "12001703": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 302,
@@ -7874,6 +8154,7 @@
   },
   "14001708": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 277,
@@ -7899,6 +8180,7 @@
   },
   "11001713": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 92,
@@ -7920,6 +8202,7 @@
   },
   "12001718": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 302,
@@ -7945,6 +8228,7 @@
   },
   "14001723": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 277,
@@ -7966,6 +8250,7 @@
   },
   "12001699": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 242,
@@ -7987,6 +8272,7 @@
   },
   "12001700": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 257,
@@ -8008,6 +8294,7 @@
   },
   "12001701": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 272,
@@ -8029,6 +8316,7 @@
   },
   "12001702": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 287,
@@ -8050,6 +8338,7 @@
   },
   "11002293": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 72,
@@ -8075,6 +8364,7 @@
   },
   "12002298": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 283,
@@ -8112,6 +8402,7 @@
   },
   "14002303": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 337,
@@ -8141,6 +8432,7 @@
   },
   "11003164": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 78,
@@ -8162,6 +8454,7 @@
   },
   "12003169": {
     "attr": 2,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -8195,6 +8488,7 @@
   },
   "14003174": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -8240,6 +8534,7 @@
   },
   "11003357": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 126,
@@ -8261,6 +8556,7 @@
   },
   "12003362": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 245,
@@ -8290,6 +8586,7 @@
   },
   "14003367": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -8339,6 +8636,7 @@
   },
   "11003545": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 78,
@@ -8356,6 +8654,7 @@
   },
   "12003550": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 266,
@@ -8381,6 +8680,7 @@
   },
   "14003555": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 283,
@@ -8406,6 +8706,7 @@
   },
   "11000500": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 67,
@@ -8423,6 +8724,7 @@
   },
   "12000505": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 272,
@@ -8444,6 +8746,7 @@
   },
   "14000510": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 450,
@@ -8465,6 +8768,7 @@
   },
   "11000230": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 66,
@@ -8486,6 +8790,7 @@
   },
   "12000235": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 240,
@@ -8519,6 +8824,7 @@
   },
   "14000240": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -8540,6 +8846,7 @@
   },
   "11000991": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 63,
@@ -8561,6 +8868,7 @@
   },
   "12000996": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 267,
@@ -8578,6 +8886,7 @@
   },
   "14001001": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 450,
@@ -8599,6 +8908,7 @@
   },
   "14001047": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 280,
@@ -8616,6 +8926,7 @@
   },
   "14001048": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 280,
@@ -8633,6 +8944,7 @@
   },
   "14001049": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 280,
@@ -8650,6 +8962,7 @@
   },
   "14001050": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 280,
@@ -8667,12 +8980,13 @@
   },
   "14001051": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 280,
     "break_power": 28,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -8684,12 +8998,13 @@
   },
   "14003680": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 320,
     "break_power": 32,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -8709,6 +9024,7 @@
   },
   "14003672": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 80,
@@ -8738,6 +9054,7 @@
   },
   "14003677": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 350,
@@ -8763,6 +9080,7 @@
   },
   "14003678": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 600,
@@ -8788,6 +9106,7 @@
   },
   "11001623": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 92,
@@ -8805,6 +9124,7 @@
   },
   "12001628": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 427,
@@ -8826,6 +9146,7 @@
   },
   "14001633": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -8843,6 +9164,7 @@
   },
   "11002955": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 101,
@@ -8864,6 +9186,7 @@
   },
   "12002960": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 520,
@@ -8889,6 +9212,7 @@
   },
   "14002961": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 400,
@@ -8914,6 +9238,7 @@
   },
   "11001743": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 42,
@@ -8935,6 +9260,7 @@
   },
   "12001748": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 178,
@@ -8960,6 +9286,7 @@
   },
   "14001753": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 450,
@@ -8985,6 +9312,7 @@
   },
   "11001758": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 42,
@@ -9002,6 +9330,7 @@
   },
   "12001763": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 178,
@@ -9031,6 +9360,7 @@
   },
   "14001768": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 450,
@@ -9048,6 +9378,7 @@
   },
   "12001744": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 143,
@@ -9073,6 +9404,7 @@
   },
   "12001745": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 151,
@@ -9098,6 +9430,7 @@
   },
   "12001746": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 160,
@@ -9123,6 +9456,7 @@
   },
   "12001747": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 169,
@@ -9148,6 +9482,7 @@
   },
   "11002078": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 57,
@@ -9169,6 +9504,7 @@
   },
   "12002083": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 241,
@@ -9190,6 +9526,7 @@
   },
   "14002088": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -9215,6 +9552,7 @@
   },
   "11002330": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 111,
@@ -9240,6 +9578,7 @@
   },
   "12002335": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 392,
@@ -9285,6 +9624,7 @@
   },
   "14002340": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -9318,6 +9658,7 @@
   },
   "14002485": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 411,
@@ -9343,6 +9684,7 @@
   },
   "14002486": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 411,
@@ -9368,6 +9710,7 @@
   },
   "14002487": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 411,
@@ -9393,6 +9736,7 @@
   },
   "14002488": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 411,
@@ -9418,12 +9762,13 @@
   },
   "14002489": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 411,
     "break_power": 33,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -9443,6 +9788,7 @@
   },
   "11003515": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 102,
@@ -9464,6 +9810,7 @@
   },
   "12003520": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 391,
@@ -9481,6 +9828,7 @@
   },
   "14003525": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 567,
@@ -9502,6 +9850,7 @@
   },
   "11000840": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 90,
@@ -9519,6 +9868,7 @@
   },
   "12000845": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 300,
@@ -9540,6 +9890,7 @@
   },
   "14000850": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -9561,6 +9912,7 @@
   },
   "11001508": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -9582,6 +9934,7 @@
   },
   "12001513": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 113,
@@ -9603,6 +9956,7 @@
   },
   "14001518": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -9624,6 +9978,7 @@
   },
   "11001893": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 61,
@@ -9653,6 +10008,7 @@
   },
   "12001898": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 147,
@@ -9678,6 +10034,7 @@
   },
   "14001903": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -9703,6 +10060,7 @@
   },
   "14001964": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 118,
@@ -9728,6 +10086,7 @@
   },
   "14001965": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 125,
@@ -9753,6 +10112,7 @@
   },
   "14001966": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 132,
@@ -9778,6 +10138,7 @@
   },
   "14001967": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 139,
@@ -9803,6 +10164,7 @@
   },
   "14001968": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 147,
@@ -9828,6 +10190,7 @@
   },
   "11000915": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 101,
@@ -9845,6 +10208,7 @@
   },
   "12000920": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 326,
@@ -9866,6 +10230,7 @@
   },
   "14000925": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -9891,6 +10256,7 @@
   },
   "11001368": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 82,
@@ -9908,6 +10274,7 @@
   },
   "12001373": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 290,
@@ -9933,6 +10300,7 @@
   },
   "14001378": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -9958,6 +10326,7 @@
   },
   "11002093": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 71,
@@ -9983,6 +10352,7 @@
   },
   "12002098": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 257,
@@ -10020,6 +10390,7 @@
   },
   "14002103": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -10045,6 +10416,7 @@
   },
   "11002780": {
     "attr": 3,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -10066,6 +10438,7 @@
   },
   "12002785": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 231,
@@ -10123,6 +10496,7 @@
   },
   "14002790": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -10156,6 +10530,7 @@
   },
   "11001036": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 33,
@@ -10177,6 +10552,7 @@
   },
   "12001041": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 167,
@@ -10198,6 +10574,7 @@
   },
   "14001046": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 240,
@@ -10219,6 +10596,7 @@
   },
   "11001413": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 55,
@@ -10236,6 +10614,7 @@
   },
   "12001418": {
     "attr": 5,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -10253,6 +10632,7 @@
   },
   "14001423": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -10274,6 +10654,7 @@
   },
   "11001938": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 93,
@@ -10291,6 +10672,7 @@
   },
   "12001943": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 325,
@@ -10324,6 +10706,7 @@
   },
   "14001948": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -10353,6 +10736,7 @@
   },
   "11002750": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 68,
@@ -10374,6 +10758,7 @@
   },
   "12002755": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 278,
@@ -10403,6 +10788,7 @@
   },
   "14002760": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 337,
@@ -10440,6 +10826,7 @@
   },
   "11003760": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 53,
@@ -10461,6 +10848,7 @@
   },
   "12003765": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 262,
@@ -10498,6 +10886,7 @@
   },
   "14003770": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -10539,6 +10928,7 @@
   },
   "11001056": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 61,
@@ -10556,6 +10946,7 @@
   },
   "12001061": {
     "attr": 2,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 93,
@@ -10577,6 +10968,7 @@
   },
   "14001066": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -10594,6 +10986,7 @@
   },
   "11001953": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 83,
@@ -10615,6 +11008,7 @@
   },
   "12001958": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 272,
@@ -10640,6 +11034,7 @@
   },
   "14001963": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -10669,6 +11064,7 @@
   },
   "11002765": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -10690,6 +11086,7 @@
   },
   "12002770": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 141,
@@ -10739,6 +11136,7 @@
   },
   "14002775": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -10772,6 +11170,7 @@
   },
   "11001303": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 111,
@@ -10797,6 +11196,7 @@
   },
   "12001308": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 325,
@@ -10818,6 +11218,7 @@
   },
   "14001313": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -10835,6 +11236,7 @@
   },
   "14001129": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 260,
@@ -10856,6 +11258,7 @@
   },
   "14001130": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 276,
@@ -10877,6 +11280,7 @@
   },
   "14001131": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 292,
@@ -10898,6 +11302,7 @@
   },
   "14001132": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 308,
@@ -10919,6 +11324,7 @@
   },
   "14001133": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 325,
@@ -10940,6 +11346,7 @@
   },
   "11000705": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 106,
@@ -10957,6 +11364,7 @@
   },
   "12000710": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 191,
@@ -10974,6 +11382,7 @@
   },
   "14000715": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 500,
@@ -10991,6 +11400,7 @@
   },
   "11003112": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 120,
@@ -11012,6 +11422,7 @@
   },
   "12003117": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 270,
@@ -11037,6 +11448,7 @@
   },
   "14003118": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 600,
@@ -11066,6 +11478,7 @@
   },
   "11001398": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 51,
@@ -11083,6 +11496,7 @@
   },
   "12001403": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 112,
@@ -11104,6 +11518,7 @@
   },
   "14001408": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 400,
@@ -11125,6 +11540,7 @@
   },
   "11001878": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 52,
@@ -11146,6 +11562,7 @@
   },
   "12001883": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 367,
@@ -11167,6 +11584,7 @@
   },
   "14001888": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -11188,6 +11606,7 @@
   },
   "11002806": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 147,
@@ -11209,6 +11628,7 @@
   },
   "12002811": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 433,
@@ -11234,6 +11654,7 @@
   },
   "14002816": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -11263,6 +11684,7 @@
   },
   "11003342": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 67,
@@ -11284,6 +11706,7 @@
   },
   "12003347": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 277,
@@ -11317,6 +11740,7 @@
   },
   "14003352": {
     "attr": 8,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 337,
@@ -11350,6 +11774,7 @@
   },
   "11003715": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 60,
@@ -11371,6 +11796,7 @@
   },
   "12003720": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 270,
@@ -11412,6 +11838,7 @@
   },
   "14003725": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -11449,12 +11876,13 @@
   },
   "14003728": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 280,
     "break_power": 313,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -11474,6 +11902,7 @@
   },
   "14001653": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 62,
@@ -11495,6 +11924,7 @@
   },
   "14001658": {
     "attr": 6,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -11520,6 +11950,7 @@
   },
   "14001663": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -11541,6 +11972,7 @@
   },
   "11002123": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 121,
@@ -11566,6 +11998,7 @@
   },
   "12002128": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 351,
@@ -11587,6 +12020,7 @@
   },
   "14002133": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -11616,6 +12050,7 @@
   },
   "14002179": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 372,
@@ -11641,6 +12076,7 @@
   },
   "14002180": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 372,
@@ -11666,6 +12102,7 @@
   },
   "14002181": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 372,
@@ -11691,6 +12128,7 @@
   },
   "14002182": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 372,
@@ -11716,12 +12154,13 @@
   },
   "14002183": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 372,
     "break_power": 43,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -11741,6 +12180,7 @@
   },
   "11001638": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 27,
@@ -11762,6 +12202,7 @@
   },
   "12001643": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 247,
@@ -11799,6 +12240,7 @@
   },
   "14001648": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 625,
@@ -11820,6 +12262,7 @@
   },
   "11002821": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 61,
@@ -11841,6 +12284,7 @@
   },
   "12002826": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 383,
@@ -11874,6 +12318,7 @@
   },
   "14002831": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -11899,6 +12344,7 @@
   },
   "14002888": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 399,
@@ -11920,6 +12366,7 @@
   },
   "14002889": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 399,
@@ -11941,6 +12388,7 @@
   },
   "14002890": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 399,
@@ -11962,6 +12410,7 @@
   },
   "14002891": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 399,
@@ -11983,12 +12432,13 @@
   },
   "14002892": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 399,
     "break_power": 31,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -12004,6 +12454,7 @@
   },
   "11002982": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 70,
@@ -12029,6 +12480,7 @@
   },
   "12002987": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 281,
@@ -12058,6 +12510,7 @@
   },
   "14002992": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -12091,6 +12544,7 @@
   },
   "14003047": {
     "attr": 1,
+    "roles": [],
     "target_type": 6,
     "power_type": 1,
     "power": 0,
@@ -12112,6 +12566,7 @@
   },
   "11003224": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -12137,6 +12592,7 @@
   },
   "12003229": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 236,
@@ -12182,6 +12638,7 @@
   },
   "14003234": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -12223,6 +12680,7 @@
   },
   "11003700": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 40,
@@ -12244,6 +12702,7 @@
   },
   "12003705": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -12273,6 +12732,7 @@
   },
   "14003710": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -12302,12 +12762,13 @@
   },
   "14003727": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 137,
     "break_power": 13,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -12347,6 +12808,7 @@
   },
   "11001773": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 62,
@@ -12368,6 +12830,7 @@
   },
   "12001778": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 302,
@@ -12401,6 +12864,7 @@
   },
   "14001783": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 500,
@@ -12430,6 +12894,7 @@
   },
   "11003433": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 120,
@@ -12451,6 +12916,7 @@
   },
   "12003438": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 241,
@@ -12484,6 +12950,7 @@
   },
   "14003443": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 456,
@@ -12525,6 +12992,7 @@
   },
   "11001728": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 115,
@@ -12546,6 +13014,7 @@
   },
   "12001733": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 336,
@@ -12579,6 +13048,7 @@
   },
   "14001738": {
     "attr": 1,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 300,
@@ -12600,6 +13070,7 @@
   },
   "11002138": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 73,
@@ -12621,6 +13092,7 @@
   },
   "12002143": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 283,
@@ -12658,6 +13130,7 @@
   },
   "14002148": {
     "attr": 6,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -12695,6 +13168,7 @@
   },
   "11002928": {
     "attr": 1,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -12720,6 +13194,7 @@
   },
   "12002933": {
     "attr": 1,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -12749,6 +13224,7 @@
   },
   "14002938": {
     "attr": 1,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -12786,6 +13262,7 @@
   },
   "11003590": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 55,
@@ -12807,6 +13284,7 @@
   },
   "12003595": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 265,
@@ -12852,6 +13330,7 @@
   },
   "14003600": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -12897,6 +13376,7 @@
   },
   "14003632": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 1,
     "power": 0,
@@ -12922,6 +13402,7 @@
   },
   "11001208": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 51,
@@ -12939,6 +13420,7 @@
   },
   "12001213": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 223,
@@ -12956,6 +13438,7 @@
   },
   "14001218": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 370,
@@ -12977,6 +13460,7 @@
   },
   "11001988": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 110,
@@ -13002,6 +13486,7 @@
   },
   "12001993": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 206,
@@ -13027,6 +13512,7 @@
   },
   "14001998": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 531,
@@ -13052,6 +13538,7 @@
   },
   "11002003": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 68,
@@ -13073,6 +13560,7 @@
   },
   "12002008": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 255,
@@ -13102,6 +13590,7 @@
   },
   "14002013": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -13131,6 +13620,7 @@
   },
   "11002018": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 81,
@@ -13152,6 +13642,7 @@
   },
   "12002023": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 292,
@@ -13181,6 +13672,7 @@
   },
   "14002028": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -13214,6 +13706,7 @@
   },
   "11002033": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 86,
@@ -13231,6 +13724,7 @@
   },
   "12002038": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 1,
     "power": 0,
@@ -13252,6 +13746,7 @@
   },
   "14002043": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -13273,6 +13768,7 @@
   },
   "11002048": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 73,
@@ -13294,6 +13790,7 @@
   },
   "12002053": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 1,
     "power": 0,
@@ -13319,6 +13816,7 @@
   },
   "14002058": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -13340,6 +13838,7 @@
   },
   "11002913": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 141,
@@ -13361,6 +13860,7 @@
   },
   "12002918": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 426,
@@ -13386,6 +13886,7 @@
   },
   "14002923": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -13423,12 +13924,13 @@
   },
   "14002977": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 240,
     "break_power": 31,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -13444,6 +13946,7 @@
   },
   "11003315": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -13473,6 +13976,7 @@
   },
   "12003320": {
     "attr": 5,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -13506,6 +14010,7 @@
   },
   "14003325": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 1,
     "power": 0,
@@ -13543,6 +14048,7 @@
   },
   "11003488": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 53,
@@ -13564,6 +14070,7 @@
   },
   "12003493": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 237,
@@ -13617,6 +14124,7 @@
   },
   "14003498": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -13674,6 +14182,7 @@
   },
   "14003616": {
     "attr": 6,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -13703,6 +14212,7 @@
   },
   "11002063": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 110,
@@ -13728,6 +14238,7 @@
   },
   "12002068": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 506,
@@ -13757,6 +14268,7 @@
   },
   "14002073": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 377,
@@ -13782,6 +14294,7 @@
   },
   "11003403": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 1,
     "power": 0,
@@ -13807,6 +14320,7 @@
   },
   "12003408": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 275,
@@ -13856,6 +14370,7 @@
   },
   "14003413": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -13897,6 +14412,7 @@
   },
   "11002108": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 77,
@@ -13918,6 +14434,7 @@
   },
   "12002113": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 287,
@@ -13943,6 +14460,7 @@
   },
   "14002118": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -13972,6 +14490,7 @@
   },
   "11002966": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 67,
@@ -13997,6 +14516,7 @@
   },
   "12002971": {
     "attr": 1,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -14034,6 +14554,7 @@
   },
   "14002976": {
     "attr": 1,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -14063,6 +14584,7 @@
   },
   "11003300": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 72,
@@ -14084,6 +14606,7 @@
   },
   "12003305": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 170,
@@ -14125,6 +14648,7 @@
   },
   "14003310": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 337,
@@ -14158,6 +14682,7 @@
   },
   "14003368": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 1,
     "power": 0,
@@ -14179,6 +14704,7 @@
   },
   "11003473": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 103,
@@ -14200,6 +14726,7 @@
   },
   "12003478": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 383,
@@ -14253,6 +14780,7 @@
   },
   "14003483": {
     "attr": 6,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -14286,6 +14814,7 @@
   },
   "11002248": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 90,
@@ -14307,6 +14836,7 @@
   },
   "12002253": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 441,
@@ -14328,6 +14858,7 @@
   },
   "14002258": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -14365,6 +14896,7 @@
   },
   "11002263": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 67,
@@ -14386,6 +14918,7 @@
   },
   "12002268": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 252,
@@ -14423,6 +14956,7 @@
   },
   "14002273": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 1,
     "power": 0,
@@ -14460,6 +14994,7 @@
   },
   "11003194": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -14481,6 +15016,7 @@
   },
   "12003199": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 1,
     "power": 0,
@@ -14530,6 +15066,7 @@
   },
   "14003204": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 1,
     "power": 0,
@@ -14565,8 +15102,163 @@
       }
     ]
   },
+  "11003817": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 53,
+    "break_power": 5,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002277,
+        "value": 1500
+      },
+      {
+        "id": 91002278,
+        "value": 1000
+      }
+    ]
+  },
+  "12003822": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 2,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002325,
+        "value": 6000
+      },
+      {
+        "id": 91002360,
+        "value": 6000
+      },
+      {
+        "id": 91002279,
+        "value": 5000
+      },
+      {
+        "id": 91002280,
+        "value": 0
+      },
+      {
+        "id": 91002281,
+        "value": 0
+      }
+    ]
+  },
+  "14003827": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002340,
+        "value": 12000
+      },
+      {
+        "id": 91002282,
+        "value": 12000
+      },
+      {
+        "id": 91002283,
+        "value": 10000
+      },
+      {
+        "id": 91002284,
+        "value": 30000
+      },
+      {
+        "id": 91001967,
+        "value": 10000
+      },
+      {
+        "id": 91001372,
+        "value": 10000
+      },
+      {
+        "id": 91002285,
+        "value": 0
+      },
+      {
+        "id": 91002287,
+        "value": 0
+      }
+    ]
+  },
+  "14003843": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001941,
+        "value": 10000
+      },
+      {
+        "id": 91000973,
+        "value": 10000
+      },
+      {
+        "id": 91002194,
+        "value": 1500
+      },
+      {
+        "id": 72001725,
+        "value": 4000
+      },
+      {
+        "id": 72001726,
+        "value": 5000
+      }
+    ]
+  },
+  "14003844": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": 2,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002289,
+        "value": 0
+      }
+    ]
+  },
   "11002278": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 72,
@@ -14604,6 +15296,7 @@
   },
   "12002283": {
     "attr": 1,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -14637,6 +15330,7 @@
   },
   "14002288": {
     "attr": 1,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -14662,6 +15356,7 @@
   },
   "11003082": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 121,
@@ -14691,6 +15386,7 @@
   },
   "12003087": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 241,
@@ -14736,6 +15432,7 @@
   },
   "14003092": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 377,
@@ -14773,6 +15470,7 @@
   },
   "11003209": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 128,
@@ -14798,6 +15496,7 @@
   },
   "12003214": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 412,
@@ -14831,6 +15530,7 @@
   },
   "14003219": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 339,
@@ -14860,6 +15560,7 @@
   },
   "11002997": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 127,
@@ -14881,6 +15582,7 @@
   },
   "12003002": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 410,
@@ -14910,6 +15612,7 @@
   },
   "14003007": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -14935,6 +15638,7 @@
   },
   "11003685": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 96,
@@ -14956,6 +15660,7 @@
   },
   "12003690": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 373,
@@ -14981,6 +15686,7 @@
   },
   "14003695": {
     "attr": 7,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 377,
@@ -15006,12 +15712,13 @@
   },
   "14003726": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 388,
     "break_power": 29,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -15031,6 +15738,7 @@
   },
   "11003012": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 71,
@@ -15064,6 +15772,7 @@
   },
   "12003017": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -15093,6 +15802,7 @@
   },
   "14003022": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -15118,6 +15828,7 @@
   },
   "11003052": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 127,
@@ -15147,6 +15858,7 @@
   },
   "12003057": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 347,
@@ -15172,6 +15884,7 @@
   },
   "14003062": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -15209,12 +15922,13 @@
   },
   "14003144": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 90,
     "break_power": 300,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -15234,6 +15948,7 @@
   },
   "11003067": {
     "attr": 7,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -15259,6 +15974,7 @@
   },
   "12003072": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -15296,6 +16012,7 @@
   },
   "14003077": {
     "attr": 7,
+    "roles": [],
     "target_type": 4,
     "power_type": 1,
     "power": 0,
@@ -15329,6 +16046,7 @@
   },
   "11003097": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 86,
@@ -15354,6 +16072,7 @@
   },
   "12003102": {
     "attr": 2,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -15387,6 +16106,7 @@
   },
   "14003107": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -15416,6 +16136,7 @@
   },
   "14003269": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 77,
@@ -15441,6 +16162,7 @@
   },
   "14003274": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 288,
@@ -15478,6 +16200,7 @@
   },
   "14003279": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -15515,6 +16238,7 @@
   },
   "11003239": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -15540,6 +16264,7 @@
   },
   "12003244": {
     "attr": 3,
+    "roles": [],
     "target_type": 4,
     "power_type": 5,
     "power": 124,
@@ -15585,6 +16310,7 @@
   },
   "14003249": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -15626,6 +16352,7 @@
   },
   "14003280": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 1,
     "power": 0,
@@ -15651,6 +16378,7 @@
   },
   "11003637": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 63,
@@ -15680,6 +16408,7 @@
   },
   "12003642": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 250,
@@ -15721,6 +16450,7 @@
   },
   "14003647": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -15774,6 +16504,7 @@
   },
   "11003254": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 93,
@@ -15795,6 +16526,7 @@
   },
   "12003259": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 372,
@@ -15832,6 +16564,7 @@
   },
   "14003264": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -15869,6 +16602,7 @@
   },
   "11003787": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 45,
@@ -15890,6 +16624,7 @@
   },
   "12003792": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 228,
@@ -15939,6 +16674,7 @@
   },
   "14003797": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -15984,6 +16720,7 @@
   },
   "11003418": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -16009,6 +16746,7 @@
   },
   "12003423": {
     "attr": 3,
+    "roles": [],
     "target_type": 2,
     "power_type": 1,
     "power": 0,
@@ -16054,6 +16792,7 @@
   },
   "14003428": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 315,
@@ -16087,6 +16826,7 @@
   },
   "11003605": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -16112,6 +16852,7 @@
   },
   "12003610": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 236,
@@ -16141,6 +16882,7 @@
   },
   "14003615": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -16170,6 +16912,7 @@
   },
   "11003621": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 61,
@@ -16195,6 +16938,7 @@
   },
   "12003626": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 271,
@@ -16232,6 +16976,7 @@
   },
   "14003631": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -16277,6 +17022,7 @@
   },
   "11003652": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 83,
@@ -16298,6 +17044,7 @@
   },
   "12003657": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 253,
@@ -16331,6 +17078,7 @@
   },
   "14003662": {
     "attr": 3,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 650,
@@ -16364,6 +17112,7 @@
   },
   "14003663": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 263,
@@ -16413,6 +17162,7 @@
   },
   "14003664": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 263,
@@ -16462,6 +17212,7 @@
   },
   "14003665": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 263,
@@ -16511,6 +17262,7 @@
   },
   "14003666": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 263,
@@ -16560,12 +17312,13 @@
   },
   "14003667": {
     "attr": 3,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 263,
     "break_power": 13,
     "break_type": 2,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -16609,6 +17362,7 @@
   },
   "11003745": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 110,
@@ -16634,6 +17388,7 @@
   },
   "12003750": {
     "attr": 2,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 233,
@@ -16679,6 +17434,7 @@
   },
   "14003755": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -16706,8 +17462,91 @@
       }
     ]
   },
+  "11003881": {
+    "attr": 5,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 120,
+    "break_power": 2,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002333,
+        "value": 1500
+      },
+      {
+        "id": 91002334,
+        "value": 1500
+      }
+    ]
+  },
+  "12003886": {
+    "attr": 5,
+    "roles": [],
+    "target_type": 5,
+    "power_type": 2,
+    "power": 247,
+    "break_power": 16,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 20000
+      },
+      {
+        "id": 91001305,
+        "value": 7000
+      },
+      {
+        "id": 91001020,
+        "value": 7000
+      }
+    ]
+  },
+  "14003891": {
+    "attr": 5,
+    "roles": [],
+    "target_type": 5,
+    "power_type": 2,
+    "power": 398,
+    "break_power": 56,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001337,
+        "value": 40000
+      },
+      {
+        "id": 91001305,
+        "value": 10000
+      },
+      {
+        "id": 91001020,
+        "value": 10000
+      },
+      {
+        "id": 72001684,
+        "value": 10000
+      },
+      {
+        "id": 91002335,
+        "value": 25000
+      }
+    ]
+  },
   "11002390": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 125,
@@ -16741,6 +17580,7 @@
   },
   "12002395": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 407,
@@ -16762,6 +17602,7 @@
   },
   "14002400": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 540,
@@ -16791,6 +17632,7 @@
   },
   "14002551": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 246,
@@ -16808,6 +17650,7 @@
   },
   "11002541": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 100,
@@ -16845,6 +17688,7 @@
   },
   "11002542": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 106,
@@ -16882,6 +17726,7 @@
   },
   "11002543": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 112,
@@ -16919,6 +17764,7 @@
   },
   "11002544": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 118,
@@ -16956,6 +17802,7 @@
   },
   "11002545": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 125,
@@ -16993,6 +17840,7 @@
   },
   "12002546": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 195,
@@ -17034,6 +17882,7 @@
   },
   "12002547": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 207,
@@ -17075,6 +17924,7 @@
   },
   "12002548": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 219,
@@ -17116,6 +17966,7 @@
   },
   "12002549": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 231,
@@ -17157,6 +18008,7 @@
   },
   "12002550": {
     "attr": 5,
+    "roles": [],
     "target_type": 5,
     "power_type": 2,
     "power": 243,
@@ -17198,6 +18050,7 @@
   },
   "11002405": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 80,
@@ -17231,6 +18084,7 @@
   },
   "12002410": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 292,
@@ -17268,6 +18122,7 @@
   },
   "14002415": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -17297,6 +18152,7 @@
   },
   "14002586": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 304,
@@ -17314,6 +18170,7 @@
   },
   "11002556": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 64,
@@ -17347,6 +18204,7 @@
   },
   "11002557": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 68,
@@ -17380,6 +18238,7 @@
   },
   "11002558": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 72,
@@ -17413,6 +18272,7 @@
   },
   "11002559": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 76,
@@ -17446,6 +18306,7 @@
   },
   "11002560": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 80,
@@ -17479,6 +18340,7 @@
   },
   "12002561": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 292,
@@ -17524,6 +18386,7 @@
   },
   "12002562": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 310,
@@ -17569,6 +18432,7 @@
   },
   "12002563": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 328,
@@ -17614,6 +18478,7 @@
   },
   "12002564": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 346,
@@ -17659,6 +18524,7 @@
   },
   "12002565": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 365,
@@ -17704,6 +18570,7 @@
   },
   "11002420": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 112,
@@ -17745,6 +18612,7 @@
   },
   "12002425": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 512,
@@ -17770,6 +18638,7 @@
   },
   "14002430": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -17803,6 +18672,7 @@
   },
   "14002622": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 300,
@@ -17815,6 +18685,7 @@
   },
   "11002587": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 90,
@@ -17848,6 +18719,7 @@
   },
   "11002588": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 95,
@@ -17881,6 +18753,7 @@
   },
   "11002589": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 101,
@@ -17914,6 +18787,7 @@
   },
   "11002590": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 106,
@@ -17947,6 +18821,7 @@
   },
   "11002591": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 112,
@@ -17980,6 +18855,7 @@
   },
   "12002592": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 328,
@@ -18037,6 +18913,7 @@
   },
   "12002593": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 348,
@@ -18094,6 +18971,7 @@
   },
   "12002594": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 369,
@@ -18151,6 +19029,7 @@
   },
   "12002595": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 389,
@@ -18208,6 +19087,7 @@
   },
   "12002596": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 410,
@@ -18265,6 +19145,7 @@
   },
   "11002468": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 78,
@@ -18298,6 +19179,7 @@
   },
   "12002473": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 291,
@@ -18327,6 +19209,7 @@
   },
   "14002478": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -18364,6 +19247,7 @@
   },
   "14002648": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 302,
@@ -18381,6 +19265,7 @@
   },
   "11002638": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 63,
@@ -18414,6 +19299,7 @@
   },
   "11002639": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 66,
@@ -18447,6 +19333,7 @@
   },
   "11002640": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 70,
@@ -18480,6 +19367,7 @@
   },
   "11002641": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 74,
@@ -18513,6 +19401,7 @@
   },
   "11002642": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 78,
@@ -18546,6 +19435,7 @@
   },
   "12002643": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 233,
@@ -18571,6 +19461,7 @@
   },
   "12002644": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 247,
@@ -18596,6 +19487,7 @@
   },
   "12002645": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 262,
@@ -18621,6 +19513,7 @@
   },
   "12002646": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 276,
@@ -18646,6 +19539,7 @@
   },
   "12002647": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 291,
@@ -18671,6 +19565,7 @@
   },
   "11002704": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 73,
@@ -18716,6 +19611,7 @@
   },
   "12002709": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 261,
@@ -18749,6 +19645,7 @@
   },
   "14002504": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -18786,6 +19683,7 @@
   },
   "14002710": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 271,
@@ -18798,6 +19696,7 @@
   },
   "11002490": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 59,
@@ -18831,6 +19730,7 @@
   },
   "11002491": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 62,
@@ -18864,6 +19764,7 @@
   },
   "11002492": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 66,
@@ -18897,6 +19798,7 @@
   },
   "11002493": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 69,
@@ -18930,6 +19832,7 @@
   },
   "11002494": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 73,
@@ -18963,6 +19866,7 @@
   },
   "12002495": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 209,
@@ -18996,6 +19900,7 @@
   },
   "12002496": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 222,
@@ -19029,6 +19934,7 @@
   },
   "12002497": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 235,
@@ -19062,6 +19968,7 @@
   },
   "12002498": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 248,
@@ -19095,6 +20002,7 @@
   },
   "12002499": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 261,
@@ -19128,6 +20036,7 @@
   },
   "11002673": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 61,
@@ -19161,6 +20070,7 @@
   },
   "12002678": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 246,
@@ -19194,6 +20104,7 @@
   },
   "14002520": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 525,
@@ -19223,6 +20134,7 @@
   },
   "14002679": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 256,
@@ -19235,6 +20147,7 @@
   },
   "11002506": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 49,
@@ -19276,6 +20189,7 @@
   },
   "11002507": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 52,
@@ -19317,6 +20231,7 @@
   },
   "11002508": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 55,
@@ -19358,6 +20273,7 @@
   },
   "11002509": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 58,
@@ -19399,6 +20315,7 @@
   },
   "11002510": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 61,
@@ -19440,6 +20357,7 @@
   },
   "12002511": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 197,
@@ -19469,6 +20387,7 @@
   },
   "12002512": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 209,
@@ -19498,6 +20417,7 @@
   },
   "12002513": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 221,
@@ -19527,6 +20447,7 @@
   },
   "12002514": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 233,
@@ -19556,6 +20477,7 @@
   },
   "12002515": {
     "attr": 5,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 246,
@@ -19585,6 +20507,7 @@
   },
   "11003373": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 117,
@@ -19606,6 +20529,7 @@
   },
   "12003378": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 398,
@@ -19635,6 +20559,7 @@
   },
   "14003383": {
     "attr": 8,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -19668,6 +20593,7 @@
   },
   "11003388": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 67,
@@ -19693,6 +20619,7 @@
   },
   "12003393": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 277,
@@ -19746,6 +20673,7 @@
   },
   "14003398": {
     "attr": 7,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,
@@ -19799,6 +20727,7 @@
   },
   "11003149": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 107,
@@ -19824,6 +20753,7 @@
   },
   "12003154": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 387,
@@ -19849,6 +20779,7 @@
   },
   "14003159": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 630,
@@ -19874,6 +20805,7 @@
   },
   "11003179": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 98,
@@ -19895,6 +20827,7 @@
   },
   "12003184": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 313,
@@ -19932,6 +20865,7 @@
   },
   "14003189": {
     "attr": 2,
+    "roles": [],
     "target_type": 3,
     "power_type": 2,
     "power": 563,

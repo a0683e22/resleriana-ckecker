@@ -18905,6 +18905,28 @@
     "start_at": "2026-06-23"
   },
   {
+    "recipe_id": 866,
+    "name": "ディメンションゲート",
+    "gift_colors": [
+      5,
+      1,
+      3
+    ],
+    "materials": [
+      {
+        "id": 45203,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1441,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-06-23"
+  },
+  {
     "recipe_id": 10037,
     "name": "カノンボール",
     "target_id": 2,

@@ -6182,5 +6182,21 @@
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0805_S.webp",
     "equipment_tool_trait_ids": [66, 68]
+  },
+  {
+    "id": 1441,
+    "name": "天空の薬祖",
+    "rarity": "SR",
+    "trait_color_id": 2,
+    "image": "images/ingredient/Ingredient_0806_S.webp",
+    "battle_tool_trait_ids": [20, 51]
+  },
+  {
+    "id": 1442,
+    "name": "奇想天外",
+    "rarity": "SSR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0807_S.webp",
+    "equipment_tool_trait_ids": [48, 41]
   }
 ]

@@ -1,5 +1,18 @@
 [
   {
+    "id": 197,
+    "base_character_id": 45203,
+    "attr": "風",
+    "name": { "zh": "阿爾比娜【Beyond Dimension】", "jp": "アルビーナ【Beyond Dimension】", "en": "Alvina【Beyond Dimension】"},
+    "date": "2026-06-26",
+    "職種": "支援者",
+    "passive_ids": [1990551, 1990552],
+    "tag_ids": [34, 13, 24, 42],
+    "equip": 105,
+    "tool": [8, 44],
+    "leader_skill": { "name": "アルビちゃんの新境地", "description": "得意属性が風属性のキャラは「先駆け」と「魔攻+35%」"}
+  },
+  {
     "id": 196,
     "base_character_id": 46901,
     "attr": "火",

@@ -11426,5 +11426,19 @@
       }
     ],
     "ability": "自身がゼロ【九偉人 No.2】の時、WAVE開始時、自身に「魔攻+80％」を2回行動終了するまで付与"
+  },
+  {
+    "id": 1272,
+    "name": "ディメンションゲート",
+    "rarity": "SSR",
+    "slot_type": "Weapon",
+    "image": "images/equip/equipment_tool_0708_S.webp",
+    "status": [
+      {
+        "type": "matk",
+        "value": 150
+      }
+    ],
+    "ability": "自身がアルビーナ【Beyond Dimension】の時、アタッカーへ与える強化効果量+25%"
   }
 ]

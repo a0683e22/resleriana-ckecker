@@ -10433,6 +10433,120 @@
     ],
     "attr": []
   },
+  "30237": {
+    "name": "決意の翼",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31088
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31020
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31068
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31068
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31108
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31108
+      }
+    ],
+    "description": {
+      "jp": "得意属性が風属性かつサポーターの時、与える強化効果量+6.00 / 20.00 /33.00 / 47.00 / 60.00%<br>「商人」の時、与えるHP回復量+4.00 / 13.00 / 22.00 / 31.00 / 40.00%",
+      "zh": "得意屬性風屬性支援者時，賦予的強化效果量+6.00 / 20.00 /33.00 / 47.00 / 60.00%<br>「商人」時，賦予的HP回復量+4.00 / 13.00 / 22.00 / 31.00 / 40.00%",
+      "en": "While equipped to a Supporter with Wind affinity, boosts potency of buff effects given by 6.00 / 20.00 /33.00 / 47.00 / 60.00%<br>While equipped to Merchant character, boosts HP recovery given by 4.00 / 13.00 / 22.00 / 31.00 / 40.00％"
+    },
+    "roles": [
+      4
+    ],
+    "attr": [8]
+  },
+  "30238": {
+    "name": "真実を求めて",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31058
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31050
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31108
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31108
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31068
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31068
+      }
+    ],
+    "description": {
+      "jp": "自身がアタッカーの時、自身の手番で発動する戦闘アイテムダメージ+25.00 / 81.00 / 138.00 / 194.00 / 250.00%",
+      "zh": "自身攻擊者時，在自身回合中發動的戰鬥道具傷害+25.00 / 81.00 / 138.00 / 194.00 / 250.00%",
+      "en": "While equipped to an Attacker, boosts own item damage by 25.00 / 81.00 / 138.00 / 194.00 / 250.00%"
+    },
+    "roles": [
+      1
+    ],
+    "attr": []
+  },
+  "30239": {
+    "name": "アルビちゃんキーック！",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31038
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31070
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31118
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31118
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31058
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31058
+      }
+    ],
+    "description": {
+      "jp": "自身がアタッカーの時、自身の手番で発動するアトリエ砲ダメージ+50.00 / 163.00 / 275.00 / 388.00 / 500.00%",
+      "zh": "自身攻擊者時，在自身回合中發動的工房砲傷害+50.00 / 163.00 / 275.00 / 388.00 / 500.00%",
+      "en": "While equipped to an Attacker, boosts own Atelier Canon damage by 50.00 / 163.00 / 275.00 / 388.00 / 500.00%"
+    },
+    "roles": [
+      1
+    ],
+    "attr": []
+  },
 "99999": {
   "name": "創世の光石",
   "stats": [

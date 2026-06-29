@@ -3300,7 +3300,7 @@
     "description": {
       "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パネル獲得時、自身のバーストゲージを25％増加し、自身に「クリティカルダメージ+60％」を1回行動終了するまで付与",
       "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>獲得面板時，自身的爆發量條+25%，賦予自身「暴擊傷害+60%」直到1次行動結束為止",
-      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br>When acquiring a panel, increases self's Burst Gauge by 25%,  grants self \"Critical Damage +60%\" until the end of 1 action"
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br><br>When acquiring a panel, increases self's Burst Gauge by 25%,  grants self \"Critical Damage +60%\" until the end of 1 action"
     }
   },
   "1990560": {
@@ -3309,6 +3309,22 @@
       "jp": "攻撃対象がブレイク状態の時、クリティカル確率+100%<br>スキル発動前に状態異常が付与されている対象を攻撃時、スキルダメージ+100%<br><br>パーティに自身以外の「九偉人」がいる時、基礎魔攻+250<br><br>「冥き追憶」タグを持つキャラ数に応じ、スキル威力+20～100%(1～5人で多いほど増加)",
       "zh": "攻擊對象破防狀態時，暴擊率+100%<br>技能發動前，攻擊已受到異常狀態的目標時，技能傷害+100%<br><br>隊伍中存在自身以外的「九偉人」隊員時，基礎魔攻+250<br><br>依據持有「冥き追憶」標籤的角色數量，技能威力+20～100%(1～5人時越多人增加越多)",
       "en": "When attacking a target in Break state, Critical Rate+100%<br>After attacking a target inflicted with a status ailment before using a skill, Skill Damage +100%<br><br>When there is another \"九偉人\" in the party, Base M.ATK +250<br><br>Based on the number of characters with the \"冥き追憶\" tag, grants self \"Skill Power+20~100%\" (increases more with 1~5 characters)"
+    }
+  },
+  "1990551": {
+    "name": "この力で証明してみせる！",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>スキル発動後、自身のバーストゲージを15%増加し、味方全員のHPを15%回復<br>パーティの誰かがクリティカル攻撃後、自身のバーストゲージを10%増加",
+      "zh": "自身的爆發技能量條化<br>※爆發量條可儲存3圈<br><br>技能發動後，自身爆發量條+15%，我方全員HP回復15%<br>隊伍中有人造成暴擊攻擊後，自身的爆發量條+10%",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br><br>After using a skill, increases self's Burst Gauge by 15% and restores 15% HP to all allies<br>After a party member lands a Critical Attack, increases self Burst Gauge by 10%"
+    }
+  },
+  "1990552": {
+    "name": "勝利へご案内！",
+    "description": {
+      "jp": "「アルケミカルゾーン」、「ヒロイックリブート」、「アセンダンス」発動後、味方全員に「クリティカルダメージ+40%」(上限200%)と「クリティカル確率+50%」(上限250%)を付与<br><br>バトル開始時、「約束と協力」タグを持つキャラ数に応じ、味方全員に以下の追加効果を付与(1～2人で多いほど増加)<br>追加効果：「自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限100～200%)」",
+      "zh": "技能2、爆發技能、額外技能發動後，賦予我方全員「暴擊傷害+40%」(上限200%) 且「暴擊率+50%」(上限250%)<br>戰鬥開始時，依據持有「約束と協力」標籤的角色數量，賦予我方全員以下追加效果(1~2人時越多人增加越多)<br>追加效果：「自身暴擊率超過100%時，攻擊時會將超過100%的暴擊率提升量轉換為暴擊傷害提升(轉換上限100~200%)",
+      "en": "After using skill2 or burst or ex skill , grants all allies \"Critical DMG +40%\"(Max 200%) and \"Critical Rate+50%\" (Max 250%)<br>At battle start, Based on the number of characters with the \"約束と協力\" tag, grants the following additional effect to all allies (increases more with 1~2 characters)<br>Additional Effect: \"When self Critical Rate exceeds 100%, converts the amount exceeding 100% into Critical Damage when attacking\"conversion cap:  100~200%"
     }
   }
 }
