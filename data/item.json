@@ -6198,5 +6198,45 @@
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0807_S.webp",
     "equipment_tool_trait_ids": [48, 41]
+  },
+  {
+    "id": 1446,
+    "name": "炭うに",
+    "rarity": "SSR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0812_S.webp",
+    "equipment_tool_trait_ids": [55, 59]
+  },
+  {
+    "id": 1447,
+    "name": "黒うに",
+    "rarity": "SSR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0813_S.webp",
+    "equipment_tool_trait_ids": [55, 59]
+  },
+  {
+    "id": 1448,
+    "name": "暗黒大王うに",
+    "rarity": "SSR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0814_S.webp",
+    "equipment_tool_trait_ids": [55, 59]
+  },
+  {
+    "id": 1449,
+    "name": "シブノキの種",
+    "rarity": "SR",
+    "trait_color_id": 2,
+    "image": "images/ingredient/Ingredient_0808_S.webp",
+    "battle_tool_trait_ids": [8, 50]
+  },
+  {
+    "id": 1450,
+    "name": "剣先アロエ",
+    "rarity": "SSR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0809_S.webp",
+    "equipment_tool_trait_ids": [61, 73]
   }
 ]

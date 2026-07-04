@@ -2093,5 +2093,31 @@
     "power": 15,
     "power_types": [3],
     "show_percent": [1]
+  },
+  {
+    "id": 1028,
+    "attack_attributes": null,
+    "name": "シェルバニブレッド",
+    "rarity": "SSR",
+    "usage_count": 3,
+    "trait_filter_ids": 4,
+    "image": "images/battle/battle_tool_0180_S.webp",
+    "effect": "味方全員のHPを5%回復<br>回復後、味方全員に「ターン開始時HP5%回復」2つをそれぞれ2回行動開始するまで付与",
+    "power": 15,
+    "power_types": [3],
+    "show_percent": [1]
+  },
+  {
+    "id": 1030,
+    "attack_attributes": null,
+    "name": "古の獣の護符",
+    "rarity": "SSR",
+    "usage_count": 2,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0181_S.webp",
+    "effect": "敵全体に「スキル2から受けるダメージ+70％」を2回攻撃を受けるまで付与(重複不可)",
+    "power": 0,
+    "power_types": [],
+    "show_percent": []
   }
 ]

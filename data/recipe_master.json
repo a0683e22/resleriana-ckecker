@@ -18924,7 +18924,97 @@
         "type": 5
       }
     ],
-    "start_at": "2026-06-23"
+    "start_at": "2026-06-26"
+  },
+  {
+    "recipe_id": 867,
+    "name": "ドラグーンメイル",
+    "gift_colors": [
+      4,
+      3,
+      5
+    ],
+    "materials": [
+      {
+        "id": 559,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-07-03"
+  },
+  {
+    "recipe_id": 868,
+    "name": "竜鱗のチャーム",
+    "gift_colors": [
+      5,
+      1,
+      4
+    ],
+    "materials": [
+      {
+        "id": 557,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-07-03"
+  },
+  {
+    "recipe_id": 869,
+    "name": "フルギダ",
+    "gift_colors": [
+      4,
+      2,
+      1
+    ],
+    "materials": [
+      {
+        "id": 47001,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1449,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-07-03"
+  },
+  {
+    "recipe_id": 870,
+    "name": "シェルバニブレッド",
+    "gift_colors": [
+      3,
+      4,
+      5
+    ],
+    "materials": [
+      {
+        "id": 1449,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-07-03"
+  },
+  {
+    "recipe_id": 871,
+    "name": "古の獣の護符",
+    "gift_colors": [
+      2,
+      5,
+      3
+    ],
+    "materials": [
+      {
+        "id": 1449,
+        "quantity": 20,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-07-03"
   },
   {
     "recipe_id": 10037,
@@ -19037,5 +19127,19 @@
       }
     ],
     "start_at": "2026-05-22"
+  },
+  {
+    "recipe_id": 10045,
+    "name": "デスウニ",
+    "target_id": 8,
+    "gift_colors": [],
+    "materials": [
+      {
+        "id": 1446,
+        "quantity": 1,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-07-03"
   }
 ]

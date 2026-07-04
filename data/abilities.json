@@ -3326,5 +3326,21 @@
       "zh": "技能2、爆發技能、額外技能發動後，賦予我方全員「暴擊傷害+40%」(上限200%) 且「暴擊率+50%」(上限250%)<br>戰鬥開始時，依據持有「約束と協力」標籤的角色數量，賦予我方全員以下追加效果(1~2人時越多人增加越多)<br>追加效果：「自身暴擊率超過100%時，攻擊時會將超過100%的暴擊率提升量轉換為暴擊傷害提升(轉換上限100~200%)",
       "en": "After using skill2 or burst or ex skill , grants all allies \"Critical DMG +40%\"(Max 200%) and \"Critical Rate+50%\" (Max 250%)<br>At battle start, Based on the number of characters with the \"約束と協力\" tag, grants the following additional effect to all allies (increases more with 1~2 characters)<br>Additional Effect: \"When self Critical Rate exceeds 100%, converts the amount exceeding 100% into Critical Damage when attacking\"conversion cap:  100~200%"
     }
+  },
+  "1990553": {
+    "name": "お母さんに任せなさい！",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>クリティカル攻撃後、自身のバーストゲージを{0}%増加<br>スキルで撃破時、自身のバーストゲージを{1}%増加",
+      "zh": "自身爆發技能量條化 ※爆發量條可儲存3圈<br>暴擊攻擊後，自身爆發量條增加35%<br>技能擊破時，自身爆發量條增加100%",
+      "en": "Adds a burst gauge to burst skill (Can stock up to 3 burst)<br>After making a critical attack, increases the burst gauge by 35%<br>When defeating enemy with a skill, increases the burst gauge by 100%"
+    }
+  },
+  "1990554": {
+    "name": "これが「閃光」の力よ！",
+    "description": {
+      "jp": "WAVE開始時、自身に「クリティカル確率+100%」を2回行動終了するまで付与<br><br>クリティカル攻撃後、自身に「リヒトルーメン」が付与されていない時、「リヒトルーメン(Lv1)」を付与<br>既に付与されている時、「リヒトルーメン」のLv+1(上限Lv10)<br>「リヒトルーメン」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきクリティカル確率+25%とクリティカルダメージ+10%<br>Lv3以上：クリティカルダメージ+50%<br>Lv5以上：クリティカルダメージ+50%<br>Lv7以上：クリティカル確率+50%<br>Lv10：自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をスキル威力に変換(変換上限300%)",
+      "zh": "Wave開始時，賦予自身「暴擊率+100%」直到2次行動結束為止<br>暴擊攻擊後，當自身未持有「リヒトルーメン」時，賦予「リヒトルーメン(Lv1)」<br>已持有時，「リヒトルーメン」的Lv+1(上限Lv10)<br>將根據「リヒトルーメン」的Lv，分別獲得以下獎勵<br>每LV1暴擊率+25%且暴擊傷害+10%<br>Lv3以上：暴擊傷害+50%<br>Lv5以上：暴擊傷害+50%<br>Lv7以上：暴擊率+50%<br>Lv10：當自身暴擊機率超過100%時，攻擊時將超過100%的暴擊機率提升量轉換為技能威力提升(變換上限300%)",
+      "en": "At the start of a WAVE, grants self \"Crit Rate +100%\" until the end of 2 actions<br>After a critical hit, 「リヒトルーメン」 is not active, grants 「リヒトルーメン(Lv1)」<br>If already granted, increases 「リヒトルーメン」's Lv1 (Max Lv10)<br>receive the following bonuses according to your \"リヒトルーメン\" level<br>Critical Rate +25% and Critical Damage+10% per level<br>Lv3: Critical Damage +50%<br>Lv5: Critical Damage +50%<br>Lv7: Critical Rate +50%<br>Lv10: When critical rate is above 100%, when attacking, boosts Skill Power by amount exceeded. (Max 300%)"
+    }
   }
 }

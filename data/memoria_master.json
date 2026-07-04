@@ -10547,6 +10547,44 @@
     ],
     "attr": []
   },
+  "30240": {
+    "name": "お母さんに任せて！",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31088
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31020
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31078
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31138
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31068
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31068
+      }
+    ],
+    "description": {
+      "jp": "得意属性が風属性かつアタッカーの時、クリティカル攻撃後、自身に「スキルダメージ+7.00 / 23.00 / 39.00 / 54.00 /  70.00%」を2回行動終了するまで付与<br>「約束と協力」の時、クリティカル確率+10.00 / 20.00 / 30.00 / 40.00 / 50.00%",
+      "zh": "得意屬性風屬性攻擊者時，暴擊攻擊後，賦予自身「技能傷害+7.00 / 23.00 / 39.00 / 54.00 /  70.00%」直到2次行動結束為止<br>「約定與合作」時，暴擊率+10.00 / 20.00 / 30.00 / 40.00 / 50.00%",
+      "en": "While equipped to an Attacker with Wind affinity, grants self \"Skill Damage +7.00 / 23.00 / 39.00 / 54.00 /  70.00%\" for 2 turns<br>While equipped to a \"Promise & Teamwork\", boosts critical rate by 10.00 / 20.00 / 30.00 / 40.00 / 50.00%"
+    },
+    "roles": [
+      1
+    ],
+    "attr": []
+  },
 "99999": {
   "name": "創世の光石",
   "stats": [

@@ -1,5 +1,18 @@
 [
   {
+    "id": 198,
+    "base_character_id": 47001,
+    "attr": "風",
+    "name": { "zh": "梅薇【Beyond Dimension】", "jp": "メーヴェ【Beyond Dimension】", "en": "Mowen【Beyond Dimension】"},
+    "date": "2026-07-03",
+    "職種": "攻擊者",
+    "passive_ids": [1990553, 1990554],
+    "tag_ids": [7, 9, 18, 29, 42],
+    "equip": 106,
+    "tool": [5, 49],
+    "leader_skill": { "name": "愛する夫を探して", "description": "「冒険」は「基礎物攻・基礎魔攻+300」"}
+  },
+  {
     "id": 197,
     "base_character_id": 45203,
     "attr": "風",

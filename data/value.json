@@ -15212,7 +15212,7 @@
     "power": 0,
     "break_power": 0,
     "break_type": 1,
-    "wait": -200,
+    "wait": 0,
     "limit_count": null,
     "require_command": false,
     "effects": [
@@ -17541,6 +17541,138 @@
       {
         "id": 91002335,
         "value": 25000
+      }
+    ]
+  },
+  "11003832": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 123,
+    "break_power": 7,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002290,
+        "value": 2000
+      },
+      {
+        "id": 91002291,
+        "value": 2000
+      }
+    ]
+  },
+  "12003837": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 418,
+    "break_power": 33,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001376,
+        "value": 6000
+      },
+      {
+        "id": 91001528,
+        "value": 6000
+      },
+      {
+        "id": 91002293,
+        "value": 0
+      },
+      {
+        "id": 91002296,
+        "value": 5000
+      },
+      {
+        "id": 91002292,
+        "value": 10000
+      },
+      {
+        "id": 6001303,
+        "value": 0
+      }
+    ]
+  },
+  "14003842": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 720,
+    "break_power": 93,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001376,
+        "value": 12000
+      },
+      {
+        "id": 91002188,
+        "value": 20000
+      },
+      {
+        "id": 91002294,
+        "value": 0
+      },
+      {
+        "id": 91002296,
+        "value": 5000
+      },
+      {
+        "id": 91002292,
+        "value": 10000
+      },
+      {
+        "id": 6001303,
+        "value": 0
+      }
+    ]
+  },
+  "14003845": {
+    "attr": 8,
+    "roles": [],
+    "target_type": 1,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": 2,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002194,
+        "value": 6000
+      },
+      {
+        "id": 91001357,
+        "value": 2000
+      },
+      {
+        "id": 91002297,
+        "value": 20000
+      },
+      {
+        "id": 91002295,
+        "value": 0
+      },
+      {
+        "id": 6001303,
+        "value": 0
       }
     ]
   },

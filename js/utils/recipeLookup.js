@@ -13,6 +13,7 @@ export const CANNON_IMAGE_MAP = {
     10042: 'images/bomb/bomb_tool_0006_S.webp',
     10043: 'images/bomb/bomb_tool_0019_S.webp',
     10044: 'images/bomb/bomb_tool_0022_S.webp',
+    10045: 'images/bomb/bomb_tool_0025_S.webp',
 };
 
 

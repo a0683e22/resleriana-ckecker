@@ -1,4 +1,55 @@
 ﻿{
+  "198": {
+    "skill1": {
+      "skill_id": 11003832,
+      "name": "クリムゾンシャイン",
+      "jp": "攻撃後、自身に「魔攻+{0}%」と「スキルダメージ+{1}%」を付与(全て上限40%)",
+      "zh": "攻擊後，賦予自身「魔攻+{0}%」與「技能傷害+{1}%」(全部上限40%)",
+      "en": "After attacking, grants self  \"M.ATK +{0}%\" and \"Skill Damage+{1}%\"  (all up to 40%) "
+    },
+    "skill2": {
+      "skill_id": 12003837,
+      "name": "アルケミカルゾーン",
+      "jp": "自身のHPに応じ、クリティカルダメージ+100～150%(HP20～100%で多いほど増加)<br>攻撃後、自身に「魔攻+{0}%」と「クリティカルダメージ+{1}%」を2回行動終了するまで付与<br>自身に「リヒトルーメン」が付与されていない時、「リヒトルーメン(Lv1)」を付与<br>既に付与されている時、「リヒトルーメン」のLv+1(上限Lv10)",
+      "zh": "自身HP對應，暴擊傷害+100～150%(HP20～100%越多增加越多)<br>攻擊後，賦予自身「魔攻+{0}%」與「暴擊傷害+{1}%」直到2次行動結束為止<br>當自身未持有「リヒトルーメン」時，賦予「リヒトルーメン(Lv1)」<br>已持有時，「リヒトルーメン」的Lv+1(上限Lv10)",
+      "en": "Increases Critical Damage by 100~150% based on own HP (higher at 20~100% HP)<br>After attacking, grants self  \"M.ATK +{0}%\" and \"Critical Damage+{1}%\" until the end of 2 actions<br>「リヒトルーメン」 is not active, grants 「リヒトルーメン(Lv1)」<br>If already granted, increases 「リヒトルーメン」's Lv1 (Max Lv10)"
+    },
+    "burst": {
+      "skill_id": 14003842,
+      "name": "フェイタルブロー",
+      "jp": "自身のHPに応じ、クリティカルダメージ+100～150%(HP20～100%で多いほど増加)<br>攻撃後、自身に「魔攻+{0}%」と「貫通力+{1}」を2回行動終了するまで付与<br>自身に「リヒトルーメン」が付与されていない時、「リヒトルーメン(Lv2)」を付与<br>既に付与されている時、「リヒトルーメン」のLv+2(上限Lv10)",
+      "zh": "自身HP對應，暴擊傷害+100～150%(HP20～100%越多增加越多)<br>攻擊後，賦予自身「魔攻+{0}%」與「貫通力+{1}」直到2次行動結束為止<br>當自身未持有「リヒトルーメン」時，賦予「リヒトルーメン(Lv2)」<br>已持有時，「リヒトルーメン」的Lv+2(上限Lv10)",
+      "en": "Increases Critical Damage by 100~150% based on own HP (higher at 20~100% HP)<br>After attacking, grants self  \"M.ATK +{0}%\" and \"Penetration +{1}\" until the end of 2 actions<br>「リヒトルーメン」 is not active, grants 「リヒトルーメン(Lv2)」<br>If already granted, increases 「リヒトルーメン」's Lv2 (Max Lv10)"
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "active_skill1": {
+      "skill_id": 14003845,
+      "name": "バーストリチャージ",
+      "jp": "自身のバーストゲージを{0}%増加(発動上限2回)<br>自身に「ターン開始時、HP回復+{1}%」を2回行動開始するまで付与し、<br>自身に以下の追加効果を1回行動終了するまで付与<br>追加効果：「自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をスキル威力に変換(変換上限{2}%)」<br>「リヒトルーメン」が付与されていない時、「リヒトルーメン(Lv5)」を付与<br>既に付与されている時、「リヒトルーメン」のLv+5(上限Lv10)",
+      "zh": "自身的爆發量條增加{0}%(發動上限2回0)<br>賦予自身「回合開始時，HP回復+{1}%」直到2次行動開始為止<br>賦予自身以下追加效果1次行動結束為止<br>追加効果：「當自身暴擊機率超過100%時，攻擊時將超過100%的暴擊機率提升量轉換為暴擊傷害提升(變換上限{2}%)」<br>當自身未持有「リヒトルーメン」時，賦予「リヒトルーメン(Lv5)」<br>已持有時，「リヒトルーメン」的Lv+5(上限Lv10)",
+      "en": "Increases own burst gauge by {0}%(MAX 2)<br>Grants self \"Turn Start: HP Recovery +{1}%\" until 2 actions start<br>Grants self the following additional effect  for 1 turn<br>Additional Effect :  When critical rate is above 100%, when attacking, boosts critical damage by amount exceeded. (MAX {2}%) <br>「リヒトルーメン」 is not active, grants 「リヒトルーメン(Lv5)」<br>If already granted, increases 「リヒトルーメン」's Lv5 (Max Lv10)"
+    }
+  },
   "197": {
     "skill1": {
       "skill_id": 11003817,
@@ -18,7 +69,7 @@
       "skill_id": 14003827,
       "name": "フェイタルブロー",
       "jp": "対象のマイナス効果と状態異常を解除<br>自身に「特殊カウンター[ex:14003843]アセンダンス[/ex])」を1回特殊カウンターするまで付与(重複不可)<br>得意属性が風属性の味方全員に「クリティカルダメージ+{0}%」と「魔攻+{1}%」を3回行動終了するまで付与し、<br>「クリティカル確率+{2}%」を付与(上限200%)<br>アタッカーの味方全員に以下の追加効果を1回行動終了するまで付与<br>追加効果：「自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をクリティカルダメージアップに変換(変換上限300%)」<br><br>※特殊カウンターは、パーティの誰かが敵のスキル対象になった時、そのスキルを無効化し、「特殊カウンター[ex:14003843]アセンダンス[/ex])」を発動",
-      "zh": "解除對象的負面效果與狀態異常<br>賦予自身「特殊反擊[ex:14003843]アセンダンス[/ex])」直至1次特殊反擊為止，此攻擊(重複不可)<br>得意屬性風屬性的我方全員「暴擊傷害+{0}%」與「魔攻+{1}%」直到3次行動結束為止，賦予「暴擊率+{2}%」(上限200%)<br>賦予我方全攻擊者以下追加效果直到1次行動結束為止<br>追加效果：「當自身暴擊機率超過100%時，攻擊時將超過100%的暴擊機率提升量轉換為暴擊傷害提升(變換上限300%)」<br><br>※當隊伍中的某位成員成為敵方技能的目標時，特殊反擊會使該技能失效，然後發動特殊反擊[ex:14003843]アセンダンス[/ex])",
+      "zh": "解除對象的負面效果與狀態異常<br>賦予自身「特殊反擊[ex:14003843]アセンダンス[/ex])」直至1次特殊反擊為止(重複不可)<br>得意屬性風屬性的我方全員「暴擊傷害+{0}%」與「魔攻+{1}%」直到3次行動結束為止，賦予「暴擊率+{2}%」(上限200%)<br>賦予我方全攻擊者以下追加效果直到1次行動結束為止<br>追加效果：「當自身暴擊機率超過100%時，攻擊時將超過100%的暴擊機率提升量轉換為暴擊傷害提升(變換上限300%)」<br><br>※當隊伍中的某位成員成為敵方技能的目標時，特殊反擊會使該技能失效，然後發動特殊反擊[ex:14003843]アセンダンス[/ex])",
       "en": "Removes target's negative & status effects and gain 1 use of Special Counter [ex:14003843]アセンダンス[/ex]) (Cannot be Stacked)<br>Boosts Wind affinity characters' C0ritical Damage+{0}% and M. ATK By {2}% for 3 turns and critical rate by {2}% (Max 200%)<br>Grants Attacker allies' the following additional effect  for 1 turn<br>Additional effect :  When critical rate is above 100%, when attacking, boosts critical damage by amount exceeded. (MAX 300%)<br><br>※A special counter nullifies an enemy’s skill when a member of the party becomes the target of that skill, and trigger \"Special Counterattack [ex:14003843]アセンダンス[/ex])\""
     },
     "ev_skill1": {

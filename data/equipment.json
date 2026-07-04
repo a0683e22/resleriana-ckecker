@@ -11440,5 +11440,55 @@
       }
     ],
     "ability": "自身がアルビーナ【Beyond Dimension】の時、アタッカーへ与える強化効果量+25%"
+  },
+  {
+    "id": 1273,
+    "name": "フルギダ",
+    "rarity": "SSR",
+    "slot_type": "Weapon",
+    "image": "images/equip/equipment_tool_0709_S.webp",
+    "status": [
+      {
+        "type": "matk",
+        "value": 200
+      }
+    ],
+    "ability": "自身がメーヴェ【The Flash Adventurer】の時、付与する「リヒトルーメン」のLv+1<br>「リヒトルーメン」1Lvにつき貫通力+15<br>「リヒトルーメン」がLv10の時、スキルダメージ+25％"
+  },
+  {
+    "id": 1274,
+    "name": "ドラグーンメイル",
+    "rarity": "SSR",
+    "slot_type": "Armor",
+    "image": "images/equip/equipment_tool_0710_S.webp",
+    "status": [
+      {
+        "type": "pdef",
+        "value": 100
+      },
+      {
+        "type": "mdef",
+        "value": 100
+      }
+    ],
+    "ability": "自身の手番で与える戦闘アイテムクリティカルダメージ+100%"
+  },
+  {
+    "id": 1276,
+    "name": "竜鱗のチャーム",
+    "rarity": "SSR",
+    "slot_type": "Accessory",
+    "image": "images/equip/equipment_tool_0712_S.webp",
+    "status": [
+      {
+        "type": "hp",
+        "value": 360
+      },
+      {
+        "type": "speed",
+        "value": 4
+      }
+    ],
+    "ability": "自身の手番で与えるアトリエ砲クリティカルダメージ+150%"
   }
 ]
