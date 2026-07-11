@@ -1,5 +1,18 @@
 [
   {
+    "id": 199,
+    "base_character_id": 47101,
+    "attr": "火",
+    "name": { "zh": "赫爾特【九偉人 No.1】", "jp": "ヘルト【九偉人 No.1】", "en": "Held【九偉人 No.1】"},
+    "date": "2026-07-13",
+    "職種": "破防者",
+    "passive_ids": [1990561, 1990562],
+    "tag_ids": [37, 38, 16, 22],
+    "equip": 115,
+    "tool": [50, 18],
+    "leader_skill": { "name": "原点にして頂点", "description": "「冥き追憶」は「先駆け」と「スキル威力+50%」"}
+  },
+  {
     "id": 198,
     "base_character_id": 47001,
     "attr": "風",

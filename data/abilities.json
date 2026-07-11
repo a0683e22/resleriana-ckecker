@@ -3330,17 +3330,33 @@
   "1990553": {
     "name": "お母さんに任せなさい！",
     "description": {
-      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>クリティカル攻撃後、自身のバーストゲージを{0}%増加<br>スキルで撃破時、自身のバーストゲージを{1}%増加",
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>クリティカル攻撃後、自身のバーストゲージを35%増加<br>スキルで撃破時、自身のバーストゲージを100%増加",
       "zh": "自身爆發技能量條化 ※爆發量條可儲存3圈<br>暴擊攻擊後，自身爆發量條增加35%<br>技能擊破時，自身爆發量條增加100%",
-      "en": "Adds a burst gauge to burst skill (Can stock up to 3 burst)<br>After making a critical attack, increases the burst gauge by 35%<br>When defeating enemy with a skill, increases the burst gauge by 100%"
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds)<br>After making a critical attack, increases the burst gauge by 35%<br>When defeating enemy with a skill, increases the burst gauge by 100%"
     }
   },
   "1990554": {
     "name": "これが「閃光」の力よ！",
     "description": {
       "jp": "WAVE開始時、自身に「クリティカル確率+100%」を2回行動終了するまで付与<br><br>クリティカル攻撃後、自身に「リヒトルーメン」が付与されていない時、「リヒトルーメン(Lv1)」を付与<br>既に付与されている時、「リヒトルーメン」のLv+1(上限Lv10)<br>「リヒトルーメン」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきクリティカル確率+25%とクリティカルダメージ+10%<br>Lv3以上：クリティカルダメージ+50%<br>Lv5以上：クリティカルダメージ+50%<br>Lv7以上：クリティカル確率+50%<br>Lv10：自身のクリティカル確率が100%を超えている場合、攻撃時、100%を超えたクリティカル確率の上昇量をスキル威力に変換(変換上限300%)",
-      "zh": "Wave開始時，賦予自身「暴擊率+100%」直到2次行動結束為止<br>暴擊攻擊後，當自身未持有「リヒトルーメン」時，賦予「リヒトルーメン(Lv1)」<br>已持有時，「リヒトルーメン」的Lv+1(上限Lv10)<br>將根據「リヒトルーメン」的Lv，分別獲得以下獎勵<br>每LV1暴擊率+25%且暴擊傷害+10%<br>Lv3以上：暴擊傷害+50%<br>Lv5以上：暴擊傷害+50%<br>Lv7以上：暴擊率+50%<br>Lv10：當自身暴擊機率超過100%時，攻擊時將超過100%的暴擊機率提升量轉換為技能威力提升(變換上限300%)",
+      "zh": "WAVE開始時，賦予自身「暴擊率+100%」直到2次行動結束為止<br>暴擊攻擊後，當自身未持有「リヒトルーメン」時，賦予「リヒトルーメン(Lv1)」<br>已持有時，「リヒトルーメン」的Lv+1(上限Lv10)<br>將根據「リヒトルーメン」的Lv，分別獲得以下獎勵<br>每LV1暴擊率+25%且暴擊傷害+10%<br>Lv3以上：暴擊傷害+50%<br>Lv5以上：暴擊傷害+50%<br>Lv7以上：暴擊率+50%<br>Lv10：當自身暴擊機率超過100%時，攻擊時將超過100%的暴擊機率提升量轉換為技能威力提升(變換上限300%)",
       "en": "At the start of a WAVE, grants self \"Crit Rate +100%\" until the end of 2 actions<br>After a critical hit, 「リヒトルーメン」 is not active, grants 「リヒトルーメン(Lv1)」<br>If already granted, increases 「リヒトルーメン」's Lv1 (Max Lv10)<br>receive the following bonuses according to your \"リヒトルーメン\" level<br>Critical Rate +25% and Critical Damage+10% per level<br>Lv3: Critical Damage +50%<br>Lv5: Critical Damage +50%<br>Lv7: Critical Rate +50%<br>Lv10: When critical rate is above 100%, when attacking, boosts Skill Power by amount exceeded. (Max 300%)"
+    }
+  },
+  "1990561": {
+    "name": "九偉人の力-Ⅰ-",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>攻撃対象が小ブレイクまたはブレイク時、自身のバーストゲージを50％増加し、対象に「受ける物理攻撃ダメージ+50％」と「受ける魔法攻撃ダメージ+50％」を2回攻撃を受けるまで付与<br>※複数のゲージを同時に0にしても発動は1回",
+      "zh": "自身爆發技能量條化 ※爆發量條可儲存3圈<br>攻擊對象處於微破防或破防狀態時，自身爆發量條增加50%，並賦予對象「受到物理攻擊傷害+50%」與「受到魔法攻擊傷害+50%」直到受2次攻擊為止<br>※即使復數破防量條同時歸零也只會發動一次",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br>When the target is hit by a minor break or a break, increases the burst gauge by 50%, and inflicts \"Physical & Magic Attack Damage Taken +50%\" on the target until hit 2 times<br>※Even if multiple gauges become to zero at the same time, it will only trigger 1 time"
+    }
+  },
+  "1990562": {
+    "name": "支配する冥暗",
+    "description": {
+      "jp": "「冥き追憶」タグを持つキャラ数に応じ、自身が与えるマイナス効果量+10～50％と味方全員の物攻・魔攻+20～100％(1～5人で多いほど増加)<br><br>「冥き追憶」の味方全員は1回目のターン開始時、自身のパネルをバーストパネルに変換(空パネルの時は生成)",
+      "zh": "根據持有「冥き追憶」標籤的角色數量對應，自身賦予的負面效果量+10~50%且我方全員物攻・魔攻+20～100％(1~5人 人數越多增加越多)<br><br>「冥き追憶」的我方全員在第一回合開始時，會將自身的格子轉為爆發面板(空面板時亦會生成)",
+      "en": "Based on the number of characters with the \"冥き追憶\" tag, Negative effect amount dealt by10~50% and increases all allies’ P.ATK and M.ATK by 20–100%  (increases more with 1~5 characters)<br><br>At the start of the first turn, all allies with \"冥き追憶\",  converts self panel into a Burst Panel (generates panels if empty)"
     }
   }
 }

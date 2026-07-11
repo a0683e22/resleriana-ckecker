@@ -19017,6 +19017,28 @@
     "start_at": "2026-07-03"
   },
   {
+    "recipe_id": 872,
+    "name": "万象ヲ統ス英傑ノ槍",
+    "gift_colors": [
+      1,
+      5,
+      2
+    ],
+    "materials": [
+      {
+        "id": 47101,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1451,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-07-13"
+  },
+  {
     "recipe_id": 10037,
     "name": "カノンボール",
     "target_id": 2,

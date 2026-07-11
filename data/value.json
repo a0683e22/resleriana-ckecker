@@ -17676,6 +17676,100 @@
       }
     ]
   },
+  "11003896": {
+    "attr": 5,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 76,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": -50,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002336,
+        "value": 2000
+      },
+      {
+        "id": 91001058,
+        "value": 0
+      }
+    ]
+  },
+  "12003901": {
+    "attr": 5,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 301,
+    "break_power": 310,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002337,
+        "value": 4000
+      },
+      {
+        "id": 91001014,
+        "value": 3500
+      },
+      {
+        "id": 91001135,
+        "value": 6000
+      },
+      {
+        "id": 91001952,
+        "value": 6000
+      },
+      {
+        "id": 91002252,
+        "value": 6000
+      }
+    ]
+  },
+  "14003906": {
+    "attr": 5,
+    "roles": [],
+    "target_type": 5,
+    "power_type": 2,
+    "power": 352,
+    "break_power": 410,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002337,
+        "value": 6000
+      },
+      {
+        "id": 91002338,
+        "value": 5000
+      },
+      {
+        "id": 91001135,
+        "value": 9000
+      },
+      {
+        "id": 91001952,
+        "value": 10000
+      },
+      {
+        "id": 91002252,
+        "value": 10000
+      },
+      {
+        "id": 91002339,
+        "value": 10000
+      }
+    ]
+  },
   "11002390": {
     "attr": 5,
     "roles": [],

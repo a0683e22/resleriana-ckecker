@@ -6238,5 +6238,21 @@
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0809_S.webp",
     "equipment_tool_trait_ids": [61, 73]
+  },
+  {
+    "id": 1451,
+    "name": "闇ホタル",
+    "rarity": "SR",
+    "trait_color_id": 2,
+    "image": "images/ingredient/Ingredient_0810_S.webp",
+    "battle_tool_trait_ids": [25, 5]
+  },
+  {
+    "id": 1452,
+    "name": "マグマストーン",
+    "rarity": "SSR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0811_S.webp",
+    "equipment_tool_trait_ids": [77, 60]
   }
 ]

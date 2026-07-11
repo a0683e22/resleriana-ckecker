@@ -1,4 +1,48 @@
 ﻿{
+  "199": {
+    "skill1": {
+      "skill_id": 11003896,
+      "name": "シレンティウム",
+      "jp": "対象の1つのブレイクゲージを0にする<br>攻撃後、対象に「受けるダメージ+{0}％」を付与(重複不可)",
+      "zh": "對象的1條破防量條歸零<br>攻擊後，賦予對象「受到的傷害+{0}%」(重複不可)",
+      "en": "Reduces 1 of the target's Break Gauges to 0<br>After attacking, boosts target's damage received by {0}% (Cannot be Stacked)"
+    },
+    "skill2": {
+      "skill_id": 12003901,
+      "name": "アケル・ルプトゥラ",
+      "jp": "対象が状態異常時、この攻撃のブレイク威力+{0}%<br>攻撃前、対象に「全属性耐性-{1}％」を2回攻撃を受けるまで付与<br>攻撃後、自身に「ブレイクダメージ+{2}％」を2回行動終了するまで付与し、<br>対象に「受ける物理攻撃ダメージ+{3}％」と「受ける魔法攻撃ダメージ+{4}％」を2回攻撃を受けるまで付与",
+      "zh": "對象狀態異常時，此攻擊的破防威力+{0}%<br>攻擊前，賦予對象「全屬性耐性-{1}%」直到受2次攻擊為止<br>攻擊後，賦予自身「破防傷害+{2}%」直到2次行動為止<br>賦予對象「受到的物理攻擊傷害+{3}%」與「受到的魔法攻擊傷害+{4}%」直到受2次攻擊為止",
+      "en": "When target has a status ailment, increases this attack's Break Power by {0}%<br>Before attacking, grants target \"All Elemental Resistance -{1}%\" for 2 attacks<br>After attacking, grants self \"Break Damage +{2}%\" until the end of 2 actions<br>Grants target \"Physical Damage Taken +{3}%\" and \"Magic Damage Taken +{4}%\" for 2 attacks"
+    },
+    "burst": {
+      "skill_id": 14003906,
+      "name": "メトゥス・アク・モリ",
+      "jp": "対象が状態異常時、この攻撃のブレイク威力+{0}%<br>攻撃前、対象に「全属性耐性-{1}％」を3回攻撃を受けるまで付与<br>攻撃後、自身に「ブレイクダメージ+{2}％」を2回行動終了するまで付与し、<br>対象に「受ける物理攻撃ダメージ+{3}％」と「受ける魔法攻撃ダメージ+{4}％」を2回攻撃を受けるまで付与し、<br>「ハイ・ドミナンス」を1回行動終了するまで付与<br><br>※「ハイ・ドミナンス」は状態異常として扱い、受けるダメージ+{5}％",
+      "zh": "對象狀態異常時，此攻擊的破防威力+{0}%<br>攻擊前，賦予對象「全屬性耐性-{1}%」直到獸2次攻擊為止<br>攻擊後，賦予自身「破防傷害+{2}%」直到2次行動為止<br>賦予對象「受到的物理攻擊傷害+{3}%」與「受到的魔法攻擊傷害+{4}%」直到受2次攻擊為止<br>賦予對象「ハイ・ドミナンス」直到1回行動結束為止<br>※「ハイ・ドミナンス」視為一種異常狀態：受到的傷害+{5}%",
+      "en": "When target has a status ailment, increases this attack's Break Power by {0}%<br>Before attacking, grants target \"All Elemental Resistance -{1}%\" for 2 attacks<br>After attacking, grants self \"Break Damage +{2}%\" until the end of 2 actions<br>Grants target \"Physical Damage Taken +{3}%\" and \"Magic Damage Taken +{4}%\" for 2 attacks<br>Grants target \"ハイ・ドミナンス\" for 1 attack<br>※\"ハイ・ドミナンス\" is treated as a status effect, \"Damage taken +{5}%\""
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    }
+  },
   "198": {
     "skill1": {
       "skill_id": 11003832,

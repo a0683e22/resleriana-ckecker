@@ -3190,7 +3190,7 @@
     ],
     "description": {
       "jp": "バトル開始時、アイテムゲージ回復+5.00 / 10.00 / 15.00 / 20.00 / 30.00%",
-      "zh": "戰鬥開始時，道具量條回復 5.00 / 10.00 / 15.00 / 20.00 / 30.00%",
+      "zh": "戰鬥開始時，道具量條+5.00 / 10.00 / 15.00 / 20.00 / 30.00%",
       "en": "At the start of the battle, restores 5.00 / 10.00 / 15.00 / 20.00 / 30.00% of the item gauge"
     },
     "roles": [],
@@ -10579,6 +10579,44 @@
       "jp": "得意属性が風属性かつアタッカーの時、クリティカル攻撃後、自身に「スキルダメージ+7.00 / 23.00 / 39.00 / 54.00 /  70.00%」を2回行動終了するまで付与<br>「約束と協力」の時、クリティカル確率+10.00 / 20.00 / 30.00 / 40.00 / 50.00%",
       "zh": "得意屬性風屬性攻擊者時，暴擊攻擊後，賦予自身「技能傷害+7.00 / 23.00 / 39.00 / 54.00 /  70.00%」直到2次行動結束為止<br>「約定與合作」時，暴擊率+10.00 / 20.00 / 30.00 / 40.00 / 50.00%",
       "en": "While equipped to an Attacker with Wind affinity, grants self \"Skill Damage +7.00 / 23.00 / 39.00 / 54.00 /  70.00%\" for 2 turns<br>While equipped to a \"Promise & Teamwork\", boosts critical rate by 10.00 / 20.00 / 30.00 / 40.00 / 50.00%"
+    },
+    "roles": [
+      1
+    ],
+    "attr": []
+  },
+  "30241": {
+    "name": "剣のワルツ",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31048
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31037
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31068
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31068
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31068
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31068
+      }
+    ],
+    "description": {
+      "jp": "バトル開始時、アトリエ砲ゲージ+50.00%",
+      "zh": "戰鬥開始時，工房砲量條+50.00%",
+      "en": "At the start of the battle, restores 50.00% of the Atelier Cannon gauge"
     },
     "roles": [
       1
