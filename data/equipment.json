@@ -11326,20 +11326,6 @@
     "ability": "自身がシトリン【九偉人 No.4】の時、味方全員はスキル発動前に状態異常が付与されている敵へ与えるスキル威力+25%"
   },
   {
-    "id": 1263,
-    "name": "魔彩ナル傾国ノ瞳・凶華",
-    "rarity": "SSR",
-    "slot_type": "Weapon",
-    "image": "images/equip/equipment_tool_0701_S.webp",
-    "status": [
-      {
-        "type": "matk",
-        "value": 150
-      }
-    ],
-    "ability": "自身がシトリン【九偉人 No.4】の時、味方全員はスキル発動前に状態異常が付与されている敵へ与えるスキル威力+25%"
-  },
-  {
     "id": 1264,
     "name": "星導きの杖",
     "rarity": "SSR",
