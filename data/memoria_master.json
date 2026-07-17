@@ -10583,7 +10583,7 @@
     "roles": [
       1
     ],
-    "attr": []
+    "attr": [8]
   },
   "30241": {
     "name": "剣のワルツ",
@@ -10618,10 +10618,82 @@
       "zh": "戰鬥開始時，工房砲量條+50.00%",
       "en": "At the start of the battle, restores 50.00% of the Atelier Cannon gauge"
     },
+    "roles": [],
+    "attr": []
+  },
+  "30242": {
+    "name": "スウィートタイム",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31058
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31050
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31128
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31098
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31048
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31048
+      }
+    ],
+    "description": {
+      "jp": "得意属性が斬属性かつアタッカーの時、バーストスキル発動後、自身に「スキルダメージ+15.00 / 49.00 / 83.00 / 116.00 / 150.00％」を1回行動終了するまで付与<br>「お菓子」の時、クリティカルダメージ+5.00 / 16.00 / 28.00 / 39.00 / 50.00％",
+      "zh": "得意屬性斬屬性攻擊者時，爆發技能發動後，賦予自身「技能傷害+15.00 / 49.00 / 83.00 / 116.00 / 150.00％」直到1次行動結束為止<br>「お菓子」時、暴擊傷害+5.00 / 16.00 / 28.00 / 39.00 / 50.00％",
+      "en": "While equipped to an Attacker with Slash affinity, after activating a Burst Skill, boosts skill damage by 15.00 / 49.00 / 83.00 / 116.00 / 150.00％<br>While equipped to a \"Sweets\", increase Critical Damage by 5.00 / 16.00 / 28.00 / 39.00 / 50.00％"
+    },
     "roles": [
       1
     ],
-    "attr": []
+    "attr": [1]
+  },
+  "30243": {
+    "name": "夜の王国へと導く追憶",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31068
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31017
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31078
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31038
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31078
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31078
+      }
+    ],
+    "description": {
+      "jp": "得意属性が斬属性の時、与える強化効果量+36.00%",
+      "zh": "得意屬性斬屬性時，賦予的強化效果量+36.00%",
+      "en": "While equipped to a character with Slash affinity, boosts potency of buffs given by 36.00%"
+    },
+    "roles": [],
+    "attr": [1]
   },
 "99999": {
   "name": "創世の光石",

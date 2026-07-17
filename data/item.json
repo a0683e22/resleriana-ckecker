@@ -6254,5 +6254,37 @@
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0811_S.webp",
     "equipment_tool_trait_ids": [77, 60]
+  },
+  {
+    "id": 1455,
+    "name": "生きサボテン",
+    "rarity": "SR",
+    "trait_color_id": 2,
+    "image": "images/ingredient/Ingredient_0815_S.webp",
+    "battle_tool_trait_ids": [2, 14]
+  },
+  {
+    "id": 1456,
+    "name": "影見草",
+    "rarity": "SSR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0816_S.webp",
+    "equipment_tool_trait_ids": [94, 61]
+  },
+  {
+    "id": 1457,
+    "name": "妖精の世界樹",
+    "rarity": "SR",
+    "trait_color_id": 4,
+    "image": "images/ingredient/Ingredient_0817_S.webp",
+    "battle_tool_trait_ids": [50, 1]
+  },
+  {
+    "id": 1458,
+    "name": "アードラの尾羽",
+    "rarity": "SSR",
+    "trait_color_id": 2,
+    "image": "images/ingredient/Ingredient_0818_S.webp",
+    "equipment_tool_trait_ids": [74, 60]
   }
 ]

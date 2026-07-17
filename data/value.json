@@ -17770,6 +17770,136 @@
       }
     ]
   },
+  "11003911": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 95,
+    "break_power": 3,
+    "break_type": 2,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002341,
+        "value": 2000
+      },
+      {
+        "id": 91001007,
+        "value": 10000
+      }
+    ]
+  },
+  "12003916": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 385,
+    "break_power": 23,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002192,
+        "value": 4500
+      },
+      {
+        "id": 91001631,
+        "value": 4500
+      }
+    ]
+  },
+  "14003921": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 681,
+    "break_power": 91,
+    "break_type": 2,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002192,
+        "value": 9000
+      },
+      {
+        "id": 91001631,
+        "value": 9000
+      },
+      {
+        "id": 91002342,
+        "value": 1500
+      },
+      {
+        "id": 91002342,
+        "value": 1500
+      },
+      {
+        "id": 91002342,
+        "value": 1500
+      },
+      {
+        "id": 91002342,
+        "value": 1500
+      },
+      {
+        "id": 91002342,
+        "value": 1500
+      }
+    ]
+  },
+  "14003922": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 200,
+    "break_power": 12,
+    "break_type": 2,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 72001474,
+        "value": 500
+      }
+    ]
+  },
+  "14003923": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 3,
+    "power_type": 2,
+    "power": 250,
+    "break_power": 15,
+    "break_type": 2,
+    "wait": -200,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 72001474,
+        "value": 1500
+      },
+      {
+        "id": 91002343,
+        "value": 100
+      },
+      {
+        "id": 6001317,
+        "value": 1500
+      }
+    ]
+  },
   "11002390": {
     "attr": 5,
     "roles": [],

@@ -19039,6 +19039,28 @@
     "start_at": "2026-07-13"
   },
   {
+    "recipe_id": 873,
+    "name": "変幻ヲ纏ウ双極ノ牙",
+    "gift_colors": [
+      3,
+      4,
+      1
+    ],
+    "materials": [
+      {
+        "id": 47201,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1455,
+        "quantity": 16,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-07-17"
+  },
+  {
     "recipe_id": 10037,
     "name": "カノンボール",
     "target_id": 2,

@@ -1,5 +1,18 @@
 [
   {
+    "id": 200,
+    "base_character_id": 47201,
+    "attr": "斬",
+    "name": { "zh": "奎恩【Lethal Arsenal】", "jp": "キューン【Lethal Arsenal】", "en": "Quinn【Lethal Arsenal】"},
+    "date": "2026-07-17",
+    "職種": "攻擊者",
+    "passive_ids": [1990563, 1990564],
+    "tag_ids": [37, 17],
+    "equip": 101,
+    "tool": [50, 52],
+    "leader_skill": { "name": "普通に憧れる末っ子", "description": "「お菓子」は「物攻・魔攻・物防・魔防+35%」"}
+  },
+  {
     "id": 199,
     "base_character_id": 47101,
     "attr": "火",
@@ -16,7 +29,7 @@
     "id": 198,
     "base_character_id": 47001,
     "attr": "風",
-    "name": { "zh": "梅薇【Beyond Dimension】", "jp": "メーヴェ【Beyond Dimension】", "en": "Mowen【Beyond Dimension】"},
+    "name": { "zh": "梅薇【The Flash Adventurer】", "jp": "メーヴェ【The Flash Adventurer】", "en": "Mowen【The Flash Adventurer】"},
     "date": "2026-07-03",
     "職種": "攻擊者",
     "passive_ids": [1990553, 1990554],

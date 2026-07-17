@@ -3276,7 +3276,7 @@
     "description": {
       "jp": "パーティに「冒険」がいる時、与える強化効果量＋50%<br><br>パーティの誰かがバーストスキル発動後<br>得意属性が氷属性の味方全員に「クリティカルダメージ＋30%」と「魔攻＋50%」を付与(全て上限150%)",
       "zh": "隊伍中有「冒険」隊員時，賦予的強化效果量+50%<br><br>隊伍中任一角色發動爆發技能後<br>賦予得意屬性冰屬性的我方全員「暴擊傷害+30%」與「魔攻+50%」(全部上限150%)",
-      "en": "When there is another \"冒険\" in the party, buff effect amount granted by 50%<br><br>Grants all Ice-element allies' \"Crit DMG+30%\" and  \"M.ATK +50%\"  ( all up to 150%)"
+      "en": "When there has \"冒険\" in the party, buff effect amount granted by 50%<br><br>Grants all Ice-element allies' \"Crit DMG+30%\" and  \"M.ATK +50%\"  ( all up to 150%)"
     }
   },
   "1990557": {
@@ -3357,6 +3357,22 @@
       "jp": "「冥き追憶」タグを持つキャラ数に応じ、自身が与えるマイナス効果量+10～50％と味方全員の物攻・魔攻+20～100％(1～5人で多いほど増加)<br><br>「冥き追憶」の味方全員は1回目のターン開始時、自身のパネルをバーストパネルに変換(空パネルの時は生成)",
       "zh": "根據持有「冥き追憶」標籤的角色數量對應，自身賦予的負面效果量+10~50%且我方全員物攻・魔攻+20～100％(1~5人 人數越多增加越多)<br><br>「冥き追憶」的我方全員在第一回合開始時，會將自身的格子轉為爆發面板(空面板時亦會生成)",
       "en": "Based on the number of characters with the \"冥き追憶\" tag, Negative effect amount dealt by10~50% and increases all allies’ P.ATK and M.ATK by 20–100%  (increases more with 1~5 characters)<br><br>At the start of the first turn, all allies with \"冥き追憶\",  converts self panel into a Burst Panel (generates panels if empty)"
+    }
+  },
+  "1990563": {
+    "name": "パルメの知見の集大成",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは5周分ストック可能<br><br>自身のバーストゲージ100％につき、クリティカルダメージ+100％",
+      "zh": "自身爆發技能量條化 ※爆發量條可儲存5圈<br><br>每當自身爆發量條達到100%，暴擊傷害+100%",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 5 rounds<br><br>For every 100% of own Burst Gauge, Critical Damage +100%"
+    }
+  },
+  "1990564": {
+    "name": "早く終わらせちゃおう！",
+    "description": {
+      "jp": "自身を除くパーティの誰かがスキル選択後、ブレイク状態の敵がいる場合または攻撃対象をブレイクした場合、現在HPが最も低い敵へ追加攻撃：[in:14003922]コメテス[/in]を発動する<br>自身に「MODE：グラヴィス」が付与されている時、追加攻撃：コメテスの代わりに、強化追加攻撃：[in:14003923]ガラクシア[/in]を発動する<br><br>パーティに「真面目」がいる時、基礎物攻+400",
+      "zh": "當隊伍中除自己以外的隊員選擇技能後，當有處於破防狀態的敵人或使攻擊目標進入破防狀態時，對目前HP最低的敵人發動[in:14003922]コメテス[/in]進行追加攻擊：<br>當自身處於「MODE：グラヴィス」狀態時，追加攻擊變為強化追加攻擊<br>（「コメテス」變更為「[in:14003923]ガラクシア[/in]」）<br><br>當隊伍中有「真面目」時，基礎物理+400",
+      "en": "When any other party member selects a skill, if there is a broken enemy or an enemy is broken by the attack, launches a follow-up attack: [in:14003922]コメテス[/in] against the enemy with the lowest current HP<br>When self has \"MODE：グラヴィス\", launches enhanced follow-up attack: [in:14003923]ガラクシア[/in] instead of follow-up attack: コメテス<br><br>When there has \"Diligent\" in the party, increase P.ATK 400"
     }
   }
 }

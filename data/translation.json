@@ -1,4 +1,62 @@
 ﻿{
+  "200": {
+    "skill1": {
+      "skill_id": 11003911,
+      "name": "MODE：ラディウス",
+      "jp": "攻撃前、自身のマイナス効果を解除し、<br>攻撃後、自身に「物攻+{0}％」を付与(上限60％)",
+      "zh": "攻擊前，自身負面效果解除<br>攻擊後，賦予自身「物攻+{0}％」(上限60％)",
+      "en": "Before attacking, removes negative effects from self<br>After attacking, grants self \"P.ATK +{0}%\" (MAX 60%)"
+    },
+    "skill2": {
+      "skill_id": 12003916,
+      "name": "MODE：グラディウス",
+      "jp": "攻撃後、自身に「クリティカルダメージ+{0}％」と「物攻+{1}％」を3回行動終了するまで付与",
+      "zh": "攻擊後，賦予自身「暴擊傷害+{0}%」與「物攻+{1}%」直到3次行動結束為止",
+      "en": "After attacking, grants self \"Critical Damage +{0}%\" and \"P.ATK +{1}%\" for 3 turns"
+    },
+    "burst": {
+      "skill_id": 14003921,
+      "name": "FATAL MODE：ヴォラトゥス",
+      "jp": "攻撃後、自身に「クリティカルダメージ+{0}％」と「物攻+{1}％」を3回行動終了するまで付与し、<br>「MODE：グラヴィス」を5個付与(上限5個)<br><br>※「MODE：グラヴィス」は物攻+{2}％",
+      "zh": "攻擊後，賦予自身「暴擊傷害+{0}%」與「物攻+{1}%」直到3次行動結束為止<br>賦予「MODE：グラヴィス」狀態5個(上限5個)<br><br>※「MODE：グラヴィス」物攻+{2}％",
+      "en": "After attacking, grants self \"Crit DMG +{0}%\" and \"P.ATK +{1}%\"for 3 turns<br>Grants 5 stacks of \"MODE：グラヴィス\" (MAX 5 stacks)<br><br>※\"MODE：グラヴィス\" increases P.ATK by {2}% "
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "in_skill1": {
+      "skill_id": 14003922,
+      "name": "コメテス",
+      "jp": "攻撃後、自身のバーストゲージを{0}%増加",
+      "zh": "攻擊後，自身爆發量條增加{0}%",
+      "en": "After attacking, increases own Burst Gauge by {0}%"
+    },
+    "in_skill2": {
+      "skill_id": 14003923,
+      "name": "ガラクシア",
+      "jp": "攻撃後、自身のバーストゲージを{0}%増加し、<br>自身の「MODE：グラヴィス」を{1}個解除<br><br>※状態変化の回数を消費せず、追加効果を発動しない",
+      "zh": "攻擊後，自身爆發量條增加{0}%<br>解除自身{1}個「MODE：グラヴィス」<br><br>※不會消耗狀態變化次數，也不會觸發附加效果",
+      "en": "After attacking, increases own Burst Gauge by {0}%<br>Deactivate {1} instance of own \"MODE：グラヴィス\"<br><br>※Does not consume any debuff and does not trigger any additional effects"
+    }
+  },
   "199": {
     "skill1": {
       "skill_id": 11003896,
