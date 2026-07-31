@@ -11504,5 +11504,55 @@
       }
     ],
     "ability": "自身がキューン【Lethal Arsenal】の時、「ガラクシア」発動後、自身に「スキル威力+15％」を1回行動終了するまで付与"
+  },
+  {
+    "id": 1280,
+    "name": "姉様特製釣り竿",
+    "rarity": "SSR",
+    "slot_type": "Weapon",
+    "image": "images/equip/equipment_tool_0715_S.webp",
+    "status": [
+      {
+        "type": "patk",
+        "value": 200
+      }
+    ],
+    "ability": "自身がベップ【オーシャンフェアリー】の時、バーストスキル発動後、対象に「スキル威力+32%」を付与(重複不可)"
+  },
+  {
+    "id": 1281,
+    "name": "ドラグーンメイル",
+    "rarity": "SSR",
+    "slot_type": "Armor",
+    "image": "images/equip/equipment_tool_0716_S.webp",
+    "status": [
+      {
+        "type": "pdef",
+        "value": 100
+      },
+      {
+        "type": "mdef",
+        "value": 100
+      }
+    ],
+    "ability": "自身のHPが70%以上の時、受けるダメージ-29%(固定)"
+  },
+  {
+    "id": 1283,
+    "name": "ハーナルリング",
+    "rarity": "SSR",
+    "slot_type": "Accessory",
+    "image": "images/equip/equipment_tool_0717_S.webp",
+    "status": [
+      {
+        "type": "hp",
+        "value": 360
+      },
+      {
+        "type": "speed",
+        "value": 8
+      }
+    ],
+    "ability": "味方全員のスキルダメージ+22%"
   }
 ]

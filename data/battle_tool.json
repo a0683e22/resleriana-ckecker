@@ -2119,5 +2119,31 @@
     "power": 0,
     "power_types": [],
     "show_percent": []
+  },
+  {
+    "id": 1032,
+    "attack_attributes": 5,
+    "name": "禁忌の秘術書",
+    "rarity": "SSR",
+    "usage_count": 1,
+    "trait_filter_ids": 1,
+    "image": "images/battle/battle_tool_0183_S.webp",
+    "effect": "最大HPが最も高い敵1体に火属性ダメージ<br>この攻撃の貫通力+300",
+    "power": 700,
+    "power_types": [1],
+    "show_percent": [1]
+  },
+  {
+    "id": 1034,
+    "attack_attributes": null,
+    "name": "偽りのブーケ",
+    "rarity": "SSR",
+    "usage_count": 3,
+    "trait_filter_ids": 3,
+    "image": "images/battle/battle_tool_0182_S.webp",
+    "effect": "最大HPが最も高い敵1体に「受けるダメージ+18％」を付与(上限6個)",
+    "power": 0,
+    "power_types": [],
+    "show_percent": []
   }
 ]

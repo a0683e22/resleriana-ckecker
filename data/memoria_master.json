@@ -10695,6 +10695,42 @@
     "roles": [],
     "attr": [1]
   },
+  "30244": {
+    "name": "遊び盛りバケーション",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31078
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31030
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31068
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31068
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31108
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31108
+      }
+    ],
+    "description": {
+      "jp": "得意属性が斬属性かつサポーターの時、味方全員のバーストスキルダメージ+5.00 / 15.00 / 25.00 / 35.00 / 45.00％<br>「騎士」の時、味方全員の物攻+5.00 / 10.00 / 15.00 / 20.00 / 25.00％",
+      "zh": "得意屬性斬屬性支援者時，我方全員的爆發技能傷害+5.00 / 15.00 / 25.00 / 35.00 / 45.00％<br>「騎士」時，我方全員的物攻+5.00 / 10.00 / 15.00 / 20.00 / 25.00%",
+      "en": "While equipped to a Supporter with Slash affinity, boosts all allies burst skill damage by 5.00 / 15.00 / 25.00 / 35.00 / 45.00％%<br>While equipped to a Knight character, boosts all allies' P. ATK by 5.00 / 10.00 / 15.00 / 20.00 / 25.00%"
+    },
+    "roles": [4],
+    "attr": [1]
+  },
 "99999": {
   "name": "創世の光石",
   "stats": [

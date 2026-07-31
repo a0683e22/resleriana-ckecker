@@ -1,4 +1,55 @@
 ﻿{
+  "201": {
+    "skill1": {
+      "skill_id": 11003928,
+      "name": "オーシャンベール",
+      "jp": "味方全員に「スキルダメージ+{0}％」と「クリティカルダメージ+{1}％」を付与(全て上限60％)",
+      "zh": "賦予我方全員「技能傷害+{0}%」與「暴擊傷害+{1}%」(全部上限60%)",
+      "en": "Grants all allies \"Skill Damage +{0}%\" and \"Critical Damage+{1}%\"  (all up to 60%) "
+    },
+    "skill2": {
+      "skill_id": 12003933,
+      "name": "フェアリッシュチア",
+      "jp": "得意属性が斬属性の味方全員に「スキルダメージ+{0}％」と「クリティカルダメージ+{1}％」を3回行動終了するまで付与",
+      "zh": "賦予得意屬性斬屬性的我方全員「技能傷害+{0}%」與「暴擊傷害+{1}%」直到3次行動結束為止",
+      "en": "Grants all Slash-element allies \"Skill Damage +{0}%\" and \"Critical Damage +{1}%\" until 3 actions end"
+    },
+    "burst": {
+      "skill_id": 14003938,
+      "name": "豊漁鮮刃演舞",
+      "jp": "対象のバーストゲージを{0}％増加<br>自身以外が対象の場合、ターンを{1}ターン早める<br>得意属性が斬属性の味方全員に「スキルダメージ+{2}％」と「クリティカルダメージ+{3}％」を3回行動終了するまで付与",
+      "zh": "對象的爆發量條增加{0}%<br>當以自身以外的對象發動時，將回合提前{1}回合<br>賦予得意屬性斬屬性的我方全員「技能傷害+{2}%」與「暴擊傷害+{3}%」直到3次行動結束為止",
+      "en": "Increases the target ally's Burst Gauge by {0}%<br>If the target is another ally, advances their turn by {1} turn(s)<br>Grants all Slash-element allies \"Skill Damage +{2}%\" and \"Critical Damage +{3}%\" until 3 actions end"
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "active_skill1": {
+      "skill_id": 14003939,
+      "name": "タクティカルチェンジ・ウェーブ",
+      "jp": "タイムラインの前から{0}番目までの味方1人または敵1体と自身のターンを入れ替える(発動上限2回) <br>自身の素早さに応じ、味方対象に物攻+0～{1}%を付与(上限80％)(素早さ300～380で高いほど増加)",
+      "zh": "與時間軸前端至第{0}位的1名友方或1名敵方交換回合順序（最多可發動2次） <br>自身敏捷對應，賦予我方對象的物攻+0~{1}%(上限80%)(速度300~380越高增加越多)<br><br>※ 目前遊戲中實際效果是自動選擇貝普左側的第一順位目標，而非玩家自選",
+      "en": "Swaps turns with the first ally or enemy within the first 6 positions on the timeline<br>Grants the target ally Physical ATK +0–{1}% based on own Speed (Max  80%) (Increases with SPD from 300~380; the higher the SPD, the greater the increase)<br><br>※ Currently, auto selects the top-priority target to the left of Bepp, rather than allowing the player to choose"
+    }
+  },
   "200": {
     "skill1": {
       "skill_id": 11003911,

@@ -6203,7 +6203,7 @@
     "id": 1446,
     "name": "炭うに",
     "rarity": "SSR",
-    "trait_color_id": 3,
+    "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0812_S.webp",
     "equipment_tool_trait_ids": [55, 59]
   },
@@ -6211,7 +6211,7 @@
     "id": 1447,
     "name": "黒うに",
     "rarity": "SSR",
-    "trait_color_id": 3,
+    "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0813_S.webp",
     "equipment_tool_trait_ids": [55, 59]
   },
@@ -6219,7 +6219,7 @@
     "id": 1448,
     "name": "暗黒大王うに",
     "rarity": "SSR",
-    "trait_color_id": 3,
+    "trait_color_id": 4,
     "image": "images/ingredient/Ingredient_0814_S.webp",
     "equipment_tool_trait_ids": [55, 59]
   },
@@ -6286,5 +6286,45 @@
     "trait_color_id": 2,
     "image": "images/ingredient/Ingredient_0818_S.webp",
     "equipment_tool_trait_ids": [74, 60]
+  },
+  {
+    "id": 1464,
+    "name": "フューエルココナッツ",
+    "rarity": "SR",
+    "trait_color_id": 4,
+    "image": "images/ingredient/Ingredient_0819_S.webp",
+    "battle_tool_trait_ids": [11, 12]
+  },
+  {
+    "id": 1465,
+    "name": "サマージェム",
+    "rarity": "SSR",
+    "trait_color_id": 2,
+    "image": "images/ingredient/Ingredient_0820_S.webp",
+    "equipment_tool_trait_ids": [101, 74]
+  },
+  {
+    "id": 1466,
+    "name": "ゾンネフルーツ",
+    "rarity": "SSR",
+    "trait_color_id": 5,
+    "image": "images/ingredient/Ingredient_0823_S.webp",
+    "equipment_tool_trait_ids": [55, 59]
+  },
+  {
+    "id": 1467,
+    "name": "アナナスの実",
+    "rarity": "SSR",
+    "trait_color_id": 5,
+    "image": "images/ingredient/Ingredient_0824_S.webp",
+    "equipment_tool_trait_ids": [55, 59]
+  },
+  {
+    "id": 1468,
+    "name": "ピーニャの実",
+    "rarity": "SSR",
+    "trait_color_id": 5,
+    "image": "images/ingredient/Ingredient_0825_S.webp",
+    "equipment_tool_trait_ids": [55, 59]
   }
 ]

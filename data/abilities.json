@@ -3374,5 +3374,21 @@
       "zh": "當隊伍中除自己以外的隊員選擇技能後，當有處於破防狀態的敵人或使攻擊目標進入破防狀態時，對目前HP最低的敵人發動[in:14003922]コメテス[/in]進行追加攻擊：<br>當自身處於「MODE：グラヴィス」狀態時，追加攻擊變為強化追加攻擊<br>（「コメテス」變更為「[in:14003923]ガラクシア[/in]」）<br><br>當隊伍中有「真面目」時，基礎物理+400",
       "en": "When any other party member selects a skill, if there is a broken enemy or an enemy is broken by the attack, launches a follow-up attack: [in:14003922]コメテス[/in] against the enemy with the lowest current HP<br>When self has \"MODE：グラヴィス\", launches enhanced follow-up attack: [in:14003923]ガラクシア[/in] instead of follow-up attack: コメテス<br><br>When there has \"Diligent\" in the party, increase P.ATK 400"
     }
+  },
+  "1990565": {
+    "name": "姉様に捧ぐ演舞",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パーティの誰かがスキル発動後、自身のバーストゲージを10%増加",
+      "zh": "自身爆發技能量條化 ※爆發量條可儲存3圈<br><br>隊伍中的任意成員技能發動後，自身爆發量條增加10%",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br><br>After any party member uses a skill, increases own Burst Gauge by 10%."
+    }
+  },
+  "1990566": {
+    "name": "早く終わらせちゃおう！",
+    "description": {
+      "jp": "スキル発動後、得意属性が斬属性の味方全員に「素早さ+3％」を付与(上限24％)<br>パーティの誰かがスキル発動後、得意属性が斬属性の味方全員に「クリティカル確率+10％」(上限100％)と「クリティカルダメージ+10％」(上限1600％)を付与<br><br>味方全員はそれぞれの素早さに応じ、貫通力+0～360(素早さ250～360で高いほど増加)<br><br>パーティに自身以外の「季節の装い」がいる時、与える強化効果量+50％",
+      "zh": "技能發動後，賦予得意屬性斬屬性的我方全員「速度+3%」(上限24%)<br>隊伍中的任意成員技能發動後，賦予得意屬性斬屬性的我方全員「暴擊率+10%」(上限100%)與「暴擊傷害+10%」(上限1600%)<br><br>我方全員將依照自身速度對應，貫通力+0~360(速度250~360越高增加越多)<br><br>當隊伍中除自身以外仍有「季節の装い」角色時，賦予的強化效果量+50%",
+      "en": "After the skill is activated, grants all Slash attribute allies SPD+3% (Max 24%)<br>After any party member uses a skill, grants all Slash attribute allies \"Critical Rate +10%\"(Max 100%) & \"Critical Damage +10%\"(Max 1600%)<br><br>Grants all allies Penetration based on their individual Speed (+0~360) (The bonus increases with Speed from 250 to 360)<br><br>When there is another \"季節の装い\" in the party, buff effect amount granted by 50%"
+    }
   }
 }

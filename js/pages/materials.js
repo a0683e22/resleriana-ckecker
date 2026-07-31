@@ -8,7 +8,7 @@ import { showTraitPopup } from '../components/materialPopup.js';
 
 export const ATELIER_CANNON_MATERIAL_IDS = [
     ...Array.from({ length: 1337 - 1320 + 1 }, (_, i) => 1320 + i),
-    1383, 1384, 1385, 1406, 1407, 1408, 1446, 1447, 1448 ];
+    1383, 1384, 1385, 1406, 1407, 1408, 1446, 1447, 1448, 1466, 1467, 1468 ];
 
 export async function renderMaterials() {
 
