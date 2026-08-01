@@ -1846,7 +1846,7 @@
       "en": "Enhanced Damage Buff [Slash A]",
       "description": {
         "jp": "得意属性が斬属性かつアタッカーへ与えるダメージ強化の効果量8 / 15 / 23 / 45 / 75%アップ",
-        "zh": "賦予斬屬性攻擊者「物攻提升」與「魔攻提升」的效果量提升8 / 15 / 23 / 45 / 75%",
+        "zh": "賦予斬屬性攻擊者的傷害強化效果量提升8 / 15 / 23 / 45 / 75%",
         "en": "Boosts potency of [Damage Dealt Up] buffs given to Slash Attackers by 8 / 15 / 23 / 45 / 75%"
       }
     },
