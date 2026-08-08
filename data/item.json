@@ -6326,5 +6326,21 @@
     "trait_color_id": 5,
     "image": "images/ingredient/Ingredient_0825_S.webp",
     "equipment_tool_trait_ids": [55, 59]
+  },
+  {
+    "id": 1477,
+    "name": "ぬしの切り身",
+    "rarity": "SR",
+    "trait_color_id": 2,
+    "image": "images/ingredient/Ingredient_0821_S.webp",
+    "battle_tool_trait_ids": [14, 48]
+  },
+  {
+    "id": 1478,
+    "name": "王冠サザエ",
+    "rarity": "SSR",
+    "trait_color_id": 3,
+    "image": "images/ingredient/Ingredient_0822_S.webp",
+    "equipment_tool_trait_ids": [78, 67]
   }
 ]

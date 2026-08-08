@@ -1,5 +1,18 @@
 [
   {
+    "id": 202,
+    "base_character_id": 47301,
+    "attr": "斬",
+    "name": { "zh": "雅德維加【Loyal Servant】", "jp": "ヤドヴィガ【Loyal Servant】", "en": "Jadwiga【Loyal Servant】"},
+    "date": "2026-08-07",
+    "職種": "破防者",
+    "passive_ids": [1990567, 1990568],
+    "tag_ids": [37, 28, 30],
+    "equip": 119,
+    "tool": [22, 52],
+    "leader_skill": { "name": "忠実なる執行者", "description": "味方全員は「九偉人」1人につき「スキルダメージ・ブレイクダメージ+30%」"}
+  },
+  {
     "id": 201,
     "base_character_id": 45102,
     "attr": "斬",
@@ -8,7 +21,7 @@
     "職種": "支援者",
     "passive_ids": [1990565, 1990566],
     "tag_ids": [34, 11, 21, 27],
-    "equip": 119,
+    "equip": 112,
     "tool": [2, 55],
     "leader_skill": { "name": "海辺の青き戦士", "description": "「季節の装い」は「スキル威力+60%」"}
   },

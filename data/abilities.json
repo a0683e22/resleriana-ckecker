@@ -3390,5 +3390,21 @@
       "zh": "技能發動後，賦予得意屬性斬屬性的我方全員「速度+3%」(上限24%)<br>隊伍中的任意成員技能發動後，賦予得意屬性斬屬性的我方全員「暴擊率+10%」(上限100%)與「暴擊傷害+10%」(上限1600%)<br><br>我方全員將依照自身速度對應，貫通力+0~360(速度250~360越高增加越多)<br><br>當隊伍中除自身以外仍有「季節の装い」角色時，賦予的強化效果量+50%",
       "en": "After the skill is activated, grants all Slash attribute allies SPD+3% (Max 24%)<br>After any party member uses a skill, grants all Slash attribute allies \"Critical Rate +10%\"(Max 100%) & \"Critical Damage +10%\"(Max 1600%)<br><br>Grants all allies Penetration based on their individual Speed (+0~360) (The bonus increases with Speed from 250 to 360)<br><br>When there is another \"季節の装い\" in the party, buff effect amount granted by 50%"
     }
+  },
+  "1990567": {
+    "name": "不動の信念",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パーティの誰かがスキル発動後、自身のバーストゲージを5％増加<br>攻撃対象が小ブレイクまたはブレイク時、自身のバーストゲージを30％増加し、対象のターンを1ターン遅らせる<br>※複数のゲージを同時に0にしても発動は1回",
+      "zh": "自身爆發技能量條化 ※爆發量條可儲存3圈<br><br>隊伍中的任意成員技能發動後，自身爆發量條增加5%<br>攻擊對象處於微破防或破防狀態時，自身爆發量條增加30%，並使對象的回合延遲1回合<br>※即使復數破防量條同時歸零也只會發動一次",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br><br>After any party member uses a skill, increases own Burst Gauge by 5%.<br>When the target is hit by a minor break or a break, increases the burst gauge by 30%, and delays the target's turn by 1 turn<br>※Even if multiple gauges become to zero at the same time, it will only trigger 1 time"
+    }
+  },
+  "1990568": {
+    "name": "早く終わらせちゃおう！",
+    "description": {
+      "jp": "攻撃対象が小ブレイクまたはブレイク時、もしくはブレイク状態の敵を攻撃後、対象に「受ける物理攻撃ダメージ+32％」を付与(上限320％)<br>※複数のゲージを同時に0にしても発動は1回<br><br>戦闘不能になっていない味方が3人以上かつブレイク状態の敵を「グラヴィスグローブス」または「プンゲレ・サルタティオ」で攻撃後、対象のターンを1ターン遅らせる<br><br>パーティに「お菓子」がいる時、ブレイク威力+80％<br>パーティに自身以外の「九偉人」がいる時、与えるマイナス効果量+50％",
+      "zh": "攻擊對象處於微破防或破防狀態時，或攻擊屬於破防狀態的目標後,賦予目標「受到物理攻擊傷害+32%」(上限320%)<br>※即使複數破防量條同時歸零也只會發動一次<br><br>當隊伍中我方仍有3名以上存活的隊員，且以「グラヴィスグローブス」或「プンゲレ・サルタティオ」攻擊破防狀態的敵人後，使目標的回合延遲1回合<br><br>當隊伍中有「お菓子」時，破防威力+80%<br>當隊伍中除自身以外仍有「九偉人」角色時，賦予的負面效果量+50%",
+      "en": "When the target is hit by a minor break or a break, inflicts \"Physical Attack Damage Taken +32%\" on the target (Max 320%)<br>※Even if multiple gauges become to zero at the same time, it will only trigger 1 time<br><br>When there are more than 3 alive allies and a broken enemy is attacked with \"グラヴィスグローブス\" or \"プンゲレ・サルタティオ\", delays the target's turn by 1 turn<br><br>When there is a \"お菓子\" in the party, increases Break Power by 80%<br>When there is another \"九偉人\" in the party, increases Negative Effect Amount by 50%"
+    }
   }
 }

@@ -11554,5 +11554,19 @@
       }
     ],
     "ability": "味方全員のスキルダメージ+22%"
+  },
+  {
+    "id": 1285,
+    "name": "不動ナル忠義ノ鉄星",
+    "rarity": "SSR",
+    "slot_type": "Weapon",
+    "image": "images/equip/equipment_tool_0718_S.webp",
+    "status": [
+      {
+        "type": "patk",
+        "value": 200
+      }
+    ],
+    "ability": "自自身がヤドヴィガ【Loyal Servant】であり、パーティに自身以外の「九偉人」がいる時、与えるマイナス効果量+30％"
   }
 ]

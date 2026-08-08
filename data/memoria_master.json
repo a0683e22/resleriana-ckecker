@@ -10731,6 +10731,42 @@
     "roles": [4],
     "attr": [1]
   },
+  "30245": {
+    "name": "彼女の素顔",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31048
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31060
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31108
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31108
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31068
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31068
+      }
+    ],
+    "description": {
+      "jp": "得意属性が斬属性かつブレイカーの時、ブレイク状態の対象を攻撃後、対象に「受けるダメージ+4.00 / 14.00 / 24.00 / 34.00 / 44.00％」を1回攻撃を受けるまで付与<br>「寡黙」の時、単体攻撃のブレイクダメージ+6.00 / 20.00 / 33.00 / 47.00 /60.00％",
+      "zh": "得意屬性斬屬性破防者時，對處於破防狀態的目標造成攻擊後，賦予目標「受到的傷害+4.00 / 14.00 / 24.00 / 34.00 / 44.00％」直到受1次攻擊為止<br>「寡黙」時，單體攻擊的破防傷害+6.00 / 20.00 / 33.00 / 47.00 /60.00％",
+      "en": "While equipped to a Breaker with Slash affinity, after attacking a target in a broken state, grants the target \"Damage Received +4.00 / 14.00 / 24.00 / 34.00 / 44.00％\" for 1 turn<br>While equipped to a \"Silent\" character, boosts single-target break damage by 6.00 / 20.00 / 33.00 / 47.00 /60.00％"
+    },
+    "roles": [2],
+    "attr": [1]
+  },
 "99999": {
   "name": "創世の光石",
   "stats": [

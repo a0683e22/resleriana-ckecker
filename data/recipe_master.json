@@ -19151,6 +19151,28 @@
     "start_at": "2026-07-31"
   },
   {
+    "recipe_id": 879,
+    "name": "不動ナル忠義ノ鉄星",
+    "gift_colors": [
+      3,
+      2,
+      4
+    ],
+    "materials": [
+      {
+        "id": 47301,
+        "quantity": 1,
+        "type": 8
+      },
+      {
+        "id": 1477,
+        "quantity": 40,
+        "type": 5
+      }
+    ],
+    "start_at": "2026-08-07"
+  },
+  {
     "recipe_id": 10037,
     "name": "カノンボール",
     "target_id": 2,

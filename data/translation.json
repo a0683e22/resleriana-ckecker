@@ -1,4 +1,48 @@
 ﻿{
+  "202": {
+    "skill1": {
+      "skill_id": 11003944,
+      "name": "インキデレ",
+      "jp": "攻撃後、自身に「ブレイクダメージ+{0}％」を付与し、<br>対象に「受けるダメージ+{1}％」を付与(全て上限60％)",
+      "zh": "攻擊後，賦予自身「破防傷害+{0}%」與賦予對象「受到的傷害+{1}%」(全部上限60%)",
+      "en": "After attacking, grants self \"Break Damage +{0}%\" and grants target \"Damage Taken +{1}%\" (all up to 60%)"
+    },
+    "skill2": {
+      "skill_id": 12003949,
+      "name": "グラヴィスグローブス",
+      "jp": "攻撃前、対象に「全属性耐性-{0}％」を2回攻撃を受けるまで付与<br>攻撃後、自身に「ブレイクダメージ+{1}％」を2回行動終了するまで付与し、<br>対象に「受ける物理攻撃ダメージ+{2}％」を2回攻撃を受けるまで付与<br>対象が小ブレイクまたはブレイク時、自身のターンを{3}ターン早める<br>※複数のゲージを同時に0にしても発動は1回",
+      "zh": "攻擊前，賦予對象「全屬性耐性-{0}%」直到受2次攻擊為止<br>攻擊後，賦予自身「破防傷害+{1}%」直到2次行動為止<br>賦予對象「受到的物理攻擊傷害+{2}%」直到受2次攻擊為止<br>當對象處於微破防或破防狀態時，提前自身回合{3}回合<br>※即使多個量條同時歸零，也只會觸發一次",
+      "en": "Before attacking, grants target \"All Elemental Resistance -{0}%\" for 2 attacks<br>After attacking, grants self \"Break Damage +{1}%\" until the end of 2 actions<br>Grants target \"Physical Damage Taken +{2}%\" for 2 attacks<br>If target is in minor Break or Break state, advances own turn by {3} turn(s)<br>※Even if multiple gauges are reduced to 0 simultaneously, this effect will only trigger once"
+    },
+    "burst": {
+      "skill_id": 14003954,
+      "name": "プンゲレ・サルタティオ",
+      "jp": "攻撃前、対象に「全属性耐性-{0}％」を2回攻撃を受けるまで付与<br>攻撃後、自身に「ブレイクダメージ+{1}％」を2回行動終了するまで付与し、<br>対象に「受ける物理攻撃ダメージ+{2}％」を2回攻撃を受けるまで付与<br>対象がブレイク時、対象の次ターンを消去",
+      "zh": "攻擊前，賦予對象「全屬性耐性-{0}%」直到受2次攻擊為止<br>攻擊後，賦予自身「破防傷害+{1}%」直到2次行動為止<br>賦予對象「受到的物理攻擊傷害+{2}%」直到受2次攻擊為止<br>當對象處於破防狀態時，消除對象的下一回合",
+      "en": "Before attacking, grants target \"All Elemental Resistance -{0}%\" for 2 attacks<br>After attacking, grants self \"Break Damage +{1}%\" until the end of 2 actions<br>Grants target \"Physical Damage Taken +{2}%\" for 2 attacks<br>If target is in Break state, removes their next turn"
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    }
+  },
   "201": {
     "skill1": {
       "skill_id": 11003928,
