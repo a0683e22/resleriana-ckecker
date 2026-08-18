@@ -6342,5 +6342,21 @@
     "trait_color_id": 3,
     "image": "images/ingredient/Ingredient_0822_S.webp",
     "equipment_tool_trait_ids": [78, 67]
+  },
+  {
+    "id": 1479,
+    "name": "サンシャインスクウィッド",
+    "rarity": "SR",
+    "trait_color_id": 4,
+    "image": "images/ingredient/Ingredient_0826_S.webp",
+    "battle_tool_trait_ids": [22, 10]
+  },
+  {
+    "id": 1480,
+    "name": "サンバーンクラブ",
+    "rarity": "SSR",
+    "trait_color_id": 5,
+    "image": "images/ingredient/Ingredient_0827_S.webp",
+    "equipment_tool_trait_ids": [101, 2]
   }
 ]

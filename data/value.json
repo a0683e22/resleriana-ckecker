@@ -15458,6 +15458,110 @@
       }
     ]
   },
+  "11003959": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": -100,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002354,
+        "value": 2000
+      },
+      {
+        "id": 91002355,
+        "value": 2000
+      }
+    ]
+  },
+  "12003964": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 5,
+    "power": 128,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91001492,
+        "value": 200
+      },
+      {
+        "id": 91002356,
+        "value": 4000
+      },
+      {
+        "id": 91002357,
+        "value": 4000
+      },
+      {
+        "id": 91000939,
+        "value": 200
+      }
+    ]
+  },
+  "14003969": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 5,
+    "power": 331,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": null,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002356,
+        "value": 8000
+      },
+      {
+        "id": 91002357,
+        "value": 10000
+      },
+      {
+        "id": 91002358,
+        "value": 0
+      },
+      {
+        "id": 91001492,
+        "value": 10000
+      },
+      {
+        "id": 91000939,
+        "value": 10000
+      }
+    ]
+  },
+  "14003970": {
+    "attr": 1,
+    "roles": [],
+    "target_type": 4,
+    "power_type": 1,
+    "power": 0,
+    "break_power": 0,
+    "break_type": 1,
+    "wait": 0,
+    "limit_count": 2,
+    "require_command": false,
+    "effects": [
+      {
+        "id": 91002359,
+        "value": 10000
+      }
+    ]
+  },
   "11003082": {
     "attr": 2,
     "roles": [],

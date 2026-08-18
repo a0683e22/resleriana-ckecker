@@ -1,4 +1,55 @@
 ﻿{
+  "203": {
+    "skill1": {
+      "skill_id": 11003959,
+      "name": "ハイドレーション",
+      "jp": "自身に「与えるHP回復量+{0}％」を付与し、<br>味方全員に「物攻+{1}％」を付与(全て上限60％)",
+      "zh": "賦予自身「HP回復量+{0}%」與賦予我方全員「物攻+{1}%」(全部上限60%)",
+      "en": "Grants self \"HP Recovery +{0}%\" and all allies \"Physical Attack +{1}%\" (all up to 60%) "
+    },
+    "skill2": {
+      "skill_id": 12003964,
+      "name": "リフレッシュコロン",
+      "jp": "回復前、対象のマイナス効果と状態異常をそれぞれ{0}個ずつ解除<br>回復後、得意属性が斬属性の味方全員に「物攻+{1}％」を3回行動終了するまで付与<br>自身の「エレガントフレグランス」がLv30以上の場合、さらに得意属性が斬属性の味方全員に「物攻+{2}％」を3回行動終了するまで付与",
+      "zh": "回復前，分別解除對象的負面效果與異常狀態各{0}個<br>回復後，賦予得意屬性斬屬性的我方全員「物攻+{1}%」直到3次行動結束為止<br>自身的「エレガントフレグランス」Lv30以上時，進一步賦予得意屬性斬屬性的我方全員「物攻+{2}%」直到3次行動結束為止",
+      "en": "Before healing, removes {0} negative effects and {0} status ailments from the target<br>After healing, grants all Slash-element allies \"Physical Attack +{1}%\" until 3 actions end<br>If own \"エレガントフレグランス\" is Lv30 or higher, further grants all Slash-element allies \"Physical Attack +{2}%\" until 3 actions end"
+    },
+    "burst": {
+      "skill_id": 14003969,
+      "name": "トリップ・ウィズ・ユー",
+      "jp": "回復前、対象のマイナス効果と状態異常を解除<br>回復後、得意属性が斬属性の味方全員に「物攻+{0}％」を3回行動終了するまで付与し、<br>「エレガントフレグランス」が付与されていない味方全員に「エレガントフレグランス(Lv3)」を付与<br>既に付与されている味方全員に「エレガントフレグランス」のLv+3(上限Lv50)<br>自身の「エレガントフレグランス」がLv30以上の場合、さらに得意属性が斬属性の味方全員に「物攻+{1}％」を3回行動終了するまで付与",
+      "zh": "回復前，分別解除對象的負面效果與異常狀態各{0}個<br>回復後，賦予得意屬性斬屬性的我方全員「物攻+{1}%」直到3次行動結束為止<br>自身的「エレガントフレグランス」Lv30以上時，進一步賦予得意屬性斬屬性的我方全員「物攻+{2}%」直到3次行動結束為止",
+      "en": "Before healing, removes {0} negative effects and {0} status ailments from the target<br>After healing, grants all Slash-element allies \"Physical Attack +{1}%\" until 3 actions end<br>If own \"エレガントフレグランス\" is Lv30 or higher, further grants all Slash-element allies \"Physical Attack +{2}%\" until 3 actions end"
+    },
+    "ev_skill1": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_skill2": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "ev_burst": {
+      "skill_id": null,
+      "name": null,
+      "jp": null,
+      "zh": null,
+      "en": null
+    },
+    "active_skill1": {
+      "skill_id": 14003970,
+      "name": "シーサイドエール",
+      "jp": "味方全員に「スキル威力+{0}%」を1回行動終了するまで付与(発動上限2回)<br>※このアクティブスキルは自身の「エレガントフレグランス」がLv30以上の場合のみ発動可能",
+      "zh": "賦予我方全員「技能威力+{0}%」直到1次行動結束為止(發動上限2次)<br>※此主動技能僅在自身的「エレガントフレグランス」Lv30以上時可發動",
+      "en": "Grants all allies \"Skill Power +{0}%\" until 1 action end (Activation limit: 2 times)<br>※This Active Skill can only be activated when own \"エレガントフレグランス\" is Lv30 or higher"
+    }
+  },
   "202": {
     "skill1": {
       "skill_id": 11003944,

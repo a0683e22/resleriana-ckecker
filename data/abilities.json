@@ -3406,5 +3406,21 @@
       "zh": "攻擊對象處於微破防或破防狀態時，或攻擊屬於破防狀態的目標後,賦予目標「受到物理攻擊傷害+32%」(上限320%)<br>※即使複數破防量條同時歸零也只會發動一次<br><br>當隊伍中我方仍有3名以上存活的隊員，且以「グラヴィスグローブス」或「プンゲレ・サルタティオ」攻擊破防狀態的敵人後，使目標的回合延遲1回合<br><br>當隊伍中有「お菓子」時，破防威力+80%<br>當隊伍中除自身以外仍有「九偉人」角色時，賦予的負面效果量+50%",
       "en": "When the target is hit by a minor break or a break, inflicts \"Physical Attack Damage Taken +32%\" on the target (Max 320%)<br>※Even if multiple gauges become to zero at the same time, it will only trigger 1 time<br><br>When there are more than 3 alive allies and a broken enemy is attacked with \"グラヴィスグローブス\" or \"プンゲレ・サルタティオ\", delays the target's turn by 1 turn<br><br>When there is a \"お菓子\" in the party, increases Break Power by 80%<br>When there is another \"九偉人\" in the party, increases Negative Effect Amount by 50%"
     }
+  },
+  "1990569": {
+    "name": "楽しむ準備はいいかしら？",
+    "description": {
+      "jp": "自身のバーストスキルをゲージ化<br>※バーストゲージは3周分ストック可能<br><br>パーティの誰かがスキル発動後、自身のバーストゲージを5％増加<br>スキル発動後、自身の「エレガントフレグランス」10Lvにつき、自身のバーストゲージを5％増加",
+      "zh": "自身爆發技能量條化 ※爆發量條可儲存3圈<br><br>隊伍中的任意成員技能發動後，自身爆發量條增加5%<br>技能發動後，依據自身「エレガントフレグランス」效果數量，每10Lv增加自身爆發量條5%",
+      "en": "Self Burst Skill becomes gauge-based  ※Burst Gauge can store up to 3 rounds<br><br>After any party member uses a skill, increases own Burst Gauge by 5%.<br>After using a skill, for every 10Lv of self's \"エレガントフレグランス\", increases own Burst Gauge by 5%"
+    }
+  },
+  "1990570": {
+    "name": "シーサイドアフェクション",
+    "description": {
+      "jp": "パーティの誰かがスキル発動後、「エレガントフレグランス」が付与されていない味方全員に「エレガントフレグランス(Lv1)」を付与<br>既に付与されている味方全員の「エレガントフレグランス」のLv+1(上限Lv50)<br>味方全員は、付与されている「エレガントフレグランス」のLvに応じて以下のボーナスをそれぞれ獲得する<br>1Lvにつきスキルダメージ+5%<br>Lv15以上：スキルダメージ+100%<br>Lv30以上：スキル威力+50%<br><br>パーティに自身以外の「季節の装い」がいる時、与える強化効果量+50％",
+      "zh": "隊伍中的任意成員技能發動後，賦予未持有「エレガントフレグランス」的我方全員「エレガントフレグランス(Lv1)」<br>已持有的我方全員「エレガントフレグランス」Lv+1(上限Lv50)<br>我方全員將依據自身持有的「エレガントフレグランス」Lv，分別獲得以下獎勵<br>每LV1技能傷害+5%<br>Lv15以上：技能傷害+100%<br>Lv30以上：技能威力+50%<br><br>當隊伍中除自身以外仍有「季節の装い」角色時，賦予的強化效果量+50％",
+      "en": "After any party member uses a skill, grants all allies who do not have \"エレガントフレグランス\" \"エレガントフレグランス(Lv1)\"<br>For all allies who already have \"エレガントフレグランス\", increases the Lv by 1 (Max Lv50)<br>Each ally will gain the following bonuses based on the Lv of their \"エレガントフレグランス\":<br>For every 1 Lv, increases Skill Damage by 5%<br>At Lv15 or above: increases Skill Damage by 100%<br>At Lv30 or above: increases Skill Power by 50%<br><br>When there is another \"季節の装い\" character in the party (excluding self), increases Buffed Amount given by 50%"
+    }
   }
 }

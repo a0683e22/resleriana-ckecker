@@ -10469,7 +10469,9 @@
     "roles": [
       4
     ],
-    "attr": [8]
+    "attr": [
+      8
+    ]
   },
   "30238": {
     "name": "真実を求めて",
@@ -10583,7 +10585,9 @@
     "roles": [
       1
     ],
-    "attr": [8]
+    "attr": [
+      8
+    ]
   },
   "30241": {
     "name": "剣のワルツ",
@@ -10657,7 +10661,9 @@
     "roles": [
       1
     ],
-    "attr": [1]
+    "attr": [
+      1
+    ]
   },
   "30243": {
     "name": "夜の王国へと導く追憶",
@@ -10693,7 +10699,9 @@
       "en": "While equipped to a character with Slash affinity, boosts potency of buffs given by 36.00%"
     },
     "roles": [],
-    "attr": [1]
+    "attr": [
+      1
+    ]
   },
   "30244": {
     "name": "遊び盛りバケーション",
@@ -10728,8 +10736,12 @@
       "zh": "得意屬性斬屬性支援者時，我方全員的爆發技能傷害+5.00 / 15.00 / 25.00 / 35.00 / 45.00％<br>「騎士」時，我方全員的物攻+5.00 / 10.00 / 15.00 / 20.00 / 25.00%",
       "en": "While equipped to a Supporter with Slash affinity, boosts all allies burst skill damage by 5.00 / 15.00 / 25.00 / 35.00 / 45.00％%<br>While equipped to a Knight character, boosts all allies' P. ATK by 5.00 / 10.00 / 15.00 / 20.00 / 25.00%"
     },
-    "roles": [4],
-    "attr": [1]
+    "roles": [
+      4
+    ],
+    "attr": [
+      1
+    ]
   },
   "30245": {
     "name": "彼女の素顔",
@@ -10764,43 +10776,163 @@
       "zh": "得意屬性斬屬性破防者時，對處於破防狀態的目標造成攻擊後，賦予目標「受到的傷害+4.00 / 14.00 / 24.00 / 34.00 / 44.00％」直到受1次攻擊為止<br>「寡黙」時，單體攻擊的破防傷害+6.00 / 20.00 / 33.00 / 47.00 /60.00％",
       "en": "While equipped to a Breaker with Slash affinity, after attacking a target in a broken state, grants the target \"Damage Received +4.00 / 14.00 / 24.00 / 34.00 / 44.00％\" for 1 turn<br>While equipped to a \"Silent\" character, boosts single-target break damage by 6.00 / 20.00 / 33.00 / 47.00 /60.00％"
     },
-    "roles": [2],
-    "attr": [1]
+    "roles": [
+      2
+    ],
+    "attr": [
+      1
+    ]
   },
-"99999": {
-  "name": "創世の光石",
-  "stats": [
-    {
-      "type": "HP",
-      "growth_id": 31007
+  "30246": {
+    "name": "日差しは大敵！",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31078
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31030
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31108
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31038
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31098
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31098
+      }
+    ],
+    "description": {
+      "jp": "得意属性が斬属性かつサポーターの時、パーティの誰かがスキル発動後、味方全員に「クリティカルダメージ+2.00 / 4.00 / 5.00 / 7.00 / 8.00％」を付与(上限5個)<br>「季節の装い」の時、与えるHP回復量+4.00 / 13.00 / 22.00 / 31.00 / 40.00％",
+      "zh": "得意屬性斬屬性支援者時，隊伍中有人發動技能後，賦予我方全員「暴擊傷害+2.00 / 4.00 / 5.00 / 7.00 / 8.00％」(上限5個)<br>「季節の装い」時，賦予的HP回復量+4.00 / 13.00 / 22.00 / 31.00 / 40.00％",
+      "en": "While equipped to a Supporter with Slash affinity, when any party member activates a skill, boosts all allies' Critical Damage by 2.00 / 4.00 / 5.00 / 7.00 / 8.00% (Max 5 stacks)<br>While equipped to a \"Seasonal Outfit\", boosts HP recovery given by 4.00 / 13.00 / 22.00 / 31.00 / 40.00%"
     },
-    {
-      "type": "SPD",
-      "growth_id": 31007
-    },
-    {
-      "type": "PATK",
-      "growth_id": 31007
-    },
-    {
-      "type": "MATK",
-      "growth_id": 31007
-    },
-    {
-      "type": "PDEF",
-      "growth_id": 31007
-    },
-    {
-      "type": "MDEF",
-      "growth_id": 31007
-    }
-  ],
-  "description": {
-    "jp": "受けるダメージ-1.00%",
-    "zh": "受到的傷害-1.00%",
-    "en": "Reduces damage received by 1.00%"
+    "roles": [
+      4
+    ],
+    "attr": [
+      1
+    ]
   },
-  "roles": [],
-  "attr": []
-}
+    "30247": {
+    "name": "スイカ退治と参る！",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31018
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31060
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31188
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31188
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31008
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31008
+      }
+    ],
+    "description": {
+      "jp": "自身がアタッカーの時、クリティカルダメージ+12.00 / 39.00 / 63.00 / 96.00 / 120.00%<br>攻撃対象がブレイク状態の時、スキルダメージ+12.00 / 39.00 / 63.00 / 96.00 / 120.00%",
+      "zh": "自身為攻擊者時，暴擊傷害+12.00 / 39.00 / 63.00 / 96.00 / 120.00%<br>攻擊目標為破防狀態時，技能傷害+12.00 / 39.00 / 63.00 / 96.00 / 120.00%",
+      "en": "While equipped to an Attacker, boosts Critical Damage by 12.00 / 39.00 / 63.00 / 96.00 / 120.00%<br>While attacking a target in a broken state, boosts Skill Damage by 12.00 / 39.00 / 63.00 / 96.00 / 120.00%"
+    },
+    "roles": [
+      1
+    ],
+    "attr": []
+  },
+    "30248": {
+    "name": "くつろぎビーチタイム",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31018
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31060
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31188
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31188
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31008
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31008
+      }
+    ],
+    "description": {
+      "jp": "与える強化効果量+5.00 / 17.00 / 30.00 / 42.00 / 54.00%<br>自身がアタッカーの時、受ける強化効果量+3.00 / 11.00 / 20.00 / 28.00 / 36.00％",
+      "zh": "賦予的强化效果量+5.00 / 17.00 / 30.00 / 42.00 / 54.00%<br>自身為攻擊者時，受到的强化效果量+3.00 / 11.00 / 20.00 / 28.00 / 36.00％",
+      "en": "Boosts potency of buffs given by 5.00 / 17.00 / 30.00 / 42.00 / 54.00%<br>While equipped to an Attacker, boosts potency of buffs received by 3.00 / 11.00 / 20.00 / 28.00 / 36.00"
+    },
+    "roles": [
+      1
+    ],
+    "attr": []
+  },
+  "99999": {
+    "name": "創世の光石",
+    "stats": [
+      {
+        "type": "HP",
+        "growth_id": 31007
+      },
+      {
+        "type": "SPD",
+        "growth_id": 31007
+      },
+      {
+        "type": "PATK",
+        "growth_id": 31007
+      },
+      {
+        "type": "MATK",
+        "growth_id": 31007
+      },
+      {
+        "type": "PDEF",
+        "growth_id": 31007
+      },
+      {
+        "type": "MDEF",
+        "growth_id": 31007
+      }
+    ],
+    "description": {
+      "jp": "受けるダメージ-1.00%",
+      "zh": "受到的傷害-1.00%",
+      "en": "Reduces damage received by 1.00%"
+    },
+    "roles": [],
+    "attr": []
+  }
 }
