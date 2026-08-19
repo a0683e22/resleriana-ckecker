@@ -10866,27 +10866,27 @@
     "stats": [
       {
         "type": "HP",
-        "growth_id": 31018
+        "growth_id": 31058
       },
       {
         "type": "SPD",
-        "growth_id": 31060
+        "growth_id": 31050
       },
       {
         "type": "PATK",
-        "growth_id": 31188
+        "growth_id": 31088
       },
       {
         "type": "MATK",
-        "growth_id": 31188
+        "growth_id": 31088
       },
       {
         "type": "PDEF",
-        "growth_id": 31008
+        "growth_id": 31088
       },
       {
         "type": "MDEF",
-        "growth_id": 31008
+        "growth_id": 31088
       }
     ],
     "description": {
